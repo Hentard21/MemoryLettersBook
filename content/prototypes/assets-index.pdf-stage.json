@@ -1,0 +1,382 @@
+{
+  "source_quality": "pdf_reference",
+  "note": "ВРЕМЕННЫЕ вырезки из контрольного PDF. Не для печати. Заменить оригиналами из PPTX.",
+  "heroes": {
+    "hero-001": [
+      {
+        "file": "assets/page_012_full.jpg",
+        "kind": "page_render",
+        "source_page": 12,
+        "bbox_pdf": null
+      },
+      {
+        "file": "assets/p012_img01.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 12,
+        "bbox_pdf": [
+          254.3,
+          56.7,
+          341.0,
+          234.9
+        ],
+        "px": [
+          191,
+          392
+        ]
+      },
+      {
+        "file": "assets/p012_img02.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 12,
+        "bbox_pdf": [
+          242.8,
+          380.5,
+          352.5,
+          493.7
+        ],
+        "px": [
+          241,
+          249
+        ]
+      },
+      {
+        "file": "assets/p012_img03.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 12,
+        "bbox_pdf": [
+          70.7,
+          536.8,
+          524.4,
+          771.0
+        ],
+        "px": [
+          998,
+          515
+        ]
+      },
+      {
+        "file": "assets/page_013_full.jpg",
+        "kind": "page_render",
+        "source_page": 13,
+        "bbox_pdf": null
+      },
+      {
+        "file": "assets/p013_img01.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 13,
+        "bbox_pdf": [
+          76.5,
+          62.4,
+          284.9,
+          399.7
+        ],
+        "px": [
+          458,
+          742
+        ]
+      },
+      {
+        "file": "assets/p013_img02.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 13,
+        "bbox_pdf": [
+          310.4,
+          62.4,
+          518.7,
+          399.7
+        ],
+        "px": [
+          459,
+          742
+        ]
+      },
+      {
+        "file": "assets/p013_img03.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 13,
+        "bbox_pdf": [
+          76.5,
+          428.0,
+          284.9,
+          765.4
+        ],
+        "px": [
+          458,
+          743
+        ]
+      },
+      {
+        "file": "assets/p013_img04.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 13,
+        "bbox_pdf": [
+          310.4,
+          428.0,
+          518.7,
+          765.4
+        ],
+        "px": [
+          459,
+          743
+        ]
+      },
+      {
+        "file": "assets/page_014_full.jpg",
+        "kind": "page_render",
+        "source_page": 14,
+        "bbox_pdf": null
+      },
+      {
+        "file": "assets/p014_img01.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 14,
+        "bbox_pdf": [
+          76.5,
+          189.5,
+          518.7,
+          638.2
+        ],
+        "px": [
+          973,
+          987
+        ]
+      }
+    ],
+    "hero-002": [
+      {
+        "file": "assets/page_015_full.jpg",
+        "kind": "page_render",
+        "source_page": 15,
+        "bbox_pdf": null
+      },
+      {
+        "file": "assets/p015_img01.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 15,
+        "bbox_pdf": [
+          254.3,
+          56.7,
+          341.0,
+          234.9
+        ],
+        "px": [
+          191,
+          392
+        ]
+      },
+      {
+        "file": "assets/p015_img02.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 15,
+        "bbox_pdf": [
+          250.2,
+          399.8,
+          354.4,
+          487.6
+        ],
+        "px": [
+          229,
+          193
+        ]
+      },
+      {
+        "file": "assets/p015_img03.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 15,
+        "bbox_pdf": [
+          65.3,
+          536.8,
+          519.5,
+          771.0
+        ],
+        "px": [
+          999,
+          515
+        ]
+      },
+      {
+        "file": "assets/p015_img04.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 15,
+        "bbox_pdf": [
+          70.7,
+          536.8,
+          524.4,
+          771.0
+        ],
+        "px": [
+          998,
+          515
+        ]
+      },
+      {
+        "file": "assets/page_016_full.jpg",
+        "kind": "page_render",
+        "source_page": 16,
+        "bbox_pdf": null
+      },
+      {
+        "file": "assets/p016_img01.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 16,
+        "bbox_pdf": [
+          33.6,
+          51.8,
+          293.3,
+          393.3
+        ],
+        "px": [
+          572,
+          751
+        ]
+      },
+      {
+        "file": "assets/p016_img02.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 16,
+        "bbox_pdf": [
+          302.5,
+          53.2,
+          568.7,
+          390.7
+        ],
+        "px": [
+          586,
+          743
+        ]
+      },
+      {
+        "file": "assets/p016_img03.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 16,
+        "bbox_pdf": [
+          163.4,
+          421.3,
+          432.9,
+          776.0
+        ],
+        "px": [
+          593,
+          780
+        ]
+      },
+      {
+        "file": "assets/page_017_full.jpg",
+        "kind": "page_render",
+        "source_page": 17,
+        "bbox_pdf": null
+      },
+      {
+        "file": "assets/p017_img01.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 17,
+        "bbox_pdf": [
+          36.1,
+          43.4,
+          295.6,
+          381.4
+        ],
+        "px": [
+          571,
+          744
+        ]
+      },
+      {
+        "file": "assets/p017_img02.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 17,
+        "bbox_pdf": [
+          39.5,
+          53.2,
+          292.5,
+          379.2
+        ],
+        "px": [
+          557,
+          718
+        ]
+      },
+      {
+        "file": "assets/p017_img03.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 17,
+        "bbox_pdf": [
+          302.5,
+          53.2,
+          546.1,
+          379.2
+        ],
+        "px": [
+          536,
+          718
+        ]
+      },
+      {
+        "file": "assets/p017_img04.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 17,
+        "bbox_pdf": [
+          315.6,
+          66.5,
+          537.5,
+          368.8
+        ],
+        "px": [
+          488,
+          665
+        ]
+      },
+      {
+        "file": "assets/p017_img05.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 17,
+        "bbox_pdf": [
+          57.7,
+          387.1,
+          461.1,
+          702.8
+        ],
+        "px": [
+          888,
+          695
+        ]
+      },
+      {
+        "file": "assets/page_018_full.jpg",
+        "kind": "page_render",
+        "source_page": 18,
+        "bbox_pdf": null
+      },
+      {
+        "file": "assets/p018_img01.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 18,
+        "bbox_pdf": [
+          51.7,
+          61.7,
+          543.2,
+          401.0
+        ],
+        "px": [
+          1082,
+          747
+        ]
+      },
+      {
+        "file": "assets/p018_img02.jpg",
+        "kind": "embedded_image_crop",
+        "source_page": 18,
+        "bbox_pdf": [
+          36.7,
+          463.3,
+          558.1,
+          740.9
+        ],
+        "px": [
+          1147,
+          611
+        ]
+      }
+    ]
+  }
+}

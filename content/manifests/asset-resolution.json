@@ -1,0 +1,131 @@
+{
+  "note": "Что выбрано для каждого ассета и почему. Перегенерируется scripts/12_resolve_assets.py.",
+  "resolution": {
+    "hero-001_photo_01": {
+      "chosen": "assets/derived-upscaled/heroes/hero-001/photos/hero-001_photo_01_upscaled.png",
+      "reason": "upscaled+approved",
+      "upscaled_available": true,
+      "approved": true,
+      "publish_blocked": false
+    },
+    "hero-001_photo_02": {
+      "chosen": "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_02_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-001_photo_03": {
+      "chosen": "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_03_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-001_drawing_01": {
+      "chosen": "assets/master-from-pdf/heroes/hero-001/drawings/hero-001_drawing_01_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-001_letter_01": {
+      "chosen": "assets/derived-upscaled/heroes/hero-001/letters/hero-001_letter_01_upscaled.png",
+      "reason": "upscaled+approved",
+      "upscaled_available": true,
+      "approved": true,
+      "publish_blocked": false
+    },
+    "hero-001_title_award": {
+      "chosen": "assets/master-from-pdf/heroes/hero-001/title/hero-001_title_award_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-001_title_map": {
+      "chosen": "assets/master-from-pdf/heroes/hero-001/title/hero-001_title_map_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-002_photo_01": {
+      "chosen": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_01_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-002_photo_02": {
+      "chosen": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_02_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-002_photo_03": {
+      "chosen": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_03_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-002_photo_04": {
+      "chosen": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_04_upscaled.png",
+      "reason": "upscaled+approved",
+      "upscaled_available": true,
+      "approved": true,
+      "publish_blocked": false
+    },
+    "hero-002_drawing_01": {
+      "chosen": "assets/derived-upscaled/heroes/hero-002/drawings/hero-002_drawing_01_upscaled.png",
+      "reason": "upscaled+approved",
+      "upscaled_available": true,
+      "approved": true,
+      "publish_blocked": false
+    },
+    "hero-002_letter_01": {
+      "chosen": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_01_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": true
+    },
+    "hero-002_letter_02": {
+      "chosen": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_02_upscaled.png",
+      "reason": "upscaled+approved",
+      "upscaled_available": true,
+      "approved": true,
+      "publish_blocked": false
+    },
+    "hero-002_letter_03": {
+      "chosen": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_03_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-002_title_award": {
+      "chosen": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_award_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-002_title_map": {
+      "chosen": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    },
+    "hero-002_title_map2": {
+      "chosen": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map2_master.png",
+      "reason": "no_upscaled→master",
+      "upscaled_available": false,
+      "approved": false,
+      "publish_blocked": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "heroSlug": "hero-001",
+  "featuredPhoto": "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_01_master.png",
+  "featuredLetter": "assets/master-from-pdf/heroes/hero-001/letters/hero-001_letter_01_master.png",
+  "featuredQuote": "«Она добра, она строга, она справедлива, и нежна, и я никогда не забуду её»",
+  "supportingAssets": [
+    "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_02_master.png",
+    "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_03_master.png",
+    "assets/master-from-pdf/heroes/hero-001/drawings/hero-001_drawing_01_master.png"
+  ],
+  "printCrop": {
+    "asset": "hero-001_photo_01",
+    "focus": "center",
+    "aspect": "3x4",
+    "note": "рамочная композиция, не full-bleed"
+  },
+  "webFocalPoint": {
+    "asset": "hero-001_photo_01",
+    "x": 0.5,
+    "y": 0.38
+  },
+  "fullTranscription": "content/prototypes/hero-001/content.json#letters[0].diplomatic_transcription",
+  "printExcerpt": "Моя мама — Герой. Она самая смелая и добрая мама!",
+  "webPath": "/letters/hero-001"
+}

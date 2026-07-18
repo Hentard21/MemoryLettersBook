@@ -1,0 +1,249 @@
+{
+  "package_version": "0.1.0",
+  "source_quality": "pdf_reference",
+  "generated_for": "первый дизайн-прототип (веб + печать)",
+  "source_pages_pdf": [
+    15,
+    16,
+    17,
+    18
+  ],
+  "source_text_files": [
+    "source-text/page_015.txt",
+    "source-text/page_016.txt",
+    "source-text/page_017.txt",
+    "source-text/page_018.txt"
+  ],
+  "person": {
+    "id": "hero-002",
+    "display_title_source": "НАШ ОТЕЦ ИГОРЬ",
+    "relation_phrase": "НАШ ОТЕЦ",
+    "hero_first_name": "ИГОРЬ",
+    "author_names_raw": "Назар и Элина",
+    "author_names": [
+      "Назар",
+      "Элина"
+    ],
+    "author_names_note": "Смешанный регистр в исходнике (editorial issue eq-008); имена дословно",
+    "region_raw": "Донецкая Народная Республика",
+    "city_raw": "г. Новосибирск",
+    "region_city_note": "Регион происхождения — ДНР, город на карте титула — Новосибирск (см. eq-008): подтвердить трактовку",
+    "pages": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "identity_status": "confirmed"
+  },
+  "letters": [
+    {
+      "id": "hero-002-letter-01",
+      "source_page": 17,
+      "scan_asset": "assets/p017_img05.jpg",
+      "author_name_raw": "Сын Максим (читается со скана)",
+      "date_raw": "28.09.2024 (читается со скана)",
+      "diplomatic_transcription": null,
+      "reader_friendly_transcription": null,
+      "transcription_status": "not_started",
+      "preserve_author_spelling": true,
+      "reader_version_approved": false,
+      "review_required": true,
+      "review_reasons": [
+        "editorial issue eq-009: в письме читается имя отца «Ильшат» и подпись «сын Максим» — не совпадает с титулом блока (ИГОРЬ; Назар и Элина). Возможно, письмо другой семьи. НЕ ПУБЛИКОВАТЬ до решения."
+      ],
+      "publish_blocked": true
+    },
+    {
+      "id": "hero-002-letter-02",
+      "source_page": 18,
+      "scan_asset": "assets/p018_img01.jpg",
+      "author_name_raw": null,
+      "date_raw": null,
+      "diplomatic_transcription": null,
+      "reader_friendly_transcription": null,
+      "transcription_status": "not_started",
+      "preserve_author_spelling": true,
+      "reader_version_approved": false,
+      "review_required": false,
+      "review_reasons": [],
+      "publish_blocked": false
+    },
+    {
+      "id": "hero-002-letter-03",
+      "source_page": 18,
+      "scan_asset": "assets/p018_img02.jpg",
+      "author_name_raw": null,
+      "date_raw": null,
+      "diplomatic_transcription": null,
+      "reader_friendly_transcription": null,
+      "transcription_status": "not_started",
+      "preserve_author_spelling": true,
+      "reader_version_approved": false,
+      "review_required": false,
+      "review_reasons": [],
+      "publish_blocked": false
+    }
+  ],
+  "photos": [
+    {
+      "id": "hero-002-photo-01",
+      "source_page": 16,
+      "asset": "assets/p016_img01.jpg",
+      "alt": "Фотография: девочка на фоне флага России держит рисунок с танком и гвоздикой (стр. 16 PDF)",
+      "depicts": null
+    },
+    {
+      "id": "hero-002-photo-02",
+      "source_page": 16,
+      "asset": "assets/p016_img02.jpg",
+      "alt": "Фотография: мальчик держит рисунок-сердце (стр. 16 PDF)",
+      "depicts": null
+    },
+    {
+      "id": "hero-002-photo-03",
+      "source_page": 16,
+      "asset": "assets/p016_img03.jpg",
+      "alt": "Фотография: двое детей на фоне флага с портретом в рамке и планшетом наград (стр. 16 PDF)",
+      "depicts": null
+    },
+    {
+      "id": "hero-002-photo-04",
+      "source_page": 17,
+      "asset": "assets/p017_img01.jpg",
+      "alt": "Фотография из архива: военнослужащий в экипировке в лесу (стр. 17 PDF)",
+      "depicts": null
+    }
+  ],
+  "drawings": [
+    {
+      "id": "hero-002-drawing-01",
+      "source_page": 17,
+      "asset": "assets/p017_img03.jpg",
+      "alt": "Детский рисунок: человек в синей форме и бронежилете под флагом России (стр. 17 PDF)",
+      "author_name": null
+    }
+  ],
+  "title_graphics": [
+    {
+      "asset": "assets/p015_img01.jpg",
+      "note": "Изображение награды с титула — атрибуция не подтверждена (FACT_LOCKED)"
+    },
+    {
+      "asset": "assets/p015_img02.jpg",
+      "note": "Герб/эмблема с титула (ДНР)"
+    },
+    {
+      "asset": "assets/p015_img03.jpg",
+      "note": "Карта РФ с меткой города"
+    }
+  ],
+  "warnings": [
+    "Все изображения — временные вырезки из контрольного PDF (source_quality: pdf_reference), рабочее качество ~160 dpi. ДЛЯ ТИРАЖА НЕПРИГОДНЫ.",
+    "Награда на титуле визуально похожа на орден Мужества, но атрибуция награды — FACT_LOCKED: не публиковать название награды без подтверждения (PPTX/семья).",
+    "Личности на фотографиях не устанавливались; подписи к фото (depicts) заполняются только вручную владельцем/семьёй.",
+    "eq-009: письмо стр. 17 предположительно другой семьи (папа Ильшат, сын Максим) — в веб-прототипе показано только с предупреждением, публикация заблокирована.",
+    "eq-008: регион ДНР при городе Новосибирск — трактовку (переезд семьи?) подтвердить у владельца проекта."
+  ],
+  "pptx_replacements": [
+    "Заменить все assets/*.jpg оригиналами из ppt/media соответствующих слайдов (см. docs/pptx-ingestion-plan.md).",
+    "Сверить текст титула героя с текстбоксами слайда; заполнить hero_full_name при наличии.",
+    "Подтвердить принадлежность каждого материала блоку героя (material_links).",
+    "Уточнить границы кропов по координатам фигур слайда (bbox из XML PPTX).",
+    "Выяснить по PPTX принадлежность письма стр. 17 (eq-009)."
+  ],
+  "asset_resolution": {
+    "policy": "docs/asset-resolution-policy.md",
+    "rule": "preferred_* = upscaled если upscaled_available и прошёл review; иначе master_from_pdf",
+    "assets": {
+      "hero-002_photo_01": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_01_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_01_upscaled.png",
+        "preferred_web_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_01_master.png",
+        "preferred_print_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_01_master.png",
+        "upscaled_available": false,
+        "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p016_img01.jpg"
+      },
+      "hero-002_photo_02": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_02_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_02_upscaled.png",
+        "preferred_web_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_02_master.png",
+        "preferred_print_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_02_master.png",
+        "upscaled_available": false,
+        "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p016_img02.jpg"
+      },
+      "hero-002_photo_03": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_03_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_03_upscaled.png",
+        "preferred_web_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_03_master.png",
+        "preferred_print_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_03_master.png",
+        "upscaled_available": false,
+        "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p016_img03.jpg"
+      },
+      "hero-002_photo_04": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_04_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_04_upscaled.png",
+        "preferred_web_asset": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_04_upscaled.png",
+        "preferred_print_asset": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_04_upscaled.png",
+        "upscaled_available": true,
+        "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p017_img01.jpg"
+      },
+      "hero-002_drawing_01": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/drawings/hero-002_drawing_01_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/drawings/hero-002_drawing_01_upscaled.png",
+        "preferred_web_asset": "assets/derived-upscaled/heroes/hero-002/drawings/hero-002_drawing_01_upscaled.png",
+        "preferred_print_asset": "assets/derived-upscaled/heroes/hero-002/drawings/hero-002_drawing_01_upscaled.png",
+        "upscaled_available": true,
+        "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p017_img03.jpg"
+      },
+      "hero-002_letter_01": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_01_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_01_upscaled.png",
+        "preferred_web_asset": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_01_master.png",
+        "preferred_print_asset": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_01_master.png",
+        "upscaled_available": false,
+        "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p017_img05.jpg"
+      },
+      "hero-002_letter_02": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_02_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_02_upscaled.png",
+        "preferred_web_asset": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_02_upscaled.png",
+        "preferred_print_asset": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_02_upscaled.png",
+        "upscaled_available": true,
+        "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p018_img01.jpg"
+      },
+      "hero-002_letter_03": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_03_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_03_upscaled.png",
+        "preferred_web_asset": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_03_master.png",
+        "preferred_print_asset": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_03_master.png",
+        "upscaled_available": false,
+        "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p018_img02.jpg"
+      },
+      "hero-002_title_award": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_award_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/title/hero-002_title_award_upscaled.png",
+        "preferred_web_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_award_master.png",
+        "preferred_print_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_award_master.png",
+        "upscaled_available": false,
+        "web_prototype_file": null
+      },
+      "hero-002_title_map": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/title/hero-002_title_map_upscaled.png",
+        "preferred_web_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map_master.png",
+        "preferred_print_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map_master.png",
+        "upscaled_available": false,
+        "web_prototype_file": null
+      },
+      "hero-002_title_map2": {
+        "master_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map2_master.png",
+        "expected_upscaled_asset": "assets/derived-upscaled/heroes/hero-002/title/hero-002_title_map2_upscaled.png",
+        "preferred_web_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map2_master.png",
+        "preferred_print_asset": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map2_master.png",
+        "upscaled_available": false,
+        "web_prototype_file": null
+      }
+    }
+  }
+}

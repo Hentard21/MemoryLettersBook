@@ -1,0 +1,88 @@
+{
+  "version": "family-block-v2-test",
+  "scope": ["hero-001", "hero-002"],
+  "editorial_rule": "Использовать только подтверждённые поля существующих манифестов; лакуны не реконструировать.",
+  "families": [
+    {
+      "family_id": "hero-001",
+      "hero_name": "Анастасия",
+      "intro": "Анастасия. Волгоградская область, г. Волгоград. Письмо написал сын Игорь.",
+      "character": "Она была доброй, и отзывчивой, и мужественной.",
+      "life_and_service": "Она любила свою работу, и иногда брала меня с собой.",
+      "family_memory": "Всегда поддерживала меня в сложных ситуациях. Я навсегда запомню те дни, когда был у неё на…",
+      "child_quote": "«Она добра, она строга, она справедлива, и нежна, и я никогда не забуду её»",
+      "photo_captions": [
+        {
+          "asset_id": "hero-001-photo-02",
+          "caption": "Двое в форме на торжественном мероприятии.",
+          "source_file": "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_02_master.png"
+        },
+        {
+          "asset_id": "hero-001-photo-03",
+          "caption": "Подросток держит портрет в рамке и наградную коробку.",
+          "source_file": "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_03_master.png"
+        }
+      ],
+      "layout_excerpt": [
+        "Она была доброй, и отзывчивой, и мужественной.",
+        "Всегда поддерживала меня в сложных ситуациях.",
+        "Она любила свою работу, и иногда брала меня с собой."
+      ],
+      "source_refs": [
+        "content/prototypes/hero-001/content.json#person",
+        "content/prototypes/hero-001/content.json#letters[0].reader_friendly_transcription",
+        "content/prototypes/hero-001/web-package.json#featuredQuote",
+        "content/prototypes/hero-001/content.json#photos"
+      ],
+      "editorial_limits": [
+        "Расшифровка имеет статус reader_version_proposed и требует финальной сверки.",
+        "Два фрагмента письма обрезаны; многоточия сохранены.",
+        "Не добавлять сведения о должности, службе, обстоятельствах жизни или гибели без нового подтверждённого источника."
+      ]
+    },
+    {
+      "family_id": "hero-002",
+      "hero_name": "Игорь",
+      "intro": "Игорь. Донецкая Народная Республика · г. Новосибирск. Письма написали Назар и Элина.",
+      "character": null,
+      "life_and_service": null,
+      "family_memory": "Мой папа — мой Герой!!! Я очень горжусь им, и сильно его люблю.",
+      "child_quote": "«Мой папа — мой Герой!!! Я очень горжусь им, и сильно его люблю»",
+      "photo_captions": [
+        {
+          "asset_id": "hero-002-photo-01",
+          "caption": "Девочка на фоне флага России держит рисунок с танком и гвоздикой.",
+          "source_file": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_01_master.png"
+        },
+        {
+          "asset_id": "hero-002-photo-03",
+          "caption": "Двое детей на фоне флага с портретом в рамке и планшетом наград.",
+          "source_file": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_03_master.png"
+        }
+      ],
+      "drawing": {
+        "asset_id": "hero-002-drawing-01",
+        "caption": "Детский рисунок: человек в синей форме и бронежилете под флагом России.",
+        "source_file": "assets/derived-upscaled/heroes/hero-002/drawings/hero-002_drawing_01_upscaled.png",
+        "review": "Использовать: улучшенная версия сохраняет детский штрих и пригодна для крупного фонового слоя."
+      },
+      "layout_excerpt": [
+        "Мой папа — мой Герой!!!",
+        "Я очень горжусь им, и сильно его люблю."
+      ],
+      "source_refs": [
+        "content/prototypes/hero-002/content.json#person",
+        "content/prototypes/hero-002/web-package.json#printExcerpt",
+        "content/prototypes/hero-002/web-package.json#featuredQuote",
+        "content/prototypes/hero-002/content.json#photos",
+        "content/prototypes/hero-002/content.json#drawings"
+      ],
+      "editorial_limits": [
+        "Не заполнять character и life_and_service: подтверждённого текста в текущем манифесте нет.",
+        "Не использовать hero-002-letter-01: публикация заблокирована из-за несовпадения имён семьи.",
+        "Связка ДНР и г. Новосибирска требует подтверждения; в тесте сохранены только исходные значения без интерпретации.",
+        "Не идентифицировать людей на фотографиях сверх нейтральных архивных подписей."
+      ]
+    }
+  ]
+}

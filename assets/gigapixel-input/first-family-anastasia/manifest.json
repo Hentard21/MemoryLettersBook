@@ -1,0 +1,33 @@
+{
+  "scope": "client example — first family only",
+  "hero_id": "hero-001",
+  "hero_name": "Анастасия",
+  "source_policy": "Копии нативных master-файлов. Исходники в assets/production-input не изменять.",
+  "files": [
+    {
+      "file": "anastasia_hero_flagship_photo_01.png",
+      "source_file": "assets/production-input/hero-001/portraits/hero-001_photo_01_master.png",
+      "priority": "high",
+      "role": "hero_flagship",
+      "after_upscale": "Проверить лицо и волосы; затем при необходимости передать в CutItOut."
+    },
+    {
+      "file": "anastasia_igor_group_photo_02.png",
+      "source_file": "assets/production-input/hero-001/groups/hero-001_photo_02_master.png",
+      "priority": "high",
+      "role": "supporting_manifest_photo",
+      "after_upscale": "Фон сохранять; использовать на развороте полного письма."
+    },
+    {
+      "file": "igor_portrait_with_award_photo_03.png",
+      "source_file": "assets/production-input/hero-001/portraits/hero-001_photo_03_master.png",
+      "priority": "high",
+      "role": "supporting_manifest_photo",
+      "after_upscale": "Не менять портрет, медаль и наградную коробку; фон сохранять."
+    }
+  ],
+  "excluded": [
+    "Письмо не отправлять в Gigapixel: его задача — подлинный рукописный фон, а не фотографическая детализация.",
+    "Рисунок уже имеет проверенную улучшенную версию assets/nana-banana-output/drawings/anastasia_drawing_enhanced.png."
+  ]
+}

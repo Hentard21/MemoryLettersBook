@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>ПИСЬМА ПАМЯТИ — передняя обложка v1 (рамка под арт)</title>
+<style>
+/* Передняя обложка: 260×200 мм + вылет 3 мм = лист 266×206 мм.
+   Художественный фон — отдельным слоем из ../artwork/cover-art.png
+   (если файла нет — молочный фон, рамка работает как макет-заглушка). */
+:root{
+  --milk:#F7F4EE; --ink:#232B36; --ink-soft:#4A5462; --muted:#75808D;
+  --line:#E4DFD4; --blue:#22385A; --bordo:#7E3B44;
+  --serif:Georgia,"Times New Roman",serif; --ui:system-ui,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+@page{size:266mm 206mm;margin:0}
+html,body{background:#878B90}
+.cover{width:266mm;height:206mm;position:relative;overflow:hidden;background:var(--milk);
+  font:11pt/1.5 var(--serif);color:var(--ink)}
+/* слой арта: подставляется файлом ../artwork/cover-art.png (full-bleed) */
+.art{position:absolute;inset:0;background:url('../artwork/cover-art.png') center/cover no-repeat}
+/* технические направляющие */
+.trim{position:absolute;left:3mm;top:3mm;right:3mm;bottom:3mm;border:.25pt dashed rgba(126,59,68,.5);z-index:30;pointer-events:none}
+.safe-guide{position:absolute;left:16mm;top:16mm;right:16mm;bottom:16mm;border:.25pt dotted rgba(34,56,90,.4);z-index:30;pointer-events:none}
+.mark{position:absolute;left:6mm;top:5mm;z-index:31;font:700 6.5pt/1 var(--ui);letter-spacing:.12em;color:#fff;background:var(--bordo);padding:1.6mm 2.6mm;text-transform:uppercase}
+/* текстовые слои (НАД артом; зоны — в safe area) */
+.txt{position:absolute;z-index:10}
+.tri{display:flex;flex-direction:column;height:2.5mm;width:42mm;border:.25pt solid rgba(0,0,0,.12)}
+.tri i{flex:1}.tri i:nth-child(1){background:#fff}.tri i:nth-child(2){background:var(--blue)}.tri i:nth-child(3){background:var(--bordo)}
+.title{font:400 46pt/1.02 var(--serif);letter-spacing:.02em;color:var(--ink)}
+.sub{font:400 13pt/1.4 var(--serif);color:var(--ink-soft)}
+.tom{font:600 9.5pt/1.4 var(--ui);letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
+.org{font:600 8.5pt/1.5 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="art" role="img" aria-label="Художественный фон обложки (слой из artwork/cover-art.png)"></div>
+  <span class="mark">Cover frame v1 — артслой подставляется отдельно</span>
+  <div class="trim"></div><div class="safe-guide"></div>
+
+  <!-- название: отдельный набранный слой, НЕ вшит в арт -->
+  <div class="txt" style="left:20mm;top:30mm">
+    <div class="tri"></div>
+    <h1 class="title" style="margin-top:9mm">ПИСЬМА<br>ПАМЯТИ</h1>
+    <p class="sub" style="margin-top:5mm">Дети — о своих героях</p>
+    <p class="tom" style="margin-top:3mm">Том I</p>
+  </div>
+
+  <div class="txt" style="left:20mm;bottom:18mm">
+    <p class="org">АНО «Центр поддержки детей военнослужащих» · 2026</p>
+  </div>
+</div>
+</body>
+</html>

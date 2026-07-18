@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "note": "Тестовые задания image-пайплайна. Статус planned = НЕ запускалось. Запуск — только по явной команде владельца (scripts/image-pipeline/run_jobs.py, по умолчанию dry-run). Результат кладётся в assets/derived-ai/ и проходит приёмку перед использованием в макете.",
+  "jobs": [
+    {
+      "job_id": "img-001",
+      "role": "portrait_editor",
+      "task": "cutout_portrait",
+      "entity_id": "hero-001",
+      "input": "assets/derived-upscaled/heroes/hero-001/photos/hero-001_photo_01_upscaled.png",
+      "output": "assets/derived-ai/heroes/hero-001/hero-001_portrait_cutout.png",
+      "instructions": "Вырезать поясной портрет с фона, фон прозрачный. Лицо, волосы, одежду не изменять. Мягкий край силуэта без ореола.",
+      "status": "planned",
+      "review_status": "not_reviewed"
+    },
+    {
+      "job_id": "img-002",
+      "role": "portrait_editor",
+      "task": "cutout_portrait",
+      "entity_id": "hero-002",
+      "input": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_04_upscaled.png",
+      "output": "assets/derived-ai/heroes/hero-002/hero-002_portrait_cutout.png",
+      "instructions": "Вырезать фигуру по пояс (военнослужащий) с лесного фона, фон прозрачный. Идентичность и экипировку не менять.",
+      "status": "planned",
+      "review_status": "not_reviewed"
+    },
+    {
+      "job_id": "img-003",
+      "role": "vector_graphics",
+      "task": "map_russia_regions",
+      "entity_id": "front-matter",
+      "input": null,
+      "output": "assets/derived-ai/common/map-russia-regions.svg",
+      "instructions": "Векторная карта РФ, спокойный контур, регионы отдельными путями с id по ISO 3166-2:RU (для программной подсветки 31 региона-участника). Без пёстрой раскраски. Палитра: молочный фон, глубокий синий контур.",
+      "status": "planned",
+      "review_status": "not_reviewed",
+      "note": "Финальная карта — только на корректных геоданных; результат сверяется с реальной географией"
+    },
+    {
+      "job_id": "img-004",
+      "role": "vector_graphics",
+      "task": "decor_handwriting_rule",
+      "entity_id": "design-system",
+      "input": null,
+      "output": "assets/derived-ai/common/section-rule.svg",
+      "instructions": "Тонкая горизонтальная разделительная линия с малым триколорным сегментом (белый/синий/бордовый), вектор, высота 2.5мм в масштабе 1:1.",
+      "status": "planned",
+      "review_status": "not_reviewed"
+    }
+  ]
+}

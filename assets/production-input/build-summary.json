@@ -1,0 +1,19 @@
+{
+  "heroes": 76,
+  "assets": 368,
+  "counts": {
+    "drawing": 6,
+    "group": 143,
+    "portrait": 138,
+    "letter_reference": 81
+  },
+  "manual_tasks": 287,
+  "review_items": 48,
+  "batch_loads": [
+    142.5,
+    142.5,
+    142.5,
+    143.5,
+    143.0
+  ]
+}

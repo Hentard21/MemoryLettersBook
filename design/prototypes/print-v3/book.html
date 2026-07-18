@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>ПИСЬМА ПАМЯТИ — печатный прототип v3 (НЕ ДЛЯ ТИРАЖА)</title>
+<style>
+:root{
+  --paper:#F7F5F1; --surface:#fff; --ink:#1E2732; --ink-soft:#46525F; --muted:#6E7883;
+  --line:#E1DDD4; --blue:#2C4A73; --blue-ink:#22385A; --red:#9E3A3E;
+  --serif:Georgia,"Times New Roman",serif; --ui:system-ui,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+@page{size:526mm 206mm;margin:0}
+html,body{background:#8B8F94}
+.sheet{width:526mm;height:206mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);
+  font:11pt/1.5 var(--serif);color:var(--ink)}
+.trim{position:absolute;left:3mm;top:3mm;right:3mm;bottom:3mm;border:.25pt dashed rgba(158,58,62,.5);pointer-events:none;z-index:20}
+.spine{position:absolute;left:263mm;top:3mm;bottom:3mm;width:0;border-left:.25pt dashed rgba(44,74,115,.45);pointer-events:none;z-index:20}
+.mark{position:absolute;left:6mm;top:5mm;z-index:21;font:700 6.5pt/1 var(--ui);letter-spacing:.12em;color:#fff;background:var(--red);padding:1.6mm 2.6mm;text-transform:uppercase}
+.page{position:absolute;top:3mm;height:200mm;width:260mm}
+.page.left{left:3mm}.page.right{left:263mm}
+.safe{position:absolute;top:16mm;bottom:19mm}
+.page.left .safe{left:17mm;right:21mm}.page.right .safe{left:21mm;right:17mm}
+.folio{position:absolute;bottom:9mm;font:8pt/1 var(--ui);color:var(--muted)}
+.page.left .folio{left:17mm}.page.right .folio{right:17mm}
+.run{position:absolute;bottom:9mm;font:600 6.5pt/1 var(--ui);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.page.left .run{right:21mm}.page.right .run{left:21mm}
+
+.kicker{font:600 8.5pt/1.4 var(--ui);letter-spacing:.16em;text-transform:uppercase;color:var(--blue)}
+h1.title{font:400 34pt/1.06 var(--serif);letter-spacing:.02em}
+h2{font:400 20pt/1.16 var(--serif);margin:0 0 5mm}
+.lead{font:400 12pt/1.62 var(--serif);color:var(--ink)}
+.body{font:400 11pt/1.6 var(--serif)}
+.body p{margin:0 0 3.4mm}
+.sub{font:400 12pt/1.4 var(--serif);color:var(--ink-soft)}
+.meta{font:9pt/1.6 var(--ui);color:var(--ink-soft)}
+.meta b{color:var(--ink)}
+.cap{font:8.5pt/1.4 var(--ui);color:var(--muted)}
+.org{font:600 8.5pt/1.5 var(--ui);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tri{display:flex;flex-direction:column;height:2.5mm;width:42mm;border:.25pt solid rgba(0,0,0,.12)}
+.tri i{flex:1}.tri i:nth-child(1){background:#fff}.tri i:nth-child(2){background:var(--blue)}.tri i:nth-child(3){background:var(--red)}
+
+/* документальные объекты: тонкое паспарту, ОЧЕНЬ мягкая тень (не веб) */
+figure.doc{background:var(--surface);border:.25pt solid var(--line);box-shadow:0 .25mm .8mm rgba(30,39,50,.10);padding:3mm;margin:0;display:inline-block}
+figure.doc img{display:block;width:100%;height:auto}
+figure.doc figcaption{padding-top:2mm}
+
+blockquote.pull{border-left:.8mm solid var(--blue);padding:1mm 0 1mm 6mm;font:400 16pt/1.42 var(--serif);color:var(--ink);max-width:150mm}
+blockquote.pull footer{font:8.5pt/1.5 var(--ui);color:var(--muted);margin-top:3mm}
+
+/* герб-плейсхолдер */
+.gerb{width:15mm;height:15mm;border:.4pt solid var(--line);background:var(--surface);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center}
+.gerb b{font:700 6pt/1.1 var(--ui);color:var(--blue-ink)}
+.gerb span{font:5pt/1 var(--ui);color:var(--muted)}
+.region-block{display:flex;gap:4mm;align-items:center}
+.region-block .rt{font:9pt/1.35 var(--ui);color:var(--ink-soft)}
+.region-block .rt b{color:var(--ink);font-size:10pt}
+
+.qr-box{display:flex;flex-direction:column;align-items:center;gap:1.5mm}
+.qr-box img{width:17mm;height:17mm}
+.qr-box span{font:7pt/1.2 var(--ui);color:var(--muted);text-align:center}
+
+.hero-name{font:400 32pt/1.02 var(--serif);letter-spacing:.01em}
+.hero-name.sm{font-size:26pt}
+.excerpt{font:400 11.5pt/1.62 var(--serif)}
+
+/* содержание */
+.toc-head{font:400 22pt/1.1 var(--serif);margin-bottom:6mm}
+.toc-cols{column-count:2;column-gap:10mm}
+.toc-group{break-inside:avoid;margin-bottom:4mm}
+.toc-region{font:600 8pt/1.3 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin:0 0 1.5mm;border-bottom:.25pt solid var(--line);padding-bottom:1mm}
+.toc-row{display:flex;align-items:baseline;gap:2mm;font:9.5pt/1.7 var(--serif);margin:0}
+.toc-hero{font-weight:400;color:var(--ink);white-space:nowrap}
+.toc-auth{font:8pt/1 var(--ui);color:var(--muted);white-space:nowrap}
+.toc-dots{flex:1;border-bottom:.25pt dotted var(--muted);transform:translateY(-1mm)}
+.toc-pg{font:9pt/1 var(--ui);color:var(--ink-soft)}
+
+/* партнёры */
+.logo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8mm;margin-top:8mm}
+.logo-slot{height:26mm;border:.3pt solid var(--line);background:var(--surface);display:flex;align-items:center;justify-content:center;
+  font:8pt/1.3 var(--ui);color:var(--muted);text-align:center;padding:4mm}
+.map-legend{background:rgba(255,255,255,.85);border:.25pt solid var(--line);padding:5mm 6mm;max-width:96mm}
+.map-legend h3{font:400 13pt/1.2 var(--serif);margin:0 0 3mm}
+.map-legend .lg{display:flex;align-items:center;gap:3mm;font:9pt/1.7 var(--ui);color:var(--ink-soft)}
+.dot{width:3mm;height:3mm;border-radius:50%;flex:none}
+</style>
+</head>
+<body>
+
+<!-- ==================== S1 ШМУЦТИТУЛ ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <div class="page left"><div class="safe"><div class="tri"></div></div><span class="run">Письма памяти</span></div>
+  <div class="page right"><div class="safe" style="display:flex;flex-direction:column;justify-content:center">
+    <div class="tri"></div>
+    <h1 class="title" style="margin-top:8mm">Письма памяти</h1>
+    <img src="../web/assets/img/hero-002/p018_img02.jpg" alt="Фрагмент детского письма"
+      style="width:118mm;height:34mm;object-fit:cover;object-position:0 -6mm;margin-top:10mm;
+      -webkit-mask-image:linear-gradient(90deg,#000 72%,transparent);mask-image:linear-gradient(90deg,#000 72%,transparent);opacity:.85">
+  </div><span class="folio">1</span></div>
+</section>
+
+<!-- ==================== S2 ТИТУЛ + ОБОРОТ ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <!-- левая: оборот титула / выходные данные -->
+  <div class="page left"><div class="safe">
+    <p class="meta" style="margin-top:2mm"><b>ПИСЬМА ПАМЯТИ. Том I.</b><br>Всероссийская книга детских писем о родителях-героях.</p>
+    <p class="meta" style="margin-top:6mm">Издано по инициативе Автономной некоммерческой организации «Центр поддержки детей военнослужащих».<br>Приурочено к Году народного единства России.</p>
+    <p class="meta" style="margin-top:6mm">Редакционная подготовка, макет — рабочая группа проекта. Тексты писем публикуются с сохранением авторской орфографии, с согласия семей.</p>
+    <div style="position:absolute;left:0;bottom:0">
+      <p class="org">Издание подготовлено при поддержке</p>
+      <div style="display:flex;gap:5mm;margin-top:3mm">
+        <div class="logo-slot" style="width:44mm;height:16mm">Логотип партнёра</div>
+        <div class="logo-slot" style="width:44mm;height:16mm">Логотип партнёра</div>
+      </div>
+    </div>
+  </div><span class="folio">4</span><span class="run">Письма памяти</span></div>
+  <!-- правая: титул -->
+  <div class="page right"><div class="safe" style="display:flex;flex-direction:column;justify-content:center;text-align:center;align-items:center">
+    <div class="tri"></div>
+    <h1 class="title" style="margin-top:12mm;font-size:40pt">ПИСЬМА<br>ПАМЯТИ</h1>
+    <p class="sub" style="margin-top:6mm">Дети — о своих героях</p>
+    <p class="sub" style="margin-top:2mm;color:var(--muted)">Том I</p>
+    <p class="org" style="margin-top:26mm">АНО «Центр поддержки детей военнослужащих»</p>
+    <p class="cap" style="margin-top:2mm">Россия · 2026</p>
+  </div><span class="folio">3</span></div>
+</section>
+
+<!-- ==================== S3 УКАЗ ПРЕЗИДЕНТА ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <!-- левая: факсимиле-фрагмент -->
+  <div class="page left"><div class="safe">
+    <p class="kicker">Документ</p>
+    <h2 style="margin-top:4mm">Указ Президента<br>Российской Федерации</h2>
+    <figure class="doc" style="margin-top:8mm;max-width:150mm;background:#FCFBF8">
+      <div style="padding:10mm 10mm 12mm;font:italic 400 12pt/1.7 var(--serif);color:#2A2013">
+        «Об объявлении 2026 года в Российской Федерации Годом народного единства России»
+        <div style="height:.3pt;background:var(--line);margin:8mm 0"></div>
+        <div style="font-style:normal;font-size:9pt;color:var(--muted)">Москва, Кремль · 2026 год</div>
+      </div>
+      <figcaption class="cap">Факсимиле-фрагмент официальной публикации</figcaption>
+    </figure>
+  </div><span class="folio">6</span><span class="run">Указ Президента РФ</span></div>
+  <!-- правая: читаемый набор + пояснение -->
+  <div class="page right"><div class="safe">
+    <div class="body" style="margin-top:2mm">
+      <p style="font-variant:small-caps;letter-spacing:.03em">В целях обеспечения нерушимого духовного и гражданского единства многонационального народа Российской Федерации, сохранения исторической памяти, преемственности поколений и в знак глубокого уважения к ратному и созидательному подвигу защитников Отечества, <b>постановляю:</b></p>
+      <p><b>1.</b> Объявить 2026 год в Российской Федерации Годом народного единства России.</p>
+      <p><b>2.</b> Правительству Российской Федерации обеспечить разработку и реализацию комплекса мер по поддержке всероссийских общественно-патриотических и мемориальных инициатив, направленных на консолидацию общества.</p>
+    </div>
+    <div style="margin-top:8mm;padding-top:5mm;border-top:.25pt solid var(--line)">
+      <p class="cap" style="font-size:9pt;line-height:1.55;color:var(--ink-soft)">Эта книга — одна из таких мемориальных инициатив: она сохраняет историческую память и преемственность поколений через письма детей о родителях-героях.</p>
+    </div>
+  </div><span class="folio">7</span></div>
+</section>
+
+<!-- ==================== S4 ВСТУПЛЕНИЕ ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <div class="page left"><div class="safe">
+    <p class="kicker">Вступление</p>
+    <h2 style="margin-top:4mm;font-size:24pt">Письма, которые<br>продолжают говорить</h2>
+    <div class="body" style="margin-top:6mm;font-size:10.5pt;line-height:1.6">
+      <p>Эта книга собрана из писем. Их писали дети — о своих родителях, которые не вернулись домой. О маме, которая «была самой смелой и доброй». О папе, который «всегда был первым». Детская рука выводит эти слова медленно, иногда с ошибками, и именно поэтому им веришь больше, чем любому официальному тексту.</p>
+      <p>Мы решили, что главным документом книги будет не биография и не сводка, а само письмо ребёнка. Взрослые слова со временем стираются; детская строчка остаётся. В ней нет ни пафоса, ни расчёта — только любовь, тоска и гордость, сказанные так, как умеют говорить лишь дети.</p>
+      <p>Книга не претендует на полноту. Из каждой семейной истории мы выбрали одно: главную фотографию, одно письмо или его фрагмент, короткую строчку, которую хочется перечитать. Полные письма, все фотографии и рисунки бережно хранит цифровой архив — к нему ведёт код на каждом развороте.</p>
+      <p>Мы благодарим семьи, которые доверили нам самое личное — почерк своих детей и лица своих родных. Пусть эти письма продолжают говорить: пока их читают, память жива.</p>
+    </div>
+  </div><span class="folio">8</span><span class="run">Письма памяти</span></div>
+  <div class="page right"><div class="safe" style="display:flex;flex-direction:column;justify-content:center">
+    <figure class="doc" style="max-width:150mm;align-self:center">
+      <img src="../web/assets/img/hero-001/p014_img01.jpg" alt="Фрагмент детского письма о маме">
+      <figcaption class="cap">Из письма ребёнка</figcaption>
+    </figure>
+    <blockquote class="pull" style="margin-top:9mm;font-size:15pt">«Она добра, она строга, она справедлива, и нежна, и я никогда не забуду её»
+      <footer>Из детского письма</footer>
+    </blockquote>
+  </div><span class="folio">9</span></div>
+</section>
+
+<!-- ==================== S5 КАРТА ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <img src="assets/map-base.png" alt="Карта России" style="position:absolute;left:24mm;top:44mm;width:360mm;opacity:.5;filter:grayscale(1) contrast(1.05)">
+  <svg viewBox="0 0 360 190" style="position:absolute;left:24mm;top:44mm;width:360mm" aria-hidden="true">
+    <circle cx="96" cy="104" r="3.4" fill="#9E3A3E"/><circle cx="150" cy="92" r="4.6" fill="#2C4A73"/>
+    <circle cx="188" cy="96" r="3.2" fill="#2C4A73"/><circle cx="214" cy="86" r="3.6" fill="#2C4A73"/>
+    <circle cx="120" cy="120" r="3" fill="#2C4A73"/><circle cx="252" cy="92" r="3" fill="#2C4A73"/>
+    <circle cx="300" cy="98" r="3" fill="#2C4A73"/><circle cx="176" cy="118" r="3" fill="#2C4A73"/>
+  </svg>
+  <div class="page left"><div class="safe">
+    <p class="kicker">География памяти</p>
+    <h2 style="margin-top:4mm">Вся страна — <br>одна память</h2>
+    <p class="cap" style="max-width:96mm;margin-top:4mm;font-size:9pt;line-height:1.55">76 семей из 31 региона России. Схематическая карта прототипа; финальная версия строится на корректных географических данных, регионы-участники заливаются одним сдержанным акцентом.</p>
+  </div><span class="folio">10</span><span class="run">Письма памяти</span></div>
+  <div class="page right"><div class="safe" style="display:flex;align-items:flex-end;justify-content:flex-end;height:100%">
+    <div class="map-legend">
+      <h3>Регионы историй</h3>
+      <div class="lg"><span class="dot" style="background:#9E3A3E"></span> Волгоградская обл. — 3 · Донецкая Народная Респ. — 1</div>
+      <div class="lg" style="margin-top:1.5mm"><span class="dot" style="background:#2C4A73"></span> Новосибирская — 11 · Тюменская — 6 · Хакасия — 5</div>
+      <div class="lg" style="margin-top:1.5mm"><span class="dot" style="background:#2C4A73"></span> Нижегородская, Курганская, Башкортостан — по 4</div>
+      <p class="cap" style="margin-top:3mm">…и ещё 22 региона. Полный список — в содержании.</p>
+    </div>
+  </div><span class="folio">11</span></div>
+</section>
+
+<!-- ==================== S6 СОДЕРЖАНИЕ 1 ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <div class="page left"><div class="safe">
+    <p class="toc-head">Содержание</p>
+    <div class="toc-cols">
+<div class="toc-group"><h3 class="toc-region">Амурская область</h3>
+<p class="toc-row"><span class="toc-hero">АНДРЕЙ</span><span class="toc-auth">письма · МАРГАРИТА, ПЕТР</span><span class="toc-dots"></span><span class="toc-pg">16</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Астраханская область</h3>
+<p class="toc-row"><span class="toc-hero">БУЛАТ</span><span class="toc-auth">письма · ТИМУР, ДИЯР</span><span class="toc-dots"></span><span class="toc-pg">18</span></p>
+<p class="toc-row"><span class="toc-hero">ДАМИР</span><span class="toc-auth">письма · ИРКЕН, МИЛАНА, ИЛЬНАР</span><span class="toc-dots"></span><span class="toc-pg">20</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Волгоградская область</h3>
+<p class="toc-row"><span class="toc-hero">АНАСТАСИЯ</span><span class="toc-auth">письмо · ИГОРЬ</span><span class="toc-dots"></span><span class="toc-pg">22</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">24</span></p>
+<p class="toc-row"><span class="toc-hero">ТАЛГАТ</span><span class="toc-auth">письма · САФИЯ, ДИАНА</span><span class="toc-dots"></span><span class="toc-pg">26</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">г. Москва</h3>
+<p class="toc-row"><span class="toc-hero">СЕРГЕЙ</span><span class="toc-auth">письмо · СОФИЯ</span><span class="toc-dots"></span><span class="toc-pg">28</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">г. Санкт-Петербург</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСЕЙ</span><span class="toc-auth">письма · АННА, ЕКАТЕРИНА</span><span class="toc-dots"></span><span class="toc-pg">30</span></p>
+<p class="toc-row"><span class="toc-hero">ВАДИМ</span><span class="toc-auth">письма · ТИМУР, ЛЕОНИД, ГЕРМАН, ОЛЕГ, РАДА, РАДОМИР</span><span class="toc-dots"></span><span class="toc-pg">32</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Донецкая Народная Республика</h3>
+<p class="toc-row"><span class="toc-hero">ИГОРЬ</span><span class="toc-auth">письмо ребёнка</span><span class="toc-dots"></span><span class="toc-pg">34</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Забайкальский Край</h3>
+<p class="toc-row"><span class="toc-hero">ДМИТРИЙ</span><span class="toc-auth">письмо · ЮЛИАННА</span><span class="toc-dots"></span><span class="toc-pg">36</span></p>
+<p class="toc-row"><span class="toc-hero">ИГОРЬ</span><span class="toc-auth">письма · ВЛАДИСЛАВ, АРИНА</span><span class="toc-dots"></span><span class="toc-pg">38</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Ивановская область</h3>
+<p class="toc-row"><span class="toc-hero">ВИКТОР</span><span class="toc-auth">письмо · ВЛАДА</span><span class="toc-dots"></span><span class="toc-pg">40</span></p>
+<p class="toc-row"><span class="toc-hero">ВИКТОР</span><span class="toc-auth">письмо · ВЛАДА</span><span class="toc-dots"></span><span class="toc-pg">42</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Карачаево-Черкесская Республика</h3>
+<p class="toc-row"><span class="toc-hero">АНДРЕЙ</span><span class="toc-auth">письма · ДАМИАН, ВИТАЛИНА, ЭМИЛИЯ, НИКИТА</span><span class="toc-dots"></span><span class="toc-pg">44</span></p>
+<p class="toc-row"><span class="toc-hero">ЕГОР</span><span class="toc-auth">письма · УЛЬЯНА, ЕКАТЕРИНА, ТИХОН</span><span class="toc-dots"></span><span class="toc-pg">46</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Красноярский край</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСАНДР</span><span class="toc-auth">письмо · ИРИНА</span><span class="toc-dots"></span><span class="toc-pg">48</span></p>
+<p class="toc-row"><span class="toc-hero">АЛЕКСАНДР</span><span class="toc-auth">письмо · ИРИНА</span><span class="toc-dots"></span><span class="toc-pg">50</span></p>
+<p class="toc-row"><span class="toc-hero">АЛЕКСЕЙ</span><span class="toc-auth">письмо · МАРК</span><span class="toc-dots"></span><span class="toc-pg">52</span></p>
+</div>
+</div>
+  </div><span class="folio">12</span><span class="run">Содержание</span></div>
+  <div class="page right"><div class="safe" style="padding-top:14mm">
+    <div class="toc-cols">
+<div class="toc-group"><h3 class="toc-region">Курганская область</h3>
+<p class="toc-row"><span class="toc-hero">АНАТОЛИЙ</span><span class="toc-auth">письма · СЕРГЕЙ, ЕКАТЕРИНА, ЕЛИЗАВЕТА</span><span class="toc-dots"></span><span class="toc-pg">54</span></p>
+<p class="toc-row"><span class="toc-hero">ДМИТРИЙ</span><span class="toc-auth">письмо · ПАВЕЛ</span><span class="toc-dots"></span><span class="toc-pg">56</span></p>
+<p class="toc-row"><span class="toc-hero">ЕВГЕНИЙ</span><span class="toc-auth">письма · АГАТА, МАКАР, ТАИСИЯ, ЯРОСЛАВА</span><span class="toc-dots"></span><span class="toc-pg">58</span></p>
+<p class="toc-row"><span class="toc-hero">СЕРГЕЙ</span><span class="toc-auth">письмо · СОФИЯ</span><span class="toc-dots"></span><span class="toc-pg">60</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Липецкая область</h3>
+<p class="toc-row"><span class="toc-hero">ДЕНИС</span><span class="toc-auth">письмо · МИЛАНА</span><span class="toc-dots"></span><span class="toc-pg">62</span></p>
+<p class="toc-row"><span class="toc-hero">ИЛЬДАР</span><span class="toc-auth">письмо · АМИР</span><span class="toc-dots"></span><span class="toc-pg">64</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Нижегородская область</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСЕЙ</span><span class="toc-auth">письмо · ПОЛИНА</span><span class="toc-dots"></span><span class="toc-pg">66</span></p>
+<p class="toc-row"><span class="toc-hero">ИЛЬЯ</span><span class="toc-auth">письма · КСЕНИЯ, ЕЛИЗАВЕТА</span><span class="toc-dots"></span><span class="toc-pg">68</span></p>
+<p class="toc-row"><span class="toc-hero">СЕРГЕЙ</span><span class="toc-auth">письма · ИРИНА, ДАРЬЯ</span><span class="toc-dots"></span><span class="toc-pg">70</span></p>
+<p class="toc-row"><span class="toc-hero">ФЕДОР</span><span class="toc-auth">письма · АНАСТАСИЯ, МИХАИЛ</span><span class="toc-dots"></span><span class="toc-pg">72</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Новосибирская область</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСАНДР</span><span class="toc-auth">письма · УЛЬЯНА, ИЛЬЯ</span><span class="toc-dots"></span><span class="toc-pg">74</span></p>
+<p class="toc-row"><span class="toc-hero">АЛИМАМЕД</span><span class="toc-auth">письма · РУСЛАН, МУРАД</span><span class="toc-dots"></span><span class="toc-pg">76</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">78</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">80</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">82</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">84</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">86</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">88</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">90</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · РУСЛАН, КАМИЛЛА, САБИНА</span><span class="toc-dots"></span><span class="toc-pg">92</span></p>
+<p class="toc-row"><span class="toc-hero">ЕВГЕНИЙ</span><span class="toc-auth">письмо · ИВАН</span><span class="toc-dots"></span><span class="toc-pg">94</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Оренбургская область</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСАНДР</span><span class="toc-auth">письмо · АМИР????</span><span class="toc-dots"></span><span class="toc-pg">96</span></p>
+<p class="toc-row"><span class="toc-hero">АЛМАТ</span><span class="toc-auth">письмо · АДЕЛИНА</span><span class="toc-dots"></span><span class="toc-pg">98</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Приморский край</h3>
+<p class="toc-row"><span class="toc-hero">РОМАН</span><span class="toc-auth">письма · ДАРИНА, ПАВЕЛ</span><span class="toc-dots"></span><span class="toc-pg">100</span></p>
+</div>
+</div>
+  </div><span class="folio">13</span></div>
+</section>
+
+<!-- ==================== S7 СОДЕРЖАНИЕ 2 ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <div class="page left"><div class="safe" style="padding-top:2mm">
+    <div class="toc-cols">
+<div class="toc-group"><h3 class="toc-region">Псковская область</h3>
+<p class="toc-row"><span class="toc-hero">ВИКТОР</span><span class="toc-auth">письма · ВАРВАРА, АРИНА</span><span class="toc-dots"></span><span class="toc-pg">102</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Республика Адыгея</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСИ</span><span class="toc-auth">письмо · РУСЛАН</span><span class="toc-dots"></span><span class="toc-pg">104</span></p>
+<p class="toc-row"><span class="toc-hero">НИКОЛАЙ</span><span class="toc-auth">письмо · КИРА</span><span class="toc-dots"></span><span class="toc-pg">106</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Республика Башкортостан</h3>
+<p class="toc-row"><span class="toc-hero">АРТУР</span><span class="toc-auth">письмо · ДИНАР</span><span class="toc-dots"></span><span class="toc-pg">108</span></p>
+<p class="toc-row"><span class="toc-hero">ВАСИЛИЙ</span><span class="toc-auth">письмо · ПАВЕЛ</span><span class="toc-dots"></span><span class="toc-pg">110</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письмо · ЗЛАТА</span><span class="toc-dots"></span><span class="toc-pg">112</span></p>
+<p class="toc-row"><span class="toc-hero">ИЛЬГАМ</span><span class="toc-auth">письма · МУРАТ, ДАНИЯР</span><span class="toc-dots"></span><span class="toc-pg">114</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Республика Дагестан</h3>
+<p class="toc-row"><span class="toc-hero">МУРАД</span><span class="toc-auth">письма · ЯСМИНА, УМУКУСУМ</span><span class="toc-dots"></span><span class="toc-pg">116</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Республика Ингушетия</h3>
+<p class="toc-row"><span class="toc-hero">МУСТАФА</span><span class="toc-auth">письма · АМИНА, МУХАММАД, КАМИЛЛЯ</span><span class="toc-dots"></span><span class="toc-pg">118</span></p>
+<p class="toc-row"><span class="toc-hero">САЛАМ</span><span class="toc-auth">письма · ХАДИЖА, КАМИЛЛА, ЗАИРА</span><span class="toc-dots"></span><span class="toc-pg">120</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Республика Калмыкия</h3>
+<p class="toc-row"><span class="toc-hero">САНАЛ</span><span class="toc-auth">письма · ЭНКИРА, ЧИНГИЗ, ТЕНГИР</span><span class="toc-dots"></span><span class="toc-pg">122</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Республика Татарстан</h3>
+<p class="toc-row"><span class="toc-hero">РАМИЛЬ</span><span class="toc-auth">письма · РАНИЛЬ, ДАНИЛЬ</span><span class="toc-dots"></span><span class="toc-pg">124</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Республика Тыва</h3>
+<p class="toc-row"><span class="toc-hero">ЕВГЕНИЙ</span><span class="toc-auth">письма · ДМИТРИЙ, АРТЕМ, ПАЛИНА</span><span class="toc-dots"></span><span class="toc-pg">126</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Республика Хакасия</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСАНДР</span><span class="toc-auth">письмо · ЕГОР</span><span class="toc-dots"></span><span class="toc-pg">128</span></p>
+<p class="toc-row"><span class="toc-hero">ВЛАДИСЛАВ</span><span class="toc-auth">письмо · АЙМИР</span><span class="toc-dots"></span><span class="toc-pg">130</span></p>
+<p class="toc-row"><span class="toc-hero">НИКОЛАЙ</span><span class="toc-auth">письмо · МИХАИЛ</span><span class="toc-dots"></span><span class="toc-pg">132</span></p>
+<p class="toc-row"><span class="toc-hero">НИКОЛАЙ</span><span class="toc-auth">письмо · КИРА</span><span class="toc-dots"></span><span class="toc-pg">134</span></p>
+<p class="toc-row"><span class="toc-hero">ЯКОВ</span><span class="toc-auth">письма · ИВАН, АЛИНА</span><span class="toc-dots"></span><span class="toc-pg">136</span></p>
+</div>
+</div>
+  </div><span class="folio">14</span><span class="run">Содержание</span></div>
+  <div class="page right"><div class="safe" style="padding-top:2mm">
+    <div class="toc-cols">
+<div class="toc-group"><h3 class="toc-region">Свердловская область</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСАНДР</span><span class="toc-auth">письмо · ДАНИЛ</span><span class="toc-dots"></span><span class="toc-pg">138</span></p>
+<p class="toc-row"><span class="toc-hero">АНДРЕЙ</span><span class="toc-auth">письма · КСЕНИЯ, АРТЁМ</span><span class="toc-dots"></span><span class="toc-pg">140</span></p>
+<p class="toc-row"><span class="toc-hero">ЕВГЕНИЙ</span><span class="toc-auth">письма · ПОЛИНА, АННА, ЕГОР</span><span class="toc-dots"></span><span class="toc-pg">142</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Тюменская область</h3>
+<p class="toc-row"><span class="toc-hero">АЛЕКСАНДР</span><span class="toc-auth">письма · ГЛЕБ, ЕГОР</span><span class="toc-dots"></span><span class="toc-pg">144</span></p>
+<p class="toc-row"><span class="toc-hero">АЛЕКСАНДР</span><span class="toc-auth">письма · ВЯЧЕСЛАВ, ЕГОР</span><span class="toc-dots"></span><span class="toc-pg">146</span></p>
+<p class="toc-row"><span class="toc-hero">ВЯЧЕСЛАВ</span><span class="toc-auth">письма · ЛЕОНИД, ВАРВАРА, РОМАН</span><span class="toc-dots"></span><span class="toc-pg">148</span></p>
+<p class="toc-row"><span class="toc-hero">ИЛЬЯ</span><span class="toc-auth">письма · ВАЛЕРИЯ, АЛЕКСАНДР, КСЕНИЯ</span><span class="toc-dots"></span><span class="toc-pg">150</span></p>
+<p class="toc-row"><span class="toc-hero">РОМАН</span><span class="toc-auth">письмо · СВЯТОСЛАВ</span><span class="toc-dots"></span><span class="toc-pg">152</span></p>
+<p class="toc-row"><span class="toc-hero">ТИМУР</span><span class="toc-auth">письма · ДАНИЭЛЬ, АЙСЫЛУ</span><span class="toc-dots"></span><span class="toc-pg">154</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Ханты-Мансийский АО - Югра</h3>
+<p class="toc-row"><span class="toc-hero">НИКОЛАЙ</span><span class="toc-auth">письмо · АННА</span><span class="toc-dots"></span><span class="toc-pg">156</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Челябинская область</h3>
+<p class="toc-row"><span class="toc-hero">АНДРЕЙ</span><span class="toc-auth">письмо · ЕЛИЗАВЕТА</span><span class="toc-dots"></span><span class="toc-pg">158</span></p>
+<p class="toc-row"><span class="toc-hero">АНДРЕЙ</span><span class="toc-auth">письма · АННА, ВИКТОР</span><span class="toc-dots"></span><span class="toc-pg">160</span></p>
+<p class="toc-row"><span class="toc-hero">АНТОН</span><span class="toc-auth">письмо · ДМИТРИЙ</span><span class="toc-dots"></span><span class="toc-pg">162</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Чеченская Республика</h3>
+<p class="toc-row"><span class="toc-hero">АБДУЛБЕК</span><span class="toc-auth">письма · АКРАМАН, САЛИМА, ДАИД</span><span class="toc-dots"></span><span class="toc-pg">164</span></p>
+</div>
+<div class="toc-group"><h3 class="toc-region">Ярославская область</h3>
+<p class="toc-row"><span class="toc-hero">АНАТОЛИЙ</span><span class="toc-auth">письмо · НИКИТА</span><span class="toc-dots"></span><span class="toc-pg">166</span></p>
+</div>
+</div>
+  </div><span class="folio">15</span></div>
+</section>
+
+<!-- ==================== S8 СЕМЬЯ · ШАБЛОН A (фото + письмо) ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <!-- левая: имя, регион, герб, фото, справка -->
+  <div class="page left"><div class="safe">
+    <p class="kicker">Шаблон A · фото и письмо</p>
+    <h1 class="hero-name" style="margin-top:3mm">Анастасия</h1>
+    <p class="sub" style="margin-top:1mm;font-size:11pt">мама · письмо написал сын Игорь</p>
+    <div class="region-block" style="margin-top:5mm">
+      <div class="gerb"><b>ВО</b><span>герб · плейсхолдер</span></div>
+      <div class="rt"><b>Волгоградская область</b><br>г. Волгоград</div>
+    </div>
+    <figure class="doc" style="width:52mm;margin-top:6mm">
+      <img src="../web/assets/img/hero-001/p013_img01.jpg" alt="Фотография из семейного архива">
+      <figcaption class="cap">Из семейного архива</figcaption>
+    </figure>
+    <p class="cap" style="position:absolute;left:0;bottom:0;max-width:150mm;font-size:8.5pt;line-height:1.5">Мама двоих детей. Из семьи участника всероссийской акции «Письма памяти». Полная биография — в цифровом архиве.</p>
+  </div><span class="folio">18</span><span class="run">Волгоградская область</span></div>
+  <!-- правая: письмо + цитата + QR -->
+  <div class="page right"><div class="safe">
+    <figure class="doc" style="max-width:150mm">
+      <img src="../web/assets/img/hero-001/p014_img01.jpg" alt="Скан письма Игоря о маме">
+      <figcaption class="cap">Письмо · 19.05.2024</figcaption>
+    </figure>
+    <blockquote class="pull" style="margin-top:6mm;font-size:13pt">«Она самая смелая и добрая мама! Я горжусь своей мамой…»
+      <footer>Из письма сына Игоря</footer>
+    </blockquote>
+    <div class="qr-box" style="position:absolute;right:0;bottom:0">
+      <img src="assets/qr/hero-001.png" alt="QR: полная история">
+      <span>полная история</span>
+    </div>
+  </div><span class="folio">19</span></div>
+</section>
+
+<!-- ==================== S9 СЕМЬЯ · ШАБЛОН B (письмо как центр) ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <!-- левая: крупное письмо -->
+  <div class="page left"><div class="safe" style="display:flex;flex-direction:column;justify-content:center">
+    <figure class="doc" style="max-width:172mm;align-self:center">
+      <img src="../web/assets/img/hero-001/p014_img01.jpg" alt="Крупный скан детского письма">
+      <figcaption class="cap">Письмо · крупный план почерка</figcaption>
+    </figure>
+  </div><span class="folio">20</span><span class="run">Волгоградская область</span></div>
+  <!-- правая: имя, портрет малый, справка, цитата -->
+  <div class="page right"><div class="safe">
+    <p class="kicker">Шаблон B · письмо как центр</p>
+    <h1 class="hero-name sm" style="margin-top:3mm">Анастасия</h1>
+    <p class="sub" style="margin-top:1mm;font-size:11pt">мама · письмо написал сын Игорь</p>
+    <div style="display:flex;gap:6mm;align-items:flex-start;margin-top:6mm">
+      <figure class="doc" style="width:40mm"><img src="../web/assets/img/hero-001/p013_img01.jpg" alt="Портрет из семейного архива"><figcaption class="cap">Семейный архив</figcaption></figure>
+      <div class="region-block"><div class="gerb"><b>ВО</b><span>герб · плейсхолдер</span></div><div class="rt"><b>Волгоградская область</b><br>г. Волгоград</div></div>
+    </div>
+    <p class="excerpt" style="margin-top:6mm;max-width:150mm">Моя мама — Герой. Она самая смелая и добрая мама! Я горжусь своей мамой, ведь она отдала жизнь за Родину. Она была доброй, и отзывчивой, и мужественной…</p>
+    <blockquote class="pull" style="margin-top:5mm;font-size:13pt">«И я никогда не забуду её»</blockquote>
+    <div class="qr-box" style="position:absolute;right:0;bottom:0"><img src="assets/qr/hero-001.png" alt="QR: полная история"><span>полная история</span></div>
+  </div><span class="folio">21</span></div>
+</section>
+
+<!-- ==================== S10 СЕМЬЯ · ШАБЛОН C (семейный архив) ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <!-- левая: имя, главное фото, доп.материалы -->
+  <div class="page left"><div class="safe">
+    <p class="kicker">Шаблон C · семейный архив</p>
+    <h1 class="hero-name sm" style="margin-top:3mm">Игорь</h1>
+    <p class="sub" style="margin-top:1mm;font-size:11pt">отец · письма написали Назар и Элина</p>
+    <div style="display:flex;gap:6mm;margin-top:5mm;align-items:flex-start">
+      <figure class="doc" style="width:64mm"><img src="../web/assets/img/hero-002/p017_img01.jpg" alt="Фотография из семейного архива"><figcaption class="cap">Из семейного архива</figcaption></figure>
+      <div style="display:flex;flex-direction:column;gap:4mm">
+        <figure class="doc" style="width:42mm"><img src="../web/assets/img/hero-002/p016_img03.jpg" alt="Семейная фотография"></figure>
+        <div class="region-block"><div class="gerb"><b>ДНР</b><span>герб · плейсхолдер</span></div><div class="rt"><b>Донецкая Народная Республика</b><br>г. Новосибирск</div></div>
+      </div>
+    </div>
+    <p class="cap" style="position:absolute;left:0;bottom:0;max-width:150mm;font-size:8.5pt;line-height:1.5">Отец троих детей. Полная история семьи — фотографии, письма, рисунки — в цифровом архиве.</p>
+  </div><span class="folio">— · —</span><span class="run">Донецкая Народная Республика</span></div>
+  <!-- правая: рисунок + фрагмент письма + цитата + QR -->
+  <div class="page right"><div class="safe">
+    <div style="display:flex;gap:6mm;align-items:flex-start">
+      <figure class="doc" style="width:46mm"><img src="../web/assets/img/hero-002/p017_img03.jpg" alt="Детский рисунок: папа под флагом России"><figcaption class="cap">Детский рисунок</figcaption></figure>
+      <figure class="doc" style="width:96mm"><img src="../web/assets/img/hero-002/p018_img01.jpg" alt="Фрагмент письма о папе"><figcaption class="cap">Письмо · фрагмент</figcaption></figure>
+    </div>
+    <blockquote class="pull" style="margin-top:6mm;font-size:13pt">«Мой папа — мой Герой!!! Я очень горжусь им, и сильно его люблю»
+      <footer>Из письма детей</footer>
+    </blockquote>
+    <div class="qr-box" style="position:absolute;right:0;bottom:0"><img src="assets/qr/hero-002.png" alt="QR: полная история"><span>полная история</span></div>
+  </div><span class="folio">— · —</span></div>
+</section>
+
+<!-- ==================== S11 ПАРТНЁРЫ (основное размещение — после корпуса) ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <div class="page left"><div class="safe" style="display:flex;flex-direction:column;justify-content:center">
+    <div class="tri"></div>
+    <h2 style="margin-top:8mm;font-size:24pt">Издание подготовлено<br>при поддержке</h2>
+    <p class="lead" style="margin-top:6mm;max-width:150mm">Эта книга стала возможной благодаря людям и организациям, которые помогли сохранить память о героях и поддержать их семьи. Мы благодарим каждого из них.</p>
+  </div><span class="folio">168</span><span class="run">Партнёры</span></div>
+  <div class="page right"><div class="safe">
+    <p class="org" style="margin-top:2mm">Партнёры и попечители проекта</p>
+    <div class="logo-grid">
+      <div class="logo-slot">Логотип партнёра</div><div class="logo-slot">Логотип партнёра</div><div class="logo-slot">Логотип партнёра</div>
+      <div class="logo-slot">Логотип партнёра</div><div class="logo-slot">Логотип партнёра</div><div class="logo-slot">Логотип партнёра</div>
+    </div>
+    <p class="cap" style="margin-top:6mm">Единая сетка, равный размер, без рекламных слоганов. Основной вариант размещения — после корпуса историй.</p>
+  </div><span class="folio">169</span></div>
+</section>
+
+<!-- ==================== S12 ПАРТНЁРЫ (альтернативное размещение — после вступления) ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <span class="mark" style="left:auto;right:6mm;background:var(--blue)">Альтернативное размещение</span>
+  <div class="page left"><div class="safe" style="display:flex;flex-direction:column;justify-content:center">
+    <div class="tri"></div>
+    <h2 style="margin-top:8mm;font-size:22pt">Издание подготовлено<br>при поддержке</h2>
+    <p class="lead" style="margin-top:6mm;max-width:150mm;font-size:11pt">То же содержание, но разворот стоит сразу после вступления (стр. 10–11), до карты и содержания. Заказчице на выбор.</p>
+  </div><span class="folio">10*</span><span class="run">Партнёры · альт.</span></div>
+  <div class="page right"><div class="safe">
+    <div class="logo-grid" style="margin-top:10mm">
+      <div class="logo-slot">Логотип партнёра</div><div class="logo-slot">Логотип партнёра</div><div class="logo-slot">Логотип партнёра</div>
+      <div class="logo-slot">Логотип партнёра</div><div class="logo-slot">Логотип партнёра</div><div class="logo-slot">Логотип партнёра</div>
+    </div>
+  </div><span class="folio">11*</span></div>
+</section>
+
+<!-- ==================== S13 ФИНАЛ ==================== -->
+<section class="sheet">
+  <span class="mark">Prototype — not for production</span><div class="trim"></div><div class="spine"></div>
+  <div class="page left"><div class="safe" style="display:flex;flex-direction:column;justify-content:center">
+    <div class="tri"></div>
+    <h2 style="margin-top:8mm">Благодарность семьям</h2>
+    <p class="lead" style="margin-top:5mm;max-width:150mm">Мы низко кланяемся семьям героев, доверившим нам письма своих детей и память о своих родных. Эта книга — ваша.</p>
+    <blockquote class="pull" style="margin-top:8mm">«Пока их читают, память жива»</blockquote>
+  </div><span class="folio">170</span><span class="run">Письма памяти</span></div>
+  <div class="page right"><div class="safe" style="display:flex;flex-direction:column;justify-content:flex-end">
+    <p class="org">Выходные данные</p>
+    <p class="meta" style="margin-top:3mm">ПИСЬМА ПАМЯТИ. Том I.<br>Издано по инициативе АНО «Центр поддержки детей военнослужащих».<br>Россия · 2026 · Год народного единства России.</p>
+    <p class="meta" style="margin-top:4mm">Тексты писем — с сохранением авторской орфографии, с согласия семей. Цифровой архив: pisma-pamyati.ru</p>
+    <div class="tri" style="margin-top:6mm"></div>
+  </div><span class="folio">171</span></div>
+</section>
+
+</body>
+</html>

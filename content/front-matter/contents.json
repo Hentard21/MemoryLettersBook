@@ -1,0 +1,1069 @@
+{
+  "note": "Содержание в книжном порядке (регион → имя героя). Номер — левая (verso) страница разворота семьи. Пагинация — docs/pagination-plan-v3.md. Перегенерируется scripts/13.",
+  "family_start_page": 16,
+  "families": [
+    {
+      "hero_id": "hero-075",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "МАРГАРИТА",
+        "ПЕТР"
+      ],
+      "region": "Амурская область",
+      "city": "г. Благовещенск",
+      "page": 16,
+      "web_path": "/letters/hero-075"
+    },
+    {
+      "hero_id": "hero-020",
+      "hero_name": "БУЛАТ",
+      "authors": [
+        "ТИМУР",
+        "ДИЯР"
+      ],
+      "region": "Астраханская область",
+      "city": "г. Астрахань",
+      "page": 18,
+      "web_path": "/letters/hero-020"
+    },
+    {
+      "hero_id": "hero-037",
+      "hero_name": "ДАМИР",
+      "authors": [
+        "ИРКЕН",
+        "МИЛАНА",
+        "ИЛЬНАР"
+      ],
+      "region": "Астраханская область",
+      "city": "г. Астрахань",
+      "page": 20,
+      "web_path": "/letters/hero-037"
+    },
+    {
+      "hero_id": "hero-001",
+      "hero_name": "АНАСТАСИЯ",
+      "authors": [
+        "ИГОРЬ"
+      ],
+      "region": "Волгоградская область",
+      "city": "г. Волгоград",
+      "page": 22,
+      "web_path": "/letters/hero-001"
+    },
+    {
+      "hero_id": "hero-054",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Волгоградская область",
+      "city": "г. Волгоград",
+      "page": 24,
+      "web_path": "/letters/hero-054"
+    },
+    {
+      "hero_id": "hero-028",
+      "hero_name": "ТАЛГАТ",
+      "authors": [
+        "САФИЯ",
+        "ДИАНА"
+      ],
+      "region": "Волгоградская область",
+      "city": "г. Волгоград",
+      "page": 26,
+      "web_path": "/letters/hero-028"
+    },
+    {
+      "hero_id": "hero-061",
+      "hero_name": "СЕРГЕЙ",
+      "authors": [
+        "СОФИЯ"
+      ],
+      "region": "г. Москва",
+      "city": "г. Москва г",
+      "page": 28,
+      "web_path": "/letters/hero-061"
+    },
+    {
+      "hero_id": "hero-070",
+      "hero_name": "АЛЕКСЕЙ",
+      "authors": [
+        "АННА",
+        "ЕКАТЕРИНА"
+      ],
+      "region": "г. Санкт-Петербург",
+      "city": "г. Санкт-Петербург г",
+      "page": 30,
+      "web_path": "/letters/hero-070"
+    },
+    {
+      "hero_id": "hero-013",
+      "hero_name": "ВАДИМ",
+      "authors": [
+        "ТИМУР",
+        "ЛЕОНИД",
+        "ГЕРМАН",
+        "ОЛЕГ",
+        "РАДА",
+        "РАДОМИР"
+      ],
+      "region": "г. Санкт-Петербург",
+      "city": "г. Санкт-Петербург г",
+      "page": 32,
+      "web_path": "/letters/hero-013"
+    },
+    {
+      "hero_id": "hero-002",
+      "hero_name": "ИГОРЬ",
+      "authors": [],
+      "region": "Донецкая Народная Республика",
+      "city": "г. Новосибирск",
+      "page": 34,
+      "web_path": "/letters/hero-002"
+    },
+    {
+      "hero_id": "hero-058",
+      "hero_name": "ДМИТРИЙ",
+      "authors": [
+        "ЮЛИАННА"
+      ],
+      "region": "Забайкальский Край",
+      "city": "г. Чита",
+      "page": 36,
+      "web_path": "/letters/hero-058"
+    },
+    {
+      "hero_id": "hero-057",
+      "hero_name": "ИГОРЬ",
+      "authors": [
+        "ВЛАДИСЛАВ",
+        "АРИНА"
+      ],
+      "region": "Забайкальский Край",
+      "city": "г. Чита",
+      "page": 38,
+      "web_path": "/letters/hero-057"
+    },
+    {
+      "hero_id": "hero-051",
+      "hero_name": "ВИКТОР",
+      "authors": [
+        "ВЛАДА"
+      ],
+      "region": "Ивановская область",
+      "city": "г. Иваново",
+      "page": 40,
+      "web_path": "/letters/hero-051"
+    },
+    {
+      "hero_id": "hero-052",
+      "hero_name": "ВИКТОР",
+      "authors": [
+        "ВЛАДА"
+      ],
+      "region": "Ивановская область",
+      "city": "г. Иваново",
+      "page": 42,
+      "web_path": "/letters/hero-052"
+    },
+    {
+      "hero_id": "hero-011",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "ДАМИАН",
+        "ВИТАЛИНА",
+        "ЭМИЛИЯ",
+        "НИКИТА"
+      ],
+      "region": "Карачаево-Черкесская Республика",
+      "city": "г. Черкесск",
+      "page": 44,
+      "web_path": "/letters/hero-011"
+    },
+    {
+      "hero_id": "hero-009",
+      "hero_name": "ЕГОР",
+      "authors": [
+        "УЛЬЯНА",
+        "ЕКАТЕРИНА",
+        "ТИХОН"
+      ],
+      "region": "Карачаево-Черкесская Республика",
+      "city": "г. Черкесск",
+      "page": 46,
+      "web_path": "/letters/hero-009"
+    },
+    {
+      "hero_id": "hero-016",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ИРИНА"
+      ],
+      "region": "Красноярский край",
+      "city": "г. Красноярск",
+      "page": 48,
+      "web_path": "/letters/hero-016"
+    },
+    {
+      "hero_id": "hero-017",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ИРИНА"
+      ],
+      "region": "Красноярский край",
+      "city": "г. Красноярск",
+      "page": 50,
+      "web_path": "/letters/hero-017"
+    },
+    {
+      "hero_id": "hero-024",
+      "hero_name": "АЛЕКСЕЙ",
+      "authors": [
+        "МАРК"
+      ],
+      "region": "Красноярский край",
+      "city": "г. Новосибирск",
+      "page": 52,
+      "web_path": "/letters/hero-024"
+    },
+    {
+      "hero_id": "hero-046",
+      "hero_name": "АНАТОЛИЙ",
+      "authors": [
+        "СЕРГЕЙ",
+        "ЕКАТЕРИНА",
+        "ЕЛИЗАВЕТА"
+      ],
+      "region": "Курганская область",
+      "city": "г. Курган",
+      "page": 54,
+      "web_path": "/letters/hero-046"
+    },
+    {
+      "hero_id": "hero-023",
+      "hero_name": "ДМИТРИЙ",
+      "authors": [
+        "ПАВЕЛ"
+      ],
+      "region": "Курганская область",
+      "city": "г. Курган",
+      "page": 56,
+      "web_path": "/letters/hero-023"
+    },
+    {
+      "hero_id": "hero-014",
+      "hero_name": "ЕВГЕНИЙ",
+      "authors": [
+        "АГАТА",
+        "МАКАР",
+        "ТАИСИЯ",
+        "ЯРОСЛАВА"
+      ],
+      "region": "Курганская область",
+      "city": "г. Курган",
+      "page": 58,
+      "web_path": "/letters/hero-014"
+    },
+    {
+      "hero_id": "hero-022",
+      "hero_name": "СЕРГЕЙ",
+      "authors": [
+        "СОФИЯ"
+      ],
+      "region": "Курганская область",
+      "city": "г. Курган",
+      "page": 60,
+      "web_path": "/letters/hero-022"
+    },
+    {
+      "hero_id": "hero-060",
+      "hero_name": "ДЕНИС",
+      "authors": [
+        "МИЛАНА"
+      ],
+      "region": "Липецкая область",
+      "city": "г. Липецк",
+      "page": 62,
+      "web_path": "/letters/hero-060"
+    },
+    {
+      "hero_id": "hero-059",
+      "hero_name": "ИЛЬДАР",
+      "authors": [
+        "АМИР"
+      ],
+      "region": "Липецкая область",
+      "city": "г. Липецк",
+      "page": 64,
+      "web_path": "/letters/hero-059"
+    },
+    {
+      "hero_id": "hero-010",
+      "hero_name": "АЛЕКСЕЙ",
+      "authors": [
+        "ПОЛИНА"
+      ],
+      "region": "Нижегородская область",
+      "city": "г. Нижний Новгород",
+      "page": 66,
+      "web_path": "/letters/hero-010"
+    },
+    {
+      "hero_id": "hero-015",
+      "hero_name": "ИЛЬЯ",
+      "authors": [
+        "КСЕНИЯ",
+        "ЕЛИЗАВЕТА"
+      ],
+      "region": "Нижегородская область",
+      "city": "г. Нижний Новгород",
+      "page": 68,
+      "web_path": "/letters/hero-015"
+    },
+    {
+      "hero_id": "hero-031",
+      "hero_name": "СЕРГЕЙ",
+      "authors": [
+        "ИРИНА",
+        "ДАРЬЯ"
+      ],
+      "region": "Нижегородская область",
+      "city": "г. Нижний Новгород",
+      "page": 70,
+      "web_path": "/letters/hero-031"
+    },
+    {
+      "hero_id": "hero-072",
+      "hero_name": "ФЕДОР",
+      "authors": [
+        "АНАСТАСИЯ",
+        "МИХАИЛ"
+      ],
+      "region": "Нижегородская область",
+      "city": "г. Нижний Новгород",
+      "page": 72,
+      "web_path": "/letters/hero-072"
+    },
+    {
+      "hero_id": "hero-026",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "УЛЬЯНА",
+        "ИЛЬЯ"
+      ],
+      "region": "Новосибирская область",
+      "city": "г. Новосибирск",
+      "page": 74,
+      "web_path": "/letters/hero-026"
+    },
+    {
+      "hero_id": "hero-006",
+      "hero_name": "АЛИМАМЕД",
+      "authors": [
+        "РУСЛАН",
+        "МУРАД"
+      ],
+      "region": "Новосибирская область",
+      "city": "г. Новосибирск",
+      "page": 76,
+      "web_path": "/letters/hero-006"
+    },
+    {
+      "hero_id": "hero-003",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Новосибирская область",
+      "city": "г. Новосибирск",
+      "page": 78,
+      "web_path": "/letters/hero-003"
+    },
+    {
+      "hero_id": "hero-030",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Новосибирская область",
+      "city": "",
+      "page": 80,
+      "web_path": "/letters/hero-030"
+    },
+    {
+      "hero_id": "hero-041",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Новосибирская область",
+      "city": "",
+      "page": 82,
+      "web_path": "/letters/hero-041"
+    },
+    {
+      "hero_id": "hero-053",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Новосибирская область",
+      "city": "",
+      "page": 84,
+      "web_path": "/letters/hero-053"
+    },
+    {
+      "hero_id": "hero-055",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Новосибирская область",
+      "city": "",
+      "page": 86,
+      "web_path": "/letters/hero-055"
+    },
+    {
+      "hero_id": "hero-056",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Новосибирская область",
+      "city": "",
+      "page": 88,
+      "web_path": "/letters/hero-056"
+    },
+    {
+      "hero_id": "hero-064",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Новосибирская область",
+      "city": "",
+      "page": 90,
+      "web_path": "/letters/hero-064"
+    },
+    {
+      "hero_id": "hero-065",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region": "Новосибирская область",
+      "city": "",
+      "page": 92,
+      "web_path": "/letters/hero-065"
+    },
+    {
+      "hero_id": "hero-005",
+      "hero_name": "ЕВГЕНИЙ",
+      "authors": [
+        "ИВАН"
+      ],
+      "region": "Новосибирская область",
+      "city": "г. Новосибирск",
+      "page": 94,
+      "web_path": "/letters/hero-005"
+    },
+    {
+      "hero_id": "hero-062",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "АМИР????"
+      ],
+      "region": "Оренбургская область",
+      "city": "г. Оренбург",
+      "page": 96,
+      "web_path": "/letters/hero-062"
+    },
+    {
+      "hero_id": "hero-007",
+      "hero_name": "АЛМАТ",
+      "authors": [
+        "АДЕЛИНА"
+      ],
+      "region": "Оренбургская область",
+      "city": "г. Оренбург",
+      "page": 98,
+      "web_path": "/letters/hero-007"
+    },
+    {
+      "hero_id": "hero-049",
+      "hero_name": "РОМАН",
+      "authors": [
+        "ДАРИНА",
+        "ПАВЕЛ"
+      ],
+      "region": "Приморский край",
+      "city": "г. Владивосток",
+      "page": 100,
+      "web_path": "/letters/hero-049"
+    },
+    {
+      "hero_id": "hero-012",
+      "hero_name": "ВИКТОР",
+      "authors": [
+        "ВАРВАРА",
+        "АРИНА"
+      ],
+      "region": "Псковская область",
+      "city": "г. Псков",
+      "page": 102,
+      "web_path": "/letters/hero-012"
+    },
+    {
+      "hero_id": "hero-021",
+      "hero_name": "АЛЕКСИ",
+      "authors": [
+        "РУСЛАН"
+      ],
+      "region": "Республика Адыгея",
+      "city": "г. Майкоп",
+      "page": 104,
+      "web_path": "/letters/hero-021"
+    },
+    {
+      "hero_id": "hero-032",
+      "hero_name": "НИКОЛАЙ",
+      "authors": [
+        "КИРА"
+      ],
+      "region": "Республика Адыгея",
+      "city": "г. Майкоп",
+      "page": 106,
+      "web_path": "/letters/hero-032"
+    },
+    {
+      "hero_id": "hero-074",
+      "hero_name": "АРТУР",
+      "authors": [
+        "ДИНАР"
+      ],
+      "region": "Республика Башкортостан",
+      "city": "г. Уфа",
+      "page": 108,
+      "web_path": "/letters/hero-074"
+    },
+    {
+      "hero_id": "hero-039",
+      "hero_name": "ВАСИЛИЙ",
+      "authors": [
+        "ПАВЕЛ"
+      ],
+      "region": "Республика Башкортостан",
+      "city": "г. Уфа",
+      "page": 110,
+      "web_path": "/letters/hero-039"
+    },
+    {
+      "hero_id": "hero-048",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "ЗЛАТА"
+      ],
+      "region": "Республика Башкортостан",
+      "city": "г. Уфа",
+      "page": 112,
+      "web_path": "/letters/hero-048"
+    },
+    {
+      "hero_id": "hero-066",
+      "hero_name": "ИЛЬГАМ",
+      "authors": [
+        "МУРАТ",
+        "ДАНИЯР"
+      ],
+      "region": "Республика Башкортостан",
+      "city": "г. Уфа",
+      "page": 114,
+      "web_path": "/letters/hero-066"
+    },
+    {
+      "hero_id": "hero-033",
+      "hero_name": "МУРАД",
+      "authors": [
+        "ЯСМИНА",
+        "УМУКУСУМ"
+      ],
+      "region": "Республика Дагестан",
+      "city": "г. Махачкала",
+      "page": 116,
+      "web_path": "/letters/hero-033"
+    },
+    {
+      "hero_id": "hero-050",
+      "hero_name": "МУСТАФА",
+      "authors": [
+        "АМИНА",
+        "МУХАММАД",
+        "КАМИЛЛЯ"
+      ],
+      "region": "Республика Ингушетия",
+      "city": "г. Магас",
+      "page": 118,
+      "web_path": "/letters/hero-050"
+    },
+    {
+      "hero_id": "hero-025",
+      "hero_name": "САЛАМ",
+      "authors": [
+        "ХАДИЖА",
+        "КАМИЛЛА",
+        "ЗАИРА"
+      ],
+      "region": "Республика Ингушетия",
+      "city": "г. Магас",
+      "page": 120,
+      "web_path": "/letters/hero-025"
+    },
+    {
+      "hero_id": "hero-045",
+      "hero_name": "САНАЛ",
+      "authors": [
+        "ЭНКИРА",
+        "ЧИНГИЗ",
+        "ТЕНГИР"
+      ],
+      "region": "Республика Калмыкия",
+      "city": "г. Элиста",
+      "page": 122,
+      "web_path": "/letters/hero-045"
+    },
+    {
+      "hero_id": "hero-044",
+      "hero_name": "РАМИЛЬ",
+      "authors": [
+        "РАНИЛЬ",
+        "ДАНИЛЬ"
+      ],
+      "region": "Республика Татарстан",
+      "city": "г. Казань",
+      "page": 124,
+      "web_path": "/letters/hero-044"
+    },
+    {
+      "hero_id": "hero-042",
+      "hero_name": "ЕВГЕНИЙ",
+      "authors": [
+        "ДМИТРИЙ",
+        "АРТЕМ",
+        "ПАЛИНА"
+      ],
+      "region": "Республика Тыва",
+      "city": "г. Кызыл",
+      "page": 126,
+      "web_path": "/letters/hero-042"
+    },
+    {
+      "hero_id": "hero-027",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ЕГОР"
+      ],
+      "region": "Республика Хакасия",
+      "city": "г. Абакан",
+      "page": 128,
+      "web_path": "/letters/hero-027"
+    },
+    {
+      "hero_id": "hero-043",
+      "hero_name": "ВЛАДИСЛАВ",
+      "authors": [
+        "АЙМИР"
+      ],
+      "region": "Республика Хакасия",
+      "city": "г. Абакан",
+      "page": 130,
+      "web_path": "/letters/hero-043"
+    },
+    {
+      "hero_id": "hero-004",
+      "hero_name": "НИКОЛАЙ",
+      "authors": [
+        "МИХАИЛ"
+      ],
+      "region": "Республика Хакасия",
+      "city": "г. Абакан",
+      "page": 132,
+      "web_path": "/letters/hero-004"
+    },
+    {
+      "hero_id": "hero-063",
+      "hero_name": "НИКОЛАЙ",
+      "authors": [
+        "КИРА"
+      ],
+      "region": "Республика Хакасия",
+      "city": "г. Абакан",
+      "page": 134,
+      "web_path": "/letters/hero-063"
+    },
+    {
+      "hero_id": "hero-008",
+      "hero_name": "ЯКОВ",
+      "authors": [
+        "ИВАН",
+        "АЛИНА"
+      ],
+      "region": "Республика Хакасия",
+      "city": "г. Абакан",
+      "page": 136,
+      "web_path": "/letters/hero-008"
+    },
+    {
+      "hero_id": "hero-071",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ДАНИЛ"
+      ],
+      "region": "Свердловская область",
+      "city": "г. Екатеринбург",
+      "page": 138,
+      "web_path": "/letters/hero-071"
+    },
+    {
+      "hero_id": "hero-036",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "КСЕНИЯ",
+        "АРТЁМ"
+      ],
+      "region": "Свердловская область",
+      "city": "г. Екатеринбург",
+      "page": 140,
+      "web_path": "/letters/hero-036"
+    },
+    {
+      "hero_id": "hero-067",
+      "hero_name": "ЕВГЕНИЙ",
+      "authors": [
+        "ПОЛИНА",
+        "АННА",
+        "ЕГОР"
+      ],
+      "region": "Свердловская область",
+      "city": "г. Екатеринбург",
+      "page": 142,
+      "web_path": "/letters/hero-067"
+    },
+    {
+      "hero_id": "hero-029",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ГЛЕБ",
+        "ЕГОР"
+      ],
+      "region": "Тюменская область",
+      "city": "г. Тюмень",
+      "page": 144,
+      "web_path": "/letters/hero-029"
+    },
+    {
+      "hero_id": "hero-047",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ВЯЧЕСЛАВ",
+        "ЕГОР"
+      ],
+      "region": "Тюменская область",
+      "city": "г. Тюмень",
+      "page": 146,
+      "web_path": "/letters/hero-047"
+    },
+    {
+      "hero_id": "hero-038",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "ЛЕОНИД",
+        "ВАРВАРА",
+        "РОМАН"
+      ],
+      "region": "Тюменская область",
+      "city": "г. Тюмень",
+      "page": 148,
+      "web_path": "/letters/hero-038"
+    },
+    {
+      "hero_id": "hero-035",
+      "hero_name": "ИЛЬЯ",
+      "authors": [
+        "ВАЛЕРИЯ",
+        "АЛЕКСАНДР",
+        "КСЕНИЯ"
+      ],
+      "region": "Тюменская область",
+      "city": "г. Тюмень",
+      "page": 150,
+      "web_path": "/letters/hero-035"
+    },
+    {
+      "hero_id": "hero-040",
+      "hero_name": "РОМАН",
+      "authors": [
+        "СВЯТОСЛАВ"
+      ],
+      "region": "Тюменская область",
+      "city": "г. Тюмень",
+      "page": 152,
+      "web_path": "/letters/hero-040"
+    },
+    {
+      "hero_id": "hero-034",
+      "hero_name": "ТИМУР",
+      "authors": [
+        "ДАНИЭЛЬ",
+        "АЙСЫЛУ"
+      ],
+      "region": "Тюменская область",
+      "city": "г. Тюмень",
+      "page": 154,
+      "web_path": "/letters/hero-034"
+    },
+    {
+      "hero_id": "hero-076",
+      "hero_name": "НИКОЛАЙ",
+      "authors": [
+        "АННА"
+      ],
+      "region": "Ханты-Мансийский АО - Югра",
+      "city": "г. Ханты-Мансийск",
+      "page": 156,
+      "web_path": "/letters/hero-076"
+    },
+    {
+      "hero_id": "hero-018",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "ЕЛИЗАВЕТА"
+      ],
+      "region": "Челябинская область",
+      "city": "г. Челябинск",
+      "page": 158,
+      "web_path": "/letters/hero-018"
+    },
+    {
+      "hero_id": "hero-073",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "АННА",
+        "ВИКТОР"
+      ],
+      "region": "Челябинская область",
+      "city": "г. Челябинск",
+      "page": 160,
+      "web_path": "/letters/hero-073"
+    },
+    {
+      "hero_id": "hero-069",
+      "hero_name": "АНТОН",
+      "authors": [
+        "ДМИТРИЙ"
+      ],
+      "region": "Челябинская область",
+      "city": "г. Челябинск",
+      "page": 162,
+      "web_path": "/letters/hero-069"
+    },
+    {
+      "hero_id": "hero-068",
+      "hero_name": "АБДУЛБЕК",
+      "authors": [
+        "АКРАМАН",
+        "САЛИМА",
+        "ДАИД"
+      ],
+      "region": "Чеченская Республика",
+      "city": "г. Грозный",
+      "page": 164,
+      "web_path": "/letters/hero-068"
+    },
+    {
+      "hero_id": "hero-019",
+      "hero_name": "АНАТОЛИЙ",
+      "authors": [
+        "НИКИТА"
+      ],
+      "region": "Ярославская область",
+      "city": "г. Ярославль",
+      "page": 166,
+      "web_path": "/letters/hero-019"
+    }
+  ],
+  "regions": [
+    {
+      "region": "Амурская область",
+      "count": 1,
+      "first_page": 16
+    },
+    {
+      "region": "Астраханская область",
+      "count": 2,
+      "first_page": 18
+    },
+    {
+      "region": "Волгоградская область",
+      "count": 3,
+      "first_page": 22
+    },
+    {
+      "region": "г. Москва",
+      "count": 1,
+      "first_page": 28
+    },
+    {
+      "region": "г. Санкт-Петербург",
+      "count": 2,
+      "first_page": 30
+    },
+    {
+      "region": "Донецкая Народная Республика",
+      "count": 1,
+      "first_page": 34
+    },
+    {
+      "region": "Забайкальский Край",
+      "count": 2,
+      "first_page": 36
+    },
+    {
+      "region": "Ивановская область",
+      "count": 2,
+      "first_page": 40
+    },
+    {
+      "region": "Карачаево-Черкесская Республика",
+      "count": 2,
+      "first_page": 44
+    },
+    {
+      "region": "Красноярский край",
+      "count": 3,
+      "first_page": 48
+    },
+    {
+      "region": "Курганская область",
+      "count": 4,
+      "first_page": 54
+    },
+    {
+      "region": "Липецкая область",
+      "count": 2,
+      "first_page": 62
+    },
+    {
+      "region": "Нижегородская область",
+      "count": 4,
+      "first_page": 66
+    },
+    {
+      "region": "Новосибирская область",
+      "count": 11,
+      "first_page": 74
+    },
+    {
+      "region": "Оренбургская область",
+      "count": 2,
+      "first_page": 96
+    },
+    {
+      "region": "Приморский край",
+      "count": 1,
+      "first_page": 100
+    },
+    {
+      "region": "Псковская область",
+      "count": 1,
+      "first_page": 102
+    },
+    {
+      "region": "Республика Адыгея",
+      "count": 2,
+      "first_page": 104
+    },
+    {
+      "region": "Республика Башкортостан",
+      "count": 4,
+      "first_page": 108
+    },
+    {
+      "region": "Республика Дагестан",
+      "count": 1,
+      "first_page": 116
+    },
+    {
+      "region": "Республика Ингушетия",
+      "count": 2,
+      "first_page": 118
+    },
+    {
+      "region": "Республика Калмыкия",
+      "count": 1,
+      "first_page": 122
+    },
+    {
+      "region": "Республика Татарстан",
+      "count": 1,
+      "first_page": 124
+    },
+    {
+      "region": "Республика Тыва",
+      "count": 1,
+      "first_page": 126
+    },
+    {
+      "region": "Республика Хакасия",
+      "count": 5,
+      "first_page": 128
+    },
+    {
+      "region": "Свердловская область",
+      "count": 3,
+      "first_page": 138
+    },
+    {
+      "region": "Тюменская область",
+      "count": 6,
+      "first_page": 144
+    },
+    {
+      "region": "Ханты-Мансийский АО - Югра",
+      "count": 1,
+      "first_page": 156
+    },
+    {
+      "region": "Челябинская область",
+      "count": 3,
+      "first_page": 158
+    },
+    {
+      "region": "Чеченская Республика",
+      "count": 1,
+      "first_page": 164
+    },
+    {
+      "region": "Ярославская область",
+      "count": 1,
+      "first_page": 166
+    }
+  ]
+}

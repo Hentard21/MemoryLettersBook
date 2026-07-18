@@ -1,0 +1,151 @@
+{
+  "scope": "first four families in refnew.pdf",
+  "policy": "Only hero_flagship assets are candidates for background removal or body extension. Supporting images default to upscale and gentle correction.",
+  "assets": [
+    {
+      "hero_id": "hero-001",
+      "asset_id": "hero-001_photo_01_master",
+      "source_file": "assets/production-input/hero-001/portraits/hero-001_photo_01_master.png",
+      "available_processed_file": "assets/nana-banana-output/portraits/anastasia_portrait_enhanced_white.png",
+      "role": "hero_flagship",
+      "needs_upscale": false,
+      "needs_background_removal": true,
+      "needs_body_extension": false,
+      "priority": "high",
+      "reason": "Уже есть качественная улучшенная версия; для финала нужен прозрачный фон без изменения лица и одежды."
+    },
+    {
+      "hero_id": "hero-001",
+      "asset_id": "hero-001_photo_02_master",
+      "source_file": "assets/production-input/hero-001/groups/hero-001_photo_02_master.png",
+      "role": "group_photo",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "medium",
+      "reason": "Сохранить контекст; только Gigapixel/мягкая коррекция."
+    },
+    {
+      "hero_id": "hero-001",
+      "asset_id": "hero-001_photo_03_master",
+      "source_file": "assets/production-input/hero-001/portraits/hero-001_photo_03_master.png",
+      "role": "supporting_photo",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "medium",
+      "reason": "Сюжетно важны рамка и награда; фон не удалять."
+    },
+    {
+      "hero_id": "hero-001",
+      "asset_id": "hero-001_drawing_01_master",
+      "source_file": "assets/production-input/hero-001/drawings/hero-001_drawing_01_master.png",
+      "enhanced_file": "assets/nana-banana-output/drawings/anastasia_drawing_enhanced.png",
+      "role": "drawing",
+      "needs_upscale": false,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "high",
+      "reason": "Улучшенная версия сверена с исходником: состав и детский штрих сохранены, новых деталей нет."
+    },
+    {
+      "hero_id": "hero-003",
+      "asset_id": "hero-003_p020_image146",
+      "source_file": "assets/production-input/hero-003/portraits/hero-003_p020_image146.jpg",
+      "role": "hero_flagship",
+      "needs_upscale": true,
+      "needs_background_removal": true,
+      "needs_body_extension": false,
+      "priority": "high",
+      "reason": "Единственный кадр самого героя; почти полная фигура уже есть, достраивание не требуется."
+    },
+    {
+      "hero_id": "hero-003",
+      "asset_id": "hero-003_p020_image147",
+      "source_file": "assets/production-input/hero-003/portraits/hero-003_p020_image147.jpg",
+      "role": "supporting_photo",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "medium",
+      "reason": "Фотография ребёнка с портретом героя; фон и предметы сохранить."
+    },
+    {
+      "hero_id": "hero-003",
+      "asset_id": "hero-003_p020_image148",
+      "source_file": "assets/production-input/hero-003/portraits/hero-003_p020_image148.jpg",
+      "role": "supporting_photo",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "medium",
+      "reason": "Фотография ребёнка с портретом и наградой; только улучшение."
+    },
+    {
+      "hero_id": "hero-003",
+      "asset_id": "hero-003_p020_image149",
+      "source_file": "assets/production-input/hero-003/portraits/hero-003_p020_image149.jpg",
+      "role": "supporting_photo",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "medium",
+      "reason": "Фотография ребёнка с портретом и наградой; только улучшение."
+    },
+    {
+      "hero_id": "hero-004",
+      "asset_id": "hero-004_p025_image167",
+      "source_file": "assets/production-input/hero-004/portraits/hero-004_p025_image167.jpg",
+      "role": "hero_flagship",
+      "needs_upscale": true,
+      "needs_background_removal": true,
+      "needs_body_extension": false,
+      "priority": "high",
+      "reason": "Единственный прямой кадр героя в полный рост; сохранить форму, экипировку и предмет в руке."
+    },
+    {
+      "hero_id": "hero-004",
+      "asset_id": "hero-004_p025_image168",
+      "source_file": "assets/production-input/hero-004/portraits/hero-004_p025_image168.jpg",
+      "role": "supporting_photo",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "medium",
+      "reason": "Ребёнок держит фото и награду; удаление фона нарушит документальный смысл."
+    },
+    {
+      "hero_id": "hero-005",
+      "asset_id": "hero-005_p027_image176",
+      "source_file": "assets/production-input/hero-005/groups/hero-005_p027_image176.jpg",
+      "role": "hero_flagship",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "high",
+      "reason": "Лучший кадр для титульного разворота: герой и сын вместе, сохраняется место и одежда."
+    },
+    {
+      "hero_id": "hero-005",
+      "asset_id": "hero-005_p027_image174",
+      "source_file": "assets/production-input/hero-005/groups/hero-005_p027_image174.jpg",
+      "role": "supporting_photo",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "medium",
+      "reason": "Крупный полевой портрет; не достраивать тело, использовать как архивную вставку."
+    },
+    {
+      "hero_id": "hero-005",
+      "asset_id": "hero-005_p027_image175",
+      "source_file": "assets/production-input/hero-005/portraits/hero-005_p027_image175.jpg",
+      "role": "supporting_photo",
+      "needs_upscale": true,
+      "needs_background_removal": false,
+      "needs_body_extension": false,
+      "priority": "medium",
+      "reason": "Фотография сына в форме; сохранить фон, форму и экипировку."
+    }
+  ]
+}

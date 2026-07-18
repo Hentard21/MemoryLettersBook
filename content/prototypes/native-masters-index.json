@@ -1,0 +1,189 @@
+{
+  "note": "Нативные пиксели из потоков PDF (без ре-рендера). Настоящий потолок качества; оригиналы утеряны, это архив-мастер.",
+  "heroes": {
+    "hero-001": [
+      {
+        "file": "assets/native/p012_Image96.png",
+        "source_page": 12,
+        "native_px": [
+          121,
+          248
+        ],
+        "pdf_image_name": "Image96.jp2"
+      },
+      {
+        "file": "assets/native/p012_Image100.png",
+        "source_page": 12,
+        "native_px": [
+          1209,
+          625
+        ],
+        "pdf_image_name": "Image100.jp2"
+      },
+      {
+        "file": "assets/native/p013_Image106.png",
+        "source_page": 13,
+        "native_px": [
+          291,
+          469
+        ],
+        "pdf_image_name": "Image106.jpg"
+      },
+      {
+        "file": "assets/native/p013_Image107.png",
+        "source_page": 13,
+        "native_px": [
+          290,
+          470
+        ],
+        "pdf_image_name": "Image107.jpg"
+      },
+      {
+        "file": "assets/native/p013_Image108.png",
+        "source_page": 13,
+        "native_px": [
+          290,
+          469
+        ],
+        "pdf_image_name": "Image108.jpg"
+      },
+      {
+        "file": "assets/native/p013_Image109.png",
+        "source_page": 13,
+        "native_px": [
+          416,
+          673
+        ],
+        "pdf_image_name": "Image109.jpg"
+      },
+      {
+        "file": "assets/native/p014_Image112.png",
+        "source_page": 14,
+        "native_px": [
+          615,
+          625
+        ],
+        "pdf_image_name": "Image112.jpg"
+      }
+    ],
+    "hero-002": [
+      {
+        "file": "assets/native/p015_Image96.png",
+        "source_page": 15,
+        "native_px": [
+          121,
+          248
+        ],
+        "pdf_image_name": "Image96.jp2"
+      },
+      {
+        "file": "assets/native/p015_Image115.png",
+        "source_page": 15,
+        "native_px": [
+          1209,
+          625
+        ],
+        "pdf_image_name": "Image115.jp2"
+      },
+      {
+        "file": "assets/native/p015_Image118.png",
+        "source_page": 15,
+        "native_px": [
+          605,
+          312
+        ],
+        "pdf_image_name": "Image118.jpg"
+      },
+      {
+        "file": "assets/native/p016_Image121.png",
+        "source_page": 16,
+        "native_px": [
+          741,
+          939
+        ],
+        "pdf_image_name": "Image121.jp2"
+      },
+      {
+        "file": "assets/native/p016_Image123.png",
+        "source_page": 16,
+        "native_px": [
+          723,
+          949
+        ],
+        "pdf_image_name": "Image123.jp2"
+      },
+      {
+        "file": "assets/native/p016_Image125.png",
+        "source_page": 16,
+        "native_px": [
+          749,
+          986
+        ],
+        "pdf_image_name": "Image125.jp2"
+      },
+      {
+        "file": "assets/native/p017_Image121.png",
+        "source_page": 17,
+        "native_px": [
+          741,
+          939
+        ],
+        "pdf_image_name": "Image121.jp2"
+      },
+      {
+        "file": "assets/native/p017_Image123.png",
+        "source_page": 17,
+        "native_px": [
+          723,
+          949
+        ],
+        "pdf_image_name": "Image123.jp2"
+      },
+      {
+        "file": "assets/native/p017_Image129.png",
+        "source_page": 17,
+        "native_px": [
+          722,
+          940
+        ],
+        "pdf_image_name": "Image129.jp2"
+      },
+      {
+        "file": "assets/native/p017_Image131.png",
+        "source_page": 17,
+        "native_px": [
+          616,
+          839
+        ],
+        "pdf_image_name": "Image131.jpg"
+      },
+      {
+        "file": "assets/native/p017_Image132.png",
+        "source_page": 17,
+        "native_px": [
+          1122,
+          878
+        ],
+        "pdf_image_name": "Image132.jp2"
+      },
+      {
+        "file": "assets/native/p018_Image136.png",
+        "source_page": 18,
+        "native_px": [
+          1367,
+          944
+        ],
+        "pdf_image_name": "Image136.jp2"
+      },
+      {
+        "file": "assets/native/p018_Image138.png",
+        "source_page": 18,
+        "native_px": [
+          1449,
+          772
+        ],
+        "pdf_image_name": "Image138.jp2"
+      }
+    ]
+  }
+}

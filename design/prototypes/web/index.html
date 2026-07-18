@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Письма памяти — истории героев (прототип)</title>
+<meta name="description" content="Прототип веб-версии мемориального издания «Письма памяти»: письма, фотографии и рисунки детей героев.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">Письма памяти <small>Том I · прототип</small></a>
+    <nav class="site-nav" aria-label="Основная навигация">
+      <a href="index.html" aria-current="page">Герои</a>
+      <a href="hero-001.html">Моя мама Анастасия</a>
+      <a href="hero-002.html">Наш отец Игорь</a>
+    </nav>
+  </div>
+  <div class="tri" role="presentation"><i></i><i></i><i></i></div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <p class="kicker">Всероссийская книга</p>
+    <h1>Письма памяти</h1>
+    <p class="lead">Письма, рисунки и фотографии детей, чьи родители — Герои, погибшие при исполнении воинского долга. Каждая история — подлинные семейные документы: рукописное письмо ребёнка, семейный архив, детский рисунок.</p>
+    <p class="prose" style="font:15px/1.6 var(--ui);color:var(--muted)">Прототип: 2 истории из 76. Издано по инициативе АНО «Центр поддержки детей военнослужащих».</p>
+
+    <section aria-labelledby="heroes-h">
+      <h2 id="heroes-h">Истории героев</h2>
+      <div class="hero-grid">
+        <a class="hero-card reveal" href="hero-001.html">
+          <span class="ph"><img src="assets/img/hero-001/p013_img01.jpg" alt="Портретная фотография из семейного архива героя" loading="lazy" width="640" height="480"></span>
+          <span class="body">
+            <span class="region">Волгоградская область · г. Волгоград</span>
+            <span class="name">МОЯ МАМА АНАСТАСИЯ</span>
+            <span class="authors">Письмо: Игорь · 1 письмо · 3 фотографии · 1 рисунок</span>
+          </span>
+        </a>
+        <a class="hero-card reveal" href="hero-002.html">
+          <span class="ph"><img src="assets/img/hero-002/p017_img01.jpg" alt="Фотография из семейного архива: военнослужащий в лесу" loading="lazy" width="640" height="480"></span>
+          <span class="body">
+            <span class="region">Донецкая Народная Республика · г. Новосибирск</span>
+            <span class="name">НАШ ОТЕЦ ИГОРЬ</span>
+            <span class="authors">Письма: Назар и Элина · 3 письма · 4 фотографии · 1 рисунок</span>
+          </span>
+        </a>
+        <div class="hero-card hero-card--stub reveal" aria-label="Остальные истории готовятся">
+          <p><b style="color:var(--ink)">Ещё 74 истории</b><br>появятся после подтверждения данных семей и получения оригинальных материалов (PPTX).</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Прототип веб-версии. Изображения — временные, из контрольного PDF (<code>pdf_reference</code>), подлежат замене оригиналами.</span>
+    <span>Тексты писем приводятся дословно, с сохранением авторской орфографии. Имена и факты не публикуются без подтверждения.</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

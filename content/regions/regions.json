@@ -1,0 +1,45 @@
+{
+  "source_map": "design/prototypes/print-v11/assets/maps/map-ru.svg",
+  "map_license_note": "Simplemaps Russia SVG, commercial-use license notice retained in source SVG.",
+  "highlight_color": "#7E3B44",
+  "other_regions_color": "#DFE2E5",
+  "label_color": "#22385A",
+  "regions": [
+    {
+      "region_id": "volgograd-oblast",
+      "region_code": "RU-VGG",
+      "official_name": "Волгоградская область",
+      "city": "Волгоград",
+      "map_feature_id": "RUVGG",
+      "map_file": "design/prototypes/print-v11/assets/maps/volgograd-oblast.svg",
+      "print_render_file": "design/prototypes/print-v11/assets/maps/volgograd-oblast.png",
+      "emblem_file": "design/prototypes/print-v11/assets/symbols/volgograd-oblast-emblem-reference.png",
+      "reference_pages": [8],
+      "status": "verified"
+    },
+    {
+      "region_id": "novosibirsk-oblast",
+      "region_code": "RU-NVS",
+      "official_name": "Новосибирская область",
+      "city": "Новосибирск",
+      "map_feature_id": "RUNVS",
+      "map_file": "design/prototypes/print-v11/assets/maps/novosibirsk-oblast.svg",
+      "print_render_file": "design/prototypes/print-v11/assets/maps/novosibirsk-oblast.png",
+      "emblem_file": "design/prototypes/print-v11/assets/symbols/novosibirsk-oblast-emblem-reference.png",
+      "reference_pages": [11, 18],
+      "status": "verified"
+    },
+    {
+      "region_id": "republic-of-khakassia",
+      "region_code": "RU-KK",
+      "official_name": "Республика Хакасия",
+      "city": "Абакан",
+      "map_feature_id": "RUKK",
+      "map_file": "design/prototypes/print-v11/assets/maps/republic-of-khakassia.svg",
+      "print_render_file": "design/prototypes/print-v11/assets/maps/republic-of-khakassia.png",
+      "emblem_file": "design/prototypes/print-v11/assets/symbols/khakassia-emblem-reference.png",
+      "reference_pages": [16],
+      "status": "verified"
+    }
+  ]
+}

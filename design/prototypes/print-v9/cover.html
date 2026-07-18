@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>ПИСЬМА ПАМЯТИ — обложка</title>
+<style>
+/* Передняя обложка: 260×200 + вылет 3мм = 266×206. Утверждённый арт
+   полноэкранно; название уже в арте — текст поверх не дублируется.
+   Логотипы на лицевой стороне не размещаются. */
+*{box-sizing:border-box;margin:0}
+@page{size:266mm 206mm;margin:0}
+html,body{background:#878B90}
+.cover{width:266mm;height:206mm;position:relative;overflow:hidden;background:#F7F4EE}
+.cover img.art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+</style>
+</head>
+<body>
+<div class="cover">
+  <img class="art" src="../../cover-v1/artwork/cover-art.png" alt="Обложка: Всероссийская книга «Письма памяти», Том I — конверт с письмом, сухоцветы, триколорные линии">
+</div>
+</body>
+</html>

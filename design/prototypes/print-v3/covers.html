@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>ПИСЬМА ПАМЯТИ — обложки v3 (НЕ ДЛЯ ТИРАЖА)</title>
+<style>
+:root{
+  --paper:#F7F5F1; --surface:#fff; --ink:#1E2732; --ink-soft:#46525F; --muted:#6E7883;
+  --line:#E1DDD4; --blue:#2C4A73; --red:#9E3A3E; --graphite:#20293A; --deepblue:#1B2C48;
+  --serif:Georgia,"Times New Roman",serif; --ui:system-ui,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+@page{size:546mm 206mm;margin:0}
+html,body{background:#8B8F94}
+.cover{width:546mm;height:206mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);
+  font:11pt/1.5 var(--serif);color:var(--ink)}
+.trim{position:absolute;left:3mm;top:3mm;right:3mm;bottom:3mm;border:.25pt dashed rgba(158,58,62,.55);pointer-events:none;z-index:8}
+.fold{position:absolute;top:3mm;bottom:3mm;width:0;border-left:.25pt dashed rgba(44,74,115,.5);pointer-events:none;z-index:8}
+.fold.a{left:263mm}.fold.b{left:283mm}
+.mark{position:absolute;left:6mm;top:5mm;z-index:9;font:700 7pt/1 var(--ui);letter-spacing:.12em;color:#fff;background:var(--red);padding:2mm 3mm;text-transform:uppercase}
+.panel{position:absolute;top:3mm;height:200mm;overflow:hidden}
+.back{left:3mm;width:260mm}.spine{left:263mm;width:20mm}.front{left:283mm;width:260mm}
+.safe{position:absolute;left:16mm;right:16mm;top:16mm;bottom:16mm}
+.tri{display:flex;flex-direction:column;height:2.5mm;width:44mm;border:.25pt solid rgba(0,0,0,.15)}
+.tri i{flex:1}.tri i:nth-child(1){background:#fff}.tri i:nth-child(2){background:var(--blue)}.tri i:nth-child(3){background:var(--red)}
+.title{font:400 46pt/1.02 var(--serif);letter-spacing:.02em}
+.title.sm{font-size:30pt}
+.sub{font:400 13pt/1.4 var(--serif);color:var(--ink-soft)}
+.org{font:600 8.5pt/1.4 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.spine-txt{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(90deg);white-space:nowrap;
+  font:400 15pt/1 var(--serif);letter-spacing:.06em}
+.spine-year{position:absolute;left:50%;bottom:10mm;transform:translateX(-50%) rotate(90deg);transform-origin:center;
+  font:600 8pt/1 var(--ui);color:var(--muted)}
+.hand{position:absolute;object-fit:cover;filter:saturate(.9)}
+.blurb{font:400 10.5pt/1.5 var(--serif);color:var(--ink-soft);max-width:150mm}
+.qr{width:22mm;height:22mm}
+.cap{font:7.5pt/1.4 var(--ui);color:var(--muted)}
+.concept-tag{position:absolute;right:6mm;top:5mm;z-index:9;font:600 7.5pt/1 var(--ui);letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);background:#fff;border:.25pt solid var(--line);padding:2mm 3mm}
+</style>
+</head>
+<body>
+
+<!-- ============ КОНЦЕПЦИЯ 1 — Подлинный почерк ============ -->
+<section class="cover">
+  <span class="mark">Prototype — not for production</span><span class="concept-tag">Обложка · концепция 1 · «Подлинный почерк»</span>
+  <div class="trim"></div><div class="fold a"></div><div class="fold b"></div>
+  <!-- задняя -->
+  <div class="panel back"><div class="safe">
+    <div class="tri"><i></i><i></i><i></i></div>
+    <p class="blurb" style="margin-top:14mm">Книга собрана из писем, которые дети написали своим родителям — Героям, не вернувшимся домой. Из каждой семейной истории выбрано одно: главная фотография, письмо и строчка, которую хочется перечитать. Полный архив — по коду внутри.</p>
+    <div style="position:absolute;left:16mm;bottom:16mm">
+      <p class="org">Автономная некоммерческая организация<br>«Центр поддержки детей военнослужащих»</p>
+      <p class="cap" style="margin-top:3mm">Год народного единства России · 2026 · Том I</p>
+    </div>
+  </div></div>
+  <!-- корешок -->
+  <div class="panel spine" style="background:var(--paper);border-left:.2pt solid var(--line);border-right:.2pt solid var(--line)">
+    <div class="spine-txt">ПИСЬМА ПАМЯТИ · ТОМ I</div>
+    <div class="spine-year">2026</div>
+  </div>
+  <!-- передняя -->
+  <div class="panel front"><div class="safe">
+    <div class="tri" style="margin-top:2mm"><i></i><i></i><i></i></div>
+    <h1 class="title" style="margin-top:30mm">ПИСЬМА<br>ПАМЯТИ</h1>
+    <p class="sub" style="margin-top:6mm">Дети — о своих героях · Том I</p>
+    <!-- подлинный фрагмент детского письма -->
+    <img class="hand" src="../web/assets/img/hero-001/p014_img01.jpg" alt=""
+         style="left:16mm;bottom:16mm;width:120mm;height:52mm;object-position:0 -8mm;
+         -webkit-mask-image:linear-gradient(90deg,#000 70%,transparent);mask-image:linear-gradient(90deg,#000 70%,transparent);opacity:.9">
+    <p class="org" style="position:absolute;right:16mm;bottom:16mm">АНО «Центр поддержки детей военнослужащих» · 2026</p>
+  </div></div>
+</section>
+
+<!-- ============ КОНЦЕПЦИЯ 2 — География памяти ============ -->
+<section class="cover">
+  <span class="mark">Prototype — not for production</span><span class="concept-tag">Обложка · концепция 2 · «География памяти»</span>
+  <div class="trim"></div><div class="fold a"></div><div class="fold b"></div>
+  <div class="panel back"><div class="safe">
+    <div class="tri"><i></i><i></i><i></i></div>
+    <p class="blurb" style="margin-top:14mm">76 семей из десятков регионов России. Одна семья — один разворот, одно письмо, одна память. Общая карта на обложке — о том, что эти письма собраны со всей страны.</p>
+    <p class="org" style="position:absolute;left:16mm;bottom:16mm">АНО «Центр поддержки детей военнослужащих» · Том I · 2026</p>
+  </div></div>
+  <div class="panel spine" style="background:var(--paper);border-left:.2pt solid var(--line);border-right:.2pt solid var(--line)">
+    <div class="spine-txt">ПИСЬМА ПАМЯТИ · ТОМ I</div><div class="spine-year">2026</div>
+  </div>
+  <div class="panel front" style="background:linear-gradient(180deg,#F7F5F1,#EEEAE1)"><div class="safe">
+    <img src="assets/map-base.png" alt="" style="position:absolute;left:8mm;top:64mm;width:236mm;opacity:.28;filter:grayscale(1)">
+    <!-- схематичные метки регионов -->
+    <svg viewBox="0 0 236 120" style="position:absolute;left:8mm;top:64mm;width:236mm" aria-hidden="true">
+      <circle cx="60" cy="66" r="2.4" fill="#9E3A3E"/><circle cx="96" cy="58" r="2.4" fill="#2C4A73"/>
+      <circle cx="120" cy="60" r="2.8" fill="#2C4A73"/><circle cx="150" cy="56" r="2.4" fill="#2C4A73"/>
+      <circle cx="176" cy="62" r="2.4" fill="#2C4A73"/><circle cx="70" cy="78" r="2.4" fill="#2C4A73"/>
+    </svg>
+    <div class="tri" style="margin-top:2mm"><i></i><i></i><i></i></div>
+    <h1 class="title" style="margin-top:22mm">ПИСЬМА<br>ПАМЯТИ</h1>
+    <p class="sub" style="margin-top:6mm">География памяти · Том I</p>
+    <img class="hand" src="../web/assets/img/hero-002/p018_img01.jpg" alt=""
+         style="right:16mm;top:20mm;width:70mm;height:34mm;object-position:0 -4mm;
+         -webkit-mask-image:linear-gradient(180deg,#000 60%,transparent);mask-image:linear-gradient(180deg,#000 60%,transparent);opacity:.5">
+  </div></div>
+</section>
+
+<!-- ============ КОНЦЕПЦИЯ 3 — Тёмная издательская ============ -->
+<section class="cover" style="background:var(--deepblue)">
+  <span class="mark">Prototype — not for production</span><span class="concept-tag" style="background:transparent;color:#9FB0C6;border-color:#3A4E6E">Обложка · концепция 3 · «Тёмная издательская»</span>
+  <div class="trim" style="border-color:rgba(255,255,255,.25)"></div><div class="fold a" style="border-color:rgba(255,255,255,.2)"></div><div class="fold b" style="border-color:rgba(255,255,255,.2)"></div>
+  <div class="panel back" style="background:var(--deepblue)"><div class="safe">
+    <div class="tri" style="border-color:rgba(255,255,255,.2)"><i></i><i></i><i></i></div>
+    <p class="blurb" style="margin-top:14mm;color:#C7D2E0">Книга собрана из детских писем к родителям — Героям, не вернувшимся домой. Тихое, документальное издание памяти. Полный архив каждой истории — по коду внутри.</p>
+    <p class="org" style="position:absolute;left:16mm;bottom:16mm;color:#8DA0BA">АНО «Центр поддержки детей военнослужащих» · 2026</p>
+  </div></div>
+  <div class="panel spine" style="background:var(--graphite)">
+    <div class="spine-txt" style="color:#EAF0F7">ПИСЬМА ПАМЯТИ · ТОМ I</div>
+    <div class="spine-year" style="color:#8DA0BA">2026</div>
+  </div>
+  <div class="panel front" style="background:var(--deepblue)"><div class="safe">
+    <div class="tri" style="margin-top:2mm;border-color:rgba(255,255,255,.2)"><i></i><i></i><i></i></div>
+    <!-- имитация тиснения: светлый текст с мягкой фаской -->
+    <h1 class="title" style="margin-top:34mm;color:#F2F5F9;text-shadow:0 .3mm 0 rgba(255,255,255,.25),0 -.3mm 0 rgba(0,0,0,.4)">ПИСЬМА<br>ПАМЯТИ</h1>
+    <p class="sub" style="margin-top:6mm;color:#AFC0D6">Том I · издание памяти</p>
+    <img class="hand" src="../web/assets/img/hero-001/p014_img01.jpg" alt=""
+         style="left:16mm;bottom:16mm;width:96mm;height:40mm;object-position:0 -8mm;mix-blend-mode:screen;opacity:.32">
+    <p class="org" style="position:absolute;right:16mm;bottom:16mm;color:#8DA0BA">2026</p>
+  </div></div>
+</section>
+
+</body>
+</html>

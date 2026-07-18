@@ -1,0 +1,484 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-07-16",
+  "source_of_truth": "source/reference.pdf (PPTX утерян)",
+  "description": "Манифест апскейла через Topaz Gigapixel. master → assets/master-from-pdf; результат владелец кладёт в assets/derived-upscaled с именем <asset_id>_upscaled.<ext>. Порядок и правила — docs/gigapixel-batch-guide.md.",
+  "groups": [
+    "photo_face",
+    "photo_documentary",
+    "letter_handwriting",
+    "drawing_child_art",
+    "mixed_manual",
+    "cover_material",
+    "map_or_emblem"
+  ],
+  "gigapixel_status_values": [
+    "pending",
+    "done",
+    "skipped"
+  ],
+  "review_status_values": [
+    "not_reviewed",
+    "approved",
+    "needs_redo",
+    "rejected"
+  ],
+  "assets": [
+    {
+      "entity_id": "hero-001",
+      "asset_id": "hero-001_photo_01",
+      "asset_type": "photo",
+      "source_file": "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_01_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 291,
+        "height": 469
+      },
+      "recommended_upscale_group": "photo_face",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": true,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-001/photos/hero-001_photo_01_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-001/p013_img01.jpg",
+      "gigapixel_status": "done",
+      "review_status": "approved",
+      "publish_blocked": false,
+      "notes": []
+    },
+    {
+      "entity_id": "hero-001",
+      "asset_id": "hero-001_photo_02",
+      "asset_type": "photo",
+      "source_file": "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_02_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 290,
+        "height": 470
+      },
+      "recommended_upscale_group": "photo_face",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": true,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-001/photos/hero-001_photo_02_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-001/p013_img03.jpg",
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Двое в форме на мероприятии"
+      ]
+    },
+    {
+      "entity_id": "hero-001",
+      "asset_id": "hero-001_photo_03",
+      "asset_type": "photo",
+      "source_file": "assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_03_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 290,
+        "height": 469
+      },
+      "recommended_upscale_group": "photo_face",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": true,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-001/photos/hero-001_photo_03_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-001/p013_img04.jpg",
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Подросток держит портрет и награду"
+      ]
+    },
+    {
+      "entity_id": "hero-001",
+      "asset_id": "hero-001_drawing_01",
+      "asset_type": "drawing",
+      "source_file": "assets/master-from-pdf/heroes/hero-001/drawings/hero-001_drawing_01_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 416,
+        "height": 673
+      },
+      "recommended_upscale_group": "drawing_child_art",
+      "priority": "medium",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": true,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-001/drawings/hero-001_drawing_01_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-001/p013_img02.jpg",
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": []
+    },
+    {
+      "entity_id": "hero-001",
+      "asset_id": "hero-001_letter_01",
+      "asset_type": "letter",
+      "source_file": "assets/master-from-pdf/heroes/hero-001/letters/hero-001_letter_01_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 615,
+        "height": 625
+      },
+      "recommended_upscale_group": "letter_handwriting",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": true,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-001/letters/hero-001_letter_01_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-001/p014_img01.jpg",
+      "gigapixel_status": "done",
+      "review_status": "approved",
+      "publish_blocked": false,
+      "notes": []
+    },
+    {
+      "entity_id": "hero-001",
+      "asset_id": "hero-001_title_award",
+      "asset_type": "title",
+      "source_file": "assets/master-from-pdf/heroes/hero-001/title/hero-001_title_award_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 121,
+        "height": 248
+      },
+      "recommended_upscale_group": "map_or_emblem",
+      "priority": "low",
+      "recommended_scale": "skip_prefer_vector",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-001/title/hero-001_title_award_upscaled.png",
+      "web_prototype_file": null,
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Изображение награды — атрибуция FACT_LOCKED; предпочтительно вектор, не апскейлить агрессивно"
+      ]
+    },
+    {
+      "entity_id": "hero-001",
+      "asset_id": "hero-001_title_map",
+      "asset_type": "title",
+      "source_file": "assets/master-from-pdf/heroes/hero-001/title/hero-001_title_map_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 1209,
+        "height": 625
+      },
+      "recommended_upscale_group": "map_or_emblem",
+      "priority": "low",
+      "recommended_scale": "skip_prefer_vector",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-001/title/hero-001_title_map_upscaled.png",
+      "web_prototype_file": null,
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Карта России с меткой — будет пересоздана вектором (map-and-emblems-plan)"
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_photo_01",
+      "asset_type": "photo",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_01_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 723,
+        "height": 949
+      },
+      "recommended_upscale_group": "photo_face",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": true,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_01_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p016_img01.jpg",
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Девочка на фоне флага с рисунком"
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_photo_02",
+      "asset_type": "photo",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_02_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 741,
+        "height": 939
+      },
+      "recommended_upscale_group": "photo_face",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": true,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_02_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p016_img02.jpg",
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Мальчик держит рисунок-сердце"
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_photo_03",
+      "asset_type": "photo",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_03_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 749,
+        "height": 986
+      },
+      "recommended_upscale_group": "photo_face",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": true,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_03_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p016_img03.jpg",
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Двое детей на фоне флага с портретом и наградами"
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_photo_04",
+      "asset_type": "photo",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_04_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 722,
+        "height": 940
+      },
+      "recommended_upscale_group": "photo_face",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": true,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/photos/hero-002_photo_04_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p017_img01.jpg",
+      "gigapixel_status": "done",
+      "review_status": "approved",
+      "publish_blocked": false,
+      "notes": [
+        "Военнослужащий в лесу (герой)"
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_drawing_01",
+      "asset_type": "drawing",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/drawings/hero-002_drawing_01_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 616,
+        "height": 839
+      },
+      "recommended_upscale_group": "drawing_child_art",
+      "priority": "medium",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": true,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/drawings/hero-002_drawing_01_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p017_img03.jpg",
+      "gigapixel_status": "done",
+      "review_status": "approved",
+      "publish_blocked": false,
+      "notes": []
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_letter_01",
+      "asset_type": "letter",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_01_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 1122,
+        "height": 878
+      },
+      "recommended_upscale_group": "letter_handwriting",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": true,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_01_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p017_img05.jpg",
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": true,
+      "notes": [
+        "eq-009: письмо про отца «Ильшат», подпись «Максим» — не публиковать в hero-002 до решения. Апскейлить можно (читаемость), но принадлежность спорна."
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_letter_02",
+      "asset_type": "letter",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_02_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 1367,
+        "height": 944
+      },
+      "recommended_upscale_group": "letter_handwriting",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": true,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_02_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p018_img01.jpg",
+      "gigapixel_status": "done",
+      "review_status": "approved",
+      "publish_blocked": false,
+      "notes": []
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_letter_03",
+      "asset_type": "letter",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_03_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 1449,
+        "height": 772
+      },
+      "recommended_upscale_group": "letter_handwriting",
+      "priority": "high",
+      "recommended_scale": "4x_or_auto",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": true,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/letters/hero-002_letter_03_upscaled.png",
+      "web_prototype_file": "design/prototypes/web/assets/img/hero-002/p018_img02.jpg",
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": []
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_title_award",
+      "asset_type": "title",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_award_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 121,
+        "height": 248
+      },
+      "recommended_upscale_group": "map_or_emblem",
+      "priority": "low",
+      "recommended_scale": "skip_prefer_vector",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/title/hero-002_title_award_upscaled.png",
+      "web_prototype_file": null,
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Награда — FACT_LOCKED; вектор"
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_title_map",
+      "asset_type": "title",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 1209,
+        "height": 625
+      },
+      "recommended_upscale_group": "map_or_emblem",
+      "priority": "low",
+      "recommended_scale": "skip_prefer_vector",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/title/hero-002_title_map_upscaled.png",
+      "web_prototype_file": null,
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Карта России с меткой — вектор"
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "asset_id": "hero-002_title_map2",
+      "asset_type": "title",
+      "source_file": "assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map2_master.png",
+      "source_origin": "pdf_master",
+      "source_dimensions": {
+        "width": 605,
+        "height": 312
+      },
+      "recommended_upscale_group": "map_or_emblem",
+      "priority": "low",
+      "recommended_scale": "skip_prefer_vector",
+      "recommended_output_format": "png",
+      "face_sensitive": false,
+      "handwriting_sensitive": false,
+      "drawing_sensitive": false,
+      "expected_derived_file": "assets/derived-upscaled/heroes/hero-002/title/hero-002_title_map2_upscaled.png",
+      "web_prototype_file": null,
+      "gigapixel_status": "pending",
+      "review_status": "not_reviewed",
+      "publish_blocked": false,
+      "notes": [
+        "Вторая карта/эмблема — вектор"
+      ]
+    }
+  ]
+}

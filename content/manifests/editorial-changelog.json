@@ -1,0 +1,46 @@
+{
+  "changelog_version": "0.1.0",
+  "description": "Журнал редакционных правок. Каждая правка любого текста для сайта/печати проходит через запись здесь. Исходные тексты (source_text) не изменяются никогда. Категории и правила — docs/AI_HANDOFF.md (Editorial policy), процесс — docs/editorial-workflow.md. CSV-зеркало для ручного просмотра: editorial-changelog.csv (перегенерируется из этого файла).",
+  "entry_schema": {
+    "change_id": "строка, уникальный id вида ed-0001",
+    "entity_id": "id сущности (hero-NNN, letter-NNN, fragment-NNN...)",
+    "pdf_pages": "страницы исходного PDF",
+    "source_text": "исходный текст дословно",
+    "proposed_text": "предложенный текст (null, если вопрос без предложения)",
+    "edit_category": "SAFE_TECHNICAL_EDIT | APPROVAL_REQUIRED | FACT_LOCKED | UNCERTAIN_SOURCE",
+    "reason": "объяснение, зачем нужна правка",
+    "confirmation_source": "источник подтверждения (обязателен для FACT_LOCKED; null если нет)",
+    "proposed_by": "автор предложения (агент/человек)",
+    "status": "not_reviewed | technical_edit_applied | proposal_created | approval_required | approved | rejected | source_verification_required",
+    "date": "ISO-дата создания записи",
+    "owner_decision": {
+      "decision": "approved | rejected | deferred | null",
+      "decided_by": "владелец проекта",
+      "decided_at": "ISO-дата решения",
+      "comment": "комментарий владельца"
+    }
+  },
+  "entries": [
+    {
+      "change_id": "ed-0001",
+      "entity_id": "hero-001-letter-01",
+      "pdf_pages": [
+        14
+      ],
+      "source_text": "ситуац[и]ях (ошибочная реконструкция буквы в черновой расшифровке); служебные вставки [дину — край скана обрезан], [оте — край скана обрезан], [подпись: Сави(н)… — нрзб] внутри читаемого текста; прямые кавычки",
+      "proposed_text": "ситуациях; обрывы края скана показаны как «…»; ёлочки «…»; служебные пометки вынесены из читаемого текста в архивную (diplomatic) версию",
+      "edit_category": "SAFE_TECHNICAL_EDIT",
+      "reason": "Убрана ложная реконструкция буквы «и» (в оригинале написано «ситуациях», перо оставило помарку). Читаемый (reader) слой очищен от служебных скобок — они сохранены только в архивной diplomatic-версии. Причина правки — читаемость, смысл и авторские особенности не изменены.",
+      "confirmation_source": "source/reference.pdf стр.14 (перечитан скан p014_img01)",
+      "proposed_by": "agent",
+      "status": "technical_edit_applied",
+      "date": "2026-07-16",
+      "owner_decision": {
+        "decision": null,
+        "decided_by": null,
+        "decided_at": null,
+        "comment": "Закрывающая строка и подпись письма НЕ дочитаны — ждут человеческой сверки (reader_version_approved остаётся false)"
+      }
+    }
+  ]
+}

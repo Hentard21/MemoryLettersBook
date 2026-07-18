@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>ПИСЬМА ПАМЯТИ — печатный прототип (НЕ ДЛЯ ТИРАЖА)</title>
+<style>
+/* ============================================================
+   ПЕЧАТНЫЙ ПРОТОТИП. Рабочий формат: полоса 280×210 мм, разворот
+   560×210 мм, вылет 3 мм => лист 566×216 мм. Формат НЕ утверждён
+   типографией. Изображения pdf_reference — НЕ печатные исходники.
+   ============================================================ */
+:root{
+  --paper:#F7F5F1; --surface:#fff; --ink:#1E2732; --ink-soft:#46525F; --muted:#6E7883;
+  --line:#E1DDD4; --blue:#2C4A73; --red:#9E3A3E;
+  --warn-bg:#FBF3E4; --warn-line:#C98A2B; --warn-ink:#6E4E10;
+  --serif:Georgia,"Times New Roman",serif; --ui:system-ui,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+@page{size:566mm 216mm;margin:0}
+html,body{background:#8B8F94}
+.spread{
+  width:566mm;height:216mm;position:relative;background:var(--paper);overflow:hidden;
+  page-break-after:always;margin:10mm auto;
+  font:10.5pt/1.55 var(--serif);color:var(--ink);
+}
+@media print{.spread{margin:0}}
+
+/* технические направляющие (прототип): обрезной формат и корешок */
+.guides .trim{position:absolute;left:3mm;top:3mm;right:3mm;bottom:3mm;border:.25pt dashed rgba(158,58,62,.8);pointer-events:none}
+.guides .spine{position:absolute;left:283mm;top:3mm;bottom:3mm;width:0;border-left:.25pt dashed rgba(44,74,115,.7);pointer-events:none}
+.not-for-print{
+  position:absolute;left:6mm;top:5.5mm;z-index:9;
+  font:700 7pt/1 var(--ui);letter-spacing:.14em;color:#fff;background:var(--red);
+  padding:2mm 3mm;text-transform:uppercase}
+
+/* полосы: рабочие поля внутри обрезного (внеш. 16, верх 16, низ 18, корешок 20) */
+.pg{position:absolute;top:3mm;height:210mm;width:280mm}
+.pg.left{left:3mm}
+.pg.right{left:283mm}
+.pg .safe{position:absolute;overflow:hidden}
+.pg.left  .safe{left:16mm;right:20mm;top:16mm;bottom:18mm}
+.pg.right .safe{left:20mm;right:16mm;top:16mm;bottom:18mm}
+
+.running{position:absolute;bottom:8mm;font:600 6.5pt/1 var(--ui);letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.pg.left .running{left:16mm}
+.pg.right .running{right:16mm;text-align:right}
+
+.kicker{font:600 9pt/1.4 var(--ui);letter-spacing:.16em;text-transform:uppercase;color:var(--blue)}
+h1{font:400 34pt/1.08 var(--serif);letter-spacing:.01em;margin:6mm 0 5mm}
+h2{font:400 20pt/1.15 var(--serif);margin:0 0 5mm}
+.tri{height:2.5mm;display:flex;flex-direction:column;border:.25pt solid var(--line);max-width:52mm;margin:6mm 0}
+.tri i{flex:1}.tri i:nth-child(1){background:#fff}.tri i:nth-child(2){background:var(--blue)}.tri i:nth-child(3){background:var(--red)}
+.meta{font:9.5pt/1.7 var(--ui);color:var(--ink-soft)}
+.meta b{color:var(--ink)}
+.cap{font:7.5pt/1.45 var(--ui);color:var(--muted)}
+.badge{display:inline-block;font:700 6.5pt/1 var(--ui);letter-spacing:.1em;text-transform:uppercase;
+  border:.25pt solid var(--line);color:var(--muted);background:var(--surface);padding:1.2mm 2mm}
+.badge--draft{color:var(--warn-ink);background:var(--warn-bg);border-color:var(--warn-line)}
+.notice{background:var(--warn-bg);border:.25pt solid var(--warn-line);color:var(--warn-ink);font:8.5pt/1.5 var(--ui);padding:4mm}
+.placeholder{border:.4pt dashed var(--muted);color:var(--muted);font:9pt/1.5 var(--ui);padding:5mm;background:rgba(255,255,255,.5)}
+
+figure.doc{background:var(--surface);border:.25pt solid var(--line);box-shadow:0 .6mm 2.4mm rgba(30,39,50,.14);padding:4mm;display:inline-block}
+figure.doc img{display:block;width:100%;height:auto}
+figure.doc figcaption{padding-top:2.5mm}
+
+.full-bleed-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.photo-caption-box{position:absolute;left:20mm;bottom:12mm;background:rgba(255,255,255,.92);padding:3mm 4mm;max-width:120mm}
+
+blockquote.pull{border-left:1mm solid var(--blue);padding:2mm 0 2mm 7mm;font:400 19pt/1.42 var(--serif);max-width:200mm}
+blockquote.pull footer{font:8.5pt/1.5 var(--ui);color:var(--muted);margin-top:4mm}
+
+pre.tr{white-space:pre-wrap;font:10.5pt/1.8 var(--serif);margin:4mm 0 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8mm;align-items:start}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8mm;align-items:start}
+</style>
+</head>
+<body>
+
+<!-- ============ РАЗВОРОТ 1: hero-001 открывающий ============ -->
+<section class="spread guides" aria-label="Разворот 1: открывающий, МОЯ МАМА АНАСТАСИЯ">
+  <span class="not-for-print">Prototype — not for print</span>
+  <div class="trim"></div><div class="spine"></div>
+  <div class="pg left"><div class="safe">
+    <p class="kicker">Письма памяти · Истории героев</p>
+    <h1>МОЯ МАМА<br>АНАСТАСИЯ</h1>
+    <div class="tri"><i></i><i></i><i></i></div>
+    <p class="meta"><b>Письмо:</b> Игорь<br><b>Регион:</b> Волгоградская область<br><b>Город:</b> г. Волгоград</p>
+    <p class="cap" style="position:absolute;bottom:0;max-width:150mm">Материалы: письмо, три фотографии семейного архива, детский рисунок. Источник: стр. 12–14 контрольного PDF (pdf_reference).</p>
+  </div><span class="running">Письма памяти · Том I</span></div>
+  <div class="pg right">
+    <img class="full-bleed-img" src="../web/assets/img/hero-001/p013_img01.jpg" alt="Портретная фотография из семейного архива — на всю полосу">
+    <div class="photo-caption-box"><span class="cap">Фотография из семейного архива · временное изображение (pdf_reference), для тиража — оригинал из PPTX</span></div>
+  </div>
+</section>
+
+<!-- ============ РАЗВОРОТ 2: hero-001 биографический ============ -->
+<section class="spread guides" aria-label="Разворот 2: биографический, МОЯ МАМА АНАСТАСИЯ">
+  <span class="not-for-print">Prototype — not for print</span>
+  <div class="trim"></div><div class="spine"></div>
+  <div class="pg left"><div class="safe">
+    <p class="kicker">Волгоградская область · г. Волгоград</p>
+    <h2 style="margin-top:5mm">Анастасия — мама Игоря</h2>
+    <p class="meta" style="max-width:200mm"><b>Подтверждённые данные (из титула книги):</b><br>
+      обращение — «МОЯ МАМА АНАСТАСИЯ»; автор письма — Игорь;<br>
+      регион — Волгоградская область; город — г. Волгоград.</p>
+    <div class="placeholder" style="margin-top:8mm;max-width:220mm">
+      Биографический текст (полное имя, годы жизни, служба, награды) появится здесь
+      после получения оригинальных материалов (PPTX) и подтверждения семьёй.
+      Категория данных — FACT_LOCKED: без подтверждающего источника не публикуется.
+    </div>
+  </div><span class="running">Письма памяти · Том I</span></div>
+  <div class="pg right"><div class="safe">
+    <blockquote class="pull" style="margin-top:18mm">
+      «Она добра, она строга<br>
+      Она справедлива, и нежна<br>
+      И я никогда не забуду её»
+      <footer>Из письма Игоря, 19.05.24 · дословно, по черновой расшифровке (не сверено)</footer>
+    </blockquote>
+  </div><span class="running">Истории героев</span></div>
+</section>
+
+<!-- ============ РАЗВОРОТ 3: hero-001 фотографии ============ -->
+<section class="spread guides" aria-label="Разворот 3: фотографии семейного архива">
+  <span class="not-for-print">Prototype — not for print</span>
+  <div class="trim"></div><div class="spine"></div>
+  <div class="pg left"><div class="safe">
+    <p class="kicker">Семейный архив</p>
+    <div class="grid2" style="margin-top:6mm">
+      <figure class="doc">
+        <img src="../web/assets/img/hero-001/p013_img03.jpg" alt="Двое в форме на торжественном мероприятии">
+        <figcaption class="cap">Семейный архив · подпись после подтверждения семьёй</figcaption>
+      </figure>
+      <figure class="doc">
+        <img src="../web/assets/img/hero-001/p013_img04.jpg" alt="Подросток с портретом в рамке и наградной коробкой">
+        <figcaption class="cap">Семейный архив · подпись после подтверждения семьёй</figcaption>
+      </figure>
+    </div>
+  </div><span class="running">Письма памяти · Том I</span></div>
+  <div class="pg right"><div class="safe">
+    <div class="grid2" style="align-items:end">
+      <figure class="doc" style="max-width:100mm">
+        <img src="../web/assets/img/hero-001/p013_img02.jpg" alt="Детский рисунок: женский портрет цветными карандашами">
+        <figcaption class="cap">Детский рисунок · авторство после подтверждения</figcaption>
+      </figure>
+      <p class="meta" style="align-self:center;max-width:100mm">Рисунок публикуется как самостоятельный документ — без стилизации и обработки.</p>
+    </div>
+  </div><span class="running">Истории героев</span></div>
+</section>
+
+<!-- ============ РАЗВОРОТ 4: hero-001 письмо + расшифровка ============ -->
+<section class="spread guides" aria-label="Разворот 4: письмо Игоря и расшифровка">
+  <span class="not-for-print">Prototype — not for print</span>
+  <div class="trim"></div><div class="spine"></div>
+  <div class="pg left"><div class="safe">
+    <p class="kicker">Письмо</p>
+    <figure class="doc" style="max-width:172mm;margin-top:5mm">
+      <img src="../web/assets/img/hero-001/p014_img01.jpg" alt="Скан рукописного письма Игоря">
+      <figcaption class="cap">Письмо Игоря · 19.05.24 · скан временный (pdf_reference)</figcaption>
+    </figure>
+  </div><span class="running">Письма памяти · Том I</span></div>
+  <div class="pg right"><div class="safe">
+    <h2>Расшифровка</h2>
+    <span class="badge badge--draft">Черновик — не сверено</span>
+    <pre class="tr" style="max-width:210mm">Моя мама — Герой.
+Она самая смелая и добрая мама!
+Я горжусь своей мамой, ведь она отдала жизнь за Ро…
+Она была доброй, и отзывчивой, и мужественной. Всегда поддерживала меня в сложных ситуациях. Она любила свою работу, и иногда брала меня с собой.
+Я навсегда запомню те дни, когда был у неё на…
+«Она добра, она строга,
+Она справедлива, и нежна,
+И я никогда не забуду её»
+…горжусь! 19.05.24.</pre>
+    <p class="cap" style="margin-top:5mm">«…» — строка обрезана краем скана. Закрывающая строка и подпись ждут сверки человеком.</p>
+  </div><span class="running">Истории героев</span></div>
+</section>
+
+<!-- ============ РАЗВОРОТ 5: hero-002 открывающий ============ -->
+<section class="spread guides" aria-label="Разворот 5: открывающий, НАШ ОТЕЦ ИГОРЬ">
+  <span class="not-for-print">Prototype — not for print</span>
+  <div class="trim"></div><div class="spine"></div>
+  <div class="pg left"><div class="safe">
+    <p class="kicker">Письма памяти · Истории героев</p>
+    <h1>НАШ ОТЕЦ<br>ИГОРЬ</h1>
+    <div class="tri"><i></i><i></i><i></i></div>
+    <p class="meta"><b>Письма:</b> Назар и Элина<br><b>Регион:</b> Донецкая Народная Республика<br><b>Город:</b> г. Новосибирск</p>
+    <p class="cap" style="position:absolute;bottom:0;max-width:150mm">Материалы: три письма, четыре фотографии, детский рисунок. Источник: стр. 15–18 контрольного PDF (pdf_reference).</p>
+  </div><span class="running">Письма памяти · Том I</span></div>
+  <div class="pg right">
+    <img class="full-bleed-img" src="../web/assets/img/hero-002/p017_img01.jpg" alt="Военнослужащий в полевой экипировке в сосновом лесу — на всю полосу">
+    <div class="photo-caption-box"><span class="cap">Фотография из семейного архива · временное изображение (pdf_reference)</span></div>
+  </div>
+</section>
+
+<!-- ============ РАЗВОРОТ 6: hero-002 биографический ============ -->
+<section class="spread guides" aria-label="Разворот 6: биографический, НАШ ОТЕЦ ИГОРЬ">
+  <span class="not-for-print">Prototype — not for print</span>
+  <div class="trim"></div><div class="spine"></div>
+  <div class="pg left"><div class="safe">
+    <p class="kicker">Донецкая Народная Республика · г. Новосибирск</p>
+    <h2 style="margin-top:5mm">Игорь — папа Назара и Элины</h2>
+    <p class="meta" style="max-width:200mm"><b>Подтверждённые данные (из титула книги):</b><br>
+      обращение — «НАШ ОТЕЦ ИГОРЬ»; авторы — Назар и Элина;<br>
+      регион — Донецкая Народная Республика; город — г. Новосибирск.</p>
+    <div class="notice" style="margin-top:6mm;max-width:220mm">
+      Редакционная проверка: сочетание «регион — ДНР, город — Новосибирск» требует
+      подтверждения трактовки (eq-008); одно из писем блока предположительно
+      принадлежит другой семье (eq-009) и в макет не включено.
+    </div>
+    <div class="placeholder" style="margin-top:6mm;max-width:220mm">
+      Биографический текст появится после получения PPTX и подтверждения семьёй (FACT_LOCKED).
+    </div>
+  </div><span class="running">Письма памяти · Том I</span></div>
+  <div class="pg right"><div class="safe">
+    <figure class="doc" style="max-width:120mm;margin-top:4mm">
+      <img src="../web/assets/img/hero-002/p016_img03.jpg" alt="Двое детей на фоне флага с портретом и планшетом наград">
+      <figcaption class="cap">Семейный архив · подпись после подтверждения семьёй</figcaption>
+    </figure>
+  </div><span class="running">Истории героев</span></div>
+</section>
+
+<!-- ============ РАЗВОРОТ 7: hero-002 фотографии и рисунок ============ -->
+<section class="spread guides" aria-label="Разворот 7: фотографии и детский рисунок">
+  <span class="not-for-print">Prototype — not for print</span>
+  <div class="trim"></div><div class="spine"></div>
+  <div class="pg left"><div class="safe">
+    <p class="kicker">Семейный архив</p>
+    <div class="grid2" style="margin-top:6mm">
+      <figure class="doc">
+        <img src="../web/assets/img/hero-002/p016_img01.jpg" alt="Девочка на фоне флага держит рисунок с танком и гвоздикой">
+        <figcaption class="cap">Семейный архив</figcaption>
+      </figure>
+      <figure class="doc">
+        <img src="../web/assets/img/hero-002/p016_img02.jpg" alt="Мальчик держит рисунок-сердце">
+        <figcaption class="cap">Семейный архив</figcaption>
+      </figure>
+    </div>
+  </div><span class="running">Письма памяти · Том I</span></div>
+  <div class="pg right"><div class="safe">
+    <div class="grid2" style="align-items:end">
+      <figure class="doc" style="max-width:96mm">
+        <img src="../web/assets/img/hero-002/p017_img03.jpg" alt="Детский рисунок: человек в форме под флагом России">
+        <figcaption class="cap">Детский рисунок · авторство после подтверждения</figcaption>
+      </figure>
+      <p class="meta" style="align-self:center;max-width:100mm">Папа в форме под флагом России — рисунок из архива семьи.</p>
+    </div>
+  </div><span class="running">Истории героев</span></div>
+</section>
+
+<!-- ============ РАЗВОРОТ 8: hero-002 письмо ============ -->
+<section class="spread guides" aria-label="Разворот 8: письма Назара и Элины">
+  <span class="not-for-print">Prototype — not for print</span>
+  <div class="trim"></div><div class="spine"></div>
+  <div class="pg left"><div class="safe">
+    <p class="kicker">Письма</p>
+    <figure class="doc" style="max-width:210mm;margin-top:5mm">
+      <img src="../web/assets/img/hero-002/p018_img01.jpg" alt="Скан рукописного письма «Мой папа — мой Герой!!!»">
+      <figcaption class="cap">Письмо · стр. 18 PDF · скан временный (pdf_reference)</figcaption>
+    </figure>
+  </div><span class="running">Письма памяти · Том I</span></div>
+  <div class="pg right"><div class="safe">
+    <figure class="doc" style="max-width:180mm">
+      <img src="../web/assets/img/hero-002/p018_img02.jpg" alt="Скан второго рукописного письма «Мой папа — герой!!!»">
+      <figcaption class="cap">Письмо · стр. 18 PDF</figcaption>
+    </figure>
+    <p class="cap" style="margin-top:5mm;max-width:180mm">Расшифровки писем готовятся: выполняются вручную и проходят сверку. В книге сканы всегда остаются первичным документом.</p>
+  </div><span class="running">Истории героев</span></div>
+</section>
+
+</body>
+</html>

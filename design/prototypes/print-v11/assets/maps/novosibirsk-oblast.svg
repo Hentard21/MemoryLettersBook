@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 666" role="img" aria-labelledby="title desc">
+  <title id="title">Новосибирская область на карте России</title>
+  <desc id="desc">Субъект RUNVS выделен приглушённым бордовым.</desc>
+  <rect width="1000" height="666" fill="#f7f6f2"/>
+  <g fill="#dfe2e5" stroke="#f7f6f2" stroke-width="1.35"><use href="map-ru.svg#features"/></g>
+  <g fill="#7e3b44" stroke="#f7f6f2" stroke-width="2"><use href="map-ru.svg#RUNVS"/></g>
+</svg>

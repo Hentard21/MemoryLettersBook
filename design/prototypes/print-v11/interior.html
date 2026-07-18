@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Письма памяти — первые 20 внутренних страниц</title>
+<style>
+@font-face{font-family:Onest;src:url('../../fonts/Onest.ttf');font-weight:100 900}
+@font-face{font-family:Golos;src:url('../../fonts/GolosText.ttf');font-weight:400 900}
+@font-face{font-family:Marck;src:url('../../fonts/MarckScript.ttf')}
+:root{
+  --milk:#f6f5f1;--paper:#f2f0ea;--paper2:#fbfaf7;--ink:#252d36;--soft:#5f6873;
+  --line:#d8d9d6;--blue:#22385a;--blue2:#38516f;--wine:#7e3b44;--gray:#dfe2e5;
+  --head:Onest,Arial,sans-serif;--text:Golos,Arial,sans-serif;--script:Marck,cursive;
+}
+*{box-sizing:border-box;margin:0}
+@page{size:526mm 206mm;margin:0}
+html,body{background:#85898e}
+body{font-family:var(--text);color:var(--ink)}
+.sheet{width:526mm;height:206mm;position:relative;overflow:hidden;page-break-after:always;background:var(--milk)}
+.sheet:after{content:"";position:absolute;left:262.7mm;top:3mm;bottom:3mm;width:.25mm;background:rgba(34,56,90,.08);z-index:20}
+.page{position:absolute;top:3mm;width:260mm;height:200mm;overflow:hidden}
+.left{left:3mm}.right{left:263mm}
+.safe{position:absolute;top:16mm;bottom:18mm}.left .safe{left:17mm;right:21mm}.right .safe{left:21mm;right:17mm}
+.folio{position:absolute;bottom:8.5mm;font:600 7.2pt/1 var(--head);color:#89909a;z-index:30}
+.left .folio{left:17mm}.right .folio{right:17mm}
+.running{position:absolute;bottom:8.5mm;font:650 6.2pt/1 var(--head);letter-spacing:.15em;text-transform:uppercase;color:#89909a;z-index:30}
+.left .running{right:21mm}.right .running{left:21mm}
+.wm{position:absolute;right:7mm;top:5.5mm;font:650 5.6pt/1 var(--head);letter-spacing:.16em;color:rgba(89,97,107,.45);z-index:40}
+.kicker{font:750 7.7pt/1.35 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
+.title{font:820 34pt/1.03 var(--head);letter-spacing:-.02em;color:var(--blue)}
+.hero-name{font:820 36pt/.98 var(--head);letter-spacing:-.025em;color:var(--blue)}
+.sub{font:450 11pt/1.5 var(--text);color:var(--soft)}
+.body{font:400 10.2pt/1.6 var(--text);color:var(--ink)}
+.small{font:400 8.5pt/1.52 var(--text);color:var(--soft)}
+.rule{width:25mm;height:.7mm;background:var(--wine)}
+.fine-rule{height:.25mm;background:var(--line)}
+
+/* Вводные страницы */
+.title-page{background:linear-gradient(132deg,#f8f7f3,#f2f1ed)}
+.title-page .title{font-size:38pt}
+.imprint-logo{width:18mm;height:18mm;object-fit:contain}
+.welcome-author{background:linear-gradient(122deg,#f4f3ef,#eeefed)}
+.levin-photo{position:absolute;left:23mm;top:19mm;width:103mm;height:145mm;object-fit:cover;object-position:center top;filter:saturate(.82) contrast(.98)}
+.author-card{position:absolute;left:138mm;right:21mm;top:32mm}
+.author-name{font:780 25pt/1.08 var(--head);color:var(--blue)}
+.welcome-page{background:#f8f7f3}
+.welcome-copy{column-count:2;column-gap:10mm;font:400 8.7pt/1.48 var(--text);text-align:left}
+.welcome-copy p{margin-bottom:2.4mm}
+.welcome-logo{height:17mm;width:17mm;object-fit:contain;float:right;margin-left:5mm}
+.contents{background:linear-gradient(135deg,#f3f3f0,#f8f7f3)}
+.toc-row{display:grid;grid-template-columns:1fr auto;gap:5mm;padding:4mm 0;border-bottom:.25mm solid var(--line)}
+.toc-row b{font:700 12pt/1.2 var(--head);color:var(--ink)}
+.toc-row span{font:450 9.2pt/1.4 var(--text);color:var(--soft)}
+.toc-row em{font:700 10pt/1 var(--head);font-style:normal;color:var(--blue)}
+
+/* Ознакомительный разворот */
+.intro-sheet{background:linear-gradient(125deg,#f7f6f2 0%,#f0f1ef 100%)}
+.intro-sheet .left:before{content:"";position:absolute;width:98mm;height:98mm;border-radius:50%;background:rgba(56,81,111,.045);left:-28mm;top:-25mm}
+.intro-copy{position:absolute;left:21mm;top:17mm;width:205mm;z-index:4}
+.relation{font:700 9pt/1.2 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--wine)}
+.children{margin-top:5mm;font:600 11.5pt/1.42 var(--head);color:var(--ink)}
+.children span{display:block;margin-top:1.4mm;font:400 9pt/1.45 var(--text);color:var(--soft)}
+.symbol-row{display:flex;align-items:center;gap:8mm;margin-top:7mm}
+.award{width:23mm;height:40mm;object-fit:contain}
+.emblem{width:30mm;height:30mm;object-fit:contain}
+.symbol-note{font:500 8pt/1.45 var(--text);color:var(--soft)}
+.map-wrap{position:absolute;left:20mm;bottom:17mm;width:154mm;height:91mm;z-index:2}
+.region-map{width:100%;height:100%;object-fit:contain;display:block}
+.map-label{position:absolute;left:143mm;bottom:41mm;width:88mm;font:650 11pt/1.34 var(--head);color:var(--blue);z-index:5}
+.map-label small{display:block;margin-top:2mm;font:450 8.3pt/1.45 var(--text);color:var(--soft)}
+.intro-quote{position:absolute;left:141mm;bottom:91mm;width:91mm;font:400 18pt/1.25 var(--script);color:var(--wine);z-index:6}
+.hero-stage{position:absolute;left:22mm;right:18mm;top:14mm;bottom:20mm;display:flex;align-items:center;justify-content:center}
+.hero-stage img{display:block;width:185mm;height:170mm;object-fit:contain;object-position:center center}
+.hero-stage.clean img{mix-blend-mode:multiply}
+.hero-stage.landscape img{width:207mm;height:154mm;object-fit:cover;object-position:center 54%}
+.archive-cap{position:absolute;left:22mm;bottom:13mm;font:450 7.6pt/1.3 var(--text);color:#828993}
+
+/* Полный манифест */
+.manifest-sheet{background:linear-gradient(115deg,#f6f5f1,#eeeeeb)}
+.manifest-kicker{position:absolute;left:20mm;top:13mm;font:720 7.2pt/1 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--blue);z-index:12}
+.paper{position:absolute;background-color:var(--paper2);border:.25mm solid #dededa;z-index:5;filter:drop-shadow(0 1.2mm 1.3mm rgba(45,48,50,.12));overflow:hidden;
+  clip-path:polygon(.4% .9%,7% .2%,15% .8%,24% .25%,34% .8%,45% .15%,55% .7%,66% .2%,77% .75%,88% .2%,99.6% .8%,99.8% 15%,99.2% 31%,99.8% 49%,99.2% 68%,99.7% 84%,99.4% 99%,88% 99.6%,73% 99%,58% 99.7%,42% 99%,26% 99.7%,12% 99.1%,.4% 99.5%,.2% 82%,.8% 64%,.15% 46%,.7% 27%,.2% 12%)}
+.paper:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 17% 20%,rgba(35,40,45,.035) 0 .35mm,transparent .45mm),radial-gradient(circle at 73% 64%,rgba(35,40,45,.025) 0 .28mm,transparent .4mm);background-size:6mm 6mm,7mm 7mm;z-index:2}
+.scan{display:block;width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;filter:saturate(.7) contrast(.98) brightness(1.04);position:relative;z-index:1}
+.scan-label{position:absolute;left:7mm;bottom:4mm;font:600 6.5pt/1 var(--head);letter-spacing:.1em;text-transform:uppercase;color:#7f858b;z-index:3}
+.photo{position:absolute;z-index:3;overflow:hidden;margin:0;background:#e9e9e6}
+.photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
+.photo figcaption{position:absolute;left:2.5mm;right:2.5mm;bottom:2mm;font:500 6.4pt/1.25 var(--text);color:white;text-shadow:0 .4mm 1mm rgba(0,0,0,.8)}
+.drawing{position:absolute;z-index:7;object-fit:contain;mix-blend-mode:multiply}
+.manifest-title{position:absolute;z-index:10;font:760 18pt/1.12 var(--head);color:var(--blue)}
+.manifest-by{position:absolute;z-index:10;font:450 8pt/1.4 var(--text);color:var(--soft)}
+
+/* Анастасия */
+.anastasia-paper{left:89mm;top:14mm;width:350mm;height:177mm;padding:9mm 17mm 8mm}
+.anastasia-paper .scan{object-position:center}
+.anastasia-paper .scan-label{left:17mm}
+.anastasia-drawing{left:426mm;top:105mm;width:78mm;height:83mm}
+
+/* Вячеслав: три полных листа, без пересказа */
+.three-letters{position:absolute;left:75mm;top:13mm;width:386mm;height:180mm;z-index:6}
+.three-letters .paper{top:0;width:126mm;height:180mm;padding:5mm 5mm 8mm}
+.three-letters .paper:nth-child(1){left:0;transform:rotate(-.55deg)}
+.three-letters .paper:nth-child(2){left:130mm;transform:rotate(.35deg)}
+.three-letters .paper:nth-child(3){left:260mm;transform:rotate(-.2deg)}
+
+/* Короткие манифесты: оригинал остаётся главным */
+.short-paper{left:91mm;top:33mm;width:344mm;height:139mm;padding:12mm 24mm 14mm}
+.short-paper .scan{object-fit:contain}
+.short-title{left:96mm;top:16mm}.short-by{left:286mm;top:18mm}
+</style>
+</head>
+<body>
+
+<!-- 1–2: титул/выходные и автор приветствия -->
+<section class="sheet">
+  <span class="wm">ПРОТОТИП</span>
+  <div class="page left title-page">
+    <div class="safe" style="display:flex;flex-direction:column">
+      <p class="kicker">Всероссийская книга</p><div class="rule" style="margin-top:3mm"></div>
+      <h1 class="title" style="margin-top:10mm">ПИСЬМА<br>ПАМЯТИ</h1>
+      <p class="sub" style="margin-top:5mm">Дети — о своих героях</p>
+      <p class="kicker" style="margin-top:3mm;color:var(--soft)">Том I</p>
+      <div style="margin-top:auto;display:flex;gap:5mm;align-items:center">
+        <img class="imprint-logo" src="assets/frontmatter/reference-imprint-mark.png" alt="Знак из оригинальных выходных данных">
+        <p class="small">Издано по инициативе<br><b>АНО «Центр поддержки детей<br>погибших военнослужащих»</b></p>
+      </div>
+      <p class="kicker" style="margin-top:7mm">Москва · 2025</p>
+    </div><span class="folio">1</span>
+  </div>
+  <div class="page right welcome-author">
+    <img class="levin-photo" src="assets/frontmatter/alexey-levin-reference.jpg" alt="Алексей Гаврилович Лёвин">
+    <div class="author-card">
+      <p class="kicker">Приветственное слово</p>
+      <h2 class="author-name" style="margin-top:5mm">Алексей<br>Гаврилович<br>Лёвин</h2>
+      <p class="small" style="margin-top:7mm">Председатель Центрального правления Всероссийской общественной организации Героев, Кавалеров государственных наград и Лауреатов государственных премий «Трудовая доблесть России».</p>
+    </div><span class="folio">2</span><span class="running">Письма памяти</span>
+  </div>
+</section>
+
+<!-- 3–4: полное приветствие и порядок первых семей -->
+<section class="sheet">
+  <span class="wm">ПРОТОТИП</span>
+  <div class="page left welcome-page"><div class="safe">
+    <img class="welcome-logo" src="assets/frontmatter/trudovaya-doblest-reference.png" alt="Трудовая доблесть России">
+    <p class="kicker">Приветственное слово</p>
+    <div class="welcome-copy" style="margin-top:6mm">
+      <p>Дорогие ребята, дорогие авторы книги «ПИСЬМА ПАМЯТИ»! Рад возможности обратиться к Вам со страниц книги «ПИСЬМА ПАМЯТИ».</p>
+      <p>Наша страна сейчас переживает непростой период. Мы защищаем свободу и безопасность нашего государства, наши национальные интересы. С оружием в руках встали на защиту родного Отечества многие мужчины и проявили себя, как настоящие герои. Среди них оказались Ваши отцы, кто пожертвовал жизнью на поле битвы, защищая свой народ и свое Отечество. Наши предки были твердо убеждены: такой героизм — одно из величайших свершений, на которые только способен человек.</p>
+      <p>И именно такой величественный подвиг любви совершили ваши близкие, ваши отцы — а у кого-то, возможно, и матери. И этот подвиг заслуживает нашей вечной памяти и непреходящей благодарности.</p>
+      <p>Ваши отцы, участники Специальной военной операции сражались не за какие-то политические принципы — а за Россию, за наш народ, за всех нас, за наше будущее, и более того — за правду, за вечные ценности. И не случайно, что мы видим так много примеров настоящего героизма, подлинного самопожертвования. Это подвиг любви к своему народу, к своей Родине, к правде и справедливости.</p>
+      <p>Низкий поклон всем тем, кто совершил этот высший подвиг любви! Дорогие ребята, вы можете по праву гордиться тем, что вы — дети настоящих героев Отечества. Они — пример для всех нас. Растите, равняясь на них — прежде всего в любви к своим близким, любви к своему народу, ко всему нашему Отечеству. Растите достойными их подвига!</p>
+    </div>
+  </div><span class="folio">3</span></div>
+  <div class="page right contents"><div class="safe">
+    <p class="kicker">Наши герои</p>
+    <h2 class="title" style="font-size:27pt;margin-top:4mm">Первые<br>семейные истории</h2>
+    <div style="margin-top:8mm">
+      <div class="toc-row"><div><b>Анастасия</b><br><span>Игорь · Волгоградская область</span></div><em>5–8</em></div>
+      <div class="toc-row"><div><b>Вячеслав</b><br><span>Руслан, Камилла, Сабина · Новосибирская область</span></div><em>9–12</em></div>
+      <div class="toc-row"><div><b>Николай</b><br><span>Михаил · Республика Хакасия</span></div><em>13–16</em></div>
+      <div class="toc-row"><div><b>Евгений</b><br><span>Иван · Новосибирская область</span></div><em>17–20</em></div>
+    </div>
+    <p class="small" style="margin-top:8mm;max-width:158mm">Каждая история открывается знакомством с героем. Следом идёт полный, несокращённый голос семьи.</p>
+  </div><span class="folio">4</span><span class="running">Содержание</span></div>
+</section>
+
+<!-- 5–6: Анастасия — знакомство -->
+<section class="sheet intro-sheet">
+  <span class="wm">ПРОТОТИП</span>
+  <div class="page left"><div class="intro-copy">
+    <p class="relation">Моя мама</p><h2 class="hero-name" style="margin-top:3mm">Анастасия</h2>
+    <p class="children">Письмо написал Игорь<span>г. Волгоград · Волгоградская область</span></p>
+    <div class="symbol-row"><img class="award" src="assets/symbols/order-of-courage-reference.png" alt="Награда из референса"><img class="emblem" src="assets/symbols/volgograd-oblast-emblem-reference.png" alt="Герб Волгоградской области"><p class="symbol-note">Награда и официальная<br>символика региона</p></div>
+  </div>
+  <p class="intro-quote">«Она самая смелая<br>и добрая мама!»</p>
+  <div class="map-wrap"><img class="region-map" src="assets/maps/volgograd-oblast.png" alt="Волгоградская область на карте России"></div>
+  <p class="map-label">Волгоградская<br>область<small>город Волгоград</small></p>
+  <span class="folio">5</span><span class="running">Знакомство с героем</span></div>
+  <div class="page right"><div class="hero-stage clean"><img src="../../../assets/nana-banana-output/portraits/anastasia_portrait_enhanced_white.png" alt="Анастасия"></div><p class="archive-cap">Семейный архив · улучшенная версия портрета</p><span class="folio">6</span><span class="running">Анастасия · Игорь</span></div>
+</section>
+
+<!-- 7–8: Анастасия — полный манифест -->
+<section class="sheet manifest-sheet">
+  <span class="wm">ПРОТОТИП</span><p class="manifest-kicker">Анастасия · полный манифест Игоря</p>
+  <figure class="photo" style="left:16mm;top:24mm;width:75mm;height:104mm"><img src="../../../assets/production-input/hero-001/portraits/hero-001_photo_01_master.png" alt="Анастасия"><figcaption>Анастасия</figcaption></figure>
+  <figure class="photo" style="left:18mm;top:136mm;width:76mm;height:51mm"><img src="../../../assets/production-input/hero-001/groups/hero-001_photo_02_master.png" alt="Семейный кадр"></figure>
+  <figure class="photo" style="left:441mm;top:22mm;width:67mm;height:109mm"><img src="../../../assets/production-input/hero-001/portraits/hero-001_photo_03_master.png" alt="Игорь с портретом и наградой"></figure>
+  <article class="paper anastasia-paper"><img class="scan" src="../../../assets/production-input/hero-001/letters-reference/hero-001_letter_01_master.png" alt="Полный оригинал письма Игоря"><span class="scan-label">Оригинал письма целиком · 19.05.2024</span></article>
+  <img class="drawing anastasia-drawing" src="../../../assets/nana-banana-output/drawings/anastasia_drawing_enhanced.png" alt="Детский рисунок Анастасии, улучшенная версия">
+  <div class="page left"><span class="folio">7</span></div><div class="page right"><span class="folio">8</span><span class="running">Полный голос семьи</span></div>
+</section>
+
+<!-- 9–10: Вячеслав — знакомство -->
+<section class="sheet intro-sheet">
+  <span class="wm">ПРОТОТИП</span>
+  <div class="page left"><div class="intro-copy">
+    <p class="relation">Наш отец</p><h2 class="hero-name" style="margin-top:3mm">Вячеслав</h2>
+    <p class="children">Письма написали Руслан, Камилла и Сабина<span>г. Новосибирск · Новосибирская область</span></p>
+    <div class="symbol-row"><img class="award" src="assets/symbols/order-of-courage-reference.png" alt="Награда из референса"><img class="emblem" src="assets/symbols/novosibirsk-oblast-emblem-reference.png" alt="Герб Новосибирской области"><p class="symbol-note">Награда и официальная<br>символика региона</p></div>
+  </div>
+  <p class="intro-quote">«Мой папа — герой!»</p>
+  <div class="map-wrap"><img class="region-map" src="assets/maps/novosibirsk-oblast.png" alt="Новосибирская область на карте России"></div>
+  <p class="map-label">Новосибирская<br>область<small>город Новосибирск</small></p>
+  <span class="folio">9</span><span class="running">Знакомство с героем</span></div>
+  <div class="page right"><div class="hero-stage"><img src="../../../assets/production-input/hero-003/portraits/hero-003_p020_image146.jpg" alt="Вячеслав"></div><p class="archive-cap">Семейный архив · флагманское фото</p><span class="folio">10</span><span class="running">Вячеслав · Руслан, Камилла, Сабина</span></div>
+</section>
+
+<!-- 11–12: Вячеслав — три полных письма -->
+<section class="sheet manifest-sheet">
+  <span class="wm">ПРОТОТИП</span><p class="manifest-kicker">Вячеслав · полные письма Руслана, Камиллы и Сабины</p>
+  <figure class="photo" style="left:14mm;top:25mm;width:60mm;height:98mm"><img src="../../../assets/production-input/hero-003/portraits/hero-003_p020_image146.jpg" alt="Вячеслав"></figure>
+  <figure class="photo" style="left:15mm;top:131mm;width:58mm;height:55mm"><img src="../../../assets/production-input/hero-003/portraits/hero-003_p020_image149.jpg" alt="Руслан с портретом отца"></figure>
+  <figure class="photo" style="left:465mm;top:26mm;width:48mm;height:77mm"><img src="../../../assets/production-input/hero-003/portraits/hero-003_p020_image147.jpg" alt="Ребёнок с портретом отца"></figure>
+  <figure class="photo" style="left:465mm;top:111mm;width:48mm;height:77mm"><img src="../../../assets/production-input/hero-003/portraits/hero-003_p020_image148.jpg" alt="Ребёнок с портретом отца"></figure>
+  <div class="three-letters">
+    <article class="paper"><img class="scan" src="../../../assets/production-input/hero-003/letters-reference/hero-003_p021_image152.jpg" alt="Полное письмо Руслана"><span class="scan-label">Руслан · 19.05.2024</span></article>
+    <article class="paper"><img class="scan" src="../../../assets/production-input/hero-003/letters-reference/hero-003_p022_image155.jpg" alt="Полное письмо Камиллы"><span class="scan-label">Камилла · 19.05.2024</span></article>
+    <article class="paper"><img class="scan" src="../../../assets/production-input/hero-003/letters-reference/hero-003_p023_image158.jpg" alt="Полное письмо Сабины"><span class="scan-label">Сабина · 19.05.2024</span></article>
+  </div>
+  <div class="page left"><span class="folio">11</span></div><div class="page right"><span class="folio">12</span><span class="running">Полный голос семьи</span></div>
+</section>
+
+<!-- 13–14: Николай — знакомство -->
+<section class="sheet intro-sheet">
+  <span class="wm">ПРОТОТИП</span>
+  <div class="page left"><div class="intro-copy">
+    <p class="relation">Мой отец</p><h2 class="hero-name" style="margin-top:3mm">Николай</h2>
+    <p class="children">Письмо написал Михаил<span>г. Абакан · Республика Хакасия</span></p>
+    <div class="symbol-row"><img class="award" src="assets/symbols/order-of-courage-reference.png" alt="Награда из референса"><img class="emblem" src="assets/symbols/khakassia-emblem-reference.png" alt="Герб Республики Хакасия"><p class="symbol-note">Награда и официальная<br>символика региона</p></div>
+  </div>
+  <p class="intro-quote">«Он герой СВО»</p>
+  <div class="map-wrap"><img class="region-map" src="assets/maps/republic-of-khakassia.png" alt="Республика Хакасия на карте России"></div>
+  <p class="map-label">Республика<br>Хакасия<small>город Абакан</small></p>
+  <span class="folio">13</span><span class="running">Знакомство с героем</span></div>
+  <div class="page right"><div class="hero-stage"><img src="../../../assets/production-input/hero-004/portraits/hero-004_p025_image167.jpg" alt="Николай"></div><p class="archive-cap">Семейный архив · флагманское фото</p><span class="folio">14</span><span class="running">Николай · Михаил</span></div>
+</section>
+
+<!-- 15–16: Николай — полный манифест -->
+<section class="sheet manifest-sheet">
+  <span class="wm">ПРОТОТИП</span><h2 class="manifest-title short-title">Николай</h2><p class="manifest-by short-by">Полный манифест Михаила</p>
+  <figure class="photo" style="left:18mm;top:24mm;width:75mm;height:145mm"><img src="../../../assets/production-input/hero-004/portraits/hero-004_p025_image167.jpg" alt="Николай"></figure>
+  <figure class="photo" style="left:435mm;top:24mm;width:73mm;height:145mm"><img src="../../../assets/production-input/hero-004/portraits/hero-004_p025_image168.jpg" alt="Михаил с портретом и наградой"></figure>
+  <article class="paper short-paper"><img class="scan" src="../../../assets/production-input/hero-004/letters-reference/hero-004_p025_image169.jpg" alt="Полный оригинал письма Михаила"><span class="scan-label">Оригинал письма целиком · 08.05.2024</span></article>
+  <div class="page left"><span class="folio">15</span></div><div class="page right"><span class="folio">16</span><span class="running">Полный голос семьи</span></div>
+</section>
+
+<!-- 17–18: Евгений — знакомство -->
+<section class="sheet intro-sheet">
+  <span class="wm">ПРОТОТИП</span>
+  <div class="page left"><div class="intro-copy">
+    <p class="relation">Мой отец</p><h2 class="hero-name" style="margin-top:3mm">Евгений</h2>
+    <p class="children">Письмо написал Иван<span>г. Новосибирск · Новосибирская область</span></p>
+    <div class="symbol-row"><img class="award" src="assets/symbols/order-of-courage-reference.png" alt="Награда из референса"><img class="emblem" src="assets/symbols/novosibirsk-oblast-emblem-reference.png" alt="Герб Новосибирской области"><p class="symbol-note">Награда и официальная<br>символика региона</p></div>
+  </div>
+  <p class="intro-quote">«Ведь папа для меня — Герой»</p>
+  <div class="map-wrap"><img class="region-map" src="assets/maps/novosibirsk-oblast.png" alt="Новосибирская область на карте России"></div>
+  <p class="map-label">Новосибирская<br>область<small>город Новосибирск</small></p>
+  <span class="folio">17</span><span class="running">Знакомство с героем</span></div>
+  <div class="page right"><div class="hero-stage landscape"><img src="../../../assets/production-input/hero-005/groups/hero-005_p027_image176.jpg" alt="Евгений с сыном Иваном"></div><p class="archive-cap">Семейный архив · Евгений с сыном Иваном</p><span class="folio">18</span><span class="running">Евгений · Иван</span></div>
+</section>
+
+<!-- 19–20: Евгений — полный манифест -->
+<section class="sheet manifest-sheet">
+  <span class="wm">ПРОТОТИП</span><h2 class="manifest-title short-title">Евгений</h2><p class="manifest-by short-by">Полный манифест Ивана</p>
+  <figure class="photo" style="left:15mm;top:24mm;width:75mm;height:72mm"><img src="../../../assets/production-input/hero-005/groups/hero-005_p027_image174.jpg" alt="Евгений"></figure>
+  <figure class="photo" style="left:18mm;top:105mm;width:72mm;height:82mm"><img src="../../../assets/production-input/hero-005/portraits/hero-005_p027_image175.jpg" alt="Иван"></figure>
+  <figure class="photo" style="left:437mm;top:43mm;width:73mm;height:112mm"><img src="../../../assets/production-input/hero-005/groups/hero-005_p027_image176.jpg" alt="Евгений с сыном Иваном"></figure>
+  <article class="paper short-paper"><img class="scan" src="../../../assets/production-input/hero-005/letters-reference/hero-005_p028_image179.jpg" alt="Полный оригинал письма Ивана"><span class="scan-label">Оригинал письма целиком · 10.05.2024</span></article>
+  <div class="page left"><span class="folio">19</span></div><div class="page right"><span class="folio">20</span><span class="running">Полный голос семьи</span></div>
+</section>
+
+</body>
+</html>

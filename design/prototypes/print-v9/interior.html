@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>ПИСЬМА ПАМЯТИ — клиентский превью</title>
+<style>
+/* 260×200 альбомный, вылет 3мм => лист 526×206. Клиентский превью:
+   технические надписи убраны, только малый водяной знак «прототип». */
+@font-face{font-family:'Onest';src:url('../../fonts/Onest.ttf');font-weight:100 900}
+@font-face{font-family:'Golos Text';src:url('../../fonts/GolosText.ttf');font-weight:400 900}
+@font-face{font-family:'Marck Script';src:url('../../fonts/MarckScript.ttf')}
+:root{
+  --milk:#F7F4EE; --surface:#FFFDF9; --ink:#232B36; --ink-soft:#49535F; --muted:#7A828C;
+  --line:#E4DFD4; --blue:#22385A; --blue2:#2C4A73; --bordo:#7E3B44;
+  --head:'Onest',system-ui,Arial,sans-serif;
+  --text:'Golos Text',system-ui,Arial,sans-serif;
+  --script:'Marck Script',cursive;
+}
+*{box-sizing:border-box;margin:0}
+@page{size:526mm 206mm;margin:0}
+html,body{background:#878B90}
+.sheet{width:526mm;height:206mm;position:relative;overflow:hidden;page-break-after:always;background:var(--milk);
+  font:10.8pt/1.6 var(--text);color:var(--ink)}
+.page{position:absolute;top:3mm;height:200mm;width:260mm;overflow:hidden}
+.page.left{left:3mm}.page.right{left:263mm}
+.safe{position:absolute;top:16mm;bottom:19mm}
+.page.left .safe{left:17mm;right:21mm}.page.right .safe{left:21mm;right:17mm}
+.folio{position:absolute;bottom:9mm;font:500 8pt/1 var(--head);color:var(--muted);z-index:12}
+.page.left .folio{left:17mm}.page.right .folio{right:17mm}
+.run{position:absolute;bottom:9mm;font:600 6.5pt/1 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);z-index:12}
+.page.left .run{right:21mm}.page.right .run{left:21mm}
+.wm{position:absolute;right:6mm;top:5mm;z-index:12;font:600 6pt/1 var(--head);letter-spacing:.18em;text-transform:uppercase;color:rgba(122,130,140,.55)}
+
+.kicker{font:700 8.5pt/1.4 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
+.title-xl{font:800 42pt/1.04 var(--head);letter-spacing:.01em;color:var(--blue)}
+h2{font:700 21pt/1.16 var(--head);color:var(--ink)}
+.hero-name{font:800 34pt/1.02 var(--head);color:var(--blue)}
+.sub{font:400 12pt/1.45 var(--text);color:var(--ink-soft)}
+.body{font:400 10.8pt/1.62 var(--text)}
+.body p{margin:0 0 3.2mm}
+.intro-cols{display:grid;grid-template-columns:1fr 1fr;column-gap:14mm;align-items:start;font-size:10.4pt;line-height:1.68}
+.intro-cols p{margin-bottom:4mm}
+.meta{font:400 9pt/1.6 var(--text);color:var(--ink-soft)}
+.meta b{color:var(--ink);font-weight:600}
+.cap{font:400 8.8pt/1.45 var(--text);color:var(--muted)}
+.org{font:600 8.5pt/1.5 var(--head);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.script{font:400 17pt/1.35 var(--script);color:var(--bordo)}
+.rule{height:.6mm;width:26mm;background:var(--bordo)}
+.wave{height:2.2mm;display:flex;flex-direction:column;gap:.5mm}
+.wave i{height:.5mm}.wave i:nth-child(1){background:var(--blue)}.wave i:nth-child(2){background:var(--bordo)}
+
+figure.doc{background:var(--surface);border:.3pt solid var(--line);padding:2.4mm;margin:0;display:inline-block}
+figure.doc img{display:block;width:100%;height:auto}
+figure.doc figcaption{padding-top:1.8mm}
+
+blockquote.pull{border-left:.9mm solid var(--bordo);padding:1.5mm 0 1.5mm 5.5mm}
+blockquote.pull .q{font:400 16pt/1.4 var(--script);color:var(--ink)}
+blockquote.pull footer{font:400 8.5pt/1.5 var(--text);color:var(--muted);margin-top:2mm}
+
+.gerb{width:14mm;height:16mm;border:.4pt solid var(--line);background:var(--surface);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;flex:none;
+  clip-path:polygon(0 0,100% 0,100% 72%,50% 100%,0 72%)}
+.gerb b{font:700 6pt/1.15 var(--head);color:var(--blue)}
+.region-block{display:flex;gap:3.5mm;align-items:center}
+.region-block .rt{font:400 9pt/1.4 var(--text);color:var(--ink-soft)}
+.region-block .rt b{color:var(--ink);font-size:10pt;font-weight:600}
+
+
+.photo-block{position:absolute;overflow:hidden}
+.photo-block img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-block.waist-portrait img{transform:scale(1.62);transform-origin:50% 45%}
+
+.letter-type{font:400 12pt/1.72 var(--text)}
+.letter-type p{margin:0 0 3mm}
+
+/* Фактурный бумажный модуль: читаемая расшифровка поверх заметного подлинника. */
+.letter-document{
+  position:relative;isolation:isolate;overflow:hidden;min-height:112mm;padding:10mm 11mm 9mm;
+  background-color:#F1E9D8;
+  background-image:
+    radial-gradient(circle at 18% 24%,rgba(116,91,56,.055) 0 .34mm,transparent .42mm),
+    radial-gradient(circle at 74% 68%,rgba(116,91,56,.045) 0 .25mm,transparent .36mm),
+    linear-gradient(108deg,rgba(255,255,255,.42),transparent 34%,rgba(132,105,67,.05) 76%,rgba(255,255,255,.28));
+  background-size:5.2mm 5.2mm,6.5mm 6.5mm,100% 100%;
+  clip-path:polygon(.7% 1.1%,7% .3%,14% 1%,22% .2%,31% .8%,39% .15%,48% .75%,57% .2%,65% .9%,74% .25%,83% .8%,91% .15%,99.4% .9%,99.8% 9%,99.2% 18%,99.8% 29%,99.1% 41%,99.7% 52%,99.2% 64%,99.8% 77%,99.1% 89%,99.5% 99%,91% 99.5%,82% 98.9%,73% 99.7%,63% 99.1%,53% 99.8%,43% 99.2%,33% 99.7%,22% 99.1%,12% 99.8%,.6% 99.2%,.2% 90%,.8% 79%,.15% 66%,.7% 54%,.2% 42%,.8% 31%,.15% 19%);
+  filter:drop-shadow(0 1.2mm 1.4mm rgba(55,44,31,.13));
+}
+.letter-document::before{content:"";position:absolute;inset:-4mm;background:var(--letter-bg) center/cover no-repeat;opacity:.34;filter:sepia(.18) saturate(.58) contrast(.92);mix-blend-mode:multiply;transform:rotate(-.65deg) scale(1.035);z-index:-2}
+.letter-document::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 92% 18%,rgba(58,50,42,.12) 0 .45mm,transparent .9mm),radial-gradient(ellipse at 8% 82%,rgba(69,58,46,.08) 0 .7mm,transparent 1.45mm),linear-gradient(92deg,rgba(247,241,226,.76) 0%,rgba(247,241,226,.42) 53%,rgba(247,241,226,.2) 100%);z-index:-1}
+.letter-document .letter-type{max-width:140mm;font:400 15.2pt/1.48 var(--script);letter-spacing:.008em;color:#292824;text-shadow:0 .08mm rgba(255,255,255,.35)}
+.letter-document .letter-type p{margin-bottom:4mm}
+.letter-document .letter-type p:first-child{font-size:16.2pt}
+.letter-document .letter-note{font:400 8.5pt/1.5 var(--text);color:#5D5A52;margin-top:3mm;max-width:124mm}
+.letter-document .script{margin-top:5mm;font-size:18pt}
+.letter-anastasia{--letter-bg:url('../../../assets/master-from-pdf/heroes/hero-001/letters/hero-001_letter_01_master.png')}
+.letter-igor{--letter-bg:url('../../../assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_02_master.png');min-height:125mm}
+.memory-drawing{margin:0;text-align:left}
+.memory-drawing img{display:block;width:44mm;height:58mm;object-fit:contain;object-position:center;background:transparent}
+.memory-drawing figcaption{margin-top:2mm;font:400 8.4pt/1.35 var(--text);color:var(--muted)}
+
+/* Второй семейный разворот: архивный кадр + редакционный текстовый слой. */
+.story-page{background:
+  radial-gradient(circle at 82% 18%,rgba(44,74,115,.045),transparent 34%),
+  linear-gradient(115deg,#F8F5EF 0%,#F4F0E8 100%)}
+.story-title{font:750 27pt/1.08 var(--head);color:var(--blue);letter-spacing:-.015em}
+.story-photo{position:absolute;margin:0;z-index:1;overflow:visible}
+.story-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;background:#E9E4DA}
+.story-photo.crop-source-frame{overflow:hidden}
+.story-photo.crop-source-frame img{transform:scale(1.045)}
+.story-photo figcaption{position:absolute;left:0;right:0;top:calc(100% + 2.2mm);font:400 8.2pt/1.38 var(--text);color:var(--muted)}
+.story-panel{position:absolute;z-index:4;padding:8mm 9mm 8mm 10mm;background:rgba(255,253,249,.94);border-left:.9mm solid var(--bordo)}
+.story-panel .label{font:700 7.5pt/1.3 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--blue)}
+.story-panel .lead{margin-top:3mm;font:500 15pt/1.46 var(--text);color:var(--ink)}
+.story-panel .copy{margin-top:4mm;font:400 11.4pt/1.62 var(--text);color:var(--ink-soft)}
+.story-panel .copy + .copy{margin-top:3mm}
+.story-quote{position:absolute;z-index:5;font:400 18pt/1.28 var(--script);color:var(--bordo)}
+.story-drawing-layer{position:absolute;z-index:2;overflow:hidden;opacity:.24;mix-blend-mode:multiply;
+  -webkit-mask-image:radial-gradient(ellipse at center,#000 46%,rgba(0,0,0,.76) 67%,transparent 91%);
+  mask-image:radial-gradient(ellipse at center,#000 46%,rgba(0,0,0,.76) 67%,transparent 91%)}
+.story-drawing-layer img{display:block;width:100%;height:100%;object-fit:contain;filter:saturate(.72) contrast(.88)}
+.story-index{position:absolute;top:18mm;font:650 7.5pt/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+.toc-cols{column-count:2;column-gap:9mm}
+.toc-group{break-inside:avoid;margin-bottom:3.8mm}
+.toc-region{font:700 8pt/1.3 var(--head);letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin:0 0 1.4mm;border-bottom:.25pt solid var(--line);padding-bottom:1mm}
+.toc-row{display:flex;align-items:baseline;gap:2mm;font:400 9.5pt/1.75 var(--text)}
+.toc-row .nm{font-weight:600;color:var(--ink)}
+.toc-auth{font:400 8pt/1 var(--text);color:var(--muted);white-space:nowrap}
+.toc-dots{flex:1;border-bottom:.25pt dotted var(--muted);transform:translateY(-1mm)}
+.toc-pg{font:600 9pt/1 var(--head);color:var(--ink-soft)}
+.logo-slot{border:.3pt solid var(--line);background:var(--surface);display:flex;align-items:center;justify-content:center;font:400 7.5pt/1.35 var(--text);color:var(--muted);text-align:center;padding:2mm}
+.doc-plate{background:var(--surface);border:.3pt solid var(--line);padding:7mm 8mm}
+.decree-facsimiles{display:flex;justify-content:center;align-items:flex-start;gap:7mm;margin-top:5mm}
+.decree-facsimiles img{display:block;width:92mm;height:130.1mm;object-fit:contain;background:#fff;border:.25pt solid #E8E3D9}
+</style>
+</head>
+<body>
+
+<!-- ЛИСТ 1: стр.1 титул | стр.2 выходные + партнёры -->
+<section class="sheet">
+  <span class="wm">прототип</span>
+  <div class="page left"><div class="safe" style="display:flex;flex-direction:column">
+    <p class="kicker">Всероссийская книга</p>
+    <div class="rule" style="margin-top:3mm"></div>
+    <p class="title-xl" style="margin-top:10mm">ПИСЬМА<br>ПАМЯТИ</p>
+    <p class="sub" style="margin-top:5mm">Дети — о своих героях</p>
+    <p class="kicker" style="margin-top:3mm;color:var(--ink-soft)">Том I</p>
+    <p class="org" style="margin-top:auto">Москва · 2026</p>
+  </div><span class="folio">1</span></div>
+  <div class="page right"><div class="safe">
+    <p class="meta" style="max-width:150mm"><b>ПИСЬМА ПАМЯТИ. Том I.</b> Всероссийская книга детских писем о родителях-героях.</p>
+    <p class="meta" style="margin-top:4mm;max-width:150mm">Издано по инициативе АНО «Центр поддержки детей погибших военнослужащих». Приурочено к Году единства народов России. Тексты писем публикуются с сохранением авторской орфографии, с согласия семей. Полные семейные архивы — в веб-книге проекта.</p>
+    <div style="position:absolute;left:0;bottom:0;right:0">
+      <p class="org">Издание подготовлено при поддержке</p>
+      <div style="display:flex;gap:5mm;margin-top:3mm">
+        <div class="logo-slot" style="width:46mm;height:13mm">Всероссийская организация<br>«Трудовая доблесть России»</div>
+        <div class="logo-slot" style="width:46mm;height:13mm">Логотип партнёра</div>
+        <div class="logo-slot" style="width:46mm;height:13mm">Логотип партнёра</div>
+      </div>
+    </div>
+  </div><span class="folio">2</span><span class="run">Письма памяти</span></div>
+</section>
+
+<!-- ЛИСТ 2: стр.3 указ | стр.4 вступление -->
+<section class="sheet">
+  <span class="wm">прототип</span>
+  <div class="page left"><div class="safe">
+    <p class="kicker">Официальный документ</p>
+    <h2 style="margin-top:2.5mm;font-size:17.5pt;max-width:210mm">Указ Президента Российской Федерации от 25 декабря 2025 года № 962</h2>
+    <p class="sub" style="margin-top:2mm;font-size:10.5pt;max-width:205mm">«О проведении в Российской Федерации Года единства народов России»</p>
+    <div class="decree-facsimiles" aria-label="Факсимиле официально опубликованного указа, две страницы">
+      <img src="assets/official/decree-962-page-1.png" alt="Указ Президента Российской Федерации № 962, страница 1">
+      <img src="assets/official/decree-962-page-2.png" alt="Указ Президента Российской Федерации № 962, страница 2">
+    </div>
+  </div><span class="folio">3</span><span class="run">Документ</span></div>
+  <div class="page right"><div class="safe">
+    <p class="kicker">Вступление</p>
+    <h2 style="margin-top:3mm">Письма, которые продолжают говорить</h2>
+    <div class="body intro-cols" style="margin-top:5mm">
+      <div>
+        <p>Эта книга собрана из писем. Их писали дети — о своих родителях, которые не вернулись домой. О маме, которая «была самой смелой и доброй». О папе, который «всегда был первым». Детская рука выводит эти слова медленно, иногда с ошибками, и именно поэтому им веришь больше, чем любому официальному тексту.</p>
+      </div>
+      <div>
+        <p>Главным документом книги мы сделали само письмо ребёнка. Из каждой семейной истории выбрано одно: главная фотография, письмо и строчка, которую хочется перечитать. Полные письма, фотографии и рисунки бережно хранит веб-книга — к ней ведёт код на каждом развороте.</p>
+        <p>Мы благодарим семьи, доверившие нам почерк своих детей и лица своих родных. Пусть эти письма продолжают говорить: пока их читают, память жива.</p>
+      </div>
+    </div>
+    <p class="script" style="margin-top:7mm">«Пока их читают, память жива»</p>
+  </div><span class="folio">4</span><span class="run">Вступление</span></div>
+</section>
+
+<!-- ЛИСТ 3: стр.5 содержание | стр.6 карта -->
+<section class="sheet">
+  <span class="wm">прототип</span>
+  <div class="page left"><div class="safe">
+    <h2 style="margin-bottom:5mm">Наши герои</h2>
+    <div class="toc-cols">
+      <div class="toc-group"><h3 class="toc-region">Волгоградская область</h3>
+        <p class="toc-row"><span class="nm">Анастасия</span><span class="toc-auth">письмо · Игорь</span><span class="toc-dots"></span><span class="toc-pg">16</span></p>
+        <p class="toc-row"><span class="nm">Талгат</span><span class="toc-auth">письма · Сафия, Диана</span><span class="toc-dots"></span><span class="toc-pg">18</span></p>
+      </div>
+      <div class="toc-group"><h3 class="toc-region">Донецкая Народная Республика</h3>
+        <p class="toc-row"><span class="nm">Игорь</span><span class="toc-auth">письма · Назар, Элина</span><span class="toc-dots"></span><span class="toc-pg">20</span></p>
+      </div>
+      <div class="toc-group"><h3 class="toc-region">Новосибирская область</h3>
+        <p class="toc-row"><span class="nm">Вячеслав</span><span class="toc-auth">письма · Руслан, Камилла, Сабина</span><span class="toc-dots"></span><span class="toc-pg">22</span></p>
+        <p class="toc-row"><span class="nm">Евгений</span><span class="toc-auth">письмо · Иван</span><span class="toc-dots"></span><span class="toc-pg">24</span></p>
+        <p class="toc-row"><span class="nm">Алимамед</span><span class="toc-auth">письма · Руслан, Мурад</span><span class="toc-dots"></span><span class="toc-pg">26</span></p>
+      </div>
+      <div class="toc-group"><h3 class="toc-region">Республика Хакасия</h3>
+        <p class="toc-row"><span class="nm">Николай</span><span class="toc-auth">письмо · Михаил</span><span class="toc-dots"></span><span class="toc-pg">28</span></p>
+        <p class="toc-row"><span class="nm">Яков</span><span class="toc-auth">письма · Иван, Алина</span><span class="toc-dots"></span><span class="toc-pg">30</span></p>
+      </div>
+      <div class="toc-group"><h3 class="toc-region">Тюменская область</h3>
+        <p class="toc-row"><span class="nm">Александр</span><span class="toc-auth">письма · Глеб, Егор</span><span class="toc-dots"></span><span class="toc-pg">32</span></p>
+        <p class="toc-row"><span class="nm">Тимур</span><span class="toc-auth">письма · Даниэль, Айсылу</span><span class="toc-dots"></span><span class="toc-pg">34</span></p>
+      </div>
+    </div>
+    <p class="cap" style="margin-top:4mm">…и ещё 66 семей из 26 регионов. Полное содержание формируется автоматически из базы историй.</p>
+  </div><span class="folio">5</span><span class="run">Наши герои</span></div>
+  <div class="page right">
+    <img src="assets/map-ru-colored.svg" alt="Карта России: регионы-участники закрашены" style="position:absolute;left:14mm;top:40mm;width:232mm;height:154mm">
+    <div class="safe">
+      <p class="kicker">География памяти</p>
+      <h2 style="margin-top:3mm">Вся страна — одна память</h2>
+      <div style="position:absolute;left:0;bottom:0;background:rgba(255,253,249,.94);border:.3pt solid var(--line);padding:4mm 5mm;max-width:96mm">
+        <p style="font:700 11pt/1.3 var(--head);color:var(--ink)">76 семей · 31 регион России</p>
+        <p class="cap" style="margin-top:2.2mm"><span style="color:var(--blue2)">■</span>&nbsp;регионы-участники проекта&nbsp;&nbsp;<span style="color:var(--bordo)">■</span>&nbsp;истории этого превью</p>
+        <p class="cap" style="margin-top:1.4mm">Больше всего историй: Новосибирская область — 11, Тюменская — 6, Хакасия — 5.</p>
+      </div>
+    </div>
+    <span class="folio">6</span><span class="run">География памяти</span>
+  </div>
+</section>
+
+<!-- ЛИСТ 4: стр.7–8 семья Анастасии -->
+<section class="sheet">
+  <span class="wm">прототип</span>
+  <!-- стр.7: портрет ~38% разворота -->
+  <div class="page left">
+    <div class="photo-block" style="right:14mm;top:16mm;width:95mm;height:153mm">
+      <img src="../web/assets/img/hero-001/p013_img01.jpg" alt="Анастасия — фотография из семейного архива">
+    </div>
+    <div class="safe" style="z-index:2">
+      <p class="kicker">Волгоградская область · г. Волгоград</p>
+      <h1 class="hero-name" style="margin-top:4mm;position:relative;z-index:3;width:130mm">Анастасия</h1>
+      <p class="sub" style="margin-top:2mm">письмо написал сын Игорь</p>
+      <p class="script" style="position:absolute;left:0;bottom:9mm;max-width:88mm;z-index:3">«Она самая смелая<br>и добрая мама!»</p>
+    </div>
+    <span class="folio">7</span>
+  </div>
+  <!-- стр.8: письмо — единый документальный модуль -->
+  <div class="page right"><div class="safe">
+    <p class="kicker">Письмо · 19 мая 2024</p>
+    <div class="letter-document letter-anastasia" style="margin-top:4.5mm">
+      <div class="letter-type">
+        <p>Моя мама — Герой.</p>
+        <p>Она самая смелая и добрая мама! Я горжусь своей мамой, ведь она отдала жизнь за Ро…</p>
+        <p>Она была доброй, отзывчивой и мужественной. Всегда поддерживала меня в сложных ситуациях. Она любила свою работу и иногда брала меня с собой. Я навсегда запомню те дни, когда был у неё на…</p>
+      </div>
+      <p class="letter-note">Расшифровка выполнена по рукописи. Авторская орфография сохранена.</p>
+      <p class="script">«Она самая смелая и добрая мама!»</p>
+    </div>
+    <div style="position:absolute;right:0;bottom:0">
+      <figure class="memory-drawing">
+        <img src="../../../assets/master-from-pdf/heroes/hero-001/drawings/hero-001_drawing_01_master.png" alt="Детский рисунок: портрет мамы цветными карандашами">
+        <figcaption>Рисунок Игоря</figcaption>
+      </figure>
+    </div>
+  </div><span class="folio">8</span><span class="run">Волгоградская область</span></div>
+</section>
+
+<!-- ЛИСТ 5: стр.9–10 история Анастасии -->
+<section class="sheet">
+  <span class="wm">прототип</span>
+  <div class="page left story-page">
+    <div class="safe" style="z-index:5;bottom:auto;height:34mm">
+      <p class="kicker">Из письма Игоря</p>
+      <h2 class="story-title" style="margin-top:3mm">Какой её помнит сын</h2>
+    </div>
+    <figure class="story-photo" style="left:17mm;top:55mm;width:82mm;height:123mm">
+      <img src="../../../assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_02_master.png" alt="Двое в форме на торжественном мероприятии">
+      <figcaption>Торжественное мероприятие · семейный архив</figcaption>
+    </figure>
+    <div class="story-panel" style="left:88mm;top:69mm;width:145mm;min-height:91mm">
+      <p class="label">Характер</p>
+      <p class="lead">Она была доброй, и отзывчивой, и мужественной.</p>
+      <p class="copy">Всегда поддерживала меня в сложных ситуациях.</p>
+      <p class="copy">Она любила свою работу, и иногда брала меня с собой.</p>
+    </div>
+    <span class="folio">9</span><span class="run">Волгоградская область</span>
+  </div>
+  <div class="page right story-page">
+    <figure class="story-photo" style="right:17mm;top:25mm;width:80mm;height:129mm">
+      <img src="../../../assets/master-from-pdf/heroes/hero-001/photos/hero-001_photo_03_master.png" alt="Подросток держит портрет в рамке и наградную коробку">
+      <figcaption>Портрет и наградная коробка · семейный архив</figcaption>
+    </figure>
+    <div class="story-panel" style="left:21mm;top:50mm;width:145mm">
+      <p class="label">Семейная память</p>
+      <p class="lead">Я навсегда запомню те дни, когда был у неё на…</p>
+      <p class="copy">Два фрагмента рукописи обрезаны в исходном скане; многоточие сохранено без реконструкции текста.</p>
+    </div>
+    <p class="story-quote" style="left:30mm;bottom:27mm;max-width:126mm">«И я никогда не забуду её»</p>
+    <span class="folio">10</span><span class="run">Семейная история</span>
+  </div>
+</section>
+
+<!-- ЛИСТ 6: стр.11–12 семья Игоря (ознакомительный разворот, зеркально) -->
+<section class="sheet">
+  <span class="wm">прототип</span>
+  <!-- стр.11: письмо -->
+  <div class="page left"><div class="safe">
+    <p class="kicker">Письмо</p>
+    <div class="letter-document letter-igor" style="margin-top:4.5mm">
+      <div class="letter-type">
+        <p>Мой папа — мой Герой!!!</p>
+        <p>Я очень горжусь им и сильно его люблю. Мне его очень не хватает, я сильно скучаю по нему…</p>
+      </div>
+      <p class="letter-note">Расшифровка выполнена по рукописи. Авторская орфография сохранена.</p>
+      <p class="script">«Мой папа — мой Герой!!!»</p>
+    </div>
+    <div style="position:absolute;right:0;bottom:0">
+      <figure class="memory-drawing">
+        <img src="../../../assets/master-from-pdf/heroes/hero-002/drawings/hero-002_drawing_01_master.png" alt="Детский рисунок: папа в форме под флагом России">
+        <figcaption>Рисунок из семейного архива</figcaption>
+      </figure>
+    </div>
+  </div><span class="folio">11</span><span class="run">Донецкая Народная Республика</span></div>
+  <!-- стр.12: портрет справа -->
+  <div class="page right">
+    <div class="photo-block waist-portrait" style="right:14mm;top:16mm;width:110mm;height:143mm">
+      <img src="../web/assets/img/hero-002/p017_img01.jpg" alt="Игорь — фотография из семейного архива">
+    </div>
+    <img src="../../../assets/master-from-pdf/heroes/hero-002/title/hero-002_title_map2_master.png" alt="Карта России с отметкой Донецкой Народной Республики" style="position:absolute;left:21mm;top:72mm;width:110mm;height:55mm;object-fit:contain;object-position:left center;mix-blend-mode:multiply;opacity:.9">
+    <div class="safe" style="z-index:2">
+      <p class="kicker">Донецкая Народная Республика · г. Новосибирск</p>
+      <h1 class="hero-name" style="margin-top:4mm;position:relative;z-index:3;width:130mm">Игорь</h1>
+      <p class="sub" style="margin-top:2mm">письма написали Назар и Элина</p>
+      <p class="script" style="position:absolute;left:0;bottom:9mm;max-width:92mm;z-index:3">«Мой папа —<br>мой Герой!!!»</p>
+    </div>
+    <span class="folio">12</span>
+  </div>
+</section>
+
+<!-- ЛИСТ 7: стр.13–14 история Игоря -->
+<section class="sheet">
+  <span class="wm">прототип</span>
+  <div class="page left story-page">
+    <div class="safe" style="z-index:5;bottom:auto;height:34mm">
+      <p class="kicker">Письма Назара и Элины</p>
+      <h2 class="story-title" style="margin-top:3mm">Память семьи</h2>
+    </div>
+    <figure class="story-photo crop-source-frame" style="left:17mm;top:55mm;width:82mm;height:108mm">
+      <img src="../../../assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_01_master.png" alt="Девочка на фоне флага России держит рисунок с танком и гвоздикой">
+      <figcaption>Рисунок с танком и гвоздикой · семейный архив</figcaption>
+    </figure>
+    <div class="story-drawing-layer" style="right:18mm;top:25mm;width:83mm;height:150mm;opacity:.18">
+      <img src="../../../assets/derived-upscaled/heroes/hero-002/drawings/hero-002_drawing_01_upscaled.png" alt="Детский рисунок человека в форме под флагом России">
+    </div>
+    <div class="story-panel" style="left:94mm;top:72mm;width:125mm">
+      <p class="label">Детский голос</p>
+      <p class="lead">Мой папа — мой Герой!!!</p>
+      <p class="copy">Письма написали Назар и Элина.</p>
+    </div>
+    <span class="folio">13</span><span class="run">Донецкая Народная Республика</span>
+  </div>
+  <div class="page right story-page">
+    <figure class="story-photo crop-source-frame" style="right:17mm;top:25mm;width:91mm;height:120mm">
+      <img src="../../../assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_03_master.png" alt="Двое детей на фоне флага с портретом в рамке и планшетом наград">
+      <figcaption>Портрет и награды · семейный архив</figcaption>
+    </figure>
+    <div class="story-panel" style="left:21mm;top:50mm;width:135mm">
+      <p class="label">Из письма</p>
+      <p class="lead">Я очень горжусь им, и сильно его люблю.</p>
+      <p class="copy">Донецкая Народная Республика · г. Новосибирск</p>
+    </div>
+    <p class="story-quote" style="left:30mm;bottom:28mm;max-width:124mm">«Мой папа — мой Герой!!!»</p>
+    <span class="folio">14</span><span class="run">Семейная история</span>
+  </div>
+</section>
+
+</body>
+</html>

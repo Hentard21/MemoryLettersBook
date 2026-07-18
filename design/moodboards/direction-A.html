@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Направление A — Современное мемориальное издание</title>
+<style>
+  :root{
+    --paper:#F7F5F1; --surface:#fff; --ink:#1E2732; --ink-soft:#46525F; --muted:#6E7883;
+    --line:#E1DDD4; --blue:#2C4A73; --blue-ink:#22385A; --red:#9E3A3E;
+    --sh-photo:0 1px 2px rgba(30,39,50,.10),0 6px 24px rgba(30,39,50,.08);
+    --serif:Georgia,"Times New Roman",serif; --ui:system-ui,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--paper);color:var(--ink);font:17px/1.6 var(--serif);padding:48px 24px 96px}
+  .wrap{max-width:1100px;margin:0 auto}
+  .kicker{font:600 13px/1.4 var(--ui);letter-spacing:.14em;text-transform:uppercase;color:var(--blue-ink)}
+  h1{font:400 44px/1.12 var(--serif);margin:10px 0 6px}
+  h2{font:400 27px/1.2 var(--serif);margin:56px 0 20px;padding-top:24px;border-top:1px solid var(--line)}
+  p.lead{font-size:21px;color:var(--ink-soft);max-width:68ch}
+  .tri{height:6px;display:flex;max-width:180px;margin:22px 0;border:1px solid var(--line)}
+  .tri i{flex:1}.tri i:nth-child(1){background:#fff}.tri i:nth-child(2){background:var(--blue)}.tri i:nth-child(3){background:var(--red)}
+  .row{display:grid;gap:24px}
+  .sw{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+  .sw div{height:96px;border:1px solid var(--line);padding:8px;font:12px/1.4 var(--ui);display:flex;align-items:flex-end}
+  .type-scale div{border-bottom:1px dashed var(--line);padding:10px 0}
+  .grid-demo{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+  .grid-demo span{background:rgba(44,74,115,.10);border:1px solid rgba(44,74,115,.25);height:56px}
+  .card{background:var(--surface);border:1px solid var(--line);padding:24px;max-width:420px}
+  .card .name{font:400 24px/1.2 var(--serif)}
+  .card .meta{font:13px/1.5 var(--ui);color:var(--muted);margin-top:6px}
+  figure.photo{background:var(--surface);border:1px solid var(--line);box-shadow:var(--sh-photo);padding:12px;max-width:340px}
+  figure.photo .ph{aspect-ratio:3/4;background:linear-gradient(160deg,#c9cdd4,#9aa2ad)}
+  figure.photo figcaption{font:13px/1.45 var(--ui);color:var(--muted);padding-top:10px}
+  .letter{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  .letter .scan{background:var(--surface);border:1px solid var(--line);box-shadow:var(--sh-photo);padding:14px}
+  .letter .scan .ph{aspect-ratio:4/5;background:repeating-linear-gradient(#fbfaf7,#fbfaf7 26px,#e7e3da 27px)}
+  .letter .tr{font:17px/1.7 var(--serif)}
+  .letter .tr .badge{display:inline-block;font:600 11px/1 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:#7a5a17;background:#FBF3E4;border:1px solid #C98A2B;padding:5px 8px;margin-bottom:12px}
+  blockquote{border-left:3px solid var(--blue);padding:6px 0 6px 22px;font:400 24px/1.4 var(--serif);max-width:60ch}
+  blockquote footer{font:13px/1.5 var(--ui);color:var(--muted);margin-top:10px}
+  .note{font:14px/1.55 var(--ui);color:var(--ink-soft);max-width:70ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="kicker">Направление A</p>
+  <h1>Современное мемориальное издание</h1>
+  <div class="tri" role="img" aria-label="Мотив триколора: три тонкие полосы"><i></i><i></i><i></i></div>
+  <p class="lead">Сдержанная эмоциональность. Крупная редакционная типографика, много воздуха, глубокие спокойные тона. Письма и фотографии — документальные артефакты на белом паспарту. Никакого презентационного и корпоративного ощущения.</p>
+
+  <h2>Палитра</h2>
+  <div class="sw">
+    <div style="background:#F7F5F1">paper #F7F5F1</div>
+    <div style="background:#fff">surface #FFFFFF</div>
+    <div style="background:#1E2732;color:#fff">ink #1E2732</div>
+    <div style="background:#46525F;color:#fff">ink-soft #46525F</div>
+    <div style="background:#2C4A73;color:#fff">blue #2C4A73</div>
+    <div style="background:#9E3A3E;color:#fff">red #9E3A3E</div>
+    <div style="background:#E1DDD4">line #E1DDD4</div>
+  </div>
+  <p class="note" style="margin-top:12px">Синий и красный — приглушённые тона флага; красный только для малых акцентов. Контраст текста на бумаге ≥ 7:1.</p>
+
+  <h2>Типографика</h2>
+  <div class="type-scale">
+    <div style="font:400 58px/1.1 var(--serif)">Письма памяти — display 58</div>
+    <div style="font:400 44px/1.12 var(--serif)">МОЯ МАМА АНАСТАСИЯ — h1 44</div>
+    <div style="font:400 32px/1.15 var(--serif)">Истории героев — h2 32</div>
+    <div style="font:400 21px/1.5 var(--serif);color:var(--ink-soft)">Лид-абзац — 21/1.5, ink-soft</div>
+    <div style="font:400 17px/1.6 var(--serif)">Основной текст и расшифровки писем — 17/1.6, серифный.</div>
+    <div style="font:400 15px/1.5 var(--ui)">Интерфейсный текст, навигация — 15, системный гротеск</div>
+    <div style="font:600 13px/1.4 var(--ui);letter-spacing:.14em;text-transform:uppercase;color:var(--blue-ink)">КИКЕР / МЕТАДАННЫЕ — 13 CAPS</div>
+  </div>
+  <p class="note" style="margin-top:12px">Прототип — на системных шрифтах (Georgia + system-ui). Рекомендуемая замена в продакшене: PT Serif / Literata + Inter (бесплатные, локальный хостинг).</p>
+
+  <h2>Сетка (12 колонок, 1200px, желоб 24)</h2>
+  <div class="grid-demo"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+  <h2>Карточка героя</h2>
+  <div class="card">
+    <p class="kicker" style="font-size:11px">Волгоградская область · г. Волгоград</p>
+    <p class="name">МОЯ МАМА АНАСТАСИЯ</p>
+    <p class="meta">Письмо: Игорь · 1 письмо · 3 фотографии · 1 рисунок</p>
+  </div>
+
+  <h2>Фотография — документальный артефакт</h2>
+  <figure class="photo">
+    <div class="ph" role="img" aria-label="Заглушка фотографии"></div>
+    <figcaption>Фото: семейный архив · временное изображение из PDF (pdf_reference)</figcaption>
+  </figure>
+
+  <h2>Письмо: скан + расшифровка</h2>
+  <div class="letter">
+    <div class="scan"><div class="ph" role="img" aria-label="Заглушка скана письма"></div></div>
+    <div class="tr">
+      <span class="badge">Черновик расшифровки — не сверено</span>
+      <p>Моя мама - Герой.<br>Она самая смелая и добрая мама!<br>Я горжусь своей мамой…</p>
+      <p style="font:13px/1.5 var(--ui);color:var(--muted);margin-top:12px">Авторская орфография сохранена. [нрзб] — не читается.</p>
+    </div>
+  </div>
+
+  <h2>Цитата</h2>
+  <blockquote>
+    «Она добра, она строга, она справедлива, и нежна…»
+    <footer>Из письма Игоря, 19.05.24 · дословно, черновая расшифровка</footer>
+  </blockquote>
+</div>
+</body>
+</html>

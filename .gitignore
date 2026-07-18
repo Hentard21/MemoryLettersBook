@@ -1,0 +1,12 @@
+.env
+scripts/image-pipeline/logs/
+__pycache__/
+
+# Local tool environments and reproducible working files
+.tools/
+tmp/
+workspace/
+graphify-out/
+
+# Dependency directories
+node_modules/

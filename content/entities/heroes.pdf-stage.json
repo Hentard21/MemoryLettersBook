@@ -1,0 +1,3940 @@
+{
+  "source_quality": "pdf_reference",
+  "note": "Черновой реестр героев, извлечён из титульных страниц. Имена и регионы — ДОСЛОВНО из PDF, включая возможные опечатки. Не сопоставлять фотографии с людьми без ручной проверки.",
+  "count": 76,
+  "heroes": [
+    {
+      "id": "hero-001",
+      "source_quality": "pdf_reference",
+      "title_page": 12,
+      "pages": [
+        12,
+        13,
+        14
+      ],
+      "raw_title": "МОЯ МАМА АНАСТАСИЯ\nИГОРЬ\nВолгоградская область\nг. Волгоград\n- ‹#› -",
+      "title_clean": "МОЯ МАМА АНАСТАСИЯ ИГОРЬ Волгоградская область г. Волгоград",
+      "relation_phrase": "МОЯ МАМА",
+      "hero_first_name": "АНАСТАСИЯ",
+      "author_names": [
+        "ИГОРЬ"
+      ],
+      "region_raw": "Волгоградская область",
+      "city_raw": "г. Волгоград",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 12,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 13,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 14,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-002",
+      "source_quality": "pdf_reference",
+      "title_page": 15,
+      "pages": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "raw_title": "НАШ ОТЕЦ ИГОРЬ\nНазар и Элина\nДонецкая Народная Республика\nг. Новосибирск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ИГОРЬ Назар и Элина Донецкая Народная Республика г. Новосибирск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ИГОРЬ",
+      "author_names": [],
+      "region_raw": "Назар и Элина Донецкая Народная Республика",
+      "city_raw": "г. Новосибирск",
+      "parse_flags": [
+        "authors_not_parsed"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "authors_not_parsed"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 15,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 16,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 17,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 18,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-008"
+      ]
+    },
+    {
+      "id": "hero-003",
+      "source_quality": "pdf_reference",
+      "title_page": 19,
+      "pages": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nНовосибирская область\nг. Новосибирск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Новосибирская область г. Новосибирск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": "г. Новосибирск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 19,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 20,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 21,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 22,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 23,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-004",
+      "source_quality": "pdf_reference",
+      "title_page": 24,
+      "pages": [
+        24,
+        25
+      ],
+      "raw_title": "МОЙ ОТЕЦ НИКОЛАЙ\nМИХАИЛ\nРеспублика Хакасия\nг. Абакан\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ НИКОЛАЙ МИХАИЛ Республика Хакасия г. Абакан",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "НИКОЛАЙ",
+      "author_names": [
+        "МИХАИЛ"
+      ],
+      "region_raw": "Республика Хакасия",
+      "city_raw": "г. Абакан",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 24,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 25,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-005",
+      "source_quality": "pdf_reference",
+      "title_page": 26,
+      "pages": [
+        26,
+        27,
+        28
+      ],
+      "raw_title": "МОЙ ОТЕЦ ЕВГЕНИЙ\nИВАН\nНовосибирская область\nг. Новосибирск\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ЕВГЕНИЙ ИВАН Новосибирская область г. Новосибирск",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ЕВГЕНИЙ",
+      "author_names": [
+        "ИВАН"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": "г. Новосибирск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 26,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 27,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 28,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-006",
+      "source_quality": "pdf_reference",
+      "title_page": 29,
+      "pages": [
+        29,
+        30,
+        31
+      ],
+      "raw_title": "НАШ ОТЕЦ АЛИМАМЕД\nРУСЛАН, МУРАД\nНовосибирская область\nг. Новосибирск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АЛИМАМЕД РУСЛАН, МУРАД Новосибирская область г. Новосибирск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АЛИМАМЕД",
+      "author_names": [
+        "РУСЛАН",
+        "МУРАД"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": "г. Новосибирск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 29,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 30,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 31,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-007",
+      "source_quality": "pdf_reference",
+      "title_page": 32,
+      "pages": [
+        32,
+        33,
+        34
+      ],
+      "raw_title": "МОЙ ОТЕЦ АЛМАТ\nАДЕЛИНА\nОренбургская область\nг. Оренбург\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АЛМАТ АДЕЛИНА Оренбургская область г. Оренбург",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АЛМАТ",
+      "author_names": [
+        "АДЕЛИНА"
+      ],
+      "region_raw": "Оренбургская область",
+      "city_raw": "г. Оренбург",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 32,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 33,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 34,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-008",
+      "source_quality": "pdf_reference",
+      "title_page": 35,
+      "pages": [
+        35,
+        36,
+        37
+      ],
+      "raw_title": "НАШ ОТЕЦ ЯКОВ\nИВАН, АЛИНА\nРеспублика Хакасия\nг. Абакан\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ЯКОВ ИВАН, АЛИНА Республика Хакасия г. Абакан",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ЯКОВ",
+      "author_names": [
+        "ИВАН",
+        "АЛИНА"
+      ],
+      "region_raw": "Республика Хакасия",
+      "city_raw": "г. Абакан",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 35,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 36,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 37,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-009",
+      "source_quality": "pdf_reference",
+      "title_page": 38,
+      "pages": [
+        38,
+        39,
+        40
+      ],
+      "raw_title": "НАШ ОТЕЦ ЕГОР\nУЛЬЯНА, ЕКАТЕРИНА, ТИХОН\nКарачаево - Черкесская республика\nг. Черкесск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ЕГОР УЛЬЯНА, ЕКАТЕРИНА, ТИХОН Карачаево - Черкесская республика г. Черкесск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ЕГОР",
+      "author_names": [
+        "УЛЬЯНА",
+        "ЕКАТЕРИНА",
+        "ТИХОН"
+      ],
+      "region_raw": "Карачаево - Черкесская республика",
+      "city_raw": "г. Черкесск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 38,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 39,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 40,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-010",
+      "source_quality": "pdf_reference",
+      "title_page": 41,
+      "pages": [
+        41,
+        42,
+        43
+      ],
+      "raw_title": "МОЙ ОТЕЦ АЛЕКСЕЙ\nПОЛИНА\nНижегородская область\nг. Нижний Новгород\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АЛЕКСЕЙ ПОЛИНА Нижегородская область г. Нижний Новгород",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АЛЕКСЕЙ",
+      "author_names": [
+        "ПОЛИНА"
+      ],
+      "region_raw": "Нижегородская область",
+      "city_raw": "г. Нижний Новгород",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 41,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 42,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 43,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-011",
+      "source_quality": "pdf_reference",
+      "title_page": 44,
+      "pages": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "raw_title": "НАШ ОТЕЦ АНДРЕЙ\nДАМИАН, ВИТАЛИНА, ЭМИЛИЯ, НИКИТА\nКарачаево - Черкесская республика\nг. Черкесск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АНДРЕЙ ДАМИАН, ВИТАЛИНА, ЭМИЛИЯ, НИКИТА Карачаево - Черкесская республика г. Черкесск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АНДРЕЙ",
+      "author_names": [
+        "ДАМИАН",
+        "ВИТАЛИНА",
+        "ЭМИЛИЯ",
+        "НИКИТА"
+      ],
+      "region_raw": "Карачаево - Черкесская республика",
+      "city_raw": "г. Черкесск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 44,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 45,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 46,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 47,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-012",
+      "source_quality": "pdf_reference",
+      "title_page": 48,
+      "pages": [
+        48,
+        49,
+        50
+      ],
+      "raw_title": "НАШ ОТЕЦ ВИКТОР\nВАРВАРА, АРИНА\nПсковская область\nг. Псков\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ВИКТОР ВАРВАРА, АРИНА Псковская область г. Псков",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВИКТОР",
+      "author_names": [
+        "ВАРВАРА",
+        "АРИНА"
+      ],
+      "region_raw": "Псковская область",
+      "city_raw": "г. Псков",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 48,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 49,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 50,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-013",
+      "source_quality": "pdf_reference",
+      "title_page": 51,
+      "pages": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "raw_title": "НАШ ОТЕЦ ВАДИМ\nТИМУР, ЛЕОНИД, ГЕРМАН, ОЛЕГ, РАДА,\nРАДОМИР\nг. Санкт- Петербур\nг. Санкт-Петербург\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ВАДИМ ТИМУР, ЛЕОНИД, ГЕРМАН, ОЛЕГ, РАДА, РАДОМИР г. Санкт- Петербур г. Санкт-Петербург",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВАДИМ",
+      "author_names": [
+        "ТИМУР",
+        "ЛЕОНИД",
+        "ГЕРМАН",
+        "ОЛЕГ",
+        "РАДА",
+        "РАДОМИР"
+      ],
+      "region_raw": ". Санкт-Петербург",
+      "city_raw": "г. Санкт- Петербур г",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 51,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 52,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 53,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 54,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-006"
+      ]
+    },
+    {
+      "id": "hero-014",
+      "source_quality": "pdf_reference",
+      "title_page": 55,
+      "pages": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "raw_title": "НАШ ОТЕЦ ЕВГЕНИЙ\nАГАТА, МАКАР, ТАИСИЯ, ЯРОСЛАВА\nКурганская область\nг. Курган\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ЕВГЕНИЙ АГАТА, МАКАР, ТАИСИЯ, ЯРОСЛАВА Курганская область г. Курган",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ЕВГЕНИЙ",
+      "author_names": [
+        "АГАТА",
+        "МАКАР",
+        "ТАИСИЯ",
+        "ЯРОСЛАВА"
+      ],
+      "region_raw": "Курганская область",
+      "city_raw": "г. Курган",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 55,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 56,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 57,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 58,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 59,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 60,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-015",
+      "source_quality": "pdf_reference",
+      "title_page": 61,
+      "pages": [
+        61,
+        62,
+        63
+      ],
+      "raw_title": "НАШ ОТЕЦ ИЛЬЯ\nКСЕНИЯ, ЕЛИЗАВЕТА\nНижегородская область\nг. Нижний Новгород\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ИЛЬЯ КСЕНИЯ, ЕЛИЗАВЕТА Нижегородская область г. Нижний Новгород",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ИЛЬЯ",
+      "author_names": [
+        "КСЕНИЯ",
+        "ЕЛИЗАВЕТА"
+      ],
+      "region_raw": "Нижегородская область",
+      "city_raw": "г. Нижний Новгород",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 61,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 62,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 63,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-016",
+      "source_quality": "pdf_reference",
+      "title_page": 64,
+      "pages": [
+        64
+      ],
+      "raw_title": "МОЙ ОТЕЦ АЛЕКСАНДР\nИРИНА\nКрасноярский край\nг. Красноярск\n- ‹#› -\n- 49 -",
+      "title_clean": "МОЙ ОТЕЦ АЛЕКСАНДР ИРИНА Красноярский край г. Красноярск",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АЛЕКСАНДР",
+      "author_names": [
+        "ИРИНА"
+      ],
+      "region_raw": "Красноярский край",
+      "city_raw": "г. Красноярск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "probable_by_sequence",
+      "boundary_confidence": 0.5,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.5,
+      "identity_notes": [
+        "Титул без единого материала (pages=[64]); визуально идентичен hero-017 (p.65)"
+      ],
+      "material_links": [
+        {
+          "page": 64,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-003"
+      ]
+    },
+    {
+      "id": "hero-017",
+      "source_quality": "pdf_reference",
+      "title_page": 65,
+      "pages": [
+        65,
+        66,
+        67
+      ],
+      "raw_title": "МОЙ ОТЕЦ АЛЕКСАНДР\nИРИНА\nКрасноярский край\nг. Красноярск\n- ‹#› -\n- 49 -",
+      "title_clean": "МОЙ ОТЕЦ АЛЕКСАНДР ИРИНА Красноярский край г. Красноярск",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АЛЕКСАНДР",
+      "author_names": [
+        "ИРИНА"
+      ],
+      "region_raw": "Красноярский край",
+      "city_raw": "г. Красноярск",
+      "parse_flags": [],
+      "review_required": true,
+      "review_reasons": [
+        "duplicate_title_text_of_page_64 (возможен дубль страницы или неисправленный шаблон)"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.5,
+      "identity_notes": [
+        "Возможный настоящий владелец материалов; титул визуально идентичен hero-016"
+      ],
+      "material_links": [
+        {
+          "page": 65,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 66,
+          "link_status": "probable_by_sequence",
+          "confidence": 0.6,
+          "note": "Материал следует за титулом, дублирующим соседний; принадлежность блоку вероятна, но не окончательна"
+        },
+        {
+          "page": 67,
+          "link_status": "probable_by_sequence",
+          "confidence": 0.6,
+          "note": "Материал следует за титулом, дублирующим соседний; принадлежность блоку вероятна, но не окончательна"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-003"
+      ]
+    },
+    {
+      "id": "hero-018",
+      "source_quality": "pdf_reference",
+      "title_page": 68,
+      "pages": [
+        68,
+        69
+      ],
+      "raw_title": "МОЙ ОТЕЦ АНДРЕЙ\nЕЛИЗАВЕТА\nЧелябинская область\nг. Челябинск\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АНДРЕЙ ЕЛИЗАВЕТА Челябинская область г. Челябинск",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АНДРЕЙ",
+      "author_names": [
+        "ЕЛИЗАВЕТА"
+      ],
+      "region_raw": "Челябинская область",
+      "city_raw": "г. Челябинск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 68,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 69,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-019",
+      "source_quality": "pdf_reference",
+      "title_page": 70,
+      "pages": [
+        70,
+        71,
+        72
+      ],
+      "raw_title": "МОЙ ОТЕЦ АНАТОЛИЙ\nНИКИТА\nЯрославская область\nг. Ярославль\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АНАТОЛИЙ НИКИТА Ярославская область г. Ярославль",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АНАТОЛИЙ",
+      "author_names": [
+        "НИКИТА"
+      ],
+      "region_raw": "Ярославская область",
+      "city_raw": "г. Ярославль",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 70,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 71,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 72,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-020",
+      "source_quality": "pdf_reference",
+      "title_page": 73,
+      "pages": [
+        73,
+        74,
+        75
+      ],
+      "raw_title": "НАШ ОТЕЦ БУЛАТ\nТИМУР, ДИЯР\nАстраханская область\nг. Астрахань\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ БУЛАТ ТИМУР, ДИЯР Астраханская область г. Астрахань",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "БУЛАТ",
+      "author_names": [
+        "ТИМУР",
+        "ДИЯР"
+      ],
+      "region_raw": "Астраханская область",
+      "city_raw": "г. Астрахань",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 73,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 74,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 75,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-021",
+      "source_quality": "pdf_reference",
+      "title_page": 76,
+      "pages": [
+        76,
+        77,
+        78
+      ],
+      "raw_title": "МОЙ ОТЕЦ АЛЕКСИ\nРУСЛАН\nРеспублика Адыгея\nг. Майкоп\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АЛЕКСИ РУСЛАН Республика Адыгея г. Майкоп",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АЛЕКСИ",
+      "author_names": [
+        "РУСЛАН"
+      ],
+      "region_raw": "Республика Адыгея",
+      "city_raw": "г. Майкоп",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 76,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 77,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 78,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-022",
+      "source_quality": "pdf_reference",
+      "title_page": 79,
+      "pages": [
+        79,
+        80,
+        81
+      ],
+      "raw_title": "МОЙ ОТЕЦ СЕРГЕЙ\nСОФИЯ\nКурганская область\nг. Курган\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ СЕРГЕЙ СОФИЯ Курганская область г. Курган",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "СЕРГЕЙ",
+      "author_names": [
+        "СОФИЯ"
+      ],
+      "region_raw": "Курганская область",
+      "city_raw": "г. Курган",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 79,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 80,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 81,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-023",
+      "source_quality": "pdf_reference",
+      "title_page": 82,
+      "pages": [
+        82,
+        83,
+        84
+      ],
+      "raw_title": "МОЙ ОТЕЦ ДМИТРИЙ\nПАВЕЛ\nКурганская область\nг. Курган\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ДМИТРИЙ ПАВЕЛ Курганская область г. Курган",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ДМИТРИЙ",
+      "author_names": [
+        "ПАВЕЛ"
+      ],
+      "region_raw": "Курганская область",
+      "city_raw": "г. Курган",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 82,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 83,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 84,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-024",
+      "source_quality": "pdf_reference",
+      "title_page": 85,
+      "pages": [
+        85,
+        86,
+        87
+      ],
+      "raw_title": "НАШ ОТЕЦ АЛЕКСЕЙ\nМАРК\nКрасноярский край\nг. Новосибирск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АЛЕКСЕЙ МАРК Красноярский край г. Новосибирск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АЛЕКСЕЙ",
+      "author_names": [
+        "МАРК"
+      ],
+      "region_raw": "Красноярский край",
+      "city_raw": "г. Новосибирск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 85,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 86,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 87,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-025",
+      "source_quality": "pdf_reference",
+      "title_page": 88,
+      "pages": [
+        88,
+        89,
+        90
+      ],
+      "raw_title": "НАШ ОТЕЦ САЛАМ\nХАДИЖА, КАМИЛЛА, ЗАИРА\nРеспублика Ингушетия\nг. Магас\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ САЛАМ ХАДИЖА, КАМИЛЛА, ЗАИРА Республика Ингушетия г. Магас",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "САЛАМ",
+      "author_names": [
+        "ХАДИЖА",
+        "КАМИЛЛА",
+        "ЗАИРА"
+      ],
+      "region_raw": "Республика Ингушетия",
+      "city_raw": "г. Магас",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 88,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 89,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 90,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-026",
+      "source_quality": "pdf_reference",
+      "title_page": 91,
+      "pages": [
+        91,
+        92,
+        93,
+        94
+      ],
+      "raw_title": "НАШ ОТЕЦ АЛЕКСАНДР\nУЛЬЯНА, ИЛЬЯ\nНовосибирская область\nг. Новосибирск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АЛЕКСАНДР УЛЬЯНА, ИЛЬЯ Новосибирская область г. Новосибирск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АЛЕКСАНДР",
+      "author_names": [
+        "УЛЬЯНА",
+        "ИЛЬЯ"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": "г. Новосибирск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 91,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 92,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 93,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 94,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-027",
+      "source_quality": "pdf_reference",
+      "title_page": 95,
+      "pages": [
+        95,
+        96,
+        97
+      ],
+      "raw_title": "МОЙ ОТЕЦ АЛЕКСАНДР\nЕГОР\nРеспублика Хакасия\nг. Абакан\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АЛЕКСАНДР ЕГОР Республика Хакасия г. Абакан",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АЛЕКСАНДР",
+      "author_names": [
+        "ЕГОР"
+      ],
+      "region_raw": "Республика Хакасия",
+      "city_raw": "г. Абакан",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 95,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 96,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 97,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-028",
+      "source_quality": "pdf_reference",
+      "title_page": 98,
+      "pages": [
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "raw_title": "НАШ ОТЕЦ ТАЛГАТ\nСАФИЯ, ДИАНА\nВолгоградская область\nг. Волгоград\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ТАЛГАТ САФИЯ, ДИАНА Волгоградская область г. Волгоград",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ТАЛГАТ",
+      "author_names": [
+        "САФИЯ",
+        "ДИАНА"
+      ],
+      "region_raw": "Волгоградская область",
+      "city_raw": "г. Волгоград",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 98,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 99,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 100,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 101,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 102,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-029",
+      "source_quality": "pdf_reference",
+      "title_page": 103,
+      "pages": [
+        103,
+        104,
+        105
+      ],
+      "raw_title": "НАШ ОТЕЦ АЛЕКСАНДР\nГЛЕБ, ЕГОР\nТюменская область\nг. Тюмень\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АЛЕКСАНДР ГЛЕБ, ЕГОР Тюменская область г. Тюмень",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АЛЕКСАНДР",
+      "author_names": [
+        "ГЛЕБ",
+        "ЕГОР"
+      ],
+      "region_raw": "Тюменская область",
+      "city_raw": "г. Тюмень",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 103,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 104,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 105,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-030",
+      "source_quality": "pdf_reference",
+      "title_page": 106,
+      "pages": [
+        106,
+        107,
+        108
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nНовосибирская область",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Новосибирская область",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": null,
+      "parse_flags": [
+        "city_missing"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "city_missing"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.3,
+      "identity_notes": [
+        "Титульная страница визуально неполна (нет герба региона и карты РФ, присутствующих у всех остальных героев) — реальное имя/регион героя этого блока не подтверждены. Требуется сверка с PPTX."
+      ],
+      "material_links": [
+        {
+          "page": 106,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 107,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        },
+        {
+          "page": 108,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-001"
+      ]
+    },
+    {
+      "id": "hero-031",
+      "source_quality": "pdf_reference",
+      "title_page": 109,
+      "pages": [
+        109,
+        110,
+        111
+      ],
+      "raw_title": "НАШ ОТЕЦ СЕРГЕЙ\nИРИНА, ДАРЬЯ\nНижегородская область\nг. Нижний Новгород\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ СЕРГЕЙ ИРИНА, ДАРЬЯ Нижегородская область г. Нижний Новгород",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "СЕРГЕЙ",
+      "author_names": [
+        "ИРИНА",
+        "ДАРЬЯ"
+      ],
+      "region_raw": "Нижегородская область",
+      "city_raw": "г. Нижний Новгород",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 109,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 110,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 111,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-032",
+      "source_quality": "pdf_reference",
+      "title_page": 112,
+      "pages": [
+        112,
+        113,
+        114
+      ],
+      "raw_title": "МОЙ ОТЕЦ НИКОЛАЙ\nКИРА\nРеспублика Адыгея\nг. Майкоп\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ НИКОЛАЙ КИРА Республика Адыгея г. Майкоп",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "НИКОЛАЙ",
+      "author_names": [
+        "КИРА"
+      ],
+      "region_raw": "Республика Адыгея",
+      "city_raw": "г. Майкоп",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 112,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 113,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 114,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-033",
+      "source_quality": "pdf_reference",
+      "title_page": 115,
+      "pages": [
+        115,
+        116,
+        117
+      ],
+      "raw_title": "НАШ ОТЕЦ МУРАД\nЯСМИНА, УМУКУСУМ\nРеспублика Дагестан\nг. Махачкала\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ МУРАД ЯСМИНА, УМУКУСУМ Республика Дагестан г. Махачкала",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "МУРАД",
+      "author_names": [
+        "ЯСМИНА",
+        "УМУКУСУМ"
+      ],
+      "region_raw": "Республика Дагестан",
+      "city_raw": "г. Махачкала",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 115,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 116,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 117,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-034",
+      "source_quality": "pdf_reference",
+      "title_page": 118,
+      "pages": [
+        118,
+        119,
+        120
+      ],
+      "raw_title": "НАШ ОТЕЦ ТИМУР\nДАНИЭЛЬ, АЙСЫЛУ\nТюменская область\nг. Тюмень\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ТИМУР ДАНИЭЛЬ, АЙСЫЛУ Тюменская область г. Тюмень",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ТИМУР",
+      "author_names": [
+        "ДАНИЭЛЬ",
+        "АЙСЫЛУ"
+      ],
+      "region_raw": "Тюменская область",
+      "city_raw": "г. Тюмень",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 118,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 119,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 120,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-035",
+      "source_quality": "pdf_reference",
+      "title_page": 121,
+      "pages": [
+        121,
+        122,
+        123
+      ],
+      "raw_title": "НАШ ОТЕЦ ИЛЬЯ\nВАЛЕРИЯ, АЛЕКСАНДР, КСЕНИЯ\nТюменская область\nг. Тюмень\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ИЛЬЯ ВАЛЕРИЯ, АЛЕКСАНДР, КСЕНИЯ Тюменская область г. Тюмень",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ИЛЬЯ",
+      "author_names": [
+        "ВАЛЕРИЯ",
+        "АЛЕКСАНДР",
+        "КСЕНИЯ"
+      ],
+      "region_raw": "Тюменская область",
+      "city_raw": "г. Тюмень",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 121,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 122,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 123,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-036",
+      "source_quality": "pdf_reference",
+      "title_page": 124,
+      "pages": [
+        124,
+        125,
+        126
+      ],
+      "raw_title": "НАШ ОТЕЦ АНДРЕЙ\nКСЕНИЯ, АРТЁМ\nСвердловская область\nг. Екатеринбург\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АНДРЕЙ КСЕНИЯ, АРТЁМ Свердловская область г. Екатеринбург",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АНДРЕЙ",
+      "author_names": [
+        "КСЕНИЯ",
+        "АРТЁМ"
+      ],
+      "region_raw": "Свердловская область",
+      "city_raw": "г. Екатеринбург",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 124,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 125,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 126,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-037",
+      "source_quality": "pdf_reference",
+      "title_page": 127,
+      "pages": [
+        127,
+        128,
+        129
+      ],
+      "raw_title": "НАШ ОТЕЦ ДАМИР\nИРКЕН, МИЛАНА, ИЛЬНАР\nАстраханская область\nг. Астрахань\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ДАМИР ИРКЕН, МИЛАНА, ИЛЬНАР Астраханская область г. Астрахань",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ДАМИР",
+      "author_names": [
+        "ИРКЕН",
+        "МИЛАНА",
+        "ИЛЬНАР"
+      ],
+      "region_raw": "Астраханская область",
+      "city_raw": "г. Астрахань",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 127,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 128,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 129,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-038",
+      "source_quality": "pdf_reference",
+      "title_page": 130,
+      "pages": [
+        130,
+        131,
+        132
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nЛЕОНИД, ВАРВАРА, РОМАН\nТюменская область\nг. Тюмень\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ ЛЕОНИД, ВАРВАРА, РОМАН Тюменская область г. Тюмень",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "ЛЕОНИД",
+        "ВАРВАРА",
+        "РОМАН"
+      ],
+      "region_raw": "Тюменская область",
+      "city_raw": "г. Тюмень",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 130,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 131,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 132,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-039",
+      "source_quality": "pdf_reference",
+      "title_page": 133,
+      "pages": [
+        133,
+        134,
+        135
+      ],
+      "raw_title": "МОЙ ОТЕЦ ВАСИЛИЙ\nПАВЕЛ\nРеспублика Башкортостан\nг. Уфа\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ВАСИЛИЙ ПАВЕЛ Республика Башкортостан г. Уфа",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ВАСИЛИЙ",
+      "author_names": [
+        "ПАВЕЛ"
+      ],
+      "region_raw": "Республика Башкортостан",
+      "city_raw": "г. Уфа",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 133,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 134,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 135,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-040",
+      "source_quality": "pdf_reference",
+      "title_page": 136,
+      "pages": [
+        136,
+        137,
+        138
+      ],
+      "raw_title": "МОЙ ОТЕЦ РОМАН\nСВЯТОСЛАВ\nТюменская область\nг. Тюмень\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ РОМАН СВЯТОСЛАВ Тюменская область г. Тюмень",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "РОМАН",
+      "author_names": [
+        "СВЯТОСЛАВ"
+      ],
+      "region_raw": "Тюменская область",
+      "city_raw": "г. Тюмень",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 136,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 137,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 138,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-041",
+      "source_quality": "pdf_reference",
+      "title_page": 139,
+      "pages": [
+        139,
+        140,
+        141
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nНовосибирская область",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Новосибирская область",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": null,
+      "parse_flags": [
+        "city_missing"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "city_missing",
+        "duplicate_title_text_of_page_106 (возможен дубль страницы или неисправленный шаблон)"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.3,
+      "identity_notes": [
+        "Титульная страница визуально неполна (нет герба региона и карты РФ, присутствующих у всех остальных героев) — реальное имя/регион героя этого блока не подтверждены. Требуется сверка с PPTX."
+      ],
+      "material_links": [
+        {
+          "page": 139,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 140,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        },
+        {
+          "page": 141,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-001"
+      ]
+    },
+    {
+      "id": "hero-042",
+      "source_quality": "pdf_reference",
+      "title_page": 142,
+      "pages": [
+        142,
+        143,
+        144
+      ],
+      "raw_title": "НАШ ОТЕЦ ЕВГЕНИЙ\nДМИТРИЙ, АРТЕМ, ПАЛИНА\nРеспублика Тыва\nг. Кызыл\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ЕВГЕНИЙ ДМИТРИЙ, АРТЕМ, ПАЛИНА Республика Тыва г. Кызыл",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ЕВГЕНИЙ",
+      "author_names": [
+        "ДМИТРИЙ",
+        "АРТЕМ",
+        "ПАЛИНА"
+      ],
+      "region_raw": "Республика Тыва",
+      "city_raw": "г. Кызыл",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 142,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 143,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 144,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-043",
+      "source_quality": "pdf_reference",
+      "title_page": 145,
+      "pages": [
+        145,
+        146,
+        147
+      ],
+      "raw_title": "МОЙ ОТЕЦ ВЛАДИСЛАВ\nАЙМИР\nРеспублика Хакасия\nг. Абакан\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ВЛАДИСЛАВ АЙМИР Республика Хакасия г. Абакан",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ВЛАДИСЛАВ",
+      "author_names": [
+        "АЙМИР"
+      ],
+      "region_raw": "Республика Хакасия",
+      "city_raw": "г. Абакан",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 145,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 146,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 147,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-044",
+      "source_quality": "pdf_reference",
+      "title_page": 148,
+      "pages": [
+        148,
+        149,
+        150
+      ],
+      "raw_title": "НАШ ОТЕЦ РАМИЛЬ\nРАНИЛЬ, ДАНИЛЬ\nРеспублика Татарстан\nг. Казань\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ РАМИЛЬ РАНИЛЬ, ДАНИЛЬ Республика Татарстан г. Казань",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "РАМИЛЬ",
+      "author_names": [
+        "РАНИЛЬ",
+        "ДАНИЛЬ"
+      ],
+      "region_raw": "Республика Татарстан",
+      "city_raw": "г. Казань",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 148,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 149,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 150,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-045",
+      "source_quality": "pdf_reference",
+      "title_page": 151,
+      "pages": [
+        151,
+        152,
+        153
+      ],
+      "raw_title": "НАШ ОТЕЦ САНАЛ\nЭНКИРА, ЧИНГИЗ, ТЕНГИР\nРеспублика Калмыкия\nг. Элиста\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ САНАЛ ЭНКИРА, ЧИНГИЗ, ТЕНГИР Республика Калмыкия г. Элиста",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "САНАЛ",
+      "author_names": [
+        "ЭНКИРА",
+        "ЧИНГИЗ",
+        "ТЕНГИР"
+      ],
+      "region_raw": "Республика Калмыкия",
+      "city_raw": "г. Элиста",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 151,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 152,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 153,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-046",
+      "source_quality": "pdf_reference",
+      "title_page": 154,
+      "pages": [
+        154,
+        155,
+        156
+      ],
+      "raw_title": "НАШ ОТЕЦ АНАТОЛИЙ\nСЕРГЕЙ, ЕКАТЕРИНА, ЕЛИЗАВЕТА\nКурганская область\nг. Курган\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АНАТОЛИЙ СЕРГЕЙ, ЕКАТЕРИНА, ЕЛИЗАВЕТА Курганская область г. Курган",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АНАТОЛИЙ",
+      "author_names": [
+        "СЕРГЕЙ",
+        "ЕКАТЕРИНА",
+        "ЕЛИЗАВЕТА"
+      ],
+      "region_raw": "Курганская область",
+      "city_raw": "г. Курган",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 154,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 155,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 156,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-047",
+      "source_quality": "pdf_reference",
+      "title_page": 157,
+      "pages": [
+        157,
+        158,
+        159,
+        160,
+        161
+      ],
+      "raw_title": "НАШ ОТЕЦ АЛЕКСАНДР\nВЯЧЕСЛАВ, ЕГОР\nТюменская область\nг. Тюмень\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АЛЕКСАНДР ВЯЧЕСЛАВ, ЕГОР Тюменская область г. Тюмень",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АЛЕКСАНДР",
+      "author_names": [
+        "ВЯЧЕСЛАВ",
+        "ЕГОР"
+      ],
+      "region_raw": "Тюменская область",
+      "city_raw": "г. Тюмень",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 157,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 158,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 159,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 160,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 161,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-048",
+      "source_quality": "pdf_reference",
+      "title_page": 162,
+      "pages": [
+        162,
+        163,
+        164
+      ],
+      "raw_title": "МОЙ ОТЕЦ ВЯЧЕСЛАВ\nЗЛАТА\nРеспублика Башкортостан\nг. Уфа\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ВЯЧЕСЛАВ ЗЛАТА Республика Башкортостан г. Уфа",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "ЗЛАТА"
+      ],
+      "region_raw": "Республика Башкортостан",
+      "city_raw": "г. Уфа",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 162,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 163,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 164,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-049",
+      "source_quality": "pdf_reference",
+      "title_page": 165,
+      "pages": [
+        165,
+        166,
+        167
+      ],
+      "raw_title": "НАШ ОТЕЦ РОМАН\nДАРИНА, ПАВЕЛ\nПриморский край\nг. Владивосток\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ РОМАН ДАРИНА, ПАВЕЛ Приморский край г. Владивосток",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "РОМАН",
+      "author_names": [
+        "ДАРИНА",
+        "ПАВЕЛ"
+      ],
+      "region_raw": "Приморский край",
+      "city_raw": "г. Владивосток",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 165,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 166,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 167,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-050",
+      "source_quality": "pdf_reference",
+      "title_page": 168,
+      "pages": [
+        168,
+        169,
+        170,
+        171
+      ],
+      "raw_title": "НАШ ОТЕЦ МУСТАФА\nАМИНА, МУХАММАД, КАМИЛЛЯ\nРеспублика Ингушетия\nг. Магас\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ МУСТАФА АМИНА, МУХАММАД, КАМИЛЛЯ Республика Ингушетия г. Магас",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "МУСТАФА",
+      "author_names": [
+        "АМИНА",
+        "МУХАММАД",
+        "КАМИЛЛЯ"
+      ],
+      "region_raw": "Республика Ингушетия",
+      "city_raw": "г. Магас",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 168,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 169,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 170,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 171,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-051",
+      "source_quality": "pdf_reference",
+      "title_page": 172,
+      "pages": [
+        172,
+        173,
+        174
+      ],
+      "raw_title": "МОЙ ОТЕЦ ВИКТОР\nВЛАДА\nИвановская область\nг. Иваново\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ВИКТОР ВЛАДА Ивановская область г. Иваново",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ВИКТОР",
+      "author_names": [
+        "ВЛАДА"
+      ],
+      "region_raw": "Ивановская область",
+      "city_raw": "г. Иваново",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.5,
+      "identity_notes": [
+        "Титул визуально идентичен hero-052; у обоих свой полный комплект материалов"
+      ],
+      "material_links": [
+        {
+          "page": 172,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 173,
+          "link_status": "probable_by_sequence",
+          "confidence": 0.6,
+          "note": "Материал следует за титулом, дублирующим соседний; принадлежность блоку вероятна, но не окончательна"
+        },
+        {
+          "page": 174,
+          "link_status": "probable_by_sequence",
+          "confidence": 0.6,
+          "note": "Материал следует за титулом, дублирующим соседний; принадлежность блоку вероятна, но не окончательна"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-004"
+      ]
+    },
+    {
+      "id": "hero-052",
+      "source_quality": "pdf_reference",
+      "title_page": 175,
+      "pages": [
+        175,
+        176,
+        177
+      ],
+      "raw_title": "МОЙ ОТЕЦ ВИКТОР\nВЛАДА\nИвановская область\nг. Иваново\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ВИКТОР ВЛАДА Ивановская область г. Иваново",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ВИКТОР",
+      "author_names": [
+        "ВЛАДА"
+      ],
+      "region_raw": "Ивановская область",
+      "city_raw": "г. Иваново",
+      "parse_flags": [],
+      "review_required": true,
+      "review_reasons": [
+        "duplicate_title_text_of_page_172 (возможен дубль страницы или неисправленный шаблон)"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.5,
+      "identity_notes": [
+        "Титул визуально идентичен hero-051; у обоих свой полный комплект материалов"
+      ],
+      "material_links": [
+        {
+          "page": 175,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 176,
+          "link_status": "probable_by_sequence",
+          "confidence": 0.6,
+          "note": "Материал следует за титулом, дублирующим соседний; принадлежность блоку вероятна, но не окончательна"
+        },
+        {
+          "page": 177,
+          "link_status": "probable_by_sequence",
+          "confidence": 0.6,
+          "note": "Материал следует за титулом, дублирующим соседний; принадлежность блоку вероятна, но не окончательна"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-004"
+      ]
+    },
+    {
+      "id": "hero-053",
+      "source_quality": "pdf_reference",
+      "title_page": 178,
+      "pages": [
+        178,
+        179,
+        180
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nНовосибирская область",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Новосибирская область",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": null,
+      "parse_flags": [
+        "city_missing"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "city_missing",
+        "duplicate_title_text_of_page_106 (возможен дубль страницы или неисправленный шаблон)"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.3,
+      "identity_notes": [
+        "Титульная страница визуально неполна (нет герба региона и карты РФ, присутствующих у всех остальных героев) — реальное имя/регион героя этого блока не подтверждены. Требуется сверка с PPTX."
+      ],
+      "material_links": [
+        {
+          "page": 178,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 179,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        },
+        {
+          "page": 180,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-001"
+      ]
+    },
+    {
+      "id": "hero-054",
+      "source_quality": "pdf_reference",
+      "title_page": 181,
+      "pages": [
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nВолгоградская область\nг. Волгоград\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Волгоградская область г. Волгоград",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Волгоградская область",
+      "city_raw": "г. Волгоград",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 181,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 182,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 183,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 184,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 185,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-002"
+      ]
+    },
+    {
+      "id": "hero-055",
+      "source_quality": "pdf_reference",
+      "title_page": 186,
+      "pages": [
+        186,
+        187,
+        188
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nНовосибирская область",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Новосибирская область",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": null,
+      "parse_flags": [
+        "city_missing"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "city_missing",
+        "duplicate_title_text_of_page_106 (возможен дубль страницы или неисправленный шаблон)"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.3,
+      "identity_notes": [
+        "Титульная страница визуально неполна (нет герба региона и карты РФ, присутствующих у всех остальных героев) — реальное имя/регион героя этого блока не подтверждены. Требуется сверка с PPTX."
+      ],
+      "material_links": [
+        {
+          "page": 186,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 187,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        },
+        {
+          "page": 188,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-001"
+      ]
+    },
+    {
+      "id": "hero-056",
+      "source_quality": "pdf_reference",
+      "title_page": 189,
+      "pages": [
+        189,
+        190,
+        191
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nНовосибирская область",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Новосибирская область",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": null,
+      "parse_flags": [
+        "city_missing"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "city_missing",
+        "duplicate_title_text_of_page_106 (возможен дубль страницы или неисправленный шаблон)"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.3,
+      "identity_notes": [
+        "Титульная страница визуально неполна (нет герба региона и карты РФ, присутствующих у всех остальных героев) — реальное имя/регион героя этого блока не подтверждены. Требуется сверка с PPTX."
+      ],
+      "material_links": [
+        {
+          "page": 189,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 190,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        },
+        {
+          "page": 191,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-001"
+      ]
+    },
+    {
+      "id": "hero-057",
+      "source_quality": "pdf_reference",
+      "title_page": 192,
+      "pages": [
+        192,
+        193,
+        194,
+        195
+      ],
+      "raw_title": "НАШ ОТЕЦ ИГОРЬ\nВЛАДИСЛАВ, АРИНА\nЗабайкальский Край\nг. Чита\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ИГОРЬ ВЛАДИСЛАВ, АРИНА Забайкальский Край г. Чита",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ИГОРЬ",
+      "author_names": [
+        "ВЛАДИСЛАВ",
+        "АРИНА"
+      ],
+      "region_raw": "Забайкальский Край",
+      "city_raw": "г. Чита",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 192,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 193,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 194,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 195,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-058",
+      "source_quality": "pdf_reference",
+      "title_page": 196,
+      "pages": [
+        196,
+        197
+      ],
+      "raw_title": "МОЙ ОТЕЦ ДМИТРИЙ\nЮЛИАННА\nЗабайкальский Край\nг. Чита\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ДМИТРИЙ ЮЛИАННА Забайкальский Край г. Чита",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ДМИТРИЙ",
+      "author_names": [
+        "ЮЛИАННА"
+      ],
+      "region_raw": "Забайкальский Край",
+      "city_raw": "г. Чита",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 196,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 197,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-059",
+      "source_quality": "pdf_reference",
+      "title_page": 198,
+      "pages": [
+        198,
+        199,
+        200
+      ],
+      "raw_title": "МОЙ ОТЕЦ ИЛЬДАР\nАМИР\nЛипецкая область\nг. Липецк\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ИЛЬДАР АМИР Липецкая область г. Липецк",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ИЛЬДАР",
+      "author_names": [
+        "АМИР"
+      ],
+      "region_raw": "Липецкая область",
+      "city_raw": "г. Липецк",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 198,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 199,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 200,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-060",
+      "source_quality": "pdf_reference",
+      "title_page": 201,
+      "pages": [
+        201,
+        202,
+        203
+      ],
+      "raw_title": "МОЙ ОТЕЦ ДЕНИС\nМИЛАНА\nЛипецкая область\nг. Липецк\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ ДЕНИС МИЛАНА Липецкая область г. Липецк",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "ДЕНИС",
+      "author_names": [
+        "МИЛАНА"
+      ],
+      "region_raw": "Липецкая область",
+      "city_raw": "г. Липецк",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 201,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 202,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 203,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-061",
+      "source_quality": "pdf_reference",
+      "title_page": 204,
+      "pages": [
+        204,
+        205,
+        206
+      ],
+      "raw_title": "МОЙ ОТЕЦ СЕРГЕЙ\nСОФИЯ\nг. Москва\nг. Москва\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ СЕРГЕЙ СОФИЯ г. Москва г. Москва",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "СЕРГЕЙ",
+      "author_names": [
+        "СОФИЯ"
+      ],
+      "region_raw": ". Москва",
+      "city_raw": "г. Москва г",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 204,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 205,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 206,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-007"
+      ]
+    },
+    {
+      "id": "hero-062",
+      "source_quality": "pdf_reference",
+      "title_page": 207,
+      "pages": [
+        207,
+        208,
+        209
+      ],
+      "raw_title": "МОЙ ОТЕЦ АЛЕКСАНДР\nАМИР????\nОренбургская область\nг. Оренбург\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АЛЕКСАНДР АМИР???? Оренбургская область г. Оренбург",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АЛЕКСАНДР",
+      "author_names": [
+        "АМИР????"
+      ],
+      "region_raw": "Оренбургская область",
+      "city_raw": "г. Оренбург",
+      "parse_flags": [
+        "suspicious_characters_in_title"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "suspicious_characters_in_title"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 207,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 208,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 209,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-005"
+      ]
+    },
+    {
+      "id": "hero-063",
+      "source_quality": "pdf_reference",
+      "title_page": 210,
+      "pages": [
+        210,
+        211,
+        212
+      ],
+      "raw_title": "МОЙ ОТЕЦ НИКОЛАЙ\nКИРА\nРеспублика Хакасия\nг. Абакан\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ НИКОЛАЙ КИРА Республика Хакасия г. Абакан",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "НИКОЛАЙ",
+      "author_names": [
+        "КИРА"
+      ],
+      "region_raw": "Республика Хакасия",
+      "city_raw": "г. Абакан",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 210,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 211,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 212,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-064",
+      "source_quality": "pdf_reference",
+      "title_page": 213,
+      "pages": [
+        213,
+        214,
+        215
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nНовосибирская область",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Новосибирская область",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": null,
+      "parse_flags": [
+        "city_missing"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "city_missing",
+        "duplicate_title_text_of_page_106 (возможен дубль страницы или неисправленный шаблон)"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.3,
+      "identity_notes": [
+        "Титульная страница визуально неполна (нет герба региона и карты РФ, присутствующих у всех остальных героев) — реальное имя/регион героя этого блока не подтверждены. Требуется сверка с PPTX."
+      ],
+      "material_links": [
+        {
+          "page": 213,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 214,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        },
+        {
+          "page": 215,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-001"
+      ]
+    },
+    {
+      "id": "hero-065",
+      "source_quality": "pdf_reference",
+      "title_page": 216,
+      "pages": [
+        216,
+        217
+      ],
+      "raw_title": "НАШ ОТЕЦ ВЯЧЕСЛАВ\nРУСЛАН, КАМИЛЛА, САБИНА\nНовосибирская область",
+      "title_clean": "НАШ ОТЕЦ ВЯЧЕСЛАВ РУСЛАН, КАМИЛЛА, САБИНА Новосибирская область",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ВЯЧЕСЛАВ",
+      "author_names": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "region_raw": "Новосибирская область",
+      "city_raw": null,
+      "parse_flags": [
+        "city_missing"
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "city_missing",
+        "duplicate_title_text_of_page_106 (возможен дубль страницы или неисправленный шаблон)"
+      ],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "ambiguous",
+      "identity_confidence": 0.3,
+      "identity_notes": [
+        "Титульная страница визуально неполна (нет герба региона и карты РФ, присутствующих у всех остальных героев) — реальное имя/регион героя этого блока не подтверждены. Требуется сверка с PPTX."
+      ],
+      "material_links": [
+        {
+          "page": 216,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 217,
+          "link_status": "ambiguous",
+          "confidence": 0.35,
+          "note": "Материал расположен сразу после неполного/шаблонного титула; кому именно принадлежит — не подтверждено"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-001"
+      ]
+    },
+    {
+      "id": "hero-066",
+      "source_quality": "pdf_reference",
+      "title_page": 218,
+      "pages": [
+        218,
+        219,
+        220,
+        221,
+        222
+      ],
+      "raw_title": "НАШ ОТЕЦ ИЛЬГАМ\nМУРАТ, ДАНИЯР\nРеспублика Башкортостан\nг. Уфа\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ИЛЬГАМ МУРАТ, ДАНИЯР Республика Башкортостан г. Уфа",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ИЛЬГАМ",
+      "author_names": [
+        "МУРАТ",
+        "ДАНИЯР"
+      ],
+      "region_raw": "Республика Башкортостан",
+      "city_raw": "г. Уфа",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 218,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 219,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 220,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 221,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 222,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-067",
+      "source_quality": "pdf_reference",
+      "title_page": 223,
+      "pages": [
+        223,
+        224,
+        225
+      ],
+      "raw_title": "НАШ ОТЕЦ ЕВГЕНИЙ\nПОЛИНА, АННА, ЕГОР\nСвердловская область\nг. Екатеринбург\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ЕВГЕНИЙ ПОЛИНА, АННА, ЕГОР Свердловская область г. Екатеринбург",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ЕВГЕНИЙ",
+      "author_names": [
+        "ПОЛИНА",
+        "АННА",
+        "ЕГОР"
+      ],
+      "region_raw": "Свердловская область",
+      "city_raw": "г. Екатеринбург",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 223,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 224,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 225,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-068",
+      "source_quality": "pdf_reference",
+      "title_page": 226,
+      "pages": [
+        226,
+        227,
+        228,
+        229
+      ],
+      "raw_title": "НАШ ОТЕЦ АБДУЛБЕК\nАКРАМАН, САЛИМА, ДАИД\nЧеченская Республика\nг. Грозный\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АБДУЛБЕК АКРАМАН, САЛИМА, ДАИД Чеченская Республика г. Грозный",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АБДУЛБЕК",
+      "author_names": [
+        "АКРАМАН",
+        "САЛИМА",
+        "ДАИД"
+      ],
+      "region_raw": "Чеченская Республика",
+      "city_raw": "г. Грозный",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 226,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 227,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 228,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 229,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-069",
+      "source_quality": "pdf_reference",
+      "title_page": 230,
+      "pages": [
+        230,
+        231,
+        232,
+        233
+      ],
+      "raw_title": "МОЙ ОТЕЦ АНТОН\nДМИТРИЙ\nЧелябинская область\nг. Челябинск\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АНТОН ДМИТРИЙ Челябинская область г. Челябинск",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АНТОН",
+      "author_names": [
+        "ДМИТРИЙ"
+      ],
+      "region_raw": "Челябинская область",
+      "city_raw": "г. Челябинск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 230,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 231,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 232,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 233,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-070",
+      "source_quality": "pdf_reference",
+      "title_page": 234,
+      "pages": [
+        234,
+        235,
+        236
+      ],
+      "raw_title": "НАШ ОТЕЦ АЛЕКСЕЙ\nАННА, ЕКАТЕРИНА\nг. Санкт- Петербур\nг. Санкт-Петербург\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АЛЕКСЕЙ АННА, ЕКАТЕРИНА г. Санкт- Петербур г. Санкт-Петербург",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АЛЕКСЕЙ",
+      "author_names": [
+        "АННА",
+        "ЕКАТЕРИНА"
+      ],
+      "region_raw": ". Санкт-Петербург",
+      "city_raw": "г. Санкт- Петербур г",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 234,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 235,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 236,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": [
+        "eq-006"
+      ]
+    },
+    {
+      "id": "hero-071",
+      "source_quality": "pdf_reference",
+      "title_page": 237,
+      "pages": [
+        237,
+        238,
+        239
+      ],
+      "raw_title": "МОЙ ОТЕЦ АЛЕКСАНДР\nДАНИЛ\nСвердловская область\nг. Екатеринбург\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АЛЕКСАНДР ДАНИЛ Свердловская область г. Екатеринбург",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АЛЕКСАНДР",
+      "author_names": [
+        "ДАНИЛ"
+      ],
+      "region_raw": "Свердловская область",
+      "city_raw": "г. Екатеринбург",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 237,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 238,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 239,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-072",
+      "source_quality": "pdf_reference",
+      "title_page": 240,
+      "pages": [
+        240,
+        241,
+        242
+      ],
+      "raw_title": "НАШ ОТЕЦ ФЕДОР\nАНАСТАСИЯ, МИХАИЛ\nНижегородская область\nг. Нижний Новгород\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ ФЕДОР АНАСТАСИЯ, МИХАИЛ Нижегородская область г. Нижний Новгород",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "ФЕДОР",
+      "author_names": [
+        "АНАСТАСИЯ",
+        "МИХАИЛ"
+      ],
+      "region_raw": "Нижегородская область",
+      "city_raw": "г. Нижний Новгород",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 240,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 241,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 242,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-073",
+      "source_quality": "pdf_reference",
+      "title_page": 243,
+      "pages": [
+        243,
+        244,
+        245
+      ],
+      "raw_title": "НАШ ОТЕЦ АНДРЕЙ\nАННА, ВИКТОР\nЧелябинская область\nг. Челябинск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АНДРЕЙ АННА, ВИКТОР Челябинская область г. Челябинск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АНДРЕЙ",
+      "author_names": [
+        "АННА",
+        "ВИКТОР"
+      ],
+      "region_raw": "Челябинская область",
+      "city_raw": "г. Челябинск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 243,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 244,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 245,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-074",
+      "source_quality": "pdf_reference",
+      "title_page": 246,
+      "pages": [
+        246,
+        247,
+        248,
+        249
+      ],
+      "raw_title": "МОЙ ОТЕЦ АРТУР\nДИНАР\nРеспублика Башкортостан\nг. Уфа\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ АРТУР ДИНАР Республика Башкортостан г. Уфа",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "АРТУР",
+      "author_names": [
+        "ДИНАР"
+      ],
+      "region_raw": "Республика Башкортостан",
+      "city_raw": "г. Уфа",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 246,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 247,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 248,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 249,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-075",
+      "source_quality": "pdf_reference",
+      "title_page": 250,
+      "pages": [
+        250,
+        251,
+        252
+      ],
+      "raw_title": "НАШ ОТЕЦ АНДРЕЙ\nМАРГАРИТА, ПЕТР\nАмурская область\nг. Благовещенск\n- ‹#› -",
+      "title_clean": "НАШ ОТЕЦ АНДРЕЙ МАРГАРИТА, ПЕТР Амурская область г. Благовещенск",
+      "relation_phrase": "НАШ ОТЕЦ",
+      "hero_first_name": "АНДРЕЙ",
+      "author_names": [
+        "МАРГАРИТА",
+        "ПЕТР"
+      ],
+      "region_raw": "Амурская область",
+      "city_raw": "г. Благовещенск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 250,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 251,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 252,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    },
+    {
+      "id": "hero-076",
+      "source_quality": "pdf_reference",
+      "title_page": 253,
+      "pages": [
+        253,
+        254,
+        255
+      ],
+      "raw_title": "МОЙ ОТЕЦ НИКОЛАЙ\nАННА\nХанты-Мансийский АО - Югра\nг. Ханты-Мансийск\n- ‹#› -",
+      "title_clean": "МОЙ ОТЕЦ НИКОЛАЙ АННА Ханты-Мансийский АО - Югра г. Ханты-Мансийск",
+      "relation_phrase": "МОЙ ОТЕЦ",
+      "hero_first_name": "НИКОЛАЙ",
+      "author_names": [
+        "АННА"
+      ],
+      "region_raw": "Ханты-Мансийский АО - Югра",
+      "city_raw": "г. Ханты-Мансийск",
+      "parse_flags": [],
+      "review_required": false,
+      "review_reasons": [],
+      "boundary_status": "confirmed_by_sequence",
+      "boundary_confidence": 0.85,
+      "identity_status": "confirmed",
+      "identity_confidence": 0.9,
+      "identity_notes": [],
+      "material_links": [
+        {
+          "page": 253,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.95,
+          "note": "Титульная страница блока"
+        },
+        {
+          "page": 254,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        },
+        {
+          "page": 255,
+          "link_status": "confirmed_by_sequence",
+          "confidence": 0.85,
+          "note": "Расположен последовательно между этим титулом и следующим"
+        }
+      ],
+      "editorial_issue_refs": []
+    }
+  ],
+  "boundary_review_note": "Границы блоков (material_links) и достоверность самой идентичности героя (identity_status/identity_confidence) — РАЗНЫЕ вещи. Для 7 героев с неполными титулами (hero-030, 041, 053, 055, 056, 064, 065) страницы расположены последовательно правильно, но КТО ИМЕННО этот герой — неизвестно до получения PPTX. Ничего не переприсвоено автоматически."
+}

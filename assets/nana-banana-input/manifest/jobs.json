@@ -1,0 +1,66 @@
+[
+  {
+    "family_id": "anastasia",
+    "asset_type": "portrait",
+    "source_file": "portraits/anastasia_portrait_source.png",
+    "intended_use": "print_spread",
+    "notes": "Нужен прозрачный фон, если модель это поддерживает; иначе чистый белый фон. Сохранить черты лица и узнаваемость; не менять одежду; сохранить все предметы в руках; сохранить нашивки, награды, элементы формы и экипировки; кадрировать примерно по пояс; естественно дорисовать только обрезанные плечи, локти, руки и края одежды.",
+    "status": "ready_for_manual_agent_run"
+  },
+  {
+    "family_id": "igor",
+    "asset_type": "portrait",
+    "source_file": "portraits/igor_portrait_source.png",
+    "intended_use": "print_spread",
+    "notes": "Нужен прозрачный фон, если модель это поддерживает; иначе чистый белый фон. Сохранить черты лица и узнаваемость; не менять одежду; сохранить все предметы в руках; сохранить нашивки, награды, элементы формы и экипировки; кадрировать примерно по пояс; естественно дорисовать только обрезанные плечи, локти, руки и края одежды.",
+    "status": "ready_for_manual_agent_run"
+  },
+  {
+    "family_id": "anastasia",
+    "asset_type": "group",
+    "source_file": "groups/anastasia_group_source.png",
+    "intended_use": "print_spread",
+    "notes": "Нативный групповой снимок из исходного PDF; сохранить людей, их одежду и композицию без добавления новых персонажей.",
+    "status": "ready_for_manual_agent_run"
+  },
+  {
+    "family_id": "igor",
+    "asset_type": "group",
+    "source_file": "groups/igor_group_source.png",
+    "intended_use": "print_spread",
+    "notes": "Нативный семейный коллаж из исходного PDF; сохранить людей, лица и композицию без добавления новых персонажей.",
+    "status": "ready_for_manual_agent_run"
+  },
+  {
+    "family_id": "anastasia",
+    "asset_type": "drawing",
+    "source_file": "drawings/anastasia_drawing_source.png",
+    "intended_use": "print_spread",
+    "notes": "Улучшить качество; сохранить детский штрих; не перерисовывать в цифровой стиль; чистый светлый фон.",
+    "status": "ready_for_manual_agent_run"
+  },
+  {
+    "family_id": "igor",
+    "asset_type": "drawing",
+    "source_file": "drawings/igor_drawing_source.png",
+    "intended_use": "print_spread",
+    "notes": "Улучшить качество; сохранить детский штрих; не перерисовывать в цифровой стиль; чистый светлый фон.",
+    "status": "ready_for_manual_agent_run"
+  },
+  {
+    "family_id": "anastasia",
+    "asset_type": "handwriting",
+    "source_file": "handwriting/anastasia_letter_source.png",
+    "intended_use": "print_spread",
+    "notes": "Улучшить читаемость; сохранить настоящий почерк; не заменять его синтетическим шрифтом; подготовить как мягкую фоновую подложку.",
+    "status": "ready_for_manual_agent_run"
+  },
+  {
+    "family_id": "igor",
+    "asset_type": "handwriting",
+    "source_file": "handwriting/igor_letter_source.png",
+    "intended_use": "print_spread",
+    "notes": "Улучшить читаемость; сохранить настоящий почерк; не заменять его синтетическим шрифтом; подготовить как мягкую фоновую подложку.",
+    "status": "ready_for_manual_agent_run"
+  }
+]

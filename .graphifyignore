@@ -1,0 +1,36 @@
+# Generated/derived outputs
+graphify-out/
+tmp/
+workspace/
+node_modules/
+**/__pycache__/
+*.pyc
+
+# Source and derivative PDFs are linked from manifests/docs but are not semantically scanned.
+*.pdf
+
+# Heavy raster/vector/media assets and fonts are kept out of the semantic pass.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.tif
+*.tiff
+*.bmp
+*.svg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# Local tool environments are implementation detail, not project knowledge.
+.tools/
+.codex/
+AGENTS.md

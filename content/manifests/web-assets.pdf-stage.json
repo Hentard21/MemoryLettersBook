@@ -1,0 +1,2757 @@
+{
+  "version": "0.1.0",
+  "source_quality": "pdf_reference",
+  "description": "Предварительный реестр материалов для сайта. Действия только подготовительные — финальные webp/avif не создаются на этом этапе. Для героев с identity_status=\"ambiguous\" (см. heroes.pdf-stage.json) публикация материалов на сайт должна дожидаться подтверждения личности героя.",
+  "allowed_web_actions": [
+    "extract_after_pptx",
+    "needs_caption_review",
+    "needs_manual_crop",
+    "needs_transcription",
+    "not_for_web",
+    "replace_with_original_after_pptx",
+    "undetermined"
+  ],
+  "heroes": [
+    {
+      "entity_id": "hero-001",
+      "pdf_pages": [
+        12,
+        13,
+        14
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 12,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "drawing",
+          "source_page": 13,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true
+        },
+        {
+          "type": "photo",
+          "source_page": 13,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 14,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-002",
+      "pdf_pages": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 15,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "drawing",
+          "source_page": 16,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true
+        },
+        {
+          "type": "photo",
+          "source_page": 16,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 17,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "drawing",
+          "source_page": 17,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true
+        },
+        {
+          "type": "photo",
+          "source_page": 17,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 18,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-003",
+      "pdf_pages": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 19,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 20,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 21,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 22,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 23,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-004",
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 24,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 25,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 25,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-005",
+      "pdf_pages": [
+        26,
+        27,
+        28
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 26,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 27,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 28,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-006",
+      "pdf_pages": [
+        29,
+        30,
+        31
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 29,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 30,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 31,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 31,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-007",
+      "pdf_pages": [
+        32,
+        33,
+        34
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 32,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 33,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 34,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 34,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-008",
+      "pdf_pages": [
+        35,
+        36,
+        37
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 35,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 36,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 37,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 37,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-009",
+      "pdf_pages": [
+        38,
+        39,
+        40
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 38,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 39,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 40,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 40,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-010",
+      "pdf_pages": [
+        41,
+        42,
+        43
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 41,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 42,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 43,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 43,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-011",
+      "pdf_pages": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 44,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 45,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 46,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 47,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-012",
+      "pdf_pages": [
+        48,
+        49,
+        50
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 48,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 49,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 50,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 50,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-013",
+      "pdf_pages": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 51,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 52,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 53,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 54,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-014",
+      "pdf_pages": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 55,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 56,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 57,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "drawing",
+          "source_page": 58,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": false,
+          "needs_caption_review": true
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 59,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 60,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-015",
+      "pdf_pages": [
+        61,
+        62,
+        63
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 61,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 62,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 63,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-016",
+      "pdf_pages": [
+        64
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 64,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-017",
+      "pdf_pages": [
+        65,
+        66,
+        67
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 65,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 66,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 67,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-018",
+      "pdf_pages": [
+        68,
+        69
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 68,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 69,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-019",
+      "pdf_pages": [
+        70,
+        71,
+        72
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 70,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 71,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 72,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-020",
+      "pdf_pages": [
+        73,
+        74,
+        75
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 73,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 74,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 75,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-021",
+      "pdf_pages": [
+        76,
+        77,
+        78
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 76,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 77,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 78,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-022",
+      "pdf_pages": [
+        79,
+        80,
+        81
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 79,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 80,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 81,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-023",
+      "pdf_pages": [
+        82,
+        83,
+        84
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 82,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 83,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": false,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 84,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 84,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-024",
+      "pdf_pages": [
+        85,
+        86,
+        87
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 85,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 86,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 87,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-025",
+      "pdf_pages": [
+        88,
+        89,
+        90
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 88,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 89,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 90,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-026",
+      "pdf_pages": [
+        91,
+        92,
+        93,
+        94
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 91,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "drawing",
+          "source_page": 92,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true
+        },
+        {
+          "type": "photo",
+          "source_page": 92,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 93,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": false,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 94,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-027",
+      "pdf_pages": [
+        95,
+        96,
+        97
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 95,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 96,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 97,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-028",
+      "pdf_pages": [
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 98,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 99,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 100,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 101,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 102,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-029",
+      "pdf_pages": [
+        103,
+        104,
+        105
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 103,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 104,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 105,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 105,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-030",
+      "pdf_pages": [
+        106,
+        107,
+        108
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 106,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 107,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 108,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-031",
+      "pdf_pages": [
+        109,
+        110,
+        111
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 109,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 110,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 111,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-032",
+      "pdf_pages": [
+        112,
+        113,
+        114
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 112,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 113,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 114,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-033",
+      "pdf_pages": [
+        115,
+        116,
+        117
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 115,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 116,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 117,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-034",
+      "pdf_pages": [
+        118,
+        119,
+        120
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 118,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 119,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 120,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-035",
+      "pdf_pages": [
+        121,
+        122,
+        123
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 121,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 122,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 123,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-036",
+      "pdf_pages": [
+        124,
+        125,
+        126
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 124,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 125,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 126,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "drawing",
+          "source_page": 126,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true
+        },
+        {
+          "type": "photo",
+          "source_page": 126,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-037",
+      "pdf_pages": [
+        127,
+        128,
+        129
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 127,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 128,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 129,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-038",
+      "pdf_pages": [
+        130,
+        131,
+        132
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 130,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 131,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 132,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-039",
+      "pdf_pages": [
+        133,
+        134,
+        135
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 133,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 134,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 135,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-040",
+      "pdf_pages": [
+        136,
+        137,
+        138
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 136,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 137,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 138,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 138,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": false,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "document_scan",
+          "source_page": 138,
+          "web_action": "undetermined",
+          "needs_caption_review": true,
+          "note": "Нетиповая композиция (похоже на мемориальную карточку/буклет) — решение по подаче принять отдельно."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-041",
+      "pdf_pages": [
+        139,
+        140,
+        141
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 139,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 140,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 141,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-042",
+      "pdf_pages": [
+        142,
+        143,
+        144
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 142,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 143,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 144,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-043",
+      "pdf_pages": [
+        145,
+        146,
+        147
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 145,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 146,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 147,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-044",
+      "pdf_pages": [
+        148,
+        149,
+        150
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 148,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 149,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 150,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-045",
+      "pdf_pages": [
+        151,
+        152,
+        153
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 151,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 152,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 153,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-046",
+      "pdf_pages": [
+        154,
+        155,
+        156
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 154,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 155,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 156,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-047",
+      "pdf_pages": [
+        157,
+        158,
+        159,
+        160,
+        161
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 157,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 158,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 159,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 160,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 161,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-048",
+      "pdf_pages": [
+        162,
+        163,
+        164
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 162,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 163,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 164,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-049",
+      "pdf_pages": [
+        165,
+        166,
+        167
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 165,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 166,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 167,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-050",
+      "pdf_pages": [
+        168,
+        169,
+        170,
+        171
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 168,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 169,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 170,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 171,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-051",
+      "pdf_pages": [
+        172,
+        173,
+        174
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 172,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 173,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 174,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-052",
+      "pdf_pages": [
+        175,
+        176,
+        177
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 175,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 176,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 177,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-053",
+      "pdf_pages": [
+        178,
+        179,
+        180
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 178,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 179,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 180,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-054",
+      "pdf_pages": [
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 181,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 182,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 183,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 184,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 185,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-055",
+      "pdf_pages": [
+        186,
+        187,
+        188
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 186,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 187,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 188,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-056",
+      "pdf_pages": [
+        189,
+        190,
+        191
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 189,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 190,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 191,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "drawing",
+          "source_page": 191,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true
+        },
+        {
+          "type": "photo",
+          "source_page": 191,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-057",
+      "pdf_pages": [
+        192,
+        193,
+        194,
+        195
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 192,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 193,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 194,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 195,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-058",
+      "pdf_pages": [
+        196,
+        197
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 196,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 197,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-059",
+      "pdf_pages": [
+        198,
+        199,
+        200
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 198,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 199,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 200,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-060",
+      "pdf_pages": [
+        201,
+        202,
+        203
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 201,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 202,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 203,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-061",
+      "pdf_pages": [
+        204,
+        205,
+        206
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 204,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 205,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 206,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-062",
+      "pdf_pages": [
+        207,
+        208,
+        209
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 207,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 208,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 209,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-063",
+      "pdf_pages": [
+        210,
+        211,
+        212
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 210,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 211,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 212,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-064",
+      "pdf_pages": [
+        213,
+        214,
+        215
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 213,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 214,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 215,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-065",
+      "pdf_pages": [
+        216,
+        217
+      ],
+      "identity_status": "ambiguous",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 216,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 217,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-066",
+      "pdf_pages": [
+        218,
+        219,
+        220,
+        221,
+        222
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 218,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 219,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 220,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 221,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 222,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-067",
+      "pdf_pages": [
+        223,
+        224,
+        225
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 223,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 224,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "quote_text",
+          "source_page": 225,
+          "web_action": "needs_transcription",
+          "note": "Похоже на печатный текст (стих/посвящение); транскрипция проще, чем для рукописи, но требует сверки."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-068",
+      "pdf_pages": [
+        226,
+        227,
+        228,
+        229
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 226,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 227,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 228,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 229,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-069",
+      "pdf_pages": [
+        230,
+        231,
+        232,
+        233
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 230,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 231,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 232,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 233,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 233,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-070",
+      "pdf_pages": [
+        234,
+        235,
+        236
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 234,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 235,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 236,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-071",
+      "pdf_pages": [
+        237,
+        238,
+        239
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 237,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 238,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 239,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-072",
+      "pdf_pages": [
+        240,
+        241,
+        242
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 240,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 241,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 242,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        },
+        {
+          "type": "photo",
+          "source_page": 242,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-073",
+      "pdf_pages": [
+        243,
+        244,
+        245
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 243,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 244,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 245,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-074",
+      "pdf_pages": [
+        246,
+        247,
+        248,
+        249
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 246,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 247,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "photo",
+          "source_page": 248,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 249,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-075",
+      "pdf_pages": [
+        250,
+        251,
+        252
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 250,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 251,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 252,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    },
+    {
+      "entity_id": "hero-076",
+      "pdf_pages": [
+        253,
+        254,
+        255
+      ],
+      "identity_status": "confirmed",
+      "assets": [
+        {
+          "type": "title_slide",
+          "source_page": 253,
+          "web_action": "not_for_web",
+          "note": "Графика титула (герб/карта/значок ордена) — сайт строит собственную шапку страницы героя из структурированных данных, не из скана слайда."
+        },
+        {
+          "type": "photo",
+          "source_page": 254,
+          "web_action": "replace_with_original_after_pptx",
+          "needs_manual_crop": true,
+          "needs_caption_review": true,
+          "note": "Если страница — коллаж/смешанная, один скан описывает НЕСКОЛЬКО будущих Photo/Drawing сущностей; на сайт разбирать по одному изображению, а не сеткой страницы."
+        },
+        {
+          "type": "letter_scan",
+          "source_page": 255,
+          "web_action": "extract_after_pptx",
+          "needs_transcription": true,
+          "note": "Массовый OCR не выполняется; расшифровка — ручная/выборочная (diplomatic_transcription)."
+        }
+      ]
+    }
+  ],
+  "pptx_lost_note": "2026-07-16: PPTX утерян. Действия extract_after_pptx / replace_with_original_after_pptx теперь читать как «извлечь нативный мастер из PDF (assets/native/) и при необходимости апскейлить», а НЕ «дождаться оригинала из PPTX»."
+}

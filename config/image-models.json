@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "provider": "openrouter",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "note": "Модели заменяются здесь, без переписывания пайплайна: раннер читает роль (portrait_editor / vector_graphics), а не имя модели. Генерация запускается только по явной команде владельца.",
+  "roles": {
+    "portrait_editor": {
+      "model": "riverflow/riverflow-v2.5-pro",
+      "purpose": "image-to-image: вырезка поясных портретов/групп с фона, бережная обработка. ЛИЦА НЕ ПЕРЕРИСОВЫВАТЬ — только вырезка и мягкая доводка.",
+      "defaults": {
+        "reasoning": "medium",
+        "resolution": "match_input_x2_max",
+        "background_mode": "transparent",
+        "strength_hint": "low — сохранять идентичность лица; допускается только отделение от фона"
+      }
+    },
+    "vector_graphics": {
+      "model": "recraft/recraft-v4.1-vector",
+      "purpose": "векторная декоративная и картографическая графика: карта России с регионами, орнаментальные элементы, служебная графика. НЕ гербы (гербы — только официальные файлы) и НЕ лица.",
+      "defaults": {
+        "reasoning": "low",
+        "resolution": "svg",
+        "background_mode": "transparent"
+      }
+    }
+  },
+  "logging": {
+    "enabled": true,
+    "log_file": "scripts/image-pipeline/logs/usage-log.jsonl",
+    "fields": ["timestamp", "job_id", "role", "model", "input_files", "output_file", "params", "cost_usd", "status"]
+  },
+  "safety": {
+    "dry_run_default": true,
+    "require_explicit_owner_start": true,
+    "never_regenerate_faces": true,
+    "keep_master_untouched": true,
+    "derived_output_root": "assets/derived-ai/",
+    "review_required_before_use": true
+  }
+}

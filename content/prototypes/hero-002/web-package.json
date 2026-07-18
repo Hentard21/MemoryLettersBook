@@ -1,0 +1,25 @@
+{
+  "heroSlug": "hero-002",
+  "featuredPhoto": "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_04_master.png",
+  "featuredLetter": "assets/master-from-pdf/heroes/hero-002/letters/hero-002_letter_02_master.png",
+  "featuredQuote": "«Мой папа — мой Герой!!! Я очень горжусь им, и сильно его люблю»",
+  "supportingAssets": [
+    "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_01_master.png",
+    "assets/master-from-pdf/heroes/hero-002/photos/hero-002_photo_03_master.png",
+    "assets/master-from-pdf/heroes/hero-002/drawings/hero-002_drawing_01_master.png"
+  ],
+  "printCrop": {
+    "asset": "hero-002_photo_04",
+    "focus": "upper-center",
+    "aspect": "3x4",
+    "note": "рамочная композиция"
+  },
+  "webFocalPoint": {
+    "asset": "hero-002_photo_04",
+    "x": 0.5,
+    "y": 0.3
+  },
+  "fullTranscription": "content/prototypes/hero-002/content.json#letters",
+  "printExcerpt": "Мой папа — мой Герой!!! Я очень горжусь им, и сильно его люблю.",
+  "webPath": "/letters/hero-002"
+}
