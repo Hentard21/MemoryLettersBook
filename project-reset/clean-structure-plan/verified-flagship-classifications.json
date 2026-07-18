@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "source": "assets/production-input/flagship-images.json",
+  "policy": "Only entries already marked hero_flagship are promoted. No image is selected by appearance or filename.",
+  "assets": [
+    {
+      "hero_id": "hero-001",
+      "asset_id": "hero-001_photo_01_master",
+      "category": "flagship",
+      "source_file": "assets/production-input/hero-001/portraits/hero-001_photo_01_master.png",
+      "notes": "Confirmed flagship for Anastasia; V12 composition reference."
+    },
+    {
+      "hero_id": "hero-003",
+      "asset_id": "hero-003_p020_image146",
+      "category": "flagship",
+      "source_file": "assets/production-input/hero-003/portraits/hero-003_p020_image146.jpg",
+      "notes": "Existing flagship-images.json role: hero_flagship."
+    },
+    {
+      "hero_id": "hero-004",
+      "asset_id": "hero-004_p025_image167",
+      "category": "flagship",
+      "source_file": "assets/production-input/hero-004/portraits/hero-004_p025_image167.jpg",
+      "notes": "Existing flagship-images.json role: hero_flagship."
+    },
+    {
+      "hero_id": "hero-005",
+      "asset_id": "hero-005_p027_image176",
+      "category": "flagship",
+      "source_file": "assets/production-input/hero-005/groups/hero-005_p027_image176.jpg",
+      "notes": "Existing flagship-images.json role: hero_flagship; background remains by current decision."
+    }
+  ]
+}

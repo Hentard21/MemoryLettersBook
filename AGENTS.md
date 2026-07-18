@@ -10,3 +10,24 @@ Rules:
 - If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
 - Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
 - After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+
+## project reset lock
+
+Before changing project content, assets, scripts, or layouts, read these files in order:
+
+1. `docs/PROJECT_RULES_RESET.md`
+2. `docs/REFERENCE_LOCK.md`
+3. `docs/SEQUENTIAL_WORKFLOW.md`
+4. `docs/AI_HANDOFF.md`
+
+Hard rules:
+
+- `source/reference.pdf` controls family order, content ownership, and sequence.
+- Use `content/manifests/reference-family-order-reset.json` for the active 74-family order. Do not reintroduce archived draft-only `hero-002` or `hero-016`.
+- The approved cover is immutable.
+- Never invent, rewrite, summarize, or silently correct source text.
+- Every physical letter requires a separate transcription or an explicit `missing` / `REVIEW_REQUIRED` status.
+- Work on families sequentially from the beginning of the reference.
+- Use CutItOut only for confirmed flagship images; archive photos retain their background by default.
+- `design/prototypes/print-v12/` is the current visual checkpoint. Its Anastasia page is a composition reference, not a factual source.
+- Archived files under `project-reset/archived/` are historical and must not drive new work.

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-056",
+  "source_file": "source/reference.pdf",
+  "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+  "reference_title_page": 180,
+  "reference_pages": [
+    180,
+    181,
+    182
+  ],
+  "status": "REVIEW_REQUIRED",
+  "notes": [
+    "Reference is kept as canonical PDF page pointers; no legacy 255-page screenshots are used."
+  ]
+}

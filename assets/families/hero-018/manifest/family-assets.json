@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-018",
+  "generated_at": "2026-07-18T16:55:16.663163+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-018_p069_image355",
+      "category": "letters",
+      "file": "assets/families/hero-018/letters/hero-018_p069_image355.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-018/letters-reference/hero-018_p069_image355.jpg",
+      "sha256": "f10684b7a34863bb9d24aa8928089131c5ac4de66d3ba31c3efe2d08075a0a2d",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
+      "priority": "low",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; страница классифицирована как рукопись",
+      "legacy_source_pdf_page": 69,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE"
+    },
+    {
+      "asset_id": "hero-018_p069_image356",
+      "category": "letters",
+      "file": "assets/families/hero-018/letters/hero-018_p069_image356.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-018/letters-reference/hero-018_p069_image356.jpg",
+      "sha256": "667e5338b571da131f4d17c2dc87f4b125e0584472815c65bf20575e77b7c316",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
+      "priority": "low",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; страница классифицирована как рукопись",
+      "legacy_source_pdf_page": 69,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE"
+    },
+    {
+      "asset_id": "hero-018_p069_image357",
+      "category": "letters",
+      "file": "assets/families/hero-018/letters/hero-018_p069_image357.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-018/letters-reference/hero-018_p069_image357.jpg",
+      "sha256": "b4c97229a7149f76e7666940f4f18dcb265b40e2a33f80f47d909094ed8e0fed",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
+      "priority": "low",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; страница классифицирована как рукопись",
+      "legacy_source_pdf_page": 69,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE"
+    },
+    {
+      "asset_id": "hero-018-references-reference-pages-3641a526",
+      "category": "references",
+      "file": "assets/families/hero-018/references/reference-pages.json",
+      "source_file": null,
+      "sha256": "3641a526366e667a7cf613204134f03ce9e181d4f5dc94a2ee9001aeb4d3df8c",
+      "status": "present"
+    }
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "reference_title_page": 59,
+    "reference_pages": [
+      59,
+      60
+    ],
+    "status": "confirmed_by_reference_text"
+  }
+}

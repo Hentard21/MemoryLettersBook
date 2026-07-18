@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "reference_order_from": 51,
+    "reference_order_to": 74,
+    "family_count": 24
+  },
+  "selection_basis": [
+    "content/manifests/reference-family-order-reset.json",
+    "source/reference.pdf",
+    "assets/families/<hero_id>/archive-photos/"
+  ],
+  "rules": [
+    "Материалы сверены только с диапазоном страниц своей семьи в финальном референсе.",
+    "source_file всегда указывает на нативный ассет в нормализованной папке семьи.",
+    "Для печати и CutItOut нужно брать парную прошедшую QA Gigapixel-версию, а не маленький исходник.",
+    "Кадры с оружием, формой, наградами и экипировкой нельзя обрезать или менять при удалении фона."
+  ],
+  "selections": [
+    {
+      "reference_order": 51,
+      "hero_id": "hero-053",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        169,
+        170,
+        171
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-053/flagship/hero-053_p179_image808.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Единственный вертикальный кадр с героем почти в полный рост; форма и лицо видны, ребёнок сохраняет семейную связь. Снижение confidence вызвано REVIEW_REQUIRED в заголовке референса, а не визуальной подменой семьи.",
+      "print_size_warning": "medium: исходник 291x469 px; для печати и CutItOut использовать только проверенный 2x-upscale.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 52,
+      "hero_id": "hero-054",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        172,
+        173,
+        174,
+        175,
+        176
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-054/flagship/hero-054_p182_image818.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Вертикальный домашний портрет: лицо героя крупнее, чем в остальных архивных кадрах; фигура и сын визуально отделяются от фона.",
+      "print_size_warning": "medium: исходник 290x469 px; не растягивать без QA парного 2x-upscale.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 53,
+      "hero_id": "hero-055",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        177,
+        178,
+        179
+      ],
+      "selection_status": "REVIEW_REQUIRED",
+      "source_file": "assets/families/hero-055/archive-photos/hero-055_p187_image838.jpg",
+      "confidence": "medium",
+      "needs_cutout": false,
+      "reason": "В пакете нет отдельного фото героя; этот кадр содержит самый крупный и чёткий портрет героя в рамке и физически связывает его с ребёнком. Это документальный fallback, а не материал для вырезанной фигуры.",
+      "print_size_warning": "high: исходник 290x470 px, а лицо героя находится внутри переснятой рамки; нужен лучший нативный портрет или ручное утверждение малого масштаба.",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "reference_order": 54,
+      "hero_id": "hero-056",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        180,
+        181,
+        182
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-056/flagship/hero-056_p190_image848.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный сольный портрет героя; лицо крупно, форма и плечи читаются, фон несложный для CutItOut.",
+      "print_size_warning": "medium: исходник 291x470 px; поясной масштаб возможен только после проверенного upscale.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 55,
+      "hero_id": "hero-057",
+      "hero_name": "ИГОРЬ",
+      "reference_pages": [
+        183,
+        184,
+        185,
+        186
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-057/flagship/hero-057_p193_image862.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Вертикальный кадр героя в форме рядом с сыном; лицо и верхняя часть фигуры крупнее, чем в альтернативном групповом кадре.",
+      "print_size_warning": "medium: исходник 290x469 px; при маске сохранить панаму, форму, руку и силуэт ребёнка.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 56,
+      "hero_id": "hero-058",
+      "hero_name": "ДМИТРИЙ",
+      "reference_pages": [
+        187,
+        188
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-058/flagship/hero-058_p197_image880.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Чистый сольный портрет героя в форме с крупным лицом и почти белым фоном; наименее рисковый CutItOut-кандидат.",
+      "print_size_warning": "medium: исходник 291x470 px; применять только 2x-upscale с проверкой лица и нашивок.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 57,
+      "hero_id": "hero-059",
+      "hero_name": "ИЛЬДАР",
+      "reference_pages": [
+        189,
+        190,
+        191
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-059/flagship/hero-059_p199_image891.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный сольный почти полноростовой кадр героя в экипировке; он подходит для крупной фигуры при осторожном сохранении снаряжения.",
+      "print_size_warning": "high: исходник 291x470 px и лицо занимает малую часть кадра; не ставить на полосу без QA upscale.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 58,
+      "hero_id": "hero-060",
+      "hero_name": "ДЕНИС",
+      "reference_pages": [
+        192,
+        193,
+        194
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-060/flagship/hero-060_p202_image901.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Самый крупный и качественный кадр героя: лицо и форма читаются, дочь и букет дают документальную семейную связь.",
+      "print_size_warning": "low: исходник 580x647 px лучше остальных кадров семьи; всё равно печатать из проверенной upscale-версии.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 59,
+      "hero_id": "hero-061",
+      "hero_name": "СЕРГЕЙ",
+      "reference_pages": [
+        195,
+        196,
+        197
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-061/flagship/hero-061_p205_image914.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный сольный полноростовой кадр героя; форма, оружие и экипировка видны полностью.",
+      "print_size_warning": "high: исходник 261x422 px, лицо мало; для CutItOut нужен QA 2x-upscale, при маске нельзя потерять оружие, ремни и подсумки.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 60,
+      "hero_id": "hero-062",
+      "hero_name": "АЛЕКСАНДР",
+      "reference_pages": [
+        198,
+        199,
+        200
+      ],
+      "selection_status": "REVIEW_REQUIRED",
+      "source_file": "assets/families/hero-062/archive-photos/hero-062_p208_image925.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Единственный кадр в пакете, где физически присутствует герой; на втором фото изображён только ребёнок. Кадр размыт и требует ручного утверждения; заголовок семьи также имеет REVIEW_REQUIRED.",
+      "print_size_warning": "high: размер 548x694 px достаточен, но сам исходник заметно размыт; апскейл не восстанавливает подлинные детали.",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "reference_order": 61,
+      "hero_id": "hero-063",
+      "hero_name": "НИКОЛАЙ",
+      "reference_pages": [
+        201,
+        202,
+        203
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-063/flagship/hero-063_p211_image933.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Сольный портрет героя по колени в поле; лицо, поза и форма не перекрыты другими людьми.",
+      "print_size_warning": "medium: исходник 292x469 px; после upscale не увеличивать крупнее полуполосной фигуры без печатной пробы.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 62,
+      "hero_id": "hero-064",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        204,
+        205,
+        206
+      ],
+      "selection_status": "REVIEW_REQUIRED",
+      "source_file": "assets/families/hero-064/archive-photos/hero-064_p214_image943.jpg",
+      "confidence": "medium",
+      "needs_cutout": false,
+      "reason": "Отдельного фото героя в пакете нет. Выбран вертикальный кадр, где портрет героя в рамке наиболее крупный и рядом присутствуют награда и ребёнок. Это documentary fallback.",
+      "print_size_warning": "high: исходник 290x470 px, портрет героя является переснятым изображением в рамке; нужен лучший master или малый печатный масштаб.",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "reference_order": 63,
+      "hero_id": "hero-065",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        207,
+        208
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-065/flagship/hero-065_p217_image953.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Крупный сольный портрет героя в форме; лицо и плечи чёткие, фон не закрывает силуэт.",
+      "print_size_warning": "medium: исходник 290x469 px; крупный кадр помогает, но для печати всё равно нужен проверенный upscale.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 64,
+      "hero_id": "hero-066",
+      "hero_name": "ИЛЬГАМ",
+      "reference_pages": [
+        209,
+        210,
+        211,
+        212,
+        213
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-066/flagship/hero-066_p219_image959.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Вертикальный сольный полноростовой кадр героя в форме с оружием; композиционно лучше для фигуры, чем тёмный горизонтальный close-up.",
+      "print_size_warning": "medium: исходник 425x688 px; при CutItOut сохранить оружие, ремни, сумки, нашивки и края формы.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 65,
+      "hero_id": "hero-067",
+      "hero_name": "ЕВГЕНИЙ",
+      "reference_pages": [
+        214,
+        215,
+        216
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-067/flagship/hero-067_p224_image979.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный портрет живого героя в пакете: фигура почти в полный рост, форма и оружие видны. Остальные кадры — мемориал и семейное фото.",
+      "print_size_warning": "medium: исходник 329x532 px; лицо небольшое, поэтому нужен QA upscale; при маске сохранить оружие и всё снаряжение.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 66,
+      "hero_id": "hero-068",
+      "hero_name": "АБДУЛБЕК",
+      "reference_pages": [
+        217,
+        218,
+        219,
+        220
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-068/flagship/hero-068_p227_image993.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Полноростовой сольный кадр героя в форме перед машиной; силуэт не перекрыт. Кадр совпадает с портретом в мемориальной выкладке на следующей странице этой же семьи.",
+      "print_size_warning": "high: исходник 290x469 px и лицо мало; применять только QA upscale и не перерисовывать форму и экипировку.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 67,
+      "hero_id": "hero-069",
+      "hero_name": "АНТОН",
+      "reference_pages": [
+        221,
+        222,
+        223,
+        224
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-069/flagship/hero-069_p231_image1008.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Сольный парадный портрет с крупным лицом, формой и наградами; лучше групповых и походных кадров для открывающей страницы.",
+      "print_size_warning": "medium: исходник 290x469 px; перед печатью проверить 2x-upscale на лице, погонах и наградах.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 68,
+      "hero_id": "hero-070",
+      "hero_name": "АЛЕКСЕЙ",
+      "reference_pages": [
+        225,
+        226,
+        227
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-070/flagship/hero-070_p235_image1025.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный сольный крупный портрет героя; второй кадр является общим семейным фото с мелким лицом героя.",
+      "print_size_warning": "critical: всего 229x283 px; даже 2x-upscale не даёт надёжного крупного поясного портрета; нужен лучший master или ручное ограничение масштаба.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 69,
+      "hero_id": "hero-071",
+      "hero_name": "АЛЕКСАНДР",
+      "reference_pages": [
+        228,
+        229,
+        230
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-071/flagship/hero-071_p238_image1036.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Сольный портрет героя по грудь в камуфляже; лицо заметно крупнее, чем в общем архивном кадре.",
+      "print_size_warning": "medium: исходник 309x499 px; подходит для крупного бюста после QA upscale, но не для генеративного достраивания ниже груди без ручного согласования.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 70,
+      "hero_id": "hero-072",
+      "hero_name": "ФЕДОР",
+      "reference_pages": [
+        231,
+        232,
+        233
+      ],
+      "selection_status": "REVIEW_REQUIRED",
+      "source_file": "assets/families/hero-072/archive-photos/hero-072_p241_image1046.jpg",
+      "confidence": "high",
+      "needs_cutout": false,
+      "reason": "Единственный сольный портрет героя находится внутри мемориального макета с именем и датами; семейный кадр даёт меньшее лицо. Нельзя вырезать как полноростовую фигуру; нужно утвердить документальную подачу.",
+      "print_size_warning": "high: исходник 290x470 px, а само лицо занимает лишь часть мемориальной карточки; масштаб ограничить.",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "reference_order": 71,
+      "hero_id": "hero-073",
+      "hero_name": "АНДРЕЙ",
+      "reference_pages": [
+        234,
+        235,
+        236
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-073/flagship/hero-073_p244_image1058.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Вертикальный сольный кадр героя почти по колени в камуфляже; на теле нет перекрытий, что делает его лучше selfie для CutItOut и композиции.",
+      "print_size_warning": "medium: исходник 291x470 px; использовать QA upscale и не восстанавливать обрезанную нижнюю часть фигуры без отдельного решения.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 72,
+      "hero_id": "hero-074",
+      "hero_name": "АРТУР",
+      "reference_pages": [
+        237,
+        238,
+        239,
+        240
+      ],
+      "selection_status": "REVIEW_REQUIRED",
+      "source_file": "assets/families/hero-074/archive-photos/hero-074_p247_image1070.jpg",
+      "confidence": "high",
+      "needs_cutout": false,
+      "reason": "В пакете нет жизненного портрета героя; его лицо присутствует только на мемориальной табличке. Это достоверный documentary fallback, но не кандидат для вырезанной фигуры.",
+      "print_size_warning": "critical: весь кадр 615x469 px, но портрет на табличке очень мал и монохромен; нужен отдельный master портрета или согласованная мемориальная композиция.",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "reference_order": 73,
+      "hero_id": "hero-075",
+      "hero_name": "АНДРЕЙ",
+      "reference_pages": [
+        241,
+        242,
+        243
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-075/flagship/hero-075_p251_image1087.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Чистый сольный парадный портрет героя по грудь; лицо, форма, погоны, награда и нашивка читаются, фон нейтральный.",
+      "print_size_warning": "low: исходник 358x469 px и герой занимает большую часть кадра; перед CutItOut всё равно проверить парный upscale.",
+      "status": "selected"
+    },
+    {
+      "reference_order": 74,
+      "hero_id": "hero-076",
+      "hero_name": "НИКОЛАЙ",
+      "reference_pages": [
+        244,
+        245,
+        246
+      ],
+      "selection_status": "selected",
+      "source_file": "assets/families/hero-076/flagship/hero-076_p254_image1101.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный сольный портрет героя в экипировке; лицо крупно, а края шлема, балаклавы и брони различимы.",
+      "print_size_warning": "medium: исходник 357x471 px; для печати использовать QA upscale, при маске обязательно сохранить шлем, балаклаву, ремни и края брони.",
+      "status": "selected"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "scope": "reference_order 26-50",
+  "source_reference": {
+    "file": "source/reference.pdf",
+    "sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "family_order_file": "content/manifests/reference-family-order-reset.json"
+  },
+  "selection_rule": "One visually strongest hero portrait or figure was selected only from the family's own archive-photos and checked against the family's final-reference page range. Ambiguous cases remain REVIEW_REQUIRED.",
+  "selections": [
+    {
+      "reference_order": 26,
+      "hero_id": "hero-028",
+      "hero_name": "ТАЛГАТ",
+      "reference_pages": [
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-028/flagship/hero-028_p099_image479.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Прямой формальный портрет героя в форме, награды хорошо видны; на странице 90 это главный портрет.",
+      "print_size_warning": "SEVERE: source 291x469 px; even a clean 2x result is only about 582x938 px and is insufficient for a large opening figure at 300 dpi."
+    },
+    {
+      "reference_order": 27,
+      "hero_id": "hero-029",
+      "hero_name": "АЛЕКСАНДР",
+      "reference_pages": [
+        94,
+        95,
+        96
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-029/flagship/hero-029_p104_image503.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Герой в парадной форме и с наградами, снят почти в полный рост; ребёнка нужно сохранить в маске, если она будет вырезаться.",
+      "print_size_warning": "SEVERE: source 291x464 px; 2x remains too small for a large full-height figure and should be used conservatively."
+    },
+    {
+      "reference_order": 28,
+      "hero_id": "hero-030",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        97,
+        98,
+        99
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-030/flagship/hero-030_p107_image516.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Формальный фронтальный портрет героя, лицо и награды читаются; точно совпадает с семейными кадрами на странице 98; фактический identity-status семьи остаётся REVIEW_REQUIRED.",
+      "print_size_warning": "SEVERE: source 293x473 px; 2x is inadequate for a large print figure and a waist-length composition would require cautious extension."
+    },
+    {
+      "reference_order": 29,
+      "hero_id": "hero-031",
+      "hero_name": "СЕРГЕЙ",
+      "reference_pages": [
+        100,
+        101,
+        102
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-031/flagship/hero-031_p110_image527.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Чистый фронтальный портрет героя в форме с наградами; очевидный главный кадр на странице 101.",
+      "print_size_warning": "SEVERE: source 291x469 px; 2x is still too small for a large opening portrait at 300 dpi."
+    },
+    {
+      "reference_order": 30,
+      "hero_id": "hero-032",
+      "hero_name": "НИКОЛАЙ",
+      "reference_pages": [
+        103,
+        104,
+        105
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-032/flagship/hero-032_p113_image538.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный чистый фронтальный портрет героя в форме; имя на нашивке и награды сохранять без изменений.",
+      "print_size_warning": "SEVERE: source 290x470 px; 2x is insufficient for a large opening portrait."
+    },
+    {
+      "reference_order": 31,
+      "hero_id": "hero-033",
+      "hero_name": "МУРАД",
+      "reference_pages": [
+        106,
+        107,
+        108
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-033/flagship/hero-033_p116_image553.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Портрет в форме явно использован референсом как главное изображение; внешность сопоставима с семейным кадром, но identity-status семьи остаётся REVIEW_REQUIRED.",
+      "print_size_warning": "SEVERE: source 291x469 px; 2x is too small for a large print portrait."
+    },
+    {
+      "reference_order": 32,
+      "hero_id": "hero-034",
+      "hero_name": "ТИМУР",
+      "reference_pages": [
+        109,
+        110,
+        111
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-034/flagship/hero-034_p119_image567.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Самая сильная полноростовая фигура героя в экипировке; при маскировании обязательно сохранить оружие, ремни, перчатки и края формы.",
+      "print_size_warning": "SEVERE: source 291x470 px; a 2x derivative remains too small for a large full-height cutout."
+    },
+    {
+      "reference_order": 33,
+      "hero_id": "hero-035",
+      "hero_name": "ИЛЬЯ",
+      "reference_pages": [
+        112,
+        113,
+        114
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-035/flagship/hero-035_p122_image581.jpg",
+      "confidence": "medium",
+      "needs_cutout": false,
+      "reason": "Отдельного качественного портрета нет; этот кадр лучше остальных показывает лицо героя и семейную связь; группу не вырезать автоматически.",
+      "print_size_warning": "SEVERE: source 290x469 px and the hero occupies only part of the frame; unsuitable for a large isolated figure."
+    },
+    {
+      "reference_order": 34,
+      "hero_id": "hero-036",
+      "hero_name": "АНДРЕЙ",
+      "reference_pages": [
+        115,
+        116,
+        117
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-036/flagship/hero-036_p125_image593.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Чёткая поясная фигура героя в экипировке; при вырезании сохранить оружие, оптику, ремни, разгрузку и руки.",
+      "print_size_warning": "SEVERE: source 291x470 px; 2x is not sufficient for a large opening cutout."
+    },
+    {
+      "reference_order": 35,
+      "hero_id": "hero-037",
+      "hero_name": "ДАМИР",
+      "reference_pages": [
+        118,
+        119,
+        120
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-037/flagship/hero-037_p128_image605.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Чистая почти полноростовая фигура героя в форме, лицо видно лучше, чем на боевом крупном плане.",
+      "print_size_warning": "SEVERE: source 290x470 px; 2x is too small for a large full-height figure."
+    },
+    {
+      "reference_order": 36,
+      "hero_id": "hero-038",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        121,
+        122,
+        123
+      ],
+      "status": "REVIEW_REQUIRED",
+      "source_file": null,
+      "confidence": "REVIEW_REQUIRED",
+      "needs_cutout": null,
+      "reason": "В диапазоне семьи нет отдельного файла с героем: есть только дети, держащие его небольшой распечатанный портрет. Нужен нативный портрет или ручное решение владельца.",
+      "print_size_warning": "BLOCKER: no standalone hero source; extracting the small printed portrait from a child-held photograph would not provide print quality."
+    },
+    {
+      "reference_order": 37,
+      "hero_id": "hero-039",
+      "hero_name": "ВАСИЛИЙ",
+      "reference_pages": [
+        124,
+        125,
+        126
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-039/flagship/hero-039_p134_image629.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Фронтальная поясная фотография героя с наградами и ребёнком; соответствует формальному портрету на той же странице. Ребёнка не удалять молча.",
+      "print_size_warning": "SEVERE: source 290x469 px; both the hero and child will remain low-resolution after 2x."
+    },
+    {
+      "reference_order": 38,
+      "hero_id": "hero-040",
+      "hero_name": "РОМАН",
+      "reference_pages": [
+        127,
+        128,
+        129
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-040/flagship/hero-040_p137_image639.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный чистый фронтальный портрет героя; для поясной фигуры потребуется отдельно согласованное достраивание.",
+      "print_size_warning": "SEVERE: source 292x470 px and contains only head and shoulders; 2x is insufficient for a large opening figure."
+    },
+    {
+      "reference_order": 39,
+      "hero_id": "hero-041",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        130,
+        131,
+        132
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-041/flagship/hero-041_p140_image650.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Отдельная полноростовая фигура героя в экипировке лучше группового кадра для открывающей страницы; лицо частично закрыто, identity-status семьи не снимается.",
+      "print_size_warning": "SEVERE: source 290x469 px; 2x is too small for a large full-height cutout."
+    },
+    {
+      "reference_order": 40,
+      "hero_id": "hero-042",
+      "hero_name": "ЕВГЕНИЙ",
+      "reference_pages": [
+        133,
+        134,
+        135
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-042/flagship/hero-042_p143_image662.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Лучшая из двух фотографий: герой снят по грудь в форме, лицо хорошо читается; фон с машиной можно удалить.",
+      "print_size_warning": "MODERATE: source 615x469 px; a 2x result is about 1230x938 px (roughly 104x79 mm at 300 dpi), suitable only at a controlled medium scale."
+    },
+    {
+      "reference_order": 41,
+      "hero_id": "hero-043",
+      "hero_name": "ВЛАДИСЛАВ",
+      "reference_pages": [
+        136,
+        137,
+        138
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-043/flagship/hero-043_p146_image671.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Самый чёткий боевой портрет героя; каску, ворот и края экипировки сохранить. Кадр крупный, поэтому поясная композиция потребует достраивания.",
+      "print_size_warning": "SEVERE: source 290x469 px and is tightly cropped; 2x is insufficient for a large waist-length figure."
+    },
+    {
+      "reference_order": 42,
+      "hero_id": "hero-044",
+      "hero_name": "РАМИЛЬ",
+      "reference_pages": [
+        139,
+        140,
+        141
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-044/flagship/hero-044_p149_image686.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Отдельная полноростовая боевая фотография лучше семейных кадров подходит для флагмана; оружие, флаг, нашивки и руки сохранять. Identity-status семьи остаётся REVIEW_REQUIRED.",
+      "print_size_warning": "SEVERE: source 291x469 px; 2x is too small for a large full-height cutout."
+    },
+    {
+      "reference_order": 43,
+      "hero_id": "hero-045",
+      "hero_name": "САНАЛ",
+      "reference_pages": [
+        142,
+        143,
+        144
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-045/flagship/hero-045_p152_image700.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Чистая почти полноростовая фигура в форме с хорошо читаемым лицом; подходит для аккуратной поясной вырезки.",
+      "print_size_warning": "MODERATE: source 429x693 px; a 2x result is about 858x1386 px (roughly 73x117 mm at 300 dpi), not enough for an oversized figure."
+    },
+    {
+      "reference_order": 44,
+      "hero_id": "hero-046",
+      "hero_name": "АНАТОЛИЙ",
+      "reference_pages": [
+        145,
+        146,
+        147
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-046/flagship/hero-046_p155_image712.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный чистый портрет героя без посторонних людей, форма и лицо читаются; плоский голубой фон легко удалить.",
+      "print_size_warning": "MODERATE: source 404x654 px; a 2x result is about 808x1308 px (roughly 68x111 mm at 300 dpi), so keep the figure below oversized scale."
+    },
+    {
+      "reference_order": 45,
+      "hero_id": "hero-047",
+      "hero_name": "АЛЕКСАНДР",
+      "reference_pages": [
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-047/flagship/hero-047_p159_image727.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Самый технически сильный кадр семьи: фигура героя до бёдер, лицо видно, есть экипировка и оружие; в маске сохранить все ремни, руки, оружие и элементы формы.",
+      "print_size_warning": "MODERATE: source 732x558 px; a 2x result is about 1464x1116 px (roughly 124x94 mm at 300 dpi), adequate for a controlled half-page figure but not full-spread enlargement."
+    },
+    {
+      "reference_order": 46,
+      "hero_id": "hero-048",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        153,
+        154,
+        155
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-048/flagship/hero-048_p163_image744.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный сольный полноростовый кадр героя; руки и поза не обрезаны, фон можно удалить.",
+      "print_size_warning": "SEVERE: source 290x471 px; 2x is too small for a large full-height cutout."
+    },
+    {
+      "reference_order": 47,
+      "hero_id": "hero-049",
+      "hero_name": "РОМАН",
+      "reference_pages": [
+        156,
+        157,
+        158
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-049/flagship/hero-049_p166_image760.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Лучший сольный кадр героя с хорошо видимым лицом; собака на руках является частью исходного кадра и должна быть сохранена при вырезании.",
+      "print_size_warning": "SEVERE: source 290x469 px; 2x remains too small for a large opening figure."
+    },
+    {
+      "reference_order": 48,
+      "hero_id": "hero-050",
+      "hero_name": "МУСТАФА",
+      "reference_pages": [
+        159,
+        160,
+        161,
+        162
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-050/flagship/hero-050_p169_image769.jpg",
+      "confidence": "medium",
+      "needs_cutout": false,
+      "reason": "Отдельного портрета нет; этот кадр лучше всего показывает героя почти в полный рост и всех детей. Из-за перекрытия фигур кадр лучше сохранить целиком, без CutItOut.",
+      "print_size_warning": "MODERATE: source 616x470 px; a 2x result is about 1232x940 px, but the hero occupies only part of the family frame."
+    },
+    {
+      "reference_order": 49,
+      "hero_id": "hero-051",
+      "hero_name": "ВИКТОР",
+      "reference_pages": [
+        163,
+        164,
+        165
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-051/flagship/hero-051_p173_image786.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Фигура героя и лицо видны лучше, чем на остальных семейных кадрах; ребёнка на плечах и шары не удалять без ручного решения. Identity-status семьи остаётся REVIEW_REQUIRED.",
+      "print_size_warning": "SEVERE: source 291x470 px and contains two figures; 2x is insufficient for a large isolated composition."
+    },
+    {
+      "reference_order": 50,
+      "hero_id": "hero-052",
+      "hero_name": "ВИКТОР",
+      "reference_pages": [
+        166,
+        167,
+        168
+      ],
+      "status": "REVIEW_REQUIRED",
+      "source_file": null,
+      "confidence": "REVIEW_REQUIRED",
+      "needs_cutout": null,
+      "reason": "В семейном диапазоне есть только три похожих кадра детей с наградами и рисованным портретом. Фотографии самого героя нет; identity-status семьи также REVIEW_REQUIRED.",
+      "print_size_warning": "BLOCKER: no hero photograph is available in the reference range; the small drawn portrait must not be treated as a photographic flagship."
+    }
+  ]
+}

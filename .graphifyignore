@@ -3,6 +3,10 @@ graphify-out/
 tmp/
 workspace/
 node_modules/
+.git/
+project-reset/archived/
+assets/production-input/jobs.json
+assets/production-input/jobs.csv
 **/__pycache__/
 *.pyc
 

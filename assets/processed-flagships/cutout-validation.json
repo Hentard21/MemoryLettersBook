@@ -1,0 +1,890 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T22:57:42.884020+00:00",
+  "policy": "Technical alpha validation is not visual approval. Every result remains needs_manual_mask_review.",
+  "counts": {
+    "expected": 58,
+    "valid_png_alpha": 58,
+    "approved": 0,
+    "needs_manual_mask_review": 58,
+    "errors": 0
+  },
+  "contact_sheets": [
+    "project-reset/reports/flagship-cutouts/cutout-qa-01.jpg",
+    "project-reset/reports/flagship-cutouts/cutout-qa-02.jpg",
+    "project-reset/reports/flagship-cutouts/cutout-qa-03.jpg",
+    "project-reset/reports/flagship-cutouts/cutout-qa-04.jpg"
+  ],
+  "entries": [
+    {
+      "order": 1,
+      "hero_id": "hero-001",
+      "source_file": "assets/families/hero-001/flagship/hero-001_photo_01_enhanced_white.png",
+      "output_file": "assets/processed-flagships/hero-001/hero-001_photo_01_enhanced_white_nobg.png",
+      "width_px": 988,
+      "height_px": 1591,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 463473,
+      "fully_transparent_pixels": 395798,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 2,
+      "hero_id": "hero-003",
+      "source_file": "assets/production-ready/flagship/hero-003/hero-003_p020_image146_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-003/hero-003_p020_image146_nobg.png",
+      "width_px": 580,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 385626,
+      "fully_transparent_pixels": 306967,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 3,
+      "hero_id": "hero-004",
+      "source_file": "assets/production-ready/flagship/hero-004/hero-004_p025_image167_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-004/hero-004_p025_image167_nobg.png",
+      "width_px": 582,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 370629,
+      "fully_transparent_pixels": 289983,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 6,
+      "hero_id": "hero-007",
+      "source_file": "assets/production-ready/flagship/hero-007/hero-007_p033_image197_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-007/hero-007_p033_image197_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 139190,
+      "fully_transparent_pixels": 115287,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 7,
+      "hero_id": "hero-008",
+      "source_file": "assets/production-ready/flagship/hero-008/hero-008_p036_image208_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-008/hero-008_p036_image208_nobg.png",
+      "width_px": 580,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 431131,
+      "fully_transparent_pixels": 382115,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 9,
+      "hero_id": "hero-010",
+      "source_file": "assets/production-ready/flagship/hero-010/hero-010_p042_image238_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-010/hero-010_p042_image238_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 154746,
+      "fully_transparent_pixels": 118812,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 10,
+      "hero_id": "hero-011",
+      "source_file": "assets/production-ready/flagship/hero-011/hero-011_p045_image250_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-011/hero-011_p045_image250_nobg.png",
+      "width_px": 1230,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 800386,
+      "fully_transparent_pixels": 705622,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 11,
+      "hero_id": "hero-012",
+      "source_file": "assets/production-ready/flagship/hero-012/hero-012_p049_image267_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-012/hero-012_p049_image267_nobg.png",
+      "width_px": 580,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 208238,
+      "fully_transparent_pixels": 187177,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 12,
+      "hero_id": "hero-013",
+      "source_file": "assets/production-ready/flagship/hero-013/hero-013_p052_image284_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-013/hero-013_p052_image284_nobg.png",
+      "width_px": 1230,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 528838,
+      "fully_transparent_pixels": 433845,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 14,
+      "hero_id": "hero-015",
+      "source_file": "assets/production-ready/flagship/hero-015/hero-015_p062_image322_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-015/hero-015_p062_image322_nobg.png",
+      "width_px": 762,
+      "height_px": 1234,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 528699,
+      "fully_transparent_pixels": 313963,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 15,
+      "hero_id": "hero-017",
+      "source_file": "assets/production-ready/flagship/hero-017/hero-017_p066_image343_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-017/hero-017_p066_image343_nobg.png",
+      "width_px": 548,
+      "height_px": 884,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 176842,
+      "fully_transparent_pixels": 123444,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 17,
+      "hero_id": "hero-019",
+      "source_file": "assets/production-ready/flagship/hero-019/hero-019_p071_image367_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-019/hero-019_p071_image367_nobg.png",
+      "width_px": 582,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 204283,
+      "fully_transparent_pixels": 178854,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 18,
+      "hero_id": "hero-020",
+      "source_file": "assets/production-ready/flagship/hero-020/hero-020_p074_image380_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-020/hero-020_p074_image380_nobg.png",
+      "width_px": 580,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 316928,
+      "fully_transparent_pixels": 298807,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 19,
+      "hero_id": "hero-021",
+      "source_file": "assets/production-ready/flagship/hero-021/hero-021_p077_image397_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-021/hero-021_p077_image397_nobg.png",
+      "width_px": 678,
+      "height_px": 1096,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 390038,
+      "fully_transparent_pixels": 372179,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 22,
+      "hero_id": "hero-024",
+      "source_file": "assets/production-ready/flagship/hero-024/hero-024_p086_image430_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-024/hero-024_p086_image430_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 230016,
+      "fully_transparent_pixels": 173538,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 23,
+      "hero_id": "hero-025",
+      "source_file": "assets/production-ready/flagship/hero-025/hero-025_p089_image442_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-025/hero-025_p089_image442_nobg.png",
+      "width_px": 582,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 140256,
+      "fully_transparent_pixels": 131058,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 24,
+      "hero_id": "hero-026",
+      "source_file": "assets/production-ready/flagship/hero-026/hero-026_p092_image453_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-026/hero-026_p092_image453_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 173597,
+      "fully_transparent_pixels": 162383,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 25,
+      "hero_id": "hero-027",
+      "source_file": "assets/production-ready/flagship/hero-027/hero-027_p096_image467_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-027/hero-027_p096_image467_nobg.png",
+      "width_px": 580,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 442430,
+      "fully_transparent_pixels": 419807,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 26,
+      "hero_id": "hero-028",
+      "source_file": "assets/production-ready/flagship/hero-028/hero-028_p099_image479_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-028/hero-028_p099_image479_nobg.png",
+      "width_px": 582,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 213202,
+      "fully_transparent_pixels": 196539,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 27,
+      "hero_id": "hero-029",
+      "source_file": "assets/production-ready/flagship/hero-029/hero-029_p104_image503_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-029/hero-029_p104_image503_nobg.png",
+      "width_px": 582,
+      "height_px": 928,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_or_soft_pixels": 381313,
+      "fully_transparent_pixels": 308065,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 28,
+      "hero_id": "hero-030",
+      "source_file": "assets/production-ready/flagship/hero-030/hero-030_p107_image516_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-030/hero-030_p107_image516_nobg.png",
+      "width_px": 586,
+      "height_px": 946,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 335834,
+      "fully_transparent_pixels": 87880,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 29,
+      "hero_id": "hero-031",
+      "source_file": "assets/production-ready/flagship/hero-031/hero-031_p110_image527_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-031/hero-031_p110_image527_nobg.png",
+      "width_px": 582,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 191743,
+      "fully_transparent_pixels": 160627,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 30,
+      "hero_id": "hero-032",
+      "source_file": "assets/production-ready/flagship/hero-032/hero-032_p113_image538_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-032/hero-032_p113_image538_nobg.png",
+      "width_px": 580,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 184445,
+      "fully_transparent_pixels": 174190,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 31,
+      "hero_id": "hero-033",
+      "source_file": "assets/production-ready/flagship/hero-033/hero-033_p116_image553_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-033/hero-033_p116_image553_nobg.png",
+      "width_px": 582,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 185068,
+      "fully_transparent_pixels": 172491,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 32,
+      "hero_id": "hero-034",
+      "source_file": "assets/production-ready/flagship/hero-034/hero-034_p119_image567_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-034/hero-034_p119_image567_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 311846,
+      "fully_transparent_pixels": 292643,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 34,
+      "hero_id": "hero-036",
+      "source_file": "assets/production-ready/flagship/hero-036/hero-036_p125_image593_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-036/hero-036_p125_image593_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 263038,
+      "fully_transparent_pixels": 154599,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 35,
+      "hero_id": "hero-037",
+      "source_file": "assets/production-ready/flagship/hero-037/hero-037_p128_image605_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-037/hero-037_p128_image605_nobg.png",
+      "width_px": 580,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 253828,
+      "fully_transparent_pixels": 216226,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 37,
+      "hero_id": "hero-039",
+      "source_file": "assets/production-ready/flagship/hero-039/hero-039_p134_image629_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-039/hero-039_p134_image629_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 263313,
+      "fully_transparent_pixels": 252959,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 38,
+      "hero_id": "hero-040",
+      "source_file": "assets/production-ready/flagship/hero-040/hero-040_p137_image639_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-040/hero-040_p137_image639_nobg.png",
+      "width_px": 584,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 197290,
+      "fully_transparent_pixels": 177023,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 39,
+      "hero_id": "hero-041",
+      "source_file": "assets/production-ready/flagship/hero-041/hero-041_p140_image650_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-041/hero-041_p140_image650_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 272781,
+      "fully_transparent_pixels": 255113,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 40,
+      "hero_id": "hero-042",
+      "source_file": "assets/production-ready/flagship/hero-042/hero-042_p143_image662_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-042/hero-042_p143_image662_nobg.png",
+      "width_px": 1230,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_or_soft_pixels": 914988,
+      "fully_transparent_pixels": 894819,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 41,
+      "hero_id": "hero-043",
+      "source_file": "assets/production-ready/flagship/hero-043/hero-043_p146_image671_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-043/hero-043_p146_image671_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 289657,
+      "fully_transparent_pixels": 99345,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 42,
+      "hero_id": "hero-044",
+      "source_file": "assets/production-ready/flagship/hero-044/hero-044_p149_image686_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-044/hero-044_p149_image686_nobg.png",
+      "width_px": 582,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 388418,
+      "fully_transparent_pixels": 231149,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 43,
+      "hero_id": "hero-045",
+      "source_file": "assets/production-ready/flagship/hero-045/hero-045_p152_image700_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-045/hero-045_p152_image700_nobg.png",
+      "width_px": 858,
+      "height_px": 1386,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 667445,
+      "fully_transparent_pixels": 627496,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 44,
+      "hero_id": "hero-046",
+      "source_file": "assets/production-ready/flagship/hero-046/hero-046_p155_image712_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-046/hero-046_p155_image712_nobg.png",
+      "width_px": 808,
+      "height_px": 1308,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 336240,
+      "fully_transparent_pixels": 319610,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 45,
+      "hero_id": "hero-047",
+      "source_file": "assets/production-ready/flagship/hero-047/hero-047_p159_image727_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-047/hero-047_p159_image727_nobg.png",
+      "width_px": 1464,
+      "height_px": 1116,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_or_soft_pixels": 1378821,
+      "fully_transparent_pixels": 1312869,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 46,
+      "hero_id": "hero-048",
+      "source_file": "assets/production-ready/flagship/hero-048/hero-048_p163_image744_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-048/hero-048_p163_image744_nobg.png",
+      "width_px": 580,
+      "height_px": 942,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 358808,
+      "fully_transparent_pixels": 345765,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 47,
+      "hero_id": "hero-049",
+      "source_file": "assets/production-ready/flagship/hero-049/hero-049_p166_image760_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-049/hero-049_p166_image760_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 267685,
+      "fully_transparent_pixels": 173619,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 49,
+      "hero_id": "hero-051",
+      "source_file": "assets/production-ready/flagship/hero-051/hero-051_p173_image786_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-051/hero-051_p173_image786_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 388930,
+      "fully_transparent_pixels": 313767,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 51,
+      "hero_id": "hero-053",
+      "source_file": "assets/production-ready/flagship/hero-053/hero-053_p179_image808_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-053/hero-053_p179_image808_nobg.png",
+      "width_px": 582,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 203346,
+      "fully_transparent_pixels": 181436,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 52,
+      "hero_id": "hero-054",
+      "source_file": "assets/production-ready/flagship/hero-054/hero-054_p182_image818_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-054/hero-054_p182_image818_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 297681,
+      "fully_transparent_pixels": 160030,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 54,
+      "hero_id": "hero-056",
+      "source_file": "assets/production-ready/flagship/hero-056/hero-056_p190_image848_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-056/hero-056_p190_image848_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 447629,
+      "fully_transparent_pixels": 115515,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 55,
+      "hero_id": "hero-057",
+      "source_file": "assets/production-ready/flagship/hero-057/hero-057_p193_image862_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-057/hero-057_p193_image862_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 189271,
+      "fully_transparent_pixels": 160001,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 56,
+      "hero_id": "hero-058",
+      "source_file": "assets/production-ready/flagship/hero-058/hero-058_p197_image880_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-058/hero-058_p197_image880_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 151886,
+      "fully_transparent_pixels": 138216,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 57,
+      "hero_id": "hero-059",
+      "source_file": "assets/production-ready/flagship/hero-059/hero-059_p199_image891_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-059/hero-059_p199_image891_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 382440,
+      "fully_transparent_pixels": 216169,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 58,
+      "hero_id": "hero-060",
+      "source_file": "assets/production-ready/flagship/hero-060/hero-060_p202_image901_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-060/hero-060_p202_image901_nobg.png",
+      "width_px": 1160,
+      "height_px": 1294,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 694813,
+      "fully_transparent_pixels": 503035,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 59,
+      "hero_id": "hero-061",
+      "source_file": "assets/production-ready/flagship/hero-061/hero-061_p205_image914_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-061/hero-061_p205_image914_nobg.png",
+      "width_px": 522,
+      "height_px": 844,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 219447,
+      "fully_transparent_pixels": 167012,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 61,
+      "hero_id": "hero-063",
+      "source_file": "assets/production-ready/flagship/hero-063/hero-063_p211_image933_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-063/hero-063_p211_image933_nobg.png",
+      "width_px": 584,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 357108,
+      "fully_transparent_pixels": 151934,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 63,
+      "hero_id": "hero-065",
+      "source_file": "assets/production-ready/flagship/hero-065/hero-065_p217_image953_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-065/hero-065_p217_image953_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 366833,
+      "fully_transparent_pixels": 123345,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 64,
+      "hero_id": "hero-066",
+      "source_file": "assets/production-ready/flagship/hero-066/hero-066_p219_image959_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-066/hero-066_p219_image959_nobg.png",
+      "width_px": 850,
+      "height_px": 1376,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 587005,
+      "fully_transparent_pixels": 426744,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 65,
+      "hero_id": "hero-067",
+      "source_file": "assets/production-ready/flagship/hero-067/hero-067_p224_image979_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-067/hero-067_p224_image979_nobg.png",
+      "width_px": 658,
+      "height_px": 1064,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 406843,
+      "fully_transparent_pixels": 379073,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 66,
+      "hero_id": "hero-068",
+      "source_file": "assets/production-ready/flagship/hero-068/hero-068_p227_image993_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-068/hero-068_p227_image993_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 461369,
+      "fully_transparent_pixels": 448198,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 67,
+      "hero_id": "hero-069",
+      "source_file": "assets/production-ready/flagship/hero-069/hero-069_p231_image1008_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-069/hero-069_p231_image1008_nobg.png",
+      "width_px": 580,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 206574,
+      "fully_transparent_pixels": 177455,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 68,
+      "hero_id": "hero-070",
+      "source_file": "assets/production-ready/flagship/hero-070/hero-070_p235_image1025_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-070/hero-070_p235_image1025_nobg.png",
+      "width_px": 458,
+      "height_px": 566,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 146363,
+      "fully_transparent_pixels": 124660,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 69,
+      "hero_id": "hero-071",
+      "source_file": "assets/production-ready/flagship/hero-071/hero-071_p238_image1036_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-071/hero-071_p238_image1036_nobg.png",
+      "width_px": 618,
+      "height_px": 998,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 479551,
+      "fully_transparent_pixels": 184459,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 71,
+      "hero_id": "hero-073",
+      "source_file": "assets/production-ready/flagship/hero-073/hero-073_p244_image1058_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-073/hero-073_p244_image1058_nobg.png",
+      "width_px": 582,
+      "height_px": 940,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_or_soft_pixels": 242061,
+      "fully_transparent_pixels": 225065,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 73,
+      "hero_id": "hero-075",
+      "source_file": "assets/production-ready/flagship/hero-075/hero-075_p251_image1087_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-075/hero-075_p251_image1087_nobg.png",
+      "width_px": 716,
+      "height_px": 938,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 256526,
+      "fully_transparent_pixels": 240121,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "order": 74,
+      "hero_id": "hero-076",
+      "source_file": "assets/production-ready/flagship/hero-076/hero-076_p254_image1101_upscaled_2x.jpg",
+      "output_file": "assets/processed-flagships/hero-076/hero-076_p254_image1101_nobg.png",
+      "width_px": 714,
+      "height_px": 942,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_or_soft_pixels": 326655,
+      "fully_transparent_pixels": 241963,
+      "status": "needs_manual_mask_review"
+    }
+  ]
+}

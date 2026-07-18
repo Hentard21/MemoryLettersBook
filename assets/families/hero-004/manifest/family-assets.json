@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-004",
+  "generated_at": "2026-07-18T16:55:16.585396+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-004_p025_image168",
+      "category": "archive-photos",
+      "file": "assets/families/hero-004/archive-photos/hero-004_p025_image168.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-004/portraits/hero-004_p025_image168.jpg",
+      "sha256": "17466ada26a3e88d6ddcd6a5d18a106e88df642b04877ebac1ff564156433b65",
+      "status": "present",
+      "asset_type": "portrait",
+      "recommended_action": "enhance_person",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; разметка смешанной страницы; одно доминирующее лицо",
+      "legacy_source_pdf_page": 25,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-004/hero-004_p025_image168_upscaled_2x.jpg",
+      "print_sha256": "edc8f91956ad9eb3423737ef6cfa5b68ac164821c7fef3698d232ddd5f0c9fab",
+      "print_width_px": 580,
+      "print_height_px": 938,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-004_p025_image167",
+      "category": "flagship",
+      "file": "assets/families/hero-004/flagship/hero-004_p025_image167.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-004/portraits/hero-004_p025_image167.jpg",
+      "sha256": "2360ecc34efad51118ea0245cfc9d4b7e8bc57ee41c668e13c282bb4026d372f",
+      "status": "present",
+      "notes": "Existing flagship-images.json role: hero_flagship.",
+      "print_file": "assets/production-ready/flagship/hero-004/hero-004_p025_image167_upscaled_2x.jpg",
+      "print_sha256": "2833c85a18416c56799d9cd96714acf2ef83d204969e4b5f6150d0cbffa9b2a1",
+      "print_width_px": 582,
+      "print_height_px": 938,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout",
+      "layout_role": "hero_flagship",
+      "selection_confidence": "high"
+    },
+    {
+      "asset_id": "hero-004_p025_image169",
+      "category": "letters",
+      "file": "assets/families/hero-004/letters/hero-004_p025_image169.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-004/letters-reference/hero-004_p025_image169.jpg",
+      "sha256": "bdac01feb958875b138ab63b57a70a7b804285ad14998007311ee4edb3c4b235",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
+      "priority": "medium",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; смешанная страница; область письма; лица автоматически не обнаружены; REVIEW_REQUIRED: проверить тип и пригодность перед раздачей",
+      "legacy_source_pdf_page": 25,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE"
+    },
+    {
+      "asset_id": "hero-004-references-reference-pages-1995b468",
+      "category": "references",
+      "file": "assets/families/hero-004/references/reference-pages.json",
+      "source_file": null,
+      "sha256": "1995b468cc2cb57e0b42655611e69d9c0bf8d6b986b24bbb4ea20fb2f5b009b9",
+      "status": "present"
+    }
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "reference_title_page": 16,
+    "reference_pages": [
+      16,
+      17
+    ],
+    "status": "confirmed_by_reference_text"
+  }
+}
