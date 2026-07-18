@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-002",
+  "generated_at": "2026-07-18T16:40:29.277573+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-002_photo_01",
+      "category": "archive-photos",
+      "file": "assets/families/hero-002/archive-photos/hero-002_photo_01_master.png",
+      "source_file": "assets/production-input/hero-002/portraits/hero-002_photo_01_master.png",
+      "sha256": "b181d14d09598d3a6f8936d6e00bd47928ad4135b0c69cf488bc51dddf582893",
+      "status": "present",
+      "asset_type": "portrait",
+      "source_pdf_page": 16,
+      "recommended_action": "enhance_person",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения"
+    },
+    {
+      "asset_id": "hero-002_photo_02",
+      "category": "archive-photos",
+      "file": "assets/families/hero-002/archive-photos/hero-002_photo_02_master.png",
+      "source_file": "assets/production-input/hero-002/portraits/hero-002_photo_02_master.png",
+      "sha256": "046d29ec8e2e234eeb8687906dd20aeee8da699a41c8482ab884cad29587c1c5",
+      "status": "present",
+      "asset_type": "portrait",
+      "source_pdf_page": 16,
+      "recommended_action": "enhance_person",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения"
+    },
+    {
+      "asset_id": "hero-002_photo_03",
+      "category": "archive-photos",
+      "file": "assets/families/hero-002/archive-photos/hero-002_photo_03_master.png",
+      "source_file": "assets/production-input/hero-002/groups/hero-002_photo_03_master.png",
+      "sha256": "cd7362148faa52ba608b719dbad06223e18c7bd0afe88d6666bf3b2061b9f3ff",
+      "status": "present",
+      "asset_type": "group",
+      "source_pdf_page": 16,
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения"
+    },
+    {
+      "asset_id": "hero-002_photo_04",
+      "category": "archive-photos",
+      "file": "assets/families/hero-002/archive-photos/hero-002_photo_04_master.png",
+      "source_file": "assets/production-input/hero-002/portraits/hero-002_photo_04_master.png",
+      "sha256": "4fdd95333e718d512e0aa7a8ccd9372febb9aa2eee448c1e9281b91aa35917d3",
+      "status": "present",
+      "asset_type": "portrait",
+      "source_pdf_page": 17,
+      "recommended_action": "enhance_person",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения"
+    },
+    {
+      "asset_id": "hero-002-archive-photos-hero-002_photo_04_upscaled-046d5056",
+      "category": "archive-photos",
+      "file": "assets/families/hero-002/archive-photos/hero-002_photo_04_upscaled.png",
+      "source_file": null,
+      "sha256": "046d5056c37beca52be810fdb12525888bc6ac61c3432aa7656016d547c13371",
+      "status": "present"
+    },
+    {
+      "asset_id": "hero-002-drawings-hero-002_drawing_01_enhanced-9dd150e3",
+      "category": "drawings",
+      "file": "assets/families/hero-002/drawings/hero-002_drawing_01_enhanced.png",
+      "source_file": null,
+      "sha256": "9dd150e32c1947f54992f88051823713964f1e343f773de02757364734d082b9",
+      "status": "present"
+    },
+    {
+      "asset_id": "hero-002_drawing_01",
+      "category": "drawings",
+      "file": "assets/families/hero-002/drawings/hero-002_drawing_01_master.png",
+      "source_file": "assets/production-input/hero-002/drawings/hero-002_drawing_01_master.png",
+      "sha256": "4cf53b87ce1fe03d9fce9bc0af77a05e2c77ed4b6b28cfe414f5632a42cacec8",
+      "status": "present",
+      "asset_type": "drawing",
+      "source_pdf_page": 17,
+      "recommended_action": "enhance_drawing",
+      "priority": "medium",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения"
+    },
+    {
+      "asset_id": "hero-002-drawings-hero-002_drawing_01_upscaled-0a9da30d",
+      "category": "drawings",
+      "file": "assets/families/hero-002/drawings/hero-002_drawing_01_upscaled.png",
+      "source_file": null,
+      "sha256": "0a9da30de9cf0421c388d0554ec914dd55f5048e86ec6f73a4a8c296405d68a7",
+      "status": "present"
+    },
+    {
+      "asset_id": "hero-002_letter_01",
+      "category": "letters",
+      "file": "assets/families/hero-002/letters/hero-002_letter_01_master.png",
+      "source_file": "assets/production-input/hero-002/letters-reference/hero-002_letter_01_master.png",
+      "sha256": "ad3e966365bf7fdbb13f94e94da773e24dae2dfdba08f0b58e6d23de7285b44a",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "source_pdf_page": 17,
+      "recommended_action": "archive_only",
+      "priority": "medium",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения; принадлежность материала заблокирована редакционной проверкой; REVIEW_REQUIRED: проверить тип и пригодность перед раздачей"
+    },
+    {
+      "asset_id": "hero-002_letter_02",
+      "category": "letters",
+      "file": "assets/families/hero-002/letters/hero-002_letter_02_master.png",
+      "source_file": "assets/production-input/hero-002/letters-reference/hero-002_letter_02_master.png",
+      "sha256": "5ca6518c1dd2519b96d586d4133d10ca35e40ad857ab0e97a52049ea13092993",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "source_pdf_page": 18,
+      "recommended_action": "archive_only",
+      "priority": "low",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения"
+    },
+    {
+      "asset_id": "hero-002-letters-hero-002_letter_02_upscaled-c7331b97",
+      "category": "letters",
+      "file": "assets/families/hero-002/letters/hero-002_letter_02_upscaled.png",
+      "source_file": null,
+      "sha256": "c7331b977df48395ca8f638e7b2de88f77df019d08a4513aa958719e40cd9283",
+      "status": "present"
+    },
+    {
+      "asset_id": "hero-002_letter_03",
+      "category": "letters",
+      "file": "assets/families/hero-002/letters/hero-002_letter_03_master.png",
+      "source_file": "assets/production-input/hero-002/letters-reference/hero-002_letter_03_master.png",
+      "sha256": "6f46778b510f20b3a34d041b0d441bba02028019c0099c1cf4db95d83d188e74",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "source_pdf_page": 18,
+      "recommended_action": "archive_only",
+      "priority": "low",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения"
+    },
+    {
+      "asset_id": "page_015_reference",
+      "category": "references",
+      "file": "assets/families/hero-002/references/page_015_reference.jpg",
+      "source_file": "assets/production-input/hero-002/page-reference/page_015_reference.jpg",
+      "sha256": "9814ad98b6e46c0144d6668e7659c47b4759e81fc845821e02964bd467971d08",
+      "status": "present",
+      "asset_type": "page-reference",
+      "notes": "Imported from explicitly categorized production-input folder."
+    },
+    {
+      "asset_id": "page_016_reference",
+      "category": "references",
+      "file": "assets/families/hero-002/references/page_016_reference.jpg",
+      "source_file": "assets/production-input/hero-002/page-reference/page_016_reference.jpg",
+      "sha256": "5148e04d6b0a639fa759c94fb1e423ab0b4df123b6d4f59df4acca517475a138",
+      "status": "present",
+      "asset_type": "page-reference",
+      "notes": "Imported from explicitly categorized production-input folder."
+    },
+    {
+      "asset_id": "page_017_reference",
+      "category": "references",
+      "file": "assets/families/hero-002/references/page_017_reference.jpg",
+      "source_file": "assets/production-input/hero-002/page-reference/page_017_reference.jpg",
+      "sha256": "28fedc22d6de9d3eb03045bf286a80f057559c716ad5ad7f654a55f015f1e2e6",
+      "status": "present",
+      "asset_type": "page-reference",
+      "notes": "Imported from explicitly categorized production-input folder."
+    },
+    {
+      "asset_id": "page_018_reference",
+      "category": "references",
+      "file": "assets/families/hero-002/references/page_018_reference.jpg",
+      "source_file": "assets/production-input/hero-002/page-reference/page_018_reference.jpg",
+      "sha256": "832277b661288a55613c47c72f23b6450e3965f2a36d64d2da03a9cdd8edf6ca",
+      "status": "present",
+      "asset_type": "page-reference",
+      "notes": "Imported from explicitly categorized production-input folder."
+    }
+  ]
+}

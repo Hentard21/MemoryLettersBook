@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "scope": "reference_order_1_25",
+  "selection_basis": {
+    "family_order": "content/manifests/reference-family-order-reset.json",
+    "reference_pdf": "source/reference.pdf",
+    "candidate_directories": [
+      "assets/families/<hero_id>/flagship",
+      "assets/families/<hero_id>/archive-photos"
+    ],
+    "rules": [
+      "Do not mix families.",
+      "Prefer a clearly identified hero portrait or figure suitable for the opening page.",
+      "Keep REVIEW_REQUIRED when no admissible standalone candidate exists.",
+      "needs_cutout is false when retaining the documentary background or group context is safer."
+    ]
+  },
+  "selections": [
+    {
+      "reference_order": 1,
+      "hero_id": "hero-001",
+      "hero_name": "АНАСТАСИЯ",
+      "reference_pages": [
+        8,
+        9,
+        10
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-001/flagship/hero-001_photo_01_enhanced_white.png",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Подтверждённый крупный портрет Анастасии; совпадает с героиней на странице 9 финального референса и уже служит визуальным ориентиром V12.",
+      "print_size_warning": "988x1591 px: достаточно для крупной поясной подачи после аккуратной прозрачной вырезки; проверить края волос."
+    },
+    {
+      "reference_order": 2,
+      "hero_id": "hero-003",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "reference_pages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-003/flagship/hero-003_p020_image146.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственное прямое изображение Вячеслава без портрета в руках детей; фигура в экипировке хорошо отделяется от лесного фона.",
+      "print_size_warning": "290x470 px; даже парный 2x-апскейл около 580x940 px мал для полноформатной фигуры. Использовать умеренный размер или повторный качественный апскейл."
+    },
+    {
+      "reference_order": 3,
+      "hero_id": "hero-004",
+      "hero_name": "НИКОЛАЙ",
+      "reference_pages": [
+        16,
+        17
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-004/flagship/hero-004_p025_image167.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Прямой ростовой кадр Николая в форме; второй семейный кадр показывает ребёнка с этим же портретом и подтверждает принадлежность.",
+      "print_size_warning": "291x469 px; 2x-апскейл остаётся недостаточным для крупной ростовой печати. Ограничить масштаб либо улучшить повторно."
+    },
+    {
+      "reference_order": 4,
+      "hero_id": "hero-005",
+      "hero_name": "ЕВГЕНИЙ",
+      "reference_pages": [
+        18,
+        19,
+        20
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-005/flagship/hero-005_p027_image176.jpg",
+      "confidence": "high",
+      "needs_cutout": false,
+      "reason": "Самый качественный кадр семьи: Евгений хорошо узнаваем, находится рядом с ребёнком, а изображение существенно крупнее двух одиночных архивных фрагментов.",
+      "print_size_warning": "898x686 px; после 2x подходит для крупного группового модуля, но не для полного разворотного фона. Сохранить ребёнка и контекст."
+    },
+    {
+      "reference_order": 5,
+      "hero_id": "hero-006",
+      "hero_name": "АЛИМАМЕД",
+      "reference_pages": [
+        21,
+        22,
+        23
+      ],
+      "status": "REVIEW_REQUIRED",
+      "source_file": null,
+      "confidence": "none",
+      "needs_cutout": false,
+      "reason": "В допустимом архиве нет отдельного фото героя: есть только дети с печатным портретом и документальный лист с несколькими изображениями. Выбор кадра или извлечение портрета требует ручного решения владельца.",
+      "print_size_warning": "Печатный портрет внутри hero-006_p030_image184.jpg занимает малую часть кадра; его кроп не даст надёжного крупного флагмана даже после 2x."
+    },
+    {
+      "reference_order": 6,
+      "hero_id": "hero-007",
+      "hero_name": "АЛМАТ",
+      "reference_pages": [
+        24,
+        25,
+        26
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-007/flagship/hero-007_p033_image197.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный отдельный крупный портрет Алмата; остальные фотографии групповые и показывают его значительно мельче.",
+      "print_size_warning": "290x469 px; кадр уже обрезан по плечи и не может стать поясной фигурой без генеративного достраивания. 2x пригоден только для среднего портрета."
+    },
+    {
+      "reference_order": 7,
+      "hero_id": "hero-008",
+      "hero_name": "ЯКОВ",
+      "reference_pages": [
+        27,
+        28,
+        29
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-008/flagship/hero-008_p036_image208.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный отдельный крупный кадр Якова в форме; принадлежность подтверждается соседними семейными фотографиями финального референса.",
+      "print_size_warning": "290x470 px; селфи обрезано ниже плеч, поэтому без согласованного достраивания использовать как крупный бюст, не как поясную фигуру."
+    },
+    {
+      "reference_order": 8,
+      "hero_id": "hero-009",
+      "hero_name": "ЕГОР",
+      "reference_pages": [
+        30,
+        31,
+        32
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-009/flagship/hero-009_p039_image225.jpg",
+      "confidence": "medium",
+      "needs_cutout": false,
+      "reason": "Наиболее цельный семейный кадр: Егор расположен в центре и хорошо виден вместе с тремя детьми; одиночного портрета героя в архиве нет.",
+      "print_size_warning": "546x416 px; после 2x годится для среднего группового блока. Герой частично перекрыт детьми, поэтому изолированная поясная вырезка не рекомендуется."
+    },
+    {
+      "reference_order": 9,
+      "hero_id": "hero-010",
+      "hero_name": "АЛЕКСЕЙ",
+      "reference_pages": [
+        33,
+        34,
+        35
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-010/flagship/hero-010_p042_image238.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Формальный фронтальный портрет Алексея в форме на нейтральном фоне; наиболее однозначный и удобный для флагманской страницы.",
+      "print_size_warning": "291x470 px; даже 2x подходит только для среднего портрета. Не увеличивать до полной высоты страницы без дополнительного улучшения."
+    },
+    {
+      "reference_order": 10,
+      "hero_id": "hero-011",
+      "hero_name": "АНДРЕЙ",
+      "reference_pages": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-011/flagship/hero-011_p045_image250.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Лучший ростовой кадр Андрея в форме; ребёнок рядом подтверждает семейную связь и должен быть сохранён при вырезке обеих фигур.",
+      "print_size_warning": "615x470 px; после 2x приемлемо для среднего модуля. Ребёнок перекрывает часть руки героя, поэтому маску проверять вручную и не отделять фигуры искусственно."
+    },
+    {
+      "reference_order": 11,
+      "hero_id": "hero-012",
+      "hero_name": "ВИКТОР",
+      "reference_pages": [
+        40,
+        41,
+        42
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-012/flagship/hero-012_p049_image267.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Чёткий формальный портрет Виктора в форме с наградами на светлом фоне; наиболее пригодный для компактной флагманской композиции.",
+      "print_size_warning": "290x470 px; 2x остаётся мал для полноформатной фигуры. Использовать как бюст среднего размера и не дорисовывать форму без отдельного согласования."
+    },
+    {
+      "reference_order": 12,
+      "hero_id": "hero-013",
+      "hero_name": "ВАДИМ",
+      "reference_pages": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-013/flagship/hero-013_p052_image284.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный прямой крупный кадр Вадима; он держит ребёнка, которого необходимо сохранить как часть исходной сцены.",
+      "print_size_warning": "615x469 px; после 2x подходит для крупного бюста с ребёнком. Нижняя часть фигуры отсутствует, поэтому не трактовать как готовую поясную фигуру."
+    },
+    {
+      "reference_order": 13,
+      "hero_id": "hero-014",
+      "hero_name": "ЕВГЕНИЙ",
+      "reference_pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-014/flagship/hero-014_p056_image304.jpg",
+      "confidence": "medium",
+      "needs_cutout": false,
+      "reason": "Наиболее крупный и качественный семейный портрет Евгения; два ребёнка входят в композицию и частично перекрывают героя, поэтому кадр лучше сохранять целиком.",
+      "print_size_warning": "615x470 px; после 2x подходит для среднего группового модуля. Не растягивать на полную страницу и не удалять детей из сцены."
+    },
+    {
+      "reference_order": 14,
+      "hero_id": "hero-015",
+      "hero_name": "ИЛЬЯ",
+      "reference_pages": [
+        53,
+        54,
+        55
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-015/flagship/hero-015_p062_image322.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный прямой ростовой кадр Ильи в форме и с экипировкой; хорошо соответствует роли флагмана.",
+      "print_size_warning": "381x617 px; после 2x пригоден для средней фигуры, но не для полноформатной печати. Особо проверить оружие, ремни и края зимней формы."
+    },
+    {
+      "reference_order": 15,
+      "hero_id": "hero-017",
+      "hero_name": "АЛЕКСАНДР",
+      "reference_pages": [
+        56,
+        57,
+        58
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-017/flagship/hero-017_p066_image343.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Самый светлый и цельный ростовой кадр Александра с дочерью; отдельного портрета героя в семейном архиве нет, поэтому обе фигуры должны остаться вместе.",
+      "print_size_warning": "274x442 px; даже после 2x разрешение крайне мало для крупной печати. Нужен повторный качественный апскейл или умеренный размер размещения."
+    },
+    {
+      "reference_order": 16,
+      "hero_id": "hero-018",
+      "hero_name": "АНДРЕЙ",
+      "reference_pages": [
+        59,
+        60
+      ],
+      "status": "REVIEW_REQUIRED",
+      "source_file": null,
+      "confidence": "none",
+      "needs_cutout": false,
+      "reason": "На странице 60 финального референса виден отдельный портрет Андрея, но в допустимых каталогах flagship и archive-photos нет ни одного кандидата. Нужна исправленная классификация или повторное извлечение.",
+      "print_size_warning": "Файл флагмана отсутствует в допустимом наборе; до восстановления нативного ассета оценка печатного размера невозможна."
+    },
+    {
+      "reference_order": 17,
+      "hero_id": "hero-019",
+      "hero_name": "АНАТОЛИЙ",
+      "reference_pages": [
+        61,
+        62,
+        63
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-019/flagship/hero-019_p071_image367.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Наиболее крупный и фронтальный кадр Анатолия с ребёнком; отдельного одиночного портрета нет, поэтому при вырезке сохраняются обе фигуры.",
+      "print_size_warning": "291x469 px; 2x мал для крупной группы. Использовать средним размером и тщательно проверить руки героя вокруг ребёнка."
+    },
+    {
+      "reference_order": 18,
+      "hero_id": "hero-020",
+      "hero_name": "БУЛАТ",
+      "reference_pages": [
+        64,
+        65,
+        66
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-020/flagship/hero-020_p074_image380.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Единственный отдельный ростовой кадр Булата в зимней форме на фоне техники; хорошо отделим для флагманской фигуры.",
+      "print_size_warning": "290x470 px; после 2x использовать только в умеренном масштабе. Маска должна сохранить шапку, перчатки и контуры объёмной формы."
+    },
+    {
+      "reference_order": 19,
+      "hero_id": "hero-021",
+      "hero_name": "АЛЕКСИ",
+      "reference_pages": [
+        67,
+        68,
+        69
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-021/flagship/hero-021_p077_image397.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Лучший светлый ростовой кадр Алекси без других людей; лицо и контуры одежды читаются заметно лучше, чем на тёмном фото с оружием.",
+      "print_size_warning": "339x548 px; после 2x пригоден для средней фигуры, но не для полной высоты страницы. Ноги ниже кадра отсутствуют."
+    },
+    {
+      "reference_order": 20,
+      "hero_id": "hero-022",
+      "hero_name": "СЕРГЕЙ",
+      "reference_pages": [
+        70,
+        71,
+        72
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-022/flagship/hero-022_p080_image409.jpg",
+      "confidence": "high",
+      "needs_cutout": false,
+      "reason": "Наиболее крупный одиночный портрет Сергея; берёзовый ствол является частью позы и перекрывает руку, поэтому безопаснее сохранить документальный фон.",
+      "print_size_warning": "616x469 px; после 2x подходит для крупного горизонтального портрета. Не вырезать ствол и не восстанавливать скрытые части руки по догадке."
+    },
+    {
+      "reference_order": 21,
+      "hero_id": "hero-023",
+      "hero_name": "ДМИТРИЙ",
+      "reference_pages": [
+        73,
+        74,
+        75
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-023/flagship/hero-023_p083_image419.jpg",
+      "confidence": "high",
+      "needs_cutout": false,
+      "reason": "Самый крупный отдельный кадр Дмитрия с хорошо читаемым лицом и корпусом; интерьер автомобиля объясняет сидячую позу и сохраняется как часть документа.",
+      "print_size_warning": "549x419 px; после 2x подходит для среднего горизонтального модуля. Нижняя часть тела скрыта сиденьем и не должна достраиваться автоматически."
+    },
+    {
+      "reference_order": 22,
+      "hero_id": "hero-024",
+      "hero_name": "АЛЕКСЕЙ",
+      "reference_pages": [
+        76,
+        77,
+        78
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-024/flagship/hero-024_p086_image430.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Наиболее полный одиночный кадр Алексея в экипировке с оружием; подходит для флагманской фигуры при сохранении всех деталей.",
+      "print_size_warning": "291x470 px; 2x всё ещё мало для крупной печати. При вырезке сохранить оружие, ремень, шлем и края бронежилета; не дорисовывать нижнюю часть."
+    },
+    {
+      "reference_order": 23,
+      "hero_id": "hero-025",
+      "hero_name": "САЛАМ",
+      "reference_pages": [
+        79,
+        80,
+        81
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-025/flagship/hero-025_p089_image442.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Формальный фронтальный портрет Салама в форме с наградами на чистом фоне; наиболее однозначный флагман.",
+      "print_size_warning": "291x469 px; после 2x использовать как бюст среднего размера. Не увеличивать до разворотного масштаба и сохранить все награды."
+    },
+    {
+      "reference_order": 24,
+      "hero_id": "hero-026",
+      "hero_name": "АЛЕКСАНДР",
+      "reference_pages": [
+        82,
+        83,
+        84,
+        85
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-026/flagship/hero-026_p092_image453.jpg",
+      "confidence": "high",
+      "needs_cutout": true,
+      "reason": "Формальный фронтальный портрет Александра в форме с наградами; на странице 83 финального референса он явно представлен как основной портрет героя.",
+      "print_size_warning": "290x469 px; 2x пригоден лишь для среднего бюста. При маскировании сохранить погоны, знаки и награды без ретуши их содержания."
+    },
+    {
+      "reference_order": 25,
+      "hero_id": "hero-027",
+      "hero_name": "АЛЕКСАНДР",
+      "reference_pages": [
+        86,
+        87,
+        88
+      ],
+      "status": "selected",
+      "source_file": "assets/families/hero-027/flagship/hero-027_p096_image467.jpg",
+      "confidence": "medium",
+      "needs_cutout": true,
+      "reason": "Единственная непосредственная фотография Александра; мемориальный баннер и портрет в руках ребёнка являются производными изображениями и не должны подменять оригинальный кадр.",
+      "print_size_warning": "290x470 px; лицо занимает малую часть кадра, поэтому даже 2x слаб для крупного флагмана. Нужен осторожный повторный апскейл либо уменьшенное размещение."
+    }
+  ]
+}

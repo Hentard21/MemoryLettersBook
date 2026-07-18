@@ -1,0 +1,2177 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T22:42:24.675545+00:00",
+  "source_processing_plan": "assets/families/family-processing-plan.json",
+  "source_letters_index": "assets/families/letters-transcriptions-index.json",
+  "policy": "Одна семья — один основной разворот. Если полный документальный комплект не помещается читаемо, автоматически добавляется один разворот-продолжение. Это лучше, чем уменьшать фотографии и текст до нечитаемого размера.",
+  "decision_rule": "File counts only set preflight priority. Final continuation is created only after a real typography/readability preflight.",
+  "counts": {
+    "families": 74,
+    "blocked_transcription_review": 1,
+    "blocked_missing_transcription": 69,
+    "blocked_missing_physical_letter_index": 4
+  },
+  "families": [
+    {
+      "reference_order": 1,
+      "hero_id": "hero-001",
+      "hero_name": "АНАСТАСИЯ",
+      "authors": [
+        "ИГОРЬ"
+      ],
+      "reference_pages": [
+        8,
+        9,
+        10
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-001/flagship/hero-001_photo_01_enhanced_white.png",
+      "archive_photo_count": 2,
+      "drawing_count": 2,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 0,
+      "transcription_review_count": 1,
+      "documentary_load": 5,
+      "preflight_priority": "medium",
+      "readiness": "blocked_transcription_review",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 2,
+      "hero_id": "hero-003",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-003/flagship/hero-003_p020_image146.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 3,
+      "missing_transcription_count": 3,
+      "transcription_review_count": 0,
+      "documentary_load": 6,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 3,
+      "hero_id": "hero-004",
+      "hero_name": "НИКОЛАЙ",
+      "authors": [
+        "МИХАИЛ"
+      ],
+      "reference_pages": [
+        16,
+        17
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-004/flagship/hero-004_p025_image167.jpg",
+      "archive_photo_count": 1,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 2,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 4,
+      "hero_id": "hero-005",
+      "hero_name": "ЕВГЕНИЙ",
+      "authors": [
+        "ИВАН"
+      ],
+      "reference_pages": [
+        18,
+        19,
+        20
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-005/flagship/hero-005_p027_image176.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 5,
+      "hero_id": "hero-006",
+      "hero_name": "АЛИМАМЕД",
+      "authors": [
+        "РУСЛАН",
+        "МУРАД"
+      ],
+      "reference_pages": [
+        21,
+        22,
+        23
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 0,
+      "missing_transcription_count": 0,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_physical_letter_index",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 6,
+      "hero_id": "hero-007",
+      "hero_name": "АЛМАТ",
+      "authors": [
+        "АДЕЛИНА"
+      ],
+      "reference_pages": [
+        24,
+        25,
+        26
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-007/flagship/hero-007_p033_image197.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 7,
+      "hero_id": "hero-008",
+      "hero_name": "ЯКОВ",
+      "authors": [
+        "ИВАН",
+        "АЛИНА"
+      ],
+      "reference_pages": [
+        27,
+        28,
+        29
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-008/flagship/hero-008_p036_image208.jpg",
+      "archive_photo_count": 4,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 5,
+      "preflight_priority": "medium",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 8,
+      "hero_id": "hero-009",
+      "hero_name": "ЕГОР",
+      "authors": [
+        "УЛЬЯНА",
+        "ЕКАТЕРИНА",
+        "ТИХОН"
+      ],
+      "reference_pages": [
+        30,
+        31,
+        32
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-009/flagship/hero-009_p039_image225.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 9,
+      "hero_id": "hero-010",
+      "hero_name": "АЛЕКСЕЙ",
+      "authors": [
+        "ПОЛИНА"
+      ],
+      "reference_pages": [
+        33,
+        34,
+        35
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-010/flagship/hero-010_p042_image238.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 10,
+      "hero_id": "hero-011",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "ДАМИАН",
+        "ВИТАЛИНА",
+        "ЭМИЛИЯ",
+        "НИКИТА"
+      ],
+      "reference_pages": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-011/flagship/hero-011_p045_image250.jpg",
+      "archive_photo_count": 4,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 5,
+      "preflight_priority": "medium",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 11,
+      "hero_id": "hero-012",
+      "hero_name": "ВИКТОР",
+      "authors": [
+        "ВАРВАРА",
+        "АРИНА"
+      ],
+      "reference_pages": [
+        40,
+        41,
+        42
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-012/flagship/hero-012_p049_image267.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 12,
+      "hero_id": "hero-013",
+      "hero_name": "ВАДИМ",
+      "authors": [
+        "ТИМУР",
+        "ЛЕОНИД",
+        "ГЕРМАН",
+        "ОЛЕГ",
+        "РАДА",
+        "РАДОМИР"
+      ],
+      "reference_pages": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-013/flagship/hero-013_p052_image284.jpg",
+      "archive_photo_count": 6,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 7,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 13,
+      "hero_id": "hero-014",
+      "hero_name": "ЕВГЕНИЙ",
+      "authors": [
+        "АГАТА",
+        "МАКАР",
+        "ТАИСИЯ",
+        "ЯРОСЛАВА"
+      ],
+      "reference_pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-014/flagship/hero-014_p056_image304.jpg",
+      "archive_photo_count": 4,
+      "drawing_count": 1,
+      "physical_letter_count": 2,
+      "missing_transcription_count": 2,
+      "transcription_review_count": 0,
+      "documentary_load": 7,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 14,
+      "hero_id": "hero-015",
+      "hero_name": "ИЛЬЯ",
+      "authors": [
+        "КСЕНИЯ",
+        "ЕЛИЗАВЕТА"
+      ],
+      "reference_pages": [
+        53,
+        54,
+        55
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-015/flagship/hero-015_p062_image322.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 15,
+      "hero_id": "hero-017",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ИРИНА"
+      ],
+      "reference_pages": [
+        56,
+        57,
+        58
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-017/flagship/hero-017_p066_image343.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 16,
+      "hero_id": "hero-018",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "ЕЛИЗАВЕТА"
+      ],
+      "reference_pages": [
+        59,
+        60
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 0,
+      "drawing_count": 0,
+      "physical_letter_count": 3,
+      "missing_transcription_count": 3,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 17,
+      "hero_id": "hero-019",
+      "hero_name": "АНАТОЛИЙ",
+      "authors": [
+        "НИКИТА"
+      ],
+      "reference_pages": [
+        61,
+        62,
+        63
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-019/flagship/hero-019_p071_image367.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 18,
+      "hero_id": "hero-020",
+      "hero_name": "БУЛАТ",
+      "authors": [
+        "ТИМУР",
+        "ДИЯР"
+      ],
+      "reference_pages": [
+        64,
+        65,
+        66
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-020/flagship/hero-020_p074_image380.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 19,
+      "hero_id": "hero-021",
+      "hero_name": "АЛЕКСИ",
+      "authors": [
+        "РУСЛАН"
+      ],
+      "reference_pages": [
+        67,
+        68,
+        69
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-021/flagship/hero-021_p077_image397.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 20,
+      "hero_id": "hero-022",
+      "hero_name": "СЕРГЕЙ",
+      "authors": [
+        "СОФИЯ"
+      ],
+      "reference_pages": [
+        70,
+        71,
+        72
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-022/flagship/hero-022_p080_image409.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 21,
+      "hero_id": "hero-023",
+      "hero_name": "ДМИТРИЙ",
+      "authors": [
+        "ПАВЕЛ"
+      ],
+      "reference_pages": [
+        73,
+        74,
+        75
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-023/flagship/hero-023_p083_image419.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 22,
+      "hero_id": "hero-024",
+      "hero_name": "АЛЕКСЕЙ",
+      "authors": [
+        "МАРК"
+      ],
+      "reference_pages": [
+        76,
+        77,
+        78
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-024/flagship/hero-024_p086_image430.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 23,
+      "hero_id": "hero-025",
+      "hero_name": "САЛАМ",
+      "authors": [
+        "ХАДИЖА",
+        "КАМИЛЛА",
+        "ЗАИРА"
+      ],
+      "reference_pages": [
+        79,
+        80,
+        81
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-025/flagship/hero-025_p089_image442.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 24,
+      "hero_id": "hero-026",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "УЛЬЯНА",
+        "ИЛЬЯ"
+      ],
+      "reference_pages": [
+        82,
+        83,
+        84,
+        85
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-026/flagship/hero-026_p092_image453.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 1,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 5,
+      "preflight_priority": "medium",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 25,
+      "hero_id": "hero-027",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ЕГОР"
+      ],
+      "reference_pages": [
+        86,
+        87,
+        88
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-027/flagship/hero-027_p096_image467.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 26,
+      "hero_id": "hero-028",
+      "hero_name": "ТАЛГАТ",
+      "authors": [
+        "САФИЯ",
+        "ДИАНА"
+      ],
+      "reference_pages": [
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-028/flagship/hero-028_p099_image479.jpg",
+      "archive_photo_count": 8,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 9,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 27,
+      "hero_id": "hero-029",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ГЛЕБ",
+        "ЕГОР"
+      ],
+      "reference_pages": [
+        94,
+        95,
+        96
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-029/flagship/hero-029_p104_image503.jpg",
+      "archive_photo_count": 5,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 6,
+      "preflight_priority": "medium",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 28,
+      "hero_id": "hero-030",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        97,
+        98,
+        99
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-030/flagship/hero-030_p107_image516.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 29,
+      "hero_id": "hero-031",
+      "hero_name": "СЕРГЕЙ",
+      "authors": [
+        "ИРИНА",
+        "ДАРЬЯ"
+      ],
+      "reference_pages": [
+        100,
+        101,
+        102
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-031/flagship/hero-031_p110_image527.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 30,
+      "hero_id": "hero-032",
+      "hero_name": "НИКОЛАЙ",
+      "authors": [
+        "КИРА"
+      ],
+      "reference_pages": [
+        103,
+        104,
+        105
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-032/flagship/hero-032_p113_image538.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 31,
+      "hero_id": "hero-033",
+      "hero_name": "МУРАД",
+      "authors": [
+        "ЯСМИНА",
+        "УМУКУСУМ"
+      ],
+      "reference_pages": [
+        106,
+        107,
+        108
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-033/flagship/hero-033_p116_image553.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 32,
+      "hero_id": "hero-034",
+      "hero_name": "ТИМУР",
+      "authors": [
+        "ДАНИЭЛЬ",
+        "АЙСЫЛУ"
+      ],
+      "reference_pages": [
+        109,
+        110,
+        111
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-034/flagship/hero-034_p119_image567.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 33,
+      "hero_id": "hero-035",
+      "hero_name": "ИЛЬЯ",
+      "authors": [
+        "ВАЛЕРИЯ",
+        "АЛЕКСАНДР",
+        "КСЕНИЯ"
+      ],
+      "reference_pages": [
+        112,
+        113,
+        114
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-035/flagship/hero-035_p122_image581.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 34,
+      "hero_id": "hero-036",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "КСЕНИЯ",
+        "АРТЁМ"
+      ],
+      "reference_pages": [
+        115,
+        116,
+        117
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-036/flagship/hero-036_p125_image593.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 1,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 35,
+      "hero_id": "hero-037",
+      "hero_name": "ДАМИР",
+      "authors": [
+        "ИРКЕН",
+        "МИЛАНА",
+        "ИЛЬНАР"
+      ],
+      "reference_pages": [
+        118,
+        119,
+        120
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-037/flagship/hero-037_p128_image605.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 36,
+      "hero_id": "hero-038",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "ЛЕОНИД",
+        "ВАРВАРА",
+        "РОМАН"
+      ],
+      "reference_pages": [
+        121,
+        122,
+        123
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 4,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 5,
+      "preflight_priority": "medium",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 37,
+      "hero_id": "hero-039",
+      "hero_name": "ВАСИЛИЙ",
+      "authors": [
+        "ПАВЕЛ"
+      ],
+      "reference_pages": [
+        124,
+        125,
+        126
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-039/flagship/hero-039_p134_image629.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 38,
+      "hero_id": "hero-040",
+      "hero_name": "РОМАН",
+      "authors": [
+        "СВЯТОСЛАВ"
+      ],
+      "reference_pages": [
+        127,
+        128,
+        129
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-040/flagship/hero-040_p137_image639.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 39,
+      "hero_id": "hero-041",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        130,
+        131,
+        132
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-041/flagship/hero-041_p140_image650.jpg",
+      "archive_photo_count": 1,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 2,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 40,
+      "hero_id": "hero-042",
+      "hero_name": "ЕВГЕНИЙ",
+      "authors": [
+        "ДМИТРИЙ",
+        "АРТЕМ",
+        "ПАЛИНА"
+      ],
+      "reference_pages": [
+        133,
+        134,
+        135
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-042/flagship/hero-042_p143_image662.jpg",
+      "archive_photo_count": 1,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 2,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 41,
+      "hero_id": "hero-043",
+      "hero_name": "ВЛАДИСЛАВ",
+      "authors": [
+        "АЙМИР"
+      ],
+      "reference_pages": [
+        136,
+        137,
+        138
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-043/flagship/hero-043_p146_image671.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 42,
+      "hero_id": "hero-044",
+      "hero_name": "РАМИЛЬ",
+      "authors": [
+        "РАНИЛЬ",
+        "ДАНИЛЬ"
+      ],
+      "reference_pages": [
+        139,
+        140,
+        141
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-044/flagship/hero-044_p149_image686.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 43,
+      "hero_id": "hero-045",
+      "hero_name": "САНАЛ",
+      "authors": [
+        "ЭНКИРА",
+        "ЧИНГИЗ",
+        "ТЕНГИР"
+      ],
+      "reference_pages": [
+        142,
+        143,
+        144
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-045/flagship/hero-045_p152_image700.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 2,
+      "missing_transcription_count": 2,
+      "transcription_review_count": 0,
+      "documentary_load": 5,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 44,
+      "hero_id": "hero-046",
+      "hero_name": "АНАТОЛИЙ",
+      "authors": [
+        "СЕРГЕЙ",
+        "ЕКАТЕРИНА",
+        "ЕЛИЗАВЕТА"
+      ],
+      "reference_pages": [
+        145,
+        146,
+        147
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-046/flagship/hero-046_p155_image712.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 45,
+      "hero_id": "hero-047",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ВЯЧЕСЛАВ",
+        "ЕГОР"
+      ],
+      "reference_pages": [
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-047/flagship/hero-047_p159_image727.jpg",
+      "archive_photo_count": 8,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 9,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 46,
+      "hero_id": "hero-048",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "ЗЛАТА"
+      ],
+      "reference_pages": [
+        153,
+        154,
+        155
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-048/flagship/hero-048_p163_image744.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 47,
+      "hero_id": "hero-049",
+      "hero_name": "РОМАН",
+      "authors": [
+        "ДАРИНА",
+        "ПАВЕЛ"
+      ],
+      "reference_pages": [
+        156,
+        157,
+        158
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-049/flagship/hero-049_p166_image760.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 48,
+      "hero_id": "hero-050",
+      "hero_name": "МУСТАФА",
+      "authors": [
+        "АМИНА",
+        "МУХАММАД",
+        "КАМИЛЛЯ"
+      ],
+      "reference_pages": [
+        159,
+        160,
+        161,
+        162
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-050/flagship/hero-050_p169_image769.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 49,
+      "hero_id": "hero-051",
+      "hero_name": "ВИКТОР",
+      "authors": [
+        "ВЛАДА"
+      ],
+      "reference_pages": [
+        163,
+        164,
+        165
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-051/flagship/hero-051_p173_image786.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 50,
+      "hero_id": "hero-052",
+      "hero_name": "ВИКТОР",
+      "authors": [
+        "ВЛАДА"
+      ],
+      "reference_pages": [
+        166,
+        167,
+        168
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 51,
+      "hero_id": "hero-053",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        169,
+        170,
+        171
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-053/flagship/hero-053_p179_image808.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 52,
+      "hero_id": "hero-054",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        172,
+        173,
+        174,
+        175,
+        176
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-054/flagship/hero-054_p182_image818.jpg",
+      "archive_photo_count": 9,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 10,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 53,
+      "hero_id": "hero-055",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        177,
+        178,
+        179
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 54,
+      "hero_id": "hero-056",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        180,
+        181,
+        182
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-056/flagship/hero-056_p190_image848.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 55,
+      "hero_id": "hero-057",
+      "hero_name": "ИГОРЬ",
+      "authors": [
+        "ВЛАДИСЛАВ",
+        "АРИНА"
+      ],
+      "reference_pages": [
+        183,
+        184,
+        185,
+        186
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-057/flagship/hero-057_p193_image862.jpg",
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 2,
+      "missing_transcription_count": 2,
+      "transcription_review_count": 0,
+      "documentary_load": 5,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 56,
+      "hero_id": "hero-058",
+      "hero_name": "ДМИТРИЙ",
+      "authors": [
+        "ЮЛИАННА"
+      ],
+      "reference_pages": [
+        187,
+        188
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-058/flagship/hero-058_p197_image880.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 0,
+      "missing_transcription_count": 0,
+      "transcription_review_count": 0,
+      "documentary_load": 2,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_physical_letter_index",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 57,
+      "hero_id": "hero-059",
+      "hero_name": "ИЛЬДАР",
+      "authors": [
+        "АМИР"
+      ],
+      "reference_pages": [
+        189,
+        190,
+        191
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-059/flagship/hero-059_p199_image891.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 58,
+      "hero_id": "hero-060",
+      "hero_name": "ДЕНИС",
+      "authors": [
+        "МИЛАНА"
+      ],
+      "reference_pages": [
+        192,
+        193,
+        194
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-060/flagship/hero-060_p202_image901.jpg",
+      "archive_photo_count": 1,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 2,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 59,
+      "hero_id": "hero-061",
+      "hero_name": "СЕРГЕЙ",
+      "authors": [
+        "СОФИЯ"
+      ],
+      "reference_pages": [
+        195,
+        196,
+        197
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-061/flagship/hero-061_p205_image914.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 60,
+      "hero_id": "hero-062",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "АМИР????"
+      ],
+      "reference_pages": [
+        198,
+        199,
+        200
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 61,
+      "hero_id": "hero-063",
+      "hero_name": "НИКОЛАЙ",
+      "authors": [
+        "КИРА"
+      ],
+      "reference_pages": [
+        201,
+        202,
+        203
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-063/flagship/hero-063_p211_image933.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 62,
+      "hero_id": "hero-064",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        204,
+        205,
+        206
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 63,
+      "hero_id": "hero-065",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "authors": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "reference_pages": [
+        207,
+        208
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-065/flagship/hero-065_p217_image953.jpg",
+      "archive_photo_count": 1,
+      "drawing_count": 0,
+      "physical_letter_count": 0,
+      "missing_transcription_count": 0,
+      "transcription_review_count": 0,
+      "documentary_load": 1,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_physical_letter_index",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 64,
+      "hero_id": "hero-066",
+      "hero_name": "ИЛЬГАМ",
+      "authors": [
+        "МУРАТ",
+        "ДАНИЯР"
+      ],
+      "reference_pages": [
+        209,
+        210,
+        211,
+        212,
+        213
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-066/flagship/hero-066_p219_image959.jpg",
+      "archive_photo_count": 5,
+      "drawing_count": 0,
+      "physical_letter_count": 2,
+      "missing_transcription_count": 2,
+      "transcription_review_count": 0,
+      "documentary_load": 7,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 65,
+      "hero_id": "hero-067",
+      "hero_name": "ЕВГЕНИЙ",
+      "authors": [
+        "ПОЛИНА",
+        "АННА",
+        "ЕГОР"
+      ],
+      "reference_pages": [
+        214,
+        215,
+        216
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-067/flagship/hero-067_p224_image979.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 66,
+      "hero_id": "hero-068",
+      "hero_name": "АБДУЛБЕК",
+      "authors": [
+        "АКРАМАН",
+        "САЛИМА",
+        "ДАИД"
+      ],
+      "reference_pages": [
+        217,
+        218,
+        219,
+        220
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-068/flagship/hero-068_p227_image993.jpg",
+      "archive_photo_count": 5,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 6,
+      "preflight_priority": "medium",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 67,
+      "hero_id": "hero-069",
+      "hero_name": "АНТОН",
+      "authors": [
+        "ДМИТРИЙ"
+      ],
+      "reference_pages": [
+        221,
+        222,
+        223,
+        224
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-069/flagship/hero-069_p231_image1008.jpg",
+      "archive_photo_count": 8,
+      "drawing_count": 0,
+      "physical_letter_count": 0,
+      "missing_transcription_count": 0,
+      "transcription_review_count": 0,
+      "documentary_load": 8,
+      "preflight_priority": "high",
+      "readiness": "blocked_missing_physical_letter_index",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 68,
+      "hero_id": "hero-070",
+      "hero_name": "АЛЕКСЕЙ",
+      "authors": [
+        "АННА",
+        "ЕКАТЕРИНА"
+      ],
+      "reference_pages": [
+        225,
+        226,
+        227
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-070/flagship/hero-070_p235_image1025.jpg",
+      "archive_photo_count": 1,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 2,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 69,
+      "hero_id": "hero-071",
+      "hero_name": "АЛЕКСАНДР",
+      "authors": [
+        "ДАНИЛ"
+      ],
+      "reference_pages": [
+        228,
+        229,
+        230
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-071/flagship/hero-071_p238_image1036.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 70,
+      "hero_id": "hero-072",
+      "hero_name": "ФЕДОР",
+      "authors": [
+        "АНАСТАСИЯ",
+        "МИХАИЛ"
+      ],
+      "reference_pages": [
+        231,
+        232,
+        233
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 3,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 4,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 71,
+      "hero_id": "hero-073",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "АННА",
+        "ВИКТОР"
+      ],
+      "reference_pages": [
+        234,
+        235,
+        236
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-073/flagship/hero-073_p244_image1058.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 72,
+      "hero_id": "hero-074",
+      "hero_name": "АРТУР",
+      "authors": [
+        "ДИНАР"
+      ],
+      "reference_pages": [
+        237,
+        238,
+        239,
+        240
+      ],
+      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": null,
+      "archive_photo_count": 4,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 5,
+      "preflight_priority": "medium",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 73,
+      "hero_id": "hero-075",
+      "hero_name": "АНДРЕЙ",
+      "authors": [
+        "МАРГАРИТА",
+        "ПЕТР"
+      ],
+      "reference_pages": [
+        241,
+        242,
+        243
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-075/flagship/hero-075_p251_image1087.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    },
+    {
+      "reference_order": 74,
+      "hero_id": "hero-076",
+      "hero_name": "НИКОЛАЙ",
+      "authors": [
+        "АННА"
+      ],
+      "reference_pages": [
+        244,
+        245,
+        246
+      ],
+      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-076/flagship/hero-076_p254_image1101.jpg",
+      "archive_photo_count": 2,
+      "drawing_count": 0,
+      "physical_letter_count": 1,
+      "missing_transcription_count": 1,
+      "transcription_review_count": 0,
+      "documentary_load": 3,
+      "preflight_priority": "normal",
+      "readiness": "blocked_missing_transcription",
+      "spread_decision": "pending_readability_preflight",
+      "allowed_spreads": {
+        "main": 1,
+        "automatic_continuation": 1
+      }
+    }
+  ]
+}

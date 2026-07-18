@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-18T23:01:42.034672+00:00",
+  "status": "ready_with_documented_blockers",
+  "json_files_validated": 171,
+  "families": 74,
+  "selected_flagships": 65,
+  "review_required_flagships": 9,
+  "family_asset_records": 439,
+  "physical_letters_indexed": 78,
+  "missing_transcriptions": 77,
+  "production_derivatives": 281,
+  "validated_cutouts": 58,
+  "errors": []
+}

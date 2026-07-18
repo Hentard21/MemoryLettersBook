@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-055",
+  "generated_at": "2026-07-18T16:55:16.868732+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-055_p187_image838",
+      "category": "archive-photos",
+      "file": "assets/families/hero-055/archive-photos/hero-055_p187_image838.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-055/groups/hero-055_p187_image838.jpg",
+      "sha256": "f0c31bc448d4de101259ddd5963f7539bacc228a7c8a32da86fbbff3833caa68",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; несколько сопоставимых лиц",
+      "legacy_source_pdf_page": 187,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-055/hero-055_p187_image838_upscaled_2x.jpg",
+      "print_sha256": "aa8e06558f6d5a9bd609afc783e5c5c8b7088d3dafd7218d5dd02607362717f1",
+      "print_width_px": 580,
+      "print_height_px": 940,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-055_p187_image839",
+      "category": "archive-photos",
+      "file": "assets/families/hero-055/archive-photos/hero-055_p187_image839.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-055/groups/hero-055_p187_image839.jpg",
+      "sha256": "034ad37beca0ff9cc478f2002695689146d076f2b9ffe7937442dcd72cd318a2",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; несколько сопоставимых лиц",
+      "legacy_source_pdf_page": 187,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-055/hero-055_p187_image839_upscaled_2x.jpg",
+      "print_sha256": "9953aef5bb1b384d44ccfa087af0b0e2a4a7c3fd611094738beea5cb09b7232e",
+      "print_width_px": 842,
+      "print_height_px": 1338,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-055_p187_image840",
+      "category": "archive-photos",
+      "file": "assets/families/hero-055/archive-photos/hero-055_p187_image840.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-055/groups/hero-055_p187_image840.jpg",
+      "sha256": "f482074bbbe9c9947cbe6007acbfea8bb230af1ed9c0aa08d520ac052f8bfc29",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; несколько сопоставимых лиц",
+      "legacy_source_pdf_page": 187,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-055/hero-055_p187_image840_upscaled_2x.jpg",
+      "print_sha256": "da540ec0cdb85d69506111d10597955a56005b792d37b9d12b21d2d24b9b1138",
+      "print_width_px": 582,
+      "print_height_px": 940,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-055_p188_image843",
+      "category": "letters",
+      "file": "assets/families/hero-055/letters/hero-055_p188_image843.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-055/letters-reference/hero-055_p188_image843.jpg",
+      "sha256": "9c251d1d58e7a8de46bc74113637ef79abd0dea434e6d7b68790f7f2f14f2519",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
+      "priority": "low",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; страница классифицирована как рукопись",
+      "legacy_source_pdf_page": 188,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE"
+    },
+    {
+      "asset_id": "hero-055-references-reference-pages-d27904e3",
+      "category": "references",
+      "file": "assets/families/hero-055/references/reference-pages.json",
+      "source_file": null,
+      "sha256": "d27904e3055d9e757eafe1f4ff5b7d209b1817ad2d71000bacd818b712389170",
+      "status": "present"
+    }
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "reference_title_page": 177,
+    "reference_pages": [
+      177,
+      178,
+      179
+    ],
+    "status": "REVIEW_REQUIRED"
+  }
+}

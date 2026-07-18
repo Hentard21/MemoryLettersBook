@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-062",
+  "generated_at": "2026-07-18T16:55:16.913201+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-062_p208_image924",
+      "category": "archive-photos",
+      "file": "assets/families/hero-062/archive-photos/hero-062_p208_image924.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-062/groups/hero-062_p208_image924.jpg",
+      "sha256": "b24b6b7663c051c9afba2f5948d72dbc7b1926fa932c134ddae508f291a03cd0",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "medium",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; фото без уверенно обнаруженного лица; лица автоматически не обнаружены; REVIEW_REQUIRED: проверить тип и пригодность перед раздачей",
+      "legacy_source_pdf_page": 208,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-062/hero-062_p208_image924_upscaled_2x.jpg",
+      "print_sha256": "06309871c54a7a9c8b539c0e56636fb8a3b36fb4f680e05c1916502039dafcae",
+      "print_width_px": 584,
+      "print_height_px": 942,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-062_p208_image925",
+      "category": "archive-photos",
+      "file": "assets/families/hero-062/archive-photos/hero-062_p208_image925.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-062/groups/hero-062_p208_image925.jpg",
+      "sha256": "a2d500e4a1c3e9d266ca34e77ff4f6b067fbb17f98f76627e5f5535cb86cdf55",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "medium",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; фото без уверенно обнаруженного лица; лица автоматически не обнаружены; REVIEW_REQUIRED: проверить тип и пригодность перед раздачей",
+      "legacy_source_pdf_page": 208,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-062/hero-062_p208_image925_upscaled_2x.jpg",
+      "print_sha256": "b4d48739285d4672334fa86d78268133b0679dfa242365e576df3aadcbb47ac5",
+      "print_width_px": 1096,
+      "print_height_px": 1388,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-062_p209_image928",
+      "category": "letters",
+      "file": "assets/families/hero-062/letters/hero-062_p209_image928.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-062/letters-reference/hero-062_p209_image928.jpg",
+      "sha256": "bf2c6f0308f76fce8ef3b2cba6645b6080b7c30f7795c6a1f8f1ce97e21b7f9d",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
+      "priority": "low",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; страница классифицирована как рукопись",
+      "legacy_source_pdf_page": 209,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE"
+    },
+    {
+      "asset_id": "hero-062-references-reference-pages-23a9473c",
+      "category": "references",
+      "file": "assets/families/hero-062/references/reference-pages.json",
+      "source_file": null,
+      "sha256": "23a9473ca28c4b6d227aa2e458e88ac3d170a08a861a3ad5516baab7a5b0a1e3",
+      "status": "present"
+    }
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "reference_title_page": 198,
+    "reference_pages": [
+      198,
+      199,
+      200
+    ],
+    "status": "REVIEW_REQUIRED"
+  }
+}

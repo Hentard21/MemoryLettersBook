@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-016",
+  "generated_at": "2026-07-18T16:40:29.406560+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "page_064_reference",
+      "category": "references",
+      "file": "assets/families/hero-016/references/page_064_reference.jpg",
+      "source_file": "assets/production-input/hero-016/page-reference/page_064_reference.jpg",
+      "sha256": "e9445cc878f8e85f05e4886d34a67dc882c9bf63f62b49a1008eca2bb491206b",
+      "status": "present",
+      "asset_type": "page-reference",
+      "notes": "Imported from explicitly categorized production-input folder."
+    }
+  ]
+}

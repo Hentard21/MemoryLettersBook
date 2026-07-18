@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-001",
+  "generated_at": "2026-07-18T16:55:16.574275+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-001_photo_02",
+      "category": "archive-photos",
+      "file": "assets/families/hero-001/archive-photos/hero-001_photo_02_master.png",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-001/groups/hero-001_photo_02_master.png",
+      "sha256": "4722d4b19e648cca3d8d9b1eaf1cfd1271857f28e405d9ef5b84fe39c32ab54b",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения",
+      "legacy_source_pdf_page": 13,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-001/hero-001_photo_02_master_upscaled_2x.jpg",
+      "print_sha256": "ea1fd04b2fe92f5280eea06f9c1a86b9699d536835c95bab5895e9af5dcc57d9",
+      "print_width_px": 580,
+      "print_height_px": 940,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-001_photo_03",
+      "category": "archive-photos",
+      "file": "assets/families/hero-001/archive-photos/hero-001_photo_03_master.png",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-001/portraits/hero-001_photo_03_master.png",
+      "sha256": "6517da7996d234ba29999d383a548babe36f8d3e76e15d56a46fdc29b05e224e",
+      "status": "present",
+      "asset_type": "portrait",
+      "recommended_action": "enhance_person",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения",
+      "legacy_source_pdf_page": 13,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-001/hero-001_photo_03_master_upscaled_2x.jpg",
+      "print_sha256": "62218c6c9452b37957d42eb841b82c1e3cde2ddf131afcc7808be2f7328ce4f5",
+      "print_width_px": 580,
+      "print_height_px": 938,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-001-drawings-hero-001_drawing_01_enhanced-7d156f02",
+      "category": "drawings",
+      "file": "assets/families/hero-001/drawings/hero-001_drawing_01_enhanced.png",
+      "source_file": null,
+      "sha256": "7d156f02f20d2a3c8f7f75dbf89f2061718099216e5471883fc03eb8241ac607",
+      "status": "present"
+    },
+    {
+      "asset_id": "hero-001_drawing_01",
+      "category": "drawings",
+      "file": "assets/families/hero-001/drawings/hero-001_drawing_01_master.png",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-001/drawings/hero-001_drawing_01_master.png",
+      "sha256": "36ff5a828e0885d16267134124d79064f2d465054db15479ec52651e671049d1",
+      "status": "present",
+      "asset_type": "drawing",
+      "recommended_action": "enhance_drawing",
+      "priority": "medium",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения",
+      "legacy_source_pdf_page": 13,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/drawings/hero-001/hero-001_drawing_01_master_upscaled_2x.jpg",
+      "print_sha256": "07a8af2777fdc1e28b2101b928064c485ef9b50f23dc4e3af692fff4630fa1a6",
+      "print_width_px": 832,
+      "print_height_px": 1346,
+      "gigapixel_status": "completed",
+      "print_qa_status": "REVIEW_REQUIRED"
+    },
+    {
+      "asset_id": "hero-001-flagship-hero-001_photo_01_enhanced_white-9d997392",
+      "category": "flagship",
+      "file": "assets/families/hero-001/flagship/hero-001_photo_01_enhanced_white.png",
+      "source_file": null,
+      "sha256": "9d997392df5680b675838645b5343eba685ca289ea78734f24a111dab364fd2c",
+      "status": "present",
+      "layout_role": "hero_flagship",
+      "selection_confidence": "high"
+    },
+    {
+      "asset_id": "hero-001_photo_01_master",
+      "category": "flagship",
+      "file": "assets/families/hero-001/flagship/hero-001_photo_01_master.png",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-001/portraits/hero-001_photo_01_master.png",
+      "sha256": "45eb533d986bf2bfe74708845084eebb784e23de775cd5f43a32b51779a5d404",
+      "status": "present",
+      "notes": "Confirmed flagship for Anastasia; V12 composition reference."
+    },
+    {
+      "asset_id": "hero-001-flagship-hero-001_photo_01_upscaled-b93e5ffb",
+      "category": "flagship",
+      "file": "assets/families/hero-001/flagship/hero-001_photo_01_upscaled.png",
+      "source_file": null,
+      "sha256": "b93e5ffb288580c833760954bd6d2d8f4411d72976cd1363eb6fe359568f8a58",
+      "status": "present"
+    },
+    {
+      "asset_id": "hero-001_letter_01",
+      "category": "letters",
+      "file": "assets/families/hero-001/letters/hero-001_letter_01_master.png",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-001/letters-reference/hero-001_letter_01_master.png",
+      "sha256": "f3517a1fca928c0bca69080ac0a99bbc79beef91670ef1c8068561ec7a4a26c0",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
+      "priority": "low",
+      "source_status": "pending",
+      "notes": "Проверенный master_from_pdf; скопирован без изменения",
+      "legacy_source_pdf_page": 14,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE"
+    },
+    {
+      "asset_id": "hero-001-letters-hero-001_letter_01_upscaled-217fc12b",
+      "category": "letters",
+      "file": "assets/families/hero-001/letters/hero-001_letter_01_upscaled.png",
+      "source_file": null,
+      "sha256": "217fc12bb4da0eeb2ce16490b1cfae9dbc877cae5388e3fe9be4800b5775c541",
+      "status": "present"
+    },
+    {
+      "asset_id": "hero-001-references-reference-pages-4fd7d6af",
+      "category": "references",
+      "file": "assets/families/hero-001/references/reference-pages.json",
+      "source_file": null,
+      "sha256": "4fd7d6af33e6679eec7362f13d0bcf0411aa97b58d3a7eb0d230ad3fb5cdf3c3",
+      "status": "present"
+    },
+    {
+      "asset_id": "hero-001-transcriptions-hero-001_letter_01_transcription-d85f46a8",
+      "category": "transcriptions",
+      "file": "assets/families/hero-001/transcriptions/hero-001_letter_01_transcription.json",
+      "source_file": null,
+      "sha256": "d85f46a854f73b47034a759fc9bec8d850d893b0b716545c9138a5263f36b551",
+      "status": "present"
+    }
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "reference_title_page": 8,
+    "reference_pages": [
+      8,
+      9,
+      10
+    ],
+    "status": "confirmed_by_reference_text"
+  }
+}

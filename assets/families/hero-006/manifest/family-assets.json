@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-006",
+  "generated_at": "2026-07-18T16:55:16.596487+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-006_p030_image184",
+      "category": "archive-photos",
+      "file": "assets/families/hero-006/archive-photos/hero-006_p030_image184.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-006/groups/hero-006_p030_image184.jpg",
+      "sha256": "dbc8e0911e5038a39002705672e436928225b0f69b05c5fa9e6f0ec0e718a87c",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; несколько сопоставимых лиц",
+      "legacy_source_pdf_page": 30,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-006/hero-006_p030_image184_upscaled_2x.jpg",
+      "print_sha256": "200f11c28a42b9fd53ebad5778647c6c605cdea145ff5f3922492fdf45aada6f",
+      "print_width_px": 1230,
+      "print_height_px": 940,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-006_p030_image185",
+      "category": "archive-photos",
+      "file": "assets/families/hero-006/archive-photos/hero-006_p030_image185.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-006/groups/hero-006_p030_image185.jpg",
+      "sha256": "7c5a3a10348a8d22a46c1ac794f27ec4747ae3fd66636e90431b37e91e9d66c8",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; несколько сопоставимых лиц",
+      "legacy_source_pdf_page": 30,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-006/hero-006_p030_image185_upscaled_2x.jpg",
+      "print_sha256": "1572d32c7ecbc79aedbee40956db882ce0592cc89cb6a5e0a6c27e09383242fe",
+      "print_width_px": 676,
+      "print_height_px": 940,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-006_p031_image188",
+      "category": "archive-photos",
+      "file": "assets/families/hero-006/archive-photos/hero-006_p031_image188.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-006/groups/hero-006_p031_image188.jpg",
+      "sha256": "d8f3a0a350876546dd5bbd8109da6b11ce22e8f784264e1c2098c9778f57cc53",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; разметка смешанной страницы; несколько сопоставимых лиц",
+      "legacy_source_pdf_page": 31,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-006/hero-006_p031_image188_upscaled_2x.jpg",
+      "print_sha256": "08fb19aa133ddda96dbc7dfedae0f65001b92fff4d85699e10a260815efad5a2",
+      "print_width_px": 1232,
+      "print_height_px": 1430,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-006-references-reference-pages-e39801c8",
+      "category": "references",
+      "file": "assets/families/hero-006/references/reference-pages.json",
+      "source_file": null,
+      "sha256": "e39801c880c08eb7d97bc5ec546b4604b112a763ac7fc4d7b089fe4a7961500f",
+      "status": "present"
+    }
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "reference_title_page": 21,
+    "reference_pages": [
+      21,
+      22,
+      23
+    ],
+    "status": "confirmed_by_reference_text"
+  }
+}

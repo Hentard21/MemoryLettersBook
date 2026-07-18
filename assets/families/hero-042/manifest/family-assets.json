@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-042",
+  "generated_at": "2026-07-18T16:55:16.790952+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-042_p143_image662",
+      "category": "flagship",
+      "file": "assets/families/hero-042/flagship/hero-042_p143_image662.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-042/portraits/hero-042_p143_image662.jpg",
+      "sha256": "612da85152e997106f2dba43e6055a741098fe314890f88166f8561b2bfbf62e",
+      "status": "present",
+      "asset_type": "portrait",
+      "recommended_action": "enhance_person",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; одно доминирующее лицо",
+      "legacy_source_pdf_page": 143,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/flagship/hero-042/hero-042_p143_image662_upscaled_2x.jpg",
+      "print_sha256": "bc3decbae37eaf9507423ef6d861750b806ee47ddb66b4119f4a747c745618e1",
+      "print_width_px": 1230,
+      "print_height_px": 938,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout",
+      "layout_role": "hero_flagship",
+      "selection_confidence": "high"
+    },
+    {
+      "asset_id": "hero-042_p143_image663",
+      "category": "archive-photos",
+      "file": "assets/families/hero-042/archive-photos/hero-042_p143_image663.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-042/portraits/hero-042_p143_image663.jpg",
+      "sha256": "6507a43784a76eb45c082464d9effd4e8a28e84ccf093110d1e315bc03e2cd76",
+      "status": "present",
+      "asset_type": "portrait",
+      "recommended_action": "enhance_person",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; одно доминирующее лицо",
+      "legacy_source_pdf_page": 143,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-042/hero-042_p143_image663_upscaled_2x.jpg",
+      "print_sha256": "d421fafd8b2b2d23bef0169a4bf9e1e892c8fb992e7dfd790353c362a2d7ab55",
+      "print_width_px": 1810,
+      "print_height_px": 1380,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-042_p144_image666",
+      "category": "letters",
+      "file": "assets/families/hero-042/letters/hero-042_p144_image666.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-042/letters-reference/hero-042_p144_image666.jpg",
+      "sha256": "eb11d1f392366ec163c006197c11374f4a14bc28ad6b529a34e009c93db02d4d",
+      "status": "present",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
+      "priority": "medium",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; смешанная страница; область письма; лица автоматически не обнаружены; REVIEW_REQUIRED: проверить тип и пригодность перед раздачей",
+      "legacy_source_pdf_page": 144,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE"
+    },
+    {
+      "asset_id": "hero-042-references-reference-pages-f86359ba",
+      "category": "references",
+      "file": "assets/families/hero-042/references/reference-pages.json",
+      "source_file": null,
+      "sha256": "f86359ba47bb176d002cf801b41022ed3be9a4b5c0e416e9b190e6b712d53ab9",
+      "status": "present"
+    }
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "reference_title_page": 133,
+    "reference_pages": [
+      133,
+      134,
+      135
+    ],
+    "status": "confirmed_by_reference_text"
+  }
+}

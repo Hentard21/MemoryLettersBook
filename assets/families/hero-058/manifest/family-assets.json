@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-058",
+  "generated_at": "2026-07-18T16:55:16.891286+00:00",
+  "directories": [
+    "flagship",
+    "archive-photos",
+    "drawings",
+    "letters",
+    "transcriptions",
+    "references",
+    "manifest"
+  ],
+  "assets": [
+    {
+      "asset_id": "hero-058_p197_image880",
+      "category": "flagship",
+      "file": "assets/families/hero-058/flagship/hero-058_p197_image880.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-058/portraits/hero-058_p197_image880.jpg",
+      "sha256": "f14ec23795b932fb682587dcc0d822cc0c0e15433e3c28bad03c851146a06b63",
+      "status": "present",
+      "asset_type": "portrait",
+      "recommended_action": "enhance_person",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; одно доминирующее лицо",
+      "legacy_source_pdf_page": 197,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/flagship/hero-058/hero-058_p197_image880_upscaled_2x.jpg",
+      "print_sha256": "14f07cfa1e77c61a5cc0c019c937af5d7a6445ba08e0679cc3b85d1ad494cfef",
+      "print_width_px": 582,
+      "print_height_px": 940,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout",
+      "layout_role": "hero_flagship",
+      "selection_confidence": "high"
+    },
+    {
+      "asset_id": "hero-058_p197_image881",
+      "category": "archive-photos",
+      "file": "assets/families/hero-058/archive-photos/hero-058_p197_image881.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-058/groups/hero-058_p197_image881.jpg",
+      "sha256": "d1d8c32784daea0c906afede5f4ea3fd25192da5caab70335e7d85fd0265d82f",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "high",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; несколько сопоставимых лиц",
+      "legacy_source_pdf_page": 197,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-058/hero-058_p197_image881_upscaled_2x.jpg",
+      "print_sha256": "55d1a7ca7acc2d44cb69f8bd54bb5a1ed696714eb0a62d56c9a1a775b5a8535d",
+      "print_width_px": 582,
+      "print_height_px": 940,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-058_p197_image882",
+      "category": "archive-photos",
+      "file": "assets/families/hero-058/archive-photos/hero-058_p197_image882.jpg",
+      "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-058/groups/hero-058_p197_image882.jpg",
+      "sha256": "fe2b1bbddf151a7a1a1a44df4d84041b60c6427e009ffbdd23f2eb1519b8063b",
+      "status": "present",
+      "asset_type": "group",
+      "recommended_action": "enhance_group",
+      "priority": "medium",
+      "source_status": "pending",
+      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; фото без уверенно обнаруженного лица; лица автоматически не обнаружены; REVIEW_REQUIRED: проверить тип и пригодность перед раздачей",
+      "legacy_source_pdf_page": 197,
+      "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
+      "print_file": "assets/production-ready/archive/hero-058/hero-058_p197_image882_upscaled_2x.jpg",
+      "print_sha256": "a4b2aa020fba68e9b4d8e09d04f030295df61de881643dc492097f67561c4737",
+      "print_width_px": 1230,
+      "print_height_px": 494,
+      "gigapixel_status": "completed",
+      "print_qa_status": "ready_for_layout"
+    },
+    {
+      "asset_id": "hero-058-references-reference-pages-65db3337",
+      "category": "references",
+      "file": "assets/families/hero-058/references/reference-pages.json",
+      "source_file": null,
+      "sha256": "65db3337fa60bf1e21912b7061cbfbb58d3e503ebf8530b493b5d36d0c23d803",
+      "status": "present"
+    }
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "reference_title_page": 187,
+    "reference_pages": [
+      187,
+      188
+    ],
+    "status": "confirmed_by_reference_text"
+  }
+}
