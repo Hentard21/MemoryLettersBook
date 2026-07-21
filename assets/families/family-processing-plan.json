@@ -29,18 +29,23 @@
         10
       ],
       "identity_status": "confirmed_by_reference_text",
-      "flagship_asset": "assets/families/hero-001/flagship/hero-001_photo_01_enhanced_white.png",
+      "flagship_asset": "assets/families/hero-001/flagship/anastasia_portrait_repaired_white.png",
       "flagship_status": "selected_by_reference_visual_review",
       "flagship_processing": {
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "needs_waist_crop": true,
-        "notes": "Подтверждённый крупный портрет Анастасии; совпадает с героиней на странице 9 финального референса и уже служит визуальным ориентиром V12.",
-        "asset_id": "hero-001-flagship-hero-001_photo_01_enhanced_white-9d997392",
-        "preferred_processing_source": "assets/families/hero-001/flagship/hero-001_photo_01_enhanced_white.png",
+        "notes": "Подтверждённый крупный портрет Анастасии с восстановленным плечом и чистым белым фоном. В светлом шаблоне фон растворяется режимом multiply без размытой маски.",
+        "asset_id": "hero-001_anastasia_portrait_repaired_white",
+        "preferred_processing_source": "assets/families/hero-001/flagship/anastasia_portrait_repaired_white.png",
         "selection_confidence": "high",
-        "selection_reason": "Подтверждённый крупный портрет Анастасии; совпадает с героиней на странице 9 финального референса и уже служит визуальным ориентиром V12.",
-        "print_size_warning": "988x1591 px: достаточно для крупной поясной подачи после аккуратной прозрачной вырезки; проверить края волос."
+        "selection_reason": "Исправленная владельцем версия сохраняет узнаваемость, дорисованное плечо и достаточный поясной кадр для стандартного шаблона.",
+        "print_file": "assets/families/hero-001/flagship/anastasia_portrait_repaired_white.png",
+        "print_sha256": "fb37fb5de2e07673fa81d54c395272b889caa64dc2699333a7b1b37a4eab5790",
+        "print_width_px": 1122,
+        "print_height_px": 1402,
+        "print_qa_status": "ready_for_layout",
+        "print_size_warning": "1122x1402 px: достаточно для текущего крупного размещения; белый фон используется только в светлой композиции с multiply."
       },
       "archive_assets": [
         {
@@ -118,8 +123,8 @@
       "flagship_selection": {
         "status": "selected",
         "confidence": "high",
-        "reason": "Подтверждённый крупный портрет Анастасии; совпадает с героиней на странице 9 финального референса и уже служит визуальным ориентиром V12.",
-        "print_size_warning": "988x1591 px: достаточно для крупной поясной подачи после аккуратной прозрачной вырезки; проверить края волос."
+        "reason": "Исправленная владельцем версия сохраняет узнаваемость, дорисованное плечо и достаточный поясной кадр для стандартного шаблона.",
+        "print_size_warning": "1122x1402 px: достаточно для текущего крупного размещения; белый фон используется только в светлой композиции с multiply."
       }
     },
     {
@@ -1176,16 +1181,16 @@
         "needs_cutout": false,
         "notes": "Наиболее крупный и качественный семейный портрет Евгения; два ребёнка входят в композицию и частично перекрывают героя, поэтому кадр лучше сохранять целиком.",
         "gigapixel_status": "completed",
-        "print_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_upscaled_2x.jpg",
-        "print_sha256": "d0e8b8672f2dd9ddfdc57ad649017510d1deb8b0741e88d3ef5be3cc703ef564",
-        "print_width_px": 1230,
-        "print_height_px": 940,
+        "print_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_white_background.png",
+        "print_sha256": "f4be0778b5e24ec1654291cafeca83e0d30e20e206400f7c2b2cd8a531e4de55",
+        "print_width_px": 1448,
+        "print_height_px": 1086,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": false,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_upscaled_2x.jpg",
-        "selection_confidence": "medium",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_white_background.png",
+        "selection_confidence": "high",
         "selection_reason": "Наиболее крупный и качественный семейный портрет Евгения; два ребёнка входят в композицию и частично перекрывают героя, поэтому кадр лучше сохранять целиком.",
-        "print_size_warning": "615x470 px; после 2x подходит для среднего группового модуля. Не растягивать на полную страницу и не удалять детей из сцены."
+        "print_size_warning": "1448x1086 px: достаточно для текущего группового модуля; белый фон сохраняется и растворяется в светлой странице режимом multiply."
       },
       "archive_assets": [
         {
@@ -1275,9 +1280,9 @@
       "transcriptions": [],
       "flagship_selection": {
         "status": "selected",
-        "confidence": "medium",
+        "confidence": "high",
         "reason": "Наиболее крупный и качественный семейный портрет Евгения; два ребёнка входят в композицию и частично перекрывают героя, поэтому кадр лучше сохранять целиком.",
-        "print_size_warning": "615x470 px; после 2x подходит для среднего группового модуля. Не растягивать на полную страницу и не удалять детей из сцены."
+        "print_size_warning": "1448x1086 px: достаточно для текущего группового модуля; белый фон сохраняется и растворяется в светлой странице режимом multiply."
       }
     },
     {
@@ -1462,31 +1467,32 @@
         60
       ],
       "identity_status": "confirmed_by_reference_text",
-      "flagship_asset": "",
-      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": "assets/families/hero-018/flagship/hero-018_p069_image355.jpg",
+      "flagship_status": "selected_by_reference_visual_review",
       "flagship_processing": {
-        "needs_gigapixel": false,
-        "needs_cutout": false,
+        "asset_id": "hero-018_p069_image355",
+        "needs_gigapixel": true,
+        "needs_cutout": true,
         "needs_waist_crop": false,
-        "notes": "На странице 60 финального референса виден отдельный портрет Андрея, но в допустимых каталогах flagship и archive-photos нет ни одного кандидата. Нужна исправленная классификация или повторное извлечение."
+        "notes": "Отдельный портрет Андрея из референса; ранее был ошибочно помещён в letters. Нужен качественный апскейл, затем аккуратное удаление фона.",
+        "gigapixel_status": "pending",
+        "preferred_processing_source": "assets/families/hero-018/flagship/hero-018_p069_image355.jpg",
+        "selection_confidence": "high",
+        "selection_reason": "Это отдельный портрет героя, совпадающий с портретом в руках дочери на соседнем архивном фото.",
+        "print_size_warning": "257x450 px; исходник слишком мал для крупного размещения без повторного качественного апскейла."
       },
-      "archive_assets": [],
-      "drawings": [],
-      "letters": [
-        {
-          "asset_id": "hero-018_p069_image355",
-          "file": "assets/families/hero-018/letters/hero-018_p069_image355.jpg",
-          "physical_scan": true,
-          "is_processed_derivative": false,
-          "notes": "Физическая рукопись обязательна; текст не генерировать."
-        },
+      "archive_assets": [
         {
           "asset_id": "hero-018_p069_image356",
-          "file": "assets/families/hero-018/letters/hero-018_p069_image356.jpg",
-          "physical_scan": true,
-          "is_processed_derivative": false,
-          "notes": "Физическая рукопись обязательна; текст не генерировать."
-        },
+          "file": "assets/families/hero-018/archive-photos/hero-018_p069_image356.jpg",
+          "needs_gigapixel": true,
+          "needs_cutout": false,
+          "notes": "Дочь героя с его портретом и наградой; сохранить полный фон и выполнить только мягкое улучшение.",
+          "gigapixel_status": "pending"
+        }
+      ],
+      "drawings": [],
+      "letters": [
         {
           "asset_id": "hero-018_p069_image357",
           "file": "assets/families/hero-018/letters/hero-018_p069_image357.jpg",
@@ -1497,10 +1503,10 @@
       ],
       "transcriptions": [],
       "flagship_selection": {
-        "status": "REVIEW_REQUIRED",
-        "confidence": "none",
-        "reason": "На странице 60 финального референса виден отдельный портрет Андрея, но в допустимых каталогах flagship и archive-photos нет ни одного кандидата. Нужна исправленная классификация или повторное извлечение.",
-        "print_size_warning": "Файл флагмана отсутствует в допустимом наборе; до восстановления нативного ассета оценка печатного размера невозможна."
+        "status": "selected",
+        "confidence": "high",
+        "reason": "Это отдельный портрет героя, совпадающий с портретом в руках дочери на соседнем архивном фото.",
+        "print_size_warning": "257x450 px; исходник слишком мал для крупного размещения без повторного качественного апскейла."
       }
     },
     {

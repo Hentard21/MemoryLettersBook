@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-057",
+  "letter_id": "hero-057_p195_image871",
+  "letter_file": "assets/families/hero-057/letters/hero-057_p195_image871.jpg",
+  "source_transcription_file": "assets/families/hero-057/transcriptions/hero-057_p195_image871_source.txt",
+  "print_transcription_file": "assets/families/hero-057/transcriptions/hero-057_p195_image871_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Фраза «благодаря этим качествам и качествам» в источнике тавтологична; в читательской версии убрано только явное повторение."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

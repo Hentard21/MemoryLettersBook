@@ -10,3 +10,22 @@ graphify-out/
 
 # Dependency directories
 node_modules/
+
+# Generated prototype iterations; keep only the final client approval artifact.
+design/prototypes/print-v12/PRINT_INTRO_BLOCK_V14_NOT_FOR_PRODUCTION.pdf
+design/prototypes/print-v12/PRINT_INTRO_AND_FIRST_FAMILY_V15_CLIENT_PREVIEW.pdf
+design/prototypes/print-v12/PRINT_V16_COMBINED_CLIENT_OVERVIEW.pdf
+design/prototypes/print-v12/PRINT_V17_REFINED_CLIENT_OVERVIEW.pdf
+design/prototypes/print-v12/PRINT_V18_REFINED_CLIENT_OVERVIEW.pdf
+design/prototypes/print-v12/interior-combined-v16.html
+design/prototypes/print-v12/interior-combined-v17.html
+design/prototypes/print-v12/renders-v17/
+design/prototypes/print-v12/renders-v18/
+design/prototypes/print-v18/PRINT_V18_HERO_014_TWO_SPREAD_TEST.pdf
+design/prototypes/print-v18/renders/
+design/prototypes/print-v19/
+
+# Superseded local mask trials and duplicate handoff snapshot.
+assets/processed-flagships/hero-001/anastasia_portrait_repaired_nobg.png
+assets/processed-flagships/hero-014/
+project-reset/archived/duplicate-assets/manual-cutout-help-pre-eugene-fix-2026-07-21/

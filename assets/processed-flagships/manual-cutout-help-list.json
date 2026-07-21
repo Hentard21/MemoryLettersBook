@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-21",
+  "scope": "Short owner-help list for flagship masks that are not safe to approve automatically. Existing good/simple masks are intentionally omitted.",
+  "status_values": {
+    "critical": "clear mask failure or a complex group that blocks use in the title layout",
+    "high": "manual brush cleanup is needed to preserve people, equipment or thin details",
+    "resolved_white_background": "owner supplied an acceptable clean white-background version; no manual cutout is currently required"
+  },
+  "entries": [
+    {
+      "reference_order": 13,
+      "hero_id": "hero-014",
+      "hero_name": "ЕВГЕНИЙ",
+      "source_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-014/hero-014_p056_image304_group_nobg_trial.png",
+      "issue": "Три соприкасающиеся фигуры сохранены, но маска захватила люстру, кресло и цветные фрагменты фона вокруг детей и в просветах между руками.",
+      "recommended_action": "needs_manual_brush: удалить только фон вокруг общего силуэта и в безопасных просветах; сохранить всех трёх людей, волосы, руки и одежду. До утверждения продолжать использовать полное прямоугольное фото Евгения в шаблоне.",
+      "priority": "critical",
+      "status": "resolved_white_background",
+      "resolution_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_white_background.png"
+    },
+    {
+      "reference_order": 34,
+      "hero_id": "hero-036",
+      "hero_name": "АНДРЕЙ",
+      "source_file": "assets/production-ready/flagship/hero-036/hero-036_p125_image593_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-036/hero-036_p125_image593_nobg.png",
+      "issue": "В маске остались крупные участки дерева и лесного фона у оружия, между ног и по бокам; заметен синий ореол.",
+      "recommended_action": "Стереть фон кистью, затем восстановить контур оружия, оптику, ремни, разгрузку, руки и края формы; проверить результат на молочном и тёмно-синем фоне.",
+      "priority": "critical"
+    },
+    {
+      "reference_order": 42,
+      "hero_id": "hero-044",
+      "hero_name": "РАМИЛЬ",
+      "source_file": "assets/production-ready/flagship/hero-044/hero-044_p149_image686_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-044/hero-044_p149_image686_nobg.png",
+      "issue": "Автоматическая маска оставила лесной фон и яркие цветные артефакты под руками, вокруг оружия и в нижней части фигуры.",
+      "recommended_action": "Удалить фон и цветные островки вручную; сохранить оружие целиком, кисти рук, нашивки, края формы и обувь. Не восстанавливать отсутствующие части фигуры.",
+      "priority": "critical"
+    },
+    {
+      "reference_order": 57,
+      "hero_id": "hero-059",
+      "hero_name": "ИЛЬДАР",
+      "source_file": "assets/production-ready/flagship/hero-059/hero-059_p199_image891_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-059/hero-059_p199_image891_nobg.png",
+      "issue": "Справа и снизу к фигуре приклеен большой фрагмент травы и тёмного природного фона; тонкие детали экипировки смешаны с ним.",
+      "recommended_action": "Вручную отделить фигуру от травы, сохранив оружие, ремень, подсумки, перчатки и края формы; проверить, что ни одна деталь снаряжения не стала прозрачной.",
+      "priority": "critical"
+    },
+    {
+      "reference_order": 59,
+      "hero_id": "hero-061",
+      "hero_name": "СЕРГЕЙ",
+      "source_file": "assets/production-ready/flagship/hero-061/hero-061_p205_image914_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-061/hero-061_p205_image914_nobg.png",
+      "issue": "Вокруг плеч, оружия и по нижнему краю остались крупные прямоугольные и цветные куски исходного фона.",
+      "recommended_action": "Стереть фоновые блоки и вручную восстановить оружие, ремни, подсумки, руки и наружный контур формы; не увеличивать фигуру до проверки лица в печатном масштабе.",
+      "priority": "critical"
+    },
+    {
+      "reference_order": 64,
+      "hero_id": "hero-066",
+      "hero_name": "ИЛЬГАМ",
+      "source_file": "assets/production-ready/flagship/hero-066/hero-066_p219_image959_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-066/hero-066_p219_image959_nobg.png",
+      "issue": "За героем остались вторая фигура, зелёная табличка, мебель и подписи; автоматическая маска объединила их с экипировкой.",
+      "recommended_action": "Удалить только постороннего человека и предметы фона; сохранить оружие героя, оба ремня, сумки, нашивки, головной убор, руки и края формы.",
+      "priority": "critical"
+    },
+    {
+      "reference_order": 69,
+      "hero_id": "hero-071",
+      "hero_name": "АЛЕКСАНДР",
+      "source_file": "assets/production-ready/flagship/hero-071/hero-071_p238_image1036_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-071/hero-071_p238_image1036_nobg.png",
+      "issue": "Маска сохранила крупную деталь автомобильного сиденья за головой и разрушила нижний правый край одежды множеством отверстий.",
+      "recommended_action": "Стереть сиденье и прочий фон, восстановить плечи, капюшон и наружный край камуфляжа. Использовать результат как бюст, не достраивая тело ниже исходного кадра.",
+      "priority": "critical"
+    },
+    {
+      "reference_order": 2,
+      "hero_id": "hero-003",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "source_file": "assets/production-ready/flagship/hero-003/hero-003_p020_image146_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-003/hero-003_p020_image146_nobg.png",
+      "issue": "У оружия и ног остались канистра, опора, провода и отдельные цветные куски лесного фона; тонкие края оружия смешаны с окружением.",
+      "recommended_action": "Удалить очевидно фоновые предметы и разрозненные островки; сохранить всё оружие, руки, подсумок и металлическую кружку рядом со стволом до отдельного решения владельца.",
+      "priority": "high"
+    },
+    {
+      "reference_order": 10,
+      "hero_id": "hero-011",
+      "hero_name": "АНДРЕЙ",
+      "source_file": "assets/production-ready/flagship/hero-011/hero-011_p045_image250_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-011/hero-011_p045_image250_nobg.png",
+      "issue": "Вместе с героем и ребёнком вырезана значительная часть боевой машины, включая длинный ствол и мелкие отдельные фрагменты.",
+      "recommended_action": "Оставить единой группой героя и ребёнка, сохранить их объятие, руки и головной убор; удалить машину и остальные отделённые детали фона.",
+      "priority": "high"
+    },
+    {
+      "reference_order": 14,
+      "hero_id": "hero-015",
+      "hero_name": "ИЛЬЯ",
+      "source_file": "assets/production-ready/flagship/hero-015/hero-015_p062_image322_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-015/hero-015_p062_image322_nobg.png",
+      "issue": "Маска сохранила снежные ветви за головой и плечом, а также снег и лесные фрагменты возле оружия и нижнего края.",
+      "recommended_action": "Удалить ветви и снег кистью; восстановить дульную часть оружия, ремень, перчатки, капюшон и наружный край зимней формы.",
+      "priority": "high"
+    },
+    {
+      "reference_order": 22,
+      "hero_id": "hero-024",
+      "hero_name": "АЛЕКСЕЙ",
+      "source_file": "assets/production-ready/flagship/hero-024/hero-024_p086_image430_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-024/hero-024_p086_image430_nobg.png",
+      "issue": "За шлемом и плечами остался светлый фон, а у оружия и локтей — фрагменты листвы и грунта.",
+      "recommended_action": "Очистить фон вручную, сохранив шлем, бронежилет, стропы, оружие, ремень и обе руки; проверить мелкие просветы между оружием и корпусом.",
+      "priority": "high"
+    },
+    {
+      "reference_order": 27,
+      "hero_id": "hero-029",
+      "hero_name": "АЛЕКСАНДР",
+      "source_file": "assets/production-ready/flagship/hero-029/hero-029_p104_image503_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-029/hero-029_p104_image503_nobg.png",
+      "issue": "Герой и ребёнок соприкасаются; рядом осталась часть третьего человека, а тонкие петли и предмет в руках ребёнка трудно отделяются от фона.",
+      "recommended_action": "Сохранить героя и ребёнка одной группой, включая руку героя, предмет и петли в руках ребёнка; удалить частично видимого постороннего человека и фоновые пятна.",
+      "priority": "high"
+    },
+    {
+      "reference_order": 45,
+      "hero_id": "hero-047",
+      "hero_name": "АЛЕКСАНДР",
+      "source_file": "assets/production-ready/flagship/hero-047/hero-047_p159_image727_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-047/hero-047_p159_image727_nobg.png",
+      "issue": "Слева осталась отдельная металлическая деталь, у оружия, разгрузки и нижней части фигуры заметны фоновые полосы и цветные остатки.",
+      "recommended_action": "Стереть постороннюю металлическую деталь и фоновые остатки; восстановить оружие, ремни, разгрузку, кисти рук и края формы.",
+      "priority": "high"
+    },
+    {
+      "reference_order": 49,
+      "hero_id": "hero-051",
+      "hero_name": "ВИКТОР",
+      "source_file": "assets/production-ready/flagship/hero-051/hero-051_p173_image786_upscaled_2x.jpg",
+      "current_cutout": "assets/processed-flagships/hero-051/hero-051_p173_image786_nobg.png",
+      "issue": "Группа с ребёнком, шарами и тонкими лентами вырезана в целом удачно, но фон остался между шарами и головой ребёнка, а также у правого и нижнего края.",
+      "recommended_action": "Удалить фон в безопасных просветах, сохранив ребёнка, руки, волосы, оба шара, ленты и предмет в руке героя; не разделять фигуры.",
+      "priority": "high"
+    }
+  ]
+}

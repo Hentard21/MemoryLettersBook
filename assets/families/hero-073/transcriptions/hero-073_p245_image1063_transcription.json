@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-073",
+  "letter_id": "hero-073_p245_image1063",
+  "letter_file": "assets/families/hero-073/letters/hero-073_p245_image1063.jpg",
+  "source_transcription_file": "assets/families/hero-073/transcriptions/hero-073_p245_image1063_source.txt",
+  "print_transcription_file": "assets/families/hero-073/transcriptions/hero-073_p245_image1063_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "В читательской версии исправлено очевидное согласование «31 года» → «31 год» без изменения смысла."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "batch": "batch-a",
+  "reference_order_range": [
+    1,
+    37
+  ],
+  "policy": "docs/TRANSCRIPTION_POLICY.md",
+  "created_count": 36,
+  "created": [
+    {
+      "reference_order": 2,
+      "hero_id": "hero-003",
+      "letter_id": "hero-003_p021_image152",
+      "letter_file": "assets/families/hero-003/letters/hero-003_p021_image152.jpg",
+      "source_transcription_file": "assets/families/hero-003/transcriptions/hero-003_p021_image152_source.txt",
+      "print_transcription_file": "assets/families/hero-003/transcriptions/hero-003_p021_image152_print.txt",
+      "metadata_file": "assets/families/hero-003/transcriptions/hero-003_p021_image152_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "В читательской версии исправлены очевидные согласование, пунктуация и написание «сёстрам»."
+      ]
+    },
+    {
+      "reference_order": 2,
+      "hero_id": "hero-003",
+      "letter_id": "hero-003_p022_image155",
+      "letter_file": "assets/families/hero-003/letters/hero-003_p022_image155.jpg",
+      "source_transcription_file": "assets/families/hero-003/transcriptions/hero-003_p022_image155_source.txt",
+      "print_transcription_file": "assets/families/hero-003/transcriptions/hero-003_p022_image155_print.txt",
+      "metadata_file": "assets/families/hero-003/transcriptions/hero-003_p022_image155_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Словосочетание «нашем мирном будущем» читается с умеренной уверенностью; требуется сверка владельцем."
+      ]
+    },
+    {
+      "reference_order": 2,
+      "hero_id": "hero-003",
+      "letter_id": "hero-003_p023_image158",
+      "letter_file": "assets/families/hero-003/letters/hero-003_p023_image158.jpg",
+      "source_transcription_file": "assets/families/hero-003/transcriptions/hero-003_p023_image158_source.txt",
+      "print_transcription_file": "assets/families/hero-003/transcriptions/hero-003_p023_image158_print.txt",
+      "metadata_file": "assets/families/hero-003/transcriptions/hero-003_p023_image158_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Две строки стихотворения недостаточно различимы; они не восстановлены догадкой."
+      ]
+    },
+    {
+      "reference_order": 3,
+      "hero_id": "hero-004",
+      "letter_id": "hero-004_p025_image169",
+      "letter_file": "assets/families/hero-004/letters/hero-004_p025_image169.jpg",
+      "source_transcription_file": "assets/families/hero-004/transcriptions/hero-004_p025_image169_source.txt",
+      "print_transcription_file": "assets/families/hero-004/transcriptions/hero-004_p025_image169_print.txt",
+      "metadata_file": "assets/families/hero-004/transcriptions/hero-004_p025_image169_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 4,
+      "hero_id": "hero-005",
+      "letter_id": "hero-005_p028_image179",
+      "letter_file": "assets/families/hero-005/letters/hero-005_p028_image179.jpg",
+      "source_transcription_file": "assets/families/hero-005/transcriptions/hero-005_p028_image179_source.txt",
+      "print_transcription_file": "assets/families/hero-005/transcriptions/hero-005_p028_image179_print.txt",
+      "metadata_file": "assets/families/hero-005/transcriptions/hero-005_p028_image179_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 6,
+      "hero_id": "hero-007",
+      "letter_id": "hero-007_p034_image203",
+      "letter_file": "assets/families/hero-007/letters/hero-007_p034_image203.jpg",
+      "source_transcription_file": "assets/families/hero-007/transcriptions/hero-007_p034_image203_source.txt",
+      "print_transcription_file": "assets/families/hero-007/transcriptions/hero-007_p034_image203_print.txt",
+      "metadata_file": "assets/families/hero-007/transcriptions/hero-007_p034_image203_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Нижняя подпись не совпадает по форме с подтверждённым именем ребёнка; не восстановлена догадкой."
+      ]
+    },
+    {
+      "reference_order": 7,
+      "hero_id": "hero-008",
+      "letter_id": "hero-008_p037_image215",
+      "letter_file": "assets/families/hero-008/letters/hero-008_p037_image215.jpg",
+      "source_transcription_file": "assets/families/hero-008/transcriptions/hero-008_p037_image215_source.txt",
+      "print_transcription_file": "assets/families/hero-008/transcriptions/hero-008_p037_image215_print.txt",
+      "metadata_file": "assets/families/hero-008/transcriptions/hero-008_p037_image215_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 8,
+      "hero_id": "hero-009",
+      "letter_id": "hero-009_p040_image229",
+      "letter_file": "assets/families/hero-009/letters/hero-009_p040_image229.jpg",
+      "source_transcription_file": "assets/families/hero-009/transcriptions/hero-009_p040_image229_source.txt",
+      "print_transcription_file": "assets/families/hero-009/transcriptions/hero-009_p040_image229_print.txt",
+      "metadata_file": "assets/families/hero-009/transcriptions/hero-009_p040_image229_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 9,
+      "hero_id": "hero-010",
+      "letter_id": "hero-010_p043_image244",
+      "letter_file": "assets/families/hero-010/letters/hero-010_p043_image244.jpg",
+      "source_transcription_file": "assets/families/hero-010/transcriptions/hero-010_p043_image244_source.txt",
+      "print_transcription_file": "assets/families/hero-010/transcriptions/hero-010_p043_image244_print.txt",
+      "metadata_file": "assets/families/hero-010/transcriptions/hero-010_p043_image244_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Подпись и дата в извлечённом фрагменте отсутствуют."
+      ]
+    },
+    {
+      "reference_order": 10,
+      "hero_id": "hero-011",
+      "letter_id": "hero-011_p047_image258",
+      "letter_file": "assets/families/hero-011/letters/hero-011_p047_image258.jpg",
+      "source_transcription_file": "assets/families/hero-011/transcriptions/hero-011_p047_image258_source.txt",
+      "print_transcription_file": "assets/families/hero-011/transcriptions/hero-011_p047_image258_print.txt",
+      "metadata_file": "assets/families/hero-011/transcriptions/hero-011_p047_image258_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Сокращение после упоминания батальона неразборчиво; не раскрыто догадкой."
+      ]
+    },
+    {
+      "reference_order": 11,
+      "hero_id": "hero-012",
+      "letter_id": "hero-012_p050_image272",
+      "letter_file": "assets/families/hero-012/letters/hero-012_p050_image272.jpg",
+      "source_transcription_file": "assets/families/hero-012/transcriptions/hero-012_p050_image272_source.txt",
+      "print_transcription_file": "assets/families/hero-012/transcriptions/hero-012_p050_image272_print.txt",
+      "metadata_file": "assets/families/hero-012/transcriptions/hero-012_p050_image272_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 12,
+      "hero_id": "hero-013",
+      "letter_id": "hero-013_p054_image293",
+      "letter_file": "assets/families/hero-013/letters/hero-013_p054_image293.jpg",
+      "source_transcription_file": "assets/families/hero-013/transcriptions/hero-013_p054_image293_source.txt",
+      "print_transcription_file": "assets/families/hero-013/transcriptions/hero-013_p054_image293_print.txt",
+      "metadata_file": "assets/families/hero-013/transcriptions/hero-013_p054_image293_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 14,
+      "hero_id": "hero-015",
+      "letter_id": "hero-015_p063_image328",
+      "letter_file": "assets/families/hero-015/letters/hero-015_p063_image328.jpg",
+      "source_transcription_file": "assets/families/hero-015/transcriptions/hero-015_p063_image328_source.txt",
+      "print_transcription_file": "assets/families/hero-015/transcriptions/hero-015_p063_image328_print.txt",
+      "metadata_file": "assets/families/hero-015/transcriptions/hero-015_p063_image328_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 15,
+      "hero_id": "hero-017",
+      "letter_id": "hero-017_p067_image346",
+      "letter_file": "assets/families/hero-017/letters/hero-017_p067_image346.jpg",
+      "source_transcription_file": "assets/families/hero-017/transcriptions/hero-017_p067_image346_source.txt",
+      "print_transcription_file": "assets/families/hero-017/transcriptions/hero-017_p067_image346_print.txt",
+      "metadata_file": "assets/families/hero-017/transcriptions/hero-017_p067_image346_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 16,
+      "hero_id": "hero-018",
+      "letter_id": "hero-018_p069_image357",
+      "letter_file": "assets/families/hero-018/letters/hero-018_p069_image357.jpg",
+      "source_transcription_file": "assets/families/hero-018/transcriptions/hero-018_p069_image357_source.txt",
+      "print_transcription_file": "assets/families/hero-018/transcriptions/hero-018_p069_image357_print.txt",
+      "metadata_file": "assets/families/hero-018/transcriptions/hero-018_p069_image357_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 17,
+      "hero_id": "hero-019",
+      "letter_id": "hero-019_p072_image371",
+      "letter_file": "assets/families/hero-019/letters/hero-019_p072_image371.jpg",
+      "source_transcription_file": "assets/families/hero-019/transcriptions/hero-019_p072_image371_source.txt",
+      "print_transcription_file": "assets/families/hero-019/transcriptions/hero-019_p072_image371_print.txt",
+      "metadata_file": "assets/families/hero-019/transcriptions/hero-019_p072_image371_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Начало одной строки физически отсутствует в извлечённом изображении."
+      ]
+    },
+    {
+      "reference_order": 18,
+      "hero_id": "hero-020",
+      "letter_id": "hero-020_p075_image385",
+      "letter_file": "assets/families/hero-020/letters/hero-020_p075_image385.jpg",
+      "source_transcription_file": "assets/families/hero-020/transcriptions/hero-020_p075_image385_source.txt",
+      "print_transcription_file": "assets/families/hero-020/transcriptions/hero-020_p075_image385_print.txt",
+      "metadata_file": "assets/families/hero-020/transcriptions/hero-020_p075_image385_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 19,
+      "hero_id": "hero-021",
+      "letter_id": "hero-021_p078_image400",
+      "letter_file": "assets/families/hero-021/letters/hero-021_p078_image400.jpg",
+      "source_transcription_file": "assets/families/hero-021/transcriptions/hero-021_p078_image400_source.txt",
+      "print_transcription_file": "assets/families/hero-021/transcriptions/hero-021_p078_image400_print.txt",
+      "metadata_file": "assets/families/hero-021/transcriptions/hero-021_p078_image400_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Нижняя половина письма имеет слабый контраст и обрезана; смысл не реконструирован."
+      ]
+    },
+    {
+      "reference_order": 20,
+      "hero_id": "hero-022",
+      "letter_id": "hero-022_p081_image412",
+      "letter_file": "assets/families/hero-022/letters/hero-022_p081_image412.jpg",
+      "source_transcription_file": "assets/families/hero-022/transcriptions/hero-022_p081_image412_source.txt",
+      "print_transcription_file": "assets/families/hero-022/transcriptions/hero-022_p081_image412_print.txt",
+      "metadata_file": "assets/families/hero-022/transcriptions/hero-022_p081_image412_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Фамилия в первой и последней строках читается неуверенно и не подменена данными манифеста."
+      ]
+    },
+    {
+      "reference_order": 21,
+      "hero_id": "hero-023",
+      "letter_id": "hero-023_p084_image422",
+      "letter_file": "assets/families/hero-023/letters/hero-023_p084_image422.jpg",
+      "source_transcription_file": "assets/families/hero-023/transcriptions/hero-023_p084_image422_source.txt",
+      "print_transcription_file": "assets/families/hero-023/transcriptions/hero-023_p084_image422_print.txt",
+      "metadata_file": "assets/families/hero-023/transcriptions/hero-023_p084_image422_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Слабый контраст и наложение фотографий на верхнюю часть листа; несколько строк не читаются надёжно."
+      ]
+    },
+    {
+      "reference_order": 22,
+      "hero_id": "hero-024",
+      "letter_id": "hero-024_p087_image433",
+      "letter_file": "assets/families/hero-024/letters/hero-024_p087_image433.jpg",
+      "source_transcription_file": "assets/families/hero-024/transcriptions/hero-024_p087_image433_source.txt",
+      "print_transcription_file": "assets/families/hero-024/transcriptions/hero-024_p087_image433_print.txt",
+      "metadata_file": "assets/families/hero-024/transcriptions/hero-024_p087_image433_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 23,
+      "hero_id": "hero-025",
+      "letter_id": "hero-025_p090_image448",
+      "letter_file": "assets/families/hero-025/letters/hero-025_p090_image448.jpg",
+      "source_transcription_file": "assets/families/hero-025/transcriptions/hero-025_p090_image448_source.txt",
+      "print_transcription_file": "assets/families/hero-025/transcriptions/hero-025_p090_image448_print.txt",
+      "metadata_file": "assets/families/hero-025/transcriptions/hero-025_p090_image448_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 24,
+      "hero_id": "hero-026",
+      "letter_id": "hero-026_p094_image462",
+      "letter_file": "assets/families/hero-026/letters/hero-026_p094_image462.jpg",
+      "source_transcription_file": "assets/families/hero-026/transcriptions/hero-026_p094_image462_source.txt",
+      "print_transcription_file": "assets/families/hero-026/transcriptions/hero-026_p094_image462_print.txt",
+      "metadata_file": "assets/families/hero-026/transcriptions/hero-026_p094_image462_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Фамилия героя и окончание первого абзаца требуют сверки; нижний росчерк не интерпретирован."
+      ]
+    },
+    {
+      "reference_order": 25,
+      "hero_id": "hero-027",
+      "letter_id": "hero-027_p097_image472",
+      "letter_file": "assets/families/hero-027/letters/hero-027_p097_image472.jpg",
+      "source_transcription_file": "assets/families/hero-027/transcriptions/hero-027_p097_image472_source.txt",
+      "print_transcription_file": "assets/families/hero-027/transcriptions/hero-027_p097_image472_print.txt",
+      "metadata_file": "assets/families/hero-027/transcriptions/hero-027_p097_image472_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Грамматически необычный оборот сохранён; подпись после имени Егора неразборчива."
+      ]
+    },
+    {
+      "reference_order": 26,
+      "hero_id": "hero-028",
+      "letter_id": "hero-028_p102_image494",
+      "letter_file": "assets/families/hero-028/letters/hero-028_p102_image494.jpg",
+      "source_transcription_file": "assets/families/hero-028/transcriptions/hero-028_p102_image494_source.txt",
+      "print_transcription_file": "assets/families/hero-028/transcriptions/hero-028_p102_image494_print.txt",
+      "metadata_file": "assets/families/hero-028/transcriptions/hero-028_p102_image494_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 27,
+      "hero_id": "hero-029",
+      "letter_id": "hero-029_p105_image510",
+      "letter_file": "assets/families/hero-029/letters/hero-029_p105_image510.jpg",
+      "source_transcription_file": "assets/families/hero-029/transcriptions/hero-029_p105_image510_source.txt",
+      "print_transcription_file": "assets/families/hero-029/transcriptions/hero-029_p105_image510_print.txt",
+      "metadata_file": "assets/families/hero-029/transcriptions/hero-029_p105_image510_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Дата события внутри письма не читается надёжно; дата подписи читается."
+      ]
+    },
+    {
+      "reference_order": 28,
+      "hero_id": "hero-030",
+      "letter_id": "hero-030_p108_image522",
+      "letter_file": "assets/families/hero-030/letters/hero-030_p108_image522.jpg",
+      "source_transcription_file": "assets/families/hero-030/transcriptions/hero-030_p108_image522_source.txt",
+      "print_transcription_file": "assets/families/hero-030/transcriptions/hero-030_p108_image522_print.txt",
+      "metadata_file": "assets/families/hero-030/transcriptions/hero-030_p108_image522_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Видимая подпись «Кузнецов Егор» конфликтует с детьми, назначенными hero-030 в манифесте; файл нельзя верстать до проверки принадлежности."
+      ]
+    },
+    {
+      "reference_order": 29,
+      "hero_id": "hero-031",
+      "letter_id": "hero-031_p111_image533",
+      "letter_file": "assets/families/hero-031/letters/hero-031_p111_image533.jpg",
+      "source_transcription_file": "assets/families/hero-031/transcriptions/hero-031_p111_image533_source.txt",
+      "print_transcription_file": "assets/families/hero-031/transcriptions/hero-031_p111_image533_print.txt",
+      "metadata_file": "assets/families/hero-031/transcriptions/hero-031_p111_image533_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Правый край и несколько строк имеют низкий контраст; записаны только уверенно читаемые фрагменты."
+      ]
+    },
+    {
+      "reference_order": 30,
+      "hero_id": "hero-032",
+      "letter_id": "hero-032_p114_image544",
+      "letter_file": "assets/families/hero-032/letters/hero-032_p114_image544.jpg",
+      "source_transcription_file": "assets/families/hero-032/transcriptions/hero-032_p114_image544_source.txt",
+      "print_transcription_file": "assets/families/hero-032/transcriptions/hero-032_p114_image544_print.txt",
+      "metadata_file": "assets/families/hero-032/transcriptions/hero-032_p114_image544_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 31,
+      "hero_id": "hero-033",
+      "letter_id": "hero-033_p117_image558",
+      "letter_file": "assets/families/hero-033/letters/hero-033_p117_image558.jpg",
+      "source_transcription_file": "assets/families/hero-033/transcriptions/hero-033_p117_image558_source.txt",
+      "print_transcription_file": "assets/families/hero-033/transcriptions/hero-033_p117_image558_print.txt",
+      "metadata_file": "assets/families/hero-033/transcriptions/hero-033_p117_image558_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": []
+    },
+    {
+      "reference_order": 32,
+      "hero_id": "hero-034",
+      "letter_id": "hero-034_p120_image573",
+      "letter_file": "assets/families/hero-034/letters/hero-034_p120_image573.jpg",
+      "source_transcription_file": "assets/families/hero-034/transcriptions/hero-034_p120_image573_source.txt",
+      "print_transcription_file": "assets/families/hero-034/transcriptions/hero-034_p120_image573_print.txt",
+      "metadata_file": "assets/families/hero-034/transcriptions/hero-034_p120_image573_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "В подписи видна только фамилия; имя автора не добавлено из манифеста."
+      ]
+    },
+    {
+      "reference_order": 33,
+      "hero_id": "hero-035",
+      "letter_id": "hero-035_p123_image584",
+      "letter_file": "assets/families/hero-035/letters/hero-035_p123_image584.jpg",
+      "source_transcription_file": "assets/families/hero-035/transcriptions/hero-035_p123_image584_source.txt",
+      "print_transcription_file": "assets/families/hero-035/transcriptions/hero-035_p123_image584_print.txt",
+      "metadata_file": "assets/families/hero-035/transcriptions/hero-035_p123_image584_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Начальная строка, часть середины и нижняя строка не читаются надёжно; третье имя из манифеста не добавлялось."
+      ]
+    },
+    {
+      "reference_order": 34,
+      "hero_id": "hero-036",
+      "letter_id": "hero-036_p126_image599",
+      "letter_file": "assets/families/hero-036/letters/hero-036_p126_image599.jpg",
+      "source_transcription_file": "assets/families/hero-036/transcriptions/hero-036_p126_image599_source.txt",
+      "print_transcription_file": "assets/families/hero-036/transcriptions/hero-036_p126_image599_print.txt",
+      "metadata_file": "assets/families/hero-036/transcriptions/hero-036_p126_image599_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Средняя и заключительная части имеют слабый контраст; спорные слова не восстановлены."
+      ]
+    },
+    {
+      "reference_order": 35,
+      "hero_id": "hero-037",
+      "letter_id": "hero-037_p129_image609",
+      "letter_file": "assets/families/hero-037/letters/hero-037_p129_image609.jpg",
+      "source_transcription_file": "assets/families/hero-037/transcriptions/hero-037_p129_image609_source.txt",
+      "print_transcription_file": "assets/families/hero-037/transcriptions/hero-037_p129_image609_print.txt",
+      "metadata_file": "assets/families/hero-037/transcriptions/hero-037_p129_image609_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Фамилии в двух подписях читаются неуверенно; имя Иркен из манифеста на скане не обнаружено и не добавлено."
+      ]
+    },
+    {
+      "reference_order": 36,
+      "hero_id": "hero-038",
+      "letter_id": "hero-038_p132_image620",
+      "letter_file": "assets/families/hero-038/letters/hero-038_p132_image620.jpg",
+      "source_transcription_file": "assets/families/hero-038/transcriptions/hero-038_p132_image620_source.txt",
+      "print_transcription_file": "assets/families/hero-038/transcriptions/hero-038_p132_image620_print.txt",
+      "metadata_file": "assets/families/hero-038/transcriptions/hero-038_p132_image620_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Окончание одной строки после слов «Папа редко звонил» не читается надёжно."
+      ]
+    },
+    {
+      "reference_order": 37,
+      "hero_id": "hero-039",
+      "letter_id": "hero-039_p135_image634",
+      "letter_file": "assets/families/hero-039/letters/hero-039_p135_image634.jpg",
+      "source_transcription_file": "assets/families/hero-039/transcriptions/hero-039_p135_image634_source.txt",
+      "print_transcription_file": "assets/families/hero-039/transcriptions/hero-039_p135_image634_print.txt",
+      "metadata_file": "assets/families/hero-039/transcriptions/hero-039_p135_image634_transcription.json",
+      "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+      "doubts": [
+        "Несколько строк в середине имеют слабый контраст и не восстановлены по смыслу; стихотворение требует сверки по оригиналу."
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "reference_order": 16,
+      "hero_id": "hero-018",
+      "letter_id": "hero-018_p069_image355",
+      "letter_file": "assets/families/hero-018/flagship/hero-018_p069_image355.jpg",
+      "status": "MISCLASSIFICATION_CORRECTED",
+      "reason": "Файл является портретом военнослужащего, а не рукописью; перенесён в flagship."
+    },
+    {
+      "reference_order": 16,
+      "hero_id": "hero-018",
+      "letter_id": "hero-018_p069_image356",
+      "letter_file": "assets/families/hero-018/archive-photos/hero-018_p069_image356.jpg",
+      "status": "MISCLASSIFICATION_CORRECTED",
+      "reason": "Файл является фотографией ребёнка с портретом и наградой, а не рукописью; перенесён в archive-photos."
+    }
+  ],
+  "notes": [
+    "Все новые расшифровки являются кандидатными и требуют ручного утверждения.",
+    "Физические сканы не изменялись.",
+    "Общий индекс letters-transcriptions-index.json не изменялся."
+  ]
+}

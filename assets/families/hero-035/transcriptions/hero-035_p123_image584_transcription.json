@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-035",
+  "letter_id": "hero-035_p123_image584",
+  "letter_file": "assets/families/hero-035/letters/hero-035_p123_image584.jpg",
+  "source_transcription_file": "assets/families/hero-035/transcriptions/hero-035_p123_image584_source.txt",
+  "print_transcription_file": "assets/families/hero-035/transcriptions/hero-035_p123_image584_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Начальная строка, часть середины и нижняя строка не читаются надёжно; третье имя из манифеста не добавлялось."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

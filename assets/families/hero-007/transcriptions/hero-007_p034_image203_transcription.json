@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-007",
+  "letter_id": "hero-007_p034_image203",
+  "letter_file": "assets/families/hero-007/letters/hero-007_p034_image203.jpg",
+  "source_transcription_file": "assets/families/hero-007/transcriptions/hero-007_p034_image203_source.txt",
+  "print_transcription_file": "assets/families/hero-007/transcriptions/hero-007_p034_image203_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Нижняя подпись не совпадает по форме с подтверждённым именем ребёнка; не восстановлена догадкой."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-059",
+  "letter_id": "hero-059_p200_image896",
+  "letter_file": "assets/families/hero-059/letters/hero-059_p200_image896.jpg",
+  "source_transcription_file": "assets/families/hero-059/transcriptions/hero-059_p200_image896_source.txt",
+  "print_transcription_file": "assets/families/hero-059/transcriptions/hero-059_p200_image896_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Окончание строки о компьютерах отсутствует на физической вырезке."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-027",
+  "letter_id": "hero-027_p097_image472",
+  "letter_file": "assets/families/hero-027/letters/hero-027_p097_image472.jpg",
+  "source_transcription_file": "assets/families/hero-027/transcriptions/hero-027_p097_image472_source.txt",
+  "print_transcription_file": "assets/families/hero-027/transcriptions/hero-027_p097_image472_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Грамматически необычный оборот сохранён; подпись после имени Егора неразборчива."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

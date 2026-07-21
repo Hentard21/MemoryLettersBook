@@ -1,0 +1,33 @@
+{
+  "tool": "CutItOut via Playwright",
+  "completed": [
+    {
+      "hero_id": "branding-dialog",
+      "source": "C:\\Users\\MarkII\\Книга Письма Памяти\\book-project\\assets\\branding\\source\\dialog-pokoleniy-full-white.png",
+      "output": "C:\\Users\\MarkII\\Книга Письма Памяти\\book-project\\assets\\branding\\processed\\dialog-pokoleniy-full-transparent.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1442626,
+      "status": "needs_manual_mask_review"
+    },
+    {
+      "hero_id": "branding-center",
+      "source": "C:\\Users\\MarkII\\Книга Письма Памяти\\book-project\\assets\\branding\\source\\center-support-full-white.png",
+      "output": "C:\\Users\\MarkII\\Книга Письма Памяти\\book-project\\assets\\branding\\processed\\center-support-full-transparent.png",
+      "width": 1448,
+      "height": 1086,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1468751,
+      "status": "needs_manual_mask_review"
+    }
+  ],
+  "failed": [],
+  "status_note": "Logo masks require visual review before print use."
+}

@@ -658,14 +658,14 @@
       "asset_role": "flagship",
       "source_file": "assets/families/hero-014/flagship/hero-014_p056_image304.jpg",
       "staging_original_file": "project-reset/archived/duplicate-assets/for-gigapixel-completed-2026-07-19/archive/hero-014/hero-014_p056_image304.jpg",
-      "print_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_upscaled_2x.jpg",
-      "sha256": "d0e8b8672f2dd9ddfdc57ad649017510d1deb8b0741e88d3ef5be3cc703ef564",
-      "width_px": 1230,
-      "height_px": 940,
-      "scale": "2x",
+      "print_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_white_background.png",
+      "sha256": "f4be0778b5e24ec1654291cafeca83e0d30e20e206400f7c2b2cd8a531e4de55",
+      "width_px": 1448,
+      "height_px": 1086,
+      "scale": "owner-edited-white-background",
       "qa_status": "ready_for_layout",
-      "notes": "Gigapixel 2x result paired with its source.",
-      "flagship_selection_confidence": "medium"
+      "notes": "Владелец заменил фон на чистый белый; группа сохраняется целиком для расширенного шаблона.",
+      "flagship_selection_confidence": "high"
     },
     {
       "hero_id": "hero-014",

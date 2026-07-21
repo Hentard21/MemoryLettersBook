@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-011",
+  "letter_id": "hero-011_p047_image258",
+  "letter_file": "assets/families/hero-011/letters/hero-011_p047_image258.jpg",
+  "source_transcription_file": "assets/families/hero-011/transcriptions/hero-011_p047_image258_source.txt",
+  "print_transcription_file": "assets/families/hero-011/transcriptions/hero-011_p047_image258_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Сокращение после упоминания батальона неразборчиво; не раскрыто догадкой."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

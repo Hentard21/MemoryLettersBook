@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-026",
+  "letter_id": "hero-026_p094_image462",
+  "letter_file": "assets/families/hero-026/letters/hero-026_p094_image462.jpg",
+  "source_transcription_file": "assets/families/hero-026/transcriptions/hero-026_p094_image462_source.txt",
+  "print_transcription_file": "assets/families/hero-026/transcriptions/hero-026_p094_image462_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Фамилия героя и окончание первого абзаца требуют сверки; нижний росчерк не интерпретирован."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

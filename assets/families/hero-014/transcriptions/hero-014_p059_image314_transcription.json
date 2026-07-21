@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-014",
+  "letter_id": "hero-014_p059_image314",
+  "letter_file": "assets/families/hero-014/letters/hero-014_p059_image314.jpg",
+  "source_transcription_file": "assets/families/hero-014/transcriptions/hero-014_p059_image314_source.txt",
+  "print_transcription_file": "assets/families/hero-014/transcriptions/hero-014_p059_image314_print.txt",
+  "authors": [
+    {
+      "name": "Агата",
+      "status": "confirmed_by_visible_signature"
+    },
+    {
+      "name": null,
+      "status": "REVIEW_REQUIRED"
+    }
+  ],
+  "editorial_changes": [
+    "Нормализованы дефис и пунктуация в читательской версии.",
+    "Физически обрезанные подпись и дата не восстановлены догадкой.",
+    "Неразборчивое слово в нижнем фрагменте не подменено новым текстом."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

@@ -2,9 +2,9 @@
   "schema_version": 2,
   "source_of_truth": "source/reference.pdf",
   "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
-  "physical_letters": 78,
-  "transcriptions_present": 1,
-  "missing_transcriptions": 77,
+  "physical_letters": 76,
+  "transcriptions_present": 76,
+  "missing_transcriptions": 0,
   "entries": [
     {
       "reference_order": 1,
@@ -13,700 +13,682 @@
       "letter_file": "assets/families/hero-001/letters/hero-001_letter_01_master.png",
       "transcription_file": "assets/families/hero-001/transcriptions/hero-001_letter_01_transcription.json",
       "status": "REVIEW_REQUIRED",
-      "notes": "Existing transcription linked; preserve its review status."
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 2,
       "hero_id": "hero-003",
       "letter_id": "hero-003_p021_image152",
       "letter_file": "assets/families/hero-003/letters/hero-003_p021_image152.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-003/transcriptions/hero-003_p021_image152_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 2,
       "hero_id": "hero-003",
       "letter_id": "hero-003_p022_image155",
       "letter_file": "assets/families/hero-003/letters/hero-003_p022_image155.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-003/transcriptions/hero-003_p022_image155_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 2,
       "hero_id": "hero-003",
       "letter_id": "hero-003_p023_image158",
       "letter_file": "assets/families/hero-003/letters/hero-003_p023_image158.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-003/transcriptions/hero-003_p023_image158_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 3,
       "hero_id": "hero-004",
       "letter_id": "hero-004_p025_image169",
       "letter_file": "assets/families/hero-004/letters/hero-004_p025_image169.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-004/transcriptions/hero-004_p025_image169_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 4,
       "hero_id": "hero-005",
       "letter_id": "hero-005_p028_image179",
       "letter_file": "assets/families/hero-005/letters/hero-005_p028_image179.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-005/transcriptions/hero-005_p028_image179_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 6,
       "hero_id": "hero-007",
       "letter_id": "hero-007_p034_image203",
       "letter_file": "assets/families/hero-007/letters/hero-007_p034_image203.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-007/transcriptions/hero-007_p034_image203_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 7,
       "hero_id": "hero-008",
       "letter_id": "hero-008_p037_image215",
       "letter_file": "assets/families/hero-008/letters/hero-008_p037_image215.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-008/transcriptions/hero-008_p037_image215_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 8,
       "hero_id": "hero-009",
       "letter_id": "hero-009_p040_image229",
       "letter_file": "assets/families/hero-009/letters/hero-009_p040_image229.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-009/transcriptions/hero-009_p040_image229_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 9,
       "hero_id": "hero-010",
       "letter_id": "hero-010_p043_image244",
       "letter_file": "assets/families/hero-010/letters/hero-010_p043_image244.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-010/transcriptions/hero-010_p043_image244_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 10,
       "hero_id": "hero-011",
       "letter_id": "hero-011_p047_image258",
       "letter_file": "assets/families/hero-011/letters/hero-011_p047_image258.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-011/transcriptions/hero-011_p047_image258_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 11,
       "hero_id": "hero-012",
       "letter_id": "hero-012_p050_image272",
       "letter_file": "assets/families/hero-012/letters/hero-012_p050_image272.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-012/transcriptions/hero-012_p050_image272_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 12,
       "hero_id": "hero-013",
       "letter_id": "hero-013_p054_image293",
       "letter_file": "assets/families/hero-013/letters/hero-013_p054_image293.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-013/transcriptions/hero-013_p054_image293_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 13,
       "hero_id": "hero-014",
       "letter_id": "hero-014_p059_image314",
       "letter_file": "assets/families/hero-014/letters/hero-014_p059_image314.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-014/transcriptions/hero-014_p059_image314_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 13,
       "hero_id": "hero-014",
       "letter_id": "hero-014_p060_image317",
       "letter_file": "assets/families/hero-014/letters/hero-014_p060_image317.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-014/transcriptions/hero-014_p060_image317_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 14,
       "hero_id": "hero-015",
       "letter_id": "hero-015_p063_image328",
       "letter_file": "assets/families/hero-015/letters/hero-015_p063_image328.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-015/transcriptions/hero-015_p063_image328_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 15,
       "hero_id": "hero-017",
       "letter_id": "hero-017_p067_image346",
       "letter_file": "assets/families/hero-017/letters/hero-017_p067_image346.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
-    },
-    {
-      "reference_order": 16,
-      "hero_id": "hero-018",
-      "letter_id": "hero-018_p069_image355",
-      "letter_file": "assets/families/hero-018/letters/hero-018_p069_image355.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
-    },
-    {
-      "reference_order": 16,
-      "hero_id": "hero-018",
-      "letter_id": "hero-018_p069_image356",
-      "letter_file": "assets/families/hero-018/letters/hero-018_p069_image356.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-017/transcriptions/hero-017_p067_image346_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 16,
       "hero_id": "hero-018",
       "letter_id": "hero-018_p069_image357",
       "letter_file": "assets/families/hero-018/letters/hero-018_p069_image357.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-018/transcriptions/hero-018_p069_image357_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 17,
       "hero_id": "hero-019",
       "letter_id": "hero-019_p072_image371",
       "letter_file": "assets/families/hero-019/letters/hero-019_p072_image371.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-019/transcriptions/hero-019_p072_image371_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 18,
       "hero_id": "hero-020",
       "letter_id": "hero-020_p075_image385",
       "letter_file": "assets/families/hero-020/letters/hero-020_p075_image385.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-020/transcriptions/hero-020_p075_image385_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 19,
       "hero_id": "hero-021",
       "letter_id": "hero-021_p078_image400",
       "letter_file": "assets/families/hero-021/letters/hero-021_p078_image400.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-021/transcriptions/hero-021_p078_image400_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 20,
       "hero_id": "hero-022",
       "letter_id": "hero-022_p081_image412",
       "letter_file": "assets/families/hero-022/letters/hero-022_p081_image412.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-022/transcriptions/hero-022_p081_image412_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 21,
       "hero_id": "hero-023",
       "letter_id": "hero-023_p084_image422",
       "letter_file": "assets/families/hero-023/letters/hero-023_p084_image422.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-023/transcriptions/hero-023_p084_image422_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 22,
       "hero_id": "hero-024",
       "letter_id": "hero-024_p087_image433",
       "letter_file": "assets/families/hero-024/letters/hero-024_p087_image433.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-024/transcriptions/hero-024_p087_image433_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 23,
       "hero_id": "hero-025",
       "letter_id": "hero-025_p090_image448",
       "letter_file": "assets/families/hero-025/letters/hero-025_p090_image448.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-025/transcriptions/hero-025_p090_image448_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 24,
       "hero_id": "hero-026",
       "letter_id": "hero-026_p094_image462",
       "letter_file": "assets/families/hero-026/letters/hero-026_p094_image462.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-026/transcriptions/hero-026_p094_image462_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 25,
       "hero_id": "hero-027",
       "letter_id": "hero-027_p097_image472",
       "letter_file": "assets/families/hero-027/letters/hero-027_p097_image472.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-027/transcriptions/hero-027_p097_image472_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 26,
       "hero_id": "hero-028",
       "letter_id": "hero-028_p102_image494",
       "letter_file": "assets/families/hero-028/letters/hero-028_p102_image494.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-028/transcriptions/hero-028_p102_image494_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 27,
       "hero_id": "hero-029",
       "letter_id": "hero-029_p105_image510",
       "letter_file": "assets/families/hero-029/letters/hero-029_p105_image510.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-029/transcriptions/hero-029_p105_image510_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 28,
       "hero_id": "hero-030",
       "letter_id": "hero-030_p108_image522",
       "letter_file": "assets/families/hero-030/letters/hero-030_p108_image522.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-030/transcriptions/hero-030_p108_image522_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 29,
       "hero_id": "hero-031",
       "letter_id": "hero-031_p111_image533",
       "letter_file": "assets/families/hero-031/letters/hero-031_p111_image533.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-031/transcriptions/hero-031_p111_image533_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 30,
       "hero_id": "hero-032",
       "letter_id": "hero-032_p114_image544",
       "letter_file": "assets/families/hero-032/letters/hero-032_p114_image544.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-032/transcriptions/hero-032_p114_image544_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 31,
       "hero_id": "hero-033",
       "letter_id": "hero-033_p117_image558",
       "letter_file": "assets/families/hero-033/letters/hero-033_p117_image558.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-033/transcriptions/hero-033_p117_image558_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 32,
       "hero_id": "hero-034",
       "letter_id": "hero-034_p120_image573",
       "letter_file": "assets/families/hero-034/letters/hero-034_p120_image573.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-034/transcriptions/hero-034_p120_image573_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 33,
       "hero_id": "hero-035",
       "letter_id": "hero-035_p123_image584",
       "letter_file": "assets/families/hero-035/letters/hero-035_p123_image584.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-035/transcriptions/hero-035_p123_image584_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 34,
       "hero_id": "hero-036",
       "letter_id": "hero-036_p126_image599",
       "letter_file": "assets/families/hero-036/letters/hero-036_p126_image599.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-036/transcriptions/hero-036_p126_image599_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 35,
       "hero_id": "hero-037",
       "letter_id": "hero-037_p129_image609",
       "letter_file": "assets/families/hero-037/letters/hero-037_p129_image609.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-037/transcriptions/hero-037_p129_image609_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 36,
       "hero_id": "hero-038",
       "letter_id": "hero-038_p132_image620",
       "letter_file": "assets/families/hero-038/letters/hero-038_p132_image620.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-038/transcriptions/hero-038_p132_image620_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 37,
       "hero_id": "hero-039",
       "letter_id": "hero-039_p135_image634",
       "letter_file": "assets/families/hero-039/letters/hero-039_p135_image634.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-039/transcriptions/hero-039_p135_image634_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 38,
       "hero_id": "hero-040",
       "letter_id": "hero-040_p138_image644",
       "letter_file": "assets/families/hero-040/letters/hero-040_p138_image644.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-040/transcriptions/hero-040_p138_image644_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 39,
       "hero_id": "hero-041",
       "letter_id": "hero-041_p141_image653",
       "letter_file": "assets/families/hero-041/letters/hero-041_p141_image653.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-041/transcriptions/hero-041_p141_image653_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 40,
       "hero_id": "hero-042",
       "letter_id": "hero-042_p144_image666",
       "letter_file": "assets/families/hero-042/letters/hero-042_p144_image666.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-042/transcriptions/hero-042_p144_image666_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 41,
       "hero_id": "hero-043",
       "letter_id": "hero-043_p147_image677",
       "letter_file": "assets/families/hero-043/letters/hero-043_p147_image677.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-043/transcriptions/hero-043_p147_image677_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 42,
       "hero_id": "hero-044",
       "letter_id": "hero-044_p150_image691",
       "letter_file": "assets/families/hero-044/letters/hero-044_p150_image691.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-044/transcriptions/hero-044_p150_image691_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 43,
       "hero_id": "hero-045",
       "letter_id": "hero-045_p153_image706",
       "letter_file": "assets/families/hero-045/letters/hero-045_p153_image706.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-045/transcriptions/hero-045_p153_image706_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 43,
       "hero_id": "hero-045",
       "letter_id": "hero-045_p153_image707",
       "letter_file": "assets/families/hero-045/letters/hero-045_p153_image707.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-045/transcriptions/hero-045_p153_image707_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 44,
       "hero_id": "hero-046",
       "letter_id": "hero-046_p156_image717",
       "letter_file": "assets/families/hero-046/letters/hero-046_p156_image717.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-046/transcriptions/hero-046_p156_image717_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 45,
       "hero_id": "hero-047",
       "letter_id": "hero-047_p161_image737",
       "letter_file": "assets/families/hero-047/letters/hero-047_p161_image737.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-047/transcriptions/hero-047_p161_image737_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 46,
       "hero_id": "hero-048",
       "letter_id": "hero-048_p164_image750",
       "letter_file": "assets/families/hero-048/letters/hero-048_p164_image750.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-048/transcriptions/hero-048_p164_image750_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 47,
       "hero_id": "hero-049",
       "letter_id": "hero-049_p167_image764",
       "letter_file": "assets/families/hero-049/letters/hero-049_p167_image764.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-049/transcriptions/hero-049_p167_image764_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 48,
       "hero_id": "hero-050",
       "letter_id": "hero-050_p171_image777",
       "letter_file": "assets/families/hero-050/letters/hero-050_p171_image777.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-050/transcriptions/hero-050_p171_image777_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 49,
       "hero_id": "hero-051",
       "letter_id": "hero-051_p174_image792",
       "letter_file": "assets/families/hero-051/letters/hero-051_p174_image792.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-051/transcriptions/hero-051_p174_image792_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 50,
       "hero_id": "hero-052",
       "letter_id": "hero-052_p177_image802",
       "letter_file": "assets/families/hero-052/letters/hero-052_p177_image802.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-052/transcriptions/hero-052_p177_image802_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 51,
       "hero_id": "hero-053",
       "letter_id": "hero-053_p180_image812",
       "letter_file": "assets/families/hero-053/letters/hero-053_p180_image812.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-053/transcriptions/hero-053_p180_image812_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 52,
       "hero_id": "hero-054",
       "letter_id": "hero-054_p185_image833",
       "letter_file": "assets/families/hero-054/letters/hero-054_p185_image833.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-054/transcriptions/hero-054_p185_image833_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 53,
       "hero_id": "hero-055",
       "letter_id": "hero-055_p188_image843",
       "letter_file": "assets/families/hero-055/letters/hero-055_p188_image843.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-055/transcriptions/hero-055_p188_image843_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 54,
       "hero_id": "hero-056",
       "letter_id": "hero-056_p191_image853",
       "letter_file": "assets/families/hero-056/letters/hero-056_p191_image853.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-056/transcriptions/hero-056_p191_image853_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 55,
       "hero_id": "hero-057",
       "letter_id": "hero-057_p194_image868",
       "letter_file": "assets/families/hero-057/letters/hero-057_p194_image868.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-057/transcriptions/hero-057_p194_image868_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 55,
       "hero_id": "hero-057",
       "letter_id": "hero-057_p195_image871",
       "letter_file": "assets/families/hero-057/letters/hero-057_p195_image871.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-057/transcriptions/hero-057_p195_image871_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 57,
       "hero_id": "hero-059",
       "letter_id": "hero-059_p200_image896",
       "letter_file": "assets/families/hero-059/letters/hero-059_p200_image896.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-059/transcriptions/hero-059_p200_image896_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 58,
       "hero_id": "hero-060",
       "letter_id": "hero-060_p203_image905",
       "letter_file": "assets/families/hero-060/letters/hero-060_p203_image905.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-060/transcriptions/hero-060_p203_image905_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 59,
       "hero_id": "hero-061",
       "letter_id": "hero-061_p206_image919",
       "letter_file": "assets/families/hero-061/letters/hero-061_p206_image919.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-061/transcriptions/hero-061_p206_image919_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 60,
       "hero_id": "hero-062",
       "letter_id": "hero-062_p209_image928",
       "letter_file": "assets/families/hero-062/letters/hero-062_p209_image928.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-062/transcriptions/hero-062_p209_image928_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 61,
       "hero_id": "hero-063",
       "letter_id": "hero-063_p212_image938",
       "letter_file": "assets/families/hero-063/letters/hero-063_p212_image938.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-063/transcriptions/hero-063_p212_image938_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 62,
       "hero_id": "hero-064",
       "letter_id": "hero-064_p215_image948",
       "letter_file": "assets/families/hero-064/letters/hero-064_p215_image948.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-064/transcriptions/hero-064_p215_image948_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 64,
       "hero_id": "hero-066",
       "letter_id": "hero-066_p221_image969",
       "letter_file": "assets/families/hero-066/letters/hero-066_p221_image969.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-066/transcriptions/hero-066_p221_image969_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 64,
       "hero_id": "hero-066",
       "letter_id": "hero-066_p222_image972",
       "letter_file": "assets/families/hero-066/letters/hero-066_p222_image972.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-066/transcriptions/hero-066_p222_image972_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 65,
       "hero_id": "hero-067",
       "letter_id": "hero-067_p225_image984",
       "letter_file": "assets/families/hero-067/letters/hero-067_p225_image984.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-067/transcriptions/hero-067_p225_image984_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 66,
       "hero_id": "hero-068",
       "letter_id": "hero-068_p229_image1003",
       "letter_file": "assets/families/hero-068/letters/hero-068_p229_image1003.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-068/transcriptions/hero-068_p229_image1003_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 68,
       "hero_id": "hero-070",
       "letter_id": "hero-070_p236_image1029",
       "letter_file": "assets/families/hero-070/letters/hero-070_p236_image1029.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-070/transcriptions/hero-070_p236_image1029_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 69,
       "hero_id": "hero-071",
       "letter_id": "hero-071_p239_image1041",
       "letter_file": "assets/families/hero-071/letters/hero-071_p239_image1041.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-071/transcriptions/hero-071_p239_image1041_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 70,
       "hero_id": "hero-072",
       "letter_id": "hero-072_p242_image1050",
       "letter_file": "assets/families/hero-072/letters/hero-072_p242_image1050.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-072/transcriptions/hero-072_p242_image1050_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 71,
       "hero_id": "hero-073",
       "letter_id": "hero-073_p245_image1063",
       "letter_file": "assets/families/hero-073/letters/hero-073_p245_image1063.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-073/transcriptions/hero-073_p245_image1063_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 72,
       "hero_id": "hero-074",
       "letter_id": "hero-074_p249_image1078",
       "letter_file": "assets/families/hero-074/letters/hero-074_p249_image1078.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-074/transcriptions/hero-074_p249_image1078_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 73,
       "hero_id": "hero-075",
       "letter_id": "hero-075_p252_image1092",
       "letter_file": "assets/families/hero-075/letters/hero-075_p252_image1092.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-075/transcriptions/hero-075_p252_image1092_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     },
     {
       "reference_order": 74,
       "hero_id": "hero-076",
       "letter_id": "hero-076_p255_image1106",
       "letter_file": "assets/families/hero-076/letters/hero-076_p255_image1106.jpg",
-      "transcription_file": null,
-      "status": "missing",
-      "notes": "No separate verified transcription file found; do not reconstruct by guess."
+      "transcription_file": "assets/families/hero-076/transcriptions/hero-076_p255_image1106_transcription.json",
+      "status": "REVIEW_REQUIRED",
+      "notes": "Two-layer candidate linked; manual comparison with the physical scan is required."
     }
   ]
 }

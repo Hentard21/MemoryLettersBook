@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "asset_id": "center_support_mark",
+      "source_file": "assets/branding/source-svg/center-logo.svg",
+      "production_file": "assets/branding/production/center-mark-tight.svg",
+      "derivative_change": "tight viewBox only",
+      "live_name": "АНО «Центр поддержки детей погибших военнослужащих»",
+      "status": "verified_by_owner_svg_and_site_usage"
+    },
+    {
+      "asset_id": "dialog_generations_mark",
+      "source_file": "assets/branding/source-svg/dialog-generations-mark.svg",
+      "production_file": "assets/branding/production/dialog-generations-mark.svg",
+      "derivative_change": "none",
+      "live_name": "Проект «Диалог поколений. Герои и дети»",
+      "status": "verified_visual_identity; legal_name_not_asserted"
+    }
+  ]
+}

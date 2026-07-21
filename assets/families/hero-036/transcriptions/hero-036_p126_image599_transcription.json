@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-036",
+  "letter_id": "hero-036_p126_image599",
+  "letter_file": "assets/families/hero-036/letters/hero-036_p126_image599.jpg",
+  "source_transcription_file": "assets/families/hero-036/transcriptions/hero-036_p126_image599_source.txt",
+  "print_transcription_file": "assets/families/hero-036/transcriptions/hero-036_p126_image599_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Средняя и заключительная части имеют слабый контраст; спорные слова не восстановлены."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-071",
+  "letter_id": "hero-071_p239_image1041",
+  "letter_file": "assets/families/hero-071/letters/hero-071_p239_image1041.jpg",
+  "source_transcription_file": "assets/families/hero-071/transcriptions/hero-071_p239_image1041_source.txt",
+  "print_transcription_file": "assets/families/hero-071/transcriptions/hero-071_p239_image1041_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Одно слово в строке о взрыве фосфорного снаряда не читается."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-014",
+  "letter_id": "hero-014_p060_image317",
+  "letter_file": "assets/families/hero-014/letters/hero-014_p060_image317.jpg",
+  "source_transcription_file": "assets/families/hero-014/transcriptions/hero-014_p060_image317_source.txt",
+  "print_transcription_file": "assets/families/hero-014/transcriptions/hero-014_p060_image317_print.txt",
+  "authors": [
+    {
+      "name": "Макар",
+      "age": 7,
+      "status": "confirmed_by_visible_signature"
+    }
+  ],
+  "editorial_changes": [
+    "Убраны переносы слов, возникшие на границах рукописных строк.",
+    "Нормализованы тире и пунктуация в читательской версии.",
+    "Словарь, синтаксис и временная форма авторского текста сохранены."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

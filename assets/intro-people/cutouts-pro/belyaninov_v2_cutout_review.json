@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "person_id": "belyaninov",
+  "source_file": "assets/intro-people/belyaninov-refresh/source/belyaninov_friendlier_white.png",
+  "output_file": "assets/intro-people/cutouts-pro/belyaninov_v2_nobg.png",
+  "tool_report": "assets/intro-people/cutouts-pro/cutout-run-belyaninov-v2.json",
+  "visual_checks": {
+    "hair": "pass_for_preview",
+    "glasses": "pass",
+    "ears": "pass",
+    "shoulders_and_suit": "pass",
+    "hands_or_held_objects": "not_present_in_crop",
+    "edge_halo": "thin_light_antialiasing_visible_on_dark_background"
+  },
+  "decision": "approved_for_light_background_preview",
+  "final_print_status": "REVIEW_REQUIRED",
+  "notes": "Keep the previous cutout for rollback. Do not place this version on a dark field without another mask pass."
+}

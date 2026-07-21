@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 569 614" width="569" height="614">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"    stop-color="#2f6cf0"/>
+      <stop offset="0.55" stop-color="#2347d7"/>
+      <stop offset="1"    stop-color="#1b32bf"/>
+    </linearGradient>
+    <linearGradient id="red" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#f55a2d"/>
+      <stop offset="0.55" stop-color="#ec3620"/>
+      <stop offset="1"    stop-color="#dc2117"/>
+    </linearGradient>
+    <linearGradient id="overlap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#241d57"/>
+      <stop offset="0.6" stop-color="#33204b"/>
+      <stop offset="1"   stop-color="#3d2342"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Blue bubble: FIX 1 — top-left radius matched to 45px (same as other corners)
+                   FIX 2 — tail shorter and narrower (49px tall, base at x=62) -->
+  <path d="M 8 53
+           Q 8 8 53 8
+           L 410 8
+           Q 455 8 455 53
+           L 455 343
+           Q 455 388 410 388
+           L 62 388
+           L 8 437
+           Z"
+        fill="url(#blue)"/>
+
+  <!-- Red bubble: FIX 3 — tail notch moved right from x=440 to x=491 (73px from edge) -->
+  <path d="M 148 260
+           Q 148 215 193 215
+           L 517 215
+           Q 562 215 562 260
+           L 562 608
+           L 491 540
+           L 193 540
+           Q 148 540 148 495
+           Z"
+        fill="url(#red)"/>
+
+  <!-- Overlap region (unchanged) -->
+  <path d="M 148 260
+           Q 148 215 193 215
+           L 455 215
+           L 455 343
+           Q 455 388 410 388
+           L 148 388
+           Z"
+        fill="url(#overlap)"/>
+</svg>

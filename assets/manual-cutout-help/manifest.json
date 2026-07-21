@@ -1,0 +1,541 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-21T02:25:52.402572+00:00",
+  "source_list": "assets/processed-flagships/manual-cutout-help-list.json",
+  "policy": "This is a copy-only handoff package. Documentary masters, upscaled sources, and existing cutouts remain unchanged in their original locations.",
+  "counts": {
+    "families": 13,
+    "critical": 6,
+    "high": 7,
+    "files": 39
+  },
+  "entries": [
+    {
+      "reference_order": 34,
+      "hero_id": "hero-036",
+      "hero_name": "АНДРЕЙ",
+      "priority": "critical",
+      "issue": "В маске остались крупные участки дерева и лесного фона у оружия, между ног и по бокам; заметен синий ореол.",
+      "recommended_action": "Стереть фон кистью, затем восстановить контур оружия, оптику, ремни, разгрузку, руки и края формы; проверить результат на молочном и тёмно-синем фоне.",
+      "asset_id": "hero-036_p125_image593",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-036/flagship/hero-036_p125_image593.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-036/01_hero-036_original_master.jpg",
+          "sha256": "d9eb7c59eea984ec2967cc330cab390f474e3a0160f7cc7d4da1e45aa5f8980c",
+          "bytes": 25765,
+          "width_px": 291,
+          "height_px": 470
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-036/hero-036_p125_image593_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-036/02_hero-036_best_source_upscaled.jpg",
+          "sha256": "dcf9edf907f33e3511e1eada9ac885bc057a706aca5ffbdbbedeffd87d042b11",
+          "bytes": 82445,
+          "width_px": 582,
+          "height_px": 940
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-036/hero-036_p125_image593_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-036/03_hero-036_current_cutout_reference.png",
+          "sha256": "ece5f47d182a230ac368c6ab730b853ccea662f4e62bfc0ef2ae36f2dfe90886",
+          "bytes": 757024,
+          "width_px": 582,
+          "height_px": 940
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 42,
+      "hero_id": "hero-044",
+      "hero_name": "РАМИЛЬ",
+      "priority": "critical",
+      "issue": "Автоматическая маска оставила лесной фон и яркие цветные артефакты под руками, вокруг оружия и в нижней части фигуры.",
+      "recommended_action": "Удалить фон и цветные островки вручную; сохранить оружие целиком, кисти рук, нашивки, края формы и обувь. Не восстанавливать отсутствующие части фигуры.",
+      "asset_id": "hero-044_p149_image686",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-044/flagship/hero-044_p149_image686.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-044/01_hero-044_original_master.jpg",
+          "sha256": "6ba7976b1f8fc9ba9b0996ea7f51251c8a5812d8e82c1589db7107969ef394b9",
+          "bytes": 47298,
+          "width_px": 291,
+          "height_px": 469
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-044/hero-044_p149_image686_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-044/02_hero-044_best_source_upscaled.jpg",
+          "sha256": "94ee9e9bb533c61bb8132d6b1e3ebc5295366570d8b9dc2d8b6e30abc1d8ac4a",
+          "bytes": 125430,
+          "width_px": 582,
+          "height_px": 938
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-044/hero-044_p149_image686_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-044/03_hero-044_current_cutout_reference.png",
+          "sha256": "537efd04301fe18992487f950d2dc7fa6eb8cde13b5eb6487a3d08069a8ed36c",
+          "bytes": 785411,
+          "width_px": 582,
+          "height_px": 938
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 57,
+      "hero_id": "hero-059",
+      "hero_name": "ИЛЬДАР",
+      "priority": "critical",
+      "issue": "Справа и снизу к фигуре приклеен большой фрагмент травы и тёмного природного фона; тонкие детали экипировки смешаны с ним.",
+      "recommended_action": "Вручную отделить фигуру от травы, сохранив оружие, ремень, подсумки, перчатки и края формы; проверить, что ни одна деталь снаряжения не стала прозрачной.",
+      "asset_id": "hero-059_p199_image891",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-059/flagship/hero-059_p199_image891.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-059/01_hero-059_original_master.jpg",
+          "sha256": "a563457a14c09d6727086cb89d74f507da8f0f919dd5b70439239aa3bcb93f81",
+          "bytes": 28212,
+          "width_px": 291,
+          "height_px": 470
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-059/hero-059_p199_image891_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-059/02_hero-059_best_source_upscaled.jpg",
+          "sha256": "2f30c9fa9a1761d7f0e6f0c4c0d07ac066ba5246ce288f00b2f16c2901682fcb",
+          "bytes": 99365,
+          "width_px": 582,
+          "height_px": 940
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-059/hero-059_p199_image891_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-059/03_hero-059_current_cutout_reference.png",
+          "sha256": "f242b62ab221cd084460179e5ed0ee3a100066f563bc97099010a2346e880981",
+          "bytes": 812802,
+          "width_px": 582,
+          "height_px": 940
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 59,
+      "hero_id": "hero-061",
+      "hero_name": "СЕРГЕЙ",
+      "priority": "critical",
+      "issue": "Вокруг плеч, оружия и по нижнему краю остались крупные прямоугольные и цветные куски исходного фона.",
+      "recommended_action": "Стереть фоновые блоки и вручную восстановить оружие, ремни, подсумки, руки и наружный контур формы; не увеличивать фигуру до проверки лица в печатном масштабе.",
+      "asset_id": "hero-061_p205_image914",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-061/flagship/hero-061_p205_image914.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-061/01_hero-061_original_master.jpg",
+          "sha256": "fcb8bbf6cf73bffd8fee57c3890f75cd2b0f39a8ec42a6a25f6d8998338940e9",
+          "bytes": 23048,
+          "width_px": 261,
+          "height_px": 422
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-061/hero-061_p205_image914_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-061/02_hero-061_best_source_upscaled.jpg",
+          "sha256": "376f2c903509341135bded9e01ced33d7423a737767604988e4b4efdae8fa6ff",
+          "bytes": 74709,
+          "width_px": 522,
+          "height_px": 844
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-061/hero-061_p205_image914_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-061/03_hero-061_current_cutout_reference.png",
+          "sha256": "bef42d6ae33cb396cc9a6415087ef9eeddbdab7f6b208f179d06bf442c02a9f6",
+          "bytes": 591246,
+          "width_px": 522,
+          "height_px": 844
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 64,
+      "hero_id": "hero-066",
+      "hero_name": "ИЛЬГАМ",
+      "priority": "critical",
+      "issue": "За героем остались вторая фигура, зелёная табличка, мебель и подписи; автоматическая маска объединила их с экипировкой.",
+      "recommended_action": "Удалить только постороннего человека и предметы фона; сохранить оружие героя, оба ремня, сумки, нашивки, головной убор, руки и края формы.",
+      "asset_id": "hero-066_p219_image959",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-066/flagship/hero-066_p219_image959.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-066/01_hero-066_original_master.jpg",
+          "sha256": "ebec7149b47ac328b6fda93badbb3155555a33773f4304cb2fadb939162e70fd",
+          "bytes": 44271,
+          "width_px": 425,
+          "height_px": 688
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-066/hero-066_p219_image959_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-066/02_hero-066_best_source_upscaled.jpg",
+          "sha256": "6a5da8038066d3eda627152283718d16a904cd11b4f4299e3fffb8ec7eb582c2",
+          "bytes": 167332,
+          "width_px": 850,
+          "height_px": 1376
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-066/hero-066_p219_image959_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-066/03_hero-066_current_cutout_reference.png",
+          "sha256": "3f10664bc105a6b6caa05a929690057d20645f727d41f2f0eaf8310ed868bc76",
+          "bytes": 1461091,
+          "width_px": 850,
+          "height_px": 1376
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 69,
+      "hero_id": "hero-071",
+      "hero_name": "АЛЕКСАНДР",
+      "priority": "critical",
+      "issue": "Маска сохранила крупную деталь автомобильного сиденья за головой и разрушила нижний правый край одежды множеством отверстий.",
+      "recommended_action": "Стереть сиденье и прочий фон, восстановить плечи, капюшон и наружный край камуфляжа. Использовать результат как бюст, не достраивая тело ниже исходного кадра.",
+      "asset_id": "hero-071_p238_image1036",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-071/flagship/hero-071_p238_image1036.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-071/01_hero-071_original_master.jpg",
+          "sha256": "ee7f125b0ac890ee8ed2f40808879da2d8a25dc50c3ecdab575afe395c94e40f",
+          "bytes": 31764,
+          "width_px": 309,
+          "height_px": 499
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-071/hero-071_p238_image1036_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-071/02_hero-071_best_source_upscaled.jpg",
+          "sha256": "8a611aaeaddfdff5e0a5fad7a9d64c6f3ed7c38be6e71785ce70cb1d640032ee",
+          "bytes": 105403,
+          "width_px": 618,
+          "height_px": 998
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-071/hero-071_p238_image1036_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/critical/hero-071/03_hero-071_current_cutout_reference.png",
+          "sha256": "016a907974cc7166f0b23b328721e32fb3ce4d6b83fefa47cdae3beb49899d20",
+          "bytes": 735586,
+          "width_px": 618,
+          "height_px": 998
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 2,
+      "hero_id": "hero-003",
+      "hero_name": "ВЯЧЕСЛАВ",
+      "priority": "high",
+      "issue": "У оружия и ног остались канистра, опора, провода и отдельные цветные куски лесного фона; тонкие края оружия смешаны с окружением.",
+      "recommended_action": "Удалить очевидно фоновые предметы и разрозненные островки; сохранить всё оружие, руки, подсумок и металлическую кружку рядом со стволом до отдельного решения владельца.",
+      "asset_id": "hero-003_p020_image146",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-003/flagship/hero-003_p020_image146.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-003/01_hero-003_original_master.jpg",
+          "sha256": "71f75165dde83974c798aab11ed73d14afa7ba4d22bef19dfb2b20def39ec7c2",
+          "bytes": 28065,
+          "width_px": 290,
+          "height_px": 470
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-003/hero-003_p020_image146_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-003/02_hero-003_best_source_upscaled.jpg",
+          "sha256": "5a4af8b3d5bd5b6aaf90b0ae38e1de1644dca725675622ea43c6ccdc4a0adff8",
+          "bytes": 86932,
+          "width_px": 580,
+          "height_px": 940
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-003/hero-003_p020_image146_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/high/hero-003/03_hero-003_current_cutout_reference.png",
+          "sha256": "f30f5ca3b7a9b6c4b2d1b78b951249ae35d99a273caebf0acb62fb6637988681",
+          "bytes": 529967,
+          "width_px": 580,
+          "height_px": 940
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 10,
+      "hero_id": "hero-011",
+      "hero_name": "АНДРЕЙ",
+      "priority": "high",
+      "issue": "Вместе с героем и ребёнком вырезана значительная часть боевой машины, включая длинный ствол и мелкие отдельные фрагменты.",
+      "recommended_action": "Оставить единой группой героя и ребёнка, сохранить их объятие, руки и головной убор; удалить машину и остальные отделённые детали фона.",
+      "asset_id": "hero-011_p045_image250",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-011/flagship/hero-011_p045_image250.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-011/01_hero-011_original_master.jpg",
+          "sha256": "3aab29f246b2399ecd6d376e9d0696b5889d5bd46ec44e97e0babc6b5c28dd5b",
+          "bytes": 54318,
+          "width_px": 615,
+          "height_px": 470
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-011/hero-011_p045_image250_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-011/02_hero-011_best_source_upscaled.jpg",
+          "sha256": "04451761b14e32bc349c99e9e966aff226bad2591cbbfd87cb20c9bcd3c8e265",
+          "bytes": 156498,
+          "width_px": 1230,
+          "height_px": 940
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-011/hero-011_p045_image250_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/high/hero-011/03_hero-011_current_cutout_reference.png",
+          "sha256": "f9eb0a967db7ffde1fe16528647e8ab7cada7bdade8cee8de1dcc1e49ca8d3db",
+          "bytes": 866926,
+          "width_px": 1230,
+          "height_px": 940
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 14,
+      "hero_id": "hero-015",
+      "hero_name": "ИЛЬЯ",
+      "priority": "high",
+      "issue": "Маска сохранила снежные ветви за головой и плечом, а также снег и лесные фрагменты возле оружия и нижнего края.",
+      "recommended_action": "Удалить ветви и снег кистью; восстановить дульную часть оружия, ремень, перчатки, капюшон и наружный край зимней формы.",
+      "asset_id": "hero-015_p062_image322",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-015/flagship/hero-015_p062_image322.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-015/01_hero-015_original_master.jpg",
+          "sha256": "31c19fb77503b1e4deeaca708c5eb797170d8759bfaf414b8170cb6b6329da91",
+          "bytes": 48145,
+          "width_px": 381,
+          "height_px": 617
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-015/hero-015_p062_image322_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-015/02_hero-015_best_source_upscaled.jpg",
+          "sha256": "83b5312404f72411a686174e426b4bfa0f5c8f654179775a6995e9f168658f4e",
+          "bytes": 181450,
+          "width_px": 762,
+          "height_px": 1234
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-015/hero-015_p062_image322_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/high/hero-015/03_hero-015_current_cutout_reference.png",
+          "sha256": "b54e2824453366fca320bee23b3004b11ffcc1cc3be92e38721cecbfb4cdcbb2",
+          "bytes": 1423096,
+          "width_px": 762,
+          "height_px": 1234
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 22,
+      "hero_id": "hero-024",
+      "hero_name": "АЛЕКСЕЙ",
+      "priority": "high",
+      "issue": "За шлемом и плечами остался светлый фон, а у оружия и локтей — фрагменты листвы и грунта.",
+      "recommended_action": "Очистить фон вручную, сохранив шлем, бронежилет, стропы, оружие, ремень и обе руки; проверить мелкие просветы между оружием и корпусом.",
+      "asset_id": "hero-024_p086_image430",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-024/flagship/hero-024_p086_image430.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-024/01_hero-024_original_master.jpg",
+          "sha256": "16c6857d266e4607a11a40027b39a7b3fb948173005075935e95f8c6518971d0",
+          "bytes": 32193,
+          "width_px": 291,
+          "height_px": 470
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-024/hero-024_p086_image430_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-024/02_hero-024_best_source_upscaled.jpg",
+          "sha256": "8dafe9f2e2087659e4f6c9d09faa2a4704ac8490ae1cfb9e3e5e4f2d464a76f8",
+          "bytes": 95950,
+          "width_px": 582,
+          "height_px": 940
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-024/hero-024_p086_image430_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/high/hero-024/03_hero-024_current_cutout_reference.png",
+          "sha256": "4b61e17f6935a8697a139aabad0d45fe5d83510089be8a76854f8758e21ce444",
+          "bytes": 784977,
+          "width_px": 582,
+          "height_px": 940
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 27,
+      "hero_id": "hero-029",
+      "hero_name": "АЛЕКСАНДР",
+      "priority": "high",
+      "issue": "Герой и ребёнок соприкасаются; рядом осталась часть третьего человека, а тонкие петли и предмет в руках ребёнка трудно отделяются от фона.",
+      "recommended_action": "Сохранить героя и ребёнка одной группой, включая руку героя, предмет и петли в руках ребёнка; удалить частично видимого постороннего человека и фоновые пятна.",
+      "asset_id": "hero-029_p104_image503",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-029/flagship/hero-029_p104_image503.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-029/01_hero-029_original_master.jpg",
+          "sha256": "4ab9fe15ef46b6071e885e9ff9606035a19bec619b2c7c29a8c1203646900550",
+          "bytes": 26221,
+          "width_px": 291,
+          "height_px": 464
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-029/hero-029_p104_image503_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-029/02_hero-029_best_source_upscaled.jpg",
+          "sha256": "54d1d9beab7a96ff382ea46ee1aa3b1096fb91e31032fde411848c8d580128b3",
+          "bytes": 78399,
+          "width_px": 582,
+          "height_px": 928
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-029/hero-029_p104_image503_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/high/hero-029/03_hero-029_current_cutout_reference.png",
+          "sha256": "c43477479652069e77b380581ceed3bf6230414d140d0f339afd97c795a4852d",
+          "bytes": 450003,
+          "width_px": 582,
+          "height_px": 928
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 45,
+      "hero_id": "hero-047",
+      "hero_name": "АЛЕКСАНДР",
+      "priority": "high",
+      "issue": "Слева осталась отдельная металлическая деталь, у оружия, разгрузки и нижней части фигуры заметны фоновые полосы и цветные остатки.",
+      "recommended_action": "Стереть постороннюю металлическую деталь и фоновые остатки; восстановить оружие, ремни, разгрузку, кисти рук и края формы.",
+      "asset_id": "hero-047_p159_image727",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-047/flagship/hero-047_p159_image727.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-047/01_hero-047_original_master.jpg",
+          "sha256": "293cfc2f18c3ac06cfd9657eb371254915edc55b554a75f6693f3a29b768088c",
+          "bytes": 124093,
+          "width_px": 732,
+          "height_px": 558
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-047/hero-047_p159_image727_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-047/02_hero-047_best_source_upscaled.jpg",
+          "sha256": "e843e6cc37b9e8c5f284b68dee471ea4f2bf574a0621cda5005a051f536e8b03",
+          "bytes": 317054,
+          "width_px": 1464,
+          "height_px": 1116
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-047/hero-047_p159_image727_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/high/hero-047/03_hero-047_current_cutout_reference.png",
+          "sha256": "befa3809d628a2bc08107c5271a6d94ec9778854dfe41e86214bdd191a835c62",
+          "bytes": 707084,
+          "width_px": 1464,
+          "height_px": 1116
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    },
+    {
+      "reference_order": 49,
+      "hero_id": "hero-051",
+      "hero_name": "ВИКТОР",
+      "priority": "high",
+      "issue": "Группа с ребёнком, шарами и тонкими лентами вырезана в целом удачно, но фон остался между шарами и головой ребёнка, а также у правого и нижнего края.",
+      "recommended_action": "Удалить фон в безопасных просветах, сохранив ребёнка, руки, волосы, оба шара, ленты и предмет в руке героя; не разделять фигуры.",
+      "asset_id": "hero-051_p173_image786",
+      "provenance_manifest": "assets/production-ready/manifest.json",
+      "files": [
+        {
+          "role": "documentary_original_master",
+          "original_project_path": "assets/families/hero-051/flagship/hero-051_p173_image786.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-051/01_hero-051_original_master.jpg",
+          "sha256": "117c7c1c76a1ecb69e987f43dd630da90949fa1947277e5c3061ac397d3a887e",
+          "bytes": 30112,
+          "width_px": 291,
+          "height_px": 470
+        },
+        {
+          "role": "best_processing_source",
+          "original_project_path": "assets/production-ready/flagship/hero-051/hero-051_p173_image786_upscaled_2x.jpg",
+          "packaged_file": "assets/manual-cutout-help/high/hero-051/02_hero-051_best_source_upscaled.jpg",
+          "sha256": "608b772002893557364e2635671a134ae49d1455ea4c56d8023e7ae745070f17",
+          "bytes": 86473,
+          "width_px": 582,
+          "height_px": 940
+        },
+        {
+          "role": "current_cutout_for_comparison_only",
+          "original_project_path": "assets/processed-flagships/hero-051/hero-051_p173_image786_nobg.png",
+          "packaged_file": "assets/manual-cutout-help/high/hero-051/03_hero-051_current_cutout_reference.png",
+          "sha256": "93af710960ad29ad9c9b98f5854558de8b1337528cc2f51f14185163ad4d36d2",
+          "bytes": 507451,
+          "width_px": 582,
+          "height_px": 940
+        }
+      ],
+      "status": "ready_for_manual_cutout"
+    }
+  ],
+  "resolved_and_omitted": [
+    {
+      "hero_id": "hero-014",
+      "status": "resolved_white_background",
+      "resolution_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_white_background.png"
+    }
+  ]
+}

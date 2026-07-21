@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-019",
+  "letter_id": "hero-019_p072_image371",
+  "letter_file": "assets/families/hero-019/letters/hero-019_p072_image371.jpg",
+  "source_transcription_file": "assets/families/hero-019/transcriptions/hero-019_p072_image371_source.txt",
+  "print_transcription_file": "assets/families/hero-019/transcriptions/hero-019_p072_image371_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Начало одной строки физически отсутствует в извлечённом изображении."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-076",
+  "letter_id": "hero-076_p255_image1106",
+  "letter_file": "assets/families/hero-076/letters/hero-076_p255_image1106.jpg",
+  "source_transcription_file": "assets/families/hero-076/transcriptions/hero-076_p255_image1106_source.txt",
+  "print_transcription_file": "assets/families/hero-076/transcriptions/hero-076_p255_image1106_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Подпись на физическом фрагменте отсутствует; имя автора не добавлено из других источников."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

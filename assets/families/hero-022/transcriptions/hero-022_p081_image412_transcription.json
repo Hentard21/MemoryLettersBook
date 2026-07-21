@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-022",
+  "letter_id": "hero-022_p081_image412",
+  "letter_file": "assets/families/hero-022/letters/hero-022_p081_image412.jpg",
+  "source_transcription_file": "assets/families/hero-022/transcriptions/hero-022_p081_image412_source.txt",
+  "print_transcription_file": "assets/families/hero-022/transcriptions/hero-022_p081_image412_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Фамилия в первой и последней строках читается неуверенно и не подменена данными манифеста."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

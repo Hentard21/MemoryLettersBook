@@ -68,14 +68,15 @@
       "notes": "Нативный поток из source/reference.pdf без повторного сжатия; несколько сопоставимых лиц",
       "legacy_source_pdf_page": 56,
       "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
-      "print_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_upscaled_2x.jpg",
-      "print_sha256": "d0e8b8672f2dd9ddfdc57ad649017510d1deb8b0741e88d3ef5be3cc703ef564",
-      "print_width_px": 1230,
-      "print_height_px": 940,
+      "print_file": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_white_background.png",
+      "print_sha256": "f4be0778b5e24ec1654291cafeca83e0d30e20e206400f7c2b2cd8a531e4de55",
+      "print_width_px": 1448,
+      "print_height_px": 1086,
       "gigapixel_status": "completed",
       "print_qa_status": "ready_for_layout",
       "layout_role": "hero_flagship",
-      "selection_confidence": "medium"
+      "selection_confidence": "high",
+      "notes_print": "Версия владельца с чистым белым фоном; группа сохраняется целиком и растворяется в светлой странице режимом multiply."
     },
     {
       "asset_id": "hero-014_p057_image307",

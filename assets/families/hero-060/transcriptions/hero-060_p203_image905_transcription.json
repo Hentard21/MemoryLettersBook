@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-060",
+  "letter_id": "hero-060_p203_image905",
+  "letter_file": "assets/families/hero-060/letters/hero-060_p203_image905.jpg",
+  "source_transcription_file": "assets/families/hero-060/transcriptions/hero-060_p203_image905_source.txt",
+  "print_transcription_file": "assets/families/hero-060/transcriptions/hero-060_p203_image905_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Несколько грамматически необычных строк стихотворения сохранены без смыслового переписывания."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

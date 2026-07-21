@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-037",
+  "letter_id": "hero-037_p129_image609",
+  "letter_file": "assets/families/hero-037/letters/hero-037_p129_image609.jpg",
+  "source_transcription_file": "assets/families/hero-037/transcriptions/hero-037_p129_image609_source.txt",
+  "print_transcription_file": "assets/families/hero-037/transcriptions/hero-037_p129_image609_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Фамилии в двух подписях читаются неуверенно; имя Иркен из манифеста на скане не обнаружено и не добавлено."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

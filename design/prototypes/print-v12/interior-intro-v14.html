@@ -1,0 +1,310 @@
+<!doctype html><html lang=ru><head><meta charset=utf-8><title>Письма памяти — вводный блок и первая семья</title><style>
+@font-face{font-family:Onest;src:url('../../fonts/Onest.ttf');font-display:block}
+@font-face{font-family:Golos;src:url('../../fonts/GolosText.ttf');font-display:block}
+@font-face{font-family:Marck;src:url('../../fonts/MarckScript.ttf');font-display:block}
+:root{--page_background:#f3f2ee;--paper_background:#fbfbf9;--primary_navy:#223b5e;--accent_burgundy:#873f46;
+--body_text:#262b33;--secondary_text:#6f7680;--gold_accent:#a9863c;--line:#e0ddd6;
+--head:Onest,Arial,sans-serif;--body:Golos,Arial,sans-serif;--script:Marck,cursive}
+*{box-sizing:border-box;margin:0}
+@page{size:526mm 206mm;margin:0}
+html,body{background:#8b8e92;font-family:var(--body);color:var(--body_text);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.sheet{position:relative;width:526mm;height:206mm;overflow:hidden;page-break-after:always;background:var(--page_background)}
+.page{position:absolute;top:3mm;width:260mm;height:200mm;overflow:hidden}
+.left{left:3mm}.right{left:263mm}
+.sheet::after{content:"";position:absolute;top:3mm;bottom:3mm;left:262.8mm;width:.2mm;background:rgba(34,59,94,.09);z-index:20}
+.safe{position:absolute;top:15mm;bottom:16mm;left:17mm;right:17mm}
+.right .safe{left:21mm;right:17mm}
+.folio,.run{position:absolute;bottom:9mm;z-index:30;font:500 7.2pt/1 var(--head);color:var(--secondary_text)}
+.left .folio{left:17mm}.right .folio{right:17mm}
+.run{font-size:6pt;letter-spacing:.14em;text-transform:uppercase}.left .run{right:21mm}.right .run{left:21mm}
+.wm{position:absolute;right:6mm;top:5mm;z-index:31;font:600 5.6pt/1 var(--head);letter-spacing:.18em;text-transform:uppercase;color:rgba(90,98,108,.42)}
+.kicker{font:700 7.4pt/1.35 var(--head);letter-spacing:.15em;text-transform:uppercase;color:var(--primary_navy)}
+
+/* ---- VIP: приём флагмана Анастасии + полное приветствие ---- */
+.vip-open{background:linear-gradient(122deg,#f5f4f0,#ebe9e3);overflow:hidden}
+.vip-open .run{display:none}
+.vip-map{position:absolute;left:-10mm;top:25mm;width:248mm;height:165mm;object-fit:contain;opacity:.13;z-index:1}
+.vip-vignette{position:absolute;inset:0;z-index:2;
+  background:radial-gradient(120% 90% at 55% 45%, rgba(243,242,238,0) 40%, rgba(243,242,238,.85) 82%, #f3f2ee 100%)}
+.vip-cutout{position:absolute;right:0;bottom:-1mm;height:189mm;width:158mm;object-fit:contain;object-position:right bottom;z-index:5}
+.vip-cutout.belyaninov{right:1mm;height:187mm}.vip-cutout.smirnova{right:-1mm;height:190mm}
+.vip-cutout.tengebaeva{right:1mm;height:189mm}.vip-cutout.makarychev{right:-1mm;height:190mm}
+.vip-meta{position:absolute;left:17mm;top:20mm;z-index:7;width:120mm}
+.vip-meta h1{margin-top:3mm;font:800 27pt/1.04 var(--head);color:var(--primary_navy)}
+.vip-meta .role{margin-top:4mm;font:500 8.6pt/1.4 var(--body);color:var(--secondary_text);max-width:96mm}
+.vip-meta hr{width:20mm;height:.5mm;background:var(--gold_accent);border:0;margin:5mm 0 0;opacity:.85}
+.vip-signature{position:absolute;left:19mm;bottom:24mm;z-index:7;object-fit:contain;object-position:left bottom;opacity:.95}
+.vip-signature.shumilov{width:32mm;height:57mm}.vip-signature.makarychev{width:50mm;height:33mm}
+.vip-signature-label{position:absolute;left:19mm;bottom:18mm;z-index:7;font:600 5.6pt/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--secondary_text)}
+
+.greet{background:var(--paper_background)}
+.greet .safe{top:10mm;bottom:10mm;display:flex;flex-direction:column}
+.greet .eyebrow{text-align:center;font:700 7pt/1.3 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--primary_navy)}
+.greet h2{margin-top:1.5mm;text-align:center;font:750 18pt/1.05 var(--head);color:var(--primary_navy)}
+.greet .role{margin:2.2mm auto 0;max-width:206mm;text-align:center;font:500 7.2pt/1.32 var(--body);color:var(--secondary_text)}
+.greet .lead{position:relative;margin:3mm auto 3.2mm;width:196mm;padding:4mm 10mm 3.8mm 12mm;background:#f7f3eb;
+  border-left:1mm solid var(--accent_burgundy);box-shadow:0 .7mm 2mm rgba(38,43,48,.10);
+  text-align:left;font:400 14.5pt/1.15 var(--script);color:var(--accent_burgundy)}
+.greet .lead::before{content:"Из приветственного слова";display:block;margin-bottom:1.3mm;font:700 5.5pt/1 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--primary_navy)}
+.greet .lead::after{content:"“";position:absolute;left:3mm;top:8mm;font:400 24pt/1 var(--script);color:rgba(135,63,70,.28)}
+.greet .copy{columns:2;column-gap:9mm;column-rule:.2mm solid var(--line);column-fill:balance;
+  font:400 9.35pt/1.45 var(--body);color:var(--body_text);text-align:left;flex:1}
+.greet .copy p{margin-bottom:2.3mm}.greet .copy .salutation{font-weight:650;color:var(--primary_navy);text-align:left}
+.greet .copy .salutation+p::first-letter{font:800 19pt/1 var(--head);color:var(--accent_burgundy);float:left;margin:1mm 2mm 0 0}
+.greet .ending{margin-top:2.7mm;text-align:center;font:750 9.6pt/1.2 var(--head);color:var(--accent_burgundy)}
+.greet .sig{margin:2.7mm 12mm 0 auto;padding-top:2.2mm;width:205mm;border-top:.2mm solid var(--line);text-align:right;font:500 6.4pt/1.32 var(--body);color:var(--secondary_text)}
+
+/* ---- карта: география акции и состав первого тома ---- */
+.map-spread{background:linear-gradient(120deg,#f5f4f0,#ececE6)}
+.map-title{position:absolute;left:20mm;top:23mm;z-index:5;width:205mm}
+.map-title h1{font:800 30pt/1.03 var(--head);color:var(--primary_navy)}
+.map-title .sub{margin-top:5mm;font:400 10pt/1.45 var(--body);color:var(--body_text);max-width:192mm}
+.map-stats{position:absolute;left:20mm;right:18mm;bottom:23mm;z-index:5;display:grid;grid-template-columns:1fr 1fr;gap:3mm 4mm}
+.map-stat{padding:4mm 5mm;background:rgba(251,251,249,.96);border-left:.8mm solid var(--accent_burgundy);box-shadow:0 .7mm 2mm rgba(38,43,48,.08)}
+.map-stat strong{display:block;font:800 18pt/1 var(--head);color:var(--primary_navy)}
+.map-stat span{display:block;margin-top:1.3mm;font:600 6.5pt/1.28 var(--head);letter-spacing:.04em;text-transform:uppercase;color:var(--secondary_text)}
+.map-stat.wide{grid-column:1/-1}.map-stat.wide strong{font-size:12.5pt}.map-stat.wide span{text-transform:none;font:500 7.1pt/1.35 var(--body);letter-spacing:0}
+.map-canvas{position:absolute;inset:0;background:radial-gradient(circle at 58% 47%,rgba(255,255,255,.72),rgba(236,236,230,.35) 62%,rgba(236,236,230,.95))}
+.map-big{position:absolute;left:16mm;right:14mm;top:22mm;width:226mm;height:150mm;object-fit:contain;object-position:center;opacity:.98}
+.map-badge{position:absolute;left:22mm;bottom:21mm;width:208mm;padding:4.5mm 6mm;background:rgba(251,251,249,.96);border-left:1mm solid var(--accent_burgundy);box-shadow:0 .8mm 2mm rgba(38,43,48,.10)}
+.map-badge strong{display:block;font:800 14pt/1.1 var(--head);color:var(--primary_navy)}
+.map-badge span{display:block;margin-top:1.5mm;font:500 7pt/1.35 var(--body);color:var(--secondary_text)}
+
+/* ---- фотохроника: пять фото из стр. 8–9 оригинала ---- */
+.event-spread,.event-page{background:var(--page_background)}
+.event-head{position:absolute;left:17mm;top:13mm;z-index:8}.event-head h2{margin-top:2mm;font:800 21pt/1.05 var(--head);color:var(--primary_navy)}
+.event-card{position:absolute;z-index:4;margin:0;overflow:hidden;background:#f3f2ee;box-shadow:0 .55mm 1.5mm rgba(38,43,48,.11)}
+.event-card img{width:100%;height:100%;object-fit:contain;display:block;background:#f3f2ee}
+.event-card figcaption{position:absolute;left:0;right:0;bottom:0;padding:2.1mm 2.8mm 2.3mm 3.5mm;background:rgba(251,251,249,.95);border-left:.8mm solid var(--accent_burgundy);font:500 5.9pt/1.28 var(--body);color:var(--body_text)}
+.event-card figcaption b{font:700 5.8pt/1.2 var(--head);letter-spacing:.05em;color:var(--primary_navy)}
+.ev-award{left:17mm;top:38mm;width:118mm;height:80.4mm}.ev-house{left:17mm;top:123mm;width:103mm;height:60.7mm}.ev-museum{left:140mm;top:38mm;width:101mm;height:135mm}
+.ev-award>img,.ev-house>img,.ev-museum>img{transform:scale(1.045)}
+.ev-award figcaption{font-size:5.45pt}.ev-house figcaption{font-size:5.65pt}.ev-museum figcaption{font-size:5.35pt}
+.ev-dialog,.ev-december{width:219mm;overflow:visible;background:transparent;box-shadow:none}
+.ev-dialog{left:21mm;top:18mm;height:111mm}.ev-december{left:21mm;top:125mm;height:59mm}
+.event-image{position:absolute;overflow:hidden;background:#f3f2ee;box-shadow:0 .45mm 1.2mm rgba(38,43,48,.09)}
+.event-image img{width:100%;height:100%;object-fit:cover;transform:scale(1.045)}
+.ev-dialog .event-image{left:0;top:0;width:148mm;height:111mm}.ev-december .event-image{left:0;top:0;width:95mm;height:59mm}
+.ev-dialog figcaption{left:143mm;right:auto;top:17mm;bottom:auto;width:76mm;min-height:50mm;padding:5mm 5mm 5mm 7mm;font-size:6.55pt;line-height:1.34;box-shadow:0 .45mm 1.2mm rgba(38,43,48,.08)}
+.ev-december figcaption{left:90mm;right:auto;top:8mm;bottom:auto;width:129mm;min-height:34mm;padding:4.5mm 5mm 4.5mm 7mm;font-size:6.35pt;line-height:1.34;box-shadow:0 .45mm 1.2mm rgba(38,43,48,.08)}
+
+/* ---- эталон первой семьи: без изменения контента ---- */
+.hero-open{background:linear-gradient(122deg,#f5f4f0,#ebe9e3)}
+.hero-map{position:absolute;left:8mm;top:34mm;width:244mm;height:150mm;object-fit:contain;object-position:center;opacity:.62;z-index:1}
+.hero-cutout{position:absolute;left:92mm;bottom:-1mm;width:152mm;height:193mm;object-fit:contain;object-position:center bottom;z-index:4}
+.hero-meta{position:absolute;left:20mm;top:18mm;z-index:7;width:120mm}.hero-meta h1{margin-top:3mm;font:800 29pt/1.04 var(--head);color:var(--primary_navy)}
+.hero-meta .who{margin-top:2.6mm;font:500 9.6pt/1.35 var(--body);color:var(--secondary_text)}
+.hero-symbols{position:absolute;left:20mm;top:80mm;z-index:7;display:flex;align-items:center;gap:5mm}.hero-symbols img{display:block;object-fit:contain}.hero-symbols .medal{width:19mm;height:31mm}.hero-symbols .emblem{width:24mm;height:29mm}
+.hero-quote{position:absolute;left:20mm;bottom:28mm;z-index:7;width:106mm;padding:5mm 7mm 5.4mm 9mm;background:var(--paper_background);border-left:1mm solid var(--accent_burgundy);box-shadow:0 .8mm 2.2mm rgba(38,43,48,.10)}
+.hero-quote .label{font:700 6.3pt/1.2 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--primary_navy)}.hero-quote .quote{margin-top:2mm;font:400 16pt/1.24 var(--script);color:var(--accent_burgundy)}
+.letter-page{background:linear-gradient(112deg,#f4f3ef,#ebe9e3)}.letter-page::before{content:"";position:absolute;inset:0;background:url('assets/letters/hero-001_letter_01_feathered.png') 47% 52%/56% auto no-repeat;opacity:.22;filter:grayscale(.3) contrast(.96);mix-blend-mode:multiply;transform:rotate(-.5deg);z-index:0}
+.letter-heading{position:absolute;left:16mm;top:11mm;z-index:8;font:700 6.6pt/1.2 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--primary_navy)}
+.lp-photo,.lp-drawing{position:absolute;z-index:4;margin:0;overflow:hidden;background:#eceae4;border:.35mm solid #fff;box-shadow:0 .9mm 1.9mm rgba(38,43,48,.14)}.lp-photo img,.lp-drawing img{width:100%;height:100%;display:block;object-fit:contain;background:#eceae4}.lp-drawing img{background:var(--paper_background)}
+.lp-photo figcaption{position:absolute;left:0;bottom:0;padding:1.6mm 2.6mm;background:rgba(251,251,249,.94);font:700 5.2pt/1.2 var(--head);letter-spacing:.09em;text-transform:uppercase;color:var(--primary_navy)}
+.lp-group{left:16mm;top:20mm;width:51mm;height:82mm}.lp-igor{left:16mm;top:106mm;width:51mm;height:82mm}.lp-drawing{left:72mm;top:112mm;width:42mm;height:68mm;z-index:5}
+.transcript-card{position:absolute;left:120mm;top:22mm;width:120mm;z-index:6;padding:8mm 9mm 7mm;background:var(--paper_background);border:.3mm solid var(--line);box-shadow:0 1.4mm 3.4mm rgba(52,51,47,.14)}
+.transcript-card .tc-label{font:700 6.2pt/1.3 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--secondary_text)}.transcript-card hr{width:18mm;height:.5mm;background:var(--gold_accent);border:0;margin:2.5mm 0 4mm;opacity:.8}.transcript-card .transcript{font:400 12.5pt/1.5 var(--script);color:#2b2a28}.transcript-card .transcript p{margin-bottom:2.6mm}.transcript-card .transcript .verse{margin:3.6mm 0;padding-left:4mm;border-left:.5mm solid rgba(135,63,70,.4)}.transcript-card .tc-source-note{margin-top:3mm;font:500 5.5pt/1.35 var(--body);color:var(--secondary_text)}.transcript-card .tc-date{margin-top:3mm;padding-top:2.5mm;border-top:.2mm solid var(--line);font:500 7.4pt/1.3 var(--body);letter-spacing:.05em;color:var(--secondary_text)}
+.editorial-hidden{display:none}
+</style></head><body>
+<section class="sheet map-spread">
+  <div class="page left"><div class="map-title">
+    <p class="kicker">География памяти</p>
+    <h1>Вся Россия —<br>одна память</h1>
+    <p class="sub">Авторы книги — дети героев из разных регионов России.<br>Эта книга объединяет голоса семей со всей страны.</p>
+  </div>
+  <div class="map-stats">
+    <div class="map-stat"><strong>74</strong><span>семьи</span></div>
+    <div class="map-stat"><strong>78</strong><span>писем и рукописей</span></div>
+    <div class="map-stat wide"><strong>Вся Россия — от Калининграда до Камчатки</strong><span>республики, края, области и города-герои</span></div>
+  </div>
+  <span class="folio">3</span><span class="run">Первый том · география семей</span></div>
+  <div class="page right"><div class="map-canvas">
+    <img class="map-big" src="assets/maps/russia-action-participants-schematic-commons.svg" alt="География участников всероссийской акции">
+    <div class="map-badge"><strong>89 субъектов РФ — участники акции</strong><span>«Встреча детей Героев с городами-героями»</span></div>
+  </div><span class="folio">4</span><span class="run">География акции</span></div>
+  <span class="wm">ПРОТОТИП</span>
+</section>
+<section class="sheet">
+  <div class="page left vip-open">
+    <img class="vip-map" src="assets/maps/russia-action-participants-schematic-commons.svg" alt="Карта России">
+    <div class="vip-vignette"></div>
+    <div class="vip-meta">
+      <p class="kicker">Межгосударственный союз городов-героев</p>
+      <h1>Л. В. Шумилов</h1>
+      <p class="role">Сопредседатель Президиума Межгосударственного союза городов-героев, генерал-полковник</p>
+      <hr>
+    </div>
+    <img class="vip-signature shumilov" src="../../../assets/intro-people/signatures/shumilov_signature_display.png" alt="Подлинная подпись Л. В. Шумилова"><span class="vip-signature-label">Подлинная подпись</span>
+    <img class="vip-cutout shumilov" src="../../../assets/intro-people/cutouts-pro/shumilov_nobg.png" alt="Л. В. Шумилов">
+    <span class="folio">5</span><span class="run">Приветственное слово</span>
+  </div>
+  <div class="page right greet"><div class="safe">
+    <p class="eyebrow">Межгосударственный союз городов-героев</p>
+    <h2>Приветственное слово</h2>
+    <p class="role">Сопредседатель Президиума Межгосударственного союза городов-героев, генерал-полковник Л. В. Шумилов</p>
+    <p class="lead">Великая Россия всегда держалась на единстве ратного подвига и созидательного духа.</p>
+    <div class="copy"><p class="salutation">Дорогие мои ребята, юные авторы этой священной Книги!</p><p>Я держу в руках наш Первый том «ПИСЬМА ПАМЯТИ» и читаю ваши пронзительные, искренние строчки. Каждое ваше слово, написанное детской рукой о своем отце, наполнено такой святой любовью, гордостью и силой духа, что у нас, седых генералов, наворачиваются слезы на глаза. Вы абсолютно правы: ваши отцы — великие, настоящие Герои, которые совершили высший человеческий подвиг, защищая мирное небо над нашей Родиной, и навсегда вписали свои имена в вечную летопись Отечества. Вся наша Держава свято чтит и помнит их бессмертную ратную славу.</p><p>Вся моя долгая жизнь была посвящена строительству военной, оборонной и космической мощи нашей страны. И сегодня, читая ваши эссе, я хочу передать вам один важнейший жизненный вектор. Великая Россия всегда держалась на единстве ратного подвига и созидательного духа. Защита наших рубежей на фронте и добросовестный, честный созидательный труд в тылу — это две нерасторжимые грани служения Родине.</p><p>Пример покорителя космоса Валерия Токарева и легендарного строителя Алексея Макарычева наглядно доказывает вам, что доблестный мирный труд, верность долгу и научные открытия во имя России ставят созидателей в один нерушимый ряд с вашими мужественными отцами-защитниками. Вся наша Держава — это единый монолит чести и верности долгу. Вы — дети настоящих Героев, и по праву являетесь главным достоянием нашей страны. Растите честными, сильными, учитесь и трудитесь во имя России, крепко любите свою Родину и будьте во всем достойными подвига ваших отцов!</p></div>
+    <p class="ending">Мы гордимся вами!</p>
+    <p class="sig">Сопредседатель Президиума Межгосударственного союза городов-героев, генерал-полковник Л. В. Шумилов 25 июня 2026 года</p>
+  </div><span class="folio">6</span><span class="run">Л. В. Шумилов</span></div>
+  <span class="wm">ПРОТОТИП</span>
+</section>
+<section class="sheet">
+  <div class="page left vip-open">
+    <img class="vip-map" src="assets/maps/russia-action-participants-schematic-commons.svg" alt="Карта России">
+    <div class="vip-vignette"></div>
+    <div class="vip-meta">
+      <p class="kicker">Межгосударственный союз городов-героев</p>
+      <h1>А. А. Макарычев</h1>
+      <p class="role">Председатель Президиума Межгосударственного Союза Городов-Героев, Герой Социалистического Труда, генерал-лейтенант</p>
+      <hr>
+    </div>
+    <img class="vip-signature makarychev" src="../../../assets/intro-people/signatures/makarychev_signature_display.png" alt="Подлинная подпись А. А. Макарычева"><span class="vip-signature-label">Подлинная подпись</span>
+    <img class="vip-cutout makarychev" src="../../../assets/intro-people/cutouts-pro/makarychev_nobg.png" alt="А. А. Макарычев">
+    <span class="folio">7</span><span class="run">Приветственное слово</span>
+  </div>
+  <div class="page right greet"><div class="safe">
+    <p class="eyebrow">Межгосударственный союз городов-героев</p>
+    <h2>Приветственное слово</h2>
+    <p class="role">Председатель Президиума Межгосударственного Союза Городов-Героев, Герой Социалистического Труда, генерал-лейтенант А. А. Макарычев</p>
+    <p class="lead">Труд во благо Родины — это тоже великое служение</p>
+    <div class="copy"><p class="salutation">Дорогие юные авторы этой замечательной Книги!</p><p>Я читаю ваши рассказы, и моё сердце наполняется огромной гордостью за каждого из вас. Сколько в ваших строчках тепла, искренности и настоящего мужества! Вы так здорово, своими чистыми детскими словами рассказали всей стране о своих папах. Ваши отцы — великие Герои, чьё мужество и верность присяге защитили наше Отечество.</p><p>Их ратный подвиг священен, и вся Россия преклоняется перед их бессмертной славой. Всю свою жизнь я строил большие города, возводил базу атомных подводных лодок в Гремихе, радиолокационные станции в Оленегорске и создавал космодром «Байконур». Пройдя этот путь, я абсолютно убежден: великое наследие наших защитников продолжается в созидании. Честный, доблестный труд инженера, строителя, ученого или врача, отдающего душу своему делу, намертво скрепляет мощь нашей Державы.</p><p>Труд во благо Родины — это тоже великое служение, которое стоит плечом к плечу с ратной доблестью ваших отцов. Мы с моим Учителем по жизни и моим командиром, и старшим другом, с кем дружим более шестидесяти лет - генерал-полковником Леонидом Вениаминовичем Шумиловым, очень хотим, чтобы это единство ратной и созидательной славы стало вашим главным жизненным ориентиром. Вы — дети Героев, надежда и будущее России. Учитесь с интересом, идите вперед с доброй улыбкой и созидайте во имя нашей Отчизны.</p><p>Совсем скоро на священной сталинградской земле мы соберемся вместе на нашей Встрече Трех Поколений.</p></div>
+    <p class="ending">Вперед и только с верой в победу!</p>
+    <p class="sig">Председатель Президиума Межгосударственного Союза Городов-Героев, Герой Социалистического Труда, генерал-лейтенант А. А. Макарычев 25 июня 2026 года</p>
+  </div><span class="folio">8</span><span class="run">А. А. Макарычев</span></div>
+  <span class="wm">ПРОТОТИП</span>
+</section>
+<section class="sheet">
+  <div class="page left vip-open">
+    <img class="vip-map" src="assets/maps/russia-action-participants-schematic-commons.svg" alt="Карта России">
+    <div class="vip-vignette"></div>
+    <div class="vip-meta">
+      <p class="kicker">Ассамблея Народов Мира</p>
+      <h1>А. Ю. Белянинов</h1>
+      <p class="role">Генеральный секретарь Международного союза неправительственных организаций «Ассамблея Народов Мира», доктор экономических наук</p>
+      <hr>
+    </div>
+    <img class="vip-cutout belyaninov" src="../../../assets/intro-people/cutouts-pro/belyaninov_v2_nobg.png" alt="А. Ю. Белянинов">
+    <span class="folio">9</span><span class="run">Приветственное слово</span>
+  </div>
+  <div class="page right greet"><div class="safe">
+    <p class="eyebrow">Ассамблея Народов Мира</p>
+    <h2>Приветственное слово</h2>
+    <p class="role">Генеральный секретарь Международного союза неправительственных организаций «Ассамблея Народов Мира», доктор экономических наук А. Ю. Белянинов</p>
+    <p class="lead">Помните: за вашими плечами стоит вся огромная Россия.</p>
+    <div class="copy"><p class="salutation">Дорогие ребята, юные авторы Всероссийской Книги Памяти!</p><p>Уважаемые читатели! От имени Международного союза неправительственных организаций «Ассамблея Народов Мира» и от себя лично искренне приветствую вас на страницах Первого тома уникального фолианта «ПИСЬМА ПАМЯТИ», издание которого приурочено к объявленному Президентом России В. В. Путиным Году народного единства.</p><p>Каждое рукописное эссе, каждое стихотворение и рисунок в этой Книге — это не просто творчество, это живой, нерушимый монумент духа нашего народа. Сегодня, когда Россия проходит через время суровых исторических испытаний, ваши искренние детские строки из всех 89 регионов страны демонстрируют всему миру абсолютное, неустрашимое единство гражданского общества перед лицом любой смертельной опасности. Вы — дети истинных Героев Отечества, чьи отцы, гвардии майоры, офицеры и рядовые бойцы, до последнего патрона и до последнего вздоха защищали будущее нашей многонациональной Родины. Они принадлежали к разным культурам и национальностям, но их объединяла верность одной присяге и одной великой Отчизне.</p><p>Вы унаследовали их мужество и гордость. Помните: за вашими плечами стоит вся огромная Россия. Мы свято храним память о подвиге ваших семей и сделаем всё, чтобы поддержать вас на пути созидания. Низкий поклон матерям Героев за воспитание достойной смены.</p></div>
+    <p class="ending">До встречи в городе-герое Волгограде!</p>
+    <p class="sig">Генеральный секретарь Международного союза неправительственных организаций «Ассамблея Народов Мира» доктор экономических наук А. Ю. Белянинов 25 июня 2026 года</p>
+  </div><span class="folio">10</span><span class="run">А. Ю. Белянинов</span></div>
+  <span class="wm">ПРОТОТИП</span>
+</section>
+<section class="sheet event-spread">
+  <div class="page left event-page">
+    <div class="event-head"><p class="kicker">«Диалог поколений. Герои и дети»</p><h2>Всероссийская<br>общественно-патриотическая акция</h2></div>
+    <figure class="event-card ev-award"><img src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p008_image01_production.png" alt="Награждение Л. В. Шумилова"><figcaption><b>9 июня 2025 года</b> в зале торжественных мероприятий Министерства обороны Российской Федерации министр обороны РФ Андрей Белоусов наградил Сопредседателя Президиума Межгосударственного Союза Городов-Героев генерал-полковника Л. В. Шумилова орденом Александра Невского.</figcaption></figure>
+    <figure class="event-card ev-house"><img src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p008_image03_production.png" alt="Встреча в Московском доме национальностей"><figcaption><b>7 мая 2025 года</b><br>«Диалог поколений. Герои и дети». ГБУ «Московский дом национальностей».</figcaption></figure>
+    <figure class="event-card ev-museum"><img src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p008_image02_production.png" alt="Встреча в Музее ВМФ России"><figcaption><b>25 июля 2025 года</b><br>«Диалог поколений. Герои и дети»: полковник В. Л. Быков из Санкт-Петербурга, Артемий из Улан-Удэ, генерал-полковник Л. В. из Москвы, Кирилл из города Североморск Мурманской области, генерал-лейтенант А. А. Макарычев из Москвы. Музей ВМФ России.</figcaption></figure>
+    <span class="folio">11</span><span class="run">Диалог поколений · хроника</span>
+  </div>
+  <div class="page right event-page">
+    <figure class="event-card ev-december"><div class="event-image"><img src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p009_image01_production.png" alt="Всероссийская общественно-патриотическая акция"></div><figcaption><b>24 декабря 2025 года</b><br>Всероссийская общественно-патриотическая акция «Диалог поколений. Герои и дети» в Культурном центре Главного управления Дипломатического корпуса Министерства иностранных дел Российской Федерации.</figcaption></figure>
+    <figure class="event-card ev-dialog"><div class="event-image"><img src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p009_image02_production.png" alt="Диалог А. А. Макарычева и Тимура Мухаметгалина"></div><figcaption><b>24 декабря 2025 года</b><br>Диалог между Героем Социалистического Труда, генерал-лейтенантом А. А. Макарычевым и сыном Героя СВО из Ханты-Мансийского автономного округа Тимуром Мухаметгалиным.</figcaption></figure>
+    <span class="folio">12</span><span class="run">Диалог поколений · хроника</span>
+  </div>
+  <span class="wm">ПРОТОТИП</span>
+</section>
+<section class="sheet">
+  <div class="page left vip-open">
+    <img class="vip-map" src="assets/maps/russia-action-participants-schematic-commons.svg" alt="Карта России">
+    <div class="vip-vignette"></div>
+    <div class="vip-meta">
+      <p class="kicker">Сенежский форум</p>
+      <h1>С. К. Смирнова</h1>
+      <p class="role">Председатель ООД «Сенежский форум», член Совета при Президенте РФ по межнациональным отношениям</p>
+      <hr>
+    </div>
+    <img class="vip-cutout smirnova" src="../../../assets/intro-people/cutouts-pro/smirnova_nobg.png" alt="С. К. Смирнова">
+    <span class="folio">13</span><span class="run">Приветственное слово</span>
+  </div>
+  <div class="page right greet"><div class="safe">
+    <p class="eyebrow">Сенежский форум</p>
+    <h2>Приветственное слово</h2>
+    <p class="role">Председатель ООД «Сенежский форум», член Совета при Президенте РФ по межнациональным отношениям С. К. Смирнова</p>
+    <p class="lead">мы сильны своим многообразием и абсолютно едины в своей преданности Родине.</p>
+    <div class="copy"><p class="salutation">Дорогие ребята, юные авторы Всероссийской Книги «ПИСЬМА ПАМЯТИ»!</p><p>Уважаемые читатели! От имени Общероссийского общественного движения «Сенежский форум» и от себя лично искренне приветствую вас на страницах Первого тома уникального фолианта «ПИСЬМА ПАМЯТИ», издаваемого в ознаменование Года народного единства, объявленного Президентом Российской Федерации В.В. Путиным.</p><p>Эта Книга — не просто сборник эссе, это живое свидетельство величия, стойкости и нерасторжимой духовной связи народов нашей Отчизны. В Совет по межнациональным отношениям при Президенте РФ регулярно поступают свидетельства того, как общая память и общая гордость сплачивают наше общество. И сегодня ваши искренние, идущие от самого сердца рукописные сочинения из всех 89 регионов России наглядно демонстрируют всему миру: мы сильны своим многообразием и абсолютно едины в своей преданности Родине. Вы — дети истинных Героев Отечества, чьи мужественные отцы пожертвовали жизнями ради того, чтобы наша страна развивалась, процветала и уверенно смотрела в будущее.</p><p>Ваши отцы говорили на разных языках, принадлежали к разным национальностям, культурам и вероисповеданиям, но у них была одна общая великая Родина — Россия. И они защищали её плечом к плечу, как единая нерушимая семья. Вы, авторы этой Книги, унаследовали от своих отцов самое главное богатство — их великий дух, неустрашимость и верность долгу. Помните, что за вашими плечами стоит вся наша огромная многонациональная страна, которая гордится вами и всегда будет помнить подвиг ваших семей.</p><p>Низкий поклон матерям и женам Героев за воспитание достойного поколения.</p></div>
+    <p class="ending">Желаю вам, дорогие ребята, крепости духа, успехов в учебе и созидании на благо нашей великой Отчизны!</p>
+    <p class="sig">Председатель ООД «Сенежский форум», член Совета при Президенте РФ по межнациональным отношениям С. К. Смирнова 25 июня 2026 года</p>
+  </div><span class="folio">14</span><span class="run">С. К. Смирнова</span></div>
+  <span class="wm">ПРОТОТИП</span>
+</section>
+<section class="sheet">
+  <div class="page left vip-open">
+    <img class="vip-map" src="assets/maps/russia-action-participants-schematic-commons.svg" alt="Карта России">
+    <div class="vip-vignette"></div>
+    <div class="vip-meta">
+      <p class="kicker">АНО «Диалог поколений. Герои и дети»</p>
+      <h1>А. А. Тенгебаева</h1>
+      <p class="role">Президент АНО «Диалог поколений. Герои и дети»</p>
+      <hr>
+    </div>
+    <img class="vip-cutout tengebaeva" src="../../../assets/intro-people/cutouts-pro/tengebaeva_nobg.png" alt="А. А. Тенгебаева">
+    <span class="folio">15</span><span class="run">Приветственное слово</span>
+  </div>
+  <div class="page right greet"><div class="safe">
+    <p class="eyebrow">АНО «Диалог поколений. Герои и дети»</p>
+    <h2>Приветственное слово</h2>
+    <p class="role">Президент АНО «Диалог поколений. Герои и дети» А. А. Тенгебаева</p>
+    <p class="lead">но все они абсолютно равны и нерасторжимы, поскольку имеют одну общую, великую и священную Родину — Россию!</p>
+    <div class="copy"><p class="salutation">Дорогие юные авторы книги "ПИСЬМА ПАМЯТИ"!</p><p>Издание книги-фолианта «ПИСЬМА ПАМЯТИ» приурочено к объявленному Президентом России В. В. Путиным Годом народного единства и призвано всесторонне объединить детей наших Героев со всей Российской Федерации. Уникальность данного фундаментального издания заключается в том, что оно собирает вместе под одной обложкой детей, изначально говорящих на разных родных языках, но имеющих один великий общий русский межнациональный язык.</p><p>Наша Книга объединяет юных авторов, живущих в самых разных, уникальных уголках России — там, где веками бок о бок созидают разные национальности, бережно хранящие свои уникальные культуры, самобытные традиции и вероисповедания. Из-за расовой принадлежности и этнических особенностей эти дети могут даже визуально выглядеть по-разному, но все они абсолютно равны и нерасторжимы, поскольку имеют одну общую, великую и священную Родину — Россию! Всероссийская Книга-фолиант «ПИСЬМА ПАМЯТИ» — это живой монумент, наполненный чистыми сердечными сочинениями детей, чьи мужественные отцы до последнего вздоха сражались и погибли за Россию. От всего сердца выражаю глубокую благодарность каждому из вас, дорогие ребята, за то, что вы написали эти искренние строки, создали замечательные рисунки и передали свои самые сокровенные чувства, открыв всему миру, почему вы по праву считаете своих отцов Героями СВО.</p><p>Эти пронзительные детские строки наглядно продемонстрируют всему миру абсолютное, неустрашимое и нерушимое единство нашего великого народа перед лицом любой, даже самой смертельной опасности! Отдельно благодарю вас за присланные для этой книги уникальные фотографии из ваших семейных архивов. Также хочу выразить искреннюю признательность всем матерям, которые бережно отнеслись к памяти наших защитников и помогли собрать и отправить эти бесценные материалы для подготовки к изданию нашей общероссийской книги "ПИСЬМА ПАМЯТИ".</p></div>
+    <p class="ending">До встречи в городе Волгограде!</p>
+    <p class="sig">Президент АНО «Диалог поколений. Герои и дети» А. А. Тенгебаева 25 июня 2026 года</p>
+  </div><span class="folio">16</span><span class="run">А. А. Тенгебаева</span></div>
+  <span class="wm">ПРОТОТИП</span>
+</section>
+<section class="sheet">
+  <div class="page left hero-open">
+    <img class="hero-map" src="assets/maps/volgograd-oblast-feathered.png" alt="Карта России с выделенной Волгоградской областью">
+    <div class="hero-meta">
+      <p class="kicker">Волгоградская область · г. Волгоград</p>
+      <h1>Анастасия</h1>
+      <p class="who">Письмо написал сын Игорь</p>
+    </div>
+    <div class="hero-symbols">
+      <img class="medal" src="../print-v11/assets/symbols/order-of-courage-reference.png" alt="Награда">
+      <img class="emblem" src="../print-v11/assets/symbols/volgograd-oblast-emblem-reference.png" alt="Герб Волгоградской области">
+    </div>
+    <img class="hero-cutout" src="../../../assets/processed-flagships/hero-001/anastasia_portrait_hero-001_nobg.png" alt="Анастасия">
+    <div class="hero-quote">
+      <p class="label">Из письма Игоря</p>
+      <p class="quote">«Она самая смелая<br>и добрая мама!»</p>
+    </div>
+    <span class="folio">17</span><span class="run">Анастасия · Игорь</span>
+  </div>
+  <div class="page right letter-page">
+    <p class="letter-heading">Письмо Игоря · 19 мая 2024</p>
+    <figure class="lp-photo lp-group"><img src="../../../assets/production-ready/archive/hero-001/hero-001_photo_02_master_upscaled_2x.jpg" alt="Семейное фото"><figcaption>Семейный архив</figcaption></figure>
+    <figure class="lp-photo lp-igor"><img src="../../../assets/production-ready/archive/hero-001/hero-001_photo_03_master_upscaled_2x.jpg" alt="Семейное фото"><figcaption>Семейный архив</figcaption></figure>
+    <figure class="lp-drawing"><img src="../../../assets/families/hero-001/drawings/hero-001_drawing_01_enhanced.png" alt="Рисунок Игоря"></figure>
+    <article class="transcript-card">
+      <p class="tc-label">Расшифровка письма</p>
+      <hr>
+      <div class="transcript">
+        <p>Моя мама&nbsp;— Герой. Она самая смелая и добрая мама!</p>
+        <p>Я горжусь своей мамой ведь она отдала жизнь за Родину.</p>
+        <p>Она была доброй и отзывчивой, и мужественной. Всегда поддерживала меня в сложных ситуациях. Она любила свою работу, и иногда брала меня с собой.</p>
+        <p>Я на всегда запомню те дни когда был у неё на работе.</p>
+        <p class="verse">«Она добра, она строга,<br>Она справедлива, и нежна,<br>И я никогда не забуду её»</p>
+        <p>Помню, горжусь!</p>
+      </div>
+      <p class="tc-source-note">Окончания «Родину» и «работе» восстановлены по контексту: правый край исходного изображения обрезан.</p>
+      <p class="tc-date">19.05.24</p>
+    </article>
+    <div class="editorial-hidden" data-role="diplomatic-transcription" data-status="REVIEW_REQUIRED">
+      Дипломатическая расшифровка: «Моя мама - Герой. / Она самая смелая и добрая мама! / Я горжусь своей мамой ведь она отдала жизнь за ро[край исходного изображения] / Она была доброй и отзывчивой, и мужественной. / всегда поддерживала меня в сложных ситуациях. Она / любила свою работу, и иногда брала меня с собой. / Я на всегда запомню те дни когда был у неё на рабо[край исходного изображения] / "Она добра, она строга / Она справедлива, и нежна / И я никогда не забуду её" / Помню, горжусь! / 19.05.24. / [подпись — вероятно «Савин», не подтверждено]».
+      Редакционные восстановления для читательской версии: «за Родину» и «на работе»; оба окончания физически отсутствуют из-за обрезанного края исходного изображения.
+      Статус: INFERRED_WITH_OWNER_PERMISSION — источник сверен по refnew.pdf, стр. 10, и книга0707.pdf, стр. 14.
+    </div>
+    <span class="folio">18</span><span class="run">Письмо Игоря</span>
+  </div>
+  <span class="wm">ПРОТОТИП</span>
+</section></body></html>

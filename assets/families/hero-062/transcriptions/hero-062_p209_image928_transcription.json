@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-062",
+  "letter_id": "hero-062_p209_image928",
+  "letter_file": "assets/families/hero-062/letters/hero-062_p209_image928.jpg",
+  "source_transcription_file": "assets/families/hero-062/transcriptions/hero-062_p209_image928_source.txt",
+  "print_transcription_file": "assets/families/hero-062/transcriptions/hero-062_p209_image928_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Две строки в стихотворной части и одно слово перед «горжусь» не читаются."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

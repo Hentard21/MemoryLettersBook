@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-050",
+  "letter_id": "hero-050_p171_image777",
+  "letter_file": "assets/families/hero-050/letters/hero-050_p171_image777.jpg",
+  "source_transcription_file": "assets/families/hero-050/transcriptions/hero-050_p171_image777_source.txt",
+  "print_transcription_file": "assets/families/hero-050/transcriptions/hero-050_p171_image777_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Последняя цифра года в дате не читается уверенно."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

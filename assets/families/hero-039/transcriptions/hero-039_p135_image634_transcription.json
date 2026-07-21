@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-039",
+  "letter_id": "hero-039_p135_image634",
+  "letter_file": "assets/families/hero-039/letters/hero-039_p135_image634.jpg",
+  "source_transcription_file": "assets/families/hero-039/transcriptions/hero-039_p135_image634_source.txt",
+  "print_transcription_file": "assets/families/hero-039/transcriptions/hero-039_p135_image634_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Несколько строк в середине имеют слабый контраст и не восстановлены по смыслу; стихотворение требует сверки по оригиналу."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

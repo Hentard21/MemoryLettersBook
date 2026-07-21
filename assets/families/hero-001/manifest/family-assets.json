@@ -90,8 +90,24 @@
       "source_file": null,
       "sha256": "9d997392df5680b675838645b5343eba685ca289ea78734f24a111dab364fd2c",
       "status": "present",
+      "layout_role": "legacy_flagship_reference",
+      "selection_confidence": "superseded"
+    },
+    {
+      "asset_id": "hero-001_anastasia_portrait_repaired_white",
+      "category": "flagship",
+      "file": "assets/families/hero-001/flagship/anastasia_portrait_repaired_white.png",
+      "source_file": "assets/background-removed/needs-fix/anastasia_portrait_hero-001forcutitout.png",
+      "sha256": "fb37fb5de2e07673fa81d54c395272b889caa64dc2699333a7b1b37a4eab5790",
+      "status": "present",
       "layout_role": "hero_flagship",
-      "selection_confidence": "high"
+      "selection_confidence": "high",
+      "print_file": "assets/families/hero-001/flagship/anastasia_portrait_repaired_white.png",
+      "print_sha256": "fb37fb5de2e07673fa81d54c395272b889caa64dc2699333a7b1b37a4eab5790",
+      "print_width_px": 1122,
+      "print_height_px": 1402,
+      "print_qa_status": "ready_for_layout",
+      "notes": "Исправленная владельцем версия: дорисовано плечо, сохранён белый фон. В светлом шаблоне используется без грубой маски, с режимом multiply."
     },
     {
       "asset_id": "hero-001_photo_01_master",

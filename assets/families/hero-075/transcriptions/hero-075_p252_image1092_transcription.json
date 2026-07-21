@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-075",
+  "letter_id": "hero-075_p252_image1092",
+  "letter_file": "assets/families/hero-075/letters/hero-075_p252_image1092.jpg",
+  "source_transcription_file": "assets/families/hero-075/transcriptions/hero-075_p252_image1092_source.txt",
+  "print_transcription_file": "assets/families/hero-075/transcriptions/hero-075_p252_image1092_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [],
+  "status": "CANDIDATE_READY_FOR_OWNER_REVIEW",
+  "approved_for_print": false
+}

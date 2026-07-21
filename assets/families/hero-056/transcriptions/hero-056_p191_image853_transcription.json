@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-056",
+  "letter_id": "hero-056_p191_image853",
+  "letter_file": "assets/families/hero-056/letters/hero-056_p191_image853.jpg",
+  "source_transcription_file": "assets/families/hero-056/transcriptions/hero-056_p191_image853_source.txt",
+  "print_transcription_file": "assets/families/hero-056/transcriptions/hero-056_p191_image853_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Одно слово после «катать на своём» не читается."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

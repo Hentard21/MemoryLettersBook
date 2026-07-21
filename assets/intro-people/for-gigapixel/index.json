@@ -1,0 +1,60 @@
+{
+  "note": "Вводный блок нового исходника «Книга, важны люди в самом начале.pdf» (255 стр.). Нативные извлечения для апскейла Gigapixel. Портреты VIP-персон + карта регионов.",
+  "source_pdf": "Downloads/Книга, важны люди в самом начале.pdf",
+  "items": [
+    {
+      "file": "map-russia-regions_master.png",
+      "source_page": 3,
+      "native_px": [
+        775,
+        501
+      ],
+      "desc": "Карта России с регионами-участниками (стр.3)"
+    },
+    {
+      "file": "shumilov_general-polkovnik_master.png",
+      "source_page": 5,
+      "native_px": [
+        541,
+        749
+      ],
+      "desc": "Портрет: генерал-полковник Л.В. Шумилов (стр.5)"
+    },
+    {
+      "file": "makarychev_general-leytenant_master.png",
+      "source_page": 6,
+      "native_px": [
+        484,
+        703
+      ],
+      "desc": "Портрет: генерал-лейтенант А.А. Макарычев (стр.6)"
+    },
+    {
+      "file": "belyaninov_master.png",
+      "source_page": 7,
+      "native_px": [
+        825,
+        572
+      ],
+      "desc": "Портрет: А.Ю. Белянинов, Ассамблея Народов Мира (стр.7)"
+    },
+    {
+      "file": "smirnova_master.png",
+      "source_page": 10,
+      "native_px": [
+        453,
+        555
+      ],
+      "desc": "Портрет: С.К. Смирнова, Сенежский форум (стр.10)"
+    },
+    {
+      "file": "tengebaeva_adina-arykovna_master.png",
+      "source_page": 11,
+      "native_px": [
+        414,
+        496
+      ],
+      "desc": "Портрет: А.А. Тенгебаева (Адина Арыковна), АНО «Диалог поколений» (стр.11)"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-054",
+  "letter_id": "hero-054_p185_image833",
+  "letter_file": "assets/families/hero-054/letters/hero-054_p185_image833.jpg",
+  "source_transcription_file": "assets/families/hero-054/transcriptions/hero-054_p185_image833_source.txt",
+  "print_transcription_file": "assets/families/hero-054/transcriptions/hero-054_p185_image833_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Номер или название полка не читается.",
+    "Подписи не нормализованы."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

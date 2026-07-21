@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Письма памяти — Евгений, тест двух разворотов</title>
+  <style>
+    @font-face{font-family:Onest;src:url('../../fonts/Onest.ttf')}@font-face{font-family:Golos;src:url('../../fonts/GolosText.ttf')}@font-face{font-family:Marck;src:url('../../fonts/MarckScript.ttf')}
+    @page{size:526mm 206mm;margin:0}*{box-sizing:border-box}html,body{margin:0;padding:0;background:#dfe3e6;color:#29333e}body{font-family:Golos,Arial,sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .sheet{position:relative;width:526mm;height:206mm;overflow:hidden;page-break-after:always;background:#f3f2ee}.sheet:last-child{page-break-after:auto}.page{position:absolute;top:3mm;width:260mm;height:200mm;overflow:hidden;background:#f5f4f0}.left{left:3mm;border-right:.28mm solid rgba(24,47,75,.16)}.right{left:263mm;border-left:.28mm solid rgba(24,47,75,.08)}.sheet::after{content:"";position:absolute;top:3mm;bottom:3mm;left:262.8mm;width:.2mm;background:rgba(34,59,94,.09);z-index:20}
+    .kicker{margin:0;font:700 6pt/1.2 Onest,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#26466d}.wm{position:absolute;right:8mm;top:6mm;z-index:20;font:600 4.4pt/1 Onest,sans-serif;letter-spacing:.16em;color:rgba(46,58,70,.28)}
+    .family-open{background:linear-gradient(132deg,#f7f6f2 0%,#efeee9 100%)}.family-map{position:absolute;left:5mm;bottom:9mm;width:126mm;height:72mm;object-fit:contain;opacity:.76;mix-blend-mode:multiply}.family-meta{position:absolute;left:18mm;top:17mm;z-index:7;width:142mm}.family-meta h1{margin:2.4mm 0 0;font:800 31pt/1 Onest,sans-serif;color:#17385f}.family-meta .who{margin:2.4mm 0 0;width:118mm;font:500 8.3pt/1.35 Golos,sans-serif;color:#667383}
+    .symbols{position:absolute;left:19mm;top:69mm;z-index:8;display:flex;align-items:center;gap:5mm}.symbols img{display:block;object-fit:contain}.medal{width:17mm;height:31mm}.emblem{width:25mm;height:27mm}.symbol-note{font:600 5.3pt/1.25 Onest,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#4d5e70}
+    .flagship{position:absolute;right:-1mm;top:28mm;z-index:5;width:188mm;height:162mm;object-fit:contain;object-position:center bottom;mix-blend-mode:multiply;background:transparent;box-shadow:none}
+    .hero-quote{position:absolute;left:18mm;right:auto;bottom:17mm;z-index:9;width:112mm;margin:0;padding:4.5mm 6mm 5mm 8mm;background:rgba(252,251,248,.96);border-left:1mm solid #944d54;box-shadow:0 .55mm 1.6mm rgba(25,36,48,.08)}.hero-quote .label{font:700 5.2pt/1 Onest,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:#27486f}.hero-quote p:last-child{margin:1.7mm 0 0;font:400 14.5pt/1.18 Marck,cursive;color:#944d54}
+    .archive-page{background:#f5f4f0}.archive-head{position:absolute;left:18mm;top:15mm;z-index:8}.archive-head h2{margin:2mm 0 0;font:800 19pt/1.05 Onest,sans-serif;color:#17385f}.photo{position:absolute;margin:0;overflow:hidden;background:#ecebe7;box-shadow:0 .6mm 1.8mm rgba(25,36,48,.10)}.photo img{display:block;width:100%;height:100%;object-fit:cover}.photo figcaption{position:absolute;left:0;bottom:0;padding:2.1mm 3.2mm 2.3mm 4mm;background:rgba(252,251,248,.94);border-left:.75mm solid #944d54;font:650 5.6pt/1.2 Onest,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#27486f}
+    .p307{left:18mm;top:39mm;width:141mm;height:84mm}.p302{left:164mm;top:20mm;width:75mm;height:164mm}.p303{left:18mm;top:128mm;width:67mm;height:56mm}.p308{left:90mm;top:128mm;width:69mm;height:56mm}.p302 img{object-position:center 20%}.p303 img{object-position:center top}.p308 img{object-position:center 38%}
+    .document-page{background:linear-gradient(115deg,#f4f3ef,#eceae5)}.doc-head{position:absolute;left:17mm;top:13mm;z-index:9}.doc-head h2{margin:2mm 0 0;font:800 17pt/1.05 Onest,sans-serif;color:#17385f}.drawing{position:absolute;left:17mm;top:38mm;width:109mm;height:146mm;object-fit:contain;background:#fbfbf8;box-shadow:0 .55mm 1.5mm rgba(25,36,48,.09)}
+    .scan{position:absolute;display:block;object-fit:contain;background:#faf9f5;filter:saturate(.78) contrast(.9);box-shadow:0 .55mm 1.5mm rgba(25,36,48,.09)}.scan-short{left:134mm;top:21mm;width:107mm;height:79mm}.scan-long{left:17mm;top:37mm;width:84mm;height:111mm}
+    .paper{position:absolute;overflow:hidden;background:radial-gradient(circle at 14% 8%,rgba(118,89,46,.05),transparent 33%),repeating-linear-gradient(0deg,rgba(38,59,83,.022) 0,rgba(38,59,83,.022) .15mm,transparent .15mm,transparent 1.45mm),#f8f6ef;border-left:1mm solid #944d54;box-shadow:0 .65mm 1.8mm rgba(25,36,48,.10)}.paper::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(255,255,255,.18),transparent 15%,transparent 83%,rgba(111,85,50,.035))}.paper-label{position:relative;z-index:2;font:700 5.8pt/1 Onest,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:#27486f}
+    .transcript-short{left:126mm;top:101mm;width:116mm;height:83mm;padding:6mm 7mm 5mm 9mm}.transcript-short .copy{position:relative;z-index:2;margin:3mm 0 0;font:400 14.5pt/1.25 Marck,cursive;color:#2c3034}.transcript-short .copy p{margin:0 0 3.4mm;break-inside:avoid}.transcript-short .review{font:500 6.2pt/1.3 Golos,sans-serif;color:#7a6670}
+    .transcript-long{left:96mm;top:14mm;width:146mm;height:170mm;padding:8mm 9mm 7mm 11mm}.transcript-long::before{content:"";position:absolute;inset:0;background:url('../../../assets/families/hero-014/letters/hero-014_p060_image317.jpg') 84% 46%/58% auto no-repeat;opacity:.06;filter:grayscale(1) contrast(.85)}.transcript-long .copy{position:relative;z-index:2;margin:3.6mm 0 0;font:400 18.5pt/1.34 Marck,cursive;color:#292e33}.transcript-long .copy p{margin:0 0 4.5mm}.transcript-long .sign{color:#944d54;text-align:right}.scan-label{position:absolute;left:18mm;top:153mm;width:83mm;text-align:center;font:650 5.2pt/1.2 Onest,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#667383}
+    .folio{position:absolute;bottom:10mm;font:600 5pt/1 Onest,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:#8d969f}.left .folio{left:18mm}.right .folio{right:18mm}
+  </style>
+</head>
+<body>
+  <section class="sheet">
+    <div class="page left family-open">
+      <img class="family-map" src="../../../assets/families/hero-014/references/symbols/kurgan-region-map-reference-crop.png" alt="Карта России с выделенной Курганской областью">
+      <div class="family-meta"><p class="kicker">Курганская область · г. Курган</p><h1>Евгений</h1><p class="who">Письма написали дети: Агата, Макар, Таисия и Ярослава.</p></div>
+      <div class="symbols"><img class="medal" src="../../../assets/families/hero-014/references/symbols/order-of-courage-reference.png" alt="Орден Мужества"><img class="emblem" src="../../../assets/families/hero-014/references/symbols/kurgan-oblast-emblem-reference.png" alt="Герб Курганской области"><span class="symbol-note">Орден Мужества<br>Герб области</span></div>
+      <img class="flagship" src="../../../assets/production-ready/flagship/hero-014/hero-014_p056_image304_white_background.png" alt="Евгений с детьми">
+      <blockquote class="hero-quote"><p class="label">Из письма Макара</p><p>«Мой папа — герой, и я очень горжусь им!»</p></blockquote>
+      <span class="folio">Знакомство с героем</span>
+    </div>
+    <div class="page right archive-page">
+      <div class="archive-head"><p class="kicker">Евгений и дети</p><h2>Семейный архив</h2></div>
+      <figure class="photo p307"><img src="../../../assets/production-ready/archive/hero-014/hero-014_p057_image307_upscaled_2x.jpg" alt="Семейная фотография"><figcaption>Семейный архив</figcaption></figure>
+      <figure class="photo p302"><img src="../../../assets/production-ready/archive/hero-014/hero-014_p056_image302_upscaled_2x.jpg" alt="Семейная фотография"></figure>
+      <figure class="photo p303"><img src="../../../assets/production-ready/archive/hero-014/hero-014_p056_image303_upscaled_2x.jpg" alt="Дети с портретом и наградными материалами"></figure>
+      <figure class="photo p308"><img src="../../../assets/production-ready/archive/hero-014/hero-014_p057_image308_upscaled_2x.jpg" alt="Семейная фотография"></figure>
+      <span class="folio">Фотографии семьи</span>
+    </div>
+    <span class="wm">ПРОТОТИП</span>
+  </section>
+
+  <section class="sheet">
+    <div class="page left document-page">
+      <div class="doc-head"><p class="kicker">Голос семьи</p><h2>Рисунок и две рукописи</h2></div>
+      <img class="drawing" src="../../../assets/production-ready/drawings/hero-014/hero-014_p058_image311_upscaled_2x.jpg" alt="Детский рисунок из оригинального референса">
+      <img class="scan scan-short" src="../../../assets/families/hero-014/letters/hero-014_p059_image314.jpg" alt="Подлинная рукопись на одном физическом листе">
+      <section class="paper transcript-short"><p class="paper-label">Расшифровка · лист 1</p><div class="copy"><p>Мой самый любимый папа — герой, потому что папа пожертвовал своей жизнью ради своей семьи. Мой папа самый лучший! ♥<br><span class="review">Агата, 9 лет · 30.06.2024</span></p><p>МОЙ ПАПА — ГЕРОЙ!<br>ПАПА, Я ТЕБЯ ЛЮБЛЮ!<br>… ПАПА, Я ПО ТЕБЕ СКУЧАЮ!<br><span class="review">Подпись и часть даты обрезаны в исходнике.</span></p></div></section>
+      <span class="folio">Документальный комплект · продолжение</span>
+    </div>
+    <div class="page right document-page">
+      <div class="doc-head"><p class="kicker">Подлинная рукопись</p><h2>Письмо Макара</h2></div>
+      <img class="scan scan-long" src="../../../assets/families/hero-014/letters/hero-014_p060_image317.jpg" alt="Подлинная рукопись Макара">
+      <span class="scan-label">Физический скан письма</span>
+      <section class="paper transcript-long"><p class="paper-label">Расшифровка · полный текст</p><div class="copy"><p>Мой папа — герой!</p><p>Герой, потому что погиб за свою Родину, за маму, за меня, за моих сестёр, он спасает раненых солдат.</p><p>Я очень люблю моего папу, он очень добрый, сильный, красивый, весёлый. Я очень по нему скучаю. Мама говорит, что папа всегда с нами, всегда помогает и защищает нас.</p><p>Мой папа — герой, и я очень горжусь им!</p><p class="sign">Макар, 7 лет<br>30.06.2024</p></div></section>
+      <span class="folio">Рукопись и расшифровка</span>
+    </div>
+    <span class="wm">ПРОТОТИП</span>
+  </section>
+</body>
+</html>

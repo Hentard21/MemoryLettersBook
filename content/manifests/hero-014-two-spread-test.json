@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-014",
+  "hero_name": "Евгений",
+  "children": ["Агата", "Макар", "Таисия", "Ярослава"],
+  "region": "Курганская область",
+  "city": "Курган",
+  "reference_pdf_pages": [47, 48, 49, 50, 51, 52],
+  "reference_internal_pages": [40, 41, 42, 43, 44, 45],
+  "layout_rule": "one_main_spread_plus_one_automatic_continuation",
+  "spread_1": {
+    "role": "hero_introduction_and_family_archive",
+    "flagship": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_upscaled_2x.jpg",
+    "archive_photos": [
+      "assets/production-ready/archive/hero-014/hero-014_p056_image302_upscaled_2x.jpg",
+      "assets/production-ready/archive/hero-014/hero-014_p056_image303_upscaled_2x.jpg",
+      "assets/production-ready/archive/hero-014/hero-014_p057_image307_upscaled_2x.jpg",
+      "assets/production-ready/archive/hero-014/hero-014_p057_image308_upscaled_2x.jpg"
+    ],
+    "medal": "assets/families/hero-014/references/symbols/order-of-courage-reference.png",
+    "emblem": "assets/families/hero-014/references/symbols/kurgan-oblast-emblem-reference.png",
+    "map": "assets/families/hero-014/references/symbols/kurgan-region-map-reference-crop.png",
+    "quote_source": "assets/families/hero-014/transcriptions/hero-014_p060_image317_print.txt"
+  },
+  "spread_2": {
+    "role": "documentary_continuation",
+    "drawing": "assets/production-ready/drawings/hero-014/hero-014_p058_image311_upscaled_2x.jpg",
+    "letters": [
+      {
+        "scan": "assets/families/hero-014/letters/hero-014_p059_image314.jpg",
+        "transcription": "assets/families/hero-014/transcriptions/hero-014_p059_image314_transcription.json"
+      },
+      {
+        "scan": "assets/families/hero-014/letters/hero-014_p060_image317.jpg",
+        "transcription": "assets/families/hero-014/transcriptions/hero-014_p060_image317_transcription.json"
+      }
+    ]
+  },
+  "facts_status": "confirmed_by_source_reference",
+  "transcription_status": "REVIEW_REQUIRED",
+  "notes": [
+    "The five photographs, one drawing and two physical manuscripts all remain present.",
+    "The flagship is a group image and must not be cut out or separated from the children.",
+    "No photograph is duplicated across the two spreads."
+  ]
+}

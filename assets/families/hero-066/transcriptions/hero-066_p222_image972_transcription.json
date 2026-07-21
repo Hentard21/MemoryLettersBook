@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-066",
+  "letter_id": "hero-066_p222_image972",
+  "letter_file": "assets/families/hero-066/letters/hero-066_p222_image972.jpg",
+  "source_transcription_file": "assets/families/hero-066/transcriptions/hero-066_p222_image972_source.txt",
+  "print_transcription_file": "assets/families/hero-066/transcriptions/hero-066_p222_image972_print.txt",
+  "authors": [],
+  "authors_status": "NOT_NORMALIZED_FROM_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии нормализованы переносы слов и базовая пунктуация.",
+    "Неоднозначные места не восстановлены по догадке."
+  ],
+  "doubts": [
+    "Написание фамилии в строке с именем следует сверить с документами; в кандидате передано визуальное чтение."
+  ],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

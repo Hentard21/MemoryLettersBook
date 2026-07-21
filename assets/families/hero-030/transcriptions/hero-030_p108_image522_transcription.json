@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-030",
+  "letter_id": "hero-030_p108_image522",
+  "letter_file": "assets/families/hero-030/letters/hero-030_p108_image522.jpg",
+  "source_transcription_file": "assets/families/hero-030/transcriptions/hero-030_p108_image522_source.txt",
+  "print_transcription_file": "assets/families/hero-030/transcriptions/hero-030_p108_image522_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Видимая подпись «Кузнецов Егор» конфликтует с детьми, назначенными hero-030 в манифесте; файл нельзя верстать до проверки принадлежности."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

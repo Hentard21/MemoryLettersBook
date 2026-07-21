@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-003",
+  "letter_id": "hero-003_p022_image155",
+  "letter_file": "assets/families/hero-003/letters/hero-003_p022_image155.jpg",
+  "source_transcription_file": "assets/families/hero-003/transcriptions/hero-003_p022_image155_source.txt",
+  "print_transcription_file": "assets/families/hero-003/transcriptions/hero-003_p022_image155_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Словосочетание «нашем мирном будущем» читается с умеренной уверенностью; требуется сверка владельцем."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

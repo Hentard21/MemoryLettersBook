@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-029",
+  "letter_id": "hero-029_p105_image510",
+  "letter_file": "assets/families/hero-029/letters/hero-029_p105_image510.jpg",
+  "source_transcription_file": "assets/families/hero-029/transcriptions/hero-029_p105_image510_source.txt",
+  "print_transcription_file": "assets/families/hero-029/transcriptions/hero-029_p105_image510_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Дата события внутри письма не читается надёжно; дата подписи читается."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-038",
+  "letter_id": "hero-038_p132_image620",
+  "letter_file": "assets/families/hero-038/letters/hero-038_p132_image620.jpg",
+  "source_transcription_file": "assets/families/hero-038/transcriptions/hero-038_p132_image620_source.txt",
+  "print_transcription_file": "assets/families/hero-038/transcriptions/hero-038_p132_image620_print.txt",
+  "editorial_changes": [
+    "В читательской версии нормализованы только очевидные пунктуация, дефисы и орфография.",
+    "Неразборчивые и обрезанные места не восстановлены догадкой.",
+    "Окончание одной строки после слов «Папа редко звонил» не читается надёжно."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}
