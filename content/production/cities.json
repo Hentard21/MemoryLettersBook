@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "source_of_truth": "content/manifests/reference-family-order-reset.json",
+  "policy": "Reference labels are preserved verbatim; official_name is null when the reference label contains unresolved OCR artifacts.",
+  "cities": [
+    {
+      "city_id": "city-abakan",
+      "reference_label": "г. Абакан",
+      "official_name": "Абакан",
+      "region_ids": [
+        "republic-of-khakassia"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-004",
+        "hero-008",
+        "hero-027",
+        "hero-043",
+        "hero-063"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-astrakhan",
+      "reference_label": "г. Астрахань",
+      "official_name": "Астрахань",
+      "region_ids": [
+        "astrakhan-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-020",
+        "hero-037"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-blagoveshchensk",
+      "reference_label": "г. Благовещенск",
+      "official_name": "Благовещенск",
+      "region_ids": [
+        "amur-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-075"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-vladivostok",
+      "reference_label": "г. Владивосток",
+      "official_name": "Владивосток",
+      "region_ids": [
+        "primorsky-krai"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-049"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-volgograd",
+      "reference_label": "г. Волгоград",
+      "official_name": "Волгоград",
+      "region_ids": [
+        "volgograd-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-001",
+        "hero-028",
+        "hero-054"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-grozny",
+      "reference_label": "г. Грозный",
+      "official_name": "Грозный",
+      "region_ids": [
+        "chechen-republic"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-068"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-yekaterinburg",
+      "reference_label": "г. Екатеринбург",
+      "official_name": "Екатеринбург",
+      "region_ids": [
+        "sverdlovsk-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-036",
+        "hero-067",
+        "hero-071"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-ivanovo",
+      "reference_label": "г. Иваново",
+      "official_name": "Иваново",
+      "region_ids": [
+        "ivanovo-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-051",
+        "hero-052"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-kazan",
+      "reference_label": "г. Казань",
+      "official_name": "Казань",
+      "region_ids": [
+        "republic-of-tatarstan"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-044"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-krasnoyarsk",
+      "reference_label": "г. Красноярск",
+      "official_name": "Красноярск",
+      "region_ids": [
+        "krasnoyarsk-krai"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-017"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-kurgan",
+      "reference_label": "г. Курган",
+      "official_name": "Курган",
+      "region_ids": [
+        "kurgan-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-014",
+        "hero-022",
+        "hero-023",
+        "hero-046"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-kyzyl",
+      "reference_label": "г. Кызыл",
+      "official_name": "Кызыл",
+      "region_ids": [
+        "republic-of-tuva"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-042"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-lipetsk",
+      "reference_label": "г. Липецк",
+      "official_name": "Липецк",
+      "region_ids": [
+        "lipetsk-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-059",
+        "hero-060"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-magas",
+      "reference_label": "г. Магас",
+      "official_name": "Магас",
+      "region_ids": [
+        "republic-of-ingushetia"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-025",
+        "hero-050"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-maykop",
+      "reference_label": "г. Майкоп",
+      "official_name": "Майкоп",
+      "region_ids": [
+        "republic-of-adygea"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-021",
+        "hero-032"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-makhachkala",
+      "reference_label": "г. Махачкала",
+      "official_name": "Махачкала",
+      "region_ids": [
+        "republic-of-dagestan"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-033"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-moscow",
+      "reference_label": "г. Москва г",
+      "official_name": null,
+      "region_ids": [
+        "moscow-federal-city"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-061"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "REFERENCE_LABEL_HAS_OCR_ARTIFACTS"
+      ]
+    },
+    {
+      "city_id": "city-nizhny-novgorod",
+      "reference_label": "г. Нижний Новгород",
+      "official_name": "Нижний Новгород",
+      "region_ids": [
+        "nizhny-novgorod-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-010",
+        "hero-015",
+        "hero-031",
+        "hero-072"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-novosibirsk",
+      "reference_label": "г. Новосибирск",
+      "official_name": "Новосибирск",
+      "region_ids": [
+        "krasnoyarsk-krai",
+        "novosibirsk-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-003",
+        "hero-005",
+        "hero-006",
+        "hero-024",
+        "hero-026"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "CITY_LINKED_TO_MULTIPLE_REGIONS"
+      ]
+    },
+    {
+      "city_id": "city-orenburg",
+      "reference_label": "г. Оренбург",
+      "official_name": "Оренбург",
+      "region_ids": [
+        "orenburg-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-007",
+        "hero-062"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-pskov",
+      "reference_label": "г. Псков",
+      "official_name": "Псков",
+      "region_ids": [
+        "pskov-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-012"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-saint-petersburg",
+      "reference_label": "г. Санкт- Петербур г",
+      "official_name": null,
+      "region_ids": [
+        "saint-petersburg-federal-city"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-013",
+        "hero-070"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "REFERENCE_LABEL_HAS_OCR_ARTIFACTS"
+      ]
+    },
+    {
+      "city_id": "city-tyumen",
+      "reference_label": "г. Тюмень",
+      "official_name": "Тюмень",
+      "region_ids": [
+        "tyumen-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-029",
+        "hero-034",
+        "hero-035",
+        "hero-038",
+        "hero-040",
+        "hero-047"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-ufa",
+      "reference_label": "г. Уфа",
+      "official_name": "Уфа",
+      "region_ids": [
+        "republic-of-bashkortostan"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-039",
+        "hero-048",
+        "hero-066",
+        "hero-074"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-khanty-mansiysk",
+      "reference_label": "г. Ханты-Мансийск",
+      "official_name": "Ханты-Мансийск",
+      "region_ids": [
+        "khanty-mansi-autonomous-okrug-yugra"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-076"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-chelyabinsk",
+      "reference_label": "г. Челябинск",
+      "official_name": "Челябинск",
+      "region_ids": [
+        "chelyabinsk-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-018",
+        "hero-069",
+        "hero-073"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-cherkessk",
+      "reference_label": "г. Черкесск",
+      "official_name": "Черкесск",
+      "region_ids": [
+        "karachay-cherkess-republic"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-009",
+        "hero-011"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-chita",
+      "reference_label": "г. Чита",
+      "official_name": "Чита",
+      "region_ids": [
+        "zabaykalsky-krai"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-057",
+        "hero-058"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-elista",
+      "reference_label": "г. Элиста",
+      "official_name": "Элиста",
+      "region_ids": [
+        "republic-of-kalmykia"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-045"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    },
+    {
+      "city_id": "city-yaroslavl",
+      "reference_label": "г. Ярославль",
+      "official_name": "Ярославль",
+      "region_ids": [
+        "yaroslavl-oblast"
+      ],
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-019"
+      ],
+      "status": "confirmed_by_reference_text",
+      "review_flags": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "document": {
+    "title": "Указ Президента Российской Федерации от 25 декабря 2025 года № 962 «О проведении в Российской Федерации Года единства народов России»",
+    "official_source_page": "https://fadn.gov.ru/documents/prochee/ukaz-prezidenta-rossijskoj-federaczii-ot-25.12.2025-%E2%84%96-962-o-provedenii-v-rossijskoj-federaczii-goda-edinstva-narodov-rossii",
+    "official_pdf": "assets/intro-decree/official/decree-962-official.pdf",
+    "facsimiles": [
+      "assets/intro-decree/official/decree-962-page-1.png",
+      "assets/intro-decree/official/decree-962-page-2.png"
+    ],
+    "status": "verified_against_official_facsimile"
+  },
+  "reference_only": {
+    "file": "C:/Users/MarkII/Downloads/книга0707.pdf",
+    "physical_page": 4,
+    "use": "visual_hierarchy_only",
+    "warning": "The old page contains an incorrect title and non-official body text; its wording must not be reused."
+  },
+  "generated_artwork": {
+    "file": "assets/intro-decree/artwork/decree-editorial-stilllife-v1.png",
+    "generator": "built-in image generation",
+    "use": "non-documentary editorial background only",
+    "constraints": [
+      "No generated document text",
+      "No generated signature or seal",
+      "No generated coat of arms",
+      "No generated presidential portrait",
+      "The official facsimile remains the documentary source"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: editorial background image for a premium Russian memorial book page about an official presidential decree. Create a restrained, respectful documentary still life with an open cream-white official paper folder, a dark blue fountain pen, and a very narrow red-white-blue ribbon lying naturally across the paper; subtle soft-focus red-brick Moscow architectural forms in the distant background, not a specific identifiable building. Modern neutral light-gray and cool cream editorial setting; high-end photorealistic editorial photography; vertical 4:5 composition; objects grounded in the lower half; generous calm negative space above and to the right. Soft daylight; milk white, very light cool gray, deep navy, restrained burgundy and muted blue accents. No people, portrait, readable or fake text, signature, seal, coat of arms, logo, watermark, dramatic propaganda imagery, yellow aged paper, vintage sepia, grunge, horror, theatrical flags, glowing effects, fake government insignia or game UI."
+  }
+}

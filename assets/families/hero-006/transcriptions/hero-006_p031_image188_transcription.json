@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-006",
+  "letter_id": "hero-006_p031_image188",
+  "letter_file": "assets/families/hero-006/letters/hero-006_p031_image188.jpg",
+  "source_transcription_file": "assets/families/hero-006/transcriptions/hero-006_p031_image188_source.txt",
+  "print_transcription_file": "assets/families/hero-006/transcriptions/hero-006_p031_image188_print.txt",
+  "reference_evidence": {
+    "file": "source/reference.pdf",
+    "pdf_page": 23,
+    "printed_folio": "- 16 -",
+    "notes": "Физический лист «ГЕРОЙ СВО»: три семейные фотографии в верхней части и подлинная рукопись в нижней. Ранее актив был ошибочно отнесён только к archive-photos."
+  },
+  "editorial_changes": [
+    "В читательской версии изменены только переносы строк; слова и пунктуация сохранены по видимому оригиналу."
+  ],
+  "status": "MANUAL_VISUAL_TRANSCRIPTION_REVIEW_REQUIRED",
+  "approved_for_print": false
+}

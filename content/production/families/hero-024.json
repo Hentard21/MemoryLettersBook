@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-024",
+  "order": 22,
+  "hero_name": "АЛЕКСЕЙ",
+  "children": [
+    "МАРК"
+  ],
+  "region_id": "krasnoyarsk-krai",
+  "city_id": "city-novosibirsk",
+  "emblem_id": "emblem-krasnoyarsk-krai",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-024/hero-024_manual_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-024/hero-024_p086_image427_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-024/hero-024_p086_image428_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-024/hero-024_p086_image429_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-024/letters/hero-024_p087_image433.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-024/transcriptions/hero-024_p087_image433_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 76,
+    "pages": [
+      76,
+      77,
+      78
+    ],
+    "title_text": "- 69 - | НАШ ОТЕЦ АЛЕКСЕЙ | МАРК | Новосибирская область | г. Новосибирск",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-024/hero-024_manual_white.png",
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help/high/hero-024/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-024/hero-024_manual_nobg.png",
+    "cutout_sha256": "1b5a364d07034a2591a32a2ebc82bdd8e7d635d8fccfa473d1c38cb664dc84e4",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "source_pose": "full_body",
+    "display_height_mm": 250,
+    "bottom_mm": -65,
+    "right_mm": 3,
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-024.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 76,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    76,
+    77,
+    78
+  ]
+}

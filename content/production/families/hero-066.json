@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-066",
+  "order": 64,
+  "hero_name": "ИЛЬГАМ",
+  "children": [
+    "МУРАТ",
+    "ДАНИЯР"
+  ],
+  "region_id": "republic-of-bashkortostan",
+  "city_id": "city-ufa",
+  "emblem_id": "emblem-republic-of-bashkortostan",
+  "award_id": null,
+  "template": "extended",
+  "flagship": "assets/processed-flagships/hero-066/hero-066_manual_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-066/hero-066_p219_image960_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-066/hero-066_p219_image961_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-066/hero-066_p220_image964_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-066/hero-066_p220_image965_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-066/hero-066_p220_image966_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-066/letters/hero-066_p221_image969.jpg",
+    "assets/families/hero-066/letters/hero-066_p222_image972.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-066/transcriptions/hero-066_p221_image969_transcription.json",
+    "assets/families/hero-066/transcriptions/hero-066_p222_image972_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 209,
+    "pages": [
+      209,
+      210,
+      211,
+      212,
+      213
+    ],
+    "title_text": "- 202 - | НАШ ОТЕЦ ИЛЬГАМ | МУР АТ, ДАНИЯР | Республика Башкортостан | г. Уфа",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-066/hero-066_manual_white.png",
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help/critical/hero-066/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-066/hero-066_manual_nobg.png",
+    "cutout_sha256": "84d71aa9cbaf4d9daaf112b098a4ba2aa2717c817fa839359448e4da7f3ffade",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "source_pose": "waist_or_bust",
+    "display_height_mm": 193,
+    "bottom_mm": -1,
+    "right_mm": 0,
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-066.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 209,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    209,
+    210,
+    211,
+    212,
+    213
+  ]
+}

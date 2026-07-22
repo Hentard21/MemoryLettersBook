@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-056",
+  "order": 54,
+  "hero_name": "ВЯЧЕСЛАВ",
+  "children": [
+    "РУСЛАН",
+    "КАМИЛЛА",
+    "САБИНА"
+  ],
+  "region_id": "novosibirsk-oblast",
+  "city_id": null,
+  "emblem_id": "emblem-novosibirsk-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-056/hero-056_manual_v2_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-056/hero-056_p190_image849_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-056/hero-056_p190_image850_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-056/letters/hero-056_p191_image853.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-056/transcriptions/hero-056_p191_image853_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_CITY_MISSING",
+    "REVIEW_REQUIRED_IDENTITY",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 180,
+    "pages": [
+      180,
+      181,
+      182
+    ],
+    "title_text": "- 173 - | НАШ ОТЕЦ ВЯЧЕСЛАВ | РУСЛАН, КАМИЛЛА, САБИНА | Новосибирская область",
+    "identity_status": "REVIEW_REQUIRED",
+    "notes": [
+      "Identity/title requires manual review; no automatic correction."
+    ],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-056/hero-056_manual_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 228,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-056/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-056/hero-056_manual_v2_nobg.png",
+    "cutout_sha256": "becf830c6cab1288a075300f48006d1cd0839cf0b04e22ba66f01774d7e01d53",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": null,
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 180,
+    "method": "reference title page checked; no visible award found",
+    "status": "not_visible_in_reference"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    180,
+    181,
+    182
+  ]
+}

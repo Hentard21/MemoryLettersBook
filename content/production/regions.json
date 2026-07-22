@@ -1,0 +1,858 @@
+{
+  "schema_version": 1,
+  "source_of_truth": "content/manifests/reference-family-order-reset.json",
+  "source_map": "design/prototypes/print-v11/assets/maps/map-ru.svg",
+  "policy": "Names come from the canonical reset manifest. Map IDs remain REVIEW_REQUIRED unless already verified in the project.",
+  "regions": [
+    {
+      "region_id": "moscow-federal-city",
+      "reference_name": ". Москва",
+      "official_name": "Москва",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-moscow-federal-city",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-061"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "REFERENCE_LABEL_HAS_OCR_ARTIFACTS",
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/moscow-federal-city.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 195,
+        "reference_title_page": 195,
+        "hero_id": "hero-061",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "saint-petersburg-federal-city",
+      "reference_name": ". Санкт-Петербург",
+      "official_name": "Санкт-Петербург",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-saint-petersburg-federal-city",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-013",
+        "hero-070"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "REFERENCE_LABEL_HAS_OCR_ARTIFACTS",
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/saint-petersburg-federal-city.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 43,
+        "reference_title_page": 43,
+        "hero_id": "hero-013",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "amur-oblast",
+      "reference_name": "Амурская область",
+      "official_name": "Амурская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-amur-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-075"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/amur-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 241,
+        "reference_title_page": 241,
+        "hero_id": "hero-075",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "astrakhan-oblast",
+      "reference_name": "Астраханская область",
+      "official_name": "Астраханская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-astrakhan-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-020",
+        "hero-037"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/astrakhan-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 64,
+        "reference_title_page": 64,
+        "hero_id": "hero-020",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "volgograd-oblast",
+      "reference_name": "Волгоградская область",
+      "official_name": "Волгоградская область",
+      "region_code": "RU-VGG",
+      "map_feature_id": "RUVGG",
+      "map_file": "design/prototypes/print-v11/assets/maps/volgograd-oblast.svg",
+      "print_render_file": "design/prototypes/print-v11/assets/maps/volgograd-oblast.png",
+      "emblem_id": "emblem-volgograd-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-001",
+        "hero-028",
+        "hero-054"
+      ],
+      "status": "verified_for_pilot",
+      "review_flags": [],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/volgograd-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 8,
+        "reference_title_page": 8,
+        "hero_id": "hero-001",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "zabaykalsky-krai",
+      "reference_name": "Забайкальский Край",
+      "official_name": "Забайкальский край",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-zabaykalsky-krai",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-057",
+        "hero-058"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/zabaykalsky-krai.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 183,
+        "reference_title_page": 183,
+        "hero_id": "hero-057",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "ivanovo-oblast",
+      "reference_name": "Ивановская область",
+      "official_name": "Ивановская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-ivanovo-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-051",
+        "hero-052"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/ivanovo-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 163,
+        "reference_title_page": 163,
+        "hero_id": "hero-051",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "karachay-cherkess-republic",
+      "reference_name": "Карачаево - Черкесская республика",
+      "official_name": "Карачаево-Черкесская Республика",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-karachay-cherkess-republic",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-009",
+        "hero-011"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/karachay-cherkess-republic.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 30,
+        "reference_title_page": 30,
+        "hero_id": "hero-009",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "krasnoyarsk-krai",
+      "reference_name": "Красноярский край",
+      "official_name": "Красноярский край",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-krasnoyarsk-krai",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-017",
+        "hero-024"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/krasnoyarsk-krai.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 56,
+        "reference_title_page": 56,
+        "hero_id": "hero-017",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "kurgan-oblast",
+      "reference_name": "Курганская область",
+      "official_name": "Курганская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-kurgan-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-014",
+        "hero-022",
+        "hero-023",
+        "hero-046"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/kurgan-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 47,
+        "reference_title_page": 47,
+        "hero_id": "hero-014",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "lipetsk-oblast",
+      "reference_name": "Липецкая область",
+      "official_name": "Липецкая область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-lipetsk-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-059",
+        "hero-060"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/lipetsk-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 189,
+        "reference_title_page": 189,
+        "hero_id": "hero-059",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "nizhny-novgorod-oblast",
+      "reference_name": "Нижегородская область",
+      "official_name": "Нижегородская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-nizhny-novgorod-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-010",
+        "hero-015",
+        "hero-031",
+        "hero-072"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/nizhny-novgorod-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 33,
+        "reference_title_page": 33,
+        "hero_id": "hero-010",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "novosibirsk-oblast",
+      "reference_name": "Новосибирская область",
+      "official_name": "Новосибирская область",
+      "region_code": "RU-NVS",
+      "map_feature_id": "RUNVS",
+      "map_file": "design/prototypes/print-v11/assets/maps/novosibirsk-oblast.svg",
+      "print_render_file": "design/prototypes/print-v11/assets/maps/novosibirsk-oblast.png",
+      "emblem_id": "emblem-novosibirsk-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-003",
+        "hero-005",
+        "hero-006",
+        "hero-026",
+        "hero-030",
+        "hero-041",
+        "hero-053",
+        "hero-055",
+        "hero-056",
+        "hero-064",
+        "hero-065"
+      ],
+      "status": "verified_for_pilot",
+      "review_flags": [],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/novosibirsk-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 11,
+        "reference_title_page": 11,
+        "hero_id": "hero-003",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "orenburg-oblast",
+      "reference_name": "Оренбургская область",
+      "official_name": "Оренбургская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-orenburg-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-007",
+        "hero-062"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/orenburg-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 24,
+        "reference_title_page": 24,
+        "hero_id": "hero-007",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "primorsky-krai",
+      "reference_name": "Приморский край",
+      "official_name": "Приморский край",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-primorsky-krai",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-049"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/primorsky-krai.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 156,
+        "reference_title_page": 156,
+        "hero_id": "hero-049",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "pskov-oblast",
+      "reference_name": "Псковская область",
+      "official_name": "Псковская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-pskov-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-012"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/pskov-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 40,
+        "reference_title_page": 40,
+        "hero_id": "hero-012",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "republic-of-adygea",
+      "reference_name": "Республика Адыгея",
+      "official_name": "Республика Адыгея",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-republic-of-adygea",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-021",
+        "hero-032"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/republic-of-adygea.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 67,
+        "reference_title_page": 67,
+        "hero_id": "hero-021",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "republic-of-bashkortostan",
+      "reference_name": "Республика Башкортостан",
+      "official_name": "Республика Башкортостан",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-republic-of-bashkortostan",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-039",
+        "hero-048",
+        "hero-066",
+        "hero-074"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/republic-of-bashkortostan.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 124,
+        "reference_title_page": 124,
+        "hero_id": "hero-039",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "republic-of-dagestan",
+      "reference_name": "Республика Дагестан",
+      "official_name": "Республика Дагестан",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-republic-of-dagestan",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-033"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/republic-of-dagestan.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 106,
+        "reference_title_page": 106,
+        "hero_id": "hero-033",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "republic-of-ingushetia",
+      "reference_name": "Республика Ингушетия",
+      "official_name": "Республика Ингушетия",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-republic-of-ingushetia",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-025",
+        "hero-050"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/republic-of-ingushetia.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 79,
+        "reference_title_page": 79,
+        "hero_id": "hero-025",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "republic-of-kalmykia",
+      "reference_name": "Республика Калмыкия",
+      "official_name": "Республика Калмыкия",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-republic-of-kalmykia",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-045"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/republic-of-kalmykia.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 142,
+        "reference_title_page": 142,
+        "hero_id": "hero-045",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "republic-of-tatarstan",
+      "reference_name": "Республика Татарстан",
+      "official_name": "Республика Татарстан",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-republic-of-tatarstan",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-044"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/republic-of-tatarstan.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 139,
+        "reference_title_page": 139,
+        "hero_id": "hero-044",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "republic-of-tuva",
+      "reference_name": "Республика Тыва",
+      "official_name": "Республика Тыва",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-republic-of-tuva",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-042"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/republic-of-tuva.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 133,
+        "reference_title_page": 133,
+        "hero_id": "hero-042",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "republic-of-khakassia",
+      "reference_name": "Республика Хакасия",
+      "official_name": "Республика Хакасия",
+      "region_code": "RU-KK",
+      "map_feature_id": "RUKK",
+      "map_file": "design/prototypes/print-v11/assets/maps/republic-of-khakassia.svg",
+      "print_render_file": "design/prototypes/print-v11/assets/maps/republic-of-khakassia.png",
+      "emblem_id": "emblem-republic-of-khakassia",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-004",
+        "hero-008",
+        "hero-027",
+        "hero-043",
+        "hero-063"
+      ],
+      "status": "verified_for_pilot",
+      "review_flags": [],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/republic-of-khakassia.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 16,
+        "reference_title_page": 16,
+        "hero_id": "hero-004",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "sverdlovsk-oblast",
+      "reference_name": "Свердловская область",
+      "official_name": "Свердловская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-sverdlovsk-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-036",
+        "hero-067",
+        "hero-071"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/sverdlovsk-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 115,
+        "reference_title_page": 115,
+        "hero_id": "hero-036",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "tyumen-oblast",
+      "reference_name": "Тюменская область",
+      "official_name": "Тюменская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-tyumen-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-029",
+        "hero-034",
+        "hero-035",
+        "hero-038",
+        "hero-040",
+        "hero-047"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/tyumen-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 94,
+        "reference_title_page": 94,
+        "hero_id": "hero-029",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "khanty-mansi-autonomous-okrug-yugra",
+      "reference_name": "Ханты-Мансийский АО - Югра",
+      "official_name": "Ханты-Мансийский автономный округ - Югра",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-khanty-mansi-autonomous-okrug-yugra",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-076"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/khanty-mansi-autonomous-okrug-yugra.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 244,
+        "reference_title_page": 244,
+        "hero_id": "hero-076",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "chelyabinsk-oblast",
+      "reference_name": "Челябинская область",
+      "official_name": "Челябинская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-chelyabinsk-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-018",
+        "hero-069",
+        "hero-073"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/chelyabinsk-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 59,
+        "reference_title_page": 59,
+        "hero_id": "hero-018",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "chechen-republic",
+      "reference_name": "Чеченская Республика",
+      "official_name": "Чеченская Республика",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-chechen-republic",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-068"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/chechen-republic.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 217,
+        "reference_title_page": 217,
+        "hero_id": "hero-068",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    },
+    {
+      "region_id": "yaroslavl-oblast",
+      "reference_name": "Ярославская область",
+      "official_name": "Ярославская область",
+      "region_code": null,
+      "map_feature_id": null,
+      "map_file": null,
+      "print_render_file": null,
+      "emblem_id": "emblem-yaroslavl-oblast",
+      "source": "content/manifests/reference-family-order-reset.json",
+      "reference_hero_ids": [
+        "hero-019"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "review_flags": [
+        "MAP_FEATURE_ID_NOT_VERIFIED"
+      ],
+      "reference_fallback_map_file": "content/production/maps/reference-fallback/yaroslavl-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 61,
+        "reference_title_page": 61,
+        "hero_id": "hero-019",
+        "method": "lossless page render crop; no geographic inference",
+        "status": "verified_against_canonical_reference"
+      }
+    }
+  ]
+}

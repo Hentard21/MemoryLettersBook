@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-062",
+  "order": 60,
+  "hero_name": "АЛЕКСАНДР",
+  "children": [
+    "АМИР…"
+  ],
+  "region_id": "orenburg-oblast",
+  "city_id": "city-orenburg",
+  "emblem_id": "emblem-orenburg-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": null,
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-062/hero-062_p208_image924_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-062/hero-062_p208_image925_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-062/letters/hero-062_p209_image928.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-062/transcriptions/hero-062_p209_image928_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_FLAGSHIP_MISSING",
+    "REVIEW_REQUIRED_IDENTITY",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 198,
+    "pages": [
+      198,
+      199,
+      200
+    ],
+    "title_text": "- 191 - | МОЙ ОТЕЦ АЛЕКСАНДР | АМИР???? | Оренбургская область | г. Оренбург",
+    "identity_status": "REVIEW_REQUIRED",
+    "notes": [
+      "Identity/title requires manual review; no automatic correction."
+    ],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-062.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 198,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    198,
+    199,
+    200
+  ]
+}

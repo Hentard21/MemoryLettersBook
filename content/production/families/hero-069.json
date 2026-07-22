@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-069",
+  "order": 67,
+  "hero_name": "АНТОН",
+  "children": [
+    "ДМИТРИЙ"
+  ],
+  "region_id": "chelyabinsk-oblast",
+  "city_id": "city-chelyabinsk",
+  "emblem_id": "emblem-chelyabinsk-oblast",
+  "award_id": null,
+  "template": "extended",
+  "flagship": "assets/processed-flagships/hero-069/hero-069_manual_v2_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-069/hero-069_p231_image1009_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-069/hero-069_p231_image1010_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-069/hero-069_p231_image1011_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-069/hero-069_p232_image1014_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-069/hero-069_p232_image1015_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-069/hero-069_p232_image1016_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-069/hero-069_p233_image1019_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-069/letters/hero-069_p233_image1020.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-069/transcriptions/hero-069_p233_image1020_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 221,
+    "pages": [
+      221,
+      222,
+      223,
+      224
+    ],
+    "title_text": "- 214 - | МОЙ ОТЕЦ АНТОН | ДМИТРИЙ | Челябинская область | г. Челябинск",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-069/hero-069_manual_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 225,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-069/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-069/hero-069_manual_v2_nobg.png",
+    "cutout_sha256": "3359dc3cdb68562d52a54d65632d3814420bce44648a03cd49a1249fa693afd2",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-069.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 221,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    221,
+    222,
+    223,
+    224
+  ]
+}

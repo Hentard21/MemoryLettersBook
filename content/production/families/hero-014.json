@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-014",
+  "order": 13,
+  "hero_name": "ЕВГЕНИЙ",
+  "children": [
+    "АГАТА",
+    "МАКАР",
+    "ТАИСИЯ",
+    "ЯРОСЛАВА"
+  ],
+  "region_id": "kurgan-oblast",
+  "city_id": "city-kurgan",
+  "emblem_id": "emblem-kurgan-oblast",
+  "award_id": null,
+  "template": "extended",
+  "flagship": "assets/production-ready/flagship/hero-014/hero-014_p056_image304_white_background.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-014/hero-014_p056_image302_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-014/hero-014_p056_image303_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-014/hero-014_p057_image307_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-014/hero-014_p057_image308_upscaled_2x.jpg"
+  ],
+  "drawings": [
+    "assets/production-ready/drawings/hero-014/hero-014_p058_image311_upscaled_2x.jpg"
+  ],
+  "letters": [
+    "assets/families/hero-014/letters/hero-014_p059_image314.jpg",
+    "assets/families/hero-014/letters/hero-014_p060_image317.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-014/transcriptions/hero-014_p059_image314_transcription.json",
+    "assets/families/hero-014/transcriptions/hero-014_p060_image317_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 47,
+    "pages": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ],
+    "title_text": "- 40 - | НАШ ОТЕЦ ЕВГЕНИЙ | АГАТА, МАКАР , ТАИСИЯ, ЯРОСЛАВА | Курганская область | г. Курган",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-014.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 47,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ]
+}

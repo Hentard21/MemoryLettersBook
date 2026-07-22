@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-038",
+  "order": 36,
+  "hero_name": "ВЯЧЕСЛАВ",
+  "children": [
+    "ЛЕОНИД",
+    "ВАРВАРА",
+    "РОМАН"
+  ],
+  "region_id": "tyumen-oblast",
+  "city_id": "city-tyumen",
+  "emblem_id": "emblem-tyumen-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": null,
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-038/hero-038_p131_image614_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-038/hero-038_p131_image615_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-038/hero-038_p131_image616_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-038/hero-038_p131_image617_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-038/letters/hero-038_p132_image620.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-038/transcriptions/hero-038_p132_image620_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_FLAGSHIP_MISSING",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 121,
+    "pages": [
+      121,
+      122,
+      123
+    ],
+    "title_text": "- 114 - | НАШ ОТЕЦ ВЯЧЕСЛАВ | ЛЕОНИД, ВАРВАР А, РОМАН | Тюменская область | г. Тюмень",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-038.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 121,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    121,
+    122,
+    123
+  ]
+}

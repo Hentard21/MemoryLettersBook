@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-052",
+  "order": 50,
+  "hero_name": "ВИКТОР",
+  "children": [
+    "ВЛАДА"
+  ],
+  "region_id": "ivanovo-oblast",
+  "city_id": "city-ivanovo",
+  "emblem_id": "emblem-ivanovo-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": null,
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-052/hero-052_p176_image797_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-052/hero-052_p176_image798_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-052/hero-052_p176_image799_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-052/letters/hero-052_p177_image802.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-052/transcriptions/hero-052_p177_image802_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_FLAGSHIP_MISSING",
+    "REVIEW_REQUIRED_IDENTITY",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 166,
+    "pages": [
+      166,
+      167,
+      168
+    ],
+    "title_text": "- 159 - | МОЙ ОТЕЦ ВИКТОР | ВЛАДА | Ивановская область | г. Иваново",
+    "identity_status": "REVIEW_REQUIRED",
+    "notes": [
+      "Identity/title requires manual review; no automatic correction."
+    ],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-052.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 166,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    166,
+    167,
+    168
+  ]
+}

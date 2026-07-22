@@ -1,0 +1,288 @@
+#!/usr/bin/env python3
+"""Build the isolated V23 editorial back-matter review spread.
+
+The public copy is read only from content/production/back-matter.json. The
+result is intentionally isolated from family manifests and the locked cover.
+"""
+
+from __future__ import annotations
+
+import argparse
+import html
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_DATA = ROOT / "content" / "production" / "back-matter.json"
+DEFAULT_OUTPUT = (
+    ROOT
+    / "design"
+    / "prototypes"
+    / "print-v23-back-matter"
+    / "back-matter-v23.html"
+)
+
+
+def esc(value: object) -> str:
+    return html.escape(str(value), quote=True)
+
+
+def render(data: dict) -> str:
+    content = data["content"]
+    left = content["left_page"]
+    right = content["right_page"]
+    attribution = esc(content["attribution"])
+
+    left_paragraphs = "\n".join(
+        f"<p>{esc(paragraph)}</p>" for paragraph in left["paragraphs"]
+    )
+    thanks_lines = "\n".join(
+        "<li><span class=\"thanks-lead\">"
+        f"{esc(item['lead'])}</span><span>{esc(item['text'])}</span></li>"
+        for item in right["lines"]
+    )
+
+    return f"""<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Письма памяти - V23, редакционный финал</title>
+  <style>
+    @font-face{{font-family:Onest;src:url('../../fonts/Onest.ttf');font-display:block}}
+    @font-face{{font-family:Golos;src:url('../../fonts/GolosText.ttf');font-display:block}}
+    @font-face{{font-family:Marck;src:url('../../fonts/MarckScript.ttf');font-display:block}}
+    :root{{
+      --page-background:#f3f2ee;
+      --paper-background:#fbfbf9;
+      --primary-navy:#223b5e;
+      --accent-burgundy:#873f46;
+      --body-text:#262b33;
+      --secondary-text:#6f7680;
+      --gold-accent:#a9863c;
+      --line:#e0ddd6;
+      --head:Onest,Arial,sans-serif;
+      --body:Golos,Arial,sans-serif;
+      --script:Marck,cursive;
+    }}
+    *{{box-sizing:border-box;margin:0}}
+    @page{{size:526mm 206mm;margin:0}}
+    html,body{{
+      background:#8b8e92;
+      color:var(--body-text);
+      font-family:var(--body);
+      -webkit-print-color-adjust:exact;
+      print-color-adjust:exact;
+    }}
+    .sheet{{
+      position:relative;
+      width:526mm;
+      height:206mm;
+      overflow:hidden;
+      page-break-after:always;
+      background:var(--page-background);
+    }}
+    .page{{position:absolute;top:3mm;width:260mm;height:200mm;overflow:hidden}}
+    .left{{left:3mm}}
+    .right{{left:263mm}}
+    .sheet::after{{
+      content:"";
+      position:absolute;
+      top:3mm;
+      bottom:3mm;
+      left:262.8mm;
+      z-index:30;
+      width:.2mm;
+      background:rgba(34,59,94,.09);
+    }}
+    .page::after{{
+      content:"";
+      position:absolute;
+      inset:0;
+      z-index:1;
+      pointer-events:none;
+      background:radial-gradient(120% 92% at 52% 46%,rgba(243,242,238,0) 42%,rgba(243,242,238,.75) 83%,#f3f2ee 100%);
+    }}
+    .left-page{{background:linear-gradient(122deg,#f5f4f0,#ebe9e3)}}
+    .right-page{{background:linear-gradient(238deg,#f5f4f0,#ebe9e3)}}
+    .map{{
+      position:absolute;
+      left:-18mm;
+      top:31mm;
+      z-index:0;
+      width:278mm;
+      height:158mm;
+      object-fit:contain;
+      opacity:.105;
+      filter:grayscale(.25);
+    }}
+    .editorial-label{{
+      position:absolute;
+      top:17mm;
+      z-index:9;
+      font:700 6.6pt/1.2 var(--head);
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      color:var(--primary-navy);
+    }}
+    .left-page .editorial-label{{left:18mm}}
+    .right-page .editorial-label{{left:23mm}}
+    .editorial-label::after{{
+      content:"";
+      display:inline-block;
+      width:18mm;
+      height:.45mm;
+      margin:0 0 1.1mm 4mm;
+      background:var(--gold-accent);
+      opacity:.8;
+    }}
+    .left-heading{{position:absolute;left:18mm;top:34mm;z-index:8;width:205mm}}
+    .kicker{{font:700 7.2pt/1.3 var(--head);letter-spacing:.15em;text-transform:uppercase;color:var(--accent-burgundy)}}
+    h1{{margin-top:3mm;font:800 33pt/1.02 var(--head);color:var(--primary-navy)}}
+    .editorial-paper{{
+      position:absolute;
+      left:18mm;
+      top:75mm;
+      z-index:7;
+      width:207mm;
+      padding:10mm 13mm 9mm 15mm;
+      background:
+        radial-gradient(circle at 15% 24%,rgba(169,134,60,.035) 0 .35mm,transparent .45mm) 0 0/5mm 5mm,
+        linear-gradient(108deg,#fbfbf9,#f8f6f0);
+      border-left:1mm solid var(--accent-burgundy);
+      box-shadow:0 1.2mm 3mm rgba(38,43,48,.11);
+    }}
+    .editorial-paper p{{font:400 11.2pt/1.52 var(--body);color:var(--body-text)}}
+    .editorial-paper p+p{{margin-top:4mm}}
+    .editorial-paper p:first-child::first-letter{{
+      float:left;
+      margin:1mm 2.2mm 0 0;
+      font:800 27pt/.82 var(--head);
+      color:var(--accent-burgundy);
+    }}
+    .envelope{{
+      position:absolute;
+      right:-16mm;
+      top:29mm;
+      z-index:0;
+      width:145mm;
+      height:101mm;
+      border:.45mm solid rgba(34,59,94,.10);
+      transform:rotate(-4deg);
+    }}
+    .envelope::before,.envelope::after{{content:"";position:absolute;left:0;right:0;height:.45mm;background:rgba(34,59,94,.10);transform-origin:left center}}
+    .envelope::before{{top:0;transform:rotate(34.8deg)}}
+    .envelope::after{{bottom:0;transform:rotate(-34.8deg)}}
+    .thanks-card{{
+      position:absolute;
+      left:23mm;
+      top:39mm;
+      z-index:7;
+      width:210mm;
+      min-height:118mm;
+      padding:12mm 14mm 12mm 15mm;
+      background:
+        radial-gradient(rgba(34,59,94,.065) 0 .26mm,transparent .34mm) 0 0/4.2mm 4.2mm,
+        rgba(251,251,249,.975);
+      border-top:.4mm solid rgba(169,134,60,.55);
+      box-shadow:0 1.2mm 3.2mm rgba(38,43,48,.11);
+    }}
+    .thanks-card h2{{font:800 28pt/1.02 var(--head);color:var(--primary-navy)}}
+    .thanks-list{{margin-top:8mm;padding:0;list-style:none}}
+    .thanks-list li{{
+      display:grid;
+      grid-template-columns:38mm 1fr;
+      gap:7mm;
+      align-items:start;
+      padding:4.3mm 0;
+      border-top:.25mm solid var(--line);
+      font:400 10.7pt/1.4 var(--body);
+    }}
+    .thanks-list li:first-child{{border-top:0}}
+    .thanks-lead{{font:750 10.7pt/1.4 var(--head);color:var(--accent-burgundy)}}
+    .closing{{
+      position:absolute;
+      left:43mm;
+      bottom:21mm;
+      z-index:9;
+      width:186mm;
+      padding:5mm 8mm 5.4mm 10mm;
+      background:var(--paper-background);
+      border-left:1mm solid var(--accent-burgundy);
+      box-shadow:0 .8mm 2.2mm rgba(38,43,48,.10);
+      font:400 19.5pt/1.18 var(--script);
+      color:var(--accent-burgundy);
+    }}
+    .closing::before{{
+      content:"Редакционная строка";
+      display:block;
+      margin-bottom:1.8mm;
+      font:700 5.6pt/1.2 var(--head);
+      letter-spacing:.13em;
+      text-transform:uppercase;
+      color:var(--primary-navy);
+    }}
+    .run{{
+      position:absolute;
+      bottom:8.5mm;
+      z-index:9;
+      font:600 5.8pt/1 var(--head);
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:var(--secondary-text);
+    }}
+    .left-page .run{{right:22mm}}
+    .right-page .run{{left:23mm}}
+  </style>
+</head>
+<body>
+  <section class="sheet" data-section="editorial-closing-spread">
+    <article class="page left left-page">
+      <img class="map" src="../print-v12/assets/maps/russia-action-participants-schematic-commons.svg" alt="">
+      <div class="editorial-label">{attribution}</div>
+      <div class="left-heading">
+        <div class="kicker">{esc(left['kicker'])}</div>
+        <h1>{esc(left['title'])}</h1>
+      </div>
+      <div class="editorial-paper">{left_paragraphs}</div>
+      <div class="run">Заключительный разворот</div>
+    </article>
+    <article class="page right right-page">
+      <div class="envelope" aria-hidden="true"></div>
+      <div class="editorial-label">{attribution}</div>
+      <section class="thanks-card">
+        <div class="kicker">{esc(right['kicker'])}</div>
+        <h2>{esc(right['title'])}</h2>
+        <ul class="thanks-list">{thanks_lines}</ul>
+      </section>
+      <div class="closing">{esc(right['closing_line'])}</div>
+      <div class="run">Письма памяти</div>
+    </article>
+  </section>
+</body>
+</html>
+"""
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--data", type=Path, default=DEFAULT_DATA)
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    args = parser.parse_args()
+
+    data_path = args.data.resolve()
+    output_path = args.output.resolve()
+    data = json.loads(data_path.read_text(encoding="utf-8"))
+
+    if data.get("editorial_guardrails", {}).get("public_attribution_label") != "От редакции":
+        raise SystemExit("Back matter must keep the public 'От редакции' attribution.")
+    if data.get("placement", {}).get("spread_count") != 1:
+        raise SystemExit("The approved proposal scope is exactly one closing spread.")
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(render(data), encoding="utf-8")
+    print(output_path)
+
+
+if __name__ == "__main__":
+    main()

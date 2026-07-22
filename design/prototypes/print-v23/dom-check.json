@@ -1,0 +1,67 @@
+{
+  "sheets": 7,
+  "pages": 14,
+  "compactProfiles": 5,
+  "quotePages": [
+    {
+      "page": 5,
+      "sourcePages": "5,6",
+      "paragraphs": 5,
+      "textLength": 1559
+    },
+    {
+      "page": 7,
+      "sourcePages": "7,8",
+      "paragraphs": 6,
+      "textLength": 1481
+    },
+    {
+      "page": 9,
+      "sourcePages": "9,10",
+      "paragraphs": 5,
+      "textLength": 1366
+    },
+    {
+      "page": 10,
+      "sourcePages": "13,14",
+      "paragraphs": 6,
+      "textLength": 1700
+    },
+    {
+      "page": 11,
+      "sourcePages": "15,16",
+      "paragraphs": 5,
+      "textLength": 1935
+    }
+  ],
+  "signatureImages": 2,
+  "shortExcerptCards": 0,
+  "decreeGeographyPages": 1,
+  "decreeMapImages": 1,
+  "decreeFacsimiles": 2,
+  "generatedDecreeTextImages": 0,
+  "missingDecreePhrases": [],
+  "geographyPages": 1,
+  "geographyMaps": 1,
+  "geographyStats": 3,
+  "welcomeDividers": 0,
+  "legacyHeadlineCount": 0,
+  "welcomeIndexItems": 0,
+  "tocRows": 74,
+  "tocPages": [
+    13,
+    14
+  ],
+  "firstFamilyInteriorPage": 14,
+  "firstFamilySide": "left",
+  "overflow": [],
+  "brokenImages": [],
+  "previewParityErrors": [],
+  "productionParityErrors": [],
+  "moduleCollisions": [],
+  "portraitQuoteCuts": [],
+  "portraitDirectionErrors": [],
+  "ungroundedPortraits": [],
+  "blockers": [],
+  "status": "pass"
+}

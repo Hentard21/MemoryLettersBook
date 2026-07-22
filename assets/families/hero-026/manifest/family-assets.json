@@ -33,7 +33,38 @@
       "gigapixel_status": "completed",
       "print_qa_status": "ready_for_layout",
       "layout_role": "hero_flagship",
-      "selection_confidence": "high"
+      "selection_confidence": "high",
+      "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-026/cutitout.png",
+      "cutout_source_file": "assets/production-ready/flagship/hero-026/hero-026_manual_white_v2.png",
+      "cutout_file": "assets/processed-flagships/hero-026/hero-026_manual_v2_nobg.png",
+      "cutout_sha256": "fea6b86362bf0a728d504f373756baa3083c8173c48321fcb4c49a225c1f36c5",
+      "cutout_width_px": 1024,
+      "cutout_height_px": 1536,
+      "cutout_tool": "local CutItOut via Playwright",
+      "cutout_status": "ready_for_draft_layout",
+      "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+      "flagship_layout": {
+        "preset": "v20-grounded-right",
+        "reference_hero_id": "hero-014",
+        "composition": "manual_title_page",
+        "crop_mode": "waist",
+        "grounding": "bottom",
+        "object_fit": "intrinsic_height",
+        "object_position": "center bottom",
+        "blend_mode": "normal",
+        "protect": [
+          "face",
+          "hair",
+          "hands",
+          "weapons",
+          "straps",
+          "uniform",
+          "insignia",
+          "awards",
+          "held_objects"
+        ],
+        "status": "manual_title_layout_required"
+      }
     },
     {
       "asset_id": "hero-026_p092_image454",
@@ -92,11 +123,12 @@
       "legacy_source_pdf_page": 92,
       "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
       "print_file": "assets/production-ready/drawings/hero-026/hero-026_p092_image455_upscaled_2x.jpg",
-      "print_sha256": "e1633df0bff4229002e25342428dccd009c5f87299ad3d0dabbe17c4f7ea9afe",
+      "print_sha256": "ea50df4bf7c073a710a15ccbf28c49a3a26f64d13b227e65f75421f86a14991a",
       "print_width_px": 580,
       "print_height_px": 940,
       "gigapixel_status": "completed",
-      "print_qa_status": "REVIEW_REQUIRED"
+      "print_qa_status": "ready_for_layout",
+      "print_qa_notes": "Owner-supplied Hi-res recover v2 accepted for the draft on 2026-07-22; canonical original remains unchanged."
     },
     {
       "asset_id": "hero-026_p092_image456",

@@ -33,7 +33,38 @@
       "gigapixel_status": "completed",
       "print_qa_status": "ready_for_layout",
       "layout_role": "hero_flagship",
-      "selection_confidence": "high"
+      "selection_confidence": "high",
+      "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-025/cutitout.png",
+      "cutout_source_file": "assets/production-ready/flagship/hero-025/hero-025_manual_white_v2.png",
+      "cutout_file": "assets/processed-flagships/hero-025/hero-025_manual_v2_nobg.png",
+      "cutout_sha256": "b96bc3266715a5f835c7ce9c35758386b8a31333c902b331d2a5b72e2b6c3651",
+      "cutout_width_px": 1024,
+      "cutout_height_px": 1536,
+      "cutout_tool": "local CutItOut via Playwright",
+      "cutout_status": "ready_for_draft_layout",
+      "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+      "flagship_layout": {
+        "preset": "v20-grounded-right",
+        "reference_hero_id": "hero-014",
+        "composition": "manual_title_page",
+        "crop_mode": "waist",
+        "grounding": "bottom",
+        "object_fit": "intrinsic_height",
+        "object_position": "center bottom",
+        "blend_mode": "normal",
+        "protect": [
+          "face",
+          "hair",
+          "hands",
+          "weapons",
+          "straps",
+          "uniform",
+          "insignia",
+          "awards",
+          "held_objects"
+        ],
+        "status": "manual_title_layout_required"
+      }
     },
     {
       "asset_id": "hero-025_p089_image443",

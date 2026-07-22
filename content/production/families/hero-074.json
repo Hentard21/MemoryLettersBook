@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-074",
+  "order": 72,
+  "hero_name": "АРТУР",
+  "children": [
+    "ДИНАР"
+  ],
+  "region_id": "republic-of-bashkortostan",
+  "city_id": "city-ufa",
+  "emblem_id": "emblem-republic-of-bashkortostan",
+  "award_id": null,
+  "template": "standard",
+  "flagship": null,
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-074/hero-074_p247_image1070_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-074/hero-074_p247_image1071_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-074/hero-074_p248_image1074_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-074/hero-074_p248_image1075_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-074/letters/hero-074_p249_image1078.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-074/transcriptions/hero-074_p249_image1078_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_FLAGSHIP_MISSING",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 237,
+    "pages": [
+      237,
+      238,
+      239,
+      240
+    ],
+    "title_text": "- 230 - | МОЙ ОТЕЦ АРТУР | ДИНАР | Республика Башкортостан | г. Уфа",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-074.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 237,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    237,
+    238,
+    239,
+    240
+  ]
+}

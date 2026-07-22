@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-015",
+  "order": 14,
+  "hero_name": "ИЛЬЯ",
+  "children": [
+    "КСЕНИЯ",
+    "ЕЛИЗАВЕТА"
+  ],
+  "region_id": "nizhny-novgorod-oblast",
+  "city_id": "city-nizhny-novgorod",
+  "emblem_id": "emblem-nizhny-novgorod-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-015/hero-015_manual_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-015/hero-015_p062_image323_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-015/hero-015_p062_image324_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-015/hero-015_p062_image325_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-015/letters/hero-015_p063_image328.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-015/transcriptions/hero-015_p063_image328_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 53,
+    "pages": [
+      53,
+      54,
+      55
+    ],
+    "title_text": "- 46 - | НАШ ОТЕЦ ИЛЬЯ | КСЕНИЯ, ЕЛИЗАВЕТА | Нижегородская область | г. Нижний Новгород",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-015/hero-015_manual_white.png",
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help/high/hero-015/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-015/hero-015_manual_nobg.png",
+    "cutout_sha256": "0c2299d7e0fa6f5ba14e7f7bbddb21da0e16f40c3f5bd6d9486e9217d671743d",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "source_pose": "full_body",
+    "display_height_mm": 250,
+    "bottom_mm": -65,
+    "right_mm": 3,
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-015.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 53,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    53,
+    54,
+    55
+  ]
+}

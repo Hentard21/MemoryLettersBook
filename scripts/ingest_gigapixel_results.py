@@ -78,6 +78,54 @@ def write_json(path: Path, data: Any) -> None:
     )
 
 
+def write_canonical_index(
+    project_root: Path, manifest_entries: list[dict[str, Any]]
+) -> None:
+    """Write the stable production-facing source/print pairing."""
+    canonical_assets = []
+    for item in manifest_entries:
+        source_path = project_root / str(item.get("source_file") or "")
+        source_width = source_height = None
+        if source_path.is_file():
+            try:
+                with Image.open(source_path) as image:
+                    source_width, source_height = image.size
+            except OSError:
+                pass
+        canonical_assets.append(
+            {
+                "asset_id": item["asset_id"],
+                "hero_id": item["hero_id"],
+                "source_file": item.get("source_file"),
+                "print_file": item.get("print_file"),
+                "source_dimensions": {
+                    "width_px": source_width,
+                    "height_px": source_height,
+                },
+                "print_dimensions": {
+                    "width_px": item.get("width_px"),
+                    "height_px": item.get("height_px"),
+                },
+                "source_sha256": (
+                    sha256(source_path) if source_path.is_file() else None
+                ),
+                "print_sha256": item.get("sha256"),
+                "qa_status": item.get("qa_status", "provisional"),
+                "asset_role": item.get("asset_role"),
+                "notes": item.get("notes", ""),
+            }
+        )
+    write_json(
+        project_root / "content/production/gigapixel-assets.json",
+        {
+            "schema_version": 1,
+            "source": "assets/production-ready/manifest.json",
+            "count": len(canonical_assets),
+            "assets": canonical_assets,
+        },
+    )
+
+
 def find_original(result: Path, base: str) -> Path:
     matches = [
         candidate
@@ -194,7 +242,10 @@ def correct_hero_026_source(project_root: Path, apply: bool) -> tuple[Path, Path
         raise ValueError(f"Classification destination collision: {destination}")
     if apply and not destination.exists():
         destination.parent.mkdir(parents=True, exist_ok=True)
-        shutil.move(str(source), str(destination))
+        # Classification changes must not destroy the extracted master at its
+        # original path; retain it for provenance and copy into the corrected
+        # category instead.
+        shutil.copy2(str(source), str(destination))
     return source, destination
 
 
@@ -238,6 +289,8 @@ def main() -> int:
             if not (project_root / item.get("print_file", "")).is_file()
         ]
         if len(existing_entries) == 281 and not missing_print_files:
+            if apply:
+                write_canonical_index(project_root, existing_entries)
             print(
                 f"[{mode}] already ingested: 281/281 production files "
                 f"verified via {rel(existing_manifest_path, project_root)}"
@@ -406,6 +459,9 @@ def main() -> int:
                 "assets": manifest_entries,
             },
         )
+        # Canonical production index requested by the book generator. Keep
+        # the richer staging manifest above for backwards compatibility.
+        write_canonical_index(project_root, manifest_entries)
 
     for error in errors:
         print(f"ERROR: {error}")

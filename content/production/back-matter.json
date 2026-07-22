@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "section_id": "editorial-closing-spread",
+  "status": "candidate_for_manual_approval",
+  "source_basis": {
+    "reference_pdf": "source/reference.pdf",
+    "reference_page_count": 246,
+    "reference_last_family_pdf_pages": [
+      244,
+      245,
+      246
+    ],
+    "reference_has_concluding_section": false,
+    "verification": "text extraction and visual inspection of PDF pages 241-246",
+    "note": "The canonical reference ends with the physical handwriting of the last family. This spread is new editorial back matter and is not attributed to a family, official, partner, or organization."
+  },
+  "placement": {
+    "section_role": "back_matter",
+    "spread_count": 1,
+    "page_count": 2,
+    "append_after_last_family": true,
+    "start_side": "left_even",
+    "end_side": "right_odd",
+    "folio_mode": "assigned_by_final_pagination",
+    "parity_rule": "Append directly when the final family ends on a right-hand odd page. If upstream pagination changes, insert a non-content blank before this spread rather than splitting it."
+  },
+  "content": {
+    "attribution": "От редакции",
+    "left_page": {
+      "kicker": "Заключение",
+      "title": "Память продолжается",
+      "paragraphs": [
+        "Эта книга завершается, но разговор, который начинается с письма, не заканчивается на последней странице.",
+        "Мы благодарим семьи за доверие и за возможность бережно сохранить рядом подлинные рукописи, их расшифровки, фотографии и рисунки.",
+        "Эти материалы говорят сами за себя. Задача книги - дать им место, сохранить последовательность и передать дальше."
+      ]
+    },
+    "right_page": {
+      "kicker": "Благодарность",
+      "title": "Спасибо",
+      "lines": [
+        {
+          "lead": "Семьям",
+          "text": "- за доверие и бережно сохранённые материалы."
+        },
+        {
+          "lead": "Детям",
+          "text": "- за искренние слова и рисунки, вошедшие в книгу."
+        },
+        {
+          "lead": "Читателям",
+          "text": "- за внимание и бережное отношение к каждой истории."
+        }
+      ],
+      "closing_line": "Пока письма читают, память продолжается."
+    }
+  },
+  "editorial_guardrails": {
+    "public_attribution_required": true,
+    "public_attribution_label": "От редакции",
+    "contains_family_biography": false,
+    "contains_statistics": false,
+    "contains_official_statement": false,
+    "contains_new_dates_or_awards": false,
+    "uses_family_handwriting_as_decoration": false,
+    "manual_text_approval_required": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-001",
+  "order": 1,
+  "hero_name": "АНАСТАСИЯ",
+  "children": [
+    "ИГОРЬ"
+  ],
+  "region_id": "volgograd-oblast",
+  "city_id": "city-volgograd",
+  "emblem_id": "emblem-volgograd-oblast",
+  "award_id": "award-order-of-courage",
+  "template": "standard",
+  "flagship": "assets/families/hero-001/flagship/anastasia_portrait_repaired_white.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-001/hero-001_photo_02_master_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-001/hero-001_photo_03_master_upscaled_2x.jpg"
+  ],
+  "drawings": [
+    "assets/families/hero-001/drawings/hero-001_drawing_01_master.png"
+  ],
+  "letters": [
+    "assets/families/hero-001/letters/hero-001_letter_01_master.png"
+  ],
+  "transcriptions": [
+    "assets/families/hero-001/transcriptions/hero-001_letter_01_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_DRAWING_QA",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 8,
+    "pages": [
+      8,
+      9,
+      10
+    ],
+    "title_text": "- 1 - | МОЯ МАМА АНАСТАСИЯ | ИГОРЬ | Волгоградская область | г. Волгоград",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "source/reference.pdf page 8"
+  },
+  "status": "ready_for_pilot_with_review",
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-001.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 8,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "мама",
+  "source_pages": [
+    8,
+    9,
+    10
+  ]
+}

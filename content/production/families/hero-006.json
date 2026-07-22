@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-006",
+  "order": 5,
+  "hero_name": "АЛИМАМЕД",
+  "children": [
+    "РУСЛАН",
+    "МУРАД"
+  ],
+  "region_id": "novosibirsk-oblast",
+  "city_id": "city-novosibirsk",
+  "emblem_id": "emblem-novosibirsk-oblast",
+  "award_id": "award-order-of-courage",
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png",
+  "flagship_role": "family_group_with_hero_portrait",
+  "archive_photos": [
+    "assets/processed-flagships/hero-006/hero-006_supporting_boys_ready_nobg.png"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-006/letters/hero-006_p031_image188.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-006/transcriptions/hero-006_p031_image188_transcription.json"
+  ],
+  "letter_provenance": [
+    {
+      "letter_file": "assets/families/hero-006/letters/hero-006_p031_image188.jpg",
+      "source_file": "source/reference.pdf",
+      "pdf_page": 23,
+      "printed_folio": "- 16 -",
+      "document_title": "ГЕРОЙ СВО",
+      "classification": "physical_mixed_document_with_handwriting",
+      "previous_category": "archive-photos; native master preserved there",
+      "status": "confirmed_by_visual_reference"
+    }
+  ],
+  "review_flags": [
+    "FLAGSHIP_IS_FAMILY_GROUP",
+    "LETTER_SOURCE_NORMALIZED_TO_LETTERS_COPY_MASTER_PRESERVED",
+    "REVIEW_REQUIRED_DIRECT_HERO_PORTRAIT_NOT_REGISTERED",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 21,
+    "pages": [
+      21,
+      22,
+      23
+    ],
+    "title_text": "- 14 - | НАШ ОТЕЦ АЛИМАМЕД | РУСЛАН, МУР АД | Новосибирская область | г. Новосибирск",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "source/reference.pdf page 21"
+  },
+  "status": "ready_for_pilot_with_review",
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-006.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 21,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    21,
+    22,
+    23
+  ],
+  "flagship_processing_source": "assets/production-ready/archive/hero-006/hero-006_p030_image184_upscaled_2x.jpg",
+  "flagship_max_height_mm_at_180_ppi": 144,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-006/hero-006_title_group_nobg.png",
+    "processing_source": "assets/production-ready/archive/hero-006/hero-006_p030_image184_upscaled_2x.jpg",
+    "cutout_file": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png",
+    "cutout_sha256": "d8259ce64682297328a36f9a7c6a1fdc6f9bae1ec55dbcf7e2b1347b21a65800",
+    "tool": "returned manual CutItOut PNG; local alpha QA",
+    "status": "ready_for_draft_layout",
+    "visual_qa": "passed_on_light_and_dark_checkerboard",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+    "supersedes": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist_or_truthful_source_limit",
+    "source_pose": "children-with-portrait",
+    "display_height_mm": 135,
+    "bottom_mm": -1,
+    "right_mm": 0,
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects",
+      "children"
+    ],
+    "status": "manual_title_layout_required"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-067",
+  "order": 65,
+  "hero_name": "ЕВГЕНИЙ",
+  "children": [
+    "ПОЛИНА",
+    "АННА",
+    "ЕГОР"
+  ],
+  "region_id": "sverdlovsk-oblast",
+  "city_id": "city-yekaterinburg",
+  "emblem_id": "emblem-sverdlovsk-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-067/hero-067_manual_v2_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-067/hero-067_p224_image980_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-067/hero-067_p224_image981_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-067/letters/hero-067_p225_image984.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-067/transcriptions/hero-067_p225_image984_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 214,
+    "pages": [
+      214,
+      215,
+      216
+    ],
+    "title_text": "- 207 - | НАШ ОТЕЦ ЕВГЕНИЙ | ПОЛИНА, АННА, ЕГОР | Свердловская область | г. Екатеринбург",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-067/hero-067_manual_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 225,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-067/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-067/hero-067_manual_v2_nobg.png",
+    "cutout_sha256": "4ca6a6f89861d340cc9294575f6ff091606299e3bd9f1eef55d1429ad4b53d83",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-067.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 214,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    214,
+    215,
+    216
+  ]
+}

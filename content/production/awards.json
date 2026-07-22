@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "policy": "Awards are assigned only when visible in the canonical reference. Null means no verified award assignment.",
+  "awards": [
+    {
+      "award_id": "award-order-of-courage",
+      "official_name": "Орден Мужества",
+      "asset_file": "design/prototypes/print-v11/assets/symbols/order-of-courage-reference.png",
+      "source": "source/reference.pdf",
+      "verified_reference_pages": [
+        8,
+        16,
+        21
+      ],
+      "status": "verified_for_pilot"
+    }
+  ]
+}

@@ -8,6 +8,31 @@ tmp/
 workspace/
 graphify-out/
 
+# Reproducible full-book builds and review renders. Keep only the current
+# compact client proof in Git; print masters are rebuilt locally.
+output-v*/
+output/*
+!output/pdf/
+output/pdf/*
+!output/pdf/PRINT_V28_MAP_RESTORED_CLIENT.pdf
+
+# Generated prototype PDFs/renders; canonical HTML, JSON and design locks stay.
+design/prototypes/print-v21/tmp/
+design/prototypes/print-v21/*.pdf
+design/prototypes/print-v22/
+design/prototypes/print-v23/renders/
+design/prototypes/print-v23/*.pdf
+design/prototypes/print-v24-general-single-column-test/
+
+# Owner-assisted cutout queues are intentionally local while generation is in
+# progress. Canonical originals and accepted outputs live in families/,
+# production-ready/ and processed-flagships/.
+assets/manual-cutout-help-next/
+assets/manual-cutout-help-remaining/
+assets/manual-cutout-help-title-corrections/
+assets/manual-cutout-help/**/cutitout.png
+assets/manual-cutout-help/**/newcutitout.png
+
 # Dependency directories
 node_modules/
 

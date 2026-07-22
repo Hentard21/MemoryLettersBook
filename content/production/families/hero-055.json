@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-055",
+  "order": 53,
+  "hero_name": "ВЯЧЕСЛАВ",
+  "children": [
+    "РУСЛАН",
+    "КАМИЛЛА",
+    "САБИНА"
+  ],
+  "region_id": "novosibirsk-oblast",
+  "city_id": null,
+  "emblem_id": "emblem-novosibirsk-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": null,
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-055/hero-055_p187_image838_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-055/hero-055_p187_image839_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-055/hero-055_p187_image840_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-055/letters/hero-055_p188_image843.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-055/transcriptions/hero-055_p188_image843_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_CITY_MISSING",
+    "REVIEW_REQUIRED_FLAGSHIP_MISSING",
+    "REVIEW_REQUIRED_IDENTITY",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 177,
+    "pages": [
+      177,
+      178,
+      179
+    ],
+    "title_text": "- 170 - | НАШ ОТЕЦ ВЯЧЕСЛАВ | РУСЛАН, КАМИЛЛА, САБИНА | Новосибирская область",
+    "identity_status": "REVIEW_REQUIRED",
+    "notes": [
+      "Identity/title requires manual review; no automatic correction."
+    ],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "reference_award_file": null,
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 177,
+    "method": "reference title page checked; no visible award found",
+    "status": "not_visible_in_reference"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    177,
+    178,
+    179
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "policy": "Use owner-supplied SVGs and registered production derivatives; do not synthesize logos.",
+  "logos": [
+    {
+      "logo_id": "logo-center-support-mark",
+      "display_name": "АНО «Центр поддержки детей погибших военнослужащих»",
+      "source_file": "assets/branding/source-svg/center-logo.svg",
+      "production_file": "assets/branding/production/center-mark-tight.svg",
+      "derivative_change": "tight viewBox only",
+      "status": "verified_by_owner_svg_and_site_usage"
+    },
+    {
+      "logo_id": "logo-dialog-generations-mark",
+      "display_name": "Проект «Диалог поколений. Герои и дети»",
+      "source_file": "assets/branding/source-svg/dialog-generations-mark.svg",
+      "production_file": "assets/branding/production/dialog-generations-mark.svg",
+      "derivative_change": "none",
+      "status": "verified_visual_identity; legal_name_not_asserted"
+    }
+  ]
+}

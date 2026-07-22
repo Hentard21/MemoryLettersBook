@@ -54,7 +54,42 @@
       "gigapixel_status": "completed",
       "print_qa_status": "ready_for_layout",
       "layout_role": "hero_flagship",
-      "selection_confidence": "medium"
+      "selection_confidence": "medium",
+      "title_layout_role": "hero_flagship",
+      "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-009/hero-009_title_group_nobg.png",
+      "cutout_file": "assets/processed-flagships/hero-009/hero-009_title_group_ready_nobg.png",
+      "cutout_sha256": "4572fb0379123b0b30f3e8eb267724497156a2fac7525270e1535eadead0ef6c",
+      "cutout_width_px": 1257,
+      "cutout_height_px": 1095,
+      "cutout_tool": "returned manual CutItOut PNG; local alpha QA",
+      "cutout_status": "ready_for_draft_layout",
+      "flagship_layout": {
+        "preset": "v20-grounded-right",
+        "reference_hero_id": "hero-014",
+        "composition": "manual_title_page",
+        "crop_mode": "waist_or_truthful_source_limit",
+        "source_pose": "family-group",
+        "display_height_mm": 158,
+        "bottom_mm": -1,
+        "right_mm": 0,
+        "grounding": "bottom",
+        "object_fit": "intrinsic_height",
+        "object_position": "center bottom",
+        "blend_mode": "normal",
+        "protect": [
+          "face",
+          "hair",
+          "hands",
+          "weapons",
+          "straps",
+          "uniform",
+          "insignia",
+          "awards",
+          "held_objects",
+          "children"
+        ],
+        "status": "manual_title_layout_required"
+      }
     },
     {
       "asset_id": "hero-009_p040_image228",

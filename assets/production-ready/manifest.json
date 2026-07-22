@@ -3933,12 +3933,12 @@
       "source_file": "assets/families/hero-026/drawings/hero-026_p092_image455.jpg",
       "staging_original_file": "project-reset/archived/duplicate-assets/for-gigapixel-completed-2026-07-19/drawings/hero-026/hero-026_p092_image455.jpg",
       "print_file": "assets/production-ready/drawings/hero-026/hero-026_p092_image455_upscaled_2x.jpg",
-      "sha256": "e1633df0bff4229002e25342428dccd009c5f87299ad3d0dabbe17c4f7ea9afe",
+      "sha256": "ea50df4bf7c073a710a15ccbf28c49a3a26f64d13b227e65f75421f86a14991a",
       "width_px": 580,
       "height_px": 940,
       "scale": "2x",
-      "qa_status": "REVIEW_REQUIRED",
-      "notes": "FaceAI was used on a real drawing; approve against the source before print."
+      "qa_status": "ready_for_layout",
+      "notes": "Owner-supplied Hi-res recover v2 accepted for the draft on 2026-07-22; original drawing is preserved separately."
     },
     {
       "hero_id": "hero-026",

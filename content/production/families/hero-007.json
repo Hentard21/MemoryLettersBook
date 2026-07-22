@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-007",
+  "order": 6,
+  "hero_name": "АЛМАТ",
+  "children": [
+    "АДЕЛИНА"
+  ],
+  "region_id": "orenburg-oblast",
+  "city_id": "city-orenburg",
+  "emblem_id": "emblem-orenburg-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-007/hero-007_manual_v2_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-007/hero-007_p033_image198_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-007/hero-007_p033_image199_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-007/hero-007_p034_image202_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-007/letters/hero-007_p034_image203.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-007/transcriptions/hero-007_p034_image203_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 24,
+    "pages": [
+      24,
+      25,
+      26
+    ],
+    "title_text": "- 17 - | МОЙ ОТЕЦ АЛМАТ | АДЕЛИНА | Оренбургская область | г. Оренбург",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-007/hero-007_manual_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 217,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-007/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-007/hero-007_manual_v2_nobg.png",
+    "cutout_sha256": "ae792085905c955c5fe4f20aa80e3742b8058be73a708d6ab0a45d6ac7ce0d8c",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-007.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 24,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    24,
+    25,
+    26
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-018",
+  "order": 16,
+  "hero_name": "АНДРЕЙ",
+  "children": [
+    "ЕЛИЗАВЕТА"
+  ],
+  "region_id": "chelyabinsk-oblast",
+  "city_id": "city-chelyabinsk",
+  "emblem_id": "emblem-chelyabinsk-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-018/hero-018_manual_v2_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/families/hero-018/archive-photos/hero-018_p069_image356.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-018/letters/hero-018_p069_image357.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-018/transcriptions/hero-018_p069_image357_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 59,
+    "pages": [
+      59,
+      60
+    ],
+    "title_text": "- 52 - | МОЙ ОТЕЦ АНДРЕЙ | ЕЛИЗАВЕТА | Челябинская область | г. Челябинск",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-018/hero-018_manual_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 229,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-018/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-018/hero-018_manual_v2_nobg.png",
+    "cutout_sha256": "55d323a183d748cc038ddd5fbd0bca7320fde17a0e9aa2a23674adbeaef58419",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-018.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 59,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    59,
+    60
+  ]
+}

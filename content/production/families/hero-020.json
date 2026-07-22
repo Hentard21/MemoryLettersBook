@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-020",
+  "order": 18,
+  "hero_name": "БУЛАТ",
+  "children": [
+    "ТИМУР",
+    "ДИЯР"
+  ],
+  "region_id": "astrakhan-oblast",
+  "city_id": "city-astrakhan",
+  "emblem_id": "emblem-astrakhan-oblast",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-020/hero-020_manual_v2_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-020/hero-020_p074_image381_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-020/hero-020_p074_image382_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-020/letters/hero-020_p075_image385.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-020/transcriptions/hero-020_p075_image385_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_IDENTITY",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 64,
+    "pages": [
+      64,
+      65,
+      66
+    ],
+    "title_text": "- 57 - | НАШ ОТЕЦ БУ ЛАТ | ТИМУР , ДИЯР | Астраханская область | г. Астрахань",
+    "identity_status": "REVIEW_REQUIRED",
+    "notes": [
+      "Identity/title requires manual review; no automatic correction."
+    ],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-020/hero-020_manual_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 217,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-020/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-020/hero-020_manual_v2_nobg.png",
+    "cutout_sha256": "ffce8d48f52c9abd12154917a55948e21b9c8c923a97fc503d35011a2d4353d4",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-020.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 64,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    64,
+    65,
+    66
+  ]
+}

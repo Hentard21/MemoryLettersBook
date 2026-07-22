@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "tool": "CutItOut via Playwright",
+  "source_profile": "intro ProUpscale portraits",
+  "completed": [
+    {
+      "hero_id": "shumilov",
+      "person_id": "shumilov",
+      "source": "C:\\Users\\MarkII\\Книга Письма Памяти\\book-project\\assets\\intro-people\\for-gigapixel\\ProUpscale\\Шумилов.png",
+      "output": "C:\\Users\\MarkII\\Книга Письма Памяти\\book-project\\assets\\intro-people\\cutouts-pro\\shumilov_compact_nobg.png",
+      "width": 1122,
+      "height": 1402,
+      "duration_ms": 25233,
+      "browserErrors": [],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 606502,
+      "status": "needs_manual_mask_review"
+    }
+  ],
+  "failed": [],
+  "batch_duration_seconds": 26.688,
+  "status_note": "Every mask requires visual review before final print approval."
+}

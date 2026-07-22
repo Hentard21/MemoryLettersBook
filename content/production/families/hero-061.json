@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-061",
+  "order": 59,
+  "hero_name": "СЕРГЕЙ",
+  "children": [
+    "СОФИЯ"
+  ],
+  "region_id": "moscow-federal-city",
+  "city_id": "city-moscow",
+  "emblem_id": "emblem-moscow-federal-city",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-061/hero-061_manual_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-061/hero-061_p205_image915_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-061/hero-061_p205_image916_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-061/letters/hero-061_p206_image919.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-061/transcriptions/hero-061_p206_image919_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_EMBLEM_ASSET",
+    "REVIEW_REQUIRED_REGION_MAP",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 195,
+    "pages": [
+      195,
+      196,
+      197
+    ],
+    "title_text": "- 188 - | МОЙ ОТЕЦ СЕРГЕЙ | СОФИЯ | г . Москва | г. Москва",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-061/hero-061_manual_white.png",
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help/critical/hero-061/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-061/hero-061_manual_nobg.png",
+    "cutout_sha256": "f93b7d6c3dae98d265182ef64623769b3c9b9904189f873d5010a262ceba1beb",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "source_pose": "waist_or_bust",
+    "display_height_mm": 193,
+    "bottom_mm": -1,
+    "right_mm": 0,
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-061.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 195,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    195,
+    196,
+    197
+  ]
+}

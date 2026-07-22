@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-22T01:05:46.770883+00:00",
+  "package": "assets/manual-cutout-help-title-corrections/manifest.json",
+  "policy": "Returned CutItOut PNGs already contained real transparency. They were not subjected to a destructive second removal pass; only alpha QA and transparent-margin trimming were applied.",
+  "counts": {
+    "families": 10,
+    "files": 11,
+    "technical_qa_passed": 11,
+    "visual_qa_passed": 11
+  },
+  "entries": [
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-005/hero-005_title_nobg.png",
+      "return_sha256": "f036e73b00a6315813d3523e782d1887a90405d8794b2ff0ec5a07b133ebeffd",
+      "output_file": "assets/processed-flagships/hero-005/hero-005_title_ready_nobg.png",
+      "source_width_px": 1435,
+      "source_height_px": 1096,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        207,
+        24,
+        1305,
+        1096
+      ],
+      "output_width_px": 1098,
+      "output_height_px": 1072,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "d7a7c43745168d8153482bdf9eb0d46dabee45878c52687288ca3b480fd27d75",
+      "hero_id": "hero-005",
+      "asset_id": "hero-005_p027_image176",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-006/hero-006_title_group_nobg.png",
+      "return_sha256": "14934e7d529d4e8dbc67b5ffc88622f77b3a6142a6c41f36d5ff7b20af851ed7",
+      "output_file": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png",
+      "source_width_px": 1434,
+      "source_height_px": 1097,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        11,
+        80,
+        1425,
+        1097
+      ],
+      "output_width_px": 1414,
+      "output_height_px": 1017,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "d8259ce64682297328a36f9a7c6a1fdc6f9bae1ec55dbcf7e2b1347b21a65800",
+      "hero_id": "hero-006",
+      "asset_id": "hero-006_p030_image184",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-006/hero-006_supporting_boys_nobg.png",
+      "return_sha256": "72ba277a1dfe370b8ef1405b193c5d84144331b63e1d26f659382b7da0d28eac",
+      "output_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_ready_nobg.png",
+      "source_width_px": 1064,
+      "source_height_px": 1479,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        110,
+        1037,
+        1479
+      ],
+      "output_width_px": 1037,
+      "output_height_px": 1369,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "0929d097d4b5adb74a9750341a17542a5127447a5a220820ceb24f1976ea154b",
+      "hero_id": "hero-006",
+      "asset_id": "hero-006_p030_image185",
+      "role": "supporting_photo",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-009/hero-009_title_group_nobg.png",
+      "return_sha256": "5517e9f2dbbb8f081d989c0a5e1a5157dd0480bc13b877bde3291ba2f19863af",
+      "output_file": "assets/processed-flagships/hero-009/hero-009_title_group_ready_nobg.png",
+      "source_width_px": 1436,
+      "source_height_px": 1095,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1257,
+        1095
+      ],
+      "output_width_px": 1257,
+      "output_height_px": 1095,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "4572fb0379123b0b30f3e8eb267724497156a2fac7525270e1535eadead0ef6c",
+      "hero_id": "hero-009",
+      "asset_id": "hero-009_p039_image225",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-022/hero-022_title_nobg.png",
+      "return_sha256": "9abbd346c49d5cf3f5d08bee031efb8234317a259975665966f542379977b8a8",
+      "output_file": "assets/processed-flagships/hero-022/hero-022_title_ready_nobg.png",
+      "source_width_px": 1437,
+      "source_height_px": 1094,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        578,
+        0,
+        1377,
+        1094
+      ],
+      "output_width_px": 799,
+      "output_height_px": 1094,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": {
+        "discard_left_px": 520
+      },
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "0da9ccecc13a3d489cbc830f2054c00143e11a3704d83a4a31dae725ef185a0a",
+      "hero_id": "hero-022",
+      "asset_id": "hero-022_p080_image409",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-023/hero-023_title_nobg.png",
+      "return_sha256": "0a2fb46d85105176aa3f80994c51dfedc753b6a9a3561f816217705f3db4c7e7",
+      "output_file": "assets/processed-flagships/hero-023/hero-023_title_ready_nobg.png",
+      "source_width_px": 1434,
+      "source_height_px": 1097,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1255,
+        1097
+      ],
+      "output_width_px": 1255,
+      "output_height_px": 1097,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "2b98b249df0bb832b05bbd36df1fafb7f57335075e70851d16facd3b2cc5037b",
+      "hero_id": "hero-023",
+      "asset_id": "hero-023_p083_image419",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-035/hero-035_title_group_nobg.png",
+      "return_sha256": "4f61fa014f4ae96e42c23fcabcffad63acb901d278a83e182cbcd23d485fa97b",
+      "output_file": "assets/processed-flagships/hero-035/hero-035_title_group_ready_nobg.png",
+      "source_width_px": 986,
+      "source_height_px": 1595,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        617,
+        986,
+        1595
+      ],
+      "output_width_px": 986,
+      "output_height_px": 978,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "b537534a11ea1302f7dca79e7ee7cc25eb229e3857a0000cd912d74703ad7062",
+      "hero_id": "hero-035",
+      "asset_id": "hero-035_p122_image581",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-039/hero-039_alt_p134_image631_nobg.png",
+      "return_sha256": "fa24bdec7c0dfb8f97d31633f81a396dbcaa3547c1006762a623362bcc6d8f42",
+      "output_file": "assets/processed-flagships/hero-039/hero-039_alt_title_ready_nobg.png",
+      "source_width_px": 1435,
+      "source_height_px": 1096,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        128,
+        14,
+        1283,
+        1096
+      ],
+      "output_width_px": 1155,
+      "output_height_px": 1082,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "05a340eb8e9c429d008c5a5bf9f065dbb7f7676a84f198e60590629285f44d6c",
+      "hero_id": "hero-039",
+      "asset_id": "hero-039_p134_image631",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-047/hero-047_alt_p159_image728_nobg.png",
+      "return_sha256": "f893e233722d2f7405348101b058356cfd819e3f1f8a15e40c7454a2161faa7a",
+      "output_file": "assets/processed-flagships/hero-047/hero-047_alt_title_ready_nobg.png",
+      "source_width_px": 971,
+      "source_height_px": 1620,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        87,
+        40,
+        856,
+        1620
+      ],
+      "output_width_px": 769,
+      "output_height_px": 1580,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "9a4664f7da8382053a2b41b5a7336138980bf304361879e04939e7bf492c0642",
+      "hero_id": "hero-047",
+      "asset_id": "hero-047_p159_image728",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-050/hero-050_title_group_nobg.png",
+      "return_sha256": "9c15f7bd90baa9d0dceb1dab70fcfff6b61cdd4870c42f936b6d4afd9bdac05f",
+      "output_file": "assets/processed-flagships/hero-050/hero-050_title_group_ready_nobg.png",
+      "source_width_px": 1436,
+      "source_height_px": 1096,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        148,
+        18,
+        1201,
+        1096
+      ],
+      "output_width_px": 1053,
+      "output_height_px": 1078,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "e65dbd12da953e98c071baaa0400a8bb97a9fb0bce423653e2800008fa0f3270",
+      "hero_id": "hero-050",
+      "asset_id": "hero-050_p169_image769",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    },
+    {
+      "return_file": "assets/manual-cutout-help-title-corrections/hero-076/hero-076_title_nobg_fixed.png",
+      "return_sha256": "ddb6baf8aef5da81fe38dcd5bd872690d350f0480a425351094a53fab48f3d86",
+      "output_file": "assets/processed-flagships/hero-076/hero-076_title_ready_nobg.png",
+      "source_width_px": 1091,
+      "source_height_px": 1442,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        78,
+        1091,
+        1442
+      ],
+      "output_width_px": 1091,
+      "output_height_px": 1364,
+      "operation": "transparent-margin-trim-only",
+      "detached_fragment_cleanup": null,
+      "background_removal_status": "already_present_in_returned_cutitout_png",
+      "technical_qa": "passed",
+      "output_sha256": "5759fa3f33e79e80170051ae3f73d8b81d9eb57bdc498cd63697788ff7c4103b",
+      "hero_id": "hero-076",
+      "asset_id": "hero-076_p254_image1101",
+      "role": "hero_flagship",
+      "tool": "returned manual CutItOut PNG; local alpha QA",
+      "visual_qa": "passed_on_light_and_dark_checkerboard",
+      "owner_final_approval": "pending"
+    }
+  ]
+}

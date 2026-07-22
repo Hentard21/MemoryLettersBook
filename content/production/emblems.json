@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "policy": "Official/reference-extracted assets only; no neural redraws. Missing assets stay REVIEW_REQUIRED.",
+  "emblems": [
+    {
+      "emblem_id": "emblem-moscow-federal-city",
+      "region_id": "moscow-federal-city",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/moscow-federal-city.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 195,
+        "hero_id": "hero-061",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-saint-petersburg-federal-city",
+      "region_id": "saint-petersburg-federal-city",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/saint-petersburg-federal-city.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 43,
+        "hero_id": "hero-013",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-amur-oblast",
+      "region_id": "amur-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/amur-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 241,
+        "hero_id": "hero-075",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-astrakhan-oblast",
+      "region_id": "astrakhan-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/astrakhan-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 64,
+        "hero_id": "hero-020",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-volgograd-oblast",
+      "region_id": "volgograd-oblast",
+      "asset_file": "design/prototypes/print-v11/assets/symbols/volgograd-oblast-emblem-reference.png",
+      "source": "source/reference.pdf",
+      "provenance": "Reference-derived emblem asset; no neural redraw.",
+      "status": "verified_for_pilot",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/volgograd-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 8,
+        "hero_id": "hero-001",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-zabaykalsky-krai",
+      "region_id": "zabaykalsky-krai",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/zabaykalsky-krai.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 183,
+        "hero_id": "hero-057",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-ivanovo-oblast",
+      "region_id": "ivanovo-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/ivanovo-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 163,
+        "hero_id": "hero-051",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-karachay-cherkess-republic",
+      "region_id": "karachay-cherkess-republic",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/karachay-cherkess-republic.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 30,
+        "hero_id": "hero-009",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-krasnoyarsk-krai",
+      "region_id": "krasnoyarsk-krai",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/krasnoyarsk-krai.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 56,
+        "hero_id": "hero-017",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-kurgan-oblast",
+      "region_id": "kurgan-oblast",
+      "asset_file": "assets/families/hero-014/references/symbols/kurgan-oblast-emblem-reference.png",
+      "source": "source/reference.pdf",
+      "provenance": "Reference-derived emblem asset; no neural redraw.",
+      "status": "reference_asset_registered",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/kurgan-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 47,
+        "hero_id": "hero-014",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-lipetsk-oblast",
+      "region_id": "lipetsk-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/lipetsk-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 189,
+        "hero_id": "hero-059",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-nizhny-novgorod-oblast",
+      "region_id": "nizhny-novgorod-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/nizhny-novgorod-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 33,
+        "hero_id": "hero-010",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-novosibirsk-oblast",
+      "region_id": "novosibirsk-oblast",
+      "asset_file": "content/production/symbols/reference-fallback/emblems/novosibirsk-oblast.png",
+      "source": "source/reference.pdf",
+      "provenance": "Complete padded crop from the same documentary reference; replaces the clipped pilot crop.",
+      "status": "verified_for_pilot",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/novosibirsk-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 11,
+        "hero_id": "hero-003",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-orenburg-oblast",
+      "region_id": "orenburg-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/orenburg-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 24,
+        "hero_id": "hero-007",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-primorsky-krai",
+      "region_id": "primorsky-krai",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/primorsky-krai.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 156,
+        "hero_id": "hero-049",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-pskov-oblast",
+      "region_id": "pskov-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/pskov-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 40,
+        "hero_id": "hero-012",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-republic-of-adygea",
+      "region_id": "republic-of-adygea",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/republic-of-adygea.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 67,
+        "hero_id": "hero-021",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-republic-of-bashkortostan",
+      "region_id": "republic-of-bashkortostan",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/republic-of-bashkortostan.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 124,
+        "hero_id": "hero-039",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-republic-of-dagestan",
+      "region_id": "republic-of-dagestan",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/republic-of-dagestan.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 106,
+        "hero_id": "hero-033",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-republic-of-ingushetia",
+      "region_id": "republic-of-ingushetia",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/republic-of-ingushetia.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 79,
+        "hero_id": "hero-025",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-republic-of-kalmykia",
+      "region_id": "republic-of-kalmykia",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/republic-of-kalmykia.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 142,
+        "hero_id": "hero-045",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-republic-of-tatarstan",
+      "region_id": "republic-of-tatarstan",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/republic-of-tatarstan.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 139,
+        "hero_id": "hero-044",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-republic-of-tuva",
+      "region_id": "republic-of-tuva",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/republic-of-tuva.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 133,
+        "hero_id": "hero-042",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-republic-of-khakassia",
+      "region_id": "republic-of-khakassia",
+      "asset_file": "design/prototypes/print-v11/assets/symbols/khakassia-emblem-reference.png",
+      "source": "source/reference.pdf",
+      "provenance": "Reference-derived emblem asset; no neural redraw.",
+      "status": "verified_for_pilot",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/republic-of-khakassia.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 16,
+        "hero_id": "hero-004",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-sverdlovsk-oblast",
+      "region_id": "sverdlovsk-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/sverdlovsk-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 115,
+        "hero_id": "hero-036",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-tyumen-oblast",
+      "region_id": "tyumen-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/tyumen-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 94,
+        "hero_id": "hero-029",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-khanty-mansi-autonomous-okrug-yugra",
+      "region_id": "khanty-mansi-autonomous-okrug-yugra",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/khanty-mansi-autonomous-okrug-yugra.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 244,
+        "hero_id": "hero-076",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-chelyabinsk-oblast",
+      "region_id": "chelyabinsk-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/chelyabinsk-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 59,
+        "hero_id": "hero-018",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-chechen-republic",
+      "region_id": "chechen-republic",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/chechen-republic.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 217,
+        "hero_id": "hero-068",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    },
+    {
+      "emblem_id": "emblem-yaroslavl-oblast",
+      "region_id": "yaroslavl-oblast",
+      "asset_file": null,
+      "source": null,
+      "provenance": "No canonical extracted emblem asset registered yet.",
+      "status": "REVIEW_REQUIRED",
+      "reference_fallback_file": "content/production/symbols/reference-fallback/emblems/yaroslavl-oblast.png",
+      "reference_fallback_provenance": {
+        "source_file": "source/reference.pdf",
+        "source_pdf_page": 61,
+        "hero_id": "hero-019",
+        "method": "documentary crop; no emblem inference",
+        "status": "visible_reference_fallback"
+      }
+    }
+  ]
+}

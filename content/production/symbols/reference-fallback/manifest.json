@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "source": "source/reference.pdf",
+  "policy": "Documentary draft fallback; verified official assets remain preferred.",
+  "families": [
+    {
+      "hero_id": "hero-001",
+      "reference_title_page": 8,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-001.png",
+      "region_id": "volgograd-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-003",
+      "reference_title_page": 11,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-003.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-004",
+      "reference_title_page": 16,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-004.png",
+      "region_id": "republic-of-khakassia",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-005",
+      "reference_title_page": 18,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-005.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-006",
+      "reference_title_page": 21,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-006.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-007",
+      "reference_title_page": 24,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-007.png",
+      "region_id": "orenburg-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-008",
+      "reference_title_page": 27,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-008.png",
+      "region_id": "republic-of-khakassia",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-009",
+      "reference_title_page": 30,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-009.png",
+      "region_id": "karachay-cherkess-republic",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-010",
+      "reference_title_page": 33,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-010.png",
+      "region_id": "nizhny-novgorod-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-011",
+      "reference_title_page": 36,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-011.png",
+      "region_id": "karachay-cherkess-republic",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-012",
+      "reference_title_page": 40,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-012.png",
+      "region_id": "pskov-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-013",
+      "reference_title_page": 43,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-013.png",
+      "region_id": "saint-petersburg-federal-city",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-014",
+      "reference_title_page": 47,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-014.png",
+      "region_id": "kurgan-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-015",
+      "reference_title_page": 53,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-015.png",
+      "region_id": "nizhny-novgorod-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-017",
+      "reference_title_page": 56,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-017.png",
+      "region_id": "krasnoyarsk-krai",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-018",
+      "reference_title_page": 59,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-018.png",
+      "region_id": "chelyabinsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-019",
+      "reference_title_page": 61,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-019.png",
+      "region_id": "yaroslavl-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-020",
+      "reference_title_page": 64,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-020.png",
+      "region_id": "astrakhan-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-021",
+      "reference_title_page": 67,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-021.png",
+      "region_id": "republic-of-adygea",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-022",
+      "reference_title_page": 70,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-022.png",
+      "region_id": "kurgan-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-023",
+      "reference_title_page": 73,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-023.png",
+      "region_id": "kurgan-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-024",
+      "reference_title_page": 76,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-024.png",
+      "region_id": "krasnoyarsk-krai",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-025",
+      "reference_title_page": 79,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-025.png",
+      "region_id": "republic-of-ingushetia",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-026",
+      "reference_title_page": 82,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-026.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-027",
+      "reference_title_page": 86,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-027.png",
+      "region_id": "republic-of-khakassia",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-028",
+      "reference_title_page": 89,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-028.png",
+      "region_id": "volgograd-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-029",
+      "reference_title_page": 94,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-029.png",
+      "region_id": "tyumen-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-030",
+      "reference_title_page": 97,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-030.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-031",
+      "reference_title_page": 100,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-031.png",
+      "region_id": "nizhny-novgorod-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-032",
+      "reference_title_page": 103,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-032.png",
+      "region_id": "republic-of-adygea",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-033",
+      "reference_title_page": 106,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-033.png",
+      "region_id": "republic-of-dagestan",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-034",
+      "reference_title_page": 109,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-034.png",
+      "region_id": "tyumen-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-035",
+      "reference_title_page": 112,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-035.png",
+      "region_id": "tyumen-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-036",
+      "reference_title_page": 115,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-036.png",
+      "region_id": "sverdlovsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-037",
+      "reference_title_page": 118,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-037.png",
+      "region_id": "astrakhan-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-038",
+      "reference_title_page": 121,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-038.png",
+      "region_id": "tyumen-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-039",
+      "reference_title_page": 124,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-039.png",
+      "region_id": "republic-of-bashkortostan",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-040",
+      "reference_title_page": 127,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-040.png",
+      "region_id": "tyumen-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-041",
+      "reference_title_page": 130,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-041.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-042",
+      "reference_title_page": 133,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-042.png",
+      "region_id": "republic-of-tuva",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-043",
+      "reference_title_page": 136,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-043.png",
+      "region_id": "republic-of-khakassia",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-044",
+      "reference_title_page": 139,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-044.png",
+      "region_id": "republic-of-tatarstan",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-045",
+      "reference_title_page": 142,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-045.png",
+      "region_id": "republic-of-kalmykia",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-046",
+      "reference_title_page": 145,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-046.png",
+      "region_id": "kurgan-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-047",
+      "reference_title_page": 148,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-047.png",
+      "region_id": "tyumen-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-048",
+      "reference_title_page": 153,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-048.png",
+      "region_id": "republic-of-bashkortostan",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-049",
+      "reference_title_page": 156,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-049.png",
+      "region_id": "primorsky-krai",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-050",
+      "reference_title_page": 159,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-050.png",
+      "region_id": "republic-of-ingushetia",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-051",
+      "reference_title_page": 163,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-051.png",
+      "region_id": "ivanovo-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-052",
+      "reference_title_page": 166,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-052.png",
+      "region_id": "ivanovo-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-053",
+      "reference_title_page": 169,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-053.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-054",
+      "reference_title_page": 172,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-054.png",
+      "region_id": "volgograd-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-055",
+      "reference_title_page": 177,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-055.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-056",
+      "reference_title_page": 180,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-056.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-057",
+      "reference_title_page": 183,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-057.png",
+      "region_id": "zabaykalsky-krai",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-058",
+      "reference_title_page": 187,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-058.png",
+      "region_id": "zabaykalsky-krai",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-059",
+      "reference_title_page": 189,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-059.png",
+      "region_id": "lipetsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-060",
+      "reference_title_page": 192,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-060.png",
+      "region_id": "lipetsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-061",
+      "reference_title_page": 195,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-061.png",
+      "region_id": "moscow-federal-city",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-062",
+      "reference_title_page": 198,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-062.png",
+      "region_id": "orenburg-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-063",
+      "reference_title_page": 201,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-063.png",
+      "region_id": "republic-of-khakassia",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-064",
+      "reference_title_page": 204,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-064.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-065",
+      "reference_title_page": 207,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-065.png",
+      "region_id": "novosibirsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-066",
+      "reference_title_page": 209,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-066.png",
+      "region_id": "republic-of-bashkortostan",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-067",
+      "reference_title_page": 214,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-067.png",
+      "region_id": "sverdlovsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-068",
+      "reference_title_page": 217,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-068.png",
+      "region_id": "chechen-republic",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-069",
+      "reference_title_page": 221,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-069.png",
+      "region_id": "chelyabinsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-070",
+      "reference_title_page": 225,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-070.png",
+      "region_id": "saint-petersburg-federal-city",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-071",
+      "reference_title_page": 228,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-071.png",
+      "region_id": "sverdlovsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-072",
+      "reference_title_page": 231,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-072.png",
+      "region_id": "nizhny-novgorod-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-073",
+      "reference_title_page": 234,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-073.png",
+      "region_id": "chelyabinsk-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-074",
+      "reference_title_page": 237,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-074.png",
+      "region_id": "republic-of-bashkortostan",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-075",
+      "reference_title_page": 241,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-075.png",
+      "region_id": "amur-oblast",
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-076",
+      "reference_title_page": 244,
+      "award_file": "content/production/symbols/reference-fallback/awards/hero-076.png",
+      "region_id": "khanty-mansi-autonomous-okrug-yugra",
+      "status": "ready"
+    }
+  ]
+}

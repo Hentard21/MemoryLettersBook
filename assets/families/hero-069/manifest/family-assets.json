@@ -33,7 +33,38 @@
       "gigapixel_status": "completed",
       "print_qa_status": "ready_for_layout",
       "layout_role": "hero_flagship",
-      "selection_confidence": "high"
+      "selection_confidence": "high",
+      "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-069/cutitout.png",
+      "cutout_source_file": "assets/production-ready/flagship/hero-069/hero-069_manual_white_v2.png",
+      "cutout_file": "assets/processed-flagships/hero-069/hero-069_manual_v2_nobg.png",
+      "cutout_sha256": "3359dc3cdb68562d52a54d65632d3814420bce44648a03cd49a1249fa693afd2",
+      "cutout_width_px": 984,
+      "cutout_height_px": 1598,
+      "cutout_tool": "local CutItOut via Playwright",
+      "cutout_status": "ready_for_draft_layout",
+      "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+      "flagship_layout": {
+        "preset": "v20-grounded-right",
+        "reference_hero_id": "hero-014",
+        "composition": "manual_title_page",
+        "crop_mode": "waist",
+        "grounding": "bottom",
+        "object_fit": "intrinsic_height",
+        "object_position": "center bottom",
+        "blend_mode": "normal",
+        "protect": [
+          "face",
+          "hair",
+          "hands",
+          "weapons",
+          "straps",
+          "uniform",
+          "insignia",
+          "awards",
+          "held_objects"
+        ],
+        "status": "manual_title_layout_required"
+      }
     },
     {
       "asset_id": "hero-069_p231_image1009",
@@ -184,16 +215,16 @@
     },
     {
       "asset_id": "hero-069_p233_image1020",
-      "category": "archive-photos",
-      "file": "assets/families/hero-069/archive-photos/hero-069_p233_image1020.jpg",
+      "category": "letters",
+      "file": "assets/families/hero-069/letters/hero-069_p233_image1020.jpg",
       "source_file": "project-reset/archived/duplicate-assets/production-input-pre-reset/hero-069/groups/hero-069_p233_image1020.jpg",
       "sha256": "f28603935f0ecdadcfbf39a1e1162b01f562cdb4e6fc58c85e6bc21c49e4e538",
       "status": "present",
-      "asset_type": "group",
-      "recommended_action": "enhance_group",
+      "asset_type": "letter_reference",
+      "recommended_action": "archive_only",
       "priority": "medium",
       "source_status": "pending",
-      "notes": "Нативный поток из source/reference.pdf без повторного сжатия; разметка смешанной страницы; лица автоматически не обнаружены; REVIEW_REQUIRED: проверить тип и пригодность перед раздачей",
+      "notes": "Нативная рукопись повторно классифицирована по визуальной сверке; master скопирован без изменения.",
       "legacy_source_pdf_page": 233,
       "source_page_status": "REVIEW_REQUIRED_REMAP_TO_FINAL_REFERENCE",
       "print_file": "assets/production-ready/archive/hero-069/hero-069_p233_image1020_upscaled_2x.jpg",
@@ -210,6 +241,14 @@
       "source_file": null,
       "sha256": "df5632beaf531e2331332a86a1e51f46c3ab0a5dcc25a2cd8e1ad8bed1a931a2",
       "status": "present"
+    },
+    {
+      "asset_id": "hero-069_p233_image1020_transcription",
+      "category": "transcriptions",
+      "file": "assets/families/hero-069/transcriptions/hero-069_p233_image1020_transcription.json",
+      "source_file": null,
+      "sha256": "5d69e9348dc0dcc77bfab5203cfb380c3396fb7e99b77b20a1468149fc379c11",
+      "status": "REVIEW_REQUIRED"
     }
   ],
   "canonical_reference": {

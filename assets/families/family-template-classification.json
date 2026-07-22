@@ -122,13 +122,13 @@
         "archive_photos": 3,
         "drawings": 0,
         "significant_visuals": 3,
-        "physical_letters": 0,
-        "transcription_files": 0,
-        "transcription_characters": null
+        "physical_letters": 1,
+        "transcription_files": 1,
+        "transcription_characters": 416
       },
-      "reason": "документальная нагрузка не превышает лимит: 3 значимых изображения и 0 рукописей; в активном манифесте нет физической рукописи; после её нахождения классификацию нужно повторить.",
-      "confidence": "low",
-      "status": "REVIEW_REQUIRED_NO_PHYSICAL_LETTER_REGISTERED",
+      "reason": "документальная нагрузка не превышает лимит: 3 значимых изображения и 1 физический лист с отдельной расшифровкой. Лист объединяет семейные фотографии и рукопись и размещается один раз.",
+      "confidence": "high",
+      "status": "CLASSIFIED_FROM_DOCUMENTED_LOAD",
       "source_identity_status": "confirmed_by_reference_text",
       "reevaluate_when_transcription_ready": false
     },
@@ -1190,16 +1190,16 @@
       "counts": {
         "reference_pages": 2,
         "flagship_images": 1,
-        "archive_photos": 2,
+        "archive_photos": 1,
         "drawings": 0,
-        "significant_visuals": 3,
-        "physical_letters": 0,
-        "transcription_files": 0,
-        "transcription_characters": null
+        "significant_visuals": 2,
+        "physical_letters": 1,
+        "transcription_files": 1,
+        "transcription_characters": 160
       },
-      "reason": "документальная нагрузка не превышает лимит: 3 значимых изображения и 0 рукописей; в активном манифесте нет физической рукописи; после её нахождения классификацию нужно повторить.",
-      "confidence": "low",
-      "status": "REVIEW_REQUIRED_NO_PHYSICAL_LETTER_REGISTERED",
+      "reason": "Физическая рукопись найдена среди ранее ошибочно классифицированных архивных изображений; читательская расшифровка подготовлена и требует ручной сверки.",
+      "confidence": "medium",
+      "status": "REVIEW_REQUIRED_TRANSCRIPTION",
       "source_identity_status": "confirmed_by_reference_text",
       "reevaluate_when_transcription_ready": false
     },
@@ -1421,16 +1421,16 @@
       "counts": {
         "reference_pages": 4,
         "flagship_images": 1,
-        "archive_photos": 8,
+        "archive_photos": 7,
         "drawings": 0,
-        "significant_visuals": 9,
-        "physical_letters": 0,
-        "transcription_files": 0,
-        "transcription_characters": null
+        "significant_visuals": 8,
+        "physical_letters": 1,
+        "transcription_files": 1,
+        "transcription_characters": 505
       },
-      "reason": "9 значимых изображений превышают лимит стандартного разворота (4).",
-      "confidence": "low",
-      "status": "REVIEW_REQUIRED_NO_PHYSICAL_LETTER_REGISTERED",
+      "reason": "Физическая рукопись найдена среди ранее ошибочно классифицированных архивных изображений; читательская расшифровка подготовлена и требует ручной сверки.",
+      "confidence": "medium",
+      "status": "REVIEW_REQUIRED_TRANSCRIPTION",
       "source_identity_status": "confirmed_by_reference_text",
       "reevaluate_when_transcription_ready": false
     },

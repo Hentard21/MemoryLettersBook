@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "source_of_truth": {
+    "reference_pdf": "source/reference.pdf",
+    "reference_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "family_order_manifest": "content/manifests/reference-family-order-reset.json",
+    "design_lock_pdf": "design/prototypes/print-v20/PRINT_V20_CLIENT_TEMPLATE_APPROVAL.pdf"
+  },
+  "design_lock": {
+    "name": "PRINT_V20_CLIENT_TEMPLATE_APPROVAL.pdf",
+    "status": "approved",
+    "cover_locked": true,
+    "cover_in_interior": false,
+    "visual_changes_allowed_only_for_blocking_technical_reason": true
+  },
+  "reference_structure": {
+    "front_matter_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_family_reference_page": 8,
+    "last_reference_page": 246
+  },
+  "pagination_policy": {
+    "family_order_locked": true,
+    "one_primary_spread_per_family": true,
+    "automatic_continuation_when_required": true,
+    "do_not_reduce_text_or_images_below_readable_size": true,
+    "toc_source": "generated page-plan.json"
+  },
+  "family_count": 74,
+  "family_order": [
+    {
+      "order": 1,
+      "hero_id": "hero-001",
+      "manifest_file": "content/production/families/hero-001.json"
+    },
+    {
+      "order": 2,
+      "hero_id": "hero-003",
+      "manifest_file": "content/production/families/hero-003.json"
+    },
+    {
+      "order": 3,
+      "hero_id": "hero-004",
+      "manifest_file": "content/production/families/hero-004.json"
+    },
+    {
+      "order": 4,
+      "hero_id": "hero-005",
+      "manifest_file": "content/production/families/hero-005.json"
+    },
+    {
+      "order": 5,
+      "hero_id": "hero-006",
+      "manifest_file": "content/production/families/hero-006.json"
+    },
+    {
+      "order": 6,
+      "hero_id": "hero-007",
+      "manifest_file": "content/production/families/hero-007.json"
+    },
+    {
+      "order": 7,
+      "hero_id": "hero-008",
+      "manifest_file": "content/production/families/hero-008.json"
+    },
+    {
+      "order": 8,
+      "hero_id": "hero-009",
+      "manifest_file": "content/production/families/hero-009.json"
+    },
+    {
+      "order": 9,
+      "hero_id": "hero-010",
+      "manifest_file": "content/production/families/hero-010.json"
+    },
+    {
+      "order": 10,
+      "hero_id": "hero-011",
+      "manifest_file": "content/production/families/hero-011.json"
+    },
+    {
+      "order": 11,
+      "hero_id": "hero-012",
+      "manifest_file": "content/production/families/hero-012.json"
+    },
+    {
+      "order": 12,
+      "hero_id": "hero-013",
+      "manifest_file": "content/production/families/hero-013.json"
+    },
+    {
+      "order": 13,
+      "hero_id": "hero-014",
+      "manifest_file": "content/production/families/hero-014.json"
+    },
+    {
+      "order": 14,
+      "hero_id": "hero-015",
+      "manifest_file": "content/production/families/hero-015.json"
+    },
+    {
+      "order": 15,
+      "hero_id": "hero-017",
+      "manifest_file": "content/production/families/hero-017.json"
+    },
+    {
+      "order": 16,
+      "hero_id": "hero-018",
+      "manifest_file": "content/production/families/hero-018.json"
+    },
+    {
+      "order": 17,
+      "hero_id": "hero-019",
+      "manifest_file": "content/production/families/hero-019.json"
+    },
+    {
+      "order": 18,
+      "hero_id": "hero-020",
+      "manifest_file": "content/production/families/hero-020.json"
+    },
+    {
+      "order": 19,
+      "hero_id": "hero-021",
+      "manifest_file": "content/production/families/hero-021.json"
+    },
+    {
+      "order": 20,
+      "hero_id": "hero-022",
+      "manifest_file": "content/production/families/hero-022.json"
+    },
+    {
+      "order": 21,
+      "hero_id": "hero-023",
+      "manifest_file": "content/production/families/hero-023.json"
+    },
+    {
+      "order": 22,
+      "hero_id": "hero-024",
+      "manifest_file": "content/production/families/hero-024.json"
+    },
+    {
+      "order": 23,
+      "hero_id": "hero-025",
+      "manifest_file": "content/production/families/hero-025.json"
+    },
+    {
+      "order": 24,
+      "hero_id": "hero-026",
+      "manifest_file": "content/production/families/hero-026.json"
+    },
+    {
+      "order": 25,
+      "hero_id": "hero-027",
+      "manifest_file": "content/production/families/hero-027.json"
+    },
+    {
+      "order": 26,
+      "hero_id": "hero-028",
+      "manifest_file": "content/production/families/hero-028.json"
+    },
+    {
+      "order": 27,
+      "hero_id": "hero-029",
+      "manifest_file": "content/production/families/hero-029.json"
+    },
+    {
+      "order": 28,
+      "hero_id": "hero-030",
+      "manifest_file": "content/production/families/hero-030.json"
+    },
+    {
+      "order": 29,
+      "hero_id": "hero-031",
+      "manifest_file": "content/production/families/hero-031.json"
+    },
+    {
+      "order": 30,
+      "hero_id": "hero-032",
+      "manifest_file": "content/production/families/hero-032.json"
+    },
+    {
+      "order": 31,
+      "hero_id": "hero-033",
+      "manifest_file": "content/production/families/hero-033.json"
+    },
+    {
+      "order": 32,
+      "hero_id": "hero-034",
+      "manifest_file": "content/production/families/hero-034.json"
+    },
+    {
+      "order": 33,
+      "hero_id": "hero-035",
+      "manifest_file": "content/production/families/hero-035.json"
+    },
+    {
+      "order": 34,
+      "hero_id": "hero-036",
+      "manifest_file": "content/production/families/hero-036.json"
+    },
+    {
+      "order": 35,
+      "hero_id": "hero-037",
+      "manifest_file": "content/production/families/hero-037.json"
+    },
+    {
+      "order": 36,
+      "hero_id": "hero-038",
+      "manifest_file": "content/production/families/hero-038.json"
+    },
+    {
+      "order": 37,
+      "hero_id": "hero-039",
+      "manifest_file": "content/production/families/hero-039.json"
+    },
+    {
+      "order": 38,
+      "hero_id": "hero-040",
+      "manifest_file": "content/production/families/hero-040.json"
+    },
+    {
+      "order": 39,
+      "hero_id": "hero-041",
+      "manifest_file": "content/production/families/hero-041.json"
+    },
+    {
+      "order": 40,
+      "hero_id": "hero-042",
+      "manifest_file": "content/production/families/hero-042.json"
+    },
+    {
+      "order": 41,
+      "hero_id": "hero-043",
+      "manifest_file": "content/production/families/hero-043.json"
+    },
+    {
+      "order": 42,
+      "hero_id": "hero-044",
+      "manifest_file": "content/production/families/hero-044.json"
+    },
+    {
+      "order": 43,
+      "hero_id": "hero-045",
+      "manifest_file": "content/production/families/hero-045.json"
+    },
+    {
+      "order": 44,
+      "hero_id": "hero-046",
+      "manifest_file": "content/production/families/hero-046.json"
+    },
+    {
+      "order": 45,
+      "hero_id": "hero-047",
+      "manifest_file": "content/production/families/hero-047.json"
+    },
+    {
+      "order": 46,
+      "hero_id": "hero-048",
+      "manifest_file": "content/production/families/hero-048.json"
+    },
+    {
+      "order": 47,
+      "hero_id": "hero-049",
+      "manifest_file": "content/production/families/hero-049.json"
+    },
+    {
+      "order": 48,
+      "hero_id": "hero-050",
+      "manifest_file": "content/production/families/hero-050.json"
+    },
+    {
+      "order": 49,
+      "hero_id": "hero-051",
+      "manifest_file": "content/production/families/hero-051.json"
+    },
+    {
+      "order": 50,
+      "hero_id": "hero-052",
+      "manifest_file": "content/production/families/hero-052.json"
+    },
+    {
+      "order": 51,
+      "hero_id": "hero-053",
+      "manifest_file": "content/production/families/hero-053.json"
+    },
+    {
+      "order": 52,
+      "hero_id": "hero-054",
+      "manifest_file": "content/production/families/hero-054.json"
+    },
+    {
+      "order": 53,
+      "hero_id": "hero-055",
+      "manifest_file": "content/production/families/hero-055.json"
+    },
+    {
+      "order": 54,
+      "hero_id": "hero-056",
+      "manifest_file": "content/production/families/hero-056.json"
+    },
+    {
+      "order": 55,
+      "hero_id": "hero-057",
+      "manifest_file": "content/production/families/hero-057.json"
+    },
+    {
+      "order": 56,
+      "hero_id": "hero-058",
+      "manifest_file": "content/production/families/hero-058.json"
+    },
+    {
+      "order": 57,
+      "hero_id": "hero-059",
+      "manifest_file": "content/production/families/hero-059.json"
+    },
+    {
+      "order": 58,
+      "hero_id": "hero-060",
+      "manifest_file": "content/production/families/hero-060.json"
+    },
+    {
+      "order": 59,
+      "hero_id": "hero-061",
+      "manifest_file": "content/production/families/hero-061.json"
+    },
+    {
+      "order": 60,
+      "hero_id": "hero-062",
+      "manifest_file": "content/production/families/hero-062.json"
+    },
+    {
+      "order": 61,
+      "hero_id": "hero-063",
+      "manifest_file": "content/production/families/hero-063.json"
+    },
+    {
+      "order": 62,
+      "hero_id": "hero-064",
+      "manifest_file": "content/production/families/hero-064.json"
+    },
+    {
+      "order": 63,
+      "hero_id": "hero-065",
+      "manifest_file": "content/production/families/hero-065.json"
+    },
+    {
+      "order": 64,
+      "hero_id": "hero-066",
+      "manifest_file": "content/production/families/hero-066.json"
+    },
+    {
+      "order": 65,
+      "hero_id": "hero-067",
+      "manifest_file": "content/production/families/hero-067.json"
+    },
+    {
+      "order": 66,
+      "hero_id": "hero-068",
+      "manifest_file": "content/production/families/hero-068.json"
+    },
+    {
+      "order": 67,
+      "hero_id": "hero-069",
+      "manifest_file": "content/production/families/hero-069.json"
+    },
+    {
+      "order": 68,
+      "hero_id": "hero-070",
+      "manifest_file": "content/production/families/hero-070.json"
+    },
+    {
+      "order": 69,
+      "hero_id": "hero-071",
+      "manifest_file": "content/production/families/hero-071.json"
+    },
+    {
+      "order": 70,
+      "hero_id": "hero-072",
+      "manifest_file": "content/production/families/hero-072.json"
+    },
+    {
+      "order": 71,
+      "hero_id": "hero-073",
+      "manifest_file": "content/production/families/hero-073.json"
+    },
+    {
+      "order": 72,
+      "hero_id": "hero-074",
+      "manifest_file": "content/production/families/hero-074.json"
+    },
+    {
+      "order": 73,
+      "hero_id": "hero-075",
+      "manifest_file": "content/production/families/hero-075.json"
+    },
+    {
+      "order": 74,
+      "hero_id": "hero-076",
+      "manifest_file": "content/production/families/hero-076.json"
+    }
+  ],
+  "pilot_family_ids": [
+    "hero-001",
+    "hero-003",
+    "hero-004",
+    "hero-005",
+    "hero-006"
+  ],
+  "excluded_legacy_blocks": [
+    {
+      "hero_id": "hero-002",
+      "reason": "Block exists in archived 255-page draft but is absent from final refnew.pdf."
+    },
+    {
+      "hero_id": "hero-016",
+      "reason": "Duplicate title-only block from archived draft; final refnew.pdf contains one corresponding family block mapped to hero-017."
+    }
+  ]
+}

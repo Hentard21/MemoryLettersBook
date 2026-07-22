@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "tool": "CutItOut via Playwright",
+  "source_profile": "intro ProUpscale portraits",
+  "completed": [
+    {
+      "hero_id": "smirnova",
+      "person_id": "smirnova",
+      "source": "C:\\Users\\MarkII\\Книга Письма Памяти\\book-project\\assets\\intro-people\\for-gigapixel\\ProUpscale\\Смирнова.png",
+      "output": "C:\\Users\\MarkII\\Книга Письма Памяти\\book-project\\assets\\intro-people\\cutouts-pro\\smirnova_compact_nobg.png",
+      "width": 1122,
+      "height": 1402,
+      "duration_ms": 23894,
+      "browserErrors": [],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 643319,
+      "status": "needs_manual_mask_review"
+    }
+  ],
+  "failed": [],
+  "batch_duration_seconds": 25.375,
+  "status_note": "Every mask requires visual review before final print approval."
+}

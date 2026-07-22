@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-058",
+  "letter_id": "hero-058_p197_image882",
+  "letter_file": "assets/families/hero-058/letters/hero-058_p197_image882.jpg",
+  "source_transcription_file": "assets/families/hero-058/transcriptions/hero-058_p197_image882_source.txt",
+  "print_transcription_file": "assets/families/hero-058/transcriptions/hero-058_p197_image882_print.txt",
+  "authors": [
+    "ЮЛИАННА"
+  ],
+  "authors_status": "CONFIRMED_FROM_VISIBLE_SIGNATURE",
+  "editorial_changes": [
+    "В читательской версии соединены переносы слов и нормализована базовая пунктуация.",
+    "Факты и содержание письма не дополнялись."
+  ],
+  "doubts": [],
+  "status": "REVIEW_REQUIRED",
+  "approved_for_print": false
+}

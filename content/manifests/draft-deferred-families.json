@@ -5,15 +5,6 @@
   "families": [
     {
       "draft_appendix_order": 1,
-      "reference_order": 5,
-      "hero_id": "hero-006",
-      "hero_name": "АЛИМАМЕД",
-      "reason": "physical_letter_not_registered",
-      "draft_layout": "family_archive_without_invented_letter",
-      "client_decision_required": true
-    },
-    {
-      "draft_appendix_order": 2,
       "reference_order": 28,
       "hero_id": "hero-030",
       "hero_name": "ВЯЧЕСЛАВ",
@@ -23,28 +14,10 @@
       "client_decision_required": true
     },
     {
-      "draft_appendix_order": 3,
-      "reference_order": 56,
-      "hero_id": "hero-058",
-      "hero_name": "ДМИТРИЙ",
-      "reason": "physical_letter_not_registered",
-      "draft_layout": "family_archive_without_invented_letter",
-      "client_decision_required": true
-    },
-    {
-      "draft_appendix_order": 4,
+      "draft_appendix_order": 2,
       "reference_order": 63,
       "hero_id": "hero-065",
       "hero_name": "ВЯЧЕСЛАВ",
-      "reason": "physical_letter_not_registered",
-      "draft_layout": "family_archive_without_invented_letter",
-      "client_decision_required": true
-    },
-    {
-      "draft_appendix_order": 5,
-      "reference_order": 67,
-      "hero_id": "hero-069",
-      "hero_name": "АНТОН",
       "reason": "physical_letter_not_registered",
       "draft_layout": "family_archive_without_invented_letter",
       "client_decision_required": true

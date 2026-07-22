@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "source": "source/reference.pdf",
+  "policy": "Fallback only when the verified vector map feature is unavailable.",
+  "regions": [
+    {
+      "region_id": "moscow-federal-city",
+      "hero_id": "hero-061",
+      "reference_title_page": 195,
+      "source_pdf_page": 195,
+      "file": "content/production/maps/reference-fallback/moscow-federal-city.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "saint-petersburg-federal-city",
+      "hero_id": "hero-013",
+      "reference_title_page": 43,
+      "source_pdf_page": 43,
+      "file": "content/production/maps/reference-fallback/saint-petersburg-federal-city.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "amur-oblast",
+      "hero_id": "hero-075",
+      "reference_title_page": 241,
+      "source_pdf_page": 241,
+      "file": "content/production/maps/reference-fallback/amur-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "astrakhan-oblast",
+      "hero_id": "hero-020",
+      "reference_title_page": 64,
+      "source_pdf_page": 64,
+      "file": "content/production/maps/reference-fallback/astrakhan-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "volgograd-oblast",
+      "hero_id": "hero-001",
+      "reference_title_page": 8,
+      "source_pdf_page": 8,
+      "file": "content/production/maps/reference-fallback/volgograd-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "zabaykalsky-krai",
+      "hero_id": "hero-057",
+      "reference_title_page": 183,
+      "source_pdf_page": 183,
+      "file": "content/production/maps/reference-fallback/zabaykalsky-krai.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "ivanovo-oblast",
+      "hero_id": "hero-051",
+      "reference_title_page": 163,
+      "source_pdf_page": 163,
+      "file": "content/production/maps/reference-fallback/ivanovo-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "karachay-cherkess-republic",
+      "hero_id": "hero-009",
+      "reference_title_page": 30,
+      "source_pdf_page": 30,
+      "file": "content/production/maps/reference-fallback/karachay-cherkess-republic.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "krasnoyarsk-krai",
+      "hero_id": "hero-017",
+      "reference_title_page": 56,
+      "source_pdf_page": 56,
+      "file": "content/production/maps/reference-fallback/krasnoyarsk-krai.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "kurgan-oblast",
+      "hero_id": "hero-014",
+      "reference_title_page": 47,
+      "source_pdf_page": 47,
+      "file": "content/production/maps/reference-fallback/kurgan-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "lipetsk-oblast",
+      "hero_id": "hero-059",
+      "reference_title_page": 189,
+      "source_pdf_page": 189,
+      "file": "content/production/maps/reference-fallback/lipetsk-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "nizhny-novgorod-oblast",
+      "hero_id": "hero-010",
+      "reference_title_page": 33,
+      "source_pdf_page": 33,
+      "file": "content/production/maps/reference-fallback/nizhny-novgorod-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "novosibirsk-oblast",
+      "hero_id": "hero-003",
+      "reference_title_page": 11,
+      "source_pdf_page": 11,
+      "file": "content/production/maps/reference-fallback/novosibirsk-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "orenburg-oblast",
+      "hero_id": "hero-007",
+      "reference_title_page": 24,
+      "source_pdf_page": 24,
+      "file": "content/production/maps/reference-fallback/orenburg-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "primorsky-krai",
+      "hero_id": "hero-049",
+      "reference_title_page": 156,
+      "source_pdf_page": 156,
+      "file": "content/production/maps/reference-fallback/primorsky-krai.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "pskov-oblast",
+      "hero_id": "hero-012",
+      "reference_title_page": 40,
+      "source_pdf_page": 40,
+      "file": "content/production/maps/reference-fallback/pskov-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "republic-of-adygea",
+      "hero_id": "hero-021",
+      "reference_title_page": 67,
+      "source_pdf_page": 67,
+      "file": "content/production/maps/reference-fallback/republic-of-adygea.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "republic-of-bashkortostan",
+      "hero_id": "hero-039",
+      "reference_title_page": 124,
+      "source_pdf_page": 124,
+      "file": "content/production/maps/reference-fallback/republic-of-bashkortostan.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "republic-of-dagestan",
+      "hero_id": "hero-033",
+      "reference_title_page": 106,
+      "source_pdf_page": 106,
+      "file": "content/production/maps/reference-fallback/republic-of-dagestan.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "republic-of-ingushetia",
+      "hero_id": "hero-025",
+      "reference_title_page": 79,
+      "source_pdf_page": 79,
+      "file": "content/production/maps/reference-fallback/republic-of-ingushetia.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "republic-of-kalmykia",
+      "hero_id": "hero-045",
+      "reference_title_page": 142,
+      "source_pdf_page": 142,
+      "file": "content/production/maps/reference-fallback/republic-of-kalmykia.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "republic-of-tatarstan",
+      "hero_id": "hero-044",
+      "reference_title_page": 139,
+      "source_pdf_page": 139,
+      "file": "content/production/maps/reference-fallback/republic-of-tatarstan.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "republic-of-tuva",
+      "hero_id": "hero-042",
+      "reference_title_page": 133,
+      "source_pdf_page": 133,
+      "file": "content/production/maps/reference-fallback/republic-of-tuva.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "republic-of-khakassia",
+      "hero_id": "hero-004",
+      "reference_title_page": 16,
+      "source_pdf_page": 16,
+      "file": "content/production/maps/reference-fallback/republic-of-khakassia.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "sverdlovsk-oblast",
+      "hero_id": "hero-036",
+      "reference_title_page": 115,
+      "source_pdf_page": 115,
+      "file": "content/production/maps/reference-fallback/sverdlovsk-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "tyumen-oblast",
+      "hero_id": "hero-029",
+      "reference_title_page": 94,
+      "source_pdf_page": 94,
+      "file": "content/production/maps/reference-fallback/tyumen-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "khanty-mansi-autonomous-okrug-yugra",
+      "hero_id": "hero-076",
+      "reference_title_page": 244,
+      "source_pdf_page": 244,
+      "file": "content/production/maps/reference-fallback/khanty-mansi-autonomous-okrug-yugra.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "chelyabinsk-oblast",
+      "hero_id": "hero-018",
+      "reference_title_page": 59,
+      "source_pdf_page": 59,
+      "file": "content/production/maps/reference-fallback/chelyabinsk-oblast.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "chechen-republic",
+      "hero_id": "hero-068",
+      "reference_title_page": 217,
+      "source_pdf_page": 217,
+      "file": "content/production/maps/reference-fallback/chechen-republic.png",
+      "status": "ready"
+    },
+    {
+      "region_id": "yaroslavl-oblast",
+      "hero_id": "hero-019",
+      "reference_title_page": 61,
+      "source_pdf_page": 61,
+      "file": "content/production/maps/reference-fallback/yaroslavl-oblast.png",
+      "status": "ready"
+    }
+  ]
+}

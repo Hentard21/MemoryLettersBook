@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-054",
+  "order": 52,
+  "hero_name": "ВЯЧЕСЛАВ",
+  "children": [
+    "РУСЛАН",
+    "КАМИЛЛА",
+    "САБИНА"
+  ],
+  "region_id": "volgograd-oblast",
+  "city_id": "city-volgograd",
+  "emblem_id": "emblem-volgograd-oblast",
+  "award_id": null,
+  "template": "extended",
+  "flagship": "assets/processed-flagships/hero-054/hero-054_manual_v2_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-054/hero-054_p182_image817_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-054/hero-054_p182_image819_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-054/hero-054_p182_image820_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-054/hero-054_p183_image823_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-054/hero-054_p183_image824_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-054/hero-054_p183_image825_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-054/hero-054_p184_image828_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-054/hero-054_p184_image829_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-054/hero-054_p184_image830_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-054/letters/hero-054_p185_image833.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-054/transcriptions/hero-054_p185_image833_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 172,
+    "pages": [
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "title_text": "- 165 - | НАШ ОТЕЦ ВЯЧЕСЛАВ | РУСЛАН, КАМИЛЛА, САБИНА | Волгоградская область | г. Волгоград",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-054/hero-054_manual_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 228,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-054/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-054/hero-054_manual_v2_nobg.png",
+    "cutout_sha256": "34bac463b786ae43b1f4b1d79c2b295e3f20011e797998c2b96bf34984c3fec3",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-054.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 172,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    172,
+    173,
+    174,
+    175,
+    176
+  ]
+}

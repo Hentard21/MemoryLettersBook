@@ -148,7 +148,7 @@
       "flagship_status": "selected_by_reference_visual_review",
       "flagship_processing": {
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "needs_waist_crop": true,
         "notes": "Единственное прямое изображение Вячеслава без портрета в руках детей; фигура в экипировке хорошо отделяется от лесного фона.",
         "gigapixel_status": "completed",
@@ -158,10 +158,43 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "asset_id": "hero-003_p020_image146",
-        "preferred_processing_source": "assets/production-ready/flagship/hero-003/hero-003_p020_image146_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-003/hero-003_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Единственное прямое изображение Вячеслава без портрета в руках детей; фигура в экипировке хорошо отделяется от лесного фона.",
-        "print_size_warning": "290x470 px; даже парный 2x-апскейл около 580x940 px мал для полноформатной фигуры. Использовать умеренный размер или повторный качественный апскейл."
+        "print_size_warning": "290x470 px; даже парный 2x-апскейл около 580x940 px мал для полноформатной фигуры. Использовать умеренный размер или повторный качественный апскейл.",
+        "manual_owner_source": "assets/manual-cutout-help/high/hero-003/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-003/hero-003_manual_nobg.png",
+        "cutout_sha256": "84dc4acecc6793a045a5f2d87bf0b67727b028c5ed0277fce08ea2313fadfc76",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "full_body",
+          "display_height_mm": 250,
+          "bottom_mm": -65,
+          "right_mm": 3,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -252,7 +285,7 @@
       "flagship_status": "selected_by_reference_visual_review",
       "flagship_processing": {
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "needs_waist_crop": true,
         "notes": "Прямой ростовой кадр Николая в форме; второй семейный кадр показывает ребёнка с этим же портретом и подтверждает принадлежность.",
         "gigapixel_status": "completed",
@@ -262,10 +295,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "asset_id": "hero-004_p025_image167",
-        "preferred_processing_source": "assets/production-ready/flagship/hero-004/hero-004_p025_image167_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-004/hero-004_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Прямой ростовой кадр Николая в форме; второй семейный кадр показывает ребёнка с этим же портретом и подтверждает принадлежность.",
-        "print_size_warning": "291x469 px; 2x-апскейл остаётся недостаточным для крупной ростовой печати. Ограничить масштаб либо улучшить повторно."
+        "print_size_warning": "291x469 px; 2x-апскейл остаётся недостаточным для крупной ростовой печати. Ограничить масштаб либо улучшить повторно.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-004/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-004/hero-004_manual_v2_nobg.png",
+        "cutout_sha256": "f264479052200d49204df0d99fa5c2ba7f16d5ce8721314296a098fb38683dbe",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -314,11 +376,11 @@
       ],
       "identity_status": "confirmed_by_reference_text",
       "flagship_asset": "assets/families/hero-005/flagship/hero-005_p027_image176.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "needs_gigapixel": false,
         "needs_cutout": false,
-        "needs_waist_crop": false,
+        "needs_waist_crop": true,
         "notes": "Самый качественный кадр семьи: Евгений хорошо узнаваем, находится рядом с ребёнком, а изображение существенно крупнее двух одиночных архивных фрагментов.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-005/hero-005_p027_image176_upscaled_2x.jpg",
@@ -330,7 +392,40 @@
         "preferred_processing_source": "assets/production-ready/flagship/hero-005/hero-005_p027_image176_upscaled_2x.jpg",
         "selection_confidence": "high",
         "selection_reason": "Самый качественный кадр семьи: Евгений хорошо узнаваем, находится рядом с ребёнком, а изображение существенно крупнее двух одиночных архивных фрагментов.",
-        "print_size_warning": "898x686 px; после 2x подходит для крупного группового модуля, но не для полного разворотного фона. Сохранить ребёнка и контекст."
+        "print_size_warning": "898x686 px; после 2x подходит для крупного группового модуля, но не для полного разворотного фона. Сохранить ребёнка и контекст.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-005/hero-005_title_nobg.png",
+        "cutout_file": "assets/processed-flagships/hero-005/hero-005_title_ready_nobg.png",
+        "cutout_sha256": "d7a7c43745168d8153482bdf9eb0d46dabee45878c52687288ca3b480fd27d75",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "family-group",
+          "display_height_mm": 155,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -392,13 +487,47 @@
         23
       ],
       "identity_status": "confirmed_by_reference_text",
-      "flagship_asset": "",
-      "flagship_status": "REVIEW_REQUIRED",
+      "flagship_asset": "assets/families/hero-006/archive-photos/hero-006_p030_image184.jpg",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "needs_gigapixel": false,
         "needs_cutout": false,
-        "needs_waist_crop": false,
-        "notes": "В допустимом архиве нет отдельного фото героя: есть только дети с печатным портретом и документальный лист с несколькими изображениями. Выбор кадра или извлечение портрета требует ручного решения владельца."
+        "needs_waist_crop": true,
+        "notes": "В допустимом архиве нет отдельного фото героя: есть только дети с печатным портретом и документальный лист с несколькими изображениями. Выбор кадра или извлечение портрета требует ручного решения владельца.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-006/hero-006_title_group_nobg.png",
+        "preferred_processing_source": "assets/production-ready/archive/hero-006/hero-006_p030_image184_upscaled_2x.jpg",
+        "cutout_file": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png",
+        "cutout_sha256": "d8259ce64682297328a36f9a7c6a1fdc6f9bae1ec55dbcf7e2b1347b21a65800",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "children-with-portrait",
+          "display_height_mm": 135,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -425,7 +554,9 @@
           "print_sha256": "1572d32c7ecbc79aedbee40956db882ce0592cc89cb6a5e0a6c27e09383242fe",
           "print_width_px": 676,
           "print_height_px": 940,
-          "print_qa_status": "ready_for_layout"
+          "print_qa_status": "ready_for_layout",
+          "cutout_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_ready_nobg.png",
+          "cutout_status": "ready_for_draft_layout"
         },
         {
           "asset_id": "hero-006_p031_image188",
@@ -442,8 +573,23 @@
         }
       ],
       "drawings": [],
-      "letters": [],
-      "transcriptions": [],
+      "letters": [
+        {
+          "asset_id": "hero-006_p031_image188",
+          "file": "assets/families/hero-006/letters/hero-006_p031_image188.jpg",
+          "physical_scan": true,
+          "is_processed_derivative": false,
+          "document_role": "mixed_photo_and_handwriting_sheet",
+          "notes": "Физический лист подтверждён на странице 23 source/reference.pdf; актив сохраняет фотографии и подлинную рукопись как единый документ."
+        }
+      ],
+      "transcriptions": [
+        {
+          "asset_id": "hero-006_p031_image188_transcription",
+          "file": "assets/families/hero-006/transcriptions/hero-006_p031_image188_transcription.json",
+          "status": "REVIEW_REQUIRED"
+        }
+      ],
       "flagship_selection": {
         "status": "REVIEW_REQUIRED",
         "confidence": "none",
@@ -469,7 +615,7 @@
       "flagship_processing": {
         "asset_id": "hero-007_p033_image197",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный отдельный крупный портрет Алмата; остальные фотографии групповые и показывают его значительно мельче.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-007/hero-007_p033_image197_upscaled_2x.jpg",
@@ -478,10 +624,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-007/hero-007_p033_image197_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-007/hero-007_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный отдельный крупный портрет Алмата; остальные фотографии групповые и показывают его значительно мельче.",
-        "print_size_warning": "290x469 px; кадр уже обрезан по плечи и не может стать поясной фигурой без генеративного достраивания. 2x пригоден только для среднего портрета."
+        "print_size_warning": "290x469 px; кадр уже обрезан по плечи и не может стать поясной фигурой без генеративного достраивания. 2x пригоден только для среднего портрета.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-007/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-007/hero-007_manual_v2_nobg.png",
+        "cutout_sha256": "ae792085905c955c5fe4f20aa80e3742b8058be73a708d6ab0a45d6ac7ce0d8c",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -561,7 +736,7 @@
       "flagship_processing": {
         "asset_id": "hero-008_p036_image208",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный отдельный крупный кадр Якова в форме; принадлежность подтверждается соседними семейными фотографиями финального референса.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-008/hero-008_p036_image208_upscaled_2x.jpg",
@@ -570,10 +745,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-008/hero-008_p036_image208_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-008/hero-008_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный отдельный крупный кадр Якова в форме; принадлежность подтверждается соседними семейными фотографиями финального референса.",
-        "print_size_warning": "290x470 px; селфи обрезано ниже плеч, поэтому без согласованного достраивания использовать как крупный бюст, не как поясную фигуру."
+        "print_size_warning": "290x470 px; селфи обрезано ниже плеч, поэтому без согласованного достраивания использовать как крупный бюст, не как поясную фигуру.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-008/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-008/hero-008_manual_v2_nobg.png",
+        "cutout_sha256": "c15763a63e58d2edd34e6692ddbe4d549d3caf37b8c6feb0e1838c4551ad6b5f",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -663,7 +867,7 @@
       ],
       "identity_status": "confirmed_by_reference_text",
       "flagship_asset": "assets/families/hero-009/flagship/hero-009_p039_image225.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "asset_id": "hero-009_p039_image225",
         "needs_gigapixel": false,
@@ -675,11 +879,44 @@
         "print_width_px": 1092,
         "print_height_px": 832,
         "print_qa_status": "ready_for_layout",
-        "needs_waist_crop": false,
+        "needs_waist_crop": true,
         "preferred_processing_source": "assets/production-ready/flagship/hero-009/hero-009_p039_image225_upscaled_2x.jpg",
         "selection_confidence": "medium",
         "selection_reason": "Наиболее цельный семейный кадр: Егор расположен в центре и хорошо виден вместе с тремя детьми; одиночного портрета героя в архиве нет.",
-        "print_size_warning": "546x416 px; после 2x годится для среднего группового блока. Герой частично перекрыт детьми, поэтому изолированная поясная вырезка не рекомендуется."
+        "print_size_warning": "546x416 px; после 2x годится для среднего группового блока. Герой частично перекрыт детьми, поэтому изолированная поясная вырезка не рекомендуется.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-009/hero-009_title_group_nobg.png",
+        "cutout_file": "assets/processed-flagships/hero-009/hero-009_title_group_ready_nobg.png",
+        "cutout_sha256": "4572fb0379123b0b30f3e8eb267724497156a2fac7525270e1535eadead0ef6c",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "family-group",
+          "display_height_mm": 158,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -745,7 +982,7 @@
       "flagship_processing": {
         "asset_id": "hero-010_p042_image238",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Формальный фронтальный портрет Алексея в форме на нейтральном фоне; наиболее однозначный и удобный для флагманской страницы.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-010/hero-010_p042_image238_upscaled_2x.jpg",
@@ -754,10 +991,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-010/hero-010_p042_image238_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-010/hero-010_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Формальный фронтальный портрет Алексея в форме на нейтральном фоне; наиболее однозначный и удобный для флагманской страницы.",
-        "print_size_warning": "291x470 px; даже 2x подходит только для среднего портрета. Не увеличивать до полной высоты страницы без дополнительного улучшения."
+        "print_size_warning": "291x470 px; даже 2x подходит только для среднего портрета. Не увеличивать до полной высоты страницы без дополнительного улучшения.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-010/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-010/hero-010_manual_v2_nobg.png",
+        "cutout_sha256": "4d82b2ccb427931f20761d5a87ed9c788f369f2adee1a5d6cda95a4ea80113b7",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -840,7 +1106,7 @@
       "flagship_processing": {
         "asset_id": "hero-011_p045_image250",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Лучший ростовой кадр Андрея в форме; ребёнок рядом подтверждает семейную связь и должен быть сохранён при вырезке обеих фигур.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-011/hero-011_p045_image250_upscaled_2x.jpg",
@@ -849,10 +1115,43 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-011/hero-011_p045_image250_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-011/hero-011_manual_white.png",
         "selection_confidence": "medium",
         "selection_reason": "Лучший ростовой кадр Андрея в форме; ребёнок рядом подтверждает семейную связь и должен быть сохранён при вырезке обеих фигур.",
-        "print_size_warning": "615x470 px; после 2x приемлемо для среднего модуля. Ребёнок перекрывает часть руки героя, поэтому маску проверять вручную и не отделять фигуры искусственно."
+        "print_size_warning": "615x470 px; после 2x приемлемо для среднего модуля. Ребёнок перекрывает часть руки героя, поэтому маску проверять вручную и не отделять фигуры искусственно.",
+        "manual_owner_source": "assets/manual-cutout-help/high/hero-011/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-011/hero-011_manual_nobg.png",
+        "cutout_sha256": "4512e09ceb59aaa7625c0ff9cc4fcd06049b7879eae0efdd183350616057ec6e",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "full_body",
+          "display_height_mm": 250,
+          "bottom_mm": -65,
+          "right_mm": 3,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -945,7 +1244,7 @@
       "flagship_processing": {
         "asset_id": "hero-012_p049_image267",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Чёткий формальный портрет Виктора в форме с наградами на светлом фоне; наиболее пригодный для компактной флагманской композиции.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-012/hero-012_p049_image267_upscaled_2x.jpg",
@@ -954,10 +1253,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-012/hero-012_p049_image267_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-012/hero-012_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Чёткий формальный портрет Виктора в форме с наградами на светлом фоне; наиболее пригодный для компактной флагманской композиции.",
-        "print_size_warning": "290x470 px; 2x остаётся мал для полноформатной фигуры. Использовать как бюст среднего размера и не дорисовывать форму без отдельного согласования."
+        "print_size_warning": "290x470 px; 2x остаётся мал для полноформатной фигуры. Использовать как бюст среднего размера и не дорисовывать форму без отдельного согласования.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-012/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-012/hero-012_manual_v2_nobg.png",
+        "cutout_sha256": "b8ca7a22d923c1adf3c1f7493d538b91453b9e312a2ddc2dc755d5fc13be8c79",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1042,7 +1370,7 @@
       "flagship_processing": {
         "asset_id": "hero-013_p052_image284",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный прямой крупный кадр Вадима; он держит ребёнка, которого необходимо сохранить как часть исходной сцены.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-013/hero-013_p052_image284_upscaled_2x.jpg",
@@ -1051,10 +1379,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-013/hero-013_p052_image284_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-013/hero-013_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный прямой крупный кадр Вадима; он держит ребёнка, которого необходимо сохранить как часть исходной сцены.",
-        "print_size_warning": "615x469 px; после 2x подходит для крупного бюста с ребёнком. Нижняя часть фигуры отсутствует, поэтому не трактовать как готовую поясную фигуру."
+        "print_size_warning": "615x469 px; после 2x подходит для крупного бюста с ребёнком. Нижняя часть фигуры отсутствует, поэтому не трактовать как готовую поясную фигуру.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-013/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-013/hero-013_manual_v2_nobg.png",
+        "cutout_sha256": "e17168ca05900b19f46b1b70322d35fc51f3de03d7e847af76b09715d693b883",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1304,7 +1661,7 @@
       "flagship_processing": {
         "asset_id": "hero-015_p062_image322",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный прямой ростовой кадр Ильи в форме и с экипировкой; хорошо соответствует роли флагмана.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-015/hero-015_p062_image322_upscaled_2x.jpg",
@@ -1313,10 +1670,43 @@
         "print_height_px": 1234,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-015/hero-015_p062_image322_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-015/hero-015_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный прямой ростовой кадр Ильи в форме и с экипировкой; хорошо соответствует роли флагмана.",
-        "print_size_warning": "381x617 px; после 2x пригоден для средней фигуры, но не для полноформатной печати. Особо проверить оружие, ремни и края зимней формы."
+        "print_size_warning": "381x617 px; после 2x пригоден для средней фигуры, но не для полноформатной печати. Особо проверить оружие, ремни и края зимней формы.",
+        "manual_owner_source": "assets/manual-cutout-help/high/hero-015/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-015/hero-015_manual_nobg.png",
+        "cutout_sha256": "0c2299d7e0fa6f5ba14e7f7bbddb21da0e16f40c3f5bd6d9486e9217d671743d",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "full_body",
+          "display_height_mm": 250,
+          "bottom_mm": -65,
+          "right_mm": 3,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1395,7 +1785,7 @@
       "flagship_processing": {
         "asset_id": "hero-017_p066_image343",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Самый светлый и цельный ростовой кадр Александра с дочерью; отдельного портрета героя в семейном архиве нет, поэтому обе фигуры должны остаться вместе.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-017/hero-017_p066_image343_upscaled_2x.jpg",
@@ -1404,10 +1794,39 @@
         "print_height_px": 884,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-017/hero-017_p066_image343_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-017/hero-017_manual_white_v2.png",
         "selection_confidence": "medium",
         "selection_reason": "Самый светлый и цельный ростовой кадр Александра с дочерью; отдельного портрета героя в семейном архиве нет, поэтому обе фигуры должны остаться вместе.",
-        "print_size_warning": "274x442 px; даже после 2x разрешение крайне мало для крупной печати. Нужен повторный качественный апскейл или умеренный размер размещения."
+        "print_size_warning": "274x442 px; даже после 2x разрешение крайне мало для крупной печати. Нужен повторный качественный апскейл или умеренный размер размещения.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-017/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-017/hero-017_manual_v2_nobg.png",
+        "cutout_sha256": "7d552cab3adb870479d1c20a98f05b235e682afa1c2383fde5083cd502e6ddba",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1472,14 +1891,43 @@
       "flagship_processing": {
         "asset_id": "hero-018_p069_image355",
         "needs_gigapixel": true,
-        "needs_cutout": true,
-        "needs_waist_crop": false,
+        "needs_cutout": false,
+        "needs_waist_crop": true,
         "notes": "Отдельный портрет Андрея из референса; ранее был ошибочно помещён в letters. Нужен качественный апскейл, затем аккуратное удаление фона.",
         "gigapixel_status": "pending",
-        "preferred_processing_source": "assets/families/hero-018/flagship/hero-018_p069_image355.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-018/hero-018_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Это отдельный портрет героя, совпадающий с портретом в руках дочери на соседнем архивном фото.",
-        "print_size_warning": "257x450 px; исходник слишком мал для крупного размещения без повторного качественного апскейла."
+        "print_size_warning": "257x450 px; исходник слишком мал для крупного размещения без повторного качественного апскейла.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-018/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-018/hero-018_manual_v2_nobg.png",
+        "cutout_sha256": "55d323a183d748cc038ddd5fbd0bca7320fde17a0e9aa2a23674adbeaef58419",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1527,7 +1975,7 @@
       "flagship_processing": {
         "asset_id": "hero-019_p071_image367",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Наиболее крупный и фронтальный кадр Анатолия с ребёнком; отдельного одиночного портрета нет, поэтому при вырезке сохраняются обе фигуры.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-019/hero-019_p071_image367_upscaled_2x.jpg",
@@ -1536,10 +1984,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-019/hero-019_p071_image367_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-019/hero-019_manual_white_v2.png",
         "selection_confidence": "medium",
         "selection_reason": "Наиболее крупный и фронтальный кадр Анатолия с ребёнком; отдельного одиночного портрета нет, поэтому при вырезке сохраняются обе фигуры.",
-        "print_size_warning": "291x469 px; 2x мал для крупной группы. Использовать средним размером и тщательно проверить руки героя вокруг ребёнка."
+        "print_size_warning": "291x469 px; 2x мал для крупной группы. Использовать средним размером и тщательно проверить руки героя вокруг ребёнка.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-019/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-019/hero-019_manual_v2_nobg.png",
+        "cutout_sha256": "039bdaf82029ee98378a379107d7b8c2e69734fd70aec73647e196a0ef48ef02",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1606,7 +2083,7 @@
       "flagship_processing": {
         "asset_id": "hero-020_p074_image380",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный отдельный ростовой кадр Булата в зимней форме на фоне техники; хорошо отделим для флагманской фигуры.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-020/hero-020_p074_image380_upscaled_2x.jpg",
@@ -1615,10 +2092,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-020/hero-020_p074_image380_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-020/hero-020_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный отдельный ростовой кадр Булата в зимней форме на фоне техники; хорошо отделим для флагманской фигуры.",
-        "print_size_warning": "290x470 px; после 2x использовать только в умеренном масштабе. Маска должна сохранить шапку, перчатки и контуры объёмной формы."
+        "print_size_warning": "290x470 px; после 2x использовать только в умеренном масштабе. Маска должна сохранить шапку, перчатки и контуры объёмной формы.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-020/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-020/hero-020_manual_v2_nobg.png",
+        "cutout_sha256": "ffce8d48f52c9abd12154917a55948e21b9c8c923a97fc503d35011a2d4353d4",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1684,7 +2190,7 @@
       "flagship_processing": {
         "asset_id": "hero-021_p077_image397",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Лучший светлый ростовой кадр Алекси без других людей; лицо и контуры одежды читаются заметно лучше, чем на тёмном фото с оружием.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-021/hero-021_p077_image397_upscaled_2x.jpg",
@@ -1693,10 +2199,39 @@
         "print_height_px": 1096,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-021/hero-021_p077_image397_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-021/hero-021_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Лучший светлый ростовой кадр Алекси без других людей; лицо и контуры одежды читаются заметно лучше, чем на тёмном фото с оружием.",
-        "print_size_warning": "339x548 px; после 2x пригоден для средней фигуры, но не для полной высоты страницы. Ноги ниже кадра отсутствуют."
+        "print_size_warning": "339x548 px; после 2x пригоден для средней фигуры, но не для полной высоты страницы. Ноги ниже кадра отсутствуют.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-021/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-021/hero-021_manual_v2_nobg.png",
+        "cutout_sha256": "ee100498ea35885659558ea04ab5475e94c14f0f46e53b892fafc30a61b8e00d",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1771,7 +2306,7 @@
       ],
       "identity_status": "confirmed_by_reference_text",
       "flagship_asset": "assets/families/hero-022/flagship/hero-022_p080_image409.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "asset_id": "hero-022_p080_image409",
         "needs_gigapixel": false,
@@ -1783,11 +2318,44 @@
         "print_width_px": 1232,
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
-        "needs_waist_crop": false,
+        "needs_waist_crop": true,
         "preferred_processing_source": "assets/production-ready/flagship/hero-022/hero-022_p080_image409_upscaled_2x.jpg",
         "selection_confidence": "high",
         "selection_reason": "Наиболее крупный одиночный портрет Сергея; берёзовый ствол является частью позы и перекрывает руку, поэтому безопаснее сохранить документальный фон.",
-        "print_size_warning": "616x469 px; после 2x подходит для крупного горизонтального портрета. Не вырезать ствол и не восстанавливать скрытые части руки по догадке."
+        "print_size_warning": "616x469 px; после 2x подходит для крупного горизонтального портрета. Не вырезать ствол и не восстанавливать скрытые части руки по догадке.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-022/hero-022_title_nobg.png",
+        "cutout_file": "assets/processed-flagships/hero-022/hero-022_title_ready_nobg.png",
+        "cutout_sha256": "0da9ccecc13a3d489cbc830f2054c00143e11a3704d83a4a31dae725ef185a0a",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "seated-upper-body",
+          "display_height_mm": 168,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1849,7 +2417,7 @@
       ],
       "identity_status": "confirmed_by_reference_text",
       "flagship_asset": "assets/families/hero-023/flagship/hero-023_p083_image419.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "asset_id": "hero-023_p083_image419",
         "needs_gigapixel": false,
@@ -1861,11 +2429,44 @@
         "print_width_px": 1098,
         "print_height_px": 838,
         "print_qa_status": "ready_for_layout",
-        "needs_waist_crop": false,
+        "needs_waist_crop": true,
         "preferred_processing_source": "assets/production-ready/flagship/hero-023/hero-023_p083_image419_upscaled_2x.jpg",
         "selection_confidence": "high",
         "selection_reason": "Самый крупный отдельный кадр Дмитрия с хорошо читаемым лицом и корпусом; интерьер автомобиля объясняет сидячую позу и сохраняется как часть документа.",
-        "print_size_warning": "549x419 px; после 2x подходит для среднего горизонтального модуля. Нижняя часть тела скрыта сиденьем и не должна достраиваться автоматически."
+        "print_size_warning": "549x419 px; после 2x подходит для среднего горизонтального модуля. Нижняя часть тела скрыта сиденьем и не должна достраиваться автоматически.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-023/hero-023_title_nobg.png",
+        "cutout_file": "assets/processed-flagships/hero-023/hero-023_title_ready_nobg.png",
+        "cutout_sha256": "2b98b249df0bb832b05bbd36df1fafb7f57335075e70851d16facd3b2cc5037b",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "seated-upper-body",
+          "display_height_mm": 168,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -1931,7 +2532,7 @@
       "flagship_processing": {
         "asset_id": "hero-024_p086_image430",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Наиболее полный одиночный кадр Алексея в экипировке с оружием; подходит для флагманской фигуры при сохранении всех деталей.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-024/hero-024_p086_image430_upscaled_2x.jpg",
@@ -1940,10 +2541,43 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-024/hero-024_p086_image430_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-024/hero-024_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Наиболее полный одиночный кадр Алексея в экипировке с оружием; подходит для флагманской фигуры при сохранении всех деталей.",
-        "print_size_warning": "291x470 px; 2x всё ещё мало для крупной печати. При вырезке сохранить оружие, ремень, шлем и края бронежилета; не дорисовывать нижнюю часть."
+        "print_size_warning": "291x470 px; 2x всё ещё мало для крупной печати. При вырезке сохранить оружие, ремень, шлем и края бронежилета; не дорисовывать нижнюю часть.",
+        "manual_owner_source": "assets/manual-cutout-help/high/hero-024/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-024/hero-024_manual_nobg.png",
+        "cutout_sha256": "1b5a364d07034a2591a32a2ebc82bdd8e7d635d8fccfa473d1c38cb664dc84e4",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "full_body",
+          "display_height_mm": 250,
+          "bottom_mm": -65,
+          "right_mm": 3,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2024,7 +2658,7 @@
       "flagship_processing": {
         "asset_id": "hero-025_p089_image442",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Формальный фронтальный портрет Салама в форме с наградами на чистом фоне; наиболее однозначный флагман.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-025/hero-025_p089_image442_upscaled_2x.jpg",
@@ -2033,10 +2667,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-025/hero-025_p089_image442_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-025/hero-025_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Формальный фронтальный портрет Салама в форме с наградами на чистом фоне; наиболее однозначный флагман.",
-        "print_size_warning": "291x469 px; после 2x использовать как бюст среднего размера. Не увеличивать до разворотного масштаба и сохранить все награды."
+        "print_size_warning": "291x469 px; после 2x использовать как бюст среднего размера. Не увеличивать до разворотного масштаба и сохранить все награды.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-025/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-025/hero-025_manual_v2_nobg.png",
+        "cutout_sha256": "b96bc3266715a5f835c7ce9c35758386b8a31333c902b331d2a5b72e2b6c3651",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2117,7 +2780,7 @@
       "flagship_processing": {
         "asset_id": "hero-026_p092_image453",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Формальный фронтальный портрет Александра в форме с наградами; на странице 83 финального референса он явно представлен как основной портрет героя.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-026/hero-026_p092_image453_upscaled_2x.jpg",
@@ -2126,10 +2789,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-026/hero-026_p092_image453_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-026/hero-026_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Формальный фронтальный портрет Александра в форме с наградами; на странице 83 финального референса он явно представлен как основной портрет героя.",
-        "print_size_warning": "290x469 px; 2x пригоден лишь для среднего бюста. При маскировании сохранить погоны, знаки и награды без ретуши их содержания."
+        "print_size_warning": "290x469 px; 2x пригоден лишь для среднего бюста. При маскировании сохранить погоны, знаки и награды без ретуши их содержания.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-026/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-026/hero-026_manual_v2_nobg.png",
+        "cutout_sha256": "fea6b86362bf0a728d504f373756baa3083c8173c48321fcb4c49a225c1f36c5",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2183,10 +2875,11 @@
           "notes": "Сохранить детский штрих; не перерисовывать.",
           "gigapixel_status": "completed",
           "print_file": "assets/production-ready/drawings/hero-026/hero-026_p092_image455_upscaled_2x.jpg",
-          "print_sha256": "e1633df0bff4229002e25342428dccd009c5f87299ad3d0dabbe17c4f7ea9afe",
+          "print_sha256": "ea50df4bf7c073a710a15ccbf28c49a3a26f64d13b227e65f75421f86a14991a",
           "print_width_px": 580,
           "print_height_px": 940,
-          "print_qa_status": "REVIEW_REQUIRED"
+          "print_qa_status": "ready_for_layout",
+          "print_qa_notes": "Owner-supplied Hi-res recover v2 accepted for the draft on 2026-07-22."
         }
       ],
       "letters": [
@@ -2224,7 +2917,7 @@
       "flagship_processing": {
         "asset_id": "hero-027_p096_image467",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственная непосредственная фотография Александра; мемориальный баннер и портрет в руках ребёнка являются производными изображениями и не должны подменять оригинальный кадр.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-027/hero-027_p096_image467_upscaled_2x.jpg",
@@ -2233,10 +2926,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-027/hero-027_p096_image467_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-027/hero-027_manual_white_v2.png",
         "selection_confidence": "medium",
         "selection_reason": "Единственная непосредственная фотография Александра; мемориальный баннер и портрет в руках ребёнка являются производными изображениями и не должны подменять оригинальный кадр.",
-        "print_size_warning": "290x470 px; лицо занимает малую часть кадра, поэтому даже 2x слаб для крупного флагмана. Нужен осторожный повторный апскейл либо уменьшенное размещение."
+        "print_size_warning": "290x470 px; лицо занимает малую часть кадра, поэтому даже 2x слаб для крупного флагмана. Нужен осторожный повторный апскейл либо уменьшенное размещение.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-027/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-027/hero-027_manual_v2_nobg.png",
+        "cutout_sha256": "297c7c27759fae6041df2873684dd730ec3aa6233fbdaecb1fb8ecd3f4b1f1e1",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2305,7 +3027,7 @@
       "flagship_processing": {
         "asset_id": "hero-028_p099_image479",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Прямой формальный портрет героя в форме, награды хорошо видны; на странице 90 это главный портрет.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-028/hero-028_p099_image479_upscaled_2x.jpg",
@@ -2314,10 +3036,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-028/hero-028_p099_image479_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-028/hero-028_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Прямой формальный портрет героя в форме, награды хорошо видны; на странице 90 это главный портрет.",
-        "print_size_warning": "SEVERE: source 291x469 px; even a clean 2x result is only about 582x938 px and is insufficient for a large opening figure at 300 dpi."
+        "print_size_warning": "SEVERE: source 291x469 px; even a clean 2x result is only about 582x938 px and is insufficient for a large opening figure at 300 dpi.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-028/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-028/hero-028_manual_v2_nobg.png",
+        "cutout_sha256": "1a4e0c95a5efa5c3b3cc7a71c36f45bd968e41018f882f73a80dc0d1093c6ac6",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2462,7 +3213,7 @@
       "flagship_processing": {
         "asset_id": "hero-029_p104_image503",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Герой в парадной форме и с наградами, снят почти в полный рост; ребёнка нужно сохранить в маске, если она будет вырезаться.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-029/hero-029_p104_image503_upscaled_2x.jpg",
@@ -2471,10 +3222,43 @@
         "print_height_px": 928,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-029/hero-029_p104_image503_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-029/hero-029_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Герой в парадной форме и с наградами, снят почти в полный рост; ребёнка нужно сохранить в маске, если она будет вырезаться.",
-        "print_size_warning": "SEVERE: source 291x464 px; 2x remains too small for a large full-height figure and should be used conservatively."
+        "print_size_warning": "SEVERE: source 291x464 px; 2x remains too small for a large full-height figure and should be used conservatively.",
+        "manual_owner_source": "assets/manual-cutout-help/high/hero-029/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-029/hero-029_manual_nobg.png",
+        "cutout_sha256": "3f761729e80e093bf416972fb2711f67d754e17c267b877a3bc143d2d08f0cab",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "full_body",
+          "display_height_mm": 250,
+          "bottom_mm": -65,
+          "right_mm": 3,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2581,7 +3365,7 @@
       "flagship_processing": {
         "asset_id": "hero-030_p107_image516",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Формальный фронтальный портрет героя, лицо и награды читаются; точно совпадает с семейными кадрами на странице 98; фактический identity-status семьи остаётся REVIEW_REQUIRED.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-030/hero-030_p107_image516_upscaled_2x.jpg",
@@ -2590,10 +3374,39 @@
         "print_height_px": 946,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-030/hero-030_p107_image516_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-030/hero-030_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Формальный фронтальный портрет героя, лицо и награды читаются; точно совпадает с семейными кадрами на странице 98; фактический identity-status семьи остаётся REVIEW_REQUIRED.",
-        "print_size_warning": "SEVERE: source 293x473 px; 2x is inadequate for a large print figure and a waist-length composition would require cautious extension."
+        "print_size_warning": "SEVERE: source 293x473 px; 2x is inadequate for a large print figure and a waist-length composition would require cautious extension.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-030/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-030/hero-030_manual_v2_nobg.png",
+        "cutout_sha256": "6226acc563641b4426071a6e3642705ec9c6b7d2d79c18484ef984a99c43a3ab",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2673,7 +3486,7 @@
       "flagship_processing": {
         "asset_id": "hero-031_p110_image527",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Чистый фронтальный портрет героя в форме с наградами; очевидный главный кадр на странице 101.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-031/hero-031_p110_image527_upscaled_2x.jpg",
@@ -2682,10 +3495,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-031/hero-031_p110_image527_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-031/hero-031_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Чистый фронтальный портрет героя в форме с наградами; очевидный главный кадр на странице 101.",
-        "print_size_warning": "SEVERE: source 291x469 px; 2x is still too small for a large opening portrait at 300 dpi."
+        "print_size_warning": "SEVERE: source 291x469 px; 2x is still too small for a large opening portrait at 300 dpi.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-031/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-031/hero-031_manual_v2_nobg.png",
+        "cutout_sha256": "b8a75e9c70becf35b8e674aa8220b51c2b50aa38acd520c8cd2372f415ff7f89",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2764,7 +3606,7 @@
       "flagship_processing": {
         "asset_id": "hero-032_p113_image538",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный чистый фронтальный портрет героя в форме; имя на нашивке и награды сохранять без изменений.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-032/hero-032_p113_image538_upscaled_2x.jpg",
@@ -2773,10 +3615,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-032/hero-032_p113_image538_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-032/hero-032_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный чистый фронтальный портрет героя в форме; имя на нашивке и награды сохранять без изменений.",
-        "print_size_warning": "SEVERE: source 290x470 px; 2x is insufficient for a large opening portrait."
+        "print_size_warning": "SEVERE: source 290x470 px; 2x is insufficient for a large opening portrait.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-032/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-032/hero-032_manual_v2_nobg.png",
+        "cutout_sha256": "502971da1461c0562b73f6eb0cca8ff41a73f38dc724f251a01a3c647d1c3167",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2856,7 +3727,7 @@
       "flagship_processing": {
         "asset_id": "hero-033_p116_image553",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Портрет в форме явно использован референсом как главное изображение; внешность сопоставима с семейным кадром, но identity-status семьи остаётся REVIEW_REQUIRED.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-033/hero-033_p116_image553_upscaled_2x.jpg",
@@ -2865,10 +3736,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-033/hero-033_p116_image553_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-033/hero-033_manual_white_v2.png",
         "selection_confidence": "medium",
         "selection_reason": "Портрет в форме явно использован референсом как главное изображение; внешность сопоставима с семейным кадром, но identity-status семьи остаётся REVIEW_REQUIRED.",
-        "print_size_warning": "SEVERE: source 291x469 px; 2x is too small for a large print portrait."
+        "print_size_warning": "SEVERE: source 291x469 px; 2x is too small for a large print portrait.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-033/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-033/hero-033_manual_v2_nobg.png",
+        "cutout_sha256": "6fd5402a66e01c8cce3351c03ac1e529076a0f89311885ba659eb72ff768b4fe",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -2935,7 +3835,7 @@
       "flagship_processing": {
         "asset_id": "hero-034_p119_image567",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Самая сильная полноростовая фигура героя в экипировке; при маскировании обязательно сохранить оружие, ремни, перчатки и края формы.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-034/hero-034_p119_image567_upscaled_2x.jpg",
@@ -2944,10 +3844,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-034/hero-034_p119_image567_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-034/hero-034_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Самая сильная полноростовая фигура героя в экипировке; при маскировании обязательно сохранить оружие, ремни, перчатки и края формы.",
-        "print_size_warning": "SEVERE: source 291x470 px; a 2x derivative remains too small for a large full-height cutout."
+        "print_size_warning": "SEVERE: source 291x470 px; a 2x derivative remains too small for a large full-height cutout.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-034/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-034/hero-034_manual_v2_nobg.png",
+        "cutout_sha256": "0d6434ef73443ef527e6e4d2d73494ad863d2f455d32484b89f1328ac5b2c938",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3024,7 +3953,7 @@
       ],
       "identity_status": "confirmed_by_reference_text",
       "flagship_asset": "assets/families/hero-035/flagship/hero-035_p122_image581.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "asset_id": "hero-035_p122_image581",
         "needs_gigapixel": false,
@@ -3036,11 +3965,44 @@
         "print_width_px": 580,
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
-        "needs_waist_crop": false,
+        "needs_waist_crop": true,
         "preferred_processing_source": "assets/production-ready/flagship/hero-035/hero-035_p122_image581_upscaled_2x.jpg",
         "selection_confidence": "medium",
         "selection_reason": "Отдельного качественного портрета нет; этот кадр лучше остальных показывает лицо героя и семейную связь; группу не вырезать автоматически.",
-        "print_size_warning": "SEVERE: source 290x469 px and the hero occupies only part of the frame; unsuitable for a large isolated figure."
+        "print_size_warning": "SEVERE: source 290x469 px and the hero occupies only part of the frame; unsuitable for a large isolated figure.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-035/hero-035_title_group_nobg.png",
+        "cutout_file": "assets/processed-flagships/hero-035/hero-035_title_group_ready_nobg.png",
+        "cutout_sha256": "b537534a11ea1302f7dca79e7ee7cc25eb229e3857a0000cd912d74703ad7062",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "seated-family-group",
+          "display_height_mm": 158,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3120,7 +4082,7 @@
       "flagship_processing": {
         "asset_id": "hero-036_p125_image593",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Чёткая поясная фигура героя в экипировке; при вырезании сохранить оружие, оптику, ремни, разгрузку и руки.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-036/hero-036_p125_image593_upscaled_2x.jpg",
@@ -3129,10 +4091,43 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-036/hero-036_p125_image593_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-036/hero-036_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Чёткая поясная фигура героя в экипировке; при вырезании сохранить оружие, оптику, ремни, разгрузку и руки.",
-        "print_size_warning": "SEVERE: source 291x470 px; 2x is not sufficient for a large opening cutout."
+        "print_size_warning": "SEVERE: source 291x470 px; 2x is not sufficient for a large opening cutout.",
+        "manual_owner_source": "assets/manual-cutout-help/critical/hero-036/newcutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-036/hero-036_manual_nobg.png",
+        "cutout_sha256": "0f1d2b0ff2b836b5746405c286cdf19a80acf6c34c8342eab5d0c8f870e272bc",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "waist_or_bust",
+          "display_height_mm": 193,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3216,7 +4211,7 @@
       "flagship_processing": {
         "asset_id": "hero-037_p128_image605",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Чистая почти полноростовая фигура героя в форме, лицо видно лучше, чем на боевом крупном плане.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-037/hero-037_p128_image605_upscaled_2x.jpg",
@@ -3225,10 +4220,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-037/hero-037_p128_image605_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-037/hero-037_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Чистая почти полноростовая фигура героя в форме, лицо видно лучше, чем на боевом крупном плане.",
-        "print_size_warning": "SEVERE: source 290x470 px; 2x is too small for a large full-height figure."
+        "print_size_warning": "SEVERE: source 290x470 px; 2x is too small for a large full-height figure.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-037/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-037/hero-037_manual_v2_nobg.png",
+        "cutout_sha256": "713981e69a874cc806ddd2c8999f0fb58c885beaa578bbf368b8a999653dc792",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3384,12 +4408,12 @@
         126
       ],
       "identity_status": "confirmed_by_reference_text",
-      "flagship_asset": "assets/families/hero-039/flagship/hero-039_p134_image629.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-039/archive-photos/hero-039_p134_image631.jpg",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "asset_id": "hero-039_p134_image629",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Фронтальная поясная фотография героя с наградами и ребёнком; соответствует формальному портрету на той же странице. Ребёнка не удалять молча.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-039/hero-039_p134_image629_upscaled_2x.jpg",
@@ -3398,10 +4422,44 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-039/hero-039_p134_image629_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/archive/hero-039/hero-039_p134_image631_upscaled_2x.jpg",
         "selection_confidence": "high",
         "selection_reason": "Фронтальная поясная фотография героя с наградами и ребёнком; соответствует формальному портрету на той же странице. Ребёнка не удалять молча.",
-        "print_size_warning": "SEVERE: source 290x469 px; both the hero and child will remain low-resolution after 2x."
+        "print_size_warning": "SEVERE: source 290x469 px; both the hero and child will remain low-resolution after 2x.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-039/hero-039_alt_p134_image631_nobg.png",
+        "cutout_file": "assets/processed-flagships/hero-039/hero-039_alt_title_ready_nobg.png",
+        "cutout_sha256": "05a340eb8e9c429d008c5a5bf9f065dbb7f7676a84f198e60590629285f44d6c",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "uniform-waist",
+          "display_height_mm": 174,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3467,7 +4525,7 @@
       "flagship_processing": {
         "asset_id": "hero-040_p137_image639",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный чистый фронтальный портрет героя; для поясной фигуры потребуется отдельно согласованное достраивание.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-040/hero-040_p137_image639_upscaled_2x.jpg",
@@ -3476,10 +4534,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-040/hero-040_p137_image639_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-040/hero-040_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный чистый фронтальный портрет героя; для поясной фигуры потребуется отдельно согласованное достраивание.",
-        "print_size_warning": "SEVERE: source 292x470 px and contains only head and shoulders; 2x is insufficient for a large opening figure."
+        "print_size_warning": "SEVERE: source 292x470 px and contains only head and shoulders; 2x is insufficient for a large opening figure.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-040/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-040/hero-040_manual_v2_nobg.png",
+        "cutout_sha256": "3ffe376faaa84fe3b696803174425877e43ffe6ab7de0bcc51f41c57dd44a694",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3547,7 +4634,7 @@
       "flagship_processing": {
         "asset_id": "hero-041_p140_image650",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Отдельная полноростовая фигура героя в экипировке лучше группового кадра для открывающей страницы; лицо частично закрыто, identity-status семьи не снимается.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-041/hero-041_p140_image650_upscaled_2x.jpg",
@@ -3556,10 +4643,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-041/hero-041_p140_image650_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-041/hero-041_manual_white_v2.png",
         "selection_confidence": "medium",
         "selection_reason": "Отдельная полноростовая фигура героя в экипировке лучше группового кадра для открывающей страницы; лицо частично закрыто, identity-status семьи не снимается.",
-        "print_size_warning": "SEVERE: source 290x469 px; 2x is too small for a large full-height cutout."
+        "print_size_warning": "SEVERE: source 290x469 px; 2x is too small for a large full-height cutout.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-041/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-041/hero-041_manual_v2_nobg.png",
+        "cutout_sha256": "f3ce4a7f4141090d5cfeb3ccf9dabeda9b404b11938740f762b2f58bf45e7ee5",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3614,7 +4730,7 @@
       "flagship_processing": {
         "asset_id": "hero-042_p143_image662",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Лучшая из двух фотографий: герой снят по грудь в форме, лицо хорошо читается; фон с машиной можно удалить.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-042/hero-042_p143_image662_upscaled_2x.jpg",
@@ -3623,10 +4739,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-042/hero-042_p143_image662_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-042/hero-042_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Лучшая из двух фотографий: герой снят по грудь в форме, лицо хорошо читается; фон с машиной можно удалить.",
-        "print_size_warning": "MODERATE: source 615x469 px; a 2x result is about 1230x938 px (roughly 104x79 mm at 300 dpi), suitable only at a controlled medium scale."
+        "print_size_warning": "MODERATE: source 615x469 px; a 2x result is about 1230x938 px (roughly 104x79 mm at 300 dpi), suitable only at a controlled medium scale.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-042/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-042/hero-042_manual_v2_nobg.png",
+        "cutout_sha256": "072700cf6c6ddac5bccb95815a8a658850815fa57f81ae8149e65db611045f2a",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3679,7 +4824,7 @@
       "flagship_processing": {
         "asset_id": "hero-043_p146_image671",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Самый чёткий боевой портрет героя; каску, ворот и края экипировки сохранить. Кадр крупный, поэтому поясная композиция потребует достраивания.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-043/hero-043_p146_image671_upscaled_2x.jpg",
@@ -3688,10 +4833,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-043/hero-043_p146_image671_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-043/hero-043_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Самый чёткий боевой портрет героя; каску, ворот и края экипировки сохранить. Кадр крупный, поэтому поясная композиция потребует достраивания.",
-        "print_size_warning": "SEVERE: source 290x469 px and is tightly cropped; 2x is insufficient for a large waist-length figure."
+        "print_size_warning": "SEVERE: source 290x469 px and is tightly cropped; 2x is insufficient for a large waist-length figure.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-043/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-043/hero-043_manual_v2_nobg.png",
+        "cutout_sha256": "7662de59aa3775711718fd0a40b5d81371564649086145b8d28429efd7debadf",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3771,7 +4945,7 @@
       "flagship_processing": {
         "asset_id": "hero-044_p149_image686",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Отдельная полноростовая боевая фотография лучше семейных кадров подходит для флагмана; оружие, флаг, нашивки и руки сохранять. Identity-status семьи остаётся REVIEW_REQUIRED.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-044/hero-044_p149_image686_upscaled_2x.jpg",
@@ -3780,10 +4954,43 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-044/hero-044_p149_image686_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-044/hero-044_manual_white.png",
         "selection_confidence": "medium",
         "selection_reason": "Отдельная полноростовая боевая фотография лучше семейных кадров подходит для флагмана; оружие, флаг, нашивки и руки сохранять. Identity-status семьи остаётся REVIEW_REQUIRED.",
-        "print_size_warning": "SEVERE: source 291x469 px; 2x is too small for a large full-height cutout."
+        "print_size_warning": "SEVERE: source 291x469 px; 2x is too small for a large full-height cutout.",
+        "manual_owner_source": "assets/manual-cutout-help/critical/hero-044/newcutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-044/hero-044_manual_nobg.png",
+        "cutout_sha256": "bba09fbcfbd7c8c797745a2f56f8dece186690af6d824b065df4ae9c48c9b74d",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "waist_or_bust",
+          "display_height_mm": 193,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3851,7 +5058,7 @@
       "flagship_processing": {
         "asset_id": "hero-045_p152_image700",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Чистая почти полноростовая фигура в форме с хорошо читаемым лицом; подходит для аккуратной поясной вырезки.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-045/hero-045_p152_image700_upscaled_2x.jpg",
@@ -3860,10 +5067,39 @@
         "print_height_px": 1386,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-045/hero-045_p152_image700_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-045/hero-045_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Чистая почти полноростовая фигура в форме с хорошо читаемым лицом; подходит для аккуратной поясной вырезки.",
-        "print_size_warning": "MODERATE: source 429x693 px; a 2x result is about 858x1386 px (roughly 73x117 mm at 300 dpi), not enough for an oversized figure."
+        "print_size_warning": "MODERATE: source 429x693 px; a 2x result is about 858x1386 px (roughly 73x117 mm at 300 dpi), not enough for an oversized figure.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-045/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-045/hero-045_manual_v2_nobg.png",
+        "cutout_sha256": "dc575fbc6504d8dee2b2ed01e069c24a1841406c08391c14c08cc02af6db07b3",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -3951,7 +5187,7 @@
       "flagship_processing": {
         "asset_id": "hero-046_p155_image712",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный чистый портрет героя без посторонних людей, форма и лицо читаются; плоский голубой фон легко удалить.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-046/hero-046_p155_image712_upscaled_2x.jpg",
@@ -3960,10 +5196,39 @@
         "print_height_px": 1308,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-046/hero-046_p155_image712_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-046/hero-046_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный чистый портрет героя без посторонних людей, форма и лицо читаются; плоский голубой фон легко удалить.",
-        "print_size_warning": "MODERATE: source 404x654 px; a 2x result is about 808x1308 px (roughly 68x111 mm at 300 dpi), so keep the figure below oversized scale."
+        "print_size_warning": "MODERATE: source 404x654 px; a 2x result is about 808x1308 px (roughly 68x111 mm at 300 dpi), so keep the figure below oversized scale.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-046/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-046/hero-046_manual_v2_nobg.png",
+        "cutout_sha256": "8024a0d2d607aefffaa9584aa10432a848f1d90c0df85f7ad6a1bbeb1aeda1d0",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -4027,12 +5292,12 @@
         152
       ],
       "identity_status": "confirmed_by_reference_text",
-      "flagship_asset": "assets/families/hero-047/flagship/hero-047_p159_image727.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_asset": "assets/families/hero-047/archive-photos/hero-047_p159_image728.jpg",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "asset_id": "hero-047_p159_image727",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Самый технически сильный кадр семьи: фигура героя до бёдер, лицо видно, есть экипировка и оружие; в маске сохранить все ремни, руки, оружие и элементы формы.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-047/hero-047_p159_image727_upscaled_2x.jpg",
@@ -4041,10 +5306,44 @@
         "print_height_px": 1116,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-047/hero-047_p159_image727_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/archive/hero-047/hero-047_p159_image728_upscaled_2x.jpg",
         "selection_confidence": "high",
         "selection_reason": "Самый технически сильный кадр семьи: фигура героя до бёдер, лицо видно, есть экипировка и оружие; в маске сохранить все ремни, руки, оружие и элементы формы.",
-        "print_size_warning": "MODERATE: source 732x558 px; a 2x result is about 1464x1116 px (roughly 124x94 mm at 300 dpi), adequate for a controlled half-page figure but not full-spread enlargement."
+        "print_size_warning": "MODERATE: source 732x558 px; a 2x result is about 1464x1116 px (roughly 124x94 mm at 300 dpi), adequate for a controlled half-page figure but not full-spread enlargement.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-047/hero-047_alt_p159_image728_nobg.png",
+        "cutout_file": "assets/processed-flagships/hero-047/hero-047_alt_title_ready_nobg.png",
+        "cutout_sha256": "9a4664f7da8382053a2b41b5a7336138980bf304361879e04939e7bf492c0642",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "full-body",
+          "display_height_mm": 250,
+          "bottom_mm": -65,
+          "right_mm": 3,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -4188,7 +5487,7 @@
       "flagship_processing": {
         "asset_id": "hero-048_p163_image744",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный сольный полноростовый кадр героя; руки и поза не обрезаны, фон можно удалить.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-048/hero-048_p163_image744_upscaled_2x.jpg",
@@ -4197,10 +5496,39 @@
         "print_height_px": 942,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-048/hero-048_p163_image744_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-048/hero-048_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный сольный полноростовый кадр героя; руки и поза не обрезаны, фон можно удалить.",
-        "print_size_warning": "SEVERE: source 290x471 px; 2x is too small for a large full-height cutout."
+        "print_size_warning": "SEVERE: source 290x471 px; 2x is too small for a large full-height cutout.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-048/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-048/hero-048_manual_v2_nobg.png",
+        "cutout_sha256": "05e2d0dc13dd0ebe1107764a1a6d218671eb0d30109cf8bbc1809fb1fd33e258",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -4280,7 +5608,7 @@
       "flagship_processing": {
         "asset_id": "hero-049_p166_image760",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Лучший сольный кадр героя с хорошо видимым лицом; собака на руках является частью исходного кадра и должна быть сохранена при вырезании.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-049/hero-049_p166_image760_upscaled_2x.jpg",
@@ -4289,10 +5617,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-049/hero-049_p166_image760_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-049/hero-049_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Лучший сольный кадр героя с хорошо видимым лицом; собака на руках является частью исходного кадра и должна быть сохранена при вырезании.",
-        "print_size_warning": "SEVERE: source 290x469 px; 2x remains too small for a large opening figure."
+        "print_size_warning": "SEVERE: source 290x469 px; 2x remains too small for a large opening figure.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-049/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-049/hero-049_manual_v2_nobg.png",
+        "cutout_sha256": "76818c8d9b7b659fe6c5e2a0bc86710edfd9b45e42cf399cfe954b64bdb7f337",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -4357,7 +5714,7 @@
       ],
       "identity_status": "confirmed_by_reference_text",
       "flagship_asset": "assets/families/hero-050/flagship/hero-050_p169_image769.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "asset_id": "hero-050_p169_image769",
         "needs_gigapixel": false,
@@ -4369,11 +5726,44 @@
         "print_width_px": 1232,
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
-        "needs_waist_crop": false,
+        "needs_waist_crop": true,
         "preferred_processing_source": "assets/production-ready/flagship/hero-050/hero-050_p169_image769_upscaled_2x.jpg",
         "selection_confidence": "medium",
         "selection_reason": "Отдельного портрета нет; этот кадр лучше всего показывает героя почти в полный рост и всех детей. Из-за перекрытия фигур кадр лучше сохранить целиком, без CutItOut.",
-        "print_size_warning": "MODERATE: source 616x470 px; a 2x result is about 1232x940 px, but the hero occupies only part of the family frame."
+        "print_size_warning": "MODERATE: source 616x470 px; a 2x result is about 1232x940 px, but the hero occupies only part of the family frame.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-050/hero-050_title_group_nobg.png",
+        "cutout_file": "assets/processed-flagships/hero-050/hero-050_title_group_ready_nobg.png",
+        "cutout_sha256": "e65dbd12da953e98c071baaa0400a8bb97a9fb0bce423653e2800008fa0f3270",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "family-group-with-stroller",
+          "display_height_mm": 172,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -4452,7 +5842,7 @@
       "flagship_processing": {
         "asset_id": "hero-051_p173_image786",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Фигура героя и лицо видны лучше, чем на остальных семейных кадрах; ребёнка на плечах и шары не удалять без ручного решения. Identity-status семьи остаётся REVIEW_REQUIRED.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-051/hero-051_p173_image786_upscaled_2x.jpg",
@@ -4461,10 +5851,43 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-051/hero-051_p173_image786_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-051/hero-051_manual_white.png",
         "selection_confidence": "medium",
         "selection_reason": "Фигура героя и лицо видны лучше, чем на остальных семейных кадрах; ребёнка на плечах и шары не удалять без ручного решения. Identity-status семьи остаётся REVIEW_REQUIRED.",
-        "print_size_warning": "SEVERE: source 291x470 px and contains two figures; 2x is insufficient for a large isolated composition."
+        "print_size_warning": "SEVERE: source 291x470 px and contains two figures; 2x is insufficient for a large isolated composition.",
+        "manual_owner_source": "assets/manual-cutout-help/high/hero-051/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-051/hero-051_manual_nobg.png",
+        "cutout_sha256": "c58f8dab105bbef715cd9da3424f1a997ab950b44afbdcf1b2f62f15949fb428",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "full_body",
+          "display_height_mm": 250,
+          "bottom_mm": -65,
+          "right_mm": 3,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -4625,7 +6048,7 @@
       "flagship_processing": {
         "asset_id": "hero-053_p179_image808",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный вертикальный кадр с героем почти в полный рост; форма и лицо видны, ребёнок сохраняет семейную связь. Снижение confidence вызвано REVIEW_REQUIRED в заголовке референса, а не визуальной подменой семьи.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-053/hero-053_p179_image808_upscaled_2x.jpg",
@@ -4634,10 +6057,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-053/hero-053_p179_image808_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-053/hero-053_manual_white_v2.png",
         "selection_confidence": "medium",
         "selection_reason": "Единственный вертикальный кадр с героем почти в полный рост; форма и лицо видны, ребёнок сохраняет семейную связь. Снижение confidence вызвано REVIEW_REQUIRED в заголовке референса, а не визуальной подменой семьи.",
-        "print_size_warning": "medium: исходник 291x469 px; для печати и CutItOut использовать только проверенный 2x-upscale."
+        "print_size_warning": "medium: исходник 291x469 px; для печати и CutItOut использовать только проверенный 2x-upscale.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-053/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-053/hero-053_manual_v2_nobg.png",
+        "cutout_sha256": "a0bf95d5ee114557ed6d6f72bdbe3f8d16b9ab2e17acb2d55660a366216b0022",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -4707,7 +6159,7 @@
       "flagship_processing": {
         "asset_id": "hero-054_p182_image818",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Вертикальный домашний портрет: лицо героя крупнее, чем в остальных архивных кадрах; фигура и сын визуально отделяются от фона.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-054/hero-054_p182_image818_upscaled_2x.jpg",
@@ -4716,10 +6168,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-054/hero-054_p182_image818_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-054/hero-054_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Вертикальный домашний портрет: лицо героя крупнее, чем в остальных архивных кадрах; фигура и сын визуально отделяются от фона.",
-        "print_size_warning": "medium: исходник 290x469 px; не растягивать без QA парного 2x-upscale."
+        "print_size_warning": "medium: исходник 290x469 px; не растягивать без QA парного 2x-upscale.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-054/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-054/hero-054_manual_v2_nobg.png",
+        "cutout_sha256": "34bac463b786ae43b1f4b1d79c2b295e3f20011e797998c2b96bf34984c3fec3",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -4960,7 +6441,7 @@
       "flagship_processing": {
         "asset_id": "hero-056_p190_image848",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный сольный портрет героя; лицо крупно, форма и плечи читаются, фон несложный для CutItOut.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-056/hero-056_p190_image848_upscaled_2x.jpg",
@@ -4969,10 +6450,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-056/hero-056_p190_image848_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-056/hero-056_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный сольный портрет героя; лицо крупно, форма и плечи читаются, фон несложный для CutItOut.",
-        "print_size_warning": "medium: исходник 291x470 px; поясной масштаб возможен только после проверенного upscale."
+        "print_size_warning": "medium: исходник 291x470 px; поясной масштаб возможен только после проверенного upscale.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-056/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-056/hero-056_manual_v2_nobg.png",
+        "cutout_sha256": "becf830c6cab1288a075300f48006d1cd0839cf0b04e22ba66f01774d7e01d53",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5040,7 +6550,7 @@
       "flagship_processing": {
         "asset_id": "hero-057_p193_image862",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Вертикальный кадр героя в форме рядом с сыном; лицо и верхняя часть фигуры крупнее, чем в альтернативном групповом кадре.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-057/hero-057_p193_image862_upscaled_2x.jpg",
@@ -5049,10 +6559,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-057/hero-057_p193_image862_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-057/hero-057_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Вертикальный кадр героя в форме рядом с сыном; лицо и верхняя часть фигуры крупнее, чем в альтернативном групповом кадре.",
-        "print_size_warning": "medium: исходник 290x469 px; при маске сохранить панаму, форму, руку и силуэт ребёнка."
+        "print_size_warning": "medium: исходник 290x469 px; при маске сохранить панаму, форму, руку и силуэт ребёнка.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-057/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-057/hero-057_manual_v2_nobg.png",
+        "cutout_sha256": "bbcbcf7dab703354044cd2025629f471ab11a2a430c4bddd9a5757a9736f8d70",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5137,7 +6676,7 @@
       "flagship_processing": {
         "asset_id": "hero-058_p197_image880",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Чистый сольный портрет героя в форме с крупным лицом и почти белым фоном; наименее рисковый CutItOut-кандидат.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-058/hero-058_p197_image880_upscaled_2x.jpg",
@@ -5146,10 +6685,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-058/hero-058_p197_image880_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-058/hero-058_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Чистый сольный портрет героя в форме с крупным лицом и почти белым фоном; наименее рисковый CutItOut-кандидат.",
-        "print_size_warning": "medium: исходник 291x470 px; применять только 2x-upscale с проверкой лица и нашивок."
+        "print_size_warning": "medium: исходник 291x470 px; применять только 2x-upscale с проверкой лица и нашивок.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-058/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-058/hero-058_manual_v2_nobg.png",
+        "cutout_sha256": "962d97f9df5af8c51444feb01daf017bc23302d55e1f7531825380b4429d10fa",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5164,24 +6732,25 @@
           "print_width_px": 582,
           "print_height_px": 940,
           "print_qa_status": "ready_for_layout"
-        },
-        {
-          "asset_id": "hero-058_p197_image882",
-          "file": "assets/families/hero-058/archive-photos/hero-058_p197_image882.jpg",
-          "needs_gigapixel": false,
-          "needs_cutout": false,
-          "notes": "Семейный архив: фон сохраняется; только мягкое улучшение.",
-          "gigapixel_status": "completed",
-          "print_file": "assets/production-ready/archive/hero-058/hero-058_p197_image882_upscaled_2x.jpg",
-          "print_sha256": "a4b2aa020fba68e9b4d8e09d04f030295df61de881643dc492097f67561c4737",
-          "print_width_px": 1230,
-          "print_height_px": 494,
-          "print_qa_status": "ready_for_layout"
         }
       ],
       "drawings": [],
-      "letters": [],
-      "transcriptions": [],
+      "letters": [
+        {
+          "asset_id": "hero-058_p197_image882",
+          "file": "assets/families/hero-058/letters/hero-058_p197_image882.jpg",
+          "physical_scan": true,
+          "is_processed_derivative": false,
+          "notes": "Рукопись повторно распознана среди архивных изображений; master скопирован без изменения."
+        }
+      ],
+      "transcriptions": [
+        {
+          "asset_id": "hero-058_p197_image882_transcription",
+          "file": "assets/families/hero-058/transcriptions/hero-058_p197_image882_transcription.json",
+          "status": "REVIEW_REQUIRED"
+        }
+      ],
       "flagship_selection": {
         "status": "selected",
         "confidence": "high",
@@ -5207,7 +6776,7 @@
       "flagship_processing": {
         "asset_id": "hero-059_p199_image891",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный сольный почти полноростовой кадр героя в экипировке; он подходит для крупной фигуры при осторожном сохранении снаряжения.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-059/hero-059_p199_image891_upscaled_2x.jpg",
@@ -5216,10 +6785,43 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-059/hero-059_p199_image891_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-059/hero-059_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный сольный почти полноростовой кадр героя в экипировке; он подходит для крупной фигуры при осторожном сохранении снаряжения.",
-        "print_size_warning": "high: исходник 291x470 px и лицо занимает малую часть кадра; не ставить на полосу без QA upscale."
+        "print_size_warning": "high: исходник 291x470 px и лицо занимает малую часть кадра; не ставить на полосу без QA upscale.",
+        "manual_owner_source": "assets/manual-cutout-help/critical/hero-059/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-059/hero-059_manual_nobg.png",
+        "cutout_sha256": "81b0fc1b5775af3c903d209a7f2fd78eee372ef3149c644a1cce5ca95db75298",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "waist_or_bust",
+          "display_height_mm": 193,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5285,7 +6887,7 @@
       "flagship_processing": {
         "asset_id": "hero-060_p202_image901",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Самый крупный и качественный кадр героя: лицо и форма читаются, дочь и букет дают документальную семейную связь.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-060/hero-060_p202_image901_upscaled_2x.jpg",
@@ -5294,10 +6896,39 @@
         "print_height_px": 1294,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-060/hero-060_p202_image901_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-060/hero-060_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Самый крупный и качественный кадр героя: лицо и форма читаются, дочь и букет дают документальную семейную связь.",
-        "print_size_warning": "low: исходник 580x647 px лучше остальных кадров семьи; всё равно печатать из проверенной upscale-версии."
+        "print_size_warning": "low: исходник 580x647 px лучше остальных кадров семьи; всё равно печатать из проверенной upscale-версии.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-060/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-060/hero-060_manual_v2_nobg.png",
+        "cutout_sha256": "69d947188b6b5f70b4788c38da372be8f4bc37060e722443d48a4ba489ccd81f",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5350,7 +6981,7 @@
       "flagship_processing": {
         "asset_id": "hero-061_p205_image914",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный сольный полноростовой кадр героя; форма, оружие и экипировка видны полностью.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-061/hero-061_p205_image914_upscaled_2x.jpg",
@@ -5359,10 +6990,43 @@
         "print_height_px": 844,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-061/hero-061_p205_image914_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-061/hero-061_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный сольный полноростовой кадр героя; форма, оружие и экипировка видны полностью.",
-        "print_size_warning": "high: исходник 261x422 px, лицо мало; для CutItOut нужен QA 2x-upscale, при маске нельзя потерять оружие, ремни и подсумки."
+        "print_size_warning": "high: исходник 261x422 px, лицо мало; для CutItOut нужен QA 2x-upscale, при маске нельзя потерять оружие, ремни и подсумки.",
+        "manual_owner_source": "assets/manual-cutout-help/critical/hero-061/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-061/hero-061_manual_nobg.png",
+        "cutout_sha256": "f93b7d6c3dae98d265182ef64623769b3c9b9904189f873d5010a262ceba1beb",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "waist_or_bust",
+          "display_height_mm": 193,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5495,7 +7159,7 @@
       "flagship_processing": {
         "asset_id": "hero-063_p211_image933",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Сольный портрет героя по колени в поле; лицо, поза и форма не перекрыты другими людьми.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-063/hero-063_p211_image933_upscaled_2x.jpg",
@@ -5504,10 +7168,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-063/hero-063_p211_image933_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-063/hero-063_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Сольный портрет героя по колени в поле; лицо, поза и форма не перекрыты другими людьми.",
-        "print_size_warning": "medium: исходник 292x469 px; после upscale не увеличивать крупнее полуполосной фигуры без печатной пробы."
+        "print_size_warning": "medium: исходник 292x469 px; после upscale не увеличивать крупнее полуполосной фигуры без печатной пробы.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-063/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-063/hero-063_manual_v2_nobg.png",
+        "cutout_sha256": "1bc9b030911631cb5061340507d909d4dd230e0d7d000fb8ed53242965a95ef9",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5656,7 +7349,7 @@
       "flagship_processing": {
         "asset_id": "hero-065_p217_image953",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Крупный сольный портрет героя в форме; лицо и плечи чёткие, фон не закрывает силуэт.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-065/hero-065_p217_image953_upscaled_2x.jpg",
@@ -5665,10 +7358,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-065/hero-065_p217_image953_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-065/hero-065_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Крупный сольный портрет героя в форме; лицо и плечи чёткие, фон не закрывает силуэт.",
-        "print_size_warning": "medium: исходник 290x469 px; крупный кадр помогает, но для печати всё равно нужен проверенный upscale."
+        "print_size_warning": "medium: исходник 290x469 px; крупный кадр помогает, но для печати всё равно нужен проверенный upscale.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-065/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-065/hero-065_manual_v2_nobg.png",
+        "cutout_sha256": "7211b7f84f7f799646ead4082baba24ecc600e9f6016b2cf6e9716123bbdbeed",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5716,7 +7438,7 @@
       "flagship_processing": {
         "asset_id": "hero-066_p219_image959",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Вертикальный сольный полноростовой кадр героя в форме с оружием; композиционно лучше для фигуры, чем тёмный горизонтальный close-up.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-066/hero-066_p219_image959_upscaled_2x.jpg",
@@ -5725,10 +7447,43 @@
         "print_height_px": 1376,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-066/hero-066_p219_image959_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-066/hero-066_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Вертикальный сольный полноростовой кадр героя в форме с оружием; композиционно лучше для фигуры, чем тёмный горизонтальный close-up.",
-        "print_size_warning": "medium: исходник 425x688 px; при CutItOut сохранить оружие, ремни, сумки, нашивки и края формы."
+        "print_size_warning": "medium: исходник 425x688 px; при CutItOut сохранить оружие, ремни, сумки, нашивки и края формы.",
+        "manual_owner_source": "assets/manual-cutout-help/critical/hero-066/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-066/hero-066_manual_nobg.png",
+        "cutout_sha256": "84d71aa9cbaf4d9daaf112b098a4ba2aa2717c817fa839359448e4da7f3ffade",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "waist_or_bust",
+          "display_height_mm": 193,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5842,7 +7597,7 @@
       "flagship_processing": {
         "asset_id": "hero-067_p224_image979",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный портрет живого героя в пакете: фигура почти в полный рост, форма и оружие видны. Остальные кадры — мемориал и семейное фото.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-067/hero-067_p224_image979_upscaled_2x.jpg",
@@ -5851,10 +7606,39 @@
         "print_height_px": 1064,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-067/hero-067_p224_image979_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-067/hero-067_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный портрет живого героя в пакете: фигура почти в полный рост, форма и оружие видны. Остальные кадры — мемориал и семейное фото.",
-        "print_size_warning": "medium: исходник 329x532 px; лицо небольшое, поэтому нужен QA upscale; при маске сохранить оружие и всё снаряжение."
+        "print_size_warning": "medium: исходник 329x532 px; лицо небольшое, поэтому нужен QA upscale; при маске сохранить оружие и всё снаряжение.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-067/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-067/hero-067_manual_v2_nobg.png",
+        "cutout_sha256": "4ca6a6f89861d340cc9294575f6ff091606299e3bd9f1eef55d1429ad4b53d83",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -5923,7 +7707,7 @@
       "flagship_processing": {
         "asset_id": "hero-068_p227_image993",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Полноростовой сольный кадр героя в форме перед машиной; силуэт не перекрыт. Кадр совпадает с портретом в мемориальной выкладке на следующей странице этой же семьи.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-068/hero-068_p227_image993_upscaled_2x.jpg",
@@ -5932,10 +7716,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-068/hero-068_p227_image993_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-068/hero-068_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Полноростовой сольный кадр героя в форме перед машиной; силуэт не перекрыт. Кадр совпадает с портретом в мемориальной выкладке на следующей странице этой же семьи.",
-        "print_size_warning": "high: исходник 290x469 px и лицо мало; применять только QA upscale и не перерисовывать форму и экипировку."
+        "print_size_warning": "high: исходник 290x469 px и лицо мало; применять только QA upscale и не перерисовывать форму и экипировку.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-068/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-068/hero-068_manual_v2_nobg.png",
+        "cutout_sha256": "09301572f70704c981cfd8c18e03dfe0f3d79037831ee719e56e2c5da5819764",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -6041,7 +7854,7 @@
       "flagship_processing": {
         "asset_id": "hero-069_p231_image1008",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Сольный парадный портрет с крупным лицом, формой и наградами; лучше групповых и походных кадров для открывающей страницы.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-069/hero-069_p231_image1008_upscaled_2x.jpg",
@@ -6050,10 +7863,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-069/hero-069_p231_image1008_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-069/hero-069_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Сольный парадный портрет с крупным лицом, формой и наградами; лучше групповых и походных кадров для открывающей страницы.",
-        "print_size_warning": "medium: исходник 290x469 px; перед печатью проверить 2x-upscale на лице, погонах и наградах."
+        "print_size_warning": "medium: исходник 290x469 px; перед печатью проверить 2x-upscale на лице, погонах и наградах.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-069/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-069/hero-069_manual_v2_nobg.png",
+        "cutout_sha256": "3359dc3cdb68562d52a54d65632d3814420bce44648a03cd49a1249fa693afd2",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -6146,24 +7988,25 @@
           "print_width_px": 1230,
           "print_height_px": 876,
           "print_qa_status": "ready_for_layout"
-        },
-        {
-          "asset_id": "hero-069_p233_image1020",
-          "file": "assets/families/hero-069/archive-photos/hero-069_p233_image1020.jpg",
-          "needs_gigapixel": false,
-          "needs_cutout": false,
-          "notes": "Семейный архив: фон сохраняется; только мягкое улучшение.",
-          "gigapixel_status": "completed",
-          "print_file": "assets/production-ready/archive/hero-069/hero-069_p233_image1020_upscaled_2x.jpg",
-          "print_sha256": "d85bd686fd738fd17c3b6ac4088204f3a414e34504065e2c2833dfad2640cf2d",
-          "print_width_px": 1230,
-          "print_height_px": 994,
-          "print_qa_status": "ready_for_layout"
         }
       ],
       "drawings": [],
-      "letters": [],
-      "transcriptions": [],
+      "letters": [
+        {
+          "asset_id": "hero-069_p233_image1020",
+          "file": "assets/families/hero-069/letters/hero-069_p233_image1020.jpg",
+          "physical_scan": true,
+          "is_processed_derivative": false,
+          "notes": "Рукопись повторно распознана среди архивных изображений; master скопирован без изменения."
+        }
+      ],
+      "transcriptions": [
+        {
+          "asset_id": "hero-069_p233_image1020_transcription",
+          "file": "assets/families/hero-069/transcriptions/hero-069_p233_image1020_transcription.json",
+          "status": "REVIEW_REQUIRED"
+        }
+      ],
       "flagship_selection": {
         "status": "selected",
         "confidence": "high",
@@ -6190,7 +8033,7 @@
       "flagship_processing": {
         "asset_id": "hero-070_p235_image1025",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный сольный крупный портрет героя; второй кадр является общим семейным фото с мелким лицом героя.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-070/hero-070_p235_image1025_upscaled_2x.jpg",
@@ -6199,10 +8042,39 @@
         "print_height_px": 566,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-070/hero-070_p235_image1025_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-070/hero-070_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный сольный крупный портрет героя; второй кадр является общим семейным фото с мелким лицом героя.",
-        "print_size_warning": "critical: всего 229x283 px; даже 2x-upscale не даёт надёжного крупного поясного портрета; нужен лучший master или ручное ограничение масштаба."
+        "print_size_warning": "critical: всего 229x283 px; даже 2x-upscale не даёт надёжного крупного поясного портрета; нужен лучший master или ручное ограничение масштаба.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-070/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-070/hero-070_manual_v2_nobg.png",
+        "cutout_sha256": "fb81e9377d840f8f74b22167a9501504b45d5e9d70a857e9d5e68e025d0dcfe0",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -6255,7 +8127,7 @@
       "flagship_processing": {
         "asset_id": "hero-071_p238_image1036",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Сольный портрет героя по грудь в камуфляже; лицо заметно крупнее, чем в общем архивном кадре.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-071/hero-071_p238_image1036_upscaled_2x.jpg",
@@ -6264,10 +8136,43 @@
         "print_height_px": 998,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-071/hero-071_p238_image1036_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-071/hero-071_manual_white.png",
         "selection_confidence": "high",
         "selection_reason": "Сольный портрет героя по грудь в камуфляже; лицо заметно крупнее, чем в общем архивном кадре.",
-        "print_size_warning": "medium: исходник 309x499 px; подходит для крупного бюста после QA upscale, но не для генеративного достраивания ниже груди без ручного согласования."
+        "print_size_warning": "medium: исходник 309x499 px; подходит для крупного бюста после QA upscale, но не для генеративного достраивания ниже груди без ручного согласования.",
+        "manual_owner_source": "assets/manual-cutout-help/critical/hero-071/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-071/hero-071_manual_nobg.png",
+        "cutout_sha256": "06f881742a52c87d37ca4f62a21e38a6f4810434a773c096d518349077581e2c",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "source_pose": "waist_or_bust",
+          "display_height_mm": 193,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -6415,7 +8320,7 @@
       "flagship_processing": {
         "asset_id": "hero-073_p244_image1058",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Вертикальный сольный кадр героя почти по колени в камуфляже; на теле нет перекрытий, что делает его лучше selfie для CutItOut и композиции.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-073/hero-073_p244_image1058_upscaled_2x.jpg",
@@ -6424,10 +8329,39 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-073/hero-073_p244_image1058_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-073/hero-073_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Вертикальный сольный кадр героя почти по колени в камуфляже; на теле нет перекрытий, что делает его лучше selfie для CutItOut и композиции.",
-        "print_size_warning": "medium: исходник 291x470 px; использовать QA upscale и не восстанавливать обрезанную нижнюю часть фигуры без отдельного решения."
+        "print_size_warning": "medium: исходник 291x470 px; использовать QA upscale и не восстанавливать обрезанную нижнюю часть фигуры без отдельного решения.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-073/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-073/hero-073_manual_v2_nobg.png",
+        "cutout_sha256": "e3188567b9eeaa406285a264aae0961ba7931dc68f7a8cf68474a4d55ce1449d",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -6588,7 +8522,7 @@
       "flagship_processing": {
         "asset_id": "hero-075_p251_image1087",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Чистый сольный парадный портрет героя по грудь; лицо, форма, погоны, награда и нашивка читаются, фон нейтральный.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-075/hero-075_p251_image1087_upscaled_2x.jpg",
@@ -6597,10 +8531,39 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-075/hero-075_p251_image1087_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-075/hero-075_manual_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Чистый сольный парадный портрет героя по грудь; лицо, форма, погоны, награда и нашивка читаются, фон нейтральный.",
-        "print_size_warning": "low: исходник 358x469 px и герой занимает большую часть кадра; перед CutItOut всё равно проверить парный upscale."
+        "print_size_warning": "low: исходник 358x469 px и герой занимает большую часть кадра; перед CutItOut всё равно проверить парный upscale.",
+        "manual_owner_source": "assets/manual-cutout-help-next/ready-for-manual/hero-075/cutitout.png",
+        "cutout_file": "assets/processed-flagships/hero-075/hero-075_manual_v2_nobg.png",
+        "cutout_sha256": "f40eb89172086c318e8e0c56218d3b9c27597b7de9e220a368bda8ff10d2a698",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_contact_sheet",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist",
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -6662,11 +8625,11 @@
       ],
       "identity_status": "confirmed_by_reference_text",
       "flagship_asset": "assets/families/hero-076/flagship/hero-076_p254_image1101.jpg",
-      "flagship_status": "selected_by_reference_visual_review",
+      "flagship_status": "selected_for_title_correction",
       "flagship_processing": {
         "asset_id": "hero-076_p254_image1101",
         "needs_gigapixel": false,
-        "needs_cutout": true,
+        "needs_cutout": false,
         "notes": "Единственный сольный портрет героя в экипировке; лицо крупно, а края шлема, балаклавы и брони различимы.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-076/hero-076_p254_image1101_upscaled_2x.jpg",
@@ -6678,7 +8641,41 @@
         "preferred_processing_source": "assets/production-ready/flagship/hero-076/hero-076_p254_image1101_upscaled_2x.jpg",
         "selection_confidence": "high",
         "selection_reason": "Единственный сольный портрет героя в экипировке; лицо крупно, а края шлема, балаклавы и брони различимы.",
-        "print_size_warning": "medium: исходник 357x471 px; для печати использовать QA upscale, при маске обязательно сохранить шлем, балаклаву, ремни и края брони."
+        "print_size_warning": "medium: исходник 357x471 px; для печати использовать QA upscale, при маске обязательно сохранить шлем, балаклаву, ремни и края брони.",
+        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-076/hero-076_title_nobg_fixed.png",
+        "cutout_file": "assets/processed-flagships/hero-076/hero-076_title_ready_nobg.png",
+        "cutout_sha256": "5759fa3f33e79e80170051ae3f73d8b81d9eb57bdc498cd63697788ff7c4103b",
+        "cutout_status": "ready_for_draft_layout",
+        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "waist_crop_strategy": "manual_non_destructive_layout",
+        "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+        "layout": {
+          "preset": "v20-grounded-right",
+          "reference_hero_id": "hero-014",
+          "composition": "manual_title_page",
+          "crop_mode": "waist_or_truthful_source_limit",
+          "source_pose": "armoured-upper-body",
+          "display_height_mm": 190,
+          "bottom_mm": -1,
+          "right_mm": 0,
+          "grounding": "bottom",
+          "object_fit": "intrinsic_height",
+          "object_position": "center bottom",
+          "blend_mode": "normal",
+          "protect": [
+            "face",
+            "hair",
+            "hands",
+            "weapons",
+            "straps",
+            "uniform",
+            "insignia",
+            "awards",
+            "held_objects",
+            "children"
+          ],
+          "status": "manual_title_layout_required"
+        }
       },
       "archive_assets": [
         {
@@ -6738,7 +8735,31 @@
     "main_spreads_per_family": 1,
     "max_automatic_continuation_spreads": 1,
     "continuation_trigger": "documentary_set_does_not_fit_readably",
-    "prohibition": "never shrink photographs or text below readable size"
+    "prohibition": "never shrink photographs or text below readable size",
+    "title_flagship_manual_rule": {
+      "preset": "v20-grounded-right",
+      "reference_hero_id": "hero-014",
+      "composition": "manual_title_page",
+      "crop_mode": "waist",
+      "grounding": "bottom",
+      "object_fit": "intrinsic_height",
+      "object_position": "center bottom",
+      "blend_mode": "normal",
+      "protect": [
+        "face",
+        "hair",
+        "hands",
+        "weapons",
+        "straps",
+        "uniform",
+        "insignia",
+        "awards",
+        "held_objects"
+      ],
+      "status": "manual_title_layout_required"
+    },
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT: report real effective DPI; do not invent detail.",
+    "title_correction_cutouts": "Returned alpha PNGs are trimmed non-destructively and placed with V20 grounding."
   },
   "flagship_selection_completed_at": "2026-07-18T22:35:15.482643+00:00"
 }

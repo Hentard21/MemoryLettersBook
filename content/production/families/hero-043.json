@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "hero_id": "hero-043",
+  "order": 41,
+  "hero_name": "ВЛАДИСЛАВ",
+  "children": [
+    "АЙМИР"
+  ],
+  "region_id": "republic-of-khakassia",
+  "city_id": "city-abakan",
+  "emblem_id": "emblem-republic-of-khakassia",
+  "award_id": null,
+  "template": "standard",
+  "flagship": "assets/processed-flagships/hero-043/hero-043_manual_v2_nobg.png",
+  "flagship_role": "hero_flagship",
+  "archive_photos": [
+    "assets/production-ready/archive/hero-043/hero-043_p146_image672_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-043/hero-043_p146_image673_upscaled_2x.jpg",
+    "assets/production-ready/archive/hero-043/hero-043_p146_image674_upscaled_2x.jpg"
+  ],
+  "drawings": [],
+  "letters": [
+    "assets/families/hero-043/letters/hero-043_p147_image677.jpg"
+  ],
+  "transcriptions": [
+    "assets/families/hero-043/transcriptions/hero-043_p147_image677_transcription.json"
+  ],
+  "review_flags": [
+    "REVIEW_REQUIRED_AWARD",
+    "REVIEW_REQUIRED_TRANSCRIPTION"
+  ],
+  "canonical_reference": {
+    "source_file": "source/reference.pdf",
+    "source_sha256": "7D4F63C1E212D69B793DAB8FCC7E2E8216487C7BA06A089BBB767B5BC997B8E5",
+    "title_page": 136,
+    "pages": [
+      136,
+      137,
+      138
+    ],
+    "title_text": "- 129 - | МОЙ ОТЕЦ ВЛАДИСЛАВ | АЙМИР | Республика Хакасия | г. Абакан",
+    "identity_status": "confirmed_by_reference_text",
+    "notes": [],
+    "award_provenance": "REVIEW_REQUIRED"
+  },
+  "status": "REVIEW_REQUIRED",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-043/hero-043_manual_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 219,
+  "flagship_processing": {
+    "owner_return_file": "assets/manual-cutout-help-next/ready-for-manual/hero-043/cutitout.png",
+    "cutout_file": "assets/processed-flagships/hero-043/hero-043_manual_v2_nobg.png",
+    "cutout_sha256": "7662de59aa3775711718fd0a40b5d81371564649086145b8d28429efd7debadf",
+    "tool": "local CutItOut via Playwright",
+    "status": "ready_for_draft_layout",
+    "owner_final_approval": "pending",
+    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT"
+  },
+  "flagship_layout": {
+    "preset": "v20-grounded-right",
+    "reference_hero_id": "hero-014",
+    "composition": "manual_title_page",
+    "crop_mode": "waist",
+    "display_height_mm": 230,
+    "bottom_mm": -52,
+    "right_mm": 0,
+    "grounding": "bottom",
+    "object_fit": "intrinsic_height",
+    "object_position": "center bottom",
+    "blend_mode": "normal",
+    "protect": [
+      "face",
+      "hair",
+      "hands",
+      "weapons",
+      "straps",
+      "uniform",
+      "insignia",
+      "awards",
+      "held_objects"
+    ],
+    "status": "manual_title_layout_required"
+  },
+  "reference_award_file": "content/production/symbols/reference-fallback/awards/hero-043.png",
+  "reference_award_provenance": {
+    "source_file": "source/reference.pdf",
+    "source_pdf_page": 136,
+    "method": "documentary crop; no award inference",
+    "status": "visible_reference_fallback"
+  },
+  "relationship": "отец",
+  "source_pages": [
+    136,
+    137,
+    138
+  ]
+}

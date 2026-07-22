@@ -1,5 +1,7 @@
 # Template Lock v1 — эталонный шаблон «Письма памяти»
 
+> **Исторический документ.** Кандидат V13 заменён утверждённым Design Lock `design/prototypes/print-v20/PRINT_V20_CLIENT_TEMPLATE_APPROVAL.pdf`. Геометрические и визуальные решения ниже можно использовать только там, где они не противоречат V20 и `docs/PRINT_SPEC_LOCK.md`.
+
 **Кандидат:** `PRINT_V13_TEMPLATE_LOCK_CANDIDATE.pdf`
 **Источник вёрстки:** `design/prototypes/print-v12/interior-v13.html`
 **Отчёты:** `workspace/reports/template-style-audit-v1.md`, `workspace/reports/template-lock-v13/`

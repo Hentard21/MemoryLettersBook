@@ -33,7 +33,42 @@
       "gigapixel_status": "completed",
       "print_qa_status": "ready_for_layout",
       "layout_role": "hero_flagship",
-      "selection_confidence": "high"
+      "selection_confidence": "high",
+      "owner_return_file": "assets/manual-cutout-help/critical/hero-071/cutitout.png",
+      "cutout_source_file": "assets/production-ready/flagship/hero-071/hero-071_manual_white.png",
+      "cutout_file": "assets/processed-flagships/hero-071/hero-071_manual_nobg.png",
+      "cutout_sha256": "06f881742a52c87d37ca4f62a21e38a6f4810434a773c096d518349077581e2c",
+      "cutout_width_px": 1023,
+      "cutout_height_px": 1537,
+      "cutout_tool": "local CutItOut via Playwright",
+      "cutout_status": "ready_for_draft_layout",
+      "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
+      "flagship_layout": {
+        "preset": "v20-grounded-right",
+        "reference_hero_id": "hero-014",
+        "composition": "manual_title_page",
+        "crop_mode": "waist",
+        "source_pose": "waist_or_bust",
+        "display_height_mm": 193,
+        "bottom_mm": -1,
+        "right_mm": 0,
+        "grounding": "bottom",
+        "object_fit": "intrinsic_height",
+        "object_position": "center bottom",
+        "blend_mode": "normal",
+        "protect": [
+          "face",
+          "hair",
+          "hands",
+          "weapons",
+          "straps",
+          "uniform",
+          "insignia",
+          "awards",
+          "held_objects"
+        ],
+        "status": "manual_title_layout_required"
+      }
     },
     {
       "asset_id": "hero-071_p238_image1037",

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "policy": "Owner-supplied high-resolution white-background title portraits. Originals in assets/manual-cutout-help are immutable; staged copies are processed locally with CutItOut into distinct manual outputs.",
+  "queue": [
+    {
+      "hero_id": "hero-003",
+      "processing_source": "assets/production-ready/flagship/hero-003/hero-003_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-003/hero-003_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-011",
+      "processing_source": "assets/production-ready/flagship/hero-011/hero-011_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-011/hero-011_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-015",
+      "processing_source": "assets/production-ready/flagship/hero-015/hero-015_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-015/hero-015_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-024",
+      "processing_source": "assets/production-ready/flagship/hero-024/hero-024_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-024/hero-024_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-029",
+      "processing_source": "assets/production-ready/flagship/hero-029/hero-029_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-029/hero-029_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-036",
+      "processing_source": "assets/production-ready/flagship/hero-036/hero-036_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-036/hero-036_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-044",
+      "processing_source": "assets/production-ready/flagship/hero-044/hero-044_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-044/hero-044_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-047",
+      "processing_source": "assets/production-ready/flagship/hero-047/hero-047_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-047/hero-047_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-051",
+      "processing_source": "assets/production-ready/flagship/hero-051/hero-051_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-051/hero-051_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-059",
+      "processing_source": "assets/production-ready/flagship/hero-059/hero-059_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-059/hero-059_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-061",
+      "processing_source": "assets/production-ready/flagship/hero-061/hero-061_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-061/hero-061_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-066",
+      "processing_source": "assets/production-ready/flagship/hero-066/hero-066_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-066/hero-066_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    },
+    {
+      "hero_id": "hero-071",
+      "processing_source": "assets/production-ready/flagship/hero-071/hero-071_manual_white.png",
+      "output_file": "assets/processed-flagships/hero-071/hero-071_manual_nobg.png",
+      "needs_cutout": true,
+      "status": "ready"
+    }
+  ]
+}
