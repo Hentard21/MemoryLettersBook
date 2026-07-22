@@ -1,0 +1,181 @@
+{
+  "manifest_version": 1,
+  "collection_id": "adina-gallery-v30",
+  "subject": "Адина Арыковна",
+  "status": "ready_for_intro_gallery_layout",
+  "source_collection": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Адина доп фото",
+  "copy_policy": "byte_for_byte_no_recompression",
+  "layout_recommendation": {
+    "large": "adina-dsc-0092-print",
+    "supporting_upper": "adina-dsc-0189-print",
+    "supporting_lower": "adina-dsc-4846-print"
+  },
+  "assets": [
+    {
+      "asset_id": "adina-dsc-0092-master",
+      "role": "primary_large_group_photo",
+      "tier": "documentary_master",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Адина доп фото\\DSC_0092.jpg",
+      "project_file": "assets/intro-people/adina-gallery/originals/adina_dsc_0092_master.jpg",
+      "byte_copy_verified": true,
+      "sha256": "4db4b3a0e398381fef8912bf07aed93da107de6943eeae1849ccfab24e4c5310",
+      "file_size_bytes": 15968318,
+      "image": {
+        "width_px": 6016,
+        "height_px": 4016,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "IEC 61966-2.1 Default RGB colour space - sRGB",
+        "icc_profile_description": "sRGB IEC61966-2.1",
+        "icc_profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+        "exif_camera_make": "NIKON CORPORATION",
+        "exif_camera_model": "NIKON D750",
+        "exif_color_space": null
+      },
+      "notes": [
+        "Recommended as the large image in the three-slot Adina gallery.",
+        "Original Nikon file is the documentary master; Topaz output is the print-placement candidate."
+      ]
+    },
+    {
+      "asset_id": "adina-dsc-0092-print",
+      "role": "primary_large_group_photo",
+      "tier": "topaz_print_candidate",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Адина доп фото\\DSC_0092-Hi-res-recover v2-2x-faceai v2.jpeg",
+      "project_file": "assets/intro-people/adina-gallery/print/adina_dsc_0092_topaz_2x.jpg",
+      "byte_copy_verified": true,
+      "sha256": "0a55568a10150954dce0cf000fba4abc8d34ca91af98519c35877c952e47c00a",
+      "file_size_bytes": 6485100,
+      "image": {
+        "width_px": 12032,
+        "height_px": 8032,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "IEC 61966-2.1 Default RGB colour space - sRGB",
+        "icc_profile_description": "sRGB IEC61966-2.1",
+        "icc_profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+        "exif_camera_make": "NIKON CORPORATION",
+        "exif_camera_model": "NIKON D750",
+        "exif_color_space": null
+      },
+      "notes": [
+        "Recommended as the large image in the three-slot Adina gallery.",
+        "Original Nikon file is the documentary master; Topaz output is the print-placement candidate."
+      ]
+    },
+    {
+      "asset_id": "adina-dsc-0189-master",
+      "role": "supporting_project_event_photo",
+      "tier": "documentary_master",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Адина доп фото\\DSC_0189.jpg",
+      "project_file": "assets/intro-people/adina-gallery/originals/adina_dsc_0189_master.jpg",
+      "byte_copy_verified": true,
+      "sha256": "798306827a61446a9cc42ec6e99498c8ebddfa3e04851d10c090d316cdf6412d",
+      "file_size_bytes": 11386232,
+      "image": {
+        "width_px": 6016,
+        "height_px": 4016,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "IEC 61966-2.1 Default RGB colour space - sRGB",
+        "icc_profile_description": "sRGB IEC61966-2.1",
+        "icc_profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+        "exif_camera_make": "NIKON CORPORATION",
+        "exif_camera_model": "NIKON D750",
+        "exif_color_space": null
+      },
+      "notes": [
+        "Project backdrop is visible; recommended as the upper supporting image.",
+        "Original Nikon file is the documentary master; Topaz output is the print-placement candidate."
+      ]
+    },
+    {
+      "asset_id": "adina-dsc-0189-print",
+      "role": "supporting_project_event_photo",
+      "tier": "topaz_print_candidate",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Адина доп фото\\DSC_0189-Hi-res-recover v2-2x-faceai v2.jpeg",
+      "project_file": "assets/intro-people/adina-gallery/print/adina_dsc_0189_topaz_2x.jpg",
+      "byte_copy_verified": true,
+      "sha256": "9a3a7723a5c85d436917375a72f86202ac1993d6f331629ef814ac99b3dccc63",
+      "file_size_bytes": 8223080,
+      "image": {
+        "width_px": 12032,
+        "height_px": 8032,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "IEC 61966-2.1 Default RGB colour space - sRGB",
+        "icc_profile_description": "sRGB IEC61966-2.1",
+        "icc_profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+        "exif_camera_make": "NIKON CORPORATION",
+        "exif_camera_model": "NIKON D750",
+        "exif_color_space": null
+      },
+      "notes": [
+        "Project backdrop is visible; recommended as the upper supporting image.",
+        "Original Nikon file is the documentary master; Topaz output is the print-placement candidate."
+      ]
+    },
+    {
+      "asset_id": "adina-dsc-4846-master",
+      "role": "supporting_live_conversation_photo",
+      "tier": "documentary_master",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Адина доп фото\\DSC_4846.jpg",
+      "project_file": "assets/intro-people/adina-gallery/originals/adina_dsc_4846_master.jpg",
+      "byte_copy_verified": true,
+      "sha256": "e3e5ce9fede53eafd6e6ad004e19c9a66db96f7d95e21baefebfed37d7fe9c27",
+      "file_size_bytes": 11934378,
+      "image": {
+        "width_px": 6016,
+        "height_px": 4016,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "Adobe RGB (1998)",
+        "icc_profile_description": "Adobe RGB (1998)",
+        "icc_profile_sha256": "e5f6ffb83b6d3491301dd750975684cc5cc2a1951c994a14b08cfdaa0d75a041",
+        "exif_camera_make": "NIKON CORPORATION",
+        "exif_camera_model": "NIKON D750",
+        "exif_color_space": null
+      },
+      "notes": [
+        "Recommended as the lower supporting image.",
+        "Preserve the embedded colour profile; do not silently discard it during production conversion."
+      ]
+    },
+    {
+      "asset_id": "adina-dsc-4846-print",
+      "role": "supporting_live_conversation_photo",
+      "tier": "topaz_print_candidate",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Адина доп фото\\DSC_4846-Hi-res-recover v2-2x-faceai v2.jpeg",
+      "project_file": "assets/intro-people/adina-gallery/print/adina_dsc_4846_topaz_2x.jpg",
+      "byte_copy_verified": true,
+      "sha256": "cc36b890ee1522aa8f972080d2eb53b826b9b80f85bd0105108b372677ba9ede",
+      "file_size_bytes": 8528637,
+      "image": {
+        "width_px": 12032,
+        "height_px": 8032,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "Adobe RGB (1998)",
+        "icc_profile_description": "Adobe RGB (1998)",
+        "icc_profile_sha256": "e5f6ffb83b6d3491301dd750975684cc5cc2a1951c994a14b08cfdaa0d75a041",
+        "exif_camera_make": "NIKON CORPORATION",
+        "exif_camera_model": "NIKON D750",
+        "exif_color_space": null
+      },
+      "notes": [
+        "Recommended as the lower supporting image.",
+        "Preserve the embedded colour profile; do not silently discard it during production conversion."
+      ]
+    }
+  ],
+  "warnings": [
+    "No identity or event claims beyond visible/source-supported context were added.",
+    "DSC_4846 carries an embedded colour profile that must be preserved or deliberately converted at print preflight."
+  ]
+}

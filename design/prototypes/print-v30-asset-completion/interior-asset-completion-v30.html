@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html lang="ru"><head><meta charset="utf-8"/><title>Письма памяти — V30, дополнение ассетов</title><style>
+
+@font-face{font-family:Onest;src:url('../../fonts/Onest.ttf');font-display:block}
+@font-face{font-family:Golos;src:url('../../fonts/GolosText.ttf');font-display:block}
+@font-face{font-family:Marck;src:url('../../fonts/MarckScript.ttf');font-display:block}
+:root{--page_background:#f3f2ee;--paper_background:#fbfbf9;--primary_navy:#223b5e;--accent_burgundy:#873f46;
+--body_text:#262b33;--secondary_text:#6f7680;--gold_accent:#a9863c;--line:#e0ddd6;
+--head:Onest,Arial,sans-serif;--body:Golos,Arial,sans-serif;--script:Marck,cursive}
+*{box-sizing:border-box;margin:0}
+@page{size:526mm 206mm;margin:0}
+html,body{background:#8b8e92;font-family:var(--body);color:var(--body_text);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.sheet{position:relative;width:526mm;height:206mm;overflow:hidden;page-break-after:always;background:var(--page_background)}
+.page{position:absolute;top:3mm;width:260mm;height:200mm;overflow:hidden}
+.left{left:3mm}.right{left:263mm}
+.sheet::after{content:"";position:absolute;top:3mm;bottom:3mm;left:262.8mm;width:.2mm;background:rgba(34,59,94,.09);z-index:20}
+.safe{position:absolute;top:15mm;bottom:16mm;left:17mm;right:17mm}
+.right .safe{left:21mm;right:17mm}
+.folio,.run{position:absolute;bottom:9mm;z-index:30;font:500 7.2pt/1 var(--head);color:var(--secondary_text)}
+.left .folio{left:17mm}.right .folio{right:17mm}
+.run{font-size:6pt;letter-spacing:.14em;text-transform:uppercase}.left .run{right:21mm}.right .run{left:21mm}
+.wm{position:absolute;right:6mm;top:5mm;z-index:31;font:600 5.6pt/1 var(--head);letter-spacing:.18em;text-transform:uppercase;color:rgba(90,98,108,.42)}
+.kicker{font:700 7.4pt/1.35 var(--head);letter-spacing:.15em;text-transform:uppercase;color:var(--primary_navy)}
+
+/* ---- VIP: приём флагмана Анастасии + полное приветствие ---- */
+.vip-open{background:linear-gradient(122deg,#f5f4f0,#ebe9e3);overflow:hidden}
+.vip-open .run{display:none}
+.vip-map{position:absolute;left:-10mm;top:25mm;width:248mm;height:165mm;object-fit:contain;opacity:.13;z-index:1}
+.vip-vignette{position:absolute;inset:0;z-index:2;
+  background:radial-gradient(120% 90% at 55% 45%, rgba(243,242,238,0) 40%, rgba(243,242,238,.85) 82%, #f3f2ee 100%)}
+.vip-cutout{position:absolute;right:0;bottom:-1mm;height:189mm;width:158mm;object-fit:contain;object-position:right bottom;z-index:5}
+.vip-cutout.belyaninov{right:1mm;height:187mm}.vip-cutout.smirnova{right:-1mm;height:190mm}
+.vip-cutout.tengebaeva{right:1mm;height:189mm}.vip-cutout.makarychev{right:-1mm;height:190mm}
+.vip-meta{position:absolute;left:17mm;top:20mm;z-index:7;width:120mm}
+.vip-meta h1{margin-top:3mm;font:800 27pt/1.04 var(--head);color:var(--primary_navy)}
+.vip-meta .role{margin-top:4mm;font:500 8.6pt/1.4 var(--body);color:var(--secondary_text);max-width:96mm}
+.vip-meta hr{width:20mm;height:.5mm;background:var(--gold_accent);border:0;margin:5mm 0 0;opacity:.85}
+.vip-signature{position:absolute;left:19mm;bottom:24mm;z-index:7;object-fit:contain;object-position:left bottom;opacity:.95}
+.vip-signature.shumilov{width:32mm;height:57mm}.vip-signature.makarychev{width:50mm;height:33mm}
+.vip-signature-label{position:absolute;left:19mm;bottom:18mm;z-index:7;font:600 5.6pt/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--secondary_text)}
+
+.greet{background:var(--paper_background)}
+.greet .safe{top:10mm;bottom:10mm;display:flex;flex-direction:column}
+.greet .eyebrow{text-align:center;font:700 7pt/1.3 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--primary_navy)}
+.greet h2{margin-top:1.5mm;text-align:center;font:750 18pt/1.05 var(--head);color:var(--primary_navy)}
+.greet .role{margin:2.2mm auto 0;max-width:206mm;text-align:center;font:500 7.2pt/1.32 var(--body);color:var(--secondary_text)}
+.greet .lead{position:relative;margin:3mm auto 3.2mm;width:196mm;padding:4mm 10mm 3.8mm 12mm;background:#f7f3eb;
+  border-left:1mm solid var(--accent_burgundy);box-shadow:0 .7mm 2mm rgba(38,43,48,.10);
+  text-align:left;font:400 14.5pt/1.15 var(--script);color:var(--accent_burgundy)}
+.greet .lead::before{content:"Из приветственного слова";display:block;margin-bottom:1.3mm;font:700 5.5pt/1 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--primary_navy)}
+.greet .lead::after{content:"“";position:absolute;left:3mm;top:8mm;font:400 24pt/1 var(--script);color:rgba(135,63,70,.28)}
+.greet .copy{columns:2;column-gap:9mm;column-rule:.2mm solid var(--line);column-fill:balance;
+  font:400 9.35pt/1.45 var(--body);color:var(--body_text);text-align:left;flex:1}
+.greet .copy p{margin-bottom:2.3mm}.greet .copy .salutation{font-weight:650;color:var(--primary_navy);text-align:left}
+.greet .copy .salutation+p::first-letter{font:800 19pt/1 var(--head);color:var(--accent_burgundy);float:left;margin:1mm 2mm 0 0}
+.greet .ending{margin-top:2.7mm;text-align:center;font:750 9.6pt/1.2 var(--head);color:var(--accent_burgundy)}
+.greet .sig{margin:2.7mm 12mm 0 auto;padding-top:2.2mm;width:205mm;border-top:.2mm solid var(--line);text-align:right;font:500 6.4pt/1.32 var(--body);color:var(--secondary_text)}
+
+/* ---- карта: география акции и состав первого тома ---- */
+.map-spread{background:linear-gradient(120deg,#f5f4f0,#ececE6)}
+.map-title{position:absolute;left:20mm;top:23mm;z-index:5;width:205mm}
+.map-title h1{font:800 30pt/1.03 var(--head);color:var(--primary_navy)}
+.map-title .sub{margin-top:5mm;font:400 10pt/1.45 var(--body);color:var(--body_text);max-width:192mm}
+.map-stats{position:absolute;left:20mm;right:18mm;bottom:23mm;z-index:5;display:grid;grid-template-columns:1fr 1fr;gap:3mm 4mm}
+.map-stat{padding:4mm 5mm;background:rgba(251,251,249,.96);border-left:.8mm solid var(--accent_burgundy);box-shadow:0 .7mm 2mm rgba(38,43,48,.08)}
+.map-stat strong{display:block;font:800 18pt/1 var(--head);color:var(--primary_navy)}
+.map-stat span{display:block;margin-top:1.3mm;font:600 6.5pt/1.28 var(--head);letter-spacing:.04em;text-transform:uppercase;color:var(--secondary_text)}
+.map-stat.wide{grid-column:1/-1}.map-stat.wide strong{font-size:12.5pt}.map-stat.wide span{text-transform:none;font:500 7.1pt/1.35 var(--body);letter-spacing:0}
+.map-canvas{position:absolute;inset:0;background:radial-gradient(circle at 58% 47%,rgba(255,255,255,.72),rgba(236,236,230,.35) 62%,rgba(236,236,230,.95))}
+.map-big{position:absolute;left:16mm;right:14mm;top:22mm;width:226mm;height:150mm;object-fit:contain;object-position:center;opacity:.98}
+.map-badge{position:absolute;left:22mm;bottom:21mm;width:208mm;padding:4.5mm 6mm;background:rgba(251,251,249,.96);border-left:1mm solid var(--accent_burgundy);box-shadow:0 .8mm 2mm rgba(38,43,48,.10)}
+.map-badge strong{display:block;font:800 14pt/1.1 var(--head);color:var(--primary_navy)}
+.map-badge span{display:block;margin-top:1.5mm;font:500 7pt/1.35 var(--body);color:var(--secondary_text)}
+
+/* ---- фотохроника: пять фото из стр. 8–9 оригинала ---- */
+.event-spread,.event-page{background:var(--page_background)}
+.event-head{position:absolute;left:17mm;top:13mm;z-index:8}.event-head h2{margin-top:2mm;font:800 21pt/1.05 var(--head);color:var(--primary_navy)}
+.event-card{position:absolute;z-index:4;margin:0;overflow:hidden;background:#f3f2ee;box-shadow:0 .55mm 1.5mm rgba(38,43,48,.11)}
+.event-card img{width:100%;height:100%;object-fit:contain;display:block;background:#f3f2ee}
+.event-card figcaption{position:absolute;left:0;right:0;bottom:0;padding:2.1mm 2.8mm 2.3mm 3.5mm;background:rgba(251,251,249,.95);border-left:.8mm solid var(--accent_burgundy);font:500 5.9pt/1.28 var(--body);color:var(--body_text)}
+.event-card figcaption b{font:700 5.8pt/1.2 var(--head);letter-spacing:.05em;color:var(--primary_navy)}
+.ev-award{left:17mm;top:38mm;width:118mm;height:80.4mm}.ev-house{left:17mm;top:123mm;width:103mm;height:60.7mm}.ev-museum{left:140mm;top:38mm;width:101mm;height:135mm}
+.ev-award>img,.ev-house>img,.ev-museum>img{transform:scale(1.045)}
+.ev-award figcaption{font-size:5.45pt}.ev-house figcaption{font-size:5.65pt}.ev-museum figcaption{font-size:5.35pt}
+.ev-dialog,.ev-december{width:219mm;overflow:visible;background:transparent;box-shadow:none}
+.ev-dialog{left:21mm;top:18mm;height:111mm}.ev-december{left:21mm;top:125mm;height:59mm}
+.event-image{position:absolute;overflow:hidden;background:#f3f2ee;box-shadow:0 .45mm 1.2mm rgba(38,43,48,.09)}
+.event-image img{width:100%;height:100%;object-fit:cover;transform:scale(1.045)}
+.ev-dialog .event-image{left:0;top:0;width:148mm;height:111mm}.ev-december .event-image{left:0;top:0;width:95mm;height:59mm}
+.ev-dialog figcaption{left:143mm;right:auto;top:17mm;bottom:auto;width:76mm;min-height:50mm;padding:5mm 5mm 5mm 7mm;font-size:6.55pt;line-height:1.34;box-shadow:0 .45mm 1.2mm rgba(38,43,48,.08)}
+.ev-december figcaption{left:90mm;right:auto;top:8mm;bottom:auto;width:129mm;min-height:34mm;padding:4.5mm 5mm 4.5mm 7mm;font-size:6.35pt;line-height:1.34;box-shadow:0 .45mm 1.2mm rgba(38,43,48,.08)}
+
+/* ---- эталон первой семьи: без изменения контента ---- */
+.hero-open{background:linear-gradient(122deg,#f5f4f0,#ebe9e3)}
+.hero-map{position:absolute;left:8mm;top:34mm;width:244mm;height:150mm;object-fit:contain;object-position:center;opacity:.62;z-index:1}
+.hero-cutout{position:absolute;left:92mm;bottom:-1mm;width:152mm;height:193mm;object-fit:contain;object-position:center bottom;z-index:4}
+.hero-meta{position:absolute;left:20mm;top:18mm;z-index:7;width:120mm}.hero-meta h1{margin-top:3mm;font:800 29pt/1.04 var(--head);color:var(--primary_navy)}
+.hero-meta .who{margin-top:2.6mm;font:500 9.6pt/1.35 var(--body);color:var(--secondary_text)}
+.hero-symbols{position:absolute;left:20mm;top:80mm;z-index:7;display:flex;align-items:center;gap:5mm}.hero-symbols img{display:block;object-fit:contain}.hero-symbols .medal{width:19mm;height:31mm}.hero-symbols .emblem{width:24mm;height:29mm}
+.hero-quote{position:absolute;left:20mm;bottom:28mm;z-index:7;width:106mm;padding:5mm 7mm 5.4mm 9mm;background:var(--paper_background);border-left:1mm solid var(--accent_burgundy);box-shadow:0 .8mm 2.2mm rgba(38,43,48,.10)}
+.hero-quote .label{font:700 6.3pt/1.2 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--primary_navy)}.hero-quote .quote{margin-top:2mm;font:400 16pt/1.24 var(--script);color:var(--accent_burgundy)}
+.letter-page{background:linear-gradient(112deg,#f4f3ef,#ebe9e3)}.letter-page::before{content:"";position:absolute;inset:0;background:url('assets/letters/hero-001_letter_01_feathered.png') 47% 52%/56% auto no-repeat;opacity:.22;filter:grayscale(.3) contrast(.96);mix-blend-mode:multiply;transform:rotate(-.5deg);z-index:0}
+.letter-heading{position:absolute;left:16mm;top:11mm;z-index:8;font:700 6.6pt/1.2 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--primary_navy)}
+.lp-photo,.lp-drawing{position:absolute;z-index:4;margin:0;overflow:hidden;background:#eceae4;border:.35mm solid #fff;box-shadow:0 .9mm 1.9mm rgba(38,43,48,.14)}.lp-photo img,.lp-drawing img{width:100%;height:100%;display:block;object-fit:contain;background:#eceae4}.lp-drawing img{background:var(--paper_background)}
+.lp-photo figcaption{position:absolute;left:0;bottom:0;padding:1.6mm 2.6mm;background:rgba(251,251,249,.94);font:700 5.2pt/1.2 var(--head);letter-spacing:.09em;text-transform:uppercase;color:var(--primary_navy)}
+.lp-group{left:16mm;top:20mm;width:51mm;height:82mm}.lp-igor{left:16mm;top:106mm;width:51mm;height:82mm}.lp-drawing{left:72mm;top:112mm;width:42mm;height:68mm;z-index:5}
+.transcript-card{position:absolute;left:120mm;top:22mm;width:120mm;z-index:6;padding:8mm 9mm 7mm;background:var(--paper_background);border:.3mm solid var(--line);box-shadow:0 1.4mm 3.4mm rgba(52,51,47,.14)}
+.transcript-card .tc-label{font:700 6.2pt/1.3 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--secondary_text)}.transcript-card hr{width:18mm;height:.5mm;background:var(--gold_accent);border:0;margin:2.5mm 0 4mm;opacity:.8}.transcript-card .transcript{font:400 12.5pt/1.5 var(--script);color:#2b2a28}.transcript-card .transcript p{margin-bottom:2.6mm}.transcript-card .transcript .verse{margin:3.6mm 0;padding-left:4mm;border-left:.5mm solid rgba(135,63,70,.4)}.transcript-card .tc-source-note{margin-top:3mm;font:500 5.5pt/1.35 var(--body);color:var(--secondary_text)}.transcript-card .tc-date{margin-top:3mm;padding-top:2.5mm;border-top:.2mm solid var(--line);font:500 7.4pt/1.3 var(--body);letter-spacing:.05em;color:var(--secondary_text)}
+.editorial-hidden{display:none}
+
+
+
+/* V17: утверждённая обложка и обновлённая страница партнёров */
+.cover{inset:0;width:260mm;height:200mm;object-fit:cover;display:block}
+.cover-page{background:#0d2343}
+.imprint{background:
+  linear-gradient(90deg,rgba(34,59,94,.045) 0,rgba(34,59,94,0) 42%),
+  linear-gradient(142deg,#f8f8f5 0%,#edf2f5 100%)}
+.imprint::before,.imprint::after{display:none}
+.imprint .safe{top:12mm;bottom:11mm;left:20mm;right:18mm;display:flex;flex-direction:column;align-items:stretch;text-align:left;z-index:2}
+.imprint .imp-top{display:flex;flex-direction:column;align-items:flex-start}
+.imprint .kicker{margin-bottom:1.5mm;font-size:6.7pt}
+.imprint h1{font:800 28pt/1.02 var(--head);color:var(--primary_navy)}
+.imprint .vol{margin-top:2mm;font:600 8.8pt/1 var(--head);letter-spacing:.08em;color:var(--secondary_text)}
+.imprint .rule-gold{width:21mm;height:.45mm;margin:3.3mm 0 0;background:var(--gold_accent);border:0;opacity:.85}
+.partners-eyebrow{margin-top:7mm;font:700 6.4pt/1 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--secondary_text)}
+.organizer-grid{width:100%;margin-top:3mm;display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.organizer-card{height:38mm;margin:0;padding:4mm 5mm;overflow:hidden;display:grid;grid-template-columns:20mm 1fr;gap:4mm;align-items:center;text-align:left;background:rgba(255,255,255,.84);border:.22mm solid rgba(42,67,94,.14);box-shadow:none}
+.organizer-card--center{border-top:.8mm solid #1764c0}.organizer-card--dialog{border-top:.8mm solid #ed1f2b}
+.organizer-mark{display:block;width:19mm;height:21mm;object-fit:contain}
+.organizer-mark--dialog{width:18mm;height:20mm;justify-self:center}
+.organizer-name{display:flex;min-width:0;flex-direction:column;justify-content:center;text-transform:uppercase;color:var(--primary_navy)}
+.organizer-name strong{font:800 9.6pt/1.04 var(--head);letter-spacing:.012em}
+.organizer-card--center .organizer-name strong{font-size:9.3pt}.organizer-card--dialog .organizer-name strong{font-size:9.8pt}
+.organizer-name span{margin-top:1.4mm;font:700 5.7pt/1.1 var(--head);letter-spacing:.06em}
+.organizer-name--center span{color:#1764c0}.organizer-name--dialog span{color:#ed1f2b}
+.imprint .init-text{margin-top:4mm;max-width:none;padding:3.5mm 5mm;font:500 8.3pt/1.4 var(--body);color:var(--body_text);background:rgba(226,234,241,.66);border-left:.8mm solid var(--primary_navy)}
+.imprint .init-text strong{font-weight:700;color:var(--primary_navy)}
+.support-panel{width:100%;margin-top:5mm;padding:5mm 5.5mm 5.5mm;border-top:0;background:rgba(219,229,237,.58)}
+.support-title{font:700 7pt/1.2 var(--head);letter-spacing:.09em;text-transform:uppercase;color:var(--primary_navy)}
+.sponsor-grid{margin-top:3mm;display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:3mm}
+.sponsor-card{height:36mm;padding:3mm 4mm;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.9);border:.22mm solid rgba(42,67,94,.14)}
+.sponsor-card--known{gap:4mm;text-align:left}.sponsor-card--known img{width:18mm;height:23mm;object-fit:contain}.sponsor-card--known span{max-width:44mm;font:600 6.4pt/1.3 var(--body);color:var(--body_text)}
+.sponsor-card--placeholder{flex-direction:column;gap:2.4mm;color:#7d8996}
+.sponsor-card--placeholder>span:last-child{font:650 6.2pt/1.2 var(--head);letter-spacing:.08em;text-transform:uppercase}
+.sponsor-slot-mark{width:13mm;height:13mm;border:.35mm solid rgba(34,59,94,.22);border-radius:50%;background:radial-gradient(circle,rgba(34,59,94,.08) 0 23%,transparent 24%)}
+.imprint .place-year{margin-top:auto;padding-top:3.5mm;border-top:.2mm solid var(--line);width:100%;text-align:center;font:600 8.6pt/1 var(--head);letter-spacing:.1em;color:var(--primary_navy)}
+
+/* Белый фон нового флагмана растворяется в светлом развороте без размытой маски. */
+.hero-cutout{mix-blend-mode:multiply}
+
+/* V20: страница 12 хроники — два самостоятельных фотодокументальных модуля. */
+.ev-dialog,.ev-december{width:219mm;overflow:hidden;background:rgba(251,251,249,.97);border:.35mm solid #fff;box-shadow:0 .65mm 1.7mm rgba(38,43,48,.10)}
+.ev-dialog{left:21mm;top:18mm;height:102mm}.ev-december{left:21mm;top:129mm;height:55mm}
+.event-image{box-shadow:none}
+.ev-dialog .event-image{left:2.2mm;top:2.2mm;width:137mm;height:97.6mm}.ev-december .event-image{left:2.2mm;top:2.2mm;width:91mm;height:50.6mm}
+.ev-dialog .event-image img,.ev-december .event-image img{transform:scale(1.015)}
+.ev-dialog figcaption{left:139.2mm;right:0;top:0;bottom:0;width:auto;min-height:0;padding:6mm 5.5mm 6mm 7mm;display:flex;flex-direction:column;justify-content:center;font-size:6.45pt;line-height:1.36;box-shadow:none}
+.ev-december figcaption{left:93.2mm;right:0;top:0;bottom:0;width:auto;min-height:0;padding:4.5mm 5.5mm 4.5mm 7mm;display:flex;flex-direction:column;justify-content:center;font-size:6.25pt;line-height:1.34;box-shadow:none}
+
+/* V17: короткая буквальная цитата на портретной странице */
+.vip-open{isolation:isolate;background-color:#f3f2ee}
+.vip-excerpt{position:absolute;left:17mm;bottom:25mm;z-index:8;width:94mm;margin:0;padding:4.5mm 6mm 5mm 8mm;background:rgba(251,251,249,.95);border-left:1mm solid var(--accent_burgundy);box-shadow:0 .7mm 2mm rgba(38,43,48,.09)}
+.vip-excerpt-label{font:700 5.4pt/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--primary_navy)}
+.vip-excerpt-text{margin-top:2mm;font:400 12pt/1.18 var(--script);color:var(--accent_burgundy)}
+.vip-open--tengebaeva .vip-excerpt-text{font-size:11.3pt}
+
+/* V16: полное содержание без пустых строк */
+.contents-page{background:var(--paper_background)}
+.contents-page .safe{top:15mm;bottom:16mm}
+.contents-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:.4mm solid var(--primary_navy);padding-bottom:2.5mm;margin-bottom:5mm}
+.contents-head h2{font:750 16pt/1.12 var(--head);color:var(--primary_navy)}
+.contents-head .cont-note{font:600 6.4pt/1.3 var(--head);letter-spacing:.1em;text-transform:uppercase;color:var(--secondary_text)}
+.toc-list{list-style:none;padding:0}
+.toc-row{display:flex;align-items:baseline;gap:2.5mm;padding:1.75mm 0;border-bottom:.15mm solid var(--line)}
+.toc-num{flex:0 0 9mm;font:700 8.2pt/1 var(--head);color:var(--gold_accent);letter-spacing:.03em}
+.toc-name{flex:0 0 auto;font:600 10.5pt/1.05 var(--head);color:var(--primary_navy)}
+.toc-reg{flex:0 0 auto;font:400 7.9pt/1 var(--body);color:var(--secondary_text)}
+.toc-dots{flex:1 1 auto;align-self:center;height:.15mm;margin:0 1mm;border-bottom:.3mm dotted var(--line)}
+.toc-pg{flex:0 0 auto;font:600 8.4pt/1 var(--head);color:var(--secondary_text)}
+
+/* V17: весь авторский текст крупно, без сокращений */
+.greet{background:var(--paper_background)}
+.quote-layout{position:absolute;top:9mm;bottom:10mm;left:27mm;width:208mm;display:grid;grid-template-rows:164mm minmax(0,1fr);gap:2mm}
+.greet--signed .quote-layout{grid-template-rows:154mm 25mm}
+.welcome-quote{position:relative;overflow:hidden;margin:0;padding:8mm 8mm 5mm 11mm;background:
+  radial-gradient(circle at 12% 8%,rgba(72,112,153,.075),transparent 38%),
+  radial-gradient(circle at 84% 74%,rgba(169,134,60,.055),transparent 33%),
+  repeating-linear-gradient(0deg,rgba(34,59,94,.018) 0,rgba(34,59,94,.018) .15mm,transparent .15mm,transparent 1.2mm),
+  #f8f7f2;border-left:1mm solid var(--accent_burgundy);box-shadow:0 .7mm 2mm rgba(38,43,48,.10)}
+.welcome-quote::before,.welcome-quote::after{position:absolute;font:400 28pt/1 var(--script);color:rgba(135,63,70,.28)}
+.welcome-quote::before{content:"“";left:3mm;top:3mm}.welcome-quote::after{content:"”";right:4mm;bottom:1mm}
+.quote-label{position:absolute;left:11mm;top:3.2mm;font:700 5.5pt/1 var(--head);letter-spacing:.13em;text-transform:uppercase;color:var(--primary_navy)}
+.greet--shumilov{--quote-size:13.4pt}.greet--makarychev{--quote-size:13.6pt}.greet--belyaninov{--quote-size:14.6pt}.greet--smirnova{--quote-size:13pt}.greet--tengebaeva{--quote-size:12.5pt}
+.quote-flow{height:100%;columns:2;column-gap:9mm;column-rule:.2mm solid var(--line);column-fill:balance;font:400 var(--quote-size)/1.22 var(--script);color:var(--body_text);text-align:left;hyphens:auto}
+.quote-flow p{margin:0 0 1.8mm;orphans:3;widows:3}
+.quote-flow .salutation{font-size:calc(var(--quote-size) + .5pt);line-height:1.2;color:var(--primary_navy)}
+.quote-flow .quote-ending{margin-top:2.2mm;font-size:calc(var(--quote-size) + .6pt);line-height:1.2;color:var(--accent_burgundy)}
+.quote-attribution{padding-top:2mm;border-top:.2mm solid var(--line);text-align:right;font:500 6.2pt/1.25 var(--body);color:var(--secondary_text)}
+.quote-attribution p{margin:0}
+.quote-attribution--signed{display:grid;grid-template-columns:34mm 1fr;align-items:center;gap:5mm;text-align:left}
+.signature-proof{height:22mm;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.7mm}
+.signature-proof span{font:600 4.7pt/1 var(--head);letter-spacing:.09em;text-transform:uppercase;color:var(--secondary_text)}
+.signature-ink{display:block;max-width:32mm;object-fit:contain}.signature-ink--shumilov{height:17mm}.signature-ink--makarychev{height:15mm}
+
+/* V16: немного больше цвета без легенды ложных категорий */
+.map-canvas{background:radial-gradient(circle at 58% 47%,rgba(236,244,250,.95),rgba(232,237,241,.48) 62%,rgba(236,236,230,.98))}
+.map-stat:nth-child(1){border-left-color:#2f5279;background:rgba(239,245,249,.97)}
+.map-stat:nth-child(2){border-left-color:var(--gold_accent);background:rgba(249,246,237,.97)}
+.map-stat.wide{border-left-color:#6989a7;background:rgba(243,247,249,.97)}
+.map-badge{border-left-color:var(--gold_accent)}
+
+
+
+/* V22: compact introductory pages. Family pages remain under the V20 lock. */
+.compact-welcome{isolation:isolate;background:linear-gradient(122deg,#f5f4f0,#ebe9e3)}
+.compact-welcome .vip-map{left:-20mm;top:25mm;width:247mm;height:168mm;opacity:.11}
+.compact-welcome .vip-vignette{background:radial-gradient(115% 95% at 45% 48%,rgba(243,242,238,0) 34%,rgba(243,242,238,.74) 78%,#f3f2ee 100%)}
+.compact-welcome .vip-meta{left:17mm;top:14mm;width:68mm;z-index:12}
+.compact-welcome .vip-meta h1{margin-top:2.5mm;font-size:20.5pt;line-height:1.02}
+.compact-welcome .vip-meta .role{margin-top:3mm;max-width:66mm;font-size:6.6pt;line-height:1.33;color:#606975}
+.compact-welcome .vip-meta hr{width:16mm;margin-top:3.7mm}
+.compact-welcome .vip-cutout{left:-6mm;right:auto;bottom:-1mm;width:102mm;height:160mm;object-fit:contain;object-position:left bottom;z-index:5}
+.compact-welcome.compact--shumilov .vip-cutout{left:-9mm;width:108mm;height:165mm}
+.compact-welcome.compact--makarychev .vip-cutout{left:-7mm;width:104mm;height:161mm}
+.compact-welcome.compact--belyaninov .vip-cutout{left:-4mm;width:99mm;height:159mm}
+.compact-welcome.compact--smirnova .vip-cutout{left:-5mm;width:102mm;height:160mm}
+.compact-welcome.compact--tengebaeva .vip-cutout{left:-6mm;width:104mm;height:161mm}
+.compact--makarychev .vip-meta h1,.compact--belyaninov .vip-meta h1,.compact--tengebaeva .vip-meta h1{font-size:18.4pt}
+.compact-quote{--compact-quote-size:11.3pt;position:absolute;left:78mm;right:22mm;top:11mm;bottom:13mm;z-index:9;overflow:hidden;display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:2mm;padding:6.5mm 7mm 5.5mm 9mm;background:
+  radial-gradient(circle at 12% 8%,rgba(72,112,153,.075),transparent 38%),
+  radial-gradient(circle at 84% 74%,rgba(169,134,60,.055),transparent 33%),
+  repeating-linear-gradient(0deg,rgba(34,59,94,.016) 0,rgba(34,59,94,.016) .15mm,transparent .15mm,transparent 1.2mm),
+  rgba(250,249,245,.965);border-left:1mm solid var(--accent_burgundy);box-shadow:0 .8mm 2.2mm rgba(38,43,48,.11)}
+.compact-quote::before,.compact-quote::after{position:absolute;font:400 25pt/1 var(--script);color:rgba(135,63,70,.22)}
+.compact-quote::before{content:"\201c";left:2.5mm;top:2.5mm}.compact-quote::after{content:"\201d";right:3mm;bottom:1mm}
+.compact-quote>.quote-label{position:static;padding-left:1mm;font-size:5.25pt}
+.compact-quote-flow{height:100%;min-height:0;overflow:hidden;columns:2;column-gap:7mm;column-rule:.18mm solid var(--line);column-fill:balance;font:400 var(--compact-quote-size)/1.18 var(--script);color:var(--body_text);hyphens:auto}
+.compact-quote-flow p{margin:0 0 1.35mm;orphans:2;widows:2}
+.compact-quote-flow .salutation{font-size:calc(var(--compact-quote-size) + .35pt);line-height:1.16;color:var(--primary_navy)}
+.compact-quote-flow .quote-ending{margin-top:1.5mm;font-size:calc(var(--compact-quote-size) + .45pt);line-height:1.15;color:var(--accent_burgundy)}
+.compact-attribution{position:relative;z-index:2;padding-top:1.7mm;border-top:.2mm solid var(--line);font:500 5.2pt/1.22 var(--body);color:var(--secondary_text);text-align:right}
+.compact-attribution.quote-attribution--signed{display:grid;grid-template-columns:27mm 1fr;align-items:center;gap:3.5mm;text-align:left}
+.compact-attribution .signature-proof{height:13mm;gap:.3mm}.compact-attribution .signature-proof span{font-size:3.9pt}
+.compact-attribution .signature-ink{max-width:26mm}.compact-attribution .signature-ink--shumilov{height:11mm}.compact-attribution .signature-ink--makarychev{height:10mm}
+.compact--shumilov .compact-quote{--compact-quote-size:11.8pt}
+.compact--makarychev .compact-quote{--compact-quote-size:11.9pt}
+.compact--belyaninov .compact-quote{--compact-quote-size:12.5pt}
+.compact--smirnova .compact-quote{--compact-quote-size:12.1pt}
+.compact--tengebaeva .compact-quote{--compact-quote-size:11.4pt}
+.right.compact-welcome .vip-cutout{left:auto;right:-5mm;object-position:right bottom}
+.right.compact-welcome .vip-meta{left:auto;right:17mm;width:62mm}
+.right.compact-welcome .vip-meta h1{font-size:18.4pt}
+.right.compact-welcome .vip-meta .role{max-width:61mm}
+.right.compact-welcome .compact-quote{left:22mm;right:77mm}
+
+/* A reserved editorial page for the additional Adina Arykovna photographs. */
+.adina-photos{background:linear-gradient(135deg,#f7f7f4,#edf0f1)}
+.adina-photos .safe{top:14mm;bottom:15mm}
+.adina-photos h2{margin-top:2mm;font:800 22pt/1.06 var(--head);color:var(--primary_navy)}
+.adina-photos .photo-note{margin-top:3mm;max-width:165mm;font:500 8.2pt/1.4 var(--body);color:var(--secondary_text)}
+.adina-photo-grid{position:absolute;left:21mm;right:17mm;top:54mm;bottom:22mm;display:grid;grid-template-columns:1.18fr .82fr;grid-template-rows:1fr 1fr;gap:4mm}
+.adina-photo-slot{position:relative;overflow:hidden;background:rgba(255,255,255,.62);border:.25mm solid rgba(34,59,94,.13);box-shadow:0 .6mm 1.8mm rgba(38,43,48,.07)}
+.adina-photo-slot:first-child{grid-row:1/-1}
+.adina-photo-slot::before{content:"";position:absolute;inset:7mm;border:.3mm dashed rgba(34,59,94,.16)}
+.adina-photo-slot span{position:absolute;left:0;right:0;bottom:0;padding:3mm 4mm;background:rgba(251,251,249,.9);font:600 5.7pt/1.25 var(--head);letter-spacing:.08em;text-transform:uppercase;color:var(--secondary_text)}
+
+/* 74 families in two columns over two pages; no entries are dropped. */
+.contents-compact .safe{top:12mm;bottom:14mm}
+.contents-compact .contents-head{margin-bottom:3.5mm}
+.contents-compact .contents-head h2{font-size:15pt}
+.toc-columns{display:grid;grid-template-columns:1fr 1fr;gap:0 7mm}
+.toc-columns .toc-list{min-width:0}
+.contents-compact .toc-row{display:grid;grid-template-columns:6.5mm minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:1.5mm;row-gap:.3mm;align-items:center;min-height:8.05mm;padding:1mm 0}
+.contents-compact .toc-num{grid-column:1;grid-row:1/-1;align-self:center;font-size:6.7pt}
+.contents-compact .toc-name{grid-column:2;grid-row:1;font-size:8.1pt;line-height:1.02;white-space:nowrap}
+.contents-compact .toc-reg{grid-column:2;grid-row:2;min-width:0;font-size:5.55pt;line-height:1.05;white-space:normal}
+.contents-compact .toc-pg{grid-column:3;grid-row:1/-1;align-self:center;font-size:6.8pt}
+.contents-compact .toc-dots{display:none}
+
+
+/* V23: isolated intro corrections. V20, V22 and family templates are untouched. */
+
+/* The complete geography story now occupies one page. */
+.geography-combined{isolation:isolate;background:linear-gradient(128deg,#f7f6f2 0%,#eef2f4 100%)}
+.geography-combined .map-title{left:17mm;top:16mm;width:71mm;z-index:8}
+.geography-combined .map-title h1{font-size:25pt;line-height:1.01}
+.geography-combined .map-title .sub{max-width:70mm;margin-top:4mm;font-size:8.1pt;line-height:1.38}
+.geography-combined .map-canvas{inset:auto;right:8mm;top:10mm;width:164mm;height:134mm;background:none;z-index:3}
+.geography-combined .map-big{left:0;right:auto;top:0;width:164mm;height:107mm;object-fit:contain;object-position:center;opacity:1}
+.geography-combined .map-badge{left:9mm;right:5mm;bottom:1mm;width:auto;padding:3.5mm 4.5mm;border-left-width:.8mm;box-shadow:0 .6mm 1.8mm rgba(38,43,48,.09)}
+.geography-combined .map-badge strong{font-size:9.6pt;line-height:1.08}
+.geography-combined .map-badge span{margin-top:1mm;font-size:5.8pt;line-height:1.25}
+.geography-combined .map-stats{left:17mm;right:17mm;bottom:15mm;display:grid;grid-template-columns:43mm 49mm minmax(0,1fr);gap:3mm;z-index:8}
+.geography-combined .map-stat{min-height:24mm;padding:4mm 5mm}
+.geography-combined .map-stat.wide{grid-column:auto}
+.geography-combined .map-stat strong{font-size:11.2pt;line-height:1.08}
+.geography-combined .map-stat span{font-size:5.6pt;line-height:1.25}
+
+/* Page 4: the old 0707 hierarchy is retained, but the wording comes only
+   from the verified official two-page facsimile. */
+.decree-geography{isolation:isolate;overflow:hidden;background:#f2f3f2}
+.decree-geography .decree-art{position:absolute;left:0;top:0;width:88mm;height:200mm;object-fit:cover;object-position:45% center;filter:saturate(.8) contrast(.96);z-index:1}
+.decree-geography .decree-art-wash{position:absolute;left:0;top:0;width:101mm;height:200mm;background:linear-gradient(90deg,rgba(246,247,246,.02) 0%,rgba(246,247,246,.16) 58%,#f2f3f2 91%,#f2f3f2 100%);z-index:2}
+.decree-geography .decree-map{position:absolute;left:4mm;top:53mm;width:78mm;height:59mm;object-fit:contain;opacity:.13;filter:grayscale(1);z-index:3}
+.decree-context{position:absolute;left:12mm;top:15mm;width:62mm;padding:4.5mm 5mm;background:rgba(250,250,248,.9);border-top:.7mm solid var(--primary_navy);box-shadow:0 .6mm 2mm rgba(26,42,62,.09);z-index:5}
+.decree-context .kicker{font:700 5.4pt/1.2 var(--head);letter-spacing:.15em;text-transform:uppercase;color:var(--primary_navy)}
+.decree-context strong{display:block;margin-top:2.2mm;font:800 12.2pt/1.05 var(--head);color:var(--primary_navy)}
+.decree-context span{display:block;margin-top:1mm;font:600 6pt/1.35 var(--body);color:var(--secondary_text)}
+.decree-facsimiles{position:absolute;left:8mm;bottom:15mm;width:73mm;height:80mm;z-index:6}
+.decree-facsimiles img{position:absolute;display:block;object-fit:contain;background:#fff;box-shadow:0 1.2mm 3.2mm rgba(30,40,52,.2);border:.35mm solid rgba(255,255,255,.8)}
+.decree-facsimiles .facsimile-one{left:1mm;bottom:0;width:48mm;height:68mm;transform:rotate(-1.7deg)}
+.decree-facsimiles .facsimile-two{right:0;bottom:3mm;width:43mm;height:61mm;transform:rotate(2.2deg)}
+.decree-panel{position:absolute;left:80mm;right:14mm;top:11mm;bottom:13mm;padding:8mm 9mm 7mm;background:rgba(252,251,248,.97);border-left:.85mm solid var(--accent_burgundy);box-shadow:0 1mm 3.2mm rgba(25,39,55,.1);z-index:7}
+.decree-panel .decree-kicker{font:700 5.8pt/1.2 var(--head);letter-spacing:.16em;text-transform:uppercase;color:var(--accent_burgundy)}
+.decree-panel h1{margin-top:2.5mm;max-width:144mm;font:800 15.4pt/1.06 var(--head);letter-spacing:-.012em;color:var(--primary_navy)}
+.decree-panel .decree-meta{display:flex;align-items:center;gap:3mm;margin-top:3mm;padding-bottom:3mm;border-bottom:.35mm solid rgba(34,59,94,.22);font:700 6pt/1.2 var(--head);letter-spacing:.08em;text-transform:uppercase;color:var(--secondary_text)}
+.decree-panel .decree-meta b{color:var(--gold_accent)}
+.decree-columns{display:grid;grid-template-columns:1fr 1fr;gap:7mm;margin-top:4mm}
+.decree-column{min-width:0}
+.decree-column p{margin:0 0 2.35mm;font:500 7.85pt/1.34 var(--body);color:#303943;text-wrap:pretty}
+.decree-column p:first-child{font-weight:650;color:#202d3b}
+.decree-signature{position:absolute;left:9mm;right:9mm;bottom:12mm;display:grid;grid-template-columns:1fr auto;align-items:end;gap:5mm;padding-top:2.8mm;border-top:.35mm solid rgba(34,59,94,.18);font:600 6.15pt/1.35 var(--body);color:var(--primary_navy)}
+.decree-signature strong{font:700 7.3pt/1.2 var(--head)}
+.decree-source{position:absolute;left:9mm;right:9mm;bottom:3.7mm;font:600 4.7pt/1.2 var(--body);color:var(--secondary_text)}
+
+/* The freed geography page is a parity-preserving section divider. */
+.welcome-divider{isolation:isolate;background:linear-gradient(135deg,#f4f4f0 0%,#eaf0f3 100%)}
+.welcome-divider .divider-map{position:absolute;right:0;top:9mm;width:205mm;height:174mm;object-fit:contain;opacity:.09;z-index:1}
+.welcome-divider .safe{top:16mm;bottom:17mm;z-index:4}
+.welcome-divider .divider-kicker{font:700 6.2pt/1.2 var(--head);letter-spacing:.17em;text-transform:uppercase;color:var(--primary_navy)}
+.welcome-divider h2{margin-top:3mm;max-width:206mm;font:800 28pt/1.02 var(--head);color:var(--primary_navy)}
+.welcome-divider h2 span{display:block;margin-top:1.2mm;font-size:20pt;font-weight:650;line-height:1.08;letter-spacing:-.012em}
+.welcome-divider .divider-sub{margin-top:4mm;font:600 9pt/1.3 var(--body);color:var(--accent_burgundy)}
+.welcome-index{position:absolute;left:18mm;right:18mm;top:74mm;bottom:21mm;display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:1fr 1fr;gap:3.5mm;z-index:5}
+.welcome-index article{display:grid;grid-template-columns:9mm minmax(0,1fr);align-content:center;gap:0 3mm;padding:4mm 5mm;background:rgba(251,251,249,.87);border-top:.6mm solid rgba(34,59,94,.76);box-shadow:0 .5mm 1.5mm rgba(38,43,48,.06)}
+.welcome-index article:nth-child(-n+3){grid-column:span 2}
+.welcome-index article:nth-child(4){grid-column:2/span 2}
+.welcome-index article:nth-child(5){grid-column:4/span 2}
+.welcome-index .welcome-index-num{grid-row:1/3;font:700 7pt/1 var(--head);color:var(--gold_accent)}
+.welcome-index h3{font:800 10.5pt/1.08 var(--head);color:var(--primary_navy)}
+.welcome-index p{margin-top:1mm;font:600 5.3pt/1.25 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--secondary_text)}
+
+/* Left-hand portraits no longer terminate under the hard paper edge.  Their
+   complete source canvas is scaled down to fit before the quote module. */
+.compact-welcome::after{content:"";position:absolute;left:-14mm;bottom:0;width:108mm;height:142mm;border-radius:0 72mm 0 0;background:radial-gradient(ellipse at 48% 79%,rgba(69,99,132,.16),rgba(69,99,132,.045) 47%,transparent 72%);z-index:3;pointer-events:none}
+.compact-welcome .vip-meta{width:68mm}
+.compact-welcome .compact-quote{left:90mm;right:20mm}
+.compact-welcome.compact--shumilov .vip-cutout{left:-5mm;width:92mm;height:156mm}
+.compact-welcome.compact--makarychev .vip-cutout{left:-4mm;width:92mm;height:154mm}
+.compact-welcome.compact--tengebaeva .vip-cutout{left:-3mm;width:92mm;height:154mm}
+.compact--shumilov .vip-meta h1{font-size:19.2pt}
+.compact--makarychev .vip-meta h1{font-size:17.2pt;letter-spacing:-.015em}
+.compact--tengebaeva .vip-meta h1{font-size:17.2pt;letter-spacing:-.012em}
+.compact--shumilov .compact-quote{--compact-quote-size:11.25pt}
+.compact--makarychev .compact-quote{--compact-quote-size:11.25pt}
+.compact--tengebaeva .compact-quote{--compact-quote-size:10.85pt}
+
+/* Belyaninov was already successful; retain its composition. */
+.compact--belyaninov .compact-quote{left:78mm;right:22mm}
+.compact--belyaninov .vip-meta{width:57mm}
+.compact--belyaninov .vip-meta h1{font-size:16.4pt;letter-spacing:-.014em}
+.compact--belyaninov .vip-meta .role{max-width:57mm;font-size:6.15pt}
+
+/* Smirnova's initials and role now have a real gap from the paper module. */
+.right.compact--smirnova .vip-meta{right:15mm;width:58mm}
+.right.compact--smirnova .vip-meta h1{font-size:17.2pt;letter-spacing:-.01em}
+.right.compact--smirnova .vip-meta .role{max-width:58mm;font-size:6.35pt}
+.right.compact--smirnova .compact-quote{left:22mm;right:77mm}
+
+/* Shumilov, Makarychev and Tengebaeva look to camera-left in the approved
+   source portraits. Put them on the right of their page so that the gaze is
+   directed into the authored address. Do not mirror the raster: that would
+   reverse name tapes, insignia, medals and other documentary details. */
+.compact-welcome.compact--portrait-right::after{left:auto;right:-14mm;border-radius:72mm 0 0 0;background:radial-gradient(ellipse at 52% 79%,rgba(69,99,132,.16),rgba(69,99,132,.045) 47%,transparent 72%)}
+.compact-welcome.compact--portrait-right .vip-cutout{left:auto;right:-5mm;object-position:right bottom}
+.compact-welcome.compact--portrait-right .vip-meta{left:auto;right:17mm}
+.compact-welcome.compact--portrait-right .compact-quote{left:20mm;right:90mm}
+
+
+/* V29 alternate greeting system. Only the five authored intro pages change. */
+.welcome-single-column{
+  --welcome-copy-size:9.75pt;
+  --welcome-copy-leading:1.32;
+  isolation:isolate;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 82% 22%,rgba(62,91,123,.065),transparent 31%),
+    linear-gradient(135deg,#f8f7f3 0%,#f1f2ef 100%);
+}
+.welcome-single-column::before{
+  content:"";
+  position:absolute;
+  right:-10mm;
+  bottom:2mm;
+  width:132mm;
+  height:96mm;
+  background:url('../print-v12/assets/maps/russia-action-participants-schematic-commons.svg') center/contain no-repeat;
+  opacity:.027;
+  filter:grayscale(1);
+  z-index:0;
+}
+.welcome-letter{
+  position:absolute;
+  left:19mm;
+  right:22mm;
+  top:11mm;
+  bottom:14mm;
+  z-index:5;
+  overflow:hidden;
+  color:#30353b;
+}
+.welcome-single-column.right .welcome-letter{left:22mm;right:17mm}
+.welcome-profile{
+  position:relative;
+  z-index:7;
+  float:right;
+  width:50mm;
+  margin:2mm 0 5mm 8mm;
+}
+.welcome-portrait-frame{
+  position:relative;
+  width:50mm;
+  height:67mm;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 52% 28%,rgba(255,255,255,.96),rgba(226,232,235,.92) 62%,rgba(207,216,221,.91));
+  border:.25mm solid rgba(34,59,94,.18);
+  box-shadow:0 .8mm 2.4mm rgba(38,43,48,.11);
+}
+.welcome-portrait-frame::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:.9mm;
+  background:var(--accent_burgundy);
+  z-index:3;
+}
+.welcome-portrait-frame img{
+  position:absolute;
+  left:-4mm;
+  bottom:-1mm;
+  width:58mm;
+  height:70mm;
+  display:block;
+  object-fit:contain;
+  object-position:center bottom;
+}
+.welcome-profile h1{
+  margin-top:4mm;
+  font:750 14.4pt/1.07 var(--head);
+  letter-spacing:-.015em;
+  color:var(--primary_navy);
+}
+.welcome-profile .organization{
+  margin-top:2mm;
+  font:700 5pt/1.28 var(--head);
+  letter-spacing:.095em;
+  text-transform:uppercase;
+  color:var(--accent_burgundy);
+}
+.welcome-profile .role{
+  margin-top:2.3mm;
+  font:500 6.6pt/1.34 var(--body);
+  color:var(--secondary_text);
+}
+.welcome-profile .profile-rule{
+  width:11mm;
+  height:.5mm;
+  margin-top:3.5mm;
+  background:var(--gold_accent);
+}
+.welcome-eyebrow{
+  margin:0;
+  font:750 6.2pt/1.2 var(--head);
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--accent_burgundy);
+}
+.welcome-eyebrow::after{
+  content:"";
+  display:block;
+  width:12mm;
+  height:.55mm;
+  margin-top:3mm;
+  background:var(--accent_burgundy);
+}
+.welcome-salutation{
+  margin:3mm 0 3mm;
+  max-width:170mm;
+  font:400 18.5pt/1.05 var(--script);
+  color:var(--primary_navy);
+}
+.welcome-copy{
+  font:450 var(--welcome-copy-size)/var(--welcome-copy-leading) var(--body);
+  color:#30353b;
+  hyphens:auto;
+  text-wrap:pretty;
+}
+.welcome-copy p{margin:0 0 2.15mm;orphans:2;widows:2}
+.welcome-copy p:first-child::first-letter{
+  float:left;
+  margin:.7mm 1.7mm 0 0;
+  font:800 21pt/.78 var(--head);
+  color:var(--accent_burgundy);
+}
+.welcome-ending{
+  margin:2.4mm 0 0;
+  font:400 13.8pt/1.08 var(--script);
+  color:var(--accent_burgundy);
+}
+.welcome-attribution{
+  clear:both;
+  display:grid;
+  grid-template-columns:30mm minmax(0,1fr);
+  align-items:center;
+  gap:4mm;
+  min-height:17mm;
+  margin-top:3mm;
+  padding-top:2.5mm;
+  border-top:.25mm solid rgba(34,59,94,.17);
+}
+.welcome-attribution:not(:has(.signature-proof)){grid-template-columns:1fr}
+.welcome-attribution .signature-proof{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  gap:.7mm;
+}
+.welcome-attribution .signature-ink{
+  display:block;
+  width:29mm;
+  height:10.5mm;
+  object-fit:contain;
+  object-position:left center;
+}
+.welcome-attribution .signature-proof span{
+  font:650 4pt/1 var(--head);
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  color:var(--secondary_text);
+}
+.welcome-attribution>p{
+  margin:0;
+  font:500 6.15pt/1.28 var(--body);
+  color:var(--secondary_text);
+}
+.welcome-single--shumilov{--welcome-copy-size:10.7pt;--welcome-copy-leading:1.33}
+.welcome-single--makarychev{--welcome-copy-size:10.8pt;--welcome-copy-leading:1.33}
+.welcome-single--belyaninov{--welcome-copy-size:11.4pt;--welcome-copy-leading:1.34}
+.welcome-single--smirnova{--welcome-copy-size:10.4pt;--welcome-copy-leading:1.32}
+.welcome-single--tengebaeva{--welcome-copy-size:10pt;--welcome-copy-leading:1.3}
+.welcome-single-column .folio,.welcome-single-column .run{bottom:8mm}
+.welcome-single-column .run{color:rgba(70,78,88,.72)}
+
+
+/* V30 fills the already-reserved V29 Adina photo page; geometry is locked. */
+.adina-photos .photo-note{max-width:170mm}
+.adina-photo-slot::before{display:none}
+.adina-photo-slot .adina-photo{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  filter:saturate(.96) contrast(1.015);
+}
+.adina-photo-slot .adina-photo--stage{object-position:center 46%}
+.adina-photo-slot .adina-photo--meeting{object-position:center 45%}
+.adina-photo-slot .adina-photo--conversation{object-position:center 47%}
+.adina-photo-slot figcaption{
+  position:absolute;
+  z-index:2;
+  left:0;
+  right:0;
+  bottom:0;
+  padding:2.5mm 3.5mm 2.3mm;
+  background:linear-gradient(180deg,rgba(249,249,247,.18),rgba(249,249,247,.94));
+  font:650 5.3pt/1.25 var(--head);
+  letter-spacing:.075em;
+  text-transform:uppercase;
+  color:var(--primary_navy);
+}
+</style></head><body><section class="sheet"><div class="page left cover-page"><img alt="Обложка книги «Письма памяти»" class="cover" src="../../cover-v1/artwork/cover-art.png"/></div><div class="page right imprint"><div class="safe">
+<div class="imp-top">
+<p class="kicker">Всероссийская книга</p>
+<h1>Письма памяти</h1>
+<p class="vol">Том I</p>
+<hr class="rule-gold"/>
+</div>
+<p class="partners-eyebrow">Совместная инициатива</p>
+<div class="organizer-grid">
+<figure class="organizer-card organizer-card--center">
+<img alt="" class="organizer-mark organizer-mark--center" src="../../../assets/branding/production/center-mark-tight.svg"/>
+<figcaption class="organizer-name organizer-name--center"><strong>Центр поддержки детей</strong><span>погибших военнослужащих</span></figcaption>
+</figure>
+<figure class="organizer-card organizer-card--dialog">
+<img alt="" class="organizer-mark organizer-mark--dialog" src="../../../assets/branding/production/dialog-generations-mark.svg"/>
+<figcaption class="organizer-name organizer-name--dialog"><strong>Диалог поколений</strong><span>Герои и дети</span></figcaption>
+</figure>
+</div>
+<p class="init-text">Издана по совместной инициативе <strong>АНО «Центр поддержки детей погибших военнослужащих»</strong> и проекта <strong>«Диалог поколений. Герои и дети»</strong>.</p>
+<section class="support-panel">
+<p class="support-title">Проект состоялся в том числе благодаря поддержке</p>
+<div class="sponsor-grid">
+<article class="sponsor-card sponsor-card--known">
+<img alt="Трудовая доблесть России" src="../print-v11/assets/frontmatter/trudovaya-doblest-reference.png"/>
+<span>ВОО «Трудовая доблесть России»</span>
+</article>
+<article class="sponsor-card sponsor-card--placeholder"><span aria-hidden="true" class="sponsor-slot-mark"></span><span>Партнёр проекта</span></article>
+<article class="sponsor-card sponsor-card--placeholder"><span aria-hidden="true" class="sponsor-slot-mark"></span><span>Партнёр проекта</span></article>
+</div>
+</section>
+<p class="place-year">Москва · 2026</p>
+</div>
+<span class="folio">2</span><span class="run">Выходные данные и партнёры</span></div><span class="wm">ПРОТОТИП</span></section><section class="sheet map-spread"><div class="page left geography-combined" data-source-pages="книга0707:3-4"><div class="map-title">
+<p class="kicker">География памяти</p>
+<h1>Дети героев.<br/>Письма, которые объединяют</h1>
+<p class="sub">Авторы книги — дети героев из разных регионов России.<br/>Эта книга объединяет голоса семей со всей страны.</p>
+</div><div class="map-stats">
+<div class="map-stat"><strong>74</strong><span>семьи</span></div>
+<div class="map-stat"><strong>78</strong><span>писем и рукописей</span></div>
+<div class="map-stat wide"><strong>Вся Россия — от Калининграда до Камчатки</strong><span>республики, края, области и города-герои</span></div>
+</div><div class="map-canvas">
+<img alt="География участников всероссийской акции" class="map-big" src="../print-v12/assets/maps/russia-action-participants-schematic-commons-multitone.svg"/>
+<div class="map-badge"><strong>89 субъектов РФ — участники акции</strong><span>«Встреча детей Героев с городами-героями»</span></div>
+</div><span class="folio">3</span><span class="run">Первый том · география семей</span></div><div class="page right decree-geography" data-document-status="verified-official-facsimile" data-source-pages="книга0707:4; official-decree:1-2"><img alt="Документальный натюрморт с бумагой и пером" class="decree-art" src="../../../assets/intro-decree/artwork/decree-editorial-stilllife-v1.png"/><div class="decree-art-wash"></div><img alt="География участников всероссийской акции" class="decree-map" src="../print-v12/assets/maps/russia-action-participants-schematic-commons-multitone.svg"/><div class="decree-context"><p class="kicker">География памяти</p><strong>74 семьи · 78 писем</strong><span>Голоса детей героев из разных регионов России</span></div><div class="decree-facsimiles"><img alt="Официальное факсимиле указа № 962, лист 1" class="facsimile-one" src="../../../assets/intro-decree/official/decree-962-page-1.png"/><img alt="Официальное факсимиле указа № 962, лист 2" class="facsimile-two" src="../../../assets/intro-decree/official/decree-962-page-2.png"/></div><article class="decree-panel"><p class="decree-kicker">Официальная основа</p><h1>Указ Президента Российской Федерации от 25 декабря 2025 года № 962 «О проведении в Российской Федерации Года единства народов России»</h1><div class="decree-meta"><b>№ 962</b><span>25 декабря 2025 года</span></div><div class="decree-columns"><div class="decree-column"><p>В целях укрепления национального единства, мира и согласия между народами Российской Федерации постановляю:</p><p>1. Провести в 2026 году в Российской Федерации Год единства народов России.</p><p>2. Правительству Российской Федерации:</p><p>а) образовать организационный комитет по проведению в Российской Федерации Года единства народов России и утвердить его состав;</p><p>б) обеспечить разработку и реализацию при участии Совета при Президенте Российской Федерации по межнациональным отношениям плана основных мероприятий по проведению в Российской Федерации Года единства народов России;</p><p>в) определить источники финансирования основных мероприятий по проведению в Российской Федерации Года единства народов России.</p></div><div class="decree-column"><p>3. Назначить сопредседателями организационного комитета по проведению в Российской Федерации Года единства народов России первого заместителя Руководителя Администрации Президента Российской Федерации Кириенко С. В. и Заместителя Председателя Правительства Российской Федерации Голикову Т. А.</p><p>4. Рекомендовать исполнительным органам субъектов Российской Федерации осуществлять необходимые мероприятия в рамках проводимого в Российской Федерации Года единства народов России.</p><p>5. Настоящий Указ вступает в силу со дня его подписания.</p></div></div><div class="decree-signature"><span>Москва, Кремль<br/>25 декабря 2025 года</span><strong>Президент Российской Федерации В. Путин</strong></div><p class="decree-source">Текст и факсимиле сверены с официальной публикацией Указа Президента Российской Федерации № 962.</p></article><span class="folio">4</span><span class="run">Официальная основа · география памяти</span></div><span class="wm">ПРОТОТИП</span></section><section class="sheet"><div class="page left welcome-single-column welcome-single--shumilov" data-content-lock="full-authored-address-verbatim" data-layout="single-column-continuous-v29" data-source-pages="5,6"><article class="welcome-letter"><aside class="welcome-profile"><div class="welcome-portrait-frame"><img alt="Л. В. Шумилов" class="welcome-portrait" src="../../../assets/intro-people/cutouts-pro/shumilov_compact_nobg.png"/></div><h1>Л. В. Шумилов</h1><p class="organization">Межгосударственный союз городов-героев</p><p class="role">Сопредседатель Президиума Межгосударственного союза городов-героев, генерал-полковник</p><div class="profile-rule"></div></aside><p class="welcome-eyebrow">Приветствие</p><h2 class="welcome-salutation">Дорогие мои ребята, юные авторы этой священной Книги!</h2><div class="welcome-copy"><p>Я держу в руках наш Первый том «ПИСЬМА ПАМЯТИ» и читаю ваши пронзительные, искренние строчки. Каждое ваше слово, написанное детской рукой о своем отце, наполнено такой святой любовью, гордостью и силой духа, что у нас, седых генералов, наворачиваются слезы на глаза. Вы абсолютно правы: ваши отцы — великие, настоящие Герои, которые совершили высший человеческий подвиг, защищая мирное небо над нашей Родиной, и навсегда вписали свои имена в вечную летопись Отечества. Вся наша Держава свято чтит и помнит их бессмертную ратную славу.</p><p>Вся моя долгая жизнь была посвящена строительству военной, оборонной и космической мощи нашей страны. И сегодня, читая ваши эссе, я хочу передать вам один важнейший жизненный вектор. Великая Россия всегда держалась на единстве ратного подвига и созидательного духа. Защита наших рубежей на фронте и добросовестный, честный созидательный труд в тылу — это две нерасторжимые грани служения Родине.</p><p>Пример покорителя космоса Валерия Токарева и легендарного строителя Алексея Макарычева наглядно доказывает вам, что доблестный мирный труд, верность долгу и научные открытия во имя России ставят созидателей в один нерушимый ряд с вашими мужественными отцами-защитниками. Вся наша Держава — это единый монолит чести и верности долгу. Вы — дети настоящих Героев, и по праву являетесь главным достоянием нашей страны. Растите честными, сильными, учитесь и трудитесь во имя России, крепко любите свою Родину и будьте во всем достойными подвига ваших отцов!</p></div><p class="welcome-ending">Мы гордимся вами!</p><footer class="welcome-attribution">
+<div class="signature-proof">
+<img alt="Подлинная подпись Л. В. Шумилова" class="signature-ink signature-ink--shumilov" src="../../../assets/intro-people/signatures/shumilov_signature_display.png"/>
+<span>Подлинная подпись</span>
+</div>
+<p>Сопредседатель Президиума Межгосударственного союза городов-героев, генерал-полковник Л. В. Шумилов 25 июня 2026 года</p>
+</footer></article><span class="folio">5</span><span class="run">Приветственное слово · полный текст</span></div><div class="page right event-page">
+<div class="event-head"><p class="kicker">«Диалог поколений. Герои и дети»</p><h2>Всероссийская<br/>общественно-патриотическая акция</h2></div>
+<figure class="event-card ev-award"><img alt="Награждение Л. В. Шумилова" src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p008_image01_production.png"/><figcaption><b>9 июня 2025 года</b> в зале торжественных мероприятий Министерства обороны Российской Федерации министр обороны РФ Андрей Белоусов наградил Сопредседателя Президиума Межгосударственного Союза Городов-Героев генерал-полковника Л. В. Шумилова орденом Александра Невского.</figcaption></figure>
+<figure class="event-card ev-house"><img alt="Встреча в Московском доме национальностей" src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p008_image03_production.png"/><figcaption><b>7 мая 2025 года</b><br/>«Диалог поколений. Герои и дети». ГБУ «Московский дом национальностей».</figcaption></figure>
+<figure class="event-card ev-museum"><img alt="Встреча в Музее ВМФ России" src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p008_image02_production.png"/><figcaption><b>25 июля 2025 года</b><br/>«Диалог поколений. Герои и дети»: полковник В. Л. Быков из Санкт-Петербурга, Артемий из Улан-Удэ, генерал-полковник Л. В. из Москвы, Кирилл из города Североморск Мурманской области, генерал-лейтенант А. А. Макарычев из Москвы. Музей ВМФ России.</figcaption></figure>
+<span class="folio">6</span><span class="run">Диалог поколений · хроника</span>
+</div><span class="wm">ПРОТОТИП</span></section><section class="sheet"><div class="page left welcome-single-column welcome-single--makarychev" data-content-lock="full-authored-address-verbatim" data-layout="single-column-continuous-v29" data-source-pages="7,8"><article class="welcome-letter"><aside class="welcome-profile"><div class="welcome-portrait-frame"><img alt="А. А. Макарычев" class="welcome-portrait" src="../../../assets/intro-people/cutouts-pro/makarychev_compact_nobg.png"/></div><h1>А. А. Макарычев</h1><p class="organization">Межгосударственный союз городов-героев</p><p class="role">Председатель Президиума Межгосударственного Союза Городов-Героев, Герой Социалистического Труда, генерал-лейтенант</p><div class="profile-rule"></div></aside><p class="welcome-eyebrow">Приветствие</p><h2 class="welcome-salutation">Дорогие юные авторы этой замечательной Книги!</h2><div class="welcome-copy"><p>Я читаю ваши рассказы, и моё сердце наполняется огромной гордостью за каждого из вас. Сколько в ваших строчках тепла, искренности и настоящего мужества! Вы так здорово, своими чистыми детскими словами рассказали всей стране о своих папах. Ваши отцы — великие Герои, чьё мужество и верность присяге защитили наше Отечество.</p><p>Их ратный подвиг священен, и вся Россия преклоняется перед их бессмертной славой. Всю свою жизнь я строил большие города, возводил базу атомных подводных лодок в Гремихе, радиолокационные станции в Оленегорске и создавал космодром «Байконур». Пройдя этот путь, я абсолютно убежден: великое наследие наших защитников продолжается в созидании. Честный, доблестный труд инженера, строителя, ученого или врача, отдающего душу своему делу, намертво скрепляет мощь нашей Державы.</p><p>Труд во благо Родины — это тоже великое служение, которое стоит плечом к плечу с ратной доблестью ваших отцов. Мы с моим Учителем по жизни и моим командиром, и старшим другом, с кем дружим более шестидесяти лет - генерал-полковником Леонидом Вениаминовичем Шумиловым, очень хотим, чтобы это единство ратной и созидательной славы стало вашим главным жизненным ориентиром. Вы — дети Героев, надежда и будущее России. Учитесь с интересом, идите вперед с доброй улыбкой и созидайте во имя нашей Отчизны.</p><p>Совсем скоро на священной сталинградской земле мы соберемся вместе на нашей Встрече Трех Поколений.</p></div><p class="welcome-ending">Вперед и только с верой в победу!</p><footer class="welcome-attribution">
+<div class="signature-proof">
+<img alt="Подлинная подпись А. А. Макарычева" class="signature-ink signature-ink--makarychev" src="../../../assets/intro-people/signatures/makarychev_signature_display.png"/>
+<span>Подлинная подпись</span>
+</div>
+<p>Председатель Президиума Межгосударственного Союза Городов-Героев, Герой Социалистического Труда, генерал-лейтенант А. А. Макарычев 25 июня 2026 года</p>
+</footer></article><span class="folio">7</span><span class="run">Приветственное слово · полный текст</span></div><div class="page right event-page">
+<figure class="event-card ev-december"><div class="event-image"><img alt="Всероссийская общественно-патриотическая акция" src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p009_image01_production.png"/></div><figcaption><b>24 декабря 2025 года</b><br/>Всероссийская общественно-патриотическая акция «Диалог поколений. Герои и дети» в Культурном центре Главного управления Дипломатического корпуса Министерства иностранных дел Российской Федерации.</figcaption></figure>
+<figure class="event-card ev-dialog"><div class="event-image"><img alt="Диалог А. А. Макарычева и Тимура Мухаметгалина" src="../../../assets/intro-people/shared-events/production-ready/intro_shared_p009_image02_production.png"/></div><figcaption><b>24 декабря 2025 года</b><br/>Диалог между Героем Социалистического Труда, генерал-лейтенантом А. А. Макарычевым и сыном Героя СВО из Ханты-Мансийского автономного округа Тимуром Мухаметгалиным.</figcaption></figure>
+<span class="folio">8</span><span class="run">Диалог поколений · хроника</span>
+</div><span class="wm">ПРОТОТИП</span></section><section class="sheet"><div class="page left welcome-single-column welcome-single--belyaninov" data-content-lock="full-authored-address-verbatim" data-layout="single-column-continuous-v29" data-source-pages="9,10"><article class="welcome-letter"><aside class="welcome-profile"><div class="welcome-portrait-frame"><img alt="А. Ю. Белянинов" class="welcome-portrait" src="../../../assets/intro-people/cutouts-pro/belyaninov_compact_nobg.png"/></div><h1>А. Ю. Белянинов</h1><p class="organization">Ассамблея Народов Мира</p><p class="role">Генеральный секретарь Международного союза неправительственных организаций «Ассамблея Народов Мира», доктор экономических наук</p><div class="profile-rule"></div></aside><p class="welcome-eyebrow">Приветствие</p><h2 class="welcome-salutation">Дорогие ребята, юные авторы Всероссийской Книги Памяти!</h2><div class="welcome-copy"><p>Уважаемые читатели! От имени Международного союза неправительственных организаций «Ассамблея Народов Мира» и от себя лично искренне приветствую вас на страницах Первого тома уникального фолианта «ПИСЬМА ПАМЯТИ», издание которого приурочено к объявленному Президентом России В. В. Путиным Году единства народов России.</p><p>Каждое рукописное эссе, каждое стихотворение и рисунок в этой Книге — это не просто творчество, это живой, нерушимый монумент духа нашего народа. Сегодня, когда Россия проходит через время суровых исторических испытаний, ваши искренние детские строки из всех 89 регионов страны демонстрируют всему миру абсолютное, неустрашимое единство гражданского общества перед лицом любой смертельной опасности. Вы — дети истинных Героев Отечества, чьи отцы, гвардии майоры, офицеры и рядовые бойцы, до последнего патрона и до последнего вздоха защищали будущее нашей многонациональной Родины. Они принадлежали к разным культурам и национальностям, но их объединяла верность одной присяге и одной великой Отчизне.</p><p>Вы унаследовали их мужество и гордость. Помните: за вашими плечами стоит вся огромная Россия. Мы свято храним память о подвиге ваших семей и сделаем всё, чтобы поддержать вас на пути созидания. Низкий поклон матерям Героев за воспитание достойной смены.</p></div><p class="welcome-ending">До встречи в городе-герое Волгограде!</p><footer class="welcome-attribution"><p>Генеральный секретарь Международного союза неправительственных организаций «Ассамблея Народов Мира» доктор экономических наук А. Ю. Белянинов 25 июня 2026 года</p></footer></article><span class="folio">9</span><span class="run">Приветственное слово · полный текст</span></div><div class="page right welcome-single-column welcome-single--smirnova" data-content-lock="full-authored-address-verbatim" data-layout="single-column-continuous-v29" data-source-pages="13,14"><article class="welcome-letter"><aside class="welcome-profile"><div class="welcome-portrait-frame"><img alt="С. К. Смирнова" class="welcome-portrait" src="../../../assets/intro-people/cutouts-pro/smirnova_compact_nobg.png"/></div><h1>С. К. Смирнова</h1><p class="organization">Сенежский форум</p><p class="role">Председатель ООД «Сенежский форум», член Совета при Президенте РФ по межнациональным отношениям</p><div class="profile-rule"></div></aside><p class="welcome-eyebrow">Приветствие</p><h2 class="welcome-salutation">Дорогие ребята, юные авторы Всероссийской Книги «ПИСЬМА ПАМЯТИ»!</h2><div class="welcome-copy"><p>Уважаемые читатели! От имени Общероссийского общественного движения «Сенежский форум» и от себя лично искренне приветствую вас на страницах Первого тома уникального фолианта «ПИСЬМА ПАМЯТИ», издаваемого в ознаменование Года единства народов России, объявленного Президентом Российской Федерации В.В. Путиным.</p><p>Эта Книга — не просто сборник эссе, это живое свидетельство величия, стойкости и нерасторжимой духовной связи народов нашей Отчизны. В Совет по межнациональным отношениям при Президенте РФ регулярно поступают свидетельства того, как общая память и общая гордость сплачивают наше общество. И сегодня ваши искренние, идущие от самого сердца рукописные сочинения из всех 89 регионов России наглядно демонстрируют всему миру: мы сильны своим многообразием и абсолютно едины в своей преданности Родине. Вы — дети истинных Героев Отечества, чьи мужественные отцы пожертвовали жизнями ради того, чтобы наша страна развивалась, процветала и уверенно смотрела в будущее.</p><p>Ваши отцы говорили на разных языках, принадлежали к разным национальностям, культурам и вероисповеданиям, но у них была одна общая великая Родина — Россия. И они защищали её плечом к плечу, как единая нерушимая семья. Вы, авторы этой Книги, унаследовали от своих отцов самое главное богатство — их великий дух, неустрашимость и верность долгу. Помните, что за вашими плечами стоит вся наша огромная многонациональная страна, которая гордится вами и всегда будет помнить подвиг ваших семей.</p><p>Низкий поклон матерям и женам Героев за воспитание достойного поколения.</p></div><p class="welcome-ending">Желаю вам, дорогие ребята, крепости духа, успехов в учебе и созидании на благо нашей великой Отчизны!</p><footer class="welcome-attribution"><p>Председатель ООД «Сенежский форум», член Совета при Президенте РФ по межнациональным отношениям С. К. Смирнова 25 июня 2026 года</p></footer></article><span class="folio">10</span><span class="run">Приветственное слово · полный текст</span></div><span class="wm">ПРОТОТИП</span></section><section class="sheet"><div class="page left welcome-single-column welcome-single--tengebaeva" data-content-lock="full-authored-address-verbatim" data-layout="single-column-continuous-v29" data-source-pages="15,16"><article class="welcome-letter"><aside class="welcome-profile"><div class="welcome-portrait-frame"><img alt="А. А. Тенгебаева" class="welcome-portrait" src="../../../assets/intro-people/cutouts-pro/tengebaeva_compact_nobg.png"/></div><h1>А. А. Тенгебаева</h1><p class="organization">АНО «Диалог поколений. Герои и дети»</p><p class="role">Президент АНО «Диалог поколений. Герои и дети»</p><div class="profile-rule"></div></aside><p class="welcome-eyebrow">Приветствие</p><h2 class="welcome-salutation">Дорогие юные авторы книги "ПИСЬМА ПАМЯТИ"!</h2><div class="welcome-copy"><p>Издание книги-фолианта «ПИСЬМА ПАМЯТИ» приурочено к объявленному Президентом России В. В. Путиным Годом единства народов России и призвано всесторонне объединить детей наших Героев со всей Российской Федерации. Уникальность данного фундаментального издания заключается в том, что оно собирает вместе под одной обложкой детей, изначально говорящих на разных родных языках, но имеющих один великий общий русский межнациональный язык.</p><p>Наша Книга объединяет юных авторов, живущих в самых разных, уникальных уголках России — там, где веками бок о бок созидают разные национальности, бережно хранящие свои уникальные культуры, самобытные традиции и вероисповедания. Из-за расовой принадлежности и этнических особенностей эти дети могут даже визуально выглядеть по-разному, но все они абсолютно равны и нерасторжимы, поскольку имеют одну общую, великую и священную Родину — Россию! Всероссийская Книга-фолиант «ПИСЬМА ПАМЯТИ» — это живой монумент, наполненный чистыми сердечными сочинениями детей, чьи мужественные отцы до последнего вздоха сражались и погибли за Россию. От всего сердца выражаю глубокую благодарность каждому из вас, дорогие ребята, за то, что вы написали эти искренние строки, создали замечательные рисунки и передали свои самые сокровенные чувства, открыв всему миру, почему вы по праву считаете своих отцов Героями СВО.</p><p>Эти пронзительные детские строки наглядно продемонстрируют всему миру абсолютное, неустрашимое и нерушимое единство нашего великого народа перед лицом любой, даже самой смертельной опасности! Отдельно благодарю вас за присланные для этой книги уникальные фотографии из ваших семейных архивов. Также хочу выразить искреннюю признательность всем матерям, которые бережно отнеслись к памяти наших защитников и помогли собрать и отправить эти бесценные материалы для подготовки к изданию нашей общероссийской книги "ПИСЬМА ПАМЯТИ".</p></div><p class="welcome-ending">До встречи в городе Волгограде!</p><footer class="welcome-attribution"><p>Президент АНО «Диалог поколений. Герои и дети» А. А. Тенгебаева 25 июня 2026 года</p></footer></article><span class="folio">11</span><span class="run">Приветственное слово · полный текст</span></div><div class="page right adina-photos" data-content-lock="owner-supplied-photo-chronicle" data-status="complete">
+<div class="safe">
+<p class="kicker">Диалог поколений</p>
+<h2>Фотохроника встречи</h2>
+<p class="photo-note">Фотохроника проекта «Диалог поколений. Герои и дети».</p>
+</div>
+<div aria-label="Фотохроника проекта" class="adina-photo-grid">
+<figure class="adina-photo-slot"><img alt="Участники проекта на сцене" class="adina-photo adina-photo--stage" src="../../../assets/intro-people/adina-gallery/print/adina_dsc_0092_topaz_2x.jpg"/><figcaption>Участники проекта</figcaption></figure>
+<figure class="adina-photo-slot"><img alt="Встреча участников проекта «Диалог поколений. Герои и дети»" class="adina-photo adina-photo--meeting" src="../../../assets/intro-people/adina-gallery/print/adina_dsc_0189_topaz_2x.jpg"/><figcaption>Диалог поколений</figcaption></figure>
+<figure class="adina-photo-slot"><img alt="Адина Арыковна на встрече с участниками проекта" class="adina-photo adina-photo--conversation" src="../../../assets/intro-people/adina-gallery/print/adina_dsc_4846_topaz_2x.jpg"/><figcaption>Живая встреча</figcaption></figure>
+</div>
+<span class="folio">12</span><span class="run">Фотохроника проекта</span>
+</div><span class="wm">ПРОТОТИП</span></section><section class="sheet"><div class="page left contents-page contents-compact"><div class="safe"><div class="contents-head"><h2>Наши герои</h2><span class="cont-note">74 семьи</span></div><div class="toc-columns"><ol class="toc-list"><li class="toc-row" data-hero-id="hero-001" data-production-interior-page="14"><span class="toc-num">01</span><span class="toc-name">Анастасия</span><span class="toc-reg">Волгоградская область</span><span class="toc-dots"></span><span class="toc-pg">14</span></li><li class="toc-row" data-hero-id="hero-003" data-production-interior-page="16"><span class="toc-num">02</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">16</span></li><li class="toc-row" data-hero-id="hero-004" data-production-interior-page="20"><span class="toc-num">03</span><span class="toc-name">Николай</span><span class="toc-reg">Республика Хакасия</span><span class="toc-dots"></span><span class="toc-pg">20</span></li><li class="toc-row" data-hero-id="hero-005" data-production-interior-page="22"><span class="toc-num">04</span><span class="toc-name">Евгений</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">22</span></li><li class="toc-row" data-hero-id="hero-006" data-production-interior-page="24"><span class="toc-num">05</span><span class="toc-name">Алимамед</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">24</span></li><li class="toc-row" data-hero-id="hero-007" data-production-interior-page="26"><span class="toc-num">06</span><span class="toc-name">Алмат</span><span class="toc-reg">Оренбургская область</span><span class="toc-dots"></span><span class="toc-pg">26</span></li><li class="toc-row" data-hero-id="hero-008" data-production-interior-page="28"><span class="toc-num">07</span><span class="toc-name">Яков</span><span class="toc-reg">Республика Хакасия</span><span class="toc-dots"></span><span class="toc-pg">28</span></li><li class="toc-row" data-hero-id="hero-009" data-production-interior-page="32"><span class="toc-num">08</span><span class="toc-name">Егор</span><span class="toc-reg">Карачаево - Черкесская республика</span><span class="toc-dots"></span><span class="toc-pg">32</span></li><li class="toc-row" data-hero-id="hero-010" data-production-interior-page="34"><span class="toc-num">09</span><span class="toc-name">Алексей</span><span class="toc-reg">Нижегородская область</span><span class="toc-dots"></span><span class="toc-pg">34</span></li><li class="toc-row" data-hero-id="hero-011" data-production-interior-page="36"><span class="toc-num">10</span><span class="toc-name">Андрей</span><span class="toc-reg">Карачаево - Черкесская республика</span><span class="toc-dots"></span><span class="toc-pg">36</span></li><li class="toc-row" data-hero-id="hero-012" data-production-interior-page="40"><span class="toc-num">11</span><span class="toc-name">Виктор</span><span class="toc-reg">Псковская область</span><span class="toc-dots"></span><span class="toc-pg">40</span></li><li class="toc-row" data-hero-id="hero-013" data-production-interior-page="42"><span class="toc-num">12</span><span class="toc-name">Вадим</span><span class="toc-reg">. Санкт-Петербург</span><span class="toc-dots"></span><span class="toc-pg">42</span></li><li class="toc-row" data-hero-id="hero-014" data-production-interior-page="46"><span class="toc-num">13</span><span class="toc-name">Евгений</span><span class="toc-reg">Курганская область</span><span class="toc-dots"></span><span class="toc-pg">46</span></li><li class="toc-row" data-hero-id="hero-015" data-production-interior-page="50"><span class="toc-num">14</span><span class="toc-name">Илья</span><span class="toc-reg">Нижегородская область</span><span class="toc-dots"></span><span class="toc-pg">50</span></li><li class="toc-row" data-hero-id="hero-017" data-production-interior-page="52"><span class="toc-num">15</span><span class="toc-name">Александр</span><span class="toc-reg">Красноярский край</span><span class="toc-dots"></span><span class="toc-pg">52</span></li><li class="toc-row" data-hero-id="hero-018" data-production-interior-page="54"><span class="toc-num">16</span><span class="toc-name">Андрей</span><span class="toc-reg">Челябинская область</span><span class="toc-dots"></span><span class="toc-pg">54</span></li><li class="toc-row" data-hero-id="hero-019" data-production-interior-page="56"><span class="toc-num">17</span><span class="toc-name">Анатолий</span><span class="toc-reg">Ярославская область</span><span class="toc-dots"></span><span class="toc-pg">56</span></li><li class="toc-row" data-hero-id="hero-020" data-production-interior-page="58"><span class="toc-num">18</span><span class="toc-name">Булат</span><span class="toc-reg">Астраханская область</span><span class="toc-dots"></span><span class="toc-pg">58</span></li><li class="toc-row" data-hero-id="hero-021" data-production-interior-page="60"><span class="toc-num">19</span><span class="toc-name">Алекси</span><span class="toc-reg">Республика Адыгея</span><span class="toc-dots"></span><span class="toc-pg">60</span></li></ol><ol class="toc-list"><li class="toc-row" data-hero-id="hero-022" data-production-interior-page="62"><span class="toc-num">20</span><span class="toc-name">Сергей</span><span class="toc-reg">Курганская область</span><span class="toc-dots"></span><span class="toc-pg">62</span></li><li class="toc-row" data-hero-id="hero-023" data-production-interior-page="64"><span class="toc-num">21</span><span class="toc-name">Дмитрий</span><span class="toc-reg">Курганская область</span><span class="toc-dots"></span><span class="toc-pg">64</span></li><li class="toc-row" data-hero-id="hero-024" data-production-interior-page="66"><span class="toc-num">22</span><span class="toc-name">Алексей</span><span class="toc-reg">Красноярский край</span><span class="toc-dots"></span><span class="toc-pg">66</span></li><li class="toc-row" data-hero-id="hero-025" data-production-interior-page="68"><span class="toc-num">23</span><span class="toc-name">Салам</span><span class="toc-reg">Республика Ингушетия</span><span class="toc-dots"></span><span class="toc-pg">68</span></li><li class="toc-row" data-hero-id="hero-026" data-production-interior-page="70"><span class="toc-num">24</span><span class="toc-name">Александр</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">70</span></li><li class="toc-row" data-hero-id="hero-027" data-production-interior-page="74"><span class="toc-num">25</span><span class="toc-name">Александр</span><span class="toc-reg">Республика Хакасия</span><span class="toc-dots"></span><span class="toc-pg">74</span></li><li class="toc-row" data-hero-id="hero-028" data-production-interior-page="76"><span class="toc-num">26</span><span class="toc-name">Талгат</span><span class="toc-reg">Волгоградская область</span><span class="toc-dots"></span><span class="toc-pg">76</span></li><li class="toc-row" data-hero-id="hero-029" data-production-interior-page="80"><span class="toc-num">27</span><span class="toc-name">Александр</span><span class="toc-reg">Тюменская область</span><span class="toc-dots"></span><span class="toc-pg">80</span></li><li class="toc-row" data-hero-id="hero-030" data-production-interior-page="84"><span class="toc-num">28</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">84</span></li><li class="toc-row" data-hero-id="hero-031" data-production-interior-page="86"><span class="toc-num">29</span><span class="toc-name">Сергей</span><span class="toc-reg">Нижегородская область</span><span class="toc-dots"></span><span class="toc-pg">86</span></li><li class="toc-row" data-hero-id="hero-032" data-production-interior-page="88"><span class="toc-num">30</span><span class="toc-name">Николай</span><span class="toc-reg">Республика Адыгея</span><span class="toc-dots"></span><span class="toc-pg">88</span></li><li class="toc-row" data-hero-id="hero-033" data-production-interior-page="90"><span class="toc-num">31</span><span class="toc-name">Мурад</span><span class="toc-reg">Республика Дагестан</span><span class="toc-dots"></span><span class="toc-pg">90</span></li><li class="toc-row" data-hero-id="hero-034" data-production-interior-page="92"><span class="toc-num">32</span><span class="toc-name">Тимур</span><span class="toc-reg">Тюменская область</span><span class="toc-dots"></span><span class="toc-pg">92</span></li><li class="toc-row" data-hero-id="hero-035" data-production-interior-page="94"><span class="toc-num">33</span><span class="toc-name">Илья</span><span class="toc-reg">Тюменская область</span><span class="toc-dots"></span><span class="toc-pg">94</span></li><li class="toc-row" data-hero-id="hero-036" data-production-interior-page="96"><span class="toc-num">34</span><span class="toc-name">Андрей</span><span class="toc-reg">Свердловская область</span><span class="toc-dots"></span><span class="toc-pg">96</span></li><li class="toc-row" data-hero-id="hero-037" data-production-interior-page="98"><span class="toc-num">35</span><span class="toc-name">Дамир</span><span class="toc-reg">Астраханская область</span><span class="toc-dots"></span><span class="toc-pg">98</span></li><li class="toc-row" data-hero-id="hero-038" data-production-interior-page="100"><span class="toc-num">36</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Тюменская область</span><span class="toc-dots"></span><span class="toc-pg">100</span></li><li class="toc-row" data-hero-id="hero-039" data-production-interior-page="102"><span class="toc-num">37</span><span class="toc-name">Василий</span><span class="toc-reg">Республика Башкортостан</span><span class="toc-dots"></span><span class="toc-pg">102</span></li></ol></div></div><span class="folio">13</span><span class="run">Содержание · страницы внутреннего блока</span></div><div class="page right contents-page contents-compact"><div class="safe"><div class="contents-head"><h2>Наши герои</h2><span class="cont-note">продолжение</span></div><div class="toc-columns"><ol class="toc-list"><li class="toc-row" data-hero-id="hero-040" data-production-interior-page="106"><span class="toc-num">38</span><span class="toc-name">Роман</span><span class="toc-reg">Тюменская область</span><span class="toc-dots"></span><span class="toc-pg">106</span></li><li class="toc-row" data-hero-id="hero-041" data-production-interior-page="108"><span class="toc-num">39</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">108</span></li><li class="toc-row" data-hero-id="hero-042" data-production-interior-page="110"><span class="toc-num">40</span><span class="toc-name">Евгений</span><span class="toc-reg">Республика Тыва</span><span class="toc-dots"></span><span class="toc-pg">110</span></li><li class="toc-row" data-hero-id="hero-043" data-production-interior-page="112"><span class="toc-num">41</span><span class="toc-name">Владислав</span><span class="toc-reg">Республика Хакасия</span><span class="toc-dots"></span><span class="toc-pg">112</span></li><li class="toc-row" data-hero-id="hero-044" data-production-interior-page="114"><span class="toc-num">42</span><span class="toc-name">Рамиль</span><span class="toc-reg">Республика Татарстан</span><span class="toc-dots"></span><span class="toc-pg">114</span></li><li class="toc-row" data-hero-id="hero-045" data-production-interior-page="116"><span class="toc-num">43</span><span class="toc-name">Санал</span><span class="toc-reg">Республика Калмыкия</span><span class="toc-dots"></span><span class="toc-pg">116</span></li><li class="toc-row" data-hero-id="hero-046" data-production-interior-page="120"><span class="toc-num">44</span><span class="toc-name">Анатолий</span><span class="toc-reg">Курганская область</span><span class="toc-dots"></span><span class="toc-pg">120</span></li><li class="toc-row" data-hero-id="hero-047" data-production-interior-page="122"><span class="toc-num">45</span><span class="toc-name">Александр</span><span class="toc-reg">Тюменская область</span><span class="toc-dots"></span><span class="toc-pg">122</span></li><li class="toc-row" data-hero-id="hero-048" data-production-interior-page="126"><span class="toc-num">46</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Республика Башкортостан</span><span class="toc-dots"></span><span class="toc-pg">126</span></li><li class="toc-row" data-hero-id="hero-049" data-production-interior-page="128"><span class="toc-num">47</span><span class="toc-name">Роман</span><span class="toc-reg">Приморский край</span><span class="toc-dots"></span><span class="toc-pg">128</span></li><li class="toc-row" data-hero-id="hero-050" data-production-interior-page="130"><span class="toc-num">48</span><span class="toc-name">Мустафа</span><span class="toc-reg">Республика Ингушетия</span><span class="toc-dots"></span><span class="toc-pg">130</span></li><li class="toc-row" data-hero-id="hero-051" data-production-interior-page="132"><span class="toc-num">49</span><span class="toc-name">Виктор</span><span class="toc-reg">Ивановская область</span><span class="toc-dots"></span><span class="toc-pg">132</span></li><li class="toc-row" data-hero-id="hero-052" data-production-interior-page="134"><span class="toc-num">50</span><span class="toc-name">Виктор</span><span class="toc-reg">Ивановская область</span><span class="toc-dots"></span><span class="toc-pg">134</span></li><li class="toc-row" data-hero-id="hero-053" data-production-interior-page="136"><span class="toc-num">51</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">136</span></li><li class="toc-row" data-hero-id="hero-054" data-production-interior-page="138"><span class="toc-num">52</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Волгоградская область</span><span class="toc-dots"></span><span class="toc-pg">138</span></li><li class="toc-row" data-hero-id="hero-055" data-production-interior-page="142"><span class="toc-num">53</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">142</span></li><li class="toc-row" data-hero-id="hero-056" data-production-interior-page="144"><span class="toc-num">54</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">144</span></li><li class="toc-row" data-hero-id="hero-057" data-production-interior-page="146"><span class="toc-num">55</span><span class="toc-name">Игорь</span><span class="toc-reg">Забайкальский край</span><span class="toc-dots"></span><span class="toc-pg">146</span></li><li class="toc-row" data-hero-id="hero-058" data-production-interior-page="150"><span class="toc-num">56</span><span class="toc-name">Дмитрий</span><span class="toc-reg">Забайкальский край</span><span class="toc-dots"></span><span class="toc-pg">150</span></li></ol><ol class="toc-list"><li class="toc-row" data-hero-id="hero-059" data-production-interior-page="152"><span class="toc-num">57</span><span class="toc-name">Ильдар</span><span class="toc-reg">Липецкая область</span><span class="toc-dots"></span><span class="toc-pg">152</span></li><li class="toc-row" data-hero-id="hero-060" data-production-interior-page="154"><span class="toc-num">58</span><span class="toc-name">Денис</span><span class="toc-reg">Липецкая область</span><span class="toc-dots"></span><span class="toc-pg">154</span></li><li class="toc-row" data-hero-id="hero-061" data-production-interior-page="156"><span class="toc-num">59</span><span class="toc-name">Сергей</span><span class="toc-reg">. Москва</span><span class="toc-dots"></span><span class="toc-pg">156</span></li><li class="toc-row" data-hero-id="hero-062" data-production-interior-page="158"><span class="toc-num">60</span><span class="toc-name">Александр</span><span class="toc-reg">Оренбургская область</span><span class="toc-dots"></span><span class="toc-pg">158</span></li><li class="toc-row" data-hero-id="hero-063" data-production-interior-page="160"><span class="toc-num">61</span><span class="toc-name">Николай</span><span class="toc-reg">Республика Хакасия</span><span class="toc-dots"></span><span class="toc-pg">160</span></li><li class="toc-row" data-hero-id="hero-064" data-production-interior-page="162"><span class="toc-num">62</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">162</span></li><li class="toc-row" data-hero-id="hero-065" data-production-interior-page="164"><span class="toc-num">63</span><span class="toc-name">Вячеслав</span><span class="toc-reg">Новосибирская область</span><span class="toc-dots"></span><span class="toc-pg">164</span></li><li class="toc-row" data-hero-id="hero-066" data-production-interior-page="166"><span class="toc-num">64</span><span class="toc-name">Ильгам</span><span class="toc-reg">Республика Башкортостан</span><span class="toc-dots"></span><span class="toc-pg">166</span></li><li class="toc-row" data-hero-id="hero-067" data-production-interior-page="170"><span class="toc-num">65</span><span class="toc-name">Евгений</span><span class="toc-reg">Свердловская область</span><span class="toc-dots"></span><span class="toc-pg">170</span></li><li class="toc-row" data-hero-id="hero-068" data-production-interior-page="172"><span class="toc-num">66</span><span class="toc-name">Абдулбек</span><span class="toc-reg">Чеченская Республика</span><span class="toc-dots"></span><span class="toc-pg">172</span></li><li class="toc-row" data-hero-id="hero-069" data-production-interior-page="176"><span class="toc-num">67</span><span class="toc-name">Антон</span><span class="toc-reg">Челябинская область</span><span class="toc-dots"></span><span class="toc-pg">176</span></li><li class="toc-row" data-hero-id="hero-070" data-production-interior-page="180"><span class="toc-num">68</span><span class="toc-name">Алексей</span><span class="toc-reg">. Санкт-Петербург</span><span class="toc-dots"></span><span class="toc-pg">180</span></li><li class="toc-row" data-hero-id="hero-071" data-production-interior-page="182"><span class="toc-num">69</span><span class="toc-name">Александр</span><span class="toc-reg">Свердловская область</span><span class="toc-dots"></span><span class="toc-pg">182</span></li><li class="toc-row" data-hero-id="hero-072" data-production-interior-page="184"><span class="toc-num">70</span><span class="toc-name">Федор</span><span class="toc-reg">Нижегородская область</span><span class="toc-dots"></span><span class="toc-pg">184</span></li><li class="toc-row" data-hero-id="hero-073" data-production-interior-page="186"><span class="toc-num">71</span><span class="toc-name">Андрей</span><span class="toc-reg">Челябинская область</span><span class="toc-dots"></span><span class="toc-pg">186</span></li><li class="toc-row" data-hero-id="hero-074" data-production-interior-page="188"><span class="toc-num">72</span><span class="toc-name">Артур</span><span class="toc-reg">Республика Башкортостан</span><span class="toc-dots"></span><span class="toc-pg">188</span></li><li class="toc-row" data-hero-id="hero-075" data-production-interior-page="190"><span class="toc-num">73</span><span class="toc-name">Андрей</span><span class="toc-reg">Амурская область</span><span class="toc-dots"></span><span class="toc-pg">190</span></li><li class="toc-row" data-hero-id="hero-076" data-production-interior-page="192"><span class="toc-num">74</span><span class="toc-name">Николай</span><span class="toc-reg">Ханты-Мансийский АО - Югра</span><span class="toc-dots"></span><span class="toc-pg">192</span></li></ol></div></div><span class="folio">14</span><span class="run">Содержание · страницы внутреннего блока</span></div><span class="wm">ПРОТОТИП</span></section></body></html>

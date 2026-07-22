@@ -34,12 +34,12 @@
       "print_qa_status": "ready_for_layout",
       "title_layout_role": "hero_flagship",
       "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-006/hero-006_title_group_nobg.png",
-      "cutout_file": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png",
-      "cutout_sha256": "d8259ce64682297328a36f9a7c6a1fdc6f9bae1ec55dbcf7e2b1347b21a65800",
-      "cutout_width_px": 1414,
-      "cutout_height_px": 1017,
-      "cutout_tool": "returned manual CutItOut PNG; local alpha QA",
-      "cutout_status": "ready_for_draft_layout",
+      "cutout_file": "assets/processed-flagships/hero-006/hero-006_title_group_restored_v2_ready_nobg.png",
+      "cutout_sha256": "3029558bb4403d705468d0373b641db98c66d10638f6fc911896f6d6d690bfbf",
+      "cutout_width_px": 1152,
+      "cutout_height_px": 846,
+      "cutout_tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
       "flagship_layout": {
         "preset": "v20-grounded-right",
         "reference_hero_id": "hero-014",
@@ -66,7 +66,9 @@
           "children"
         ],
         "status": "manual_title_layout_required"
-      }
+      },
+      "restored_source_file": "assets/production-ready/flagship/hero-006/hero-006_title_group_restored_white_v2.png",
+      "restored_source_sha256": "6734b4c5387c91a86e11c0bfcf768c10f648c931d23c2482349953dc7f1346aa"
     },
     {
       "asset_id": "hero-006_p030_image185",
@@ -89,10 +91,14 @@
       "gigapixel_status": "completed",
       "print_qa_status": "ready_for_layout",
       "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-006/hero-006_supporting_boys_nobg.png",
-      "cutout_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_ready_nobg.png",
-      "cutout_sha256": "0929d097d4b5adb74a9750341a17542a5127447a5a220820ceb24f1976ea154b",
-      "cutout_status": "ready_for_draft_layout",
-      "cutout_tool": "returned manual CutItOut PNG; local alpha QA"
+      "cutout_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_restored_v2_ready_nobg.png",
+      "cutout_sha256": "27004277077ca891a1a8db44c457adfa9f89c1dbb5c6196e5ce39e9e639a7461",
+      "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
+      "cutout_tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "restored_source_file": "assets/production-ready/flagship/hero-006/hero-006_supporting_boys_restored_white_v2.png",
+      "restored_source_sha256": "f32bbbad313143d8862342b1531716718358e60cf86b19e9dbf493ddaad97edd",
+      "cutout_width_px": 999,
+      "cutout_height_px": 1380
     },
     {
       "asset_id": "hero-006_p031_image188",

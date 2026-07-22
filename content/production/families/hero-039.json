@@ -11,7 +11,7 @@
   "emblem_id": "emblem-republic-of-bashkortostan",
   "award_id": null,
   "template": "extended",
-  "flagship": "assets/processed-flagships/hero-039/hero-039_alt_title_ready_nobg.png",
+  "flagship": "assets/processed-flagships/hero-039/hero-039_alt_title_restored_v2_ready_nobg.png",
   "flagship_role": "hero_flagship",
   "archive_photos": [
     "assets/production-ready/archive/hero-039/hero-039_p134_image630_upscaled_2x.jpg"
@@ -44,19 +44,21 @@
     "award_provenance": "REVIEW_REQUIRED"
   },
   "status": "REVIEW_REQUIRED",
-  "flagship_processing_source": "assets/production-ready/archive/hero-039/hero-039_p134_image631_upscaled_2x.jpg",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-039/hero-039_alt_title_restored_white_v2.png",
   "flagship_max_height_mm_at_180_ppi": 153,
   "flagship_processing": {
     "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-039/hero-039_alt_p134_image631_nobg.png",
     "processing_source": "assets/production-ready/archive/hero-039/hero-039_p134_image631_upscaled_2x.jpg",
-    "cutout_file": "assets/processed-flagships/hero-039/hero-039_alt_title_ready_nobg.png",
-    "cutout_sha256": "05a340eb8e9c429d008c5a5bf9f065dbb7f7676a84f198e60590629285f44d6c",
-    "tool": "returned manual CutItOut PNG; local alpha QA",
-    "status": "ready_for_draft_layout",
+    "cutout_file": "assets/processed-flagships/hero-039/hero-039_alt_title_restored_v2_ready_nobg.png",
+    "cutout_sha256": "30d3c4614332328f8c262ea2f3cf0c270287753cb6dab829c3168fc6a98fa376",
+    "tool": "local CutItOut via Playwright; alpha-margin trim only",
+    "status": "ready_for_draft_layout_pending_final_visual_qa",
     "visual_qa": "passed_on_light_and_dark_checkerboard",
     "owner_final_approval": "pending",
-    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
-    "supersedes": "assets/processed-flagships/hero-039/hero-039_alt_title_ready_nobg.png"
+    "source_quality_policy": "OWNER_RESTORED_SOURCE",
+    "supersedes": "assets/processed-flagships/hero-039/hero-039_alt_title_restored_v2_ready_nobg.png",
+    "restored_source_file": "assets/production-ready/flagship/hero-039/hero-039_alt_title_restored_white_v2.png",
+    "restored_source_sha256": "c4adc8f831dbcb00eb31321ef3007081eebf33deae1b25e8b09ba309aea5dbe1"
   },
   "flagship_layout": {
     "preset": "v20-grounded-right",

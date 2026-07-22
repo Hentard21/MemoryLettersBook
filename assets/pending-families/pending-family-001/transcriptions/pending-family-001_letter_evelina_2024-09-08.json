@@ -1,0 +1,16 @@
+{
+  "transcription_id": "pending-family-001-letter-evelina-2024-09-08",
+  "letter_file": "assets/pending-families/pending-family-001/letters/pending-family-001_letter_evelina_2024-09-08_master.jpg",
+  "transcription_file": "assets/pending-families/pending-family-001/transcriptions/pending-family-001_letter_evelina_2024-09-08.txt",
+  "status": "manual_visual_transcription_complete_review_required",
+  "author_spelling_preserved": true,
+  "silent_corrections_applied": false,
+  "uncertain_tokens": [],
+  "notes": [
+    "Line breaks follow the visible manuscript.",
+    "Author forms such as 'так же' and 'нехватает' are preserved.",
+    "A second human comparison against the physical scan is required before publication."
+  ],
+  "text": "Мой папа-герой!\nМой папа-герой, потому что он\nотдал свою жизнь за нашу Родину.\nПапа был командиром, при выполнении\nбоевой задачи был смертельно ранен.\nОн награждён орденом мужества\nпосмертно. Папа всегда мечтал\nполучить орден мужества, так же у\nнего есть и другие награды.\nМой папа сильный, добрый, справедливый,\nЧестный.\nМы с мамой скучаем по папе и нам его\nочень нехватает.\n\nЭвелина 7 лет.\n8.09.2024 г.\n",
+  "sha256": "93e7f610784b2af31d7a1666da2b5c7e73f57503260f3119198ff362b3a12507"
+}

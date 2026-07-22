@@ -63,5 +63,15 @@
     177,
     178,
     179
-  ]
+  ],
+  "symbolic_flagship": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+  "symbolic_flagship_public_label": "Символический образ",
+  "symbolic_flagship_status": "approved_for_draft_by_owner",
+  "symbolic_flagship_layout": {
+    "display_height_mm": 188,
+    "bottom_mm": -1,
+    "right_mm": 1,
+    "blend_mode": "normal",
+    "source_pose": "symbolic-masked-waist"
+  }
 }

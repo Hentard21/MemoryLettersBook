@@ -1,0 +1,624 @@
+{
+  "schema_version": 3,
+  "generated_at": "2026-07-22T16:36:36.459413+00:00",
+  "generator": "scripts/build_intro_complete_v30.py",
+  "source_html": "design/prototypes/print-v29-single-column-welcome/interior-single-column-welcome-v29.html",
+  "scope": "v29_locked_intro_plus_owner_supplied_adina_photo_chronicle",
+  "design_lock": "design/prototypes/print-v20/PRINT_V20_CLIENT_TEMPLATE_APPROVAL.pdf",
+  "preview": {
+    "cover_included": true,
+    "page_count": 14,
+    "spread_count": 7
+  },
+  "production_interior": {
+    "cover_included": false,
+    "frontmatter_pages": 13,
+    "first_family_page": 14,
+    "first_family_side": "left",
+    "page_saving_vs_v21": 6,
+    "toc_pages": [
+      12,
+      13
+    ],
+    "parity_note": "The cover is external. Interior odd pages are right; even pages are left."
+  },
+  "pages": [
+    {
+      "preview_page": 1,
+      "production_interior_page": null,
+      "role": "approved_cover",
+      "source_pages": [
+        1
+      ]
+    },
+    {
+      "preview_page": 2,
+      "production_interior_page": 1,
+      "role": "partners",
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "preview_page": 3,
+      "production_interior_page": 2,
+      "role": "project_geography_map",
+      "source_pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "preview_page": 4,
+      "production_interior_page": 3,
+      "role": "official_decree",
+      "source_pages": [
+        4
+      ],
+      "document": "assets/intro-decree/official/decree-962-official.pdf"
+    },
+    {
+      "preview_page": 5,
+      "production_interior_page": 4,
+      "role": "welcome_shumilov_complete",
+      "source_pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "preview_page": 6,
+      "production_interior_page": 5,
+      "role": "chronicle_i",
+      "source_pages": [
+        11
+      ]
+    },
+    {
+      "preview_page": 7,
+      "production_interior_page": 6,
+      "role": "welcome_makarychev_complete",
+      "source_pages": [
+        7,
+        8
+      ]
+    },
+    {
+      "preview_page": 8,
+      "production_interior_page": 7,
+      "role": "chronicle_ii",
+      "source_pages": [
+        12
+      ]
+    },
+    {
+      "preview_page": 9,
+      "production_interior_page": 8,
+      "role": "welcome_belyaninov_complete",
+      "source_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "preview_page": 10,
+      "production_interior_page": 9,
+      "role": "welcome_smirnova_complete",
+      "source_pages": [
+        13,
+        14
+      ]
+    },
+    {
+      "preview_page": 11,
+      "production_interior_page": 10,
+      "role": "welcome_tengebaeva_complete",
+      "source_pages": [
+        15,
+        16
+      ]
+    },
+    {
+      "preview_page": 12,
+      "production_interior_page": 11,
+      "role": "adina_photo_chronicle_complete",
+      "source_pages": [],
+      "assets": [
+        "assets/intro-people/adina-gallery/print/adina_dsc_0092_topaz_2x.jpg",
+        "assets/intro-people/adina-gallery/print/adina_dsc_0189_topaz_2x.jpg",
+        "assets/intro-people/adina-gallery/print/adina_dsc_4846_topaz_2x.jpg"
+      ]
+    },
+    {
+      "preview_page": 13,
+      "production_interior_page": 12,
+      "role": "toc_i",
+      "source_pages": [
+        17,
+        18
+      ]
+    },
+    {
+      "preview_page": 14,
+      "production_interior_page": 13,
+      "role": "toc_ii",
+      "source_pages": [
+        19,
+        20
+      ]
+    }
+  ],
+  "family_page_shift": {
+    "from_v21": -6,
+    "families": [
+      {
+        "hero_id": "hero-001",
+        "order": 1,
+        "start_page": 14,
+        "end_page": 15
+      },
+      {
+        "hero_id": "hero-003",
+        "order": 2,
+        "start_page": 16,
+        "end_page": 19
+      },
+      {
+        "hero_id": "hero-004",
+        "order": 3,
+        "start_page": 20,
+        "end_page": 21
+      },
+      {
+        "hero_id": "hero-005",
+        "order": 4,
+        "start_page": 22,
+        "end_page": 23
+      },
+      {
+        "hero_id": "hero-006",
+        "order": 5,
+        "start_page": 24,
+        "end_page": 25
+      },
+      {
+        "hero_id": "hero-007",
+        "order": 6,
+        "start_page": 26,
+        "end_page": 27
+      },
+      {
+        "hero_id": "hero-008",
+        "order": 7,
+        "start_page": 28,
+        "end_page": 31
+      },
+      {
+        "hero_id": "hero-009",
+        "order": 8,
+        "start_page": 32,
+        "end_page": 33
+      },
+      {
+        "hero_id": "hero-010",
+        "order": 9,
+        "start_page": 34,
+        "end_page": 35
+      },
+      {
+        "hero_id": "hero-011",
+        "order": 10,
+        "start_page": 36,
+        "end_page": 39
+      },
+      {
+        "hero_id": "hero-012",
+        "order": 11,
+        "start_page": 40,
+        "end_page": 41
+      },
+      {
+        "hero_id": "hero-013",
+        "order": 12,
+        "start_page": 42,
+        "end_page": 45
+      },
+      {
+        "hero_id": "hero-014",
+        "order": 13,
+        "start_page": 46,
+        "end_page": 49
+      },
+      {
+        "hero_id": "hero-015",
+        "order": 14,
+        "start_page": 50,
+        "end_page": 51
+      },
+      {
+        "hero_id": "hero-017",
+        "order": 15,
+        "start_page": 52,
+        "end_page": 53
+      },
+      {
+        "hero_id": "hero-018",
+        "order": 16,
+        "start_page": 54,
+        "end_page": 55
+      },
+      {
+        "hero_id": "hero-019",
+        "order": 17,
+        "start_page": 56,
+        "end_page": 57
+      },
+      {
+        "hero_id": "hero-020",
+        "order": 18,
+        "start_page": 58,
+        "end_page": 59
+      },
+      {
+        "hero_id": "hero-021",
+        "order": 19,
+        "start_page": 60,
+        "end_page": 61
+      },
+      {
+        "hero_id": "hero-022",
+        "order": 20,
+        "start_page": 62,
+        "end_page": 63
+      },
+      {
+        "hero_id": "hero-023",
+        "order": 21,
+        "start_page": 64,
+        "end_page": 65
+      },
+      {
+        "hero_id": "hero-024",
+        "order": 22,
+        "start_page": 66,
+        "end_page": 67
+      },
+      {
+        "hero_id": "hero-025",
+        "order": 23,
+        "start_page": 68,
+        "end_page": 69
+      },
+      {
+        "hero_id": "hero-026",
+        "order": 24,
+        "start_page": 70,
+        "end_page": 73
+      },
+      {
+        "hero_id": "hero-027",
+        "order": 25,
+        "start_page": 74,
+        "end_page": 75
+      },
+      {
+        "hero_id": "hero-028",
+        "order": 26,
+        "start_page": 76,
+        "end_page": 79
+      },
+      {
+        "hero_id": "hero-029",
+        "order": 27,
+        "start_page": 80,
+        "end_page": 83
+      },
+      {
+        "hero_id": "hero-030",
+        "order": 28,
+        "start_page": 84,
+        "end_page": 85
+      },
+      {
+        "hero_id": "hero-031",
+        "order": 29,
+        "start_page": 86,
+        "end_page": 87
+      },
+      {
+        "hero_id": "hero-032",
+        "order": 30,
+        "start_page": 88,
+        "end_page": 89
+      },
+      {
+        "hero_id": "hero-033",
+        "order": 31,
+        "start_page": 90,
+        "end_page": 91
+      },
+      {
+        "hero_id": "hero-034",
+        "order": 32,
+        "start_page": 92,
+        "end_page": 93
+      },
+      {
+        "hero_id": "hero-035",
+        "order": 33,
+        "start_page": 94,
+        "end_page": 95
+      },
+      {
+        "hero_id": "hero-036",
+        "order": 34,
+        "start_page": 96,
+        "end_page": 97
+      },
+      {
+        "hero_id": "hero-037",
+        "order": 35,
+        "start_page": 98,
+        "end_page": 99
+      },
+      {
+        "hero_id": "hero-038",
+        "order": 36,
+        "start_page": 100,
+        "end_page": 101
+      },
+      {
+        "hero_id": "hero-039",
+        "order": 37,
+        "start_page": 102,
+        "end_page": 105
+      },
+      {
+        "hero_id": "hero-040",
+        "order": 38,
+        "start_page": 106,
+        "end_page": 107
+      },
+      {
+        "hero_id": "hero-041",
+        "order": 39,
+        "start_page": 108,
+        "end_page": 109
+      },
+      {
+        "hero_id": "hero-042",
+        "order": 40,
+        "start_page": 110,
+        "end_page": 111
+      },
+      {
+        "hero_id": "hero-043",
+        "order": 41,
+        "start_page": 112,
+        "end_page": 113
+      },
+      {
+        "hero_id": "hero-044",
+        "order": 42,
+        "start_page": 114,
+        "end_page": 115
+      },
+      {
+        "hero_id": "hero-045",
+        "order": 43,
+        "start_page": 116,
+        "end_page": 119
+      },
+      {
+        "hero_id": "hero-046",
+        "order": 44,
+        "start_page": 120,
+        "end_page": 121
+      },
+      {
+        "hero_id": "hero-047",
+        "order": 45,
+        "start_page": 122,
+        "end_page": 125
+      },
+      {
+        "hero_id": "hero-048",
+        "order": 46,
+        "start_page": 126,
+        "end_page": 127
+      },
+      {
+        "hero_id": "hero-049",
+        "order": 47,
+        "start_page": 128,
+        "end_page": 129
+      },
+      {
+        "hero_id": "hero-050",
+        "order": 48,
+        "start_page": 130,
+        "end_page": 131
+      },
+      {
+        "hero_id": "hero-051",
+        "order": 49,
+        "start_page": 132,
+        "end_page": 133
+      },
+      {
+        "hero_id": "hero-052",
+        "order": 50,
+        "start_page": 134,
+        "end_page": 135
+      },
+      {
+        "hero_id": "hero-053",
+        "order": 51,
+        "start_page": 136,
+        "end_page": 137
+      },
+      {
+        "hero_id": "hero-054",
+        "order": 52,
+        "start_page": 138,
+        "end_page": 141
+      },
+      {
+        "hero_id": "hero-055",
+        "order": 53,
+        "start_page": 142,
+        "end_page": 143
+      },
+      {
+        "hero_id": "hero-056",
+        "order": 54,
+        "start_page": 144,
+        "end_page": 145
+      },
+      {
+        "hero_id": "hero-057",
+        "order": 55,
+        "start_page": 146,
+        "end_page": 149
+      },
+      {
+        "hero_id": "hero-058",
+        "order": 56,
+        "start_page": 150,
+        "end_page": 151
+      },
+      {
+        "hero_id": "hero-059",
+        "order": 57,
+        "start_page": 152,
+        "end_page": 153
+      },
+      {
+        "hero_id": "hero-060",
+        "order": 58,
+        "start_page": 154,
+        "end_page": 155
+      },
+      {
+        "hero_id": "hero-061",
+        "order": 59,
+        "start_page": 156,
+        "end_page": 157
+      },
+      {
+        "hero_id": "hero-062",
+        "order": 60,
+        "start_page": 158,
+        "end_page": 159
+      },
+      {
+        "hero_id": "hero-063",
+        "order": 61,
+        "start_page": 160,
+        "end_page": 161
+      },
+      {
+        "hero_id": "hero-064",
+        "order": 62,
+        "start_page": 162,
+        "end_page": 163
+      },
+      {
+        "hero_id": "hero-065",
+        "order": 63,
+        "start_page": 164,
+        "end_page": 165
+      },
+      {
+        "hero_id": "hero-066",
+        "order": 64,
+        "start_page": 166,
+        "end_page": 169
+      },
+      {
+        "hero_id": "hero-067",
+        "order": 65,
+        "start_page": 170,
+        "end_page": 171
+      },
+      {
+        "hero_id": "hero-068",
+        "order": 66,
+        "start_page": 172,
+        "end_page": 175
+      },
+      {
+        "hero_id": "hero-069",
+        "order": 67,
+        "start_page": 176,
+        "end_page": 179
+      },
+      {
+        "hero_id": "hero-070",
+        "order": 68,
+        "start_page": 180,
+        "end_page": 181
+      },
+      {
+        "hero_id": "hero-071",
+        "order": 69,
+        "start_page": 182,
+        "end_page": 183
+      },
+      {
+        "hero_id": "hero-072",
+        "order": 70,
+        "start_page": 184,
+        "end_page": 185
+      },
+      {
+        "hero_id": "hero-073",
+        "order": 71,
+        "start_page": 186,
+        "end_page": 187
+      },
+      {
+        "hero_id": "hero-074",
+        "order": 72,
+        "start_page": 188,
+        "end_page": 189
+      },
+      {
+        "hero_id": "hero-075",
+        "order": 73,
+        "start_page": 190,
+        "end_page": 191
+      },
+      {
+        "hero_id": "hero-076",
+        "order": 74,
+        "start_page": 192,
+        "end_page": 193
+      }
+    ]
+  },
+  "review_flags": [
+    "AUTHORED_GREETING_TERMINOLOGY_REQUIRES_OWNER_REVIEW_BEFORE_FINAL_PRINT"
+  ],
+  "alternate_design": {
+    "base": "V24 general single-column proof",
+    "converted_slugs": [
+      "shumilov",
+      "makarychev",
+      "belyaninov",
+      "smirnova",
+      "tengebaeva"
+    ],
+    "content_rule": "full authored address, verbatim, one continuous column",
+    "pagination_changed": false
+  },
+  "asset_completion": {
+    "pagination_changed": false,
+    "adina_photo_page": 11,
+    "assets": [
+      "assets/intro-people/adina-gallery/print/adina_dsc_0092_topaz_2x.jpg",
+      "assets/intro-people/adina-gallery/print/adina_dsc_0189_topaz_2x.jpg",
+      "assets/intro-people/adina-gallery/print/adina_dsc_4846_topaz_2x.jpg"
+    ]
+  }
+}

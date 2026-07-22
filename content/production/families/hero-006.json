@@ -12,10 +12,10 @@
   "emblem_id": "emblem-novosibirsk-oblast",
   "award_id": "award-order-of-courage",
   "template": "standard",
-  "flagship": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png",
+  "flagship": "assets/processed-flagships/hero-006/hero-006_title_group_restored_v2_ready_nobg.png",
   "flagship_role": "family_group_with_hero_portrait",
   "archive_photos": [
-    "assets/processed-flagships/hero-006/hero-006_supporting_boys_ready_nobg.png"
+    "assets/processed-flagships/hero-006/hero-006_supporting_boys_restored_v2_ready_nobg.png"
   ],
   "drawings": [],
   "letters": [
@@ -70,19 +70,21 @@
     22,
     23
   ],
-  "flagship_processing_source": "assets/production-ready/archive/hero-006/hero-006_p030_image184_upscaled_2x.jpg",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-006/hero-006_title_group_restored_white_v2.png",
   "flagship_max_height_mm_at_180_ppi": 144,
   "flagship_processing": {
     "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-006/hero-006_title_group_nobg.png",
     "processing_source": "assets/production-ready/archive/hero-006/hero-006_p030_image184_upscaled_2x.jpg",
-    "cutout_file": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png",
-    "cutout_sha256": "d8259ce64682297328a36f9a7c6a1fdc6f9bae1ec55dbcf7e2b1347b21a65800",
-    "tool": "returned manual CutItOut PNG; local alpha QA",
-    "status": "ready_for_draft_layout",
+    "cutout_file": "assets/processed-flagships/hero-006/hero-006_title_group_restored_v2_ready_nobg.png",
+    "cutout_sha256": "3029558bb4403d705468d0373b641db98c66d10638f6fc911896f6d6d690bfbf",
+    "tool": "local CutItOut via Playwright; alpha-margin trim only",
+    "status": "ready_for_draft_layout_pending_final_visual_qa",
     "visual_qa": "passed_on_light_and_dark_checkerboard",
     "owner_final_approval": "pending",
-    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
-    "supersedes": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png"
+    "source_quality_policy": "OWNER_RESTORED_SOURCE",
+    "supersedes": "assets/processed-flagships/hero-006/hero-006_title_group_restored_v2_ready_nobg.png",
+    "restored_source_file": "assets/production-ready/flagship/hero-006/hero-006_title_group_restored_white_v2.png",
+    "restored_source_sha256": "6734b4c5387c91a86e11c0bfcf768c10f648c931d23c2482349953dc7f1346aa"
   },
   "flagship_layout": {
     "preset": "v20-grounded-right",

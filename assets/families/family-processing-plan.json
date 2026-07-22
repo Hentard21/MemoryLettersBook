@@ -389,14 +389,14 @@
         "print_height_px": 1372,
         "print_qa_status": "ready_for_layout",
         "asset_id": "hero-005_p027_image176",
-        "preferred_processing_source": "assets/production-ready/flagship/hero-005/hero-005_p027_image176_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-005/hero-005_title_restored_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Самый качественный кадр семьи: Евгений хорошо узнаваем, находится рядом с ребёнком, а изображение существенно крупнее двух одиночных архивных фрагментов.",
         "print_size_warning": "898x686 px; после 2x подходит для крупного группового модуля, но не для полного разворотного фона. Сохранить ребёнка и контекст.",
         "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-005/hero-005_title_nobg.png",
-        "cutout_file": "assets/processed-flagships/hero-005/hero-005_title_ready_nobg.png",
-        "cutout_sha256": "d7a7c43745168d8153482bdf9eb0d46dabee45878c52687288ca3b480fd27d75",
-        "cutout_status": "ready_for_draft_layout",
+        "cutout_file": "assets/processed-flagships/hero-005/hero-005_title_restored_v2_ready_nobg.png",
+        "cutout_sha256": "747805e4edadd9b819a0d31b1c8bf5d39da5229e6a4afaa01a100bf0138ce867",
+        "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
         "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "layout": {
@@ -495,10 +495,10 @@
         "needs_waist_crop": true,
         "notes": "В допустимом архиве нет отдельного фото героя: есть только дети с печатным портретом и документальный лист с несколькими изображениями. Выбор кадра или извлечение портрета требует ручного решения владельца.",
         "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-006/hero-006_title_group_nobg.png",
-        "preferred_processing_source": "assets/production-ready/archive/hero-006/hero-006_p030_image184_upscaled_2x.jpg",
-        "cutout_file": "assets/processed-flagships/hero-006/hero-006_title_group_ready_nobg.png",
-        "cutout_sha256": "d8259ce64682297328a36f9a7c6a1fdc6f9bae1ec55dbcf7e2b1347b21a65800",
-        "cutout_status": "ready_for_draft_layout",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-006/hero-006_title_group_restored_white_v2.png",
+        "cutout_file": "assets/processed-flagships/hero-006/hero-006_title_group_restored_v2_ready_nobg.png",
+        "cutout_sha256": "3029558bb4403d705468d0373b641db98c66d10638f6fc911896f6d6d690bfbf",
+        "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
         "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "layout": {
@@ -555,8 +555,9 @@
           "print_width_px": 676,
           "print_height_px": 940,
           "print_qa_status": "ready_for_layout",
-          "cutout_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_ready_nobg.png",
-          "cutout_status": "ready_for_draft_layout"
+          "cutout_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_restored_v2_ready_nobg.png",
+          "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
+          "restored_source_file": "assets/production-ready/flagship/hero-006/hero-006_supporting_boys_restored_white_v2.png"
         },
         {
           "asset_id": "hero-006_p031_image188",
@@ -880,14 +881,14 @@
         "print_height_px": 832,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-009/hero-009_p039_image225_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-009/hero-009_title_group_restored_white_v2.png",
         "selection_confidence": "medium",
         "selection_reason": "Наиболее цельный семейный кадр: Егор расположен в центре и хорошо виден вместе с тремя детьми; одиночного портрета героя в архиве нет.",
         "print_size_warning": "546x416 px; после 2x годится для среднего группового блока. Герой частично перекрыт детьми, поэтому изолированная поясная вырезка не рекомендуется.",
         "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-009/hero-009_title_group_nobg.png",
-        "cutout_file": "assets/processed-flagships/hero-009/hero-009_title_group_ready_nobg.png",
-        "cutout_sha256": "4572fb0379123b0b30f3e8eb267724497156a2fac7525270e1535eadead0ef6c",
-        "cutout_status": "ready_for_draft_layout",
+        "cutout_file": "assets/processed-flagships/hero-009/hero-009_title_group_restored_v2_ready_nobg.png",
+        "cutout_sha256": "14c130cb262cd28dec640c7b9ae5d52fa14c4db0e3e18e70959d3f412b00e523",
+        "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
         "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "layout": {
@@ -2319,14 +2320,14 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-022/hero-022_p080_image409_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-022/hero-022_title_restored_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Наиболее крупный одиночный портрет Сергея; берёзовый ствол является частью позы и перекрывает руку, поэтому безопаснее сохранить документальный фон.",
         "print_size_warning": "616x469 px; после 2x подходит для крупного горизонтального портрета. Не вырезать ствол и не восстанавливать скрытые части руки по догадке.",
         "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-022/hero-022_title_nobg.png",
-        "cutout_file": "assets/processed-flagships/hero-022/hero-022_title_ready_nobg.png",
-        "cutout_sha256": "0da9ccecc13a3d489cbc830f2054c00143e11a3704d83a4a31dae725ef185a0a",
-        "cutout_status": "ready_for_draft_layout",
+        "cutout_file": "assets/processed-flagships/hero-022/hero-022_title_restored_v2_ready_nobg.png",
+        "cutout_sha256": "f39aa523c35415412f6b4100c0ab4f652af5bdf14ef4e48db84c826a4a323882",
+        "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
         "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "layout": {
@@ -2430,14 +2431,14 @@
         "print_height_px": 838,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-023/hero-023_p083_image419_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-023/hero-023_title_restored_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Самый крупный отдельный кадр Дмитрия с хорошо читаемым лицом и корпусом; интерьер автомобиля объясняет сидячую позу и сохраняется как часть документа.",
         "print_size_warning": "549x419 px; после 2x подходит для среднего горизонтального модуля. Нижняя часть тела скрыта сиденьем и не должна достраиваться автоматически.",
         "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-023/hero-023_title_nobg.png",
-        "cutout_file": "assets/processed-flagships/hero-023/hero-023_title_ready_nobg.png",
-        "cutout_sha256": "2b98b249df0bb832b05bbd36df1fafb7f57335075e70851d16facd3b2cc5037b",
-        "cutout_status": "ready_for_draft_layout",
+        "cutout_file": "assets/processed-flagships/hero-023/hero-023_title_restored_v2_ready_nobg.png",
+        "cutout_sha256": "01ed2c0bb5dcbe4b47002912f7549cb32647f05cc23f0b3675220686235372ca",
+        "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
         "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "layout": {
@@ -3966,14 +3967,14 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-035/hero-035_p122_image581_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-035/hero-035_title_group_restored_white_v2.png",
         "selection_confidence": "medium",
         "selection_reason": "Отдельного качественного портрета нет; этот кадр лучше остальных показывает лицо героя и семейную связь; группу не вырезать автоматически.",
         "print_size_warning": "SEVERE: source 290x469 px and the hero occupies only part of the frame; unsuitable for a large isolated figure.",
         "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-035/hero-035_title_group_nobg.png",
-        "cutout_file": "assets/processed-flagships/hero-035/hero-035_title_group_ready_nobg.png",
-        "cutout_sha256": "b537534a11ea1302f7dca79e7ee7cc25eb229e3857a0000cd912d74703ad7062",
-        "cutout_status": "ready_for_draft_layout",
+        "cutout_file": "assets/processed-flagships/hero-035/hero-035_title_group_restored_v2_ready_nobg.png",
+        "cutout_sha256": "0fd52f9ed609ab08b6643d5dcfa9938a80da8c9ca901d954b5b1d66e220bbdda",
+        "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
         "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "layout": {
@@ -4393,7 +4394,18 @@
         "confidence": "REVIEW_REQUIRED",
         "reason": "В диапазоне семьи нет отдельного файла с героем: есть только дети, держащие его небольшой распечатанный портрет. Нужен нативный портрет или ручное решение владельца.",
         "print_size_warning": "BLOCKER: no standalone hero source; extracting the small printed portrait from a child-held photograph would not provide print quality."
-      }
+      },
+      "symbolic_flagship_asset": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+      "symbolic_flagship_status": "approved_for_draft_by_owner",
+      "symbolic_flagship_public_label": "Символический образ",
+      "symbolic_flagship_layout": {
+        "display_height_mm": 188,
+        "bottom_mm": -1,
+        "right_mm": 1,
+        "blend_mode": "normal",
+        "source_pose": "symbolic-masked-waist"
+      },
+      "symbolic_flagship_notes": "Только для честно подписанного чернового титульника; не заменяет реальный портрет и не является фактом о герое."
     },
     {
       "reference_order": 37,
@@ -4422,14 +4434,14 @@
         "print_height_px": 938,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/archive/hero-039/hero-039_p134_image631_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-039/hero-039_alt_title_restored_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Фронтальная поясная фотография героя с наградами и ребёнком; соответствует формальному портрету на той же странице. Ребёнка не удалять молча.",
         "print_size_warning": "SEVERE: source 290x469 px; both the hero and child will remain low-resolution after 2x.",
         "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-039/hero-039_alt_p134_image631_nobg.png",
-        "cutout_file": "assets/processed-flagships/hero-039/hero-039_alt_title_ready_nobg.png",
-        "cutout_sha256": "05a340eb8e9c429d008c5a5bf9f065dbb7f7676a84f198e60590629285f44d6c",
-        "cutout_status": "ready_for_draft_layout",
+        "cutout_file": "assets/processed-flagships/hero-039/hero-039_alt_title_restored_v2_ready_nobg.png",
+        "cutout_sha256": "30d3c4614332328f8c262ea2f3cf0c270287753cb6dab829c3168fc6a98fa376",
+        "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
         "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
@@ -5719,7 +5731,7 @@
         "asset_id": "hero-050_p169_image769",
         "needs_gigapixel": false,
         "needs_cutout": false,
-        "notes": "Отдельного портрета нет; этот кадр лучше всего показывает героя почти в полный рост и всех детей. Из-за перекрытия фигур кадр лучше сохранить целиком, без CutItOut.",
+    "notes": "Владелец утвердил восстановленную трёхфигурную композицию для титульника; младенец и коляска сознательно не используются в открывающем кадре.",
         "gigapixel_status": "completed",
         "print_file": "assets/production-ready/flagship/hero-050/hero-050_p169_image769_upscaled_2x.jpg",
         "print_sha256": "b1a026121bb8be4cbfd39608e3ab2a1a6720ec04f1effa9bbadf05e5a945c466",
@@ -5727,23 +5739,23 @@
         "print_height_px": 940,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-050/hero-050_p169_image769_upscaled_2x.jpg",
-        "selection_confidence": "medium",
-        "selection_reason": "Отдельного портрета нет; этот кадр лучше всего показывает героя почти в полный рост и всех детей. Из-за перекрытия фигур кадр лучше сохранить целиком, без CutItOut.",
-        "print_size_warning": "MODERATE: source 616x470 px; a 2x result is about 1232x940 px, but the hero occupies only part of the family frame.",
-        "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-050/hero-050_title_group_nobg.png",
-        "cutout_file": "assets/processed-flagships/hero-050/hero-050_title_group_ready_nobg.png",
-        "cutout_sha256": "e65dbd12da953e98c071baaa0400a8bb97a9fb0bce423653e2800008fa0f3270",
-        "cutout_status": "ready_for_draft_layout",
-        "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-050/hero-050_title_group_restored_white_v2.png",
+        "selection_confidence": "high",
+    "selection_reason": "Владелец явно выбрал новую восстановленную композицию без младенца и коляски как более аккуратный титульный кадр.",
+    "print_size_warning": "Owner-restored source is 1023x1537 px; use within the locked title-page size and do not enlarge beyond the approved composition.",
+    "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-050/hero-050_title_group_portrait_white.png",
+        "cutout_file": "assets/processed-flagships/hero-050/hero-050_title_group_restored_v2_ready_nobg.png",
+        "cutout_sha256": "4ffd31e6bcb08f14e2d1d14eeba3f193989808313241ac30dc5c9f8af19530b7",
+        "cutout_status": "approved_for_v30_title_layout",
+    "cutout_visual_qa": "passed_on_final_v30_spread",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "layout": {
           "preset": "v20-grounded-right",
           "reference_hero_id": "hero-014",
           "composition": "manual_title_page",
           "crop_mode": "waist_or_truthful_source_limit",
-          "source_pose": "family-group-with-stroller",
-          "display_height_mm": 172,
+      "source_pose": "owner-approved-restored-family-group-three-figures",
+      "display_height_mm": 184,
           "bottom_mm": -1,
           "right_mm": 0,
           "grounding": "bottom",
@@ -5762,7 +5774,7 @@
             "held_objects",
             "children"
           ],
-          "status": "manual_title_layout_required"
+          "status": "approved_v30_title_layout"
         }
       },
       "archive_assets": [
@@ -5819,9 +5831,9 @@
       "transcriptions": [],
       "flagship_selection": {
         "status": "selected",
-        "confidence": "medium",
-        "reason": "Отдельного портрета нет; этот кадр лучше всего показывает героя почти в полный рост и всех детей. Из-за перекрытия фигур кадр лучше сохранить целиком, без CutItOut.",
-        "print_size_warning": "MODERATE: source 616x470 px; a 2x result is about 1232x940 px, but the hero occupies only part of the family frame."
+    "confidence": "high",
+    "reason": "Owner-approved restored three-figure title composition; omission of the infant and stroller is intentional for this opening image.",
+    "print_size_warning": "Owner-restored source is 1023x1537 px; final effective DPI must be checked at the locked placement size."
       }
     },
     {
@@ -6026,7 +6038,18 @@
         "confidence": "REVIEW_REQUIRED",
         "reason": "В семейном диапазоне есть только три похожих кадра детей с наградами и рисованным портретом. Фотографии самого героя нет; identity-status семьи также REVIEW_REQUIRED.",
         "print_size_warning": "BLOCKER: no hero photograph is available in the reference range; the small drawn portrait must not be treated as a photographic flagship."
-      }
+      },
+      "symbolic_flagship_asset": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+      "symbolic_flagship_status": "approved_for_draft_by_owner",
+      "symbolic_flagship_public_label": "Символический образ",
+      "symbolic_flagship_layout": {
+        "display_height_mm": 188,
+        "bottom_mm": -1,
+        "right_mm": 1,
+        "blend_mode": "normal",
+        "source_pose": "symbolic-masked-waist"
+      },
+      "symbolic_flagship_notes": "Только для честно подписанного чернового титульника; не заменяет реальный портрет и не является фактом о герое."
     },
     {
       "reference_order": 51,
@@ -6419,7 +6442,18 @@
         "confidence": "medium",
         "reason": "В пакете нет отдельного фото героя; этот кадр содержит самый крупный и чёткий портрет героя в рамке и физически связывает его с ребёнком. Это документальный fallback, а не материал для вырезанной фигуры.",
         "print_size_warning": "high: исходник 290x470 px, а лицо героя находится внутри переснятой рамки; нужен лучший нативный портрет или ручное утверждение малого масштаба."
-      }
+      },
+      "symbolic_flagship_asset": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+      "symbolic_flagship_status": "approved_for_draft_by_owner",
+      "symbolic_flagship_public_label": "Символический образ",
+      "symbolic_flagship_layout": {
+        "display_height_mm": 188,
+        "bottom_mm": -1,
+        "right_mm": 1,
+        "blend_mode": "normal",
+        "source_pose": "symbolic-masked-waist"
+      },
+      "symbolic_flagship_notes": "Только для честно подписанного чернового титульника; не заменяет реальный портрет и не является фактом о герое."
     },
     {
       "reference_order": 54,
@@ -7139,7 +7173,18 @@
         "confidence": "medium",
         "reason": "Единственный кадр в пакете, где физически присутствует герой; на втором фото изображён только ребёнок. Кадр размыт и требует ручного утверждения; заголовок семьи также имеет REVIEW_REQUIRED.",
         "print_size_warning": "high: размер 548x694 px достаточен, но сам исходник заметно размыт; апскейл не восстанавливает подлинные детали."
-      }
+      },
+      "symbolic_flagship_asset": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+      "symbolic_flagship_status": "approved_for_draft_by_owner",
+      "symbolic_flagship_public_label": "Символический образ",
+      "symbolic_flagship_layout": {
+        "display_height_mm": 188,
+        "bottom_mm": -1,
+        "right_mm": 1,
+        "blend_mode": "normal",
+        "source_pose": "symbolic-masked-waist"
+      },
+      "symbolic_flagship_notes": "Только для честно подписанного чернового титульника; не заменяет реальный портрет и не является фактом о герое."
     },
     {
       "reference_order": 61,
@@ -7328,7 +7373,18 @@
         "confidence": "medium",
         "reason": "Отдельного фото героя в пакете нет. Выбран вертикальный кадр, где портрет героя в рамке наиболее крупный и рядом присутствуют награда и ребёнок. Это documentary fallback.",
         "print_size_warning": "high: исходник 290x470 px, портрет героя является переснятым изображением в рамке; нужен лучший master или малый печатный масштаб."
-      }
+      },
+      "symbolic_flagship_asset": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+      "symbolic_flagship_status": "approved_for_draft_by_owner",
+      "symbolic_flagship_public_label": "Символический образ",
+      "symbolic_flagship_layout": {
+        "display_height_mm": 188,
+        "bottom_mm": -1,
+        "right_mm": 1,
+        "blend_mode": "normal",
+        "source_pose": "symbolic-masked-waist"
+      },
+      "symbolic_flagship_notes": "Только для честно подписанного чернового титульника; не заменяет реальный портрет и не является фактом о герое."
     },
     {
       "reference_order": 63,
@@ -8299,7 +8355,18 @@
         "confidence": "high",
         "reason": "Единственный сольный портрет героя находится внутри мемориального макета с именем и датами; семейный кадр даёт меньшее лицо. Нельзя вырезать как полноростовую фигуру; нужно утвердить документальную подачу.",
         "print_size_warning": "high: исходник 290x470 px, а само лицо занимает лишь часть мемориальной карточки; масштаб ограничить."
-      }
+      },
+      "symbolic_flagship_asset": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+      "symbolic_flagship_status": "approved_for_draft_by_owner",
+      "symbolic_flagship_public_label": "Символический образ",
+      "symbolic_flagship_layout": {
+        "display_height_mm": 188,
+        "bottom_mm": -1,
+        "right_mm": 1,
+        "blend_mode": "normal",
+        "source_pose": "symbolic-masked-waist"
+      },
+      "symbolic_flagship_notes": "Только для честно подписанного чернового титульника; не заменяет реальный портрет и не является фактом о герое."
     },
     {
       "reference_order": 71,
@@ -8501,7 +8568,18 @@
         "confidence": "high",
         "reason": "В пакете нет жизненного портрета героя; его лицо присутствует только на мемориальной табличке. Это достоверный documentary fallback, но не кандидат для вырезанной фигуры.",
         "print_size_warning": "critical: весь кадр 615x469 px, но портрет на табличке очень мал и монохромен; нужен отдельный master портрета или согласованная мемориальная композиция."
-      }
+      },
+      "symbolic_flagship_asset": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+      "symbolic_flagship_status": "approved_for_draft_by_owner",
+      "symbolic_flagship_public_label": "Символический образ",
+      "symbolic_flagship_layout": {
+        "display_height_mm": 188,
+        "bottom_mm": -1,
+        "right_mm": 1,
+        "blend_mode": "normal",
+        "source_pose": "symbolic-masked-waist"
+      },
+      "symbolic_flagship_notes": "Только для честно подписанного чернового титульника; не заменяет реальный портрет и не является фактом о герое."
     },
     {
       "reference_order": 73,
@@ -8638,14 +8716,14 @@
         "print_height_px": 942,
         "print_qa_status": "ready_for_layout",
         "needs_waist_crop": true,
-        "preferred_processing_source": "assets/production-ready/flagship/hero-076/hero-076_p254_image1101_upscaled_2x.jpg",
+        "preferred_processing_source": "assets/production-ready/flagship/hero-076/hero-076_title_restored_white_v2.png",
         "selection_confidence": "high",
         "selection_reason": "Единственный сольный портрет героя в экипировке; лицо крупно, а края шлема, балаклавы и брони различимы.",
         "print_size_warning": "medium: исходник 357x471 px; для печати использовать QA upscale, при маске обязательно сохранить шлем, балаклаву, ремни и края брони.",
         "manual_owner_source": "assets/manual-cutout-help-title-corrections/hero-076/hero-076_title_nobg_fixed.png",
-        "cutout_file": "assets/processed-flagships/hero-076/hero-076_title_ready_nobg.png",
-        "cutout_sha256": "5759fa3f33e79e80170051ae3f73d8b81d9eb57bdc498cd63697788ff7c4103b",
-        "cutout_status": "ready_for_draft_layout",
+        "cutout_file": "assets/processed-flagships/hero-076/hero-076_title_restored_v2_ready_nobg.png",
+        "cutout_sha256": "e35f8b75fbeb8b2de325207a297d2f27dc1eb17cfd6e771a95cb28fe357f19cc",
+        "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
         "cutout_visual_qa": "passed_on_light_and_dark_checkerboard",
         "waist_crop_strategy": "manual_non_destructive_layout",
         "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
@@ -8761,5 +8839,6 @@
     "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT: report real effective DPI; do not invent detail.",
     "title_correction_cutouts": "Returned alpha PNGs are trimmed non-destructively and placed with V20 grounding."
   },
-  "flagship_selection_completed_at": "2026-07-18T22:35:15.482643+00:00"
+  "flagship_selection_completed_at": "2026-07-18T22:35:15.482643+00:00",
+  "generated_at": "2026-07-22T16:30:41.350152+00:00"
 }

@@ -78,12 +78,12 @@
       "selection_confidence": "high",
       "title_layout_role": "hero_flagship",
       "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-023/hero-023_title_nobg.png",
-      "cutout_file": "assets/processed-flagships/hero-023/hero-023_title_ready_nobg.png",
-      "cutout_sha256": "2b98b249df0bb832b05bbd36df1fafb7f57335075e70851d16facd3b2cc5037b",
-      "cutout_width_px": 1255,
-      "cutout_height_px": 1097,
-      "cutout_tool": "returned manual CutItOut PNG; local alpha QA",
-      "cutout_status": "ready_for_draft_layout",
+      "cutout_file": "assets/processed-flagships/hero-023/hero-023_title_restored_v2_ready_nobg.png",
+      "cutout_sha256": "01ed2c0bb5dcbe4b47002912f7549cb32647f05cc23f0b3675220686235372ca",
+      "cutout_width_px": 959,
+      "cutout_height_px": 1448,
+      "cutout_tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "cutout_status": "ready_for_draft_layout_pending_final_visual_qa",
       "flagship_layout": {
         "preset": "v20-grounded-right",
         "reference_hero_id": "hero-014",
@@ -110,7 +110,9 @@
           "children"
         ],
         "status": "manual_title_layout_required"
-      }
+      },
+      "restored_source_file": "assets/production-ready/flagship/hero-023/hero-023_title_restored_white_v2.png",
+      "restored_source_sha256": "649ea3d4814e8b1b2e964169e2b9f4f08c6e0430cfedb763dff13688db065f4a"
     },
     {
       "asset_id": "hero-023_p084_image422",

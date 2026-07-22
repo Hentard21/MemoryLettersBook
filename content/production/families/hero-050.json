@@ -13,7 +13,7 @@
   "emblem_id": "emblem-republic-of-ingushetia",
   "award_id": null,
   "template": "standard",
-  "flagship": "assets/processed-flagships/hero-050/hero-050_title_group_ready_nobg.png",
+  "flagship": "assets/processed-flagships/hero-050/hero-050_title_group_restored_v2_ready_nobg.png",
   "flagship_role": "hero_flagship",
   "archive_photos": [
     "assets/production-ready/archive/hero-050/hero-050_p169_image770_upscaled_2x.jpg",
@@ -63,27 +63,29 @@
     161,
     162
   ],
-  "flagship_processing_source": "assets/production-ready/flagship/hero-050/hero-050_p169_image769_upscaled_2x.jpg",
-  "flagship_max_height_mm_at_180_ppi": 152,
+  "flagship_processing_source": "assets/production-ready/flagship/hero-050/hero-050_title_group_restored_white_v2.png",
+  "flagship_max_height_mm_at_180_ppi": 204.47,
   "flagship_processing": {
-    "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-050/hero-050_title_group_nobg.png",
-    "processing_source": "assets/production-ready/flagship/hero-050/hero-050_p169_image769_upscaled_2x.jpg",
-    "cutout_file": "assets/processed-flagships/hero-050/hero-050_title_group_ready_nobg.png",
-    "cutout_sha256": "e65dbd12da953e98c071baaa0400a8bb97a9fb0bce423653e2800008fa0f3270",
-    "tool": "returned manual CutItOut PNG; local alpha QA",
-    "status": "ready_for_draft_layout",
-    "visual_qa": "passed_on_light_and_dark_checkerboard",
-    "owner_final_approval": "pending",
-    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
-    "supersedes": "assets/processed-flagships/hero-050/hero-050_title_group_ready_nobg.png"
+    "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-050/hero-050_title_group_portrait_white.png",
+    "processing_source": "assets/production-ready/flagship/hero-050/hero-050_title_group_restored_white_v2.png",
+    "cutout_file": "assets/processed-flagships/hero-050/hero-050_title_group_restored_v2_ready_nobg.png",
+    "cutout_sha256": "4ffd31e6bcb08f14e2d1d14eeba3f193989808313241ac30dc5c9f8af19530b7",
+    "tool": "local CutItOut via Playwright; alpha-margin trim only",
+    "status": "approved_for_v30_title_layout",
+    "visual_qa": "passed_on_final_v30_spread",
+    "owner_final_approval": "approved_three_figure_restoration_2026-07-22",
+    "source_quality_policy": "OWNER_RESTORED_SOURCE",
+    "supersedes": "assets/processed-flagships/hero-050/hero-050_title_group_ready_nobg.png",
+    "restored_source_file": "assets/production-ready/flagship/hero-050/hero-050_title_group_restored_white_v2.png",
+    "restored_source_sha256": "778ac62e10b5fadd75bf0cfe1414cd88aa4d9c7a7066fb6f5b443d8ddcf4ab70"
   },
   "flagship_layout": {
     "preset": "v20-grounded-right",
     "reference_hero_id": "hero-014",
     "composition": "manual_title_page",
     "crop_mode": "waist_or_truthful_source_limit",
-    "source_pose": "family-group-with-stroller",
-    "display_height_mm": 172,
+    "source_pose": "owner-approved-restored-family-group-three-figures",
+    "display_height_mm": 184,
     "bottom_mm": -1,
     "right_mm": 0,
     "grounding": "bottom",
@@ -102,6 +104,6 @@
       "held_objects",
       "children"
     ],
-    "status": "manual_title_layout_required"
+    "status": "approved_v30_title_layout"
   }
 }

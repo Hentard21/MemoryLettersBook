@@ -44,7 +44,7 @@
     "factual_role": "Symbolic image only; never present it as a real portrait of a hero.",
     "required_public_label": "Символический образ",
     "initials_or_name_patch": "forbidden",
-    "placement_status": "REVIEW_REQUIRED",
+    "placement_status": "approved_for_draft_by_owner",
     "candidate_families_with_empty_flagship": [
       "hero-038",
       "hero-052",
@@ -54,6 +54,15 @@
       "hero-072",
       "hero-074"
     ],
-    "replacement_rule": "Use only when the canonical reference and family manifest confirm that no real title portrait is available. Do not substitute automatically."
+    "replacement_rule": "Use only for the seven registered families while their canonical real flagship remains unavailable. Keep flagship null, retain the missing-flagship review flag, and show the required public label.",
+    "applied_families": [
+      "hero-038",
+      "hero-052",
+      "hero-055",
+      "hero-062",
+      "hero-064",
+      "hero-072",
+      "hero-074"
+    ]
   }
 }

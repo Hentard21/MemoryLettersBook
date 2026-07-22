@@ -731,6 +731,7 @@ html,body{margin:0;padding:0;background:#8b8e92;-webkit-print-color-adjust:exact
 .generated-family-open .hero-symbols .emblem{width:20mm;height:24mm}.generated-family-open .hero-symbols .medal{width:18mm;height:31mm}
 .generated-family-open.hero-013 .hero-symbols{top:108mm}
 .flagship-placeholder{position:absolute;right:18mm;top:39mm;bottom:20mm;width:118mm;z-index:3;display:flex;flex-direction:column;align-items:center;justify-content:center;border:.35mm dashed rgba(34,59,94,.25);background:rgba(251,251,249,.34);color:var(--secondary_text);text-align:center}.flagship-placeholder strong{font:650 10pt/1.3 var(--head);color:var(--primary_navy)}.flagship-placeholder small{margin-top:3mm;font:600 5.5pt/1 var(--head);letter-spacing:.14em;text-transform:uppercase}
+.symbolic-flagship-label{position:absolute;right:18mm;bottom:13mm;z-index:9;margin:0;padding:1.5mm 2.5mm;background:rgba(251,251,249,.9);border-left:.6mm solid var(--accent_burgundy);font:650 5.2pt/1 var(--head);letter-spacing:.09em;text-transform:uppercase;color:var(--primary_navy)}
 .family-doc,.family-gallery,.family-review{background:linear-gradient(112deg,#f4f3ef,#ebe9e3)}
 .page-title{position:absolute;left:22mm;top:14mm;z-index:8}.page-title h2{margin-top:2mm;font:800 19pt/1.05 var(--head);color:var(--primary_navy)}
 .doc-paper{position:absolute;z-index:3;background:radial-gradient(circle at 13% 7%,rgba(118,89,46,.04),transparent 34%),repeating-linear-gradient(0deg,rgba(38,59,83,.022) 0,rgba(38,59,83,.022) .15mm,transparent .15mm,transparent 1.45mm),#f8f6ef;border-left:1mm solid var(--accent_burgundy);box-shadow:0 .7mm 2mm rgba(25,36,48,.10);overflow:hidden}
@@ -1456,6 +1457,7 @@ def family_open_page(
     ledger: list[dict[str, Any]] = []
     notes: list[str] = []
     flagship = str(family.get("flagship") or "")
+    symbolic_flagship = str(family.get("symbolic_flagship") or "")
     if flagship:
         layout = family.get("flagship_layout") if isinstance(family.get("flagship_layout"), dict) else {}
         height = float(layout.get("display_height_mm", 193))
@@ -1479,6 +1481,63 @@ def family_open_page(
                 crop_policy="bottom_only_waist_or_source_limited",
                 source_quality_policy=(family.get("flagship_processing") or {}).get("source_quality_policy") if isinstance(family.get("flagship_processing"), dict) else None,
             )
+        )
+    elif symbolic_flagship:
+        symbolic_layout = (
+            family.get("symbolic_flagship_layout")
+            if isinstance(family.get("symbolic_flagship_layout"), dict)
+            else {}
+        )
+        symbolic_family = dict(family)
+        symbolic_family["flagship_layout"] = symbolic_layout
+        symbolic_url = v21.asset_url(symbolic_flagship, html_dir)
+        symbolic_markup = v21.flagship_markup(
+            symbolic_family,
+            symbolic_url,
+            "Символический образ",
+        ).replace(
+            'class="hero-cutout',
+            'class="hero-cutout symbolic-flagship',
+            1,
+        )
+        public_label = str(
+            family.get("symbolic_flagship_public_label") or "Символический образ"
+        )
+        symbolic_block = (
+            symbolic_markup
+            + f'<p class="symbolic-flagship-label">{esc(public_label)}</p>'
+        )
+        markup = markup.rsplit("</div>", 1)[0] + symbolic_block + "</div>"
+
+        height = float(symbolic_layout.get("display_height_mm", 188))
+        width = 152.0
+        dims = image_dimensions(repo_path(symbolic_flagship))
+        if dims and dims[1]:
+            width = round(height * dims[0] / dims[1], 2)
+        right = float(symbolic_layout.get("right_mm", 1))
+        bottom = float(symbolic_layout.get("bottom_mm", -1))
+        ledger.append(
+            placement_record(
+                source_id=Path(symbolic_flagship).stem,
+                hero_id=family["hero_id"],
+                source_type="symbolic_placeholder",
+                source_file=repo_path(symbolic_flagship),
+                output_pages=[page_number],
+                x_mm=max(0, 260 - width - right),
+                y_mm=max(0, 200 - height - bottom),
+                width_mm=width,
+                height_mm=height,
+                fit_mode="contain",
+                crop_policy="bottom_only_waist_crop",
+                notes=(
+                    "Publicly labelled symbolic image; it is not identity evidence "
+                    "and does not replace the missing real flagship portrait."
+                ),
+                source_quality_policy="symbolic_draft_only",
+            )
+        )
+        notes.append(
+            f"{family['hero_id']}: real flagship missing; labelled symbolic image used for the draft"
         )
     else:
         notes.append(f"{family['hero_id']}: flagship missing; explicit review flag retained")
@@ -1801,7 +1860,7 @@ def materialize_all_maps(
 
 def family_cache_key(family: dict[str, Any], plan: dict[str, Any]) -> str:
     sources = []
-    for value in [family.get("flagship"), *family.get("archive_photos", []), *family.get("drawings", []), *family.get("letters", []), *family.get("transcriptions", [])]:
+    for value in [family.get("flagship"), family.get("symbolic_flagship"), *family.get("archive_photos", []), *family.get("drawings", []), *family.get("letters", []), *family.get("transcriptions", [])]:
         if not value:
             continue
         path = ROOT / str(value)
@@ -2277,6 +2336,11 @@ def expected_unplaced_records(
             )
         )
     if not family.get("flagship"):
+        symbolic_note = (
+            " The draft page uses a separately labelled symbolic image; it is not a confirmed portrait."
+            if family.get("symbolic_flagship")
+            else " The draft page shows a neutral review placeholder."
+        )
         records.append(
             placement_record(
                 source_id=f"{family['hero_id']}-flagship",
@@ -2285,7 +2349,7 @@ def expected_unplaced_records(
                 source_file="",
                 output_pages=[],
                 status="review_required" if review_flags else "missing",
-                notes="No confirmed flagship is registered; the draft page shows a neutral review placeholder.",
+                notes="No confirmed flagship is registered." + symbolic_note,
             )
         )
     if not family.get("transcriptions"):

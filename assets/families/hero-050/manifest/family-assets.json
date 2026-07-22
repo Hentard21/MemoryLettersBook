@@ -33,22 +33,22 @@
       "gigapixel_status": "completed",
       "print_qa_status": "ready_for_layout",
       "layout_role": "hero_flagship",
-      "selection_confidence": "medium",
+      "selection_confidence": "high",
       "title_layout_role": "hero_flagship",
-      "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-050/hero-050_title_group_nobg.png",
-      "cutout_file": "assets/processed-flagships/hero-050/hero-050_title_group_ready_nobg.png",
-      "cutout_sha256": "e65dbd12da953e98c071baaa0400a8bb97a9fb0bce423653e2800008fa0f3270",
-      "cutout_width_px": 1053,
-      "cutout_height_px": 1078,
-      "cutout_tool": "returned manual CutItOut PNG; local alpha QA",
-      "cutout_status": "ready_for_draft_layout",
+      "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-050/hero-050_title_group_portrait_white.png",
+      "cutout_file": "assets/processed-flagships/hero-050/hero-050_title_group_restored_v2_ready_nobg.png",
+      "cutout_sha256": "4ffd31e6bcb08f14e2d1d14eeba3f193989808313241ac30dc5c9f8af19530b7",
+      "cutout_width_px": 986,
+      "cutout_height_px": 1449,
+      "cutout_tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "cutout_status": "approved_for_v30_title_layout",
       "flagship_layout": {
         "preset": "v20-grounded-right",
         "reference_hero_id": "hero-014",
         "composition": "manual_title_page",
         "crop_mode": "waist_or_truthful_source_limit",
-        "source_pose": "family-group-with-stroller",
-        "display_height_mm": 172,
+        "source_pose": "owner-approved-restored-family-group-three-figures",
+        "display_height_mm": 184,
         "bottom_mm": -1,
         "right_mm": 0,
         "grounding": "bottom",
@@ -67,8 +67,10 @@
           "held_objects",
           "children"
         ],
-        "status": "manual_title_layout_required"
-      }
+        "status": "approved_v30_title_layout"
+      },
+      "restored_source_file": "assets/production-ready/flagship/hero-050/hero-050_title_group_restored_white_v2.png",
+      "restored_source_sha256": "778ac62e10b5fadd75bf0cfe1414cd88aa4d9c7a7066fb6f5b443d8ddcf4ab70"
     },
     {
       "asset_id": "hero-050_p169_image770",

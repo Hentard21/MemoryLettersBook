@@ -1,0 +1,255 @@
+{
+  "manifest_version": 1,
+  "provisional_family_id": "pending-family-001",
+  "display_nickname": "Безымянный",
+  "hero_name": null,
+  "children": [
+    "Эвелина"
+  ],
+  "child_age_from_letter": 7,
+  "letter_date_as_written": "8.09.2024",
+  "region_id": null,
+  "city_id": null,
+  "award_id": null,
+  "canonical_order": null,
+  "canonical_family_match": null,
+  "status": "REVIEW_REQUIRED",
+  "review_flags": [
+    "REVIEW_REQUIRED_IDENTITY",
+    "REVIEW_REQUIRED_REGION",
+    "REVIEW_REQUIRED_CITY",
+    "REVIEW_REQUIRED_CANONICAL_ORDER",
+    "REVIEW_REQUIRED_TRANSCRIPTION_PROOFREAD"
+  ],
+  "publication_policy": {
+    "include_in_canonical_toc": false,
+    "include_in_generated_pdf": false,
+    "include_in_canonical_family_count": false,
+    "reason": "The packet is coherent but has not been matched to the owner-approved canonical order."
+  },
+  "provenance": {
+    "source_collection": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он",
+    "ingested_as_new_packet": true,
+    "attached_to_existing_hero": false,
+    "borrowing_materials_from_other_families_allowed": false
+  },
+  "evidence_notes": [
+    "The packet contains its own physical handwritten letter signed 'Эвелина 7 лет' and dated '8.09.2024 г.'.",
+    "The packet contains a hero portrait, a family photograph, and a photograph of the child holding an award case and framed portrait.",
+    "The letter states that the father was a commander, was mortally wounded during a combat mission, and was awarded the Order of Courage posthumously; these statements remain letter-source claims until owner verification.",
+    "No person name, region, city, or canonical position was inferred."
+  ],
+  "assets": [
+    {
+      "asset_id": "pending-family-001-hero-portrait-master",
+      "role": "provisional_hero_flagship",
+      "tier": "documentary_master",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он\\WhatsApp Image 2026-07-22 at 10.14.44.jpeg",
+      "project_file": "assets/pending-families/pending-family-001/flagship/pending-family-001_hero_portrait_master.jpg",
+      "byte_copy_verified": true,
+      "sha256": "267586d20f5721526a3668d3dc28f0ef5a75a879cc26a7c4139e73af54d3cccd",
+      "file_size_bytes": 113214,
+      "image": {
+        "width_px": 723,
+        "height_px": 1000,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": false,
+        "icc_profile_name": null,
+        "icc_profile_description": null,
+        "icc_profile_sha256": null,
+        "exif_camera_make": null,
+        "exif_camera_model": null,
+        "exif_color_space": null
+      },
+      "notes": [
+        "Identity is not yet confirmed; do not publish under an inferred name."
+      ]
+    },
+    {
+      "asset_id": "pending-family-001-hero-portrait-print",
+      "role": "provisional_hero_flagship",
+      "tier": "topaz_print_candidate",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он\\WhatsApp Image 2026-07-22 at 10.14.44-Hi-res-recover v2-2x-faceai v2.jpeg",
+      "project_file": "assets/pending-families/pending-family-001/flagship/pending-family-001_hero_portrait_topaz_2x.jpg",
+      "byte_copy_verified": true,
+      "sha256": "87161e831a797a9e8ebb760ad6e1ab334c4479ca1bfbb5bad09edd12383a8854",
+      "file_size_bytes": 415749,
+      "image": {
+        "width_px": 1446,
+        "height_px": 2000,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "IEC 61966-2-1 Default RGB Colour Space - sRGB",
+        "icc_profile_description": "sRGB IEC61966-2-1 black scaled",
+        "icc_profile_sha256": "c4c1153168e817be61a676e403c370ce2c485a6bd54fbb59c3850845cfefad00",
+        "exif_camera_make": null,
+        "exif_camera_model": null,
+        "exif_color_space": null
+      },
+      "notes": [
+        "Identity is not yet confirmed; do not publish under an inferred name."
+      ]
+    },
+    {
+      "asset_id": "pending-family-001-family-photo-master",
+      "role": "family_archive_photo",
+      "tier": "documentary_master",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он\\WhatsApp Image 2026-07-22 at 10.14.43 (2).jpeg",
+      "project_file": "assets/pending-families/pending-family-001/archive-photos/pending-family-001_family_photo_master.jpg",
+      "byte_copy_verified": true,
+      "sha256": "809150331568b7bfd369da37ffd22ac22fc9ca187f5c46cce9095b6542956a5d",
+      "file_size_bytes": 119948,
+      "image": {
+        "width_px": 751,
+        "height_px": 1000,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": false,
+        "icc_profile_name": null,
+        "icc_profile_description": null,
+        "icc_profile_sha256": null,
+        "exif_camera_make": null,
+        "exif_camera_model": null,
+        "exif_color_space": null
+      },
+      "notes": []
+    },
+    {
+      "asset_id": "pending-family-001-family-photo-print",
+      "role": "family_archive_photo",
+      "tier": "topaz_print_candidate",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он\\WhatsApp Image 2026-07-22 at 10.14.43 (2)-Hi-res-recover v2-2x-faceai v2.jpeg",
+      "project_file": "assets/pending-families/pending-family-001/archive-photos/pending-family-001_family_photo_topaz_2x.jpg",
+      "byte_copy_verified": true,
+      "sha256": "71fe49f1017b68d908770ec13cea2a3f3a40c0ea4e898e8873487802244ff10f",
+      "file_size_bytes": 346238,
+      "image": {
+        "width_px": 1502,
+        "height_px": 2000,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "IEC 61966-2-1 Default RGB Colour Space - sRGB",
+        "icc_profile_description": "sRGB IEC61966-2-1 black scaled",
+        "icc_profile_sha256": "c4c1153168e817be61a676e403c370ce2c485a6bd54fbb59c3850845cfefad00",
+        "exif_camera_make": null,
+        "exif_camera_model": null,
+        "exif_color_space": null
+      },
+      "notes": []
+    },
+    {
+      "asset_id": "pending-family-001-evelina-award-master",
+      "role": "child_with_award_and_framed_portrait",
+      "tier": "documentary_master",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он\\WhatsApp Image 2026-07-22 at 10.14.43.jpeg",
+      "project_file": "assets/pending-families/pending-family-001/archive-photos/pending-family-001_evelina_award_portrait_master.jpg",
+      "byte_copy_verified": true,
+      "sha256": "1a04f8307348de820d89b66062851bf81dd76e9e66010168b8c1a43dc5961f53",
+      "file_size_bytes": 316030,
+      "image": {
+        "width_px": 1200,
+        "height_px": 1600,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": false,
+        "icc_profile_name": null,
+        "icc_profile_description": null,
+        "icc_profile_sha256": null,
+        "exif_camera_make": null,
+        "exif_camera_model": null,
+        "exif_color_space": null
+      },
+      "notes": [
+        "Preferred for documentary details and inscriptions."
+      ]
+    },
+    {
+      "asset_id": "pending-family-001-evelina-award-print",
+      "role": "child_with_award_and_framed_portrait",
+      "tier": "topaz_print_candidate",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он\\WhatsApp Image 2026-07-22 at 10.14.43-Hi-res-recover v2-2x-faceai v2.jpeg",
+      "project_file": "assets/pending-families/pending-family-001/archive-photos/pending-family-001_evelina_award_portrait_topaz_2x.jpg",
+      "byte_copy_verified": true,
+      "sha256": "11eb27341f7fa7bdfd6326cd15cb00c5a470b7f3ed84a4f4ab643af0a2609194",
+      "file_size_bytes": 973784,
+      "image": {
+        "width_px": 2400,
+        "height_px": 3200,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "IEC 61966-2-1 Default RGB Colour Space - sRGB",
+        "icc_profile_description": "sRGB IEC61966-2-1 black scaled",
+        "icc_profile_sha256": "c4c1153168e817be61a676e403c370ce2c485a6bd54fbb59c3850845cfefad00",
+        "exif_camera_make": null,
+        "exif_camera_model": null,
+        "exif_color_space": null
+      },
+      "notes": [
+        "Inspect certificate/inscription details against the master before publication; enhancement may alter tiny text."
+      ]
+    },
+    {
+      "asset_id": "pending-family-001-letter-master",
+      "role": "physical_handwritten_letter",
+      "tier": "documentary_master",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он\\WhatsApp Image 2026-07-22 at 10.14.43 (1).jpeg",
+      "project_file": "assets/pending-families/pending-family-001/letters/pending-family-001_letter_evelina_2024-09-08_master.jpg",
+      "byte_copy_verified": true,
+      "sha256": "1e903667f1f89960906d01c510eb96c9e31a3f4cb6459a5012e6a1e138b9cc03",
+      "file_size_bytes": 369648,
+      "image": {
+        "width_px": 1600,
+        "height_px": 1408,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": false,
+        "icc_profile_name": null,
+        "icc_profile_description": null,
+        "icc_profile_sha256": null,
+        "exif_camera_make": null,
+        "exif_camera_model": null,
+        "exif_color_space": null
+      },
+      "notes": []
+    },
+    {
+      "asset_id": "pending-family-001-letter-print",
+      "role": "physical_handwritten_letter",
+      "tier": "topaz_print_candidate",
+      "source_file": "C:\\Users\\MarkII\\Desktop\\Доп материалы\\Кто он\\WhatsApp Image 2026-07-22 at 10.14.43 (1)-Hi-res-recover v2-2x.jpeg",
+      "project_file": "assets/pending-families/pending-family-001/letters/pending-family-001_letter_evelina_2024-09-08_topaz_2x.jpg",
+      "byte_copy_verified": true,
+      "sha256": "09d0e6bff690a5d2300b502fe877fe474aa980bad49a936dec69f3f6ae5df2ab",
+      "file_size_bytes": 1340949,
+      "image": {
+        "width_px": 3200,
+        "height_px": 2816,
+        "mode": "RGB",
+        "format": "JPEG",
+        "icc_profile_present": true,
+        "icc_profile_name": "IEC 61966-2-1 Default RGB Colour Space - sRGB",
+        "icc_profile_description": "sRGB IEC61966-2-1 black scaled",
+        "icc_profile_sha256": "c4c1153168e817be61a676e403c370ce2c485a6bd54fbb59c3850845cfefad00",
+        "exif_camera_make": null,
+        "exif_camera_model": null,
+        "exif_color_space": null
+      },
+      "notes": []
+    }
+  ],
+  "letters": [
+    {
+      "letter_id": "pending-family-001-letter-evelina-2024-09-08",
+      "master_asset_id": "pending-family-001-letter-master",
+      "print_asset_id": "pending-family-001-letter-print",
+      "transcription_id": "pending-family-001-letter-evelina-2024-09-08",
+      "master_file": "assets/pending-families/pending-family-001/letters/pending-family-001_letter_evelina_2024-09-08_master.jpg",
+      "print_file": "assets/pending-families/pending-family-001/letters/pending-family-001_letter_evelina_2024-09-08_topaz_2x.jpg",
+      "transcription_file": "assets/pending-families/pending-family-001/transcriptions/pending-family-001_letter_evelina_2024-09-08.txt"
+    }
+  ]
+}

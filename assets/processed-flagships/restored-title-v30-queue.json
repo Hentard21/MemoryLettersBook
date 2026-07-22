@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-22T16:23:34.577727+00:00",
+  "policy": "Owner-restored white sources; local CutItOut; versioned outputs.",
+  "queue": [
+    {
+      "hero_id": "hero-005",
+      "asset_id": "hero-005_p027_image176",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-005/hero-005_title_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-005/hero-005_title_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-006",
+      "asset_id": "hero-006_p030_image184",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-006/hero-006_title_group_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-006/hero-006_title_group_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-006",
+      "asset_id": "hero-006_p030_image185",
+      "role": "supporting_photo",
+      "processing_source": "assets/production-ready/flagship/hero-006/hero-006_supporting_boys_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-009",
+      "asset_id": "hero-009_p039_image225",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-009/hero-009_title_group_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-009/hero-009_title_group_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-022",
+      "asset_id": "hero-022_p080_image409",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-022/hero-022_title_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-022/hero-022_title_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-023",
+      "asset_id": "hero-023_p083_image419",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-023/hero-023_title_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-023/hero-023_title_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-035",
+      "asset_id": "hero-035_p122_image581",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-035/hero-035_title_group_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-035/hero-035_title_group_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-039",
+      "asset_id": "hero-039_p134_image631",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-039/hero-039_alt_title_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-039/hero-039_alt_title_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-050",
+      "asset_id": "hero-050_p169_image769",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-050/hero-050_title_group_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-050/hero-050_title_group_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    },
+    {
+      "hero_id": "hero-076",
+      "asset_id": "hero-076_p254_image1101",
+      "role": "flagship",
+      "processing_source": "assets/production-ready/flagship/hero-076/hero-076_title_restored_white_v2.png",
+      "output_file": "assets/processed-flagships/hero-076/hero-076_title_restored_v2_nobg_raw.png",
+      "needs_cutout": false,
+      "status": "completed_local_cutitout"
+    }
+  ]
+}

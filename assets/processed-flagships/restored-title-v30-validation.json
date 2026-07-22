@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-22T16:30:41.350152+00:00",
+  "policy": "Nine owner-approved restorations plus one confirmed supporting photo; previous cutouts retained.",
+  "rejected": {
+    "hero-047": "No new restored white-background source was supplied."
+  },
+  "entries": [
+    {
+      "raw_file": "assets/processed-flagships/hero-005/hero-005_title_restored_v2_nobg_raw.png",
+      "raw_sha256": "907d324b4c983bd387497ea1d106691d34bf89461af0cac729f3b75cf48e6703",
+      "ready_file": "assets/processed-flagships/hero-005/hero-005_title_restored_v2_ready_nobg.png",
+      "ready_sha256": "747805e4edadd9b819a0d31b1c8bf5d39da5229e6a4afaa01a100bf0138ce867",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "ready_dimensions": [
+        1024,
+        1333
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_crop": [
+        0,
+        203,
+        1024,
+        1536
+      ],
+      "hero_id": "hero-005",
+      "asset_id": "hero-005_p027_image176",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-005/hero-005_title_restored_white_v2.png",
+      "restored_source_sha256": "04f9c48a52798d7d697a8468823954f0de8fa7d84f145c5873a3abeedeaa11ec",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-006/hero-006_title_group_restored_v2_nobg_raw.png",
+      "raw_sha256": "4503a6e26c001c487def297a68cc4dd7f9fc01d80959354145d887ca61026bf3",
+      "ready_file": "assets/processed-flagships/hero-006/hero-006_title_group_restored_v2_ready_nobg.png",
+      "ready_sha256": "3029558bb4403d705468d0373b641db98c66d10638f6fc911896f6d6d690bfbf",
+      "source_dimensions": [
+        1200,
+        1400
+      ],
+      "ready_dimensions": [
+        1152,
+        846
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_crop": [
+        25,
+        316,
+        1177,
+        1162
+      ],
+      "hero_id": "hero-006",
+      "asset_id": "hero-006_p030_image184",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-006/hero-006_title_group_restored_white_v2.png",
+      "restored_source_sha256": "6734b4c5387c91a86e11c0bfcf768c10f648c931d23c2482349953dc7f1346aa",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_restored_v2_nobg_raw.png",
+      "raw_sha256": "4cb5eddb279e88a459357c1b76da3f8f78be86d80ac35f76573911589afeadc3",
+      "ready_file": "assets/processed-flagships/hero-006/hero-006_supporting_boys_restored_v2_ready_nobg.png",
+      "ready_sha256": "27004277077ca891a1a8db44c457adfa9f89c1dbb5c6196e5ce39e9e639a7461",
+      "source_dimensions": [
+        1034,
+        1520
+      ],
+      "ready_dimensions": [
+        999,
+        1380
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_crop": [
+        35,
+        140,
+        1034,
+        1520
+      ],
+      "hero_id": "hero-006",
+      "asset_id": "hero-006_p030_image185",
+      "role": "supporting_photo",
+      "restored_source": "assets/production-ready/flagship/hero-006/hero-006_supporting_boys_restored_white_v2.png",
+      "restored_source_sha256": "f32bbbad313143d8862342b1531716718358e60cf86b19e9dbf493ddaad97edd",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-009/hero-009_title_group_restored_v2_nobg_raw.png",
+      "raw_sha256": "eff38c57cf55a2532b0968bc1ede7fb41ff306669aa19af2800cba084cf29cd6",
+      "ready_file": "assets/processed-flagships/hero-009/hero-009_title_group_restored_v2_ready_nobg.png",
+      "ready_sha256": "14c130cb262cd28dec640c7b9ae5d52fa14c4db0e3e18e70959d3f412b00e523",
+      "source_dimensions": [
+        1086,
+        1448
+      ],
+      "ready_dimensions": [
+        1060,
+        1326
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_crop": [
+        26,
+        122,
+        1086,
+        1448
+      ],
+      "hero_id": "hero-009",
+      "asset_id": "hero-009_p039_image225",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-009/hero-009_title_group_restored_white_v2.png",
+      "restored_source_sha256": "052da7999abf868b3690b884ee258494db86457feb5beff1c70a543e7ef90775",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-022/hero-022_title_restored_v2_nobg_raw.png",
+      "raw_sha256": "0efdaac57de6c505f3d1c06281df0f98c83726253e5f33ebb93c0f2ccd8f9e7b",
+      "ready_file": "assets/processed-flagships/hero-022/hero-022_title_restored_v2_ready_nobg.png",
+      "ready_sha256": "f39aa523c35415412f6b4100c0ab4f652af5bdf14ef4e48db84c826a4a323882",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "ready_dimensions": [
+        844,
+        1443
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_crop": [
+        112,
+        94,
+        956,
+        1537
+      ],
+      "hero_id": "hero-022",
+      "asset_id": "hero-022_p080_image409",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-022/hero-022_title_restored_white_v2.png",
+      "restored_source_sha256": "d0ded44283cf940180881a1bb31d51b32d5520e68712f7dc63fbe9fbdcf3d705",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-023/hero-023_title_restored_v2_nobg_raw.png",
+      "raw_sha256": "53aea243cd27a46256e4d2e6466e7d4168d6facbdbd88bfdbb6ef39af69aa1f8",
+      "ready_file": "assets/processed-flagships/hero-023/hero-023_title_restored_v2_ready_nobg.png",
+      "ready_sha256": "01ed2c0bb5dcbe4b47002912f7549cb32647f05cc23f0b3675220686235372ca",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "ready_dimensions": [
+        959,
+        1448
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_crop": [
+        64,
+        89,
+        1023,
+        1537
+      ],
+      "hero_id": "hero-023",
+      "asset_id": "hero-023_p083_image419",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-023/hero-023_title_restored_white_v2.png",
+      "restored_source_sha256": "649ea3d4814e8b1b2e964169e2b9f4f08c6e0430cfedb763dff13688db065f4a",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-035/hero-035_title_group_restored_v2_nobg_raw.png",
+      "raw_sha256": "d571af829db4275375bd85defc8748fc171d8fdeb8daa803f7cf4fed4a16a6ec",
+      "ready_file": "assets/processed-flagships/hero-035/hero-035_title_group_restored_v2_ready_nobg.png",
+      "ready_sha256": "0fd52f9ed609ab08b6643d5dcfa9938a80da8c9ca901d954b5b1d66e220bbdda",
+      "source_dimensions": [
+        972,
+        1618
+      ],
+      "ready_dimensions": [
+        968,
+        1226
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_crop": [
+        0,
+        392,
+        968,
+        1618
+      ],
+      "hero_id": "hero-035",
+      "asset_id": "hero-035_p122_image581",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-035/hero-035_title_group_restored_white_v2.png",
+      "restored_source_sha256": "01825a1363e651e4ba4b6a7671b5d70074ee1ead4dc9c8cb825cfe64a07bfc0f",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-039/hero-039_alt_title_restored_v2_nobg_raw.png",
+      "raw_sha256": "3ede62d25db8d5717094bc17a99d2806a6ed7250031d209a9d77742d374f43b7",
+      "ready_file": "assets/processed-flagships/hero-039/hero-039_alt_title_restored_v2_ready_nobg.png",
+      "ready_sha256": "30d3c4614332328f8c262ea2f3cf0c270287753cb6dab829c3168fc6a98fa376",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "ready_dimensions": [
+        930,
+        1451
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_crop": [
+        46,
+        86,
+        976,
+        1537
+      ],
+      "hero_id": "hero-039",
+      "asset_id": "hero-039_p134_image631",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-039/hero-039_alt_title_restored_white_v2.png",
+      "restored_source_sha256": "c4adc8f831dbcb00eb31321ef3007081eebf33deae1b25e8b09ba309aea5dbe1",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-050/hero-050_title_group_restored_v2_nobg_raw.png",
+      "raw_sha256": "c9182edb63fc17cc8bf655fa2d7486268ea30d059d6b058a4932b85cea2f7932",
+      "ready_file": "assets/processed-flagships/hero-050/hero-050_title_group_restored_v2_ready_nobg.png",
+      "ready_sha256": "4ffd31e6bcb08f14e2d1d14eeba3f193989808313241ac30dc5c9f8af19530b7",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "ready_dimensions": [
+        986,
+        1449
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_crop": [
+        37,
+        88,
+        1023,
+        1537
+      ],
+      "hero_id": "hero-050",
+      "asset_id": "hero-050_p169_image769",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-050/hero-050_title_group_restored_white_v2.png",
+      "restored_source_sha256": "778ac62e10b5fadd75bf0cfe1414cd88aa4d9c7a7066fb6f5b443d8ddcf4ab70",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "visual_qa_passed_on_final_v30_spread"
+    },
+    {
+      "raw_file": "assets/processed-flagships/hero-076/hero-076_title_restored_v2_nobg_raw.png",
+      "raw_sha256": "feca3d62ef600953c259c1976a0431f7858caae17f50b1a0ad49e6a7292a8ffa",
+      "ready_file": "assets/processed-flagships/hero-076/hero-076_title_restored_v2_ready_nobg.png",
+      "ready_sha256": "e35f8b75fbeb8b2de325207a297d2f27dc1eb17cfd6e771a95cb28fe357f19cc",
+      "source_dimensions": [
+        993,
+        1584
+      ],
+      "ready_dimensions": [
+        993,
+        1490
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_crop": [
+        0,
+        94,
+        993,
+        1584
+      ],
+      "hero_id": "hero-076",
+      "asset_id": "hero-076_p254_image1101",
+      "role": "flagship",
+      "restored_source": "assets/production-ready/flagship/hero-076/hero-076_title_restored_white_v2.png",
+      "restored_source_sha256": "b580b033d10e25be28972ab238c66338bec54221991f9362613e8805f5357a9a",
+      "tool": "local CutItOut via Playwright; alpha-margin trim only",
+      "status": "needs_visual_qa"
+    }
+  ]
+}

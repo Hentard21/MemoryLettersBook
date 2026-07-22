@@ -11,7 +11,7 @@
   "emblem_id": "emblem-khanty-mansi-autonomous-okrug-yugra",
   "award_id": null,
   "template": "standard",
-  "flagship": "assets/processed-flagships/hero-076/hero-076_title_ready_nobg.png",
+  "flagship": "assets/processed-flagships/hero-076/hero-076_title_restored_v2_ready_nobg.png",
   "flagship_role": "hero_flagship",
   "archive_photos": [
     "assets/production-ready/archive/hero-076/hero-076_p254_image1102_upscaled_2x.jpg",
@@ -58,19 +58,21 @@
     245,
     246
   ],
-  "flagship_processing_source": "assets/production-ready/flagship/hero-076/hero-076_p254_image1101_upscaled_2x.jpg",
+  "flagship_processing_source": "assets/production-ready/flagship/hero-076/hero-076_title_restored_white_v2.png",
   "flagship_max_height_mm_at_180_ppi": 192,
   "flagship_processing": {
     "owner_return_file": "assets/manual-cutout-help-title-corrections/hero-076/hero-076_title_nobg_fixed.png",
     "processing_source": "assets/production-ready/flagship/hero-076/hero-076_p254_image1101_upscaled_2x.jpg",
-    "cutout_file": "assets/processed-flagships/hero-076/hero-076_title_ready_nobg.png",
-    "cutout_sha256": "5759fa3f33e79e80170051ae3f73d8b81d9eb57bdc498cd63697788ff7c4103b",
-    "tool": "returned manual CutItOut PNG; local alpha QA",
-    "status": "ready_for_draft_layout",
+    "cutout_file": "assets/processed-flagships/hero-076/hero-076_title_restored_v2_ready_nobg.png",
+    "cutout_sha256": "e35f8b75fbeb8b2de325207a297d2f27dc1eb17cfd6e771a95cb28fe357f19cc",
+    "tool": "local CutItOut via Playwright; alpha-margin trim only",
+    "status": "ready_for_draft_layout_pending_final_visual_qa",
     "visual_qa": "passed_on_light_and_dark_checkerboard",
     "owner_final_approval": "pending",
-    "source_quality_policy": "OWNER_ACCEPTED_SOURCE_LIMIT",
-    "supersedes": "assets/processed-flagships/hero-076/hero-076_title_ready_nobg.png"
+    "source_quality_policy": "OWNER_RESTORED_SOURCE",
+    "supersedes": "assets/processed-flagships/hero-076/hero-076_title_restored_v2_ready_nobg.png",
+    "restored_source_file": "assets/production-ready/flagship/hero-076/hero-076_title_restored_white_v2.png",
+    "restored_source_sha256": "b580b033d10e25be28972ab238c66338bec54221991f9362613e8805f5357a9a"
   },
   "flagship_layout": {
     "preset": "v20-grounded-right",
