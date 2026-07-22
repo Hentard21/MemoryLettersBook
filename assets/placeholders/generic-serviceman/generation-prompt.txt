@@ -1,0 +1,10 @@
+Use case: photorealistic-natural
+Asset type: neutral title-page portrait placeholder for a Russian memorial book
+Input image: Image 1 is only a reference for plausible contemporary Russian field uniform materials and equipment. Do not copy its person, pose, side view, battlefield setting, weapon, or background.
+Primary request: create a respectful photorealistic studio portrait of a fictional, non-identifiable adult serviceman of the Russian Federation, facing the camera.
+Subject: one male soldier, approximately 30–40 years old, calm neutral expression, direct gaze, head and torso visible to approximately the waist. Natural anatomy, both shoulders fully present, elbows and clothing edges complete enough for later cutout. Upright grounded posture.
+Clothing: clean contemporary green digital camouflage field uniform with a modest tactical vest and a small accurate Russian tricolor patch. No rank, no unit insignia, no medals, no name tape, no initials, no letters, no Z/V symbols, no slogans, no weapon, no helmet or face covering.
+Scene/backdrop: perfectly clean uniform pure white studio background, no floor line, no objects.
+Composition/framing: vertical portrait, centered but with generous white clearance around head, shoulders and waist; front view rather than profile; camera at eye level; no cropped head, shoulders, arms or torso.
+Lighting/mood: soft even editorial studio light, dignified and documentary, realistic skin and fabric texture, restrained color.
+Constraints: clearly fictional composite person; do not resemble the reference person or a known individual; no text, watermark, border, cast shadow, background gradient, artificial bokeh, dramatic combat mood, injury, dirt, grunge, or cinematic battlefield styling.

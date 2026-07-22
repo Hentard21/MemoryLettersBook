@@ -1,0 +1,125 @@
+{
+  "status": "pass",
+  "scope": "five authored intro greeting pages only",
+  "intro_source": "design/prototypes/print-v29-single-column-welcome/interior-single-column-welcome-v29.html",
+  "source_build": "output-v28-map-restored",
+  "intro_spreads": 7,
+  "reused_family_spreads": 90,
+  "reused_back_matter_spreads": 1,
+  "total_spreads": 98,
+  "client_spreads": 98,
+  "first_family_spread_index_1_based": 8,
+  "family_pages_rerendered": false,
+  "family_source_sha256": "5face99a613b174901233b647578479b848a700dd92aeb8202607c19c0da1d64",
+  "back_matter_source_sha256": "dece49eeb6a22f57d55b759c3003654d338c06cad91ffa581bfb7cd57bd59ca6",
+  "dom_source": {
+    "status": "pass",
+    "pages": 5,
+    "metrics": [
+      {
+        "page": "page left welcome-single-column welcome-single--shumilov",
+        "copyFontPx": 14.2667,
+        "copyLineHeightPx": 18.9747,
+        "contentBottomGapMm": 9.04962554260546,
+        "leftInnerMm": 18.9963587794756,
+        "rightInnerMm": 21.997742125264345,
+        "textLength": 1841
+      },
+      {
+        "page": "page left welcome-single-column welcome-single--makarychev",
+        "copyFontPx": 14.4,
+        "copyLineHeightPx": 19.152,
+        "contentBottomGapMm": 12.757946288022133,
+        "leftInnerMm": 18.9963587794756,
+        "rightInnerMm": 21.997742125264345,
+        "textLength": 1824
+      },
+      {
+        "page": "page left welcome-single-column welcome-single--belyaninov",
+        "copyFontPx": 15.2,
+        "copyLineHeightPx": 20.368,
+        "contentBottomGapMm": 14.837417118506622,
+        "leftInnerMm": 18.9963587794756,
+        "rightInnerMm": 21.997742125264345,
+        "textLength": 1705
+      },
+      {
+        "page": "page right welcome-single-column welcome-single--smirnova",
+        "copyFontPx": 13.8667,
+        "copyLineHeightPx": 18.304,
+        "contentBottomGapMm": 13.039067593137332,
+        "leftInnerMm": 21.997742125264345,
+        "rightInnerMm": 16.9995706857897,
+        "textLength": 1968
+      },
+      {
+        "page": "page left welcome-single-column welcome-single--tengebaeva",
+        "copyFontPx": 13.3333,
+        "copyLineHeightPx": 17.3333,
+        "contentBottomGapMm": 18.682164379640966,
+        "leftInnerMm": 18.9963587794756,
+        "rightInnerMm": 21.997742125264345,
+        "textLength": 2131
+      }
+    ],
+    "overflow": [],
+    "textProfileOverlaps": [],
+    "brokenImages": []
+  },
+  "dom_generated": {
+    "status": "pass",
+    "pages": 5,
+    "metrics": [
+      {
+        "page": "page left welcome-single-column welcome-single--shumilov",
+        "copyFontPx": 14.2667,
+        "copyLineHeightPx": 18.9747,
+        "contentBottomGapMm": 9.04962554260546,
+        "leftInnerMm": 18.9963587794756,
+        "rightInnerMm": 21.997742125264345,
+        "textLength": 1841
+      },
+      {
+        "page": "page left welcome-single-column welcome-single--makarychev",
+        "copyFontPx": 14.4,
+        "copyLineHeightPx": 19.152,
+        "contentBottomGapMm": 12.757946288022133,
+        "leftInnerMm": 18.9963587794756,
+        "rightInnerMm": 21.997742125264345,
+        "textLength": 1824
+      },
+      {
+        "page": "page left welcome-single-column welcome-single--belyaninov",
+        "copyFontPx": 15.2,
+        "copyLineHeightPx": 20.368,
+        "contentBottomGapMm": 14.837417118506622,
+        "leftInnerMm": 18.9963587794756,
+        "rightInnerMm": 21.997742125264345,
+        "textLength": 1705
+      },
+      {
+        "page": "page right welcome-single-column welcome-single--smirnova",
+        "copyFontPx": 13.8667,
+        "copyLineHeightPx": 18.304,
+        "contentBottomGapMm": 13.039067593137332,
+        "leftInnerMm": 21.997742125264345,
+        "rightInnerMm": 16.9995706857897,
+        "textLength": 1968
+      },
+      {
+        "page": "page left welcome-single-column welcome-single--tengebaeva",
+        "copyFontPx": 13.3333,
+        "copyLineHeightPx": 17.3333,
+        "contentBottomGapMm": 18.682164379640966,
+        "leftInnerMm": 18.9963587794756,
+        "rightInnerMm": 21.997742125264345,
+        "textLength": 2131
+      }
+    ],
+    "overflow": [],
+    "textProfileOverlaps": [],
+    "brokenImages": []
+  },
+  "output_spreads": "output-v29-single-column-welcome/PRINT_V29_SINGLE_COLUMN_WELCOME_SPREADS.pdf",
+  "output_client": "output/pdf/PRINT_V29_SINGLE_COLUMN_WELCOME_CLIENT.pdf"
+}

@@ -1,0 +1,59 @@
+{
+  "asset_family": "generic-russian-serviceman",
+  "asset_type": "symbolic_title_placeholder",
+  "current_version": "v2-masked",
+  "versions": [
+    {
+      "version": "v1-open-face",
+      "status": "rejected_identity_visible",
+      "source_file": "assets/placeholders/generic-serviceman/generic-russian-serviceman-white-v1.png",
+      "processed_file": "assets/placeholders/generic-serviceman/generic-russian-serviceman-nobg-v1.png",
+      "prompt_file": "assets/placeholders/generic-serviceman/generation-prompt.txt",
+      "source_sha256": "CE3FCD18730ECAB55D18D08E02E1156290CA2CDEBD9292C1BADECF38B33A7222",
+      "processed_sha256": "F8A43639C883A0FE02B153CE79F4CE985E032DD5BFD5E956B921A256883F8565",
+      "notes": "Rejected as the main fallback because the visible fictional face could conflict with the real hero's family archive. Retained only for provenance."
+    },
+    {
+      "version": "v2-masked",
+      "status": "ready_for_light_background_draft",
+      "source_file": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-white-v2.png",
+      "processed_file": "assets/placeholders/generic-serviceman/generic-russian-serviceman-masked-nobg-v2.png",
+      "prompt_file": "assets/placeholders/generic-serviceman/generation-prompt-v2.txt",
+      "qa_files": [
+        "assets/placeholders/generic-serviceman/qa/generic-russian-serviceman-masked-milky-qa-v2.png",
+        "assets/placeholders/generic-serviceman/qa/generic-russian-serviceman-masked-navy-qa-v2.png"
+      ],
+      "dimensions_px": [
+        1023,
+        1537
+      ],
+      "source_sha256": "C03C678FF9F418E7887B8E7087A0A5E91A05615A3D90064AD0751D7A6C9A351D",
+      "processed_sha256": "B336363945BF101424DE4C778145B775E340B3851510231ED600518CCE05EA3D",
+      "generation_tool": "OpenAI built-in image generation, precise-object-edit",
+      "cutout_tool": "Local CutItOut through the project Playwright pipeline",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_percent": 44.04,
+      "qa": "Helmet, balaclava, visible eye area, shoulders, hands, uniform, straps and Russian flag patch are preserved. Clean on the light book background. A thin light halo and two small background remnants near the waist openings remain visible on dark navy; keep needs_manual_mask_review for universal or dark-background use.",
+      "layout_note": "For the approved light title-page system, crop by positioning around the waist. This also removes the lower waist openings where residual white is visible on a dark QA background."
+    }
+  ],
+  "usage_policy": {
+    "factual_role": "Symbolic image only; never present it as a real portrait of a hero.",
+    "required_public_label": "Символический образ",
+    "initials_or_name_patch": "forbidden",
+    "placement_status": "REVIEW_REQUIRED",
+    "candidate_families_with_empty_flagship": [
+      "hero-038",
+      "hero-052",
+      "hero-055",
+      "hero-062",
+      "hero-064",
+      "hero-072",
+      "hero-074"
+    ],
+    "replacement_rule": "Use only when the canonical reference and family manifest confirm that no real title portrait is available. Do not substitute automatically."
+  }
+}

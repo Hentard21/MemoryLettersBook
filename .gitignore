@@ -15,6 +15,7 @@ output/*
 !output/pdf/
 output/pdf/*
 !output/pdf/PRINT_V28_MAP_RESTORED_CLIENT.pdf
+!output/pdf/PRINT_V29_SINGLE_COLUMN_WELCOME_CLIENT.pdf
 
 # Generated prototype PDFs/renders; canonical HTML, JSON and design locks stay.
 design/prototypes/print-v21/tmp/
